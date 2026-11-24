@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 91
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Baricitinib: nueva indicación predicha, Síndrome de microftalmía colobomatosa con displasia rizomélica (nivel de evidencia L5). Indicación original: BARICITINIB"
 monitor_inn: "BARICITINIB"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
@@ -66,9 +66,15 @@ La única base de apoyo es la puntuación elevada del modelo. Sin ensayos, liter
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20157001 | OLUMIANT 2 MG (ELI LILLY AND COMPANY) | Tableta recubierta | BARICITINIB (estado: vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20157001 | OLUMIANT 2 MG | TABLETA RECUBIERTA | BARICITINIB | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -92,10 +92,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20242182 | DURIVAST® 9.5MG/24H (vigente) | Transdérmicos | RIVASTIGMINA |
-| 20242522 | DURIVAST® 4.6MG/24H (vigente) | Sistema transdérmico de liberación prolongada (parche) | RIVASTIGMINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19985874 | EXELON PARCHES 9 MG | TRANSDERMICOS | RIVASTIGMINA | Vigente |
+| 19985986 | EXELON®PARCHES 27 MG | TRANSDERMICOS | RIVASTIGMINA | Vigente |
+| 19985987 | EXELON PARCHES 18 MG | TRANSDERMICOS | RIVASTIGMINA | Vigente |
+| 20242182 | DURIVAST® 9.5MG/24H | TRANSDERMICOS | RIVASTIGMINA | Vigente |
+| 20242522 | DURIVAST® 4.6MG/24H | SISTEMA TRANSDÉRMICO DE LIBERACIÓN PROLONGADA (PARCHE) | RIVASTIGMINA | Vigente |
+
+Se muestran 5 de 11 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 8
 monitor_inn: "EVEROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Everolimus: nueva indicación predicha, liposarcoma (nivel de evidencia L2). Indicación original: EVEROLIMUS"
 ---
 
@@ -79,10 +79,19 @@ Esto da una justificación biológica plausible, pero la señal clínica provien
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20015207 | AFINITOR® 10 MG TABLETAS | Tableta | EVEROLIMUS |
-| 20263581 | EVASCEND® 1MG TABLETA DE LIBERACIÓN INMEDIATA | Tableta de liberación modificada | EVEROLIMUS |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19946766 | CERTICAN 0.75 MG TABLETAS | TABLETA | EVEROLIMUS | Vigente |
+| 19946771 | CERTICAN ® 1 MG TABLETAS | TABLETA | EVEROLIMUS | Vigente |
+| 20015207 | AFINITOR® 10 MG TABLETAS | TABLETA | EVEROLIMUS | Vigente |
+| 20015216 | AFINITOR® 5 MG TABLETAS | TABLETA | EVEROLIMUS | Vigente |
+| 20133286 | SUMIROL 5 MG TABLETAS | TABLETA | EVEROLIMUS | Vigente |
+
+Se muestran 5 de 10 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

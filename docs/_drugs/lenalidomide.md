@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 388
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Lenalidomide: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L2). Indicación original: LENALIDOMIDA"
 monitor_inn: "Lenalidomide"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
@@ -116,12 +116,19 @@ Se muestran las publicaciones más relevantes (prioridad: revisiones específica
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20115050 | LADEVINA® 25 MG | Cápsula dura | LENALIDOMIDA (vigente) |
-| 20164374 | ALIDA® 25 MG | Cápsula dura | LENALIDOMIDA (vigente) |
-| 20199477 | CIFEROL® 10 MG | Cápsula dura | LENALIDOMIDA (vigente) |
-| 20137942 | LENOSIDE 15 | Cápsula dura | LENALIDOMIDA (vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19999700 | REVLIMID® 10 MG CAPSULAS | CAPSULA DURA | LENALIDOMIDA | Vigente |
+| 19999701 | REVLIMID® 5MG CAPSULAS | CAPSULA DURA | LENALIDOMIDA | Vigente |
+| 19999772 | REVLIMID® 25 MG CAPSULAS | CAPSULA DURA | LENALIDOMIDA | Vigente |
+| 19999773 | REVLIMID® 15 MG CAPSULAS | CAPSULA DURA | LENALIDOMIDA | Vigente |
+| 20115046 | LADEVINA® 15 MG CÁPSULAS | CAPSULA DURA | LENALIDOMIDA | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

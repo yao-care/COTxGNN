@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 344
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Insulin Aspart: nueva indicación predicha, Ooforitis autoinmune (nivel de evidencia L5). Indicación original: Insulina aspartato"
 monitor_inn: "insulin aspart"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
@@ -107,9 +107,15 @@ Se identificaron además otros 20 ensayos de fases 1, 2, 4 y sin fase (farmacoci
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19910693 | NOVORAPID® 100 U/ML | Solución inyectable | INSULINA ASPARTATO |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19910693 | NOVORAPID® 100 U/ML | SOLUCION INYECTABLE | INSULINA ASPARTATO | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

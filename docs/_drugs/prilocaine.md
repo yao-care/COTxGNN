@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 533
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Prilocaine: nueva indicación predicha, Conjuntivitis papilar (nivel de evidencia L5). Indicación original: Lidocaína combinaciones (anestesia local)"
 monitor_inn: "prilocaine"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
@@ -81,11 +81,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 218965 | ANESTECIN® CREMA | Crema tópica | Lidocaína combinaciones | Vigente |
-| 20227791 | PRILOTEKAL® | Solución inyectable | Prilocaína | Vigente |
-| 20023782 | PRESTIGE® PRILOCAÍNA CLORHIDRATO AL 4% | Solución inyectable | Prilocaína | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20023782 | PRESTIGE® PRILOCAINA CLORHIDRATO AL 4% | SOLUCION INYECTABLE | PRILOCAINA | Vigente |
+| 20227791 | PRILOTEKAL® | SOLUCION INYECTABLE | PRILOCAINA | Vigente |
+| 218965 | ANESTECIN® CREMA | CREMA TOPICA | LIDOCAINA COMBINACIONES | Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

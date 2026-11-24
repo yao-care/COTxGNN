@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 518
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PIROXICAM"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "WHIM syndrome", "rheumatoid nodulosis", "juvenile idiopathic arthritis"]
 description: "Piroxicam: nueva indicación predicha, Colobomatous microphthalmia-rhizomelic dysplasia syndrome (nivel de evidencia L5). Indicación original: PIROXICAM"
@@ -88,13 +88,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19954060 | STOPEN® Cápsula 20 mg | Cápsula dura | Piroxicam |
-| 55823 | Piroxicam 20 mg inyectable | Inyectable | Piroxicam |
-| 19967377 | OXIFAR® 20 mg cápsulas | Cápsula dura | Piroxicam |
-| 19993956 | Piroxicam 0.5 % gel | Gel tópico | Piroxicam |
-| 19934890 | OXIVATE® 20 mg cápsulas | Cápsula dura | Piroxicam |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 1983645 | PIROXICAM 20 MG CAPSULAS | CAPSULA DURA | PIROXICAM | Vigente |
+| 19934890 | OXIVATE® 20 MG. CAPSULAS | CAPSULA DURA | PIROXICAM | Vigente |
+| 19941484 | OSTEOSAN CÁPSULAS | CAPSULA DURA | PIROXICAM | Vigente |
+| 19954060 | STOPEN® CAPSULA 20 MG | CAPSULA DURA | PIROXICAM | Vigente |
+| 19967376 | PIROXICAM 20 MG CAPSULAS | CAPSULA DURA | PIROXICAM | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

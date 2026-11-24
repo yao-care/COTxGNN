@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 305
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fusidic Acid: nueva indicación predicha, Queratitis por exposición (nivel de evidencia L5). Indicación original: Ácido fusídico (crema tópica)"
 monitor_inn: "fusidic acid"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
@@ -92,13 +92,19 @@ Hay 13 registros sanitarios vigentes; el medicamento está comercializado.
 
 <!-- review:end co-lic-20261112-fusidic_acid-1 -->
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20047268 | FUCIFAR 2% CREMA | Crema tópica | Ácido fusídico |
-| 11697 | ÁCIDO FUSÍDICO CREMA 2% | Crema tópica | Ácido fusídico |
-| 20054634 | ÁCIDO FUSÍDICO 2 % CREMA | Crema tópica | Ácido fusídico |
-| 20066035 | ÁCIDO FUSÍDICO 2% CREMA | Crema tópica | Ácido fusídico |
-| 20139241 | FUCILIX® CREMA | Crema tópica | Ácido fusídico |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 11697 | ACIDO FUSIDICO CREMA 2% | CREMA TOPICA | FUSIDICO ACIDO | Vigente |
+| 19939301 | TOPISEPT® | CREMA TOPICA | FUSIDICO ACIDO | Vigente |
+| 20005814 | ACIDO FUSÍDICO 2% CREMA | CREMA TOPICA | FUSIDICO ACIDO | Vigente |
+| 20047268 | FUCIFAR 2% CREMA | CREMA TOPICA | FUSIDICO ACIDO | Vigente |
+| 20054634 | ACIDO FUSIDICO 2 % CREMA | CREMA TOPICA | FUSIDICO ACIDO | Vigente |
+
+Se muestran 5 de 14 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 *Se listan 5 de los 7 registros (los otros dos corresponden a TOPISEPT® y FUCIDIN® H CREMA, este último combinado con hidrocortisona).*
 

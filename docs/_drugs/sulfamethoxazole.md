@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 596
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sulfamethoxazole: nueva indicación predicha, Conjuntivitis contagiosa aguda (nivel de evidencia L5). Indicación original: Sulfametoxazol y trimetoprim"
 monitor_inn: "Sulfamethoxazole"
 predicted_indications: ["acute contagious conjunctivitis"]
@@ -84,10 +84,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20077704 | MEDIPRIM F SUSPENSION (vigente) | Suspensión oral | Sulfametoxazol y trimetoprim |
-| 19985112 | MEDIPRIM F (R) TABLETA (vigente) | Tableta | Sulfametoxazol y trimetoprim |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19904212 | TRIMETOPRIM SULFA TABLETAS | TABLETA | SULFAMETOXAZOL Y TRIMETOPRIM | Vigente |
+| 19939728 | SUPRIBAC®F SUSPENSIÓN | SUSPENSION ORAL | SULFAMETOXAZOL Y TRIMETOPRIM | Vigente |
+| 19940672 | SUPRIBAC SIMPLE SUSPENSION | SUSPENSION ORAL | SULFAMETOXAZOL Y TRIMETOPRIM | Vigente |
+| 19951050 | TRIMETROPRIMA160 MGSULFAMETOXAZOL 800 MG TABLETAS | TABLETA | SULFAMETOXAZOL Y TRIMETOPRIM | Vigente |
+| 19951051 | DECASULF FORTE TABLETAS | TABLETA | SULFAMETOXAZOL Y TRIMETOPRIM | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

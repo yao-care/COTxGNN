@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "metoprolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "trichotillomania"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Metoprolol: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: METOPROLOL"
 ---
 
@@ -86,12 +86,18 @@ Actualmente no hay literatura relacionada disponible para la indicación princip
 
 La lista de registros puede ser parcial (se muestran al menos 4).
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19961415 | Metoprolol Tartrato 50 mg Tabletas | Tableta | Metoprolol |
-| 20278182 | Metoprolol Tartrato 5 mg/5 ml Solución Inyectable | Solución inyectable | Metoprolol |
-| 19992946 | Metoprolol Tabletas Recubiertas 50 mg | Tableta con cubierta entérica con película | Metoprolol |
-| 19927923 | Betaloc ZOK 25 mg | Tableta de liberación prolongada | Metoprolol |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19901250 | BETALOC ZOK® 200 MG | TABLETA DE LIBERACION PROLONGADA | METOPROLOL | Vigente |
+| 19927923 | BETALOC ZOK® 25 MG | TABLETA DE LIBERACION PROLONGADA | METOPROLOL | Vigente |
+| 19943526 | METOPROLOL100 MG | TABLETA | METOPROLOL | Vigente |
+| 19961415 | METOPROLOL TARTRATO 50 MG TABLETAS | TABLETA | METOPROLOL | Vigente |
+
+Se muestran 4 de 15 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

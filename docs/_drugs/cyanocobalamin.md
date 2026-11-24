@@ -74,10 +74,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19908281 | SUPRAVITAL | Cápsula blanda | Multivitaminas y otros minerales, incluidas combinaciones |
-| 32856 | ANTIDOL B12® AMPOLLAS | Solución inyectable | Complejo B |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19933859 | B-VITPLUS | SOLUCION INYECTABLE | TIAMINA (VIT B1) | Vigente |
+| 19935632 | B-VIT HT | SOLUCION INYECTABLE | TIAMINA (VIT B1) | Vigente |
+| 19939451 | MULTI-12/K1 PEDIATRICO | SOLUCION INYECTABLE | COMBINACIONES | Vigente |
+| 19940150 | PEDIAVIT ZINC | SOLUCION ORAL | MULTIVITAMINAS Y OTROS MINERALES INCL COMBINACIONES | Vigente |
+| 19960586 | NATELE® EASYGELS | CAPSULA BLANDA | MULTIVITAMINAS Y OTROS MINERALES INCL COMBINACIONES | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

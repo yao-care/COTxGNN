@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 549
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ranitidine"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "gastroduodenitis", "Smouldering systemic mastocytosis", "abnormality of glucagon secretion", "lymphoadenopathic mastocytosis with eosinophilia"]
 description: "Ranitidine: nueva indicación predicha, Perforación de úlcera péptica (peptic ulcer perforation) (nivel de evidencia L5). Indicación original: RANITIDINA"
@@ -85,10 +85,17 @@ Ninguna de estas publicaciones estudia la ranitidina como tratamiento de la perf
 
 Según los registros locales, la ranitidina se comercializa en Colombia. La lista de registros puede estar incompleta.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 207409 | RANITIDINA TABLETAS RECUBIERTAS 150 MG | Tableta recubierta | RANITIDINA | Vigente |
-| 19924286 | RANITIDINA SOLUCIÓN INYECTABLE 50 MG/2ML | Solución inyectable | RANITIDINA | Comercializado solo por Exportacion |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19937660 | ULPIGAS® 150 MG | TABLETA RECUBIERTA | RANITIDINA | Vigente |
+| 207409 | RANITIDINA TABLETAS RECUBIERTAS 150 MG | TABLETA RECUBIERTA | RANITIDINA | Vigente |
+| 19924286 | RANITIDINA SOLUCION INYECTABLE 50 MG/2ML | SOLUCION INYECTABLE | RANITIDINA | Comercializado solo por Exportacion |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

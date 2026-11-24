@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 577
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "sacubitril"
 predicted_indications: ["brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "diabetic nephropathy", "rheumatoid arthritis", "hemoglobinopathy"]
 description: "Sacubitril: nueva indicación predicha, Brain small vessel disease 1 with or without ocular anomalies (nivel de evidencia L5). Indicación original: VALSARTAN Y SACUBITRIL"
@@ -96,9 +96,17 @@ Varios estudios preclínicos en ratas y ratones diabéticos (PMID 35992034, 3658
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20232639 | TEROVAN® 50 | Tableta recubierta | Valsartán y sacubitrilo |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20232639 | TEROVAN® 50 | TABLETA RECUBIERTA | VALSARTAN Y SACUBITRIL | Vigente |
+| 20232642 | TEROVAN® 100 | TABLETA CUBIERTA CON PELICULA | VALSARTAN Y SACUBITRIL | Vigente |
+| 20232817 | TEROVAN® 200 | TABLETA RECUBIERTA | VALSARTAN Y SACUBITRIL | Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 420
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mecasermin: nueva indicación predicha, Monosomía X (nivel de evidencia L5). Indicación original: MECASERMINA"
 monitor_inn: "mecasermin"
 predicted_indications: ["monosomy X", "Wolman disease with hypolipoproteinemia and acanthocytosis", "esophageal varices with bleeding", "esophageal varices without bleeding"]
@@ -82,9 +82,15 @@ El puntaje TxGNN muy alto es solo una predicción computacional. No se recuperar
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20154631 | INCRELEX® 10 MG/ML SOLUCIÓN INYECTABLE (IPSEN PHARMA S.A.S.) | Solución inyectable | MECASERMINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20154631 | INCRELEX® 10 MG/ML SOLUCIÓN INYECTABLE | SOLUCION INYECTABLE | MECASERMINA | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

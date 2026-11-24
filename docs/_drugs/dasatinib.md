@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 197
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dasatinib: nueva indicación predicha, Sarcoma de Ewing (nivel de evidencia L2). Indicación original: DASATINIB"
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
@@ -92,11 +92,19 @@ Sin embargo, la plausibilidad biológica no ha sido confirmada en clínica. Una 
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20002502 | SPRYCEL 100 MG tableta recubierta (Bristol Myers Squibb) | Tableta recubierta | DASATINIB (vigente) |
-| 20187895 | DAKMIRED tabletas recubiertas 100 mg (Dr. Reddy's) | Tableta recubierta | DASATINIB (vigente) |
-| 20188738 | DAKMIRED tabletas recubiertas 70 mg (Dr. Reddy's) | Tableta recubierta | DASATINIB (vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19980917 | SPRYCEL® 70 MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | DASATINIB | Vigente |
+| 19980918 | SPRYCEL® 50 MGTABLETA RECUBIERTA | TABLETA RECUBIERTA | DASATINIB | Vigente |
+| 19980919 | SPRYCEL® 20 MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | DASATINIB | Vigente |
+| 20002502 | SPRYCEL ® 100 MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | DASATINIB | Vigente |
+| 20034231 | SPRYCEL ® 140 MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | DASATINIB | Vigente |
+
+Se muestran 5 de 12 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 
@@ -147,12 +155,6 @@ Existe un vínculo mecanístico plausible (inhibición de SRC) y apoyo preclíni
 - Aclarar la situación regulatoria en Colombia (12 registros vigentes) y la disponibilidad real del producto.
 - Plan de monitoreo de seguridad hematológica y cardiovascular.
 
-<!-- review:begin co-lic-20261112-dasatinib-1 -->
-
-> **Corrección de revisión (2026-11-12)**: Texto original: "3 registros vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 12 registros sanitarios, de los cuales 12 vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261112-dasatinib-1 -->
-
 ---
 
 ### Nota sobre otras indicaciones predichas
@@ -168,7 +170,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "los tres registros sanitarios en Colombia están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 3 → 12 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 3 → 12 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Sprycel (dasatinib) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4764f37b-c9e6-4ede-bcc2-8a03b7c521df) |
 
 <!-- review:end log -->

@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 7
 monitor_inn: "DOCETAXEL"
 predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Docetaxel: nueva indicación predicha, Sarcoma de Ewing (Ewing sarcoma) (nivel de evidencia L2). Indicación original: DOCETAXEL"
 ---
 
@@ -91,10 +91,19 @@ Hay que tener cautela. Los estudios de fase 2 son pequeños y muestran una activ
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 19969842 | DOCETAXEL 80 MG INYECTABLE | Solución concentrada para infusión |
-| 20151870 | DOCETAXEL 10 MG/ML | Solución inyectable |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19969842 | DOCETAXEL 80 MG INYECTABLE | SOLUCIÓN CONCENTRADA PARA INFUSIÓN | DOCETAXEL | Vigente |
+| 20007286 | DOCETAXEL 80 MG / 2 ML SOLUCION INYECTABLE | SOLUCIÓN CONCENTRADA PARA INFUSIÓN | DOCETAXEL | Vigente |
+| 20049388 | DOCETAXEL CONCENTRADO PARA INYECCION 80 MG / 2 ML | SOLUCIÓN CONCENTRADA PARA INFUSIÓN | DOCETAXEL | Vigente |
+| 20064412 | DOCETAXEL 20 MG/ML | SOLUCIÓN CONCENTRADA PARA INFUSIÓN | DOCETAXEL | Vigente |
+| 20064460 | DOCETAXEL 80MG/4ML | SOLUCIÓN CONCENTRADA PARA INFUSIÓN | DOCETAXEL | Vigente |
+
+Se muestran 5 de 9 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

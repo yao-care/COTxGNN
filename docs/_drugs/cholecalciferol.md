@@ -74,10 +74,16 @@ Actualmente no hay literatura relacionada disponible.
 
 La lista puede ser parcial: se muestran los registros incluidos en los datos compilados.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19908281 | SUPRAVITAL | Cápsula blanda | Multivitaminas y otros minerales, incluidas combinaciones |
-| 20037895 | CALCIBON D SOYA FORTE TABLETAS | Tableta | Calcio (diferentes sales en combinación) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19902785 | CALCIBON D® 315 MG | TABLETA RECUBIERTA | MULTIVITAMINAS Y CALCIO | Vigente |
+| 19939451 | MULTI-12/K1 PEDIATRICO | SOLUCION INYECTABLE | COMBINACIONES | Vigente |
+
+Se muestran 2 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 Ningún registro menciona la displasia acromesomélica ni otra enfermedad esquelética genética.
 

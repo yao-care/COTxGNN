@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 201
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Deferiprone"
 predicted_indications: ["hepatic porphyria", "early-onset familial noncirrhotic portal hypertension", "idiopathic copper-associated cirrhosis", "hepatopulmonary syndrome", "primitive portal vein thrombosis", "hepatoportal sclerosis", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
 description: "Deferiprone: nueva indicación predicha, Porfiria hepática (hepatic porphyria) (nivel de evidencia L4). Indicación original: DEFERIPRONA"
@@ -85,9 +85,15 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20218402 | IROFIN® 500 MG TABLETAS RECUBIERTAS | Tableta recubierta | DEFERIPRONA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20218402 | IROFIN® 500 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | DEFERIPRONA | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

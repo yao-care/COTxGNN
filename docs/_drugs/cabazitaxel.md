@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "CABAZITAXEL"
 predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin E disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin d disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "HIV infectious disease", "hyperthyroidism", "neuroblastoma", "rheumatoid arthritis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cabazitaxel: nueva indicación predicha, Carcinoma de mama femenino (female breast carcinoma) (nivel de evidencia L5). Indicación original: CABAZITAXEL"
 ---
 
@@ -85,13 +85,19 @@ Actualmente no hay ensayos clínicos relacionados registrados en los datos compi
 
 Se registran 5 registros sanitarios (la lista puede ser parcial).
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 20176284 | XITACAB® 60MG/1.5ML (40MG/ML) | Solución inyectable |
-| 20205910 | Cabazitaxel 60 mg/1.5 mL solución inyectable | Solución inyectable |
-| 20039453 | JEVTANA® 60 mg/1.5 mL solución concentrada para infusión | Solución concentrada para infusión |
-| 20104913 | CABAZRED 60 mg/1.5 mL | Solución concentrada para infusión |
-| 20207930 | CABAXITAL® | Solución concentrada para infusión |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20039453 | JEVTANA ®60 MG / 1.5 ML SOLUCION CONCENTRADA PARA INFUSIÓN | SOLUCIÓN CONCENTRADA PARA INFUSIÓN | CABAZITAXEL | Vigente |
+| 20104913 | CABAZRED 60 MG/1.5 ML | SOLUCIÓN CONCENTRADA PARA INFUSIÓN | CABAZITAXEL | Vigente |
+| 20176284 | XITACAB® 60MG/1.5ML (40MG/ML) | SOLUCION INYECTABLE | CABAZITAXEL | Vigente |
+| 20194687 | CABAZET® 60 MG/1.5 ML SOLUCIÓN INYECTABLE PARA INFUSIÓN | SOLUCIÓN PARA INFUSIÓN | CABAZITAXEL | Vigente |
+| 20195314 | EPRIVIA® | SOLUCIÓN CONCENTRADA PARA INFUSIÓN | CABAZITAXEL | Vigente |
+
+Se muestran 5 de 7 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 326
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Hesperidin: nueva indicación predicha, Neoplasia mieloproliferativa (nivel de evidencia L5). Indicación original: Combinaciones de diosmina"
 monitor_inn: "hesperidin"
 predicted_indications: ["myeloproliferative neoplasm", "monocytic leukemia", "spermatocytic seminoma", "tubular variant testicular seminoma", "gestational trophoblastic neoplasm"]
@@ -99,9 +99,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20004470 | VEDIPAL® COMPRIMIDOS RECUBIERTOS | Tableta recubierta | Combinaciones de diosmina |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20004470 | VEDIPAL® COMPRIMIDOS RECUBIERTOS | TABLETA RECUBIERTA | DIOSMIN COMBINACIONES | Vigente |
+| 20014719 | DIOSMINA 450 MG/HESPERIDINA 50 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | DIOSMIN COMBINACIONES | Vigente |
+| 20114716 | VEDIPAL ® 1000 | TABLETA RECUBIERTA | DIOSMIN COMBINACIONES | Vigente |
+| 20193851 | PERIVASC® 1000MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | DIOSMIN | Vigente |
+| 20036202 | VENOMAX ® 500 MG TABLETAS | TABLETA RECUBIERTA | DIOSMIN COMBINACIONES | Temp. no comerc - Vigente |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

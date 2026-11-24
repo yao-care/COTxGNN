@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "dexibuprofen"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "WHIM syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dexibuprofen: nueva indicación predicha, síndrome de braquidactilia-sindactilia (brachydactyly-syndactyly syndrome) (nivel de evidencia L5). Indicación original: IBUPROFEN COMBINACIONES"
 ---
 
@@ -72,9 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20057197 | TAFLAX® FEM TABLETAS RECUBIERTAS | Tableta recubierta | IBUPROFEN COMBINACIONES |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20031165 | TAFLAX® 300 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | DEXIBUPROFENO | Vigente |
+| 20040581 | TAFLAX 1% SUSPENSION | SUSPENSION ORAL | DEXIBUPROFENO | Vigente |
+| 20057197 | TAFLAX® FEM TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | IBUPROFEN COMBINACIONES | Vigente |
+| 20060362 | TAFLAX® GRIP | CAPSULA DURA | FENILEFRINA COMBINACIONES | Vigente |
+| 20073105 | TAFLAX®FORTE TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | PARACETAMOL COMBINACIONES EXCLUYENDO SICOLEPTICOS | Vigente |
+
+Se muestran 5 de 7 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 La lista de registros puede ser parcial.
 

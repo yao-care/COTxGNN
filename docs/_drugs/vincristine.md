@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Vincristine"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Vincristine: nueva indicación predicha, Anomalías vertebrales con disfunción endocrina y de células T variable (vertebral anomalies and variable endocrine and… (nivel de evidencia L5). Indicación ori…"
 ---
 
@@ -71,10 +71,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20006838 | Vincristina sulfato 1 mg/1 ml solución inyectable (Venus Remedies Limited) | Solución inyectable | VINCRISTINA |
-| 20097927 | Sulfato de vincristina 1 mg polvo liofilizado para reconstituir a solución inyectable (Blau Farmacéutica Colombia S.A.S) | Polvo liofilizado para reconstituir a solución inyectable | VINCRISTINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20006838 | VINCRISTINASULFATO 1 MG/1 ML SOLUCION INYECTABLE | SOLUCION INYECTABLE | VINCRISTINA | Vigente |
+| 20097927 | SULFATO DE VINCRISTINA 1 MG POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCIÓN INYECTABLE. | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | VINCRISTINA | Vigente |
+| 20200092 | SULFATO DE VINCRISTINA 1 MG/ML | SOLUCION INYECTABLE | VINCRISTINA | Temp. no comerc - Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

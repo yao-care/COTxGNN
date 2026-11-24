@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 328
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Hydrocortisone: nueva indicación predicha, Alopecia areata (nivel de evidencia L2). Indicación original: HIDROCORTISONA"
 monitor_inn: "Hydrocortisone"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
@@ -93,13 +93,19 @@ Sin embargo, hay una limitación importante: en el único ensayo directo, la hid
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19995931 | Hidrocortisona crema 1% | Crema tópica | HIDROCORTISONA |
-| 19979968 | Hidrocortisona 1.0% | Crema tópica | HIDROCORTISONA |
-| 19976372 | Hidrocortisona 1% crema | Crema tópica | HIDROCORTISONA |
-| 20001046 | Cortisolona® loción 0.5% | Loción | HIDROCORTISONA |
-| 20151048 | Suiphar Hidrotex loción | Loción | HIDROCORTISONA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19919130 | OTOSEC HC® | SOLUCION OTICA | HIDROCORTISONA Y ANTIINFECCIOSOS | Vigente |
+| 19926707 | SUMICORT (R) 100 MG | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | HIDROCORTISONA | Vigente |
+| 19940721 | HIDROCORTISONA 100 MG | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | HIDROCORTISONA | Vigente |
+| 19943525 | FIXAMICIN HC GOTAS OTICAS | SOLUCION OTICA | HIDROCORTISONA Y ANTIINFECCIOSOS | Vigente |
+| 19976372 | HIDROCORTISONA 1% CREMA | CREMA TOPICA | HIDROCORTISONA | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

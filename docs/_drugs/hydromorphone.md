@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "hydromorphone"
 predicted_indications: ["pharyngitis", "allergic urticaria", "nasal cavity disease", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Hydromorphone: nueva indicación predicha, faringitis (pharyngitis) (nivel de evidencia L5). Indicación original: HIDROMORFONA"
 ---
 
@@ -71,10 +71,16 @@ El puntaje de 0,9981 es una predicción computacional, no evidencia clínica. Ad
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19989418 | Hidromorfona clorhidrato 2.5 mg tabletas | Tableta | HIDROMORFONA |
-| 20008612 | Hidromorfona clorhidrato 2 mg/ml | Solución inyectable | HIDROMORFONA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19989418 | HIDROMORFONA CLORHIDRATO 2.5 MG TABLETAS | TABLETA | HIDROMORFONA | Vigente |
+| 20008612 | HIDROMORFONA CLORHIDRATO 2 MG/ML | SOLUCION INYECTABLE | HIDROMORFONA | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

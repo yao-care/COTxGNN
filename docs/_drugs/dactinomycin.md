@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "dactinomycin"
 predicted_indications: ["relapsing-remitting multiple sclerosis", "liver sarcoma", "upper aerodigestive tract neoplasm", "head and neck cancer"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dactinomycin: nueva indicación predicha, Esclerosis múltiple remitente-recurrente (relapsing-remitting multiple sclerosis) (nivel de evidencia L5). Indicación original: DACTINOMICINA"
 ---
 
@@ -70,9 +70,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19902428 | DACTINOMICINA 0.5MG INYECCIÓN | Polvo liofilizado para reconstituir a solución inyectable | DACTINOMICINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19902428 | DACTINOMICINA 0.5MG INYECCIÓN | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | DACTINOMICINA | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

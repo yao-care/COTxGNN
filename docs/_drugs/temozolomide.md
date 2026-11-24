@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Temozolomide"
 predicted_indications: ["cauda equina neoplasm"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Temozolomide: nueva indicación predicha, Neoplasia de la cauda equina (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto indica únicamente \"TEMOZOLOM…"
 ---
 
@@ -77,12 +77,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 La lista puede ser parcial.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20001038 | TEMODAL® CÁPSULAS 140 MG | Cápsula dura | TEMOZOLOMIDA |
-| 19907390 | TEMODAL® CÁPSULAS 20 MG | Cápsula dura | TEMOZOLOMIDA |
-| 20087083 | TEMITOMA 20 MG | Cápsula dura | TEMOZOLOMIDA |
-| 20196779 | MOZOLA® 20 MG CÁPSULA | Cápsula dura | TEMOZOLOMIDA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19907388 | TEMODAL® CAPSULAS 100 MG | CAPSULA DURA | TEMOZOLOMIDA | Vigente |
+| 19907390 | TEMODAL®CAPSULAS 20 MG | CAPSULA DURA | TEMOZOLOMIDA | Vigente |
+| 20061379 | DRALITEM ® 250 MG | CAPSULA DURA | TEMOZOLOMIDA | Vigente |
+| 20061382 | DRALITEM ® 100MG CÁPSULAS | CAPSULA DURA | TEMOZOLOMIDA | Vigente |
+| 20061383 | DRALITEM ® 20 MG | CAPSULA DURA | TEMOZOLOMIDA | Vigente |
+
+Se muestran 5 de 16 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BIMATOPROST"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "genetic alopecia", "pulmonary arteriovenous malformation (disease)"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Bimatoprost: nueva indicación predicha, Síndrome de malformación con componente odontológico y/o periodontal (malformation syndrome with odontal and/or periodo… (nivel de evidencia L5). Indicación or…"
 ---
 
@@ -72,9 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 La lista de registros puede ser parcial.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19923968 | LUMIGAN ® SOLUCION OFTALMICA | Solución oftálmica | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19923968 | LUMIGAN ® SOLUCION OFTALMICA | SOLUCION OFTALMICA | BIMATOPROST | Vigente |
+| 19974885 | GANFORT® | SOLUCION OFTALMICA | TIMOLOL COMBINACIONES | Vigente |
+| 20009282 | LUMIGAN ® RC | SOLUCION OFTALMICA | BIMATOPROST | Vigente |
+| 20102005 | TRIPLIGAN® | SOLUCION OFTALMICA | TIMOLOL COMBINACIONES | Vigente |
+| 20142049 | CAREPROST 0.3 MG | SOLUCION OFTALMICA | BIMATOPROST | Vigente |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

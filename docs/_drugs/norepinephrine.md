@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 471
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Norepinephrine: nueva indicación predicha, Enfermedad pulmonar obstructiva (nivel de evidencia L4). Indicación original: Norepinefrina"
 monitor_inn: "norepinephrine"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
@@ -98,11 +98,17 @@ Se presentan las publicaciones más relevantes; no se identificaron ensayos clí
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20273430 | PRIDAM® 4MG / 4ML SOLUCIÓN INYECTABLE | Solución inyectable | Norepinefrina | Vigente |
-| 19940783 | ADS-NOLTRON® SOLUCIÓN INYECTABLE 4 MG/4 ML | Solución inyectable | Norepinefrina | Vigente |
-| 20056358 | NOREPINEFRINA 4 MG/4ML | Solución inyectable | Norepinefrina | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19940783 | ADS-NOLTRON® SOLUCION INYECTABLE 4 MG/4 ML | SOLUCION INYECTABLE | NOREPINEFRINA | Vigente |
+| 20056358 | NOREPINEFRINA 4 MG/4ML | SOLUCION INYECTABLE | NOREPINEFRINA | Vigente |
+| 20273430 | PRIDAM® 4MG / 4ML SOLUCIÓN INYECTABLE | SOLUCION INYECTABLE | NOREPINEFRINA | Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 521
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Polatuzumab Vedotin: nueva indicación predicha, Carcinoma de mama HER2 positivo (nivel de evidencia L5). Indicación original: No especificada en el registro"
 monitor_inn: "polatuzumab vedotin"
 predicted_indications: ["HER2 positive breast carcinoma"]
@@ -76,9 +76,15 @@ No se aportó evidencia preclínica ni clínica que apoye la hipótesis, y la si
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20167788 | POLIVY® | Polvo liofilizado para reconstituir a solución inyectable | POLATUZUMAB VEDOTIN |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20167788 | POLIVY® | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | POLATUZUMAB VEDOTIN | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

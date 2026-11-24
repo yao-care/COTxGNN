@@ -110,12 +110,19 @@ Otros ensayos identificados tienen poca relevancia directa (dispositivos de neur
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20087894 | OFTALMOTRILAC® Solución Oftálmica | Solución oftálmica | Ketorolaco |
-| 20146407 | KERADOL INY 30 MG/ML | Solución inyectable | Ketorolac |
-| 20052475 | Ketorolaco trometamina 30 mg tableta sublingual | Tableta sublingual | Ketorolaco |
-| 20140244 | TORAKET 30 | Solución inyectable | Ketorolac |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19955848 | KENALGESIC | SOLUCION OFTALMICA | KETOROLACO | Vigente |
+| 19976551 | OPHTHAKER® | SOLUCION OFTALMICA | KETOROLACO | Vigente |
+| 20052475 | KETOROLACO TROMETAMINA 30 MG TABLETASUBLINGUAL | TABLETA SUBLINGUAL | KETOROLACO | Vigente |
+| 20146407 | KERADOL INY 30 MG / ML | SOLUCION INYECTABLE | KETOROLAC | Vigente |
+| 20140244 | TORAKET 30 | SOLUCION INYECTABLE | KETOROLAC | Temp. no comerc - Vigente |
+
+Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

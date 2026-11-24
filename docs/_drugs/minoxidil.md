@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 448
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Minoxidil: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (nivel de evidencia L4). Indicación original: Minoxidil"
 monitor_inn: "MINOXIDIL"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pseudopelade of Brocq", "pulmonary arterial hypertension", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "primary hereditary glaucoma", "pulmonary arterial hypertension associated with schistosomiasis", "pulmonary arterial hypertension associated with chronic hemolytic anemia"]
@@ -85,13 +85,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20128461 | MINO FOAM® 5% | Aerosol | Minoxidil |
-| 20236308 | MINOXIDIL 5% LOCIÓN | Loción | Minoxidil |
-| 19948594 | VAXDIL® TABLETAS 10MG | Tableta | Minoxidil |
-| 20267073 | MINOXIDIL 5% SOLUCIÓN TÓPICA | Solución tópica | Minoxidil |
-| 19903008 | PILOGAN® ULTRA 5% | Solución tópica | Minoxidil |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19903008 | PILOGAN®ULTRA 5% | SOLUCION TOPICA | MINOXIDIL | Vigente |
+| 19948594 | VAXDIL® TABLETAS 10MG | TABLETA | MINOXIDIL | Vigente |
+| 19950832 | FOLISTER HAIR LOTION | SOLUCION TOPICA | TETRINOINA COMBINACIONES | Vigente |
+| 19951467 | RENOBELL LOCION AL 5% | LOCION | MINOXIDIL | Vigente |
+| 19953252 | MINOXIDIL 10 MG TABLETAS | TABLETA | MINOXIDIL | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 524
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Posaconazole: nueva indicación predicha, Neumocistosis (nivel de evidencia L5). Indicación original: No especificada en detalle"
 monitor_inn: "posaconazole"
 predicted_indications: ["pneumocystosis"]
@@ -89,10 +89,16 @@ Como referencia, el tratamiento de primera línea de la neumocistosis es trimeto
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20064520 | NOXAFIL® Tabletas Recubiertas de Liberación Retardada (Merck Sharp & Dohme LLC) | Tableta de liberación retardada | Posaconazol (sin detalle de indicación) |
-| 20195133 | Posaconazol 100 mg Tabletas Gastrorresistentes (Sandoz GmbH) | Tableta de liberación retardada | Posaconazol (sin detalle de indicación) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20064520 | NOXAFIL ® TABLETAS RECUBIERTAS DE LIBERACIÓN RETARDADA | TABLETA DE LIBERACION RETARDADA | POSACONAZOL | Vigente |
+| 20195133 | POSACONAZOL 100 MG TABLETAS GASTRORRESISTENTES | TABLETA DE LIBERACION RETARDADA | POSACONAZOL | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

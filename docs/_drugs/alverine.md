@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 43
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Alverine: nueva indicación predicha, Trastorno distímico (nivel de evidencia L5). Indicación original: Alverina combinaciones"
 monitor_inn: "alverine"
 predicted_indications: ["dysthymic disorder", "neurotic disorder", "anxiety disorder", "migraine disorder", "neurotic depression", "melancholia", "benign paroxysmal torticollis of infancy", "agoraphobia", "congenital isolated adrenocorticotropic hormone deficiency (disease)"]
@@ -95,10 +95,16 @@ Como referencia indirecta, para otras indicaciones predichas existen:
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20152358 | AVARIN | Cápsula blanda | Alverina combinaciones | Vigente |
-| 20070928 | METEOSPASMYL® CÁPSULAS BLANDAS | Cápsula blanda | Alverina combinaciones | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20070928 | METEOSPASMYL® CAPSULAS BLANDAS | CAPSULA BLANDA | ALVERINA COMBINACIONES | Vigente |
+| 20152358 | AVARIN | CAPSULA BLANDA | ALVERINA COMBINACIONES | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

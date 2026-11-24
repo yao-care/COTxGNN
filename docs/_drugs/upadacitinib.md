@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 650
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Upadacitinib: nueva indicación predicha, Síndrome de microftalmía colobomatosa con displasia rizomélica (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado…"
 monitor_inn: "upadacitinib"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
@@ -84,10 +84,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20178268 | RINVOQ® | Tableta de liberación prolongada | UPADACITINIB | Vigente |
-| 20224531 | RINVOQ® 45 MG | Tableta de liberación prolongada | UPADACITINIB | Temp. no comerc - Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20178268 | RINVOQ® | TABLETA DE LIBERACION PROLONGADA | UPADACITINIB | Vigente |
+| 20224531 | RINVOQ® 45 MG | TABLETA DE LIBERACION PROLONGADA | UPADACITINIB | Temp. no comerc - Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 Ambos registros pertenecen a ABBVIE S.A.S.
 

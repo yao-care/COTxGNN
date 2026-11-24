@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 405
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "lisinopril"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
 description: "Lisinopril: nueva indicación predicha, Pulmonary hypertension owing to lung disease and/or hypoxia (nivel de evidencia L5). Indicación original: LISINOPRIL"
@@ -93,10 +93,16 @@ Actualmente no hay literatura relacionada disponible para infarto de miocardio p
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 37168 | LISIPRIL® TABLETAS | Tableta | LISINOPRIL | Vigente |
-| 19951978 | LISIPRIL® 5 | Tableta | LISINOPRIL | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19951978 | LISIPRIL® 5 | TABLETA | LISINOPRIL | Vigente |
+| 37168 | LISIPRIL® TABLETAS | TABLETA | LISINOPRIL | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 Ambos registros corresponden a monofármacos del Laboratorio Franco Colombiano - Lafrancol S.A.S.
 

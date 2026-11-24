@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 612
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Tenofovir alafenamide"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Tenofovir Alafenamide: nueva indicación predicha, Simian immunodeficiency virus infection (nivel de evidencia L4). Indicación original: TENOFOVIR ALAFENAMIDA"
@@ -93,9 +93,19 @@ Todos los estudios son preclínicos (modelos animales).
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20134171 | VEMLIDY® | Tableta recubierta | Tenofovir alafenamida | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20114785 | DESCOVY® 200MG/10MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | EMTRICITABINA Y TENOFOVIR ALAFENAMIDA | Vigente |
+| 20119027 | ODEFSEY® 200 MG - 25 MG - 25 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | EMTRICITABINA / RILPIVIRINA / TENOFOVIR ALAFENAMIDA | Vigente |
+| 20131470 | DESCOVY® 200MG/25MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | EMTRICITABINA Y TENOFOVIR ALAFENAMIDA | Vigente |
+| 20134171 | VEMLIDY® | TABLETA RECUBIERTA | TENOFOVIR ALAFENAMIDA | Vigente |
+| 20193063 | EMTRICITABINA 200 MG + TENOFOVIR ALAFENAMIDA 25 MG TABLETAS RECUBIERTAS | TABLETA CUBIERTA CON PELICULA | EMTRICITABINA Y TENOFOVIR ALAFENAMIDA | Vigente |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

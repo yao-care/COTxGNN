@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB00125
 monitor_inn: "Arginine"
 predicted_indications: ["gastroparesis (disease)"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Arginina: nueva indicación predicha, Gastroparesis (disease) (nivel de evidencia L5). Indicación original: AMINOACIDOS"
 ---
 
@@ -86,13 +86,19 @@ Ninguno de los estudios evalúa directamente la arginina como tratamiento de la 
 
 La lista es parcial: hay al menos 20 registros sanitarios.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19908160 | TRAVASOL PLUS 15% LIBRE DE BISULFITO | Solución inyectable | AMINOACIDOS |
-| 19931121 | AMINOVEN® 15 % | Solución inyectable | AMINOACIDOS |
-| 20022622 | NUTRIFLEXLIPID SPECIAL | Emulsión inyectable | COMBINACIONES |
-| 20086181 | AMINOPLASMAL® B. BRAUN 10% | Solución concentrada para infusión | AMINOACIDOS |
-| 208141 | PRIMENE 10% | Solución inyectable | AMINOACIDOS |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19908160 | TRAVASOL PLUS 15% LIBRE DE BISULFITO | SOLUCION INYECTABLE | AMINOACIDOS | Vigente |
+| 19931121 | AMINOVEN® 15 % | SOLUCION INYECTABLE | AMINOACIDOS | Vigente |
+| 19931123 | AMINOVEN 10% | SOLUCION INYECTABLE | AMINOACIDOS | Vigente |
+| 19933606 | AMINOVEN INFANT 10% | SOLUCION INYECTABLE | AMINOACIDOS | Vigente |
+| 20022622 | NUTRIFLEXLIPID SPECIAL | EMULSION INYECTABLE | COMBINACIONES | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Flutamide"
 predicted_indications: ["fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "prostate leiomyoma", "benign prostate phyllodes tumor", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Flutamide: nueva indicación predicha, fibroma de próstata (fibroma of prostate) (nivel de evidencia L5). Indicación original: FLUTAMIDA"
 ---
 
@@ -70,9 +70,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 35440 | ETACONIL DE 250 MG COMPRIMIDOS | Tableta | FLUTAMIDA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 35440 | ETACONIL DE 250 MG COMPRIMIDOS | TABLETA | FLUTAMIDA | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

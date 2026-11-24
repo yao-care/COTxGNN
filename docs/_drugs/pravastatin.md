@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 528
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "pravastatin"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 description: "Pravastatin: nueva indicación predicha, HIV infectious disease (nivel de evidencia L4). Indicación original: PRAVASTATINA Y FENOFIBRATO"
@@ -93,9 +93,15 @@ Las estatinas ya se usan como tratamiento de base en esta condición, de modo qu
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20114242 | PRAVAFEN® CAPSULAS | Cápsula dura | Pravastatina y fenofibrato |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20114242 | PRAVAFEN® CAPSULAS | CAPSULA DURA | PRAVASTATINA Y FENOFIBRATO | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

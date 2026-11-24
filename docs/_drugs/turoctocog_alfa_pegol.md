@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 649
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TUROCTOCOG ALFA PEGOL"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency", "hereditary thrombocytosis with transverse limb defect", "fetal and neonatal alloimmune thrombocytopenia"]
 description: "Turoctocog Alfa Pegol: nueva indicación predicha, Primary release disorder of platelets (nivel de evidencia L5). Indicación original: COAGULACION FACTORES VIII"
@@ -63,12 +63,18 @@ Por lo tanto, esta predicción debe considerarse especulativa. Entre las otras i
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20189841 | ESPEROCT® 1000UI | Polvo estéril para reconstituir a solución inyectable | Coagulación factores VIII | Vigente |
-| 20187198 | ESPEROCT® 2000 UI | Polvo liofilizado para reconstituir a solución inyectable | Coagulación factores VIII | Vigente |
-| 20187708 | ESPEROCT® 3000UI | Polvo liofilizado para reconstituir a solución inyectable | Coagulación factores VIII | Vigente |
-| 20187090 | ESPEROCT® 1500 UI | Polvo estéril para reconstituir a solución inyectable | Coagulación factores VIII | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20187090 | ESPEROCT® 1500 UI | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | COAGULACION FACTORES VIII | Vigente |
+| 20187198 | ESPEROCT® 2000 UI | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | COAGULACION FACTORES VIII | Vigente |
+| 20187708 | ESPEROCT® 3000UI | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | COAGULACION FACTORES VIII | Vigente |
+| 20189841 | ESPEROCT® 1000UI | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | COAGULACION FACTORES VIII | Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

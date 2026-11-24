@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 668
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Zidovudine: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L5). Indicación original: Zidovudina"
 monitor_inn: "Zidovudine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -94,12 +94,18 @@ Se listan 10 de las 20 publicaciones disponibles, priorizando estudios clínicos
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19237 | RETROVIR IV PARA INFUSIÓN | Solución inyectable | Zidovudina (vigente) |
-| 20065187 | ZIDO H® SOLUCIÓN ORAL 10MG/ML | Solución oral | Zidovudina (vigente) |
-| 19974944 | ZIDOVUDINA SOLUCIÓN ORAL 10 MG/ML | Solución oral | Zidovudina (vigente) |
-| 20063923 | LAVUZID® | Tableta | Lamivudina y zidovudina (vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19237 | RETROVIR IV PARA INFUSION | SOLUCION INYECTABLE | ZIDOVUDINA | Vigente |
+| 19974944 | ZIDOVUDINA SOLUCION ORAL 10 MG/ML. | SOLUCION ORAL | ZIDOVUDINA | Vigente |
+| 20063923 | LAVUZID® | TABLETA | LAMIVUDINA Y ZIDOVUDINA | Temp. no comerc - Vigente |
+| 20065187 | ZIDO H ® SOLUCION ORAL 10MG/ML | SOLUCION ORAL | ZIDOVUDINA | Temp. no comerc - Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

@@ -8,7 +8,7 @@ indication_count: 4
 drugbank_id: DB01006
 monitor_inn: "Letrozole"
 predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Letrozol: nueva indicación predicha, Carcinoma del pezón (nipple carcinoma) (nivel de evidencia L5). Indicación original: LETROZOL"
 ---
 
@@ -84,13 +84,19 @@ Ninguna de estas publicaciones estudia letrozol directamente en el carcinoma del
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20024551 | LETROZOL 2.5 MG | Tableta recubierta | LETROZOL |
-| 20060915 | HB ONCOBREAST® 2.5 MG TABLETAS RECUBIERTAS | Tableta recubierta | LETROZOL |
-| 20065665 | LETROLE® | Tableta recubierta | LETROZOL |
-| 20126083 | LETARA® 2.5 MG TABLETAS | Tableta | LETROZOL |
-| 20136242 | LATOREN® 2.5 MG TABLETAS RECUBIERTAS | Tableta recubierta | LETROZOL |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20024551 | LETROZOL2.5 MG | TABLETA RECUBIERTA | LETROZOL | Vigente |
+| 20060915 | HB ONCOBREAST® 2.5 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | LETROZOL | Vigente |
+| 20065665 | LETROLE® | TABLETA RECUBIERTA | LETROZOL | Vigente |
+| 20126083 | LETARA® 2.5 MG TABLETAS | TABLETA | LETROZOL | Vigente |
+| 20136242 | LATOREN® 2.5 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | LETROZOL | Vigente |
+
+Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

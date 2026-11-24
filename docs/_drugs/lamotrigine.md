@@ -95,9 +95,19 @@ La guía de la Academia Europea de Neurología (2019) incluida en la literatura 
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20067216 | LAMOTRIGINA 50MG (Tecnoquímicas S.A.) | Tableta dispersable | LAMOTRIGINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19935908 | LAMICTAL ® 50 MG TABLETAS DISPERSABLES. | TABLETA DISPERSABLE | LAMOTRIGINA | Vigente |
+| 20001515 | LAMOTRIGINA TABLETAS 100 MG | TABLETA DISPERSABLE | LAMOTRIGINA | Vigente |
+| 20001516 | LAMOTRIGINA TABLETAS 50 MG | TABLETA DISPERSABLE | LAMOTRIGINA | Vigente |
+| 20060310 | LAMOTRIGINA POR 200 MG | TABLETA | LAMOTRIGINA | Vigente |
+| 20067216 | LAMOTRIGINA 50MG | TABLETA DISPERSABLE | LAMOTRIGINA | Vigente |
+
+Se muestran 5 de 15 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

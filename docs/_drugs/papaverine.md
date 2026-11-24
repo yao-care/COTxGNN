@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 499
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Papaverine: nueva indicación predicha, Enfermedad isquémica (nivel de evidencia L4). Indicación original: Papaverina combinaciones"
 monitor_inn: "papaverine"
 predicted_indications: ["ischemic disease", "intracranial arteriosclerosis", "non-inflammatory vasculopathy", "vascular ectasia", "venous thromboembolism", "fibrocartilaginous embolism", "vascular insufficiency disorder", "angiodysplasia", "Raynaud disease", "Monckeberg arteriosclerosis"]
@@ -93,10 +93,16 @@ La relación con la indicación original es indirecta: el registro colombiano so
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20177445 | ESPAFLAT® | Suspensión oral | Papaverina combinaciones |
-| 36110 | ESPASMO SILIGAS GOTAS | Suspensión oral | Papaverina combinaciones |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 36110 | ESPASMO SILIGAS GOTAS | SUSPENSION ORAL | PAPAVERINA COMBINACIONES | Vigente |
+| 20177445 | ESPAFLAT® | SUSPENSION ORAL | PAPAVERINA COMBINACIONES | Temp. no comerc - Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

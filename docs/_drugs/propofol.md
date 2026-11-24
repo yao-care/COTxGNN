@@ -99,10 +99,19 @@ La relación entre la indicación original (anestesia/sedación) y la nueva es d
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20007502 | SPIVA® MCT - LCT | Emulsión inyectable | PROPOFOL |
-| 20017881 | PROPOFOL 1% MCT | Emulsión inyectable | PROPOFOL |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19917356 | PROPOFOL1% ( 10 MG / ML ). | EMULSION INYECTABLE | PROPOFOL | Vigente |
+| 19937960 | PROFOL® 1%. | EMULSION INYECTABLE | PROPOFOL | Vigente |
+| 20007502 | SPIVA® MCT - LCT | EMULSION INYECTABLE | PROPOFOL | Vigente |
+| 20016507 | TROYPOFOL® EMULSION INYECTABLE | EMULSION INYECTABLE | PROPOFOL | Vigente |
+| 20017881 | PROPOFOL 1% MCT | EMULSION INYECTABLE | PROPOFOL | Vigente |
+
+Se muestran 5 de 14 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

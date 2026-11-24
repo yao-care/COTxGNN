@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 372
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "lactulose"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
 description: "Lactulose: nueva indicación predicha, Acute urate nephropathy (nivel de evidencia L5). Indicación original: LACTULOSA"
@@ -92,11 +92,17 @@ Literatura seleccionada para **ictericia obstructiva** (las demás predicciones 
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20087761 | CONSTILAX® 66.7% Solución Oral | Solución oral | Lactulosa | Vigente |
-| 38540 | LACTULAX Jarabe | Jarabe | Lactulosa | Vigente |
-| 50786 | DUPHALAC® Solución Oral | Solución oral | Lactulosa | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20087761 | CONSTILAX® 66. 7% SOLUCION ORAL | SOLUCION ORAL | LACTULOSA | Vigente |
+| 38540 | LACTULAXJARABE | JARABE | LACTULOSA | Vigente |
+| 50786 | DUPHALAC® SOLUCION ORAL | SOLUCION ORAL | LACTULOSA | Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

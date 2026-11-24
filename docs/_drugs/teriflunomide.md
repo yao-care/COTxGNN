@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 618
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Teriflunomide: usos conocidos y estado de mercado en Colombia; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -72,11 +72,17 @@ Todos los candidatos que el modelo TxGNN propone para Teriflunomide (puntuación
 
 ## Información de Mercado en Colombia
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 20240967 | TERIFLUNOMIDA | TABLETA | Vigente |
-| 20194846 | TERIFLUNOMIDA | TABLETA RECUBIERTA | Vigente |
-| 20056290 | TERIFLUNOMIDA | TABLETA RECUBIERTA | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20056290 | AUBAGIO® | TABLETA RECUBIERTA | TERIFLUNOMIDA | Vigente |
+| 20194846 | BLUMADIZ ® 14 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | TERIFLUNOMIDA | Vigente |
+| 20240967 | TREEFLUDA® 14 MG TABLETAS | TABLETA | TERIFLUNOMIDA | Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

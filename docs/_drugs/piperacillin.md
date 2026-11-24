@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 516
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Piperacillin: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L5). Indicación original: Piperacilina e inhibidor enzimático"
 monitor_inn: "piperacillin"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
@@ -94,9 +94,15 @@ Se muestran las publicaciones más relevantes. Todas son reportes de caso, cohor
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20089767 | AUROTAZ-P 4.5 G | Polvo estéril para reconstituir a solución inyectable | Piperacilina e inhibidor enzimático |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20089767 | AUROTAZ-P 4.5 G | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | PIPERACILINA E INHIBIDOR ENZIMATICO | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 575
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "ruxolitinib"
 predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "hemophagocytic syndrome associated with an infection"]
 description: "Ruxolitinib: nueva indicación predicha, Uterine corpus perivascular epithelioid cell tumor (nivel de evidencia L5). Indicación original: RUXOLITINIB"
@@ -81,11 +81,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20055293 | JAKAVI® 5 MG TABLETAS | Tableta | Ruxolitinib (sin detalle de indicación) | Vigente |
-| 20055348 | JAKAVI® 15 TABLETAS | Tableta | Ruxolitinib (sin detalle de indicación) | Vigente |
-| 20083253 | JAKAVI® 10MG TABLETAS | Tableta | Ruxolitinib (sin detalle de indicación) | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20055293 | JAKAVI® 5 MG TABLETAS | TABLETA | RUXOLITINIB | Vigente |
+| 20055348 | JAKAVI® 15 TABLETAS | TABLETA | RUXOLITINIB | Vigente |
+| 20083253 | JAKAVI® 10MG TABLETAS | TABLETA | RUXOLITINIB | Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 Los tres registros pertenecen a Novartis Pharma AG y corresponden a la vía oral.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ciprofloxacin"
 predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ciprofloxacin: nueva indicación predicha, esclerodermia difusa (diffuse scleroderma) (nivel de evidencia L5). Indicación original: CIPROFLOXACINA"
 ---
 
@@ -74,12 +74,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20026284 | Ciprofloxacina 100 mg/10 mL | Solución inyectable | No registrada en los datos locales |
-| 20104186 | Ciprofloxacino 100 mg/10 mL | Solución inyectable | No registrada en los datos locales |
-| 20083338 | Ciriax | Solución inyectable | No registrada en los datos locales |
-| 20013311 | Ciprofloxacina 200 mg/100 mL | Solución inyectable | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19900981 | OTOSEC | SOLUCION OTICA | CIPROFLOXACINA | Vigente |
+| 19919130 | OTOSEC HC® | SOLUCION OTICA | HIDROCORTISONA Y ANTIINFECCIOSOS | Vigente |
+| 19929589 | CIPROFLOXACINA 200 MG / 100 ML | SOLUCION INYECTABLE | CIPROFLOXACINA | Vigente |
+| 19943525 | FIXAMICIN HC GOTAS OTICAS | SOLUCION OTICA | HIDROCORTISONA Y ANTIINFECCIOSOS | Vigente |
+| 19945267 | CINEPRIDE® 500 MG TABLETAS | TABLETA CUBIERTA CON PELICULA | CIPROFLOXACINA | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 La lista puede ser parcial.
 

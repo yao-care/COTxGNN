@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 284
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Fibrinogen Human: nueva indicación predicha, Hemoglobinopatía (nivel de evidencia L5). Indicación original: Fibrinógeno humano"
 monitor_inn: "fibrinogen human"
 drugbank_id: DB09222
@@ -83,10 +83,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20150730 | FIBRYGA® | Polvo estéril para reconstituir a solución inyectable | Fibrinógeno humano |
-| 20059137 (cancelado) | TACHOSIL® | Esponja medicada | Combinaciones |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20150730 | FIBRYGA® | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | FIBRINOGENO HUMANO | Vigente |
+| 20094324 | CLOTTAFACT ® 1.5G/100ML POLVO Y DISOLVENTE PARA SOLUCION INYECTABLE | POLVO LIOFILIZADO | FIBRINOGENO HUMANO | Temp. no comerc - Vigente |
+| 20059137 | TACHOSIL® | ESPONJA MEDICADA | COMBINACIONES | Perdida Fuerza Ejec |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

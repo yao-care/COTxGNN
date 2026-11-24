@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 502
 evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pazopanib: nueva indicación predicha, Liposarcoma (nivel de evidencia L3). Indicación original: PAZOPANIB"
 monitor_inn: "pazopanib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
@@ -90,11 +90,17 @@ Actualmente no hay ensayos clínicos relacionados registrados para esta indicaci
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20248619 | REDPANIB® 400 MG (vigente) | Tableta recubierta | PAZOPANIB |
-| 20248583 | REDPANIB® 200 MG (vigente) | Tableta recubierta | PAZOPANIB |
-| 20024562 | VOTRIENT® 200 MG (vigente) | Tableta recubierta | PAZOPANIB |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20024562 | VOTRIENT® 200 MG | TABLETA RECUBIERTA | PAZOPANIB | Vigente |
+| 20248583 | REDPANIB® 200 MG | TABLETA RECUBIERTA | PAZOPANIB | Vigente |
+| 20248619 | REDPANIB® 400 MG | TABLETA RECUBIERTA | PAZOPANIB | Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

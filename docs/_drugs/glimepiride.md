@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Glimepiride"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Glimepiride: nueva indicación predicha, Síndrome de la extremidad rígida focal (focal stiff limb syndrome) (nivel de evidencia L5). Indicación original: METFORMINA Y SULFONILUREAS"
 ---
 
@@ -71,9 +71,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20046981 | METGLITAL LEX 850/4 MG TABLETAS DE LIBERACIÓN PROLONGADA | Tableta de liberación prolongada | Metformina y sulfonilureas |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19915564 | GLIMEPIRIDA 4 MG COMPRIMIDOS | TABLETA | GLIMEPIRIDA | Vigente |
+| 19927153 | GLIMEPIRIDA 2 MG TABLETA | TABLETA | GLIMEPIRIDA | Vigente |
+| 19977388 | AMARYL® M 2 MG/500 MG COMPRIMIDOS | TABLETA CUBIERTA CON PELICULA | METFORMINA Y SULFONILUREAS | Vigente |
+| 19993840 | AMARYL®M 2MG/1000MG | TABLETA CUBIERTA CON PELICULA | METFORMINA Y SULFONILUREAS | Vigente |
+| 19993841 | AMARYL®M 4 MG/ 1000 MG | TABLETA CUBIERTA CON PELICULA | METFORMINA Y SULFONILUREAS | Vigente |
+
+Se muestran 5 de 10 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 La lista de registros puede ser parcial.
 

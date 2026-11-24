@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 512
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Phenol: nueva indicación predicha, Acrodermatitis crónica atrófica (nivel de evidencia L5). Indicación original: FENOL"
 monitor_inn: "phenol"
 predicted_indications: ["acrodermatitis chronica atrophicans", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acne keloid", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "dry eye syndrome"]
@@ -84,11 +84,19 @@ Actualmente no hay literatura relacionada disponible para acrodermatitis crónic
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20229729 | NOXPIRIN® SOLUCIÓN BUCAL | Solución bucal | FENOL | Vigente |
-| 20113559 | BUCALIV SPRAY® | Solución bucofaríngea | FENOL | Vigente |
-| 20049882 | OTIFIX® SOLUCIÓN ÓTICA | Solución ótica | COMBINACIONES | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20049882 | OTIFIX® SOLUCION OTICA | SOLUCION OTICA | COMBINACIONES | Vigente |
+| 20066518 | IBUCOFLEX | SOLUCION BUCAL | FENOL | Vigente |
+| 20097131 | EFRIMEL® | SOLUCION BUCOFARINGUEA | FENOL | Vigente |
+| 20113559 | BUCALIV SPRAY® | SOLUCION BUCOFARINGUEA | FENOL | Vigente |
+| 20139703 | GARGANTQRP 1.4G | SOLUCION BUCOFARINGUEA | FENOL | Vigente |
+
+Se muestran 5 de 7 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 
@@ -109,12 +117,6 @@ Consultar el prospecto para la información de seguridad oficial.
 **Justificación:**
 La predicción se basa solo en el modelo (L5), sin ensayos, sin literatura y sin vínculo mecanístico plausible; además, el fenol tiene un perfil de toxicidad desfavorable y está comercializado en Colombia, con 7 registros vigentes.
 
-<!-- review:begin co-lic-20261112-phenol-1 -->
-
-> **Corrección de revisión (2026-11-12)**: Texto original: "3 registros vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 7 registros sanitarios, de los cuales 7 vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261112-phenol-1 -->
-
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (consultar DrugBank).
 - Prospecto de INVIMA con advertencias y contraindicaciones oficiales.
@@ -129,7 +131,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-12 | Número de registros vigentes: 3 → 7 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 3 → 7 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

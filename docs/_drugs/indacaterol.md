@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 341
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Indacaterol: nueva indicación predicha, Síndrome nefrogénico de antidiuresis inapropiada (NSIAD) (nivel de evidencia L5). Indicación original: Formoterol y mometasona"
 monitor_inn: "INDACATEROL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "trigeminal autonomic cephalalgia", "paratenonitis", "calcific tendinitis", "hypertrichosis (disease)", "bronchial disease", "myositis", "anaphylaxis", "Ambras type hypertrichosis universalis congenita"]
@@ -87,10 +87,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20209060 | Atectura® Breezhaler® 150/80 mcg polvo para inhalación | Cápsula dura | Formoterol y mometasona | Temp. no comerc - Vigente |
-| 20208413 | Atectura® Breezhaler® 150/160 mcg polvo para inhalación | Cápsula dura | Formoterol y mometasona | Temp. no comerc - Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20064394 | ULTIBRO- BREEZHALER® | CAPSULA DURA | INDACATEROL Y BROMURO DE GLICOPIRRONIO | Vigente |
+| 20208413 | ATECTURA® BREEZHALER® 150/160 MCG POLVO PARA INHALACIÓN. CÁPSULA DURA | CAPSULA DURA | FORMOTEROL Y MOMETASONA | Temp. no comerc - Vigente |
+| 20209060 | ATECTURA®BREEZHALER®150/80 MCG POLVO PARA INHALACIÓN CÁPSULA DURA | CAPSULA DURA | FORMOTEROL Y MOMETASONA | Temp. no comerc - Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

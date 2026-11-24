@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 497
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Panitumumab: nueva indicación predicha, Osteoporosis inducida por fármacos (drug-induced osteoporosis) (nivel de evidencia L5). Indicación original: Panitumumab"
 monitor_inn: "PANITUMUMAB"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy"]
@@ -77,9 +77,15 @@ El puntaje alto de TxGNN (0.9913) es solo una predicción del modelo, sin respal
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20025916 | VECTIBIX® 20 MG/ML (Amgen Europe B.V.) | Solución concentrada para infusión | PANITUMUMAB | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20025916 | VECTIBIX® 20 MG/ ML | SOLUCIÓN CONCENTRADA PARA INFUSIÓN | PANITUMUMAB | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

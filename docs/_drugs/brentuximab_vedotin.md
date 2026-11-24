@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 113
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Brentuximab Vedotin: nueva indicación predicha, Linfoma folicular (nivel de evidencia L2). Indicación original: No especificada en el registro (el texto aprobado solo indica \"Brentu…"
 monitor_inn: "BRENTUXIMAB VEDOTIN"
 predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lymphoblastic/lymphocytic leukemia", "B-cell neoplasm", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "Richter syndrome", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
@@ -99,9 +99,15 @@ Los ensayos que combinan brentuximab con rituximab o bendamustina dan una base b
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20058697 | ADCETRIS® (Takeda Colombia S.A.S) | Polvo estéril para reconstituir a solución inyectable | Brentuximab vedotina |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20058697 | ADCETRIS® | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | BRENTUXIMAB VEDOTINA | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

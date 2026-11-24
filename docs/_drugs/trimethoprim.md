@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 646
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Trimethoprim: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (nivel de evidencia L5). Indicación original: Sulfametoxazol y trimetoprim (combinación antibacteriana)"
 monitor_inn: "Trimethoprim"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
@@ -82,9 +82,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20128365 | TRIMETOPRIMA SULFAMETOXAZOL 160/800 MG TABLETA (Laboratorios Ecar S.A.) | Tableta (vía oral) | Sulfametoxazol y trimetoprim |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19904212 | TRIMETOPRIM SULFA TABLETAS | TABLETA | SULFAMETOXAZOL Y TRIMETOPRIM | Vigente |
+| 19939728 | SUPRIBAC®F SUSPENSIÓN | SUSPENSION ORAL | SULFAMETOXAZOL Y TRIMETOPRIM | Vigente |
+| 19940672 | SUPRIBAC SIMPLE SUSPENSION | SUSPENSION ORAL | SULFAMETOXAZOL Y TRIMETOPRIM | Vigente |
+| 19951050 | TRIMETROPRIMA160 MGSULFAMETOXAZOL 800 MG TABLETAS | TABLETA | SULFAMETOXAZOL Y TRIMETOPRIM | Vigente |
+| 19951051 | DECASULF FORTE TABLETAS | TABLETA | SULFAMETOXAZOL Y TRIMETOPRIM | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 Además, la única forma farmacéutica registrada es oral, y no existe una presentación oftálmica en el mercado colombiano según los datos disponibles.
 

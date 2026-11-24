@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 281
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fentanyl: nueva indicación predicha, Síndrome nefrogénico de antidiuresis inapropiada (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \"Fent…"
 monitor_inn: "fentanyl"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -81,11 +81,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20216065 | Fentanilo 0.1 mg/2 mL solución inyectable | Solución inyectable | FENTANYL | Vigente |
-| 19908145 | Fentanilo solución inyectable | Solución inyectable | FENTANYL | Vigente |
-| 20027082 | Lanzapin® solución inyectable | Solución inyectable | FENTANYL | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19908145 | FENTANILO SOLUCIÓN INYECTABLE | SOLUCION INYECTABLE | FENTANYL | Vigente |
+| 19931880 | FENTANILO SOLUCION INYECTABLE 0.5 MG/ 10 ML | SOLUCION INYECTABLE | FENTANYL | Vigente |
+| 20027082 | LANZAPIN® SOLUCIÓN INYECTABLE | SOLUCION INYECTABLE | FENTANYL | Vigente |
+| 20030910 | FENTANILO 500 MCG/10 ML | SOLUCION INYECTABLE | FENTANYL | Vigente |
+| 20079574 | FENTANILO 0.5/10ML | SOLUCION INYECTABLE | FENTANYL | Vigente |
+
+Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 
@@ -105,12 +113,6 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 **Justificación:**
 La predicción carece de ensayos clínicos y literatura (nivel L5), el vínculo mecanístico es débil (el defecto está en el receptor V2, no en la vía opioide), el medicamento está comercializado en Colombia con 6 registros vigentes y el perfil de seguridad es complejo (327 interacciones, riesgo de depresión respiratoria y dependencia).
-
-<!-- review:begin co-lic-20261112-fentanyl-1 -->
-
-> **Corrección de revisión (2026-11-12)**: Texto original: "3 registros vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 6 registros sanitarios, de los cuales 6 vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261112-fentanyl-1 -->
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción desde DrugBank
@@ -134,7 +136,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 3 → 6 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 3 → 6 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: fentanyl citrate prescribing information, Phlow Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58dcd3f7-e3d8-4929-a186-8f680a51ff11) |
 
 <!-- review:end log -->

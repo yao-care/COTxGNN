@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 209
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Dexchlorpheniramine: usos conocidos y estado de mercado en Colombia; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -73,9 +73,15 @@ Los candidatos que el modelo TxGNN propuso para Dexchlorpheniramine (puntuación
 
 ## Información de Mercado en Colombia
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 50400 | ACETAMINOFEN | SOLUCION ORAL | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 50400 | CORICIDIN® GOTAS PEDIATRICAS CON ACETAMINOFEN | SOLUCION ORAL | PARACETAMOL COMBINACIONES EXCLUYENDO SICOLEPTICOS | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

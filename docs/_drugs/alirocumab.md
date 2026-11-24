@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 37
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Alirocumab: nueva indicación predicha, Ictiosis ligada al X sin deficiencia de esteroide sulfatasa (nivel de evidencia L5). Indicación original: ALIROCUMAB"
 monitor_inn: "ALIROCUMAB"
 predicted_indications: ["ichthyosis, X-linked, without steroid sulfatase deficiency", "disorder of other vitamins and cofactors metabolism and transport", "xanthomatosis (disease)", "46,XY disorder of sexual development due to dihydrotestosterone backdoor pathway biosynthesis defect", "cholesterol catabolic process disease", "46,XY disorder of sex development due to a cholesterol synthesis defect", "dappled diaphyseal dysplasia", "neutral lipid storage disease", "3-hydroxyacyl-CoA dehydrogenase deficiency", "spastic paraplegia-optic atrophy-neuropathy and spastic paraplegia-optic atrophy-neuropathy-related disorder"]
@@ -81,10 +81,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20117604 | PRALUENT® 75MG/ML SOLUCIÓN INYECTABLE | Solución inyectable | ALIROCUMAB | Vigente |
-| 20097020 | PRALUENT® 150MG/ML SOLUCIÓN INYECTABLE | Solución inyectable | ALIROCUMAB | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20097020 | PRALUENT®150MG/ML SOLUCIÓN INYECTABLE | SOLUCION INYECTABLE | ALIROCUMAB | Vigente |
+| 20117604 | PRALUENT® 75MG/ML SOLUCIÓN INYECTABLE | SOLUCION INYECTABLE | ALIROCUMAB | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

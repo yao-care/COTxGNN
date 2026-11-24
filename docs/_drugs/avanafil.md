@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 77
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 predicted_indications: []
 ---
 
@@ -71,6 +71,16 @@ Desde el conocimiento farmacológico general, Avanafil es un inhibidor selectivo
 ---
 
 ## Información de Mercado en Colombia
+
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20103347 | ANIME® 100 | TABLETA RECUBIERTA | AVANAFIL | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 No se registran licencias, formas farmacéuticas aprobadas ni indicaciones locales.
 

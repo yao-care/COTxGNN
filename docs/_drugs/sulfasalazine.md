@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 597
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Sulfasalazine"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
 description: "Sulfasalazine: nueva indicación predicha, Brachydactyly-syndactyly syndrome (nivel de evidencia L5). Indicación original: SULFASALAZINA"
@@ -92,10 +92,18 @@ Se muestran las publicaciones más relevantes para la predicción (se excluyen t
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20168960 | Sulfasalazina 500 mg tableta con cubierta entérica (Genfar S.A.) | Tableta con cubierta entérica (gragea) | Sulfasalazina |
-| 201145 | Rosulfant® 500 mg (Ropsohn Therapeutics S.A.S.) | Tableta con recubrimiento entérico | Sulfasalazina |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19947421 | SULFASALAZINA 500 MG TABLETAS | TABLETA CON CUBIERTA ENTERICA CON PELICULA | SULFASALAZINA | Vigente |
+| 20026114 | SALAZIN® | TABLETA DE LIBERACION RETARDADA | SULFASALAZINA | Vigente |
+| 20168960 | SULFASALAZINA 500 MG TABLETA CON CUBIERTA ENTÉRICA | TABLETA CON CUBIERTA ENTERICA(GRAGEA) | SULFASALAZINA | Vigente |
+| 201145 | ROSULFANT® 500 MG | TABLETA CON RECUBRIMIENTO ENTÉRICO | SULFASALAZINA | Temp. no comerc - Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

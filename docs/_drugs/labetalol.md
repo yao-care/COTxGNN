@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "labetalol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Labetalol: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: LABETALOL"
 ---
 
@@ -71,6 +71,20 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
+
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20004699 | TRANDATE® LABETALOL CLORHIDRATO 100 MG SOLUCION INYECTABLE | SOLUCION INYECTABLE | LABETALOL | Vigente |
+| 20068280 | PRESEQUIL | SOLUCION INYECTABLE | LABETALOL | Vigente |
+| 20087030 | LABETALOL CLORHIDRATO 100MG / 20MLSOLUCION INYECTABLE | SOLUCION INYECTABLE | LABETALOL | Vigente |
+| 20090031 | DUOBLOQ 100 MG / 20 ML | SOLUCION INYECTABLE | LABETALOL | Vigente |
+| 20104881 | DIBLOREC | SOLUCION INYECTABLE | LABETALOL | Vigente |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 Labetalol figura como comercializado en Colombia, en la forma farmacéutica de solución inyectable. Los registros sanitarios individuales los incorpora el sistema a partir de los datos regulatorios locales.
 

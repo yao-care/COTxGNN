@@ -91,10 +91,19 @@ Además, el midazolam por vía oral fue estudiado y usado históricamente como h
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20198997 | RELACUM® SOLUCIÓN INYECTABLE | Solución inyectable | Midazolam (estado: vigente) |
-| 20209565 | SERRACLINICS | Solución inyectable | Midazolam (estado: vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 103795 | DORMICUM® AMPOLLAS 15MG/3ML | SOLUCION INYECTABLE | MIDAZOLAM | Vigente |
+| 19920365 | DORMICUM AMPOLLAS 50 MG / 10 ML | SOLUCION INYECTABLE | MIDAZOLAM | Vigente |
+| 19940108 | MIDAZOLAM 15 MG/3 ML SOLUCION INYECTABLE | SOLUCION INYECTABLE | MIDAZOLAM | Vigente |
+| 19964024 | MIDAZOLAM 5MG/5ML | SOLUCION INYECTABLE | MIDAZOLAM | Vigente |
+| 19969030 | MIDAZOLAM 5MG/5ML SOLUCION INYECTABLE | SOLUCION INYECTABLE | MIDAZOLAM | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

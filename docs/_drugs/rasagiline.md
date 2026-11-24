@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 550
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Rasagiline: nueva indicación predicha, Neurodegeneración asociada a PLA2G6 (nivel de evidencia L5). Indicación original: Rasagilina"
 monitor_inn: "Rasagiline"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"]
@@ -88,9 +88,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20158581 | ZAGIL® | Tableta | Rasagilina |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20044655 | RAGITAR® TABLETAS 1.0 MG | TABLETA | ROSAGILINA | Vigente |
+| 20045921 | RAGITAR® TABLETAS0.5MG | TABLETA | ROSAGILINA | Vigente |
+| 20101576 | RAZATEC® 1 MG TABLETAS | TABLETA | ROSAGILINA | Vigente |
+| 20132724 | RASANDAR® 1 MG TABLETAS | TABLETA | RASAGILINA | Vigente |
+| 20153210 | RAGILEG® 1 MG | TABLETA | RASAGILINA | Vigente |
+
+Se muestran 5 de 7 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

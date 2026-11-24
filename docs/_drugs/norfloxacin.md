@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 473
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Norfloxacin: nueva indicación predicha, Hiperamilasemia (nivel de evidencia L5). Indicación original: Norfloxacina"
 monitor_inn: "Norfloxacin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "punctate epithelial keratoconjunctivitis", "premalignant hematological system disease", "diffuse scleroderma", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
@@ -77,12 +77,19 @@ Actualmente no hay literatura relacionada disponible para hiperamilasemia.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 29749 | NORFLOXACINA 400MG (Tecnoquímicas) | Tableta cubierta (gragea) | Norfloxacina |
-| 19942965 | UROTRIN® 400 MG Tabletas (Bioquifar) | Tableta recubierta | Norfloxacina |
-| 20105055 | URODROL® (Bioquímico Pharma) | Cápsula dura | Norfloxacina |
-| 19983228 | NORAFLOX® 400MG Tabletas (Laboratorios Best) | Tableta | Norfloxacina |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19942965 | UROTRIN® 400 MG TABLETAS. | TABLETA RECUBIERTA | NORFLOXACINA | Vigente |
+| 19959981 | FLOXFAR® 400 MG TABLETAS | TABLETA RECUBIERTA | NORFLOXACINA | Vigente |
+| 19959983 | NORFLOXACINO 400 MG TABLETA | TABLETA RECUBIERTA | NORFLOXACINA | Vigente |
+| 19983228 | NORAFLOX® 400MG TABLETAS | TABLETA | NORFLOXACINA | Vigente |
+| 20003506 | S-ORIPOL® NF 400 MG | CAPSULA DURA | NORFLOXACINA | Vigente |
+
+Se muestran 5 de 11 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -110,12 +117,6 @@ La predicción para hiperamilasemia es solo del modelo (L5), sin ensayos ni lite
 - Evaluar si otra indicación predicha, como la peste septicémica, merece una investigación específica, considerando que otras fluoroquinolonas están mejor respaldadas
 - Confirmar la situación regulatoria: el medicamento está comercializado y cuenta con 11 licencias válidas
 
-<!-- review:begin co-lic-20261112-norfloxacin-1 -->
-
-> **Corrección de revisión (2026-11-12)**: Texto original: "4 licencias válidas" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 11 registros sanitarios, de los cuales 11 vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261112-norfloxacin-1 -->
-
 <!-- review:begin log -->
 
 ## Registro de revisión
@@ -126,7 +127,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los cuatro registros sanitarios están cancelados; actualmente no hay productos vigentes con norfloxacino" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "el fármaco no tiene registros vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 4 → 11 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 4 → 11 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9) |
 
 <!-- review:end log -->

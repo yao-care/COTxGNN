@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Cladribine"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "liver sarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cladribine: nueva indicación predicha, Rabdomiosarcoma embrionario parameníngeo (parameningeal embryonal rhabdomyosarcoma) (nivel de evidencia L5). Indicación original: CLADRIBINA"
 ---
 
@@ -72,10 +72,16 @@ Actualmente no hay literatura relacionada disponible para la indicación princip
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20141389 | MAVENCLAD® | Tableta | CLADRIBINA |
-| 20036307 | LITAK® | Solución inyectable | CLADRIBINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20036307 | LITAK® | SOLUCION INYECTABLE | CLADRIBINA | Vigente |
+| 20141389 | MAVENCLAD® | TABLETA | CLADRIBINA | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

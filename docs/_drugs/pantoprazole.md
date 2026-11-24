@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 498
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pantoprazol: nueva indicación predicha, obstrucción duodenal (nivel de evidencia L5). Indicación original: Pantoprazol"
 monitor_inn: "Pantoprazole"
 predicted_indications: ["duodenal obstruction"]
@@ -95,9 +95,16 @@ La evidencia directa incluye ensayos aleatorizados de pantoprazol frente a ranit
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20102044 | PANTOPRAZOL 40 MG (Laboratorios MK S.A.S.) | Tableta de liberación retardada | Pantoprazol |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19963586 | SEGREGAM® 40 MG COMPRIMIDOS CON CUBIERTA ENTERICA | TABLETA CON CUBIERTA ENTERICA CON PELICULA | PANTOPRAZOL | Vigente |
+| 20102044 | PANTOPRAZOL 40 MG | TABLETA DE LIBERACION RETARDADA | PANTOPRAZOL | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

@@ -745,6 +745,196 @@
     "ChEMBL drug mechanism"
    ],
    "reason": "no single-ingredient US prescription label for 'glycine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL773 has no mechanism entry"
+  },
+  {
+   "source": "市場段落換成程式許可證表後，描述舊 AI 表或寫死張數、程式改寫判斷不了的句子（2026-11-24）",
+   "drug": "brigatinib",
+   "file": "brigatinib.md",
+   "status": "open",
+   "claim": "Ambos registros pertenecen a Takeda Colombia S.A.S.",
+   "reason": "說「Ambos registros」，事實層共 3 張",
+   "added": "2026-11-24",
+   "note": "句子是 AI 對舊許可證表（2026-11-24 已換成 scripts/sync_license_tables.py 產生的程式表）的說明，或寫死的張數，屬廠商／劑型子集、「ambos／los tres」數詞、有保留（al menos、parcial）或點名舊表沒列的品項，依規則不自動改寫；要改請對照程式表與事實層寫查核紀錄（scripts/rewrite_license_counts.py、tools wide 偵測找到）"
+  },
+  {
+   "source": "市場段落換成程式許可證表後，描述舊 AI 表或寫死張數、程式改寫判斷不了的句子（2026-11-24）",
+   "drug": "bupivacaine",
+   "file": "bupivacaine.md",
+   "status": "open",
+   "claim": "Fabricante: Ropsohn Therapeutics S.A.S.",
+   "reason": "只講一個廠商（舊 AI 表只列 1 張），程式表列 3 張、共 3 張",
+   "added": "2026-11-24",
+   "note": "句子是 AI 對舊許可證表（2026-11-24 已換成 scripts/sync_license_tables.py 產生的程式表）的說明，或寫死的張數，屬廠商／劑型子集、「ambos／los tres」數詞、有保留（al menos、parcial）或點名舊表沒列的品項，依規則不自動改寫；要改請對照程式表與事實層寫查核紀錄（scripts/rewrite_license_counts.py、tools wide 偵測找到）"
+  },
+  {
+   "source": "市場段落換成程式許可證表後，描述舊 AI 表或寫死張數、程式改寫判斷不了的句子（2026-11-24）",
+   "drug": "capecitabine",
+   "file": "capecitabine.md",
+   "status": "open",
+   "claim": "Se encontraron al menos 2 registros sanitarios y la lista podría estar incompleta.",
+   "reason": "寫 2 張，事實層共 10 張（有效 9）",
+   "added": "2026-11-24",
+   "note": "句子是 AI 對舊許可證表（2026-11-24 已換成 scripts/sync_license_tables.py 產生的程式表）的說明，或寫死的張數，屬廠商／劑型子集、「ambos／los tres」數詞、有保留（al menos、parcial）或點名舊表沒列的品項，依規則不自動改寫；要改請對照程式表與事實層寫查核紀錄（scripts/rewrite_license_counts.py、tools wide 偵測找到）"
+  },
+  {
+   "source": "市場段落換成程式許可證表後，描述舊 AI 表或寫死張數、程式改寫判斷不了的句子（2026-11-24）",
+   "drug": "cilastatin",
+   "file": "cilastatin.md",
+   "status": "open",
+   "claim": "Los tres registros corresponden a productos en combinación imipenem/cilastatina; no describen la situación regulatoria de cilastatina como ingrediente único.",
+   "reason": "說「Los tres registros」，事實層共 5 張",
+   "added": "2026-11-24",
+   "note": "句子是 AI 對舊許可證表（2026-11-24 已換成 scripts/sync_license_tables.py 產生的程式表）的說明，或寫死的張數，屬廠商／劑型子集、「ambos／los tres」數詞、有保留（al menos、parcial）或點名舊表沒列的品項，依規則不自動改寫；要改請對照程式表與事實層寫查核紀錄（scripts/rewrite_license_counts.py、tools wide 偵測找到）"
+  },
+  {
+   "source": "市場段落換成程式許可證表後，描述舊 AI 表或寫死張數、程式改寫判斷不了的句子（2026-11-24）",
+   "drug": "dexketoprofen",
+   "file": "dexketoprofen.md",
+   "status": "open",
+   "claim": "Ambos registros pertenecen a GALENICUM HEALTH COLOMBIA S.A.S.",
+   "reason": "說「Ambos registros」，事實層共 9 張",
+   "added": "2026-11-24",
+   "note": "句子是 AI 對舊許可證表（2026-11-24 已換成 scripts/sync_license_tables.py 產生的程式表）的說明，或寫死的張數，屬廠商／劑型子集、「ambos／los tres」數詞、有保留（al menos、parcial）或點名舊表沒列的品項，依規則不自動改寫；要改請對照程式表與事實層寫查核紀錄（scripts/rewrite_license_counts.py、tools wide 偵測找到）"
+  },
+  {
+   "source": "市場段落換成程式許可證表後，描述舊 AI 表或寫死張數、程式改寫判斷不了的句子（2026-11-24）",
+   "drug": "efavirenz",
+   "file": "efavirenz.md",
+   "status": "open",
+   "claim": "Los tres productos son combinaciones de dosis fija, por lo que sus registros no describen la situación regulatoria de efavirenz como principio activo único.",
+   "reason": "說「Los tres productos」，事實層共 9 張",
+   "added": "2026-11-24",
+   "note": "句子是 AI 對舊許可證表（2026-11-24 已換成 scripts/sync_license_tables.py 產生的程式表）的說明，或寫死的張數，屬廠商／劑型子集、「ambos／los tres」數詞、有保留（al menos、parcial）或點名舊表沒列的品項，依規則不自動改寫；要改請對照程式表與事實層寫查核紀錄（scripts/rewrite_license_counts.py、tools wide 偵測找到）"
+  },
+  {
+   "source": "市場段落換成程式許可證表後，描述舊 AI 表或寫死張數、程式改寫判斷不了的句子（2026-11-24）",
+   "drug": "fluorouracil",
+   "file": "fluorouracil.md",
+   "status": "open",
+   "claim": "Los datos locales muestran 4 registros sanitarios de fluorouracilo como único principio activo (la lista puede ser parcial):",
+   "reason": "寫 4 張，事實層共 7 張（有效 7）",
+   "added": "2026-11-24",
+   "note": "句子是 AI 對舊許可證表（2026-11-24 已換成 scripts/sync_license_tables.py 產生的程式表）的說明，或寫死的張數，屬廠商／劑型子集、「ambos／los tres」數詞、有保留（al menos、parcial）或點名舊表沒列的品項，依規則不自動改寫；要改請對照程式表與事實層寫查核紀錄（scripts/rewrite_license_counts.py、tools wide 偵測找到）"
+  },
+  {
+   "source": "市場段落換成程式許可證表後，描述舊 AI 表或寫死張數、程式改寫判斷不了的句子（2026-11-24）",
+   "drug": "fusidic_acid",
+   "file": "fusidic_acid.md",
+   "status": "open",
+   "claim": "*Se listan 5 de los 7 registros (los otros dos corresponden a TOPISEPT® y FUCIDIN® H CREMA, este último combinado con hidrocortisona).*",
+   "reason": "點名舊 AI 表沒列出的品項／第幾張，程式表的列與排序不同",
+   "added": "2026-11-24",
+   "note": "句子是 AI 對舊許可證表（2026-11-24 已換成 scripts/sync_license_tables.py 產生的程式表）的說明，或寫死的張數，屬廠商／劑型子集、「ambos／los tres」數詞、有保留（al menos、parcial）或點名舊表沒列的品項，依規則不自動改寫；要改請對照程式表與事實層寫查核紀錄（scripts/rewrite_license_counts.py、tools wide 偵測找到）"
+  },
+  {
+   "source": "市場段落換成程式許可證表後，描述舊 AI 表或寫死張數、程式改寫判斷不了的句子（2026-11-24）",
+   "drug": "isotretinoin",
+   "file": "isotretinoin.md",
+   "status": "open",
+   "claim": "Los datos compilados registran 3 registros sanitarios de isotretinoína en monoterapia (la lista puede ser parcial):",
+   "reason": "寫 3 張，事實層共 12 張（有效 7）",
+   "added": "2026-11-24",
+   "note": "句子是 AI 對舊許可證表（2026-11-24 已換成 scripts/sync_license_tables.py 產生的程式表）的說明，或寫死的張數，屬廠商／劑型子集、「ambos／los tres」數詞、有保留（al menos、parcial）或點名舊表沒列的品項，依規則不自動改寫；要改請對照程式表與事實層寫查核紀錄（scripts/rewrite_license_counts.py、tools wide 偵測找到）"
+  },
+  {
+   "source": "市場段落換成程式許可證表後，描述舊 AI 表或寫死張數、程式改寫判斷不了的句子（2026-11-24）",
+   "drug": "ketamine",
+   "file": "ketamine.md",
+   "status": "open",
+   "claim": "Fabricante: FEPARVI S.A.S.",
+   "reason": "只講一個廠商（舊 AI 表只列 1 張），程式表列 4 張、共 4 張",
+   "added": "2026-11-24",
+   "note": "句子是 AI 對舊許可證表（2026-11-24 已換成 scripts/sync_license_tables.py 產生的程式表）的說明，或寫死的張數，屬廠商／劑型子集、「ambos／los tres」數詞、有保留（al menos、parcial）或點名舊表沒列的品項，依規則不自動改寫；要改請對照程式表與事實層寫查核紀錄（scripts/rewrite_license_counts.py、tools wide 偵測找到）"
+  },
+  {
+   "source": "市場段落換成程式許可證表後，描述舊 AI 表或寫死張數、程式改寫判斷不了的句子（2026-11-24）",
+   "drug": "lorazepam",
+   "file": "lorazepam.md",
+   "status": "open",
+   "claim": "Ambos registros pertenecen a PFIZER S.A.S.",
+   "reason": "說「Ambos registros」，事實層共 4 張",
+   "added": "2026-11-24",
+   "note": "句子是 AI 對舊許可證表（2026-11-24 已換成 scripts/sync_license_tables.py 產生的程式表）的說明，或寫死的張數，屬廠商／劑型子集、「ambos／los tres」數詞、有保留（al menos、parcial）或點名舊表沒列的品項，依規則不自動改寫；要改請對照程式表與事實層寫查核紀錄（scripts/rewrite_license_counts.py、tools wide 偵測找到）"
+  },
+  {
+   "source": "市場段落換成程式許可證表後，描述舊 AI 表或寫死張數、程式改寫判斷不了的句子（2026-11-24）",
+   "drug": "lovastatin",
+   "file": "lovastatin.md",
+   "status": "open",
+   "claim": "La lista puede estar incompleta (se indican al menos 2 registros).",
+   "reason": "寫 2 張，事實層共 5 張（有效 4）",
+   "added": "2026-11-24",
+   "note": "句子是 AI 對舊許可證表（2026-11-24 已換成 scripts/sync_license_tables.py 產生的程式表）的說明，或寫死的張數，屬廠商／劑型子集、「ambos／los tres」數詞、有保留（al menos、parcial）或點名舊表沒列的品項，依規則不自動改寫；要改請對照程式表與事實層寫查核紀錄（scripts/rewrite_license_counts.py、tools wide 偵測找到）"
+  },
+  {
+   "source": "市場段落換成程式許可證表後，描述舊 AI 表或寫死張數、程式改寫判斷不了的句子（2026-11-24）",
+   "drug": "methylprednisolone",
+   "file": "methylprednisolone.md",
+   "status": "open",
+   "claim": "Ambos productos son de vía oral.",
+   "reason": "說「Ambos productos」，事實層共 8 張",
+   "added": "2026-11-24",
+   "note": "句子是 AI 對舊許可證表（2026-11-24 已換成 scripts/sync_license_tables.py 產生的程式表）的說明，或寫死的張數，屬廠商／劑型子集、「ambos／los tres」數詞、有保留（al menos、parcial）或點名舊表沒列的品項，依規則不自動改寫；要改請對照程式表與事實層寫查核紀錄（scripts/rewrite_license_counts.py、tools wide 偵測找到）"
+  },
+  {
+   "source": "市場段落換成程式許可證表後，描述舊 AI 表或寫死張數、程式改寫判斷不了的句子（2026-11-24）",
+   "drug": "mometasone",
+   "file": "mometasone.md",
+   "status": "open",
+   "claim": "El sexto registro (DIFENZ®, crema tópica, tetrinoína combinaciones) no se muestra en la tabla por el límite de 5 filas.",
+   "reason": "點名舊 AI 表沒列出的品項／第幾張，程式表的列與排序不同",
+   "added": "2026-11-24",
+   "note": "句子是 AI 對舊許可證表（2026-11-24 已換成 scripts/sync_license_tables.py 產生的程式表）的說明，或寫死的張數，屬廠商／劑型子集、「ambos／los tres」數詞、有保留（al menos、parcial）或點名舊表沒列的品項，依規則不自動改寫；要改請對照程式表與事實層寫查核紀錄（scripts/rewrite_license_counts.py、tools wide 偵測找到）"
+  },
+  {
+   "source": "市場段落換成程式許可證表後，描述舊 AI 表或寫死張數、程式改寫判斷不了的句子（2026-11-24）",
+   "drug": "mupirocin",
+   "file": "mupirocin.md",
+   "status": "open",
+   "claim": "Fabricante: MEGALABS COLOMBIA S.A.S.",
+   "reason": "只講一個廠商（舊 AI 表只列 1 張），程式表列 4 張、共 4 張",
+   "added": "2026-11-24",
+   "note": "句子是 AI 對舊許可證表（2026-11-24 已換成 scripts/sync_license_tables.py 產生的程式表）的說明，或寫死的張數，屬廠商／劑型子集、「ambos／los tres」數詞、有保留（al menos、parcial）或點名舊表沒列的品項，依規則不自動改寫；要改請對照程式表與事實層寫查核紀錄（scripts/rewrite_license_counts.py、tools wide 偵測找到）"
+  },
+  {
+   "source": "市場段落換成程式許可證表後，描述舊 AI 表或寫死張數、程式改寫判斷不了的句子（2026-11-24）",
+   "drug": "naphazoline",
+   "file": "naphazoline.md",
+   "status": "open",
+   "claim": "*(Se muestran los 5 principales de 8 registros.)*",
+   "reason": "寫 8 張，事實層共 20 張（有效 17）",
+   "added": "2026-11-24",
+   "note": "句子是 AI 對舊許可證表（2026-11-24 已換成 scripts/sync_license_tables.py 產生的程式表）的說明，或寫死的張數，屬廠商／劑型子集、「ambos／los tres」數詞、有保留（al menos、parcial）或點名舊表沒列的品項，依規則不自動改寫；要改請對照程式表與事實層寫查核紀錄（scripts/rewrite_license_counts.py、tools wide 偵測找到）"
+  },
+  {
+   "source": "市場段落換成程式許可證表後，描述舊 AI 表或寫死張數、程式改寫判斷不了的句子（2026-11-24）",
+   "drug": "sertaconazole",
+   "file": "sertaconazole.md",
+   "status": "open",
+   "claim": "Según los datos compilados, ambos registros sanitarios listados figuran como vigentes.",
+   "reason": "說「ambos registros」，事實層共 5 張",
+   "added": "2026-11-24",
+   "note": "句子是 AI 對舊許可證表（2026-11-24 已換成 scripts/sync_license_tables.py 產生的程式表）的說明，或寫死的張數，屬廠商／劑型子集、「ambos／los tres」數詞、有保留（al menos、parcial）或點名舊表沒列的品項，依規則不自動改寫；要改請對照程式表與事實層寫查核紀錄（scripts/rewrite_license_counts.py、tools wide 偵測找到）"
+  },
+  {
+   "source": "市場段落換成程式許可證表後，描述舊 AI 表或寫死張數、程式改寫判斷不了的句子（2026-11-24）",
+   "drug": "sunitinib",
+   "file": "sunitinib.md",
+   "status": "open",
+   "claim": "Los cuatro registros pertenecen a HB Human Bioscience S.A.S.",
+   "reason": "說「Los cuatro registros」，事實層共 20 張",
+   "added": "2026-11-24",
+   "note": "句子是 AI 對舊許可證表（2026-11-24 已換成 scripts/sync_license_tables.py 產生的程式表）的說明，或寫死的張數，屬廠商／劑型子集、「ambos／los tres」數詞、有保留（al menos、parcial）或點名舊表沒列的品項，依規則不自動改寫；要改請對照程式表與事實層寫查核紀錄（scripts/rewrite_license_counts.py、tools wide 偵測找到）"
+  },
+  {
+   "source": "市場段落換成程式許可證表後，描述舊 AI 表或寫死張數、程式改寫判斷不了的句子（2026-11-24）",
+   "drug": "terazosin",
+   "file": "terazosin.md",
+   "status": "open",
+   "claim": "Fabricante: Laboratorio Franco Colombiano Lafrancol S.A.S.",
+   "reason": "只講一個廠商（舊 AI 表只列 1 張），程式表列 2 張、共 2 張",
+   "added": "2026-11-24",
+   "note": "句子是 AI 對舊許可證表（2026-11-24 已換成 scripts/sync_license_tables.py 產生的程式表）的說明，或寫死的張數，屬廠商／劑型子集、「ambos／los tres」數詞、有保留（al menos、parcial）或點名舊表沒列的品項，依規則不自動改寫；要改請對照程式表與事實層寫查核紀錄（scripts/rewrite_license_counts.py、tools wide 偵測找到）"
   }
  ]
 }

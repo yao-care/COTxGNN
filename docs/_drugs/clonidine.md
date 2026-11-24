@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "clonidine"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "Tourette syndrome", "obesity disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "migraine disorder", "manic bipolar affective disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clonidine: nueva indicación predicha, Síndrome faciodigitogenital (faciodigitogenital syndrome) (nivel de evidencia L5). Indicación original: CLONIDINA"
 ---
 
@@ -74,10 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Según los datos compilados, existen registros sanitarios de clonidina en tabletas (lista posiblemente parcial):
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20015994 | CLONIDIN® TABLETA | Tableta | CLONIDINA |
-| 19995299 | CLONIDINA TABLETAS POR 0.150 MG. | Tableta | CLONIDINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19971867 | CLONIDINA150 MCG | TABLETA | CLONIDINA | Vigente |
+| 19995299 | CLONIDINA TABLETAS POR 0.150 MG. | TABLETA | CLONIDINA | Vigente |
+| 20013809 | CLONIDINA 0.15 MG TABLETA | TABLETA | CLONIDINA | Vigente |
+| 20048027 | CATAPRESAN ® TABLETAS (COMPRIMIDOS) | TABLETA | CLONIDINA | Vigente |
+| 35591 | CLONIDINA CLORHIDRATO TABLETAS 0.150 MG. | TABLETA | CLONIDINA | Vigente |
+
+Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

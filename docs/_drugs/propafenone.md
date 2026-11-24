@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 538
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Propafenone: nueva indicación predicha, Trastorno afectivo bipolar maníaco (nivel de evidencia L5). Indicación original: Propafenona"
 monitor_inn: "propafenone"
 predicted_indications: ["manic bipolar affective disorder", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
@@ -86,9 +86,17 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 45821 | RYTMONORM® 300 MG TABLETAS | Tableta cubierta (gragea) | Propafenona |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19969143 | PROPAFEN®TABLETA RECUBIERTA 150 MG | TABLETA RECUBIERTA | PROPAFENONA | Vigente |
+| 45820 | RYTMONORM® 150 MG TABLETAS | TABLETA CUBIERTA (GRAGEA) | PROPAFENONA | Vigente |
+| 45821 | RYTMONORM® 300 MG TABLETAS | TABLETA CUBIERTA (GRAGEA) | PROPAFENONA | Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

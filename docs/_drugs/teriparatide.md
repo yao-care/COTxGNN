@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 619
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Teriparatide: nueva indicación predicha, Úlcera duodenal (nivel de evidencia L5). Indicación original: Osteoporosis en pacientes con alto riesgo de fractura"
 monitor_inn: "Teriparatide"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
@@ -86,9 +86,18 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20177308 | TERROSA® (GEDEON RICHTER PLC) | Solución inyectable | Teriparatide (sin texto de indicación detallado); estado: vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19941419 | FORTEO® 250MCG/ML | SOLUCION INYECTABLE | TERIPARATIDE | Vigente |
+| 20100066 | BIOSETT ® | SOLUCION INYECTABLE | TERIPARATIDE | Vigente |
+| 20177308 | TERROSA® | SOLUCION INYECTABLE | TERIPARATIDE | Vigente |
+| 20264281 | POSTEO® TERIPARATIDA 250 µG/ML SOLUCION INYECTABLE | INYECTABLES | TERIPARATIDE | Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

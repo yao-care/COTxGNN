@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 238
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "dronedarone"
 predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
 description: "Dronedarone: nueva indicación predicha, Trastorno de accidente cerebrovascular (stroke disorder) (nivel de evidencia L4). Indicación original: DRONEDARONA"
@@ -82,9 +82,15 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20014930 | MULTAQ® 400 MG tabletas recubiertas | Tableta recubierta | DRONEDARONA (sin texto de indicación detallado) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20014930 | MULTAQ® 400 MGTABLETAS RECUBIERTAS | TABLETA RECUBIERTA | DRONEDARONA | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

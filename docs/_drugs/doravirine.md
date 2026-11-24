@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Doravirine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Doravirine: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) (nivel de evidencia L5). Indicación original: LAMIVUDINA. TENOFOVIR D…"
 ---
 
@@ -71,9 +71,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20178856 | PIFELTRO 100MG TABLETAS RECUBIERTAS | Tableta recubierta | DORAVIRINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20160000 | DELSTRIGO®TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | LAMIVUDINA. TENOFOVIR DISOPROXILO Y DORAVIRINA | Vigente |
+| 20178856 | PIFELTRO 100MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | DORAVIRINA | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

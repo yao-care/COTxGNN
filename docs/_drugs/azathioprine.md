@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 82
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Azathioprine"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
 description: "Azathioprine: nueva indicación predicha, Colobomatous microphthalmia-rhizomelic dysplasia syndrome (nivel de evidencia L5). Indicación original: AZATIOPRINA"
@@ -111,12 +111,18 @@ Varios ensayos de Fase 3 fueron terminados antes de tiempo o tienen inscripción
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20141515 | AZATIOPRINA 50 MG TABLETA RECUBIERTA | Tableta recubierta | AZATIOPRINA |
-| 46266 | IMURAN® 50 MG | Tableta recubierta | AZATIOPRINA |
-| 20137850 | AZAKEM® 50 MG TABLETAS | Tableta | AZATIOPRINA |
-| 20023909 | AZATIOPRINA 50 MG | Tableta | AZATIOPRINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20023909 | AZATIOPRINA50 MG | TABLETA | AZATIOPRINA | Vigente |
+| 20137850 | AZAKEM® 50 MG TABLETAS | TABLETA | AZATIOPRINA | Vigente |
+| 20141515 | AZATIOPRINA 50 MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | AZATIOPRINA | Vigente |
+| 46266 | IMURAN® 50 MG | TABLETA RECUBIERTA | AZATIOPRINA | Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

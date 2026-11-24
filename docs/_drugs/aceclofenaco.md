@@ -8,7 +8,7 @@ indication_count: 7
 drugbank_id: DB06736
 monitor_inn: "Aceclofenac"
 predicted_indications: ["brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx", "Kummell disease"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Aceclofenaco: nueva indicación predicha, Síndrome de braquiolmia-amelogénesis imperfecta (brachyolmia-amelogenesis imperfecta syndrome) (nivel de evidencia L5). Indicación original: ACECLOFENAC"
 ---
 
@@ -75,12 +75,18 @@ Actualmente no hay literatura relacionada disponible.
 
 Los 4 registros sanitarios incluidos en los datos están vigentes.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20042307 | ZERODOL® CR | Tableta de liberación prolongada | ACECLOFENAC |
-| 20057217 | CYTOBLOC 100 MG TABLETA RECUBIERTA | Tableta recubierta | ACECLOFENAC |
-| 20173922 | AINEDIX AC® 100 MG | Tableta recubierta | ACECLOFENAC |
-| 20176016 | ZERODOL P | Tableta recubierta | PARACETAMOL COMBINACIONES EXCLUYENDO SICOLEPTICOS |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20042307 | ZERODOL® CR | TABLETA DE LIBERACION PROLONGADA | ACECLOFENAC | Vigente |
+| 20057217 | CYTOBLOC 100 MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | ACECLOFENAC | Vigente |
+| 20173922 | AINEDIX AC® 100 MG | TABLETA RECUBIERTA | ACECLOFENAC | Vigente |
+| 20176016 | ZERODOL P | TABLETA RECUBIERTA | PARACETAMOL COMBINACIONES EXCLUYENDO SICOLEPTICOS | Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

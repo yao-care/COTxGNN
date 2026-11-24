@@ -84,12 +84,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20093424 | TAREXA® | Solución inyectable | Ácido tranexámico |
-| 20232276 | Ácido tranexámico inyectable 100 mg/ml | Solución inyectable | Ácido tranexámico |
-| 20145093 | GOTRONAL® 500 mg tableta | Tableta | Ácido tranexámico |
-| 20187927 | Ácido tranexámico solución inyectable | Solución inyectable | Ácido tranexámico |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19983141 | TRANEXAM® 500 MG | TABLETA | TRANEXAMICO ACIDO | Vigente |
+| 20093424 | TAREXA® | SOLUCION INYECTABLE | TRANEXAMICO ACIDO | Vigente |
+| 20105871 | CLINTRANEX® | SOLUCION INYECTABLE | TRANEXAMICO ACIDO | Vigente |
+| 20108229 | ACIDO TRANEXAMICO INY 500 MG / 5 ML | SOLUCION INYECTABLE | TRANEXAMICO ACIDO | Vigente |
+| 20119728 | ZOCILED® 500 MG / 5 ML SOLUCIÓN INYECTABLE | SOLUCION INYECTABLE | TRANEXAMICO ACIDO | Vigente |
+
+Se muestran 5 de 14 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

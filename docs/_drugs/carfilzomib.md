@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 138
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CARFILZOMIB"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "vulvar melanoma (disease)", "melanoma"]
 description: "Carfilzomib: nueva indicación predicha, CMM7 (nivel de evidencia L5). Indicación original: CARFILZOMIB"
@@ -103,12 +103,19 @@ Los tres últimos estudios ofrecen solo apoyo indirecto o contextual. El último
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20087826 | KYPROLIS® (Amgen Inc.) | Polvo liofilizado | Carfilzomib (vigente) |
-| 20260831 | DETAMZIB® 60 MG (Sandoz GmbH) | Polvo liofilizado | Carfilzomib (vigente) |
-| 20252729 | GLENCARFIL® (Glenmark Pharmaceuticals Colombia S.A.S.) | Polvo liofilizado para reconstituir a solución inyectable | Carfilzomib (vigente) |
-| 20228189 | ALCAF ELEA® 60 MG (Laboratorio Elea Colombia S.A.S.) | Polvo liofilizado para reconstituir a solución inyectable | Carfilzomib (vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20087826 | KYPROLIS® | POLVO LIOFILIZADO | CARFILZOMIB | Vigente |
+| 20171879 | XAFILRED 60 MG/VIAL | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | CARFILZOMIB | Vigente |
+| 20228189 | ALCAF ELEA® 60MGPOLVO LIOFILIZADO | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | CARFILZOMIB | Vigente |
+| 20243309 | CARPRIN® 60 MG/VIAL. POLVO LIOFILIZADO PARA INYECCIÓN | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | CARFILZOMIB | Vigente |
+| 20252729 | GLENCARFIL® | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | CARFILZOMIB | Vigente |
+
+Se muestran 5 de 7 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 
@@ -159,12 +166,6 @@ La predicción de CMM7 se basa únicamente en el modelo (nivel L5), sin ensayos 
 - Generar evidencia preclínica específica (líneas celulares, modelos in vivo) y valorar la indicación más amplia de melanoma (L4) como pregunta de investigación
 - Aclarar la situación regulatoria y la disponibilidad del producto en Colombia, dado que está comercializado y cuenta con 7 registros vigentes
 
-<!-- review:begin co-lic-20261112-carfilzomib-1 -->
-
-> **Corrección de revisión (2026-11-12)**: Texto original: "4 registros vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 7 registros sanitarios, de los cuales 7 vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261112-carfilzomib-1 -->
-
 <!-- review:begin log -->
 
 ## Registro de revisión
@@ -175,7 +176,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los cuatro registros se encuentran cancelados; actualmente no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "los registros sanitarios en Colombia están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 4 → 7 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 4 → 7 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Kyprolis (carfilzomib) prescribing information, Onyx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ea66eb30-e665-4693-99a1-a9d3b4bbe2d6) |
 
 <!-- review:end log -->

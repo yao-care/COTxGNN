@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 122
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bupropion: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (TDAH) (nivel de evidencia L2). Indicación original: BUPROPION"
 monitor_inn: "bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
@@ -108,11 +108,18 @@ La alta puntuación de TxGNN (0.9999) es coherente con este solapamiento mecaní
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19967275 | WELLBUTRIN® XL 150 MG | Tableta de liberación prolongada | BUPROPION (vigente) |
-| 19967276 | WELLBUTRIN® XL 300 MG | Tableta de liberación prolongada | BUPROPION (vigente) |
-| 20058938 | BUPRION® 150 MG | Tableta de liberación prolongada | BUPROPION (vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19906266 | ODRANAL® 150 MG TABLETASRECUBIERTAS DE LIBERACION PROLONGADA | TABLETA DE LIBERACION PROLONGADA | BUPROPION | Vigente |
+| 19967275 | WELLBUTRIN® XL 150 MG | TABLETA DE LIBERACION PROLONGADA | BUPROPION | Vigente |
+| 19967276 | WELLBUTRIN® XL 300 MG | TABLETA DE LIBERACION PROLONGADA | BUPROPION | Vigente |
+| 20058938 | BUPRION ®150 MG | TABLETA DE LIBERACION PROLONGADA | BUPROPION | Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

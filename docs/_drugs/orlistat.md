@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 486
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Orlistat: nueva indicación predicha, Hipervitaminosis (nivel de evidencia L5). Indicación original: Orlistat"
 monitor_inn: "ORLISTAT"
 predicted_indications: ["hypervitaminosis"]
@@ -78,11 +78,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20102710 | FINOBES ® 120 MG. (vigente) | Cápsula dura | Orlistat |
-| 19979566 | ORLISTAT 120 MG CÁPSULAS (vigente) | Cápsula dura | Orlistat |
-| 20091755 | ANGIOSTAT 120 MG CÁPSULAS (vigente) | Cápsula dura | Orlistat |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19931314 | ORLISTAT 120 MG | CAPSULA BLANDA | ORLISTAT | Vigente |
+| 19962743 | DISGRASIL® | CAPSULA DURA | ORLISTAT | Vigente |
+| 19979566 | ORLISTAT 120 MG CÁPSULAS | CAPSULA DURA | ORLISTAT | Vigente |
+| 19997128 | ORLISTAT 120 MG CAPSULAS | CAPSULA DURA | ORLISTAT | Vigente |
+| 20002171 | ORLISTAT CÁPSULAS 120 MG. | CAPSULA DURA | ORLISTAT | Vigente |
+
+Se muestran 5 de 15 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -115,12 +123,6 @@ La predicción se basa solo en el modelo y en un vínculo farmacológico plausib
 - Definir qué tipos de hipervitaminosis (vitaminas liposolubles) serían objetivo y compararlos con el tratamiento estándar.
 - Aclarar la situación regulatoria, dado que el medicamento está comercializado y cuenta con 14 licencias vigentes, y evaluar la compatibilidad de vías de administración y formulaciones.
 
-<!-- review:begin co-lic-20261112-orlistat-1 -->
-
-> **Corrección de revisión (2026-11-12)**: Texto original: "3 licencias vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 15 registros sanitarios, de los cuales 14 vigentes y 1 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261112-orlistat-1 -->
-
 <!-- review:begin log -->
 
 ## Registro de revisión
@@ -131,7 +133,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "que en Colombia contaba con registros sanitarios como medicamento de un solo principio activo (todos hoy cancelados)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "los registros sanitarios en Colombia están todos cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 3 → 14 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 3 → 14 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

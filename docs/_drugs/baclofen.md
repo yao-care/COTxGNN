@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 89
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Baclofen: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (TDAH) (nivel de evidencia L5). Indicación original: El registro INVIMA solo indica \"BACLOFENO\"…"
 monitor_inn: "BACLOFEN"
 predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine dependence"]
@@ -98,12 +98,19 @@ No se identificó ningún ensayo controlado aleatorizado. La mayoría son revisi
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20081314 | SPASTIFEN | Tableta | BACLOFENO |
-| 20122985 | DISTENTIA® | Tableta | BACLOFENO |
-| 20085857 | BACLOFEN® 10MG/5ML | Solución inyectable | BACLOFENO |
-| 20217686 | BACLENO® 10MG/5ML SOLUCIÓN DE PERFUSIÓN | Solución inyectable | BACLOFENO |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20074580 | BACLOFEN ® 0.05 MG/ 1 ML | SOLUCION INYECTABLE | BACLOFENO | Vigente |
+| 20081314 | SPASTIFEN | TABLETA | BACLOFENO | Vigente |
+| 20085854 | BACLOFEN 10 MG/ 20 ML | SOLUCION INYECTABLE | BACLOFENO | Vigente |
+| 20085857 | BACLOFEN® 10MG/5ML | SOLUCION INYECTABLE | BACLOFENO | Vigente |
+| 20122985 | DISTENTIA® | TABLETA | BACLOFENO | Vigente |
+
+Se muestran 5 de 9 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 
@@ -140,12 +147,6 @@ La predicción es solo computacional (L5): no hay ensayos clínicos de baclofeno
 - Evaluar la viabilidad regulatoria, dado que el medicamento está comercializado y cuenta con 9 registros vigentes.
 - Un plan de seguridad específico para población pediátrica y para interacciones con depresores del sistema nervioso central.
 
-<!-- review:begin co-lic-20261112-baclofen-1 -->
-
-> **Corrección de revisión (2026-11-12)**: Texto original: "4 registros vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 9 registros sanitarios, de los cuales 9 vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261112-baclofen-1 -->
-
 <!-- review:begin log -->
 
 ## Registro de revisión
@@ -156,7 +157,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los cuatro registros están **cancelados**, por lo que actualmente no hay producto de baclofeno con registro vigente en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "no hay registros vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 4 → 9 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 4 → 9 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

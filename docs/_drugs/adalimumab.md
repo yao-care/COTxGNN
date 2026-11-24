@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ADALIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Adalimumab: nueva indicación predicha, hipermovilidad del coxis (hypermobility of coccyx) (nivel de evidencia L5). Indicación original: ADALIMUMAB"
 ---
 
@@ -72,11 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20208777 | ADALIM® ADALIMUMAB 40 MG/0.8 ML solución para inyección | Solución inyectable | No detallada en los datos locales |
-| 20242648 | ATENFE® | Solución inyectable | No detallada en los datos locales |
-| 20215451 | HULIO® 40 MG solución para inyección | Solución inyectable | No detallada en los datos locales |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20108951 | HUMIRA® AC | SOLUCION INYECTABLE | ADALIMUMAB | Vigente |
+| 20149227 | AMGEVITA® | SOLUCION INYECTABLE | ADALIMUMAB | Vigente |
+| 20169597 | ABRILADA® | SOLUCION INYECTABLE | ADALIMUMAB | Vigente |
+| 20175556 | HYRIMOZ® 40MG | SOLUCION INYECTABLE | ADALIMUMAB | Vigente |
+| 20177223 | IDACIO | SOLUCION INYECTABLE | ADALIMUMAB | Vigente |
+
+Se muestran 5 de 11 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 La lista de registros puede ser parcial.
 

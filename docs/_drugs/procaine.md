@@ -87,9 +87,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20026717 | SATYA®AL 1% | Solución inyectable | Procaína |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19989473 | VERSENIKCAINA 1%. | SOLUCION INYECTABLE | PROCAINA | Vigente |
+| 19996990 | VERSENIKCAINA® 2% | SOLUCION INYECTABLE | PROCAINA | Vigente |
+| 20013866 | PROCAINA INYECTABLE AL 1% | SOLUCION INYECTABLE | PROCAINA | Vigente |
+| 20026717 | SATYA®AL 1% | SOLUCION INYECTABLE | PROCAINA | Vigente |
+| 20061114 | PROCAINA AL 1% SOLUCION INYECTABLE | SOLUCION INYECTABLE | PROCAINA | Vigente |
+
+Se muestran 5 de 7 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

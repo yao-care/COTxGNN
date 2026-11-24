@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "AMBRISENTAN"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "malformation syndrome with odontal and/or periodontal component", "hypotrichosis simplex of the scalp", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ambrisentan: nueva indicación predicha, Malformación arteriovenosa pulmonar (pulmonary arteriovenous malformation (disease)) (nivel de evidencia L5). Indicación original: AMBRISENTAN"
 ---
 
@@ -72,13 +72,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20151854 | XETAM® 5 MG TABLETAS RECUBIERTAS | Tableta recubierta | Ambrisentan |
-| 20113623 | BRISEN® 5 MG TABLETA CUBIERTA | Tableta cubierta con película | Ambrisentan |
-| 20199803 | PULLMOVRIS® 5 MG TABLETA RECUBIERTA | Tableta recubierta | Ambrisentan |
-| 20140495 | INFINIX® 10 MG | Tableta recubierta | Ambrisentan |
-| 20200038 | PULLMOVRIS® 10 MG TABLETA RECUBIERTA | Tableta recubierta | Ambrisentan |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20001582 | VOLIBRIS® 10 MG TABLETAS RECUBIERTAS | TABLETA | AMBRISENTAN | Vigente |
+| 20113623 | BRISEN® 5 MG TABLETACUBIERTA | TABLETA CUBIERTA CON PELICULA | AMBRISENTAN | Vigente |
+| 20113625 | BRISEN® 10 | TABLETA CUBIERTA CON PELICULA | AMBRISENTAN | Vigente |
+| 20140491 | INFINIX® 5 MG | TABLETA RECUBIERTA | AMBRISENTAN | Vigente |
+| 20140495 | INFINIX® 10 MG | TABLETA RECUBIERTA | AMBRISENTAN | Vigente |
+
+Se muestran 5 de 11 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 La lista de registros puede ser parcial.
 

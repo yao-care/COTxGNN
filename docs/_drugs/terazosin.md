@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 615
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Terazosin: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (nivel de evidencia L5). Indicación original: TERAZOSINA"
 monitor_inn: "terazosin"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine disorder", "migraine with brainstem aura", "Raynaud disease", "Ambras type hypertrichosis universalis congenita", "manic bipolar affective disorder", "kyphoscoliotic heart disease"]
@@ -91,9 +91,16 @@ Como referencia, en otras indicaciones predichas hay evidencia limitada:
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1980002 | HYTRIN® TABLETAS 5 MG | Tableta | TERAZOSINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 1980002 | HYTRIN® TABLETAS 5 MG | TABLETA | TERAZOSINA | Vigente |
+| 19979237 | TERAZOSINA 5 MG TABLETAS | TABLETA | TERAZOSINA | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 Fabricante: Laboratorio Franco Colombiano Lafrancol S.A.S.
 

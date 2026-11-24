@@ -74,10 +74,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20203375 | SELMIVIR® | Tableta recubierta | Abacavir/zidovudina/lamivudina |
-| 20140104 | KAVIDUVIR® tableta recubierta | Tableta recubierta | Lamivudina y abacavir |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20008845 | ABACAVIR 600 MG Y LAMIVUDINA 300 MG | TABLETA CUBIERTA CON PELICULA | LAMIVUDINA Y ABACAVIR | Vigente |
+| 20081132 | TRIUMEQ® 50 MG / 600 MG / 300 MG | TABLETA RECUBIERTA | LAMIDUBINA. ABACAVIR Y DOLUTEGRAVIR | Vigente |
+| 20085320 | ABACAVIR 600 MG + LAMIVUDINA 300 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | LAMIVUDINA Y ABACAVIR | Vigente |
+| 20103720 | ABALAM® 600 MG/300MG TABLETAS CUBIERTAS | TABLETA CUBIERTA CON PELICULA | LAMIVUDINA Y ABACAVIR | Vigente |
+| 20140104 | KAVIDUVIR®TABLETA RECUBIERTA | TABLETA RECUBIERTA | LAMIVUDINA Y ABACAVIR | Vigente |
+
+Se muestran 5 de 7 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

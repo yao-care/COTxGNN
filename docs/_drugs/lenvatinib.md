@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 389
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "lenvatinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
 description: "Lenvatinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L3). Indicación original: LENVATINIB"
@@ -78,9 +78,15 @@ Es importante señalar que la contribución individual de lenvatinib no puede ai
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20165217 | LENVIMA 4 MG | Cápsula dura | LENVATINIB (sin indicación detallada) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20165217 | LENVIMA ® 4 MG | CAPSULA DURA | LENVATINIB | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

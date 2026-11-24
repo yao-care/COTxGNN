@@ -72,13 +72,19 @@ Los candidatos que el modelo de aprendizaje profundo TxGNN (puntuación ≥ 0.99
 
 ## Información de Mercado en Colombia
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 20198205 | PARACETAMOL | SOLUCIÓN CONCENTRADA PARA INFUSIÓN | Vigente |
-| 20048683 | PARACETAMOL (ACETAMINOFEN) | SOLUCION INYECTABLE | Vigente |
-| 20039397 | PARACETAMOL | SOLUCION INYECTABLE | Vigente |
+<!-- licenses:begin -->
 
-Los datos solo contienen parte de los registros; la lista puede estar incompleta.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19721 | PAX® CALIENTE NOCHE GRANULADO SABORA PANELA LIMÓN Y SABOR A LIMON | GRANULOS | PARACETAMOL COMBINACIONES EXCLUYENDO SICOLEPTICOS | Vigente |
+| 19901027 | DOLOFEN FORTE | TABLETA | PARACETAMOL COMBINACIONES EXCLUYENDO SICOLEPTICOS | Vigente |
+| 19906457 | DOLEX® CONTRA LOS SINTOMAS DE LA GRIPA TABLETAS. | TABLETA | PARACETAMOL COMBINACIONES EXCLUYENDO SICOLEPTICOS | Vigente |
+| 19908960 | ACETAMINOFENCONCAFEINA TABLETAS. | TABLETA | PARACETAMOL COMBINACIONES EXCLUYENDO SICOLEPTICOS | Vigente |
+| 19908973 | ACETAMINOFEN GOTAS | SOLUCION ORAL | PARACETAMOL | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

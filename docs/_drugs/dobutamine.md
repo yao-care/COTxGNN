@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 227
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dobutamine: nueva indicación predicha, Alopecia (nivel de evidencia L5). Indicación original: DOBUTAMINA"
 monitor_inn: "dobutamine"
 predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "headache disorder", "hypertrichosis (disease)", "migraine disorder"]
@@ -88,17 +88,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 El medicamento está comercializado y cuenta con 4 registros sanitarios vigentes.
 
-<!-- review:begin co-lic-20261112-dobutamine-1 -->
+<!-- licenses:begin -->
 
-> **Corrección de revisión (2026-11-12)**: Texto original: "3 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 4 registros sanitarios, de los cuales 4 vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19941379 | DOBUTAMINA 250 MG/20 ML INYECTABLE | SOLUCION INYECTABLE | DOBUTAMINA | Vigente |
+| 19942779 | DOBUTAMINA 250 MG / 5 ML SOLUCION INYECTABLE | SOLUCION INYECTABLE | DOBUTAMINA | Vigente |
+| 20068276 | AUTOBOD | SOLUCION INYECTABLE | DOBUTAMINA | Vigente |
+| 20096467 | DOCARIP® 1 MG/ML | SOLUCION INYECTABLE | DOBUTAMINA | Vigente |
 
-<!-- review:end co-lic-20261112-dobutamine-1 -->
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20068276 | AUTOBOD (Laboratorio Blaskov SAS) | Solución inyectable | DOBUTAMINA |
-| 20096467 | DOCARIP® 1 MG/ML (ADS Pharma S.A.S.) | Solución inyectable | DOBUTAMINA |
-| 19941379 | DOBUTAMINA 250 MG/20 ML INYECTABLE (Laboratorios Ryan de Colombia S.A.S.) | Solución inyectable | DOBUTAMINA |
+<!-- licenses:end -->
 
 ---
 
@@ -139,7 +140,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "el producto no tiene registros vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 3 → 4 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 3 → 4 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Dobutamine Hydrochloride In Dextrose (dobutamine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b17b98b-e06d-42ed-925f-69aa2699dead) |
 
 <!-- review:end log -->

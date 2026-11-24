@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Cabergoline"
 predicted_indications: ["progeria-short stature-pigmented nevi syndrome", "pituitary cancer", "cerebral palsy, spastic quadriplegic", "glaucoma"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Cabergoline: nueva indicación predicha, Síndrome de progeria, talla baja y nevos pigmentados (progeria-short stature-pigmented nevi syndrome) (nivel de evidencia L5). Indicación original: CABERGOLINA"
 ---
 
@@ -80,6 +80,20 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
+
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19966533 | ALACTIN® 0.5 MG | TABLETA | CABERGOLINA | Vigente |
+| 20009704 | CABERTRIX ® 0.5 MGCOMPRIMIDOS | TABLETA | CABERGOLINA | Vigente |
+| 20021802 | PROLASTAT® TABLETAS | TABLETA | CABERGOLINA | Vigente |
+| 20097607 | CABERGOLINA 0.5 MG | TABLETA | CABERGOLINA | Vigente |
+| 223599 | DOSTINEX 0.5 MG TABLETAS | TABLETA | CABERGOLINA | Vigente |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 La cabergolina figura como **comercializada** en Colombia. El registro local corresponde a una presentación oral en tableta de un solo principio activo, y la lista de registros puede ser parcial.
 

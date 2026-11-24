@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 156
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Ciclesonide: nueva indicación predicha, Eccema atópico (nivel de evidencia L5). Indicación original: Ciclesonida"
 monitor_inn: "Ciclesonide"
 predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "bronchitis", "contact dermatitis"]
@@ -104,10 +104,16 @@ Actualmente no hay literatura relacionada disponible para eccema atópico.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20137070 | CICLOVENT® 160 MCG | Solución para inhalación | Ciclesonida | Vigente |
-| 20137073 | CICLOVENT® 80 MCG | Solución para inhalación | Ciclesonida | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20137070 | CICLOVENT® 160 MCG | SOLUCION PARA INHALACION | CICLESONIDA | Vigente |
+| 20137073 | CICLOVENT® 80 MCG | SOLUCION PARA INHALACION | CICLESONIDA | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

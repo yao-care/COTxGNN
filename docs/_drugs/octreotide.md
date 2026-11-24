@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 477
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Octreotide: nueva indicación predicha, Queratosis folicular invertida vulvar (nivel de evidencia L5). Indicación original: Octreotido"
 monitor_inn: "Octreotide"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
@@ -98,9 +98,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20007947 | SANDOSTATIN® AMPOLLAS 0.1 MG | Solución inyectable | Octreotido |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20007947 | SANDOSTATIN® AMPOLLAS 0.1 MG | SOLUCION INYECTABLE | OCTREOTIDO | Vigente |
+| 228254 | SANDOSTATIN® LAR20 MGMICROESFERAS PARA INYECCION | POLVO ESTERIL PARA RECONSTITUIR A SUSPENSIONINYECTABLE | OCTREOTIDO | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

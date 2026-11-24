@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 584
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "sertaconazole"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
 description: "Sertaconazole: nueva indicación predicha, Enfermedad infecciosa ectotrix (ectothrix infectious disease) (nivel de evidencia L5). Indicación original: SERTACONAZOL"
@@ -74,10 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Según los datos compilados, ambos registros sanitarios listados figuran como vigentes. La lista puede ser parcial.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 19971199 | ZALAIN® 300MG ÓVULOS VAGINALES | Óvulo | Sertaconazol | Vigente |
-| 19972887 | ZALAIN® 2% CREMA | Crema tópica | Sertaconazol | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19971199 | ZALAIN® 300MG ÓVULOS VAGINALES. | OVULO | SERTACONAZOL | Vigente |
+| 19972887 | ZALAIN® 2% CREMA | CREMA TOPICA | SERTACONAZOL | Vigente |
+| 20087542 | SEMAZIN® ÓVULOS | OVULO | SERTACONAZOL | Vigente |
+| 20095772 | XERTACOL® CREMA. | CREMA TOPICA | SERTACONAZOL | Vigente |
+| 20135075 | SEMAZIN® | OVULO | SERTACONAZOL | Vigente |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

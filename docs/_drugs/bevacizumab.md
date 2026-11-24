@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BEVACIZUMAB"
 predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tumor of testis and paratestis", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "cystic neoplasm", "nasal cavity inverting papilloma", "mesenchymoma", "schwannoma of jugular foramen"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Bevacizumab: nueva indicación predicha, Neoplasia de epiglotis (epiglottis neoplasm) (nivel de evidencia L5). Indicación original: BEVACIZUMAB"
 ---
 
@@ -71,12 +71,19 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 Los registros sanitarios recopilados para este fármaco son de producto único, en forma de solución concentrada para infusión. El listado puede ser parcial.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 20255030 | BEVASTIM ® | Solución concentrada para infusión |
-| 20237880 | ABXEDA E | Solución concentrada para infusión |
-| 20254120 | VEGZELMA® | Solución concentrada para infusión |
-| 19956001 | AVASTIN® concentrado para solución para infusión 400 mg/16 ml | Solución concentrada para infusión |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19956000 | AVASTINCONCENTRADO PARA SOLUCION PARA INFUSION 100 MG/4 ML | SOLUCIÓN CONCENTRADA PARA INFUSIÓN | BEVACIZUMAB | Vigente |
+| 19956001 | AVASTIN® CONCENTRADO PARA SOLUCION PARA INFUSIÓN 400 MG/16 ML | SOLUCIÓN CONCENTRADA PARA INFUSIÓN | BEVACIZUMAB | Vigente |
+| 20149223 | MVASI® | SOLUCION INYECTABLE | BEVACIZUMAB | Vigente |
+| 20159173 | ZIRABEV® CONCENTRADO PARA SOLUCIÓN PARA INFUSIÓN.. | SOLUCIÓN CONCENTRADA PARA INFUSIÓN | BEVACIZUMAB | Vigente |
+| 20169679 | PERSIVIA® CONCENTRADO PARA SOLUCIÓN PARA INFUSIÓN | SOLUCIÓN CONCENTRADA PARA INFUSIÓN | BEVACIZUMAB | Vigente |
+
+Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

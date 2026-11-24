@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 651
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ustekinumab: nueva indicación predicha, Dermatitis (nivel de evidencia L2). Indicación original: No especificada en el registro sanitario (solo figura el nombre del p…"
 monitor_inn: "USTEKINUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
@@ -99,10 +99,16 @@ Los datos clínicos en dermatitis atópica muestran resultados inconsistentes y 
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20264141 | UZTOK® | Solución inyectable | Ustekinumab (sin detalle de indicación) |
-| 20009810 | STELARA® 45 MG/0.5 ML | Solución inyectable | Ustekinumab (sin detalle de indicación) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20009810 | STELARA® 45 MG/0.5 ML | SOLUCION INYECTABLE | USTEKINUMAB | Vigente |
+| 20264141 | UZTOK® | SOLUCION INYECTABLE | USTEKINUMAB | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

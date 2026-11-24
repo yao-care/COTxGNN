@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 370
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LACOSAMIDE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
 description: "Lacosamide: nueva indicación predicha, Manic bipolar affective disorder (nivel de evidencia L5). Indicación original: LACOSAMIDA"
@@ -86,11 +86,19 @@ Por todo ello, el mecanismo podría ser aplicable a la migraña, aunque la confi
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20010104 | VIMPAT® 150 MG TABLETAS (vigente) | Tableta recubierta | LACOSAMIDA |
-| 20187322 | LACOLEP 150 (vigente) | Tableta recubierta | LACOSAMIDA |
-| 20093299 | LACOTEM 50 MG COMPRIMIDOS RECUBIERTOS (vigente) | Tableta recubierta | LACOSAMIDA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20010102 | VIMPAT® TABLETAS 50 MG | TABLETA RECUBIERTA | LACOSAMIDA | Vigente |
+| 20010103 | VIMPAT® 100 MG TABLETAS | TABLETA RECUBIERTA | LACOSAMIDA | Vigente |
+| 20010104 | VIMPAT® 150 MG TABLETAS | TABLETA RECUBIERTA | LACOSAMIDA | Vigente |
+| 20010105 | VIMPAT® TABLETAS 200 MG | TABLETA RECUBIERTA | LACOSAMIDA | Vigente |
+| 20010106 | VIMPAT® SOLUCION PARA INFUSION 200 MG/20 ML | SOLUCION INYECTABLE | LACOSAMIDA | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

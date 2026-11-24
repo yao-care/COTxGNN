@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 634
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tramadol: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (nivel de evidencia L5). Indicación original: Tramadol"
 monitor_inn: "TRAMADOL"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
@@ -83,11 +83,19 @@ Actualmente no hay literatura relacionada disponible para la indicación princip
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20080775 | TRAMASINDOL® 100 MG/ML SOLUCIÓN ORAL | Solución oral | Tramadol (vigente) |
-| 20154923 | DICLOFENACO SÓDICO / TRAMADOL HCL 25 MG/25 MG | Tableta recubierta | Tramadol y diclofenaco (vigente) |
-| 19948799 | FASTFEN JARABE | Jarabe | Paracetamol, combinaciones excluyendo sicolépticos (vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19509 | TRAMAL ® CAPSULAS. | CAPSULA DURA | TRAMADOL | Vigente |
+| 19510 | TRAMAL 100 SOLUCIÓN PARA INYECCIÓN. | SOLUCION INYECTABLE | TRAMADOL | Vigente |
+| 19512 | TRAMAL INYECTABLE 50 MG | SOLUCION INYECTABLE | TRAMADOL | Vigente |
+| 19513 | TRAMAL ® GOTAS | SOLUCION ORAL | TRAMADOL | Vigente |
+| 19924285 | TRAMADOL CLORHIDRATO AMPOLLAS 50 MG / 1 ML. | SOLUCION INYECTABLE | TRAMADOL | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

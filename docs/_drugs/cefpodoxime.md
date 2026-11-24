@@ -76,10 +76,16 @@ Actualmente no hay literatura relacionada disponible.
 
 La lista puede ser parcial: se muestran los registros incluidos en los datos compilados.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19992617 | DOXCEF® SUSPENSION | Polvo para reconstituir a suspensión oral | CEFPODOXIMA |
-| 20248427 | CEFPODOXIME PROXETIL 200 MG TABLETAS RECUBIERTAS | Tableta recubierta | CEFPODOXIMA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19992617 | DOXCEF® SUSPENSION | POLVO PARA RECONSTITUIR A SUSPENSION ORAL | CEFPODOXIMA | Vigente |
+| 19992953 | DOXCEF ® 100 | TABLETA RECUBIERTA | CEFPODOXIMA | Vigente |
+
+Se muestran 2 de 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

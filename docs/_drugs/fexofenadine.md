@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 283
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Fexofenadine: nueva indicación predicha, Conjuntivitis por rosácea (nivel de evidencia L5). Indicación original: Fexofenadina (antihistamínico)"
 monitor_inn: "Fexofenadine"
 predicted_indications: ["rosacea conjunctivitis"]
@@ -76,10 +76,19 @@ Sin embargo, este vínculo es **hipotético**. La conjuntivitis por rosácea dep
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20235810 | NASOFREE® | Tableta recubierta | Fexofenadina | Vigente |
-| 20191835 | ALERMED® D | Tableta recubierta | Fenilefrina combinaciones | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 1984916 | ALLEGRA® 120 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | FEXOFENADINA | Vigente |
+| 19935423 | FEXOFENADINA 180 MG | TABLETA RECUBIERTA | FEXOFENADINA | Vigente |
+| 19935424 | FEXOFENADINA 120 MG | TABLETA RECUBIERTA | FEXOFENADINA | Vigente |
+| 19985853 | RINOLAST® SUSPENSION | SUSPENSION ORAL | FEXOFENADINA | Vigente |
+| 19991076 | RINOLAST D® TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | FENILEFRINA COMBINACIONES | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

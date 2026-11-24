@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "CANDESARTAN CILEXETIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Candesartan Cilexetil: nueva indicación predicha, enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: CANDESARTAN"
 ---
 
@@ -74,9 +74,19 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 El estado de mercado en Colombia figura como comercializado. Los registros pueden ser parciales.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19995395 | CANDEPREX® 16 MG TABLETAS | Tableta | CANDESARTAN |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19995394 | CANDEPREX® 8 MG TABLETAS | TABLETA | CANDESARTAN | Vigente |
+| 19995395 | CANDEPREX® 16 MG TABLETAS | TABLETA | CANDESARTAN | Vigente |
+| 19997937 | CANDEPREX H® | TABLETA | CANDESARTAN Y DIURETICOS | Vigente |
+| 20036200 | CANDEPREX 32 MG TABLETAS | TABLETA | CANDESARTAN | Vigente |
+| 20014382 | MINART ®32 MG TABLETA | TABLETA RECUBIERTA | CANDESARTAN | Temp. no comerc - Vigente |
+
+Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

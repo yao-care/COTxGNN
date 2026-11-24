@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 408
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "chronic follicular conjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "Angelucci syndrome"]
 description: "Loperamide: nueva indicación predicha, Conjuntivitis contagiosa aguda (acute contagious conjunctivitis) (nivel de evidencia L5). Indicación original: LOPERAMIDA"
@@ -95,12 +95,19 @@ Como referencia, para otras indicaciones predichas existe la siguiente literatur
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 34537 | Loperamida Tabletas por 2 mg (Laboratorios Ecar S.A.) | Tableta | Loperamida (vigente) |
-| 207751 | Loperamida Clorhidrato 2 mg Tabletas (Laproff S.A.S.) | Tableta | Loperamida (vigente) |
-| 20046526 | Loperamida Clorhidrato 2 mg (Genfar S.A.) | Tableta | Loperamida (vigente) |
-| 19924345 | Pangetan NF Tabletas (Tecnoquímicas S.A.) | Tableta | Loperamida (vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19924345 | PANGETAN NF TABLETAS | TABLETA | LOPERAMIDA | Vigente |
+| 20046526 | LOPERAMIDA CLORHIDRATO2MG | TABLETA | LOPERAMIDA | Vigente |
+| 207751 | LOPERAMIDA CLORHIDRATO 2MG TABLETAS | TABLETA | LOPERAMIDA | Vigente |
+| 34537 | LOPERAMIDA TABLETAS POR 2 MG. | TABLETA | LOPERAMIDA | Vigente |
+| 35895 | LOPERAMIDA CLORHIDRATO 2 MG | TABLETA | LOPERAMIDA | Vigente |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

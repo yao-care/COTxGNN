@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 491
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Oxymetazoline: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L5). Indicación original: Oximetazolina"
 monitor_inn: "oxymetazoline"
 predicted_indications: ["nasal cavity disease", "headache disorder"]
@@ -88,13 +88,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 21491 | NASIVIN® INFANTIL | Solución nasal | Oximetazolina |
-| 20018967 | OXIMETAZOLINA HCI 0.025% SOLUCIÓN NASAL | Solución nasal | Oximetazolina |
-| 20191379 | ACICLER® SOLUCIÓN NASAL 0.05% | Solución nasal | Oximetazolina |
-| 19928879 | CLARIVIS | Solución oftálmica | Oximetazolina |
-| 35490 | AFRIN® SOLUCIÓN NASAL ADULTOS 0.05% | Solución nasal | Oximetazolina |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19928879 | CLARIVIS | SOLUCION OFTALMICA | OXIMETAZOLINA | Vigente |
+| 19945250 | NASIVIN® BABY | SOLUCIONNASAL | OXIMETAZOLINA | Vigente |
+| 19947581 | NAFAZOL SOLUCION NASAL | SOLUCIONNASAL | OXIMETAZOLINA | Vigente |
+| 19961714 | OXIMETAZOLINA CLORHIDRATO 0.025 % SOLUCION NASAL | SOLUCIONNASAL | OXIMETAZOLINA | Vigente |
+| 19961715 | OXIMETAZOLINA CLORHIDRATO 0.050% SOLUCION NASAL | SOLUCIONNASAL | OXIMETAZOLINA | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

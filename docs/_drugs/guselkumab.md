@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "GUSELKUMAB"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "renal osteodystrophy", "congenital hypotrichosis with juvenile macular dystrophy", "primary release disorder of platelets", "Glanzmann thrombasthenia", "non-renal secondary hyperparathyroidism"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Guselkumab: nueva indicación predicha, Osteoporosis inducida por fármacos (drug-induced osteoporosis) (nivel de evidencia L5). Indicación original: GUSELKUMAB"
 ---
 
@@ -72,9 +72,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20123370 | TREMFYA® | Solución inyectable | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20123370 | TREMFYA® | SOLUCION INYECTABLE | GUSELKUMAB | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

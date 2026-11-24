@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "CAPTOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Captopril: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: CAPTOPRIL"
 ---
 
@@ -76,12 +76,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Registros sanitarios disponibles. La lista puede ser parcial.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Fabricante |
-|---------|------|------|-----------|
-| 32119 | CAPTOPRIL 50 MG | Tableta | Tecnoquímicas S.A. |
-| 31803 | CAPTOPRIL 25 MG | Tableta | Tecnoquímicas S.A. |
-| 54973 | CAPTOPRIL TABLETAS 50 MG | Tableta | Laboratorios Bussié S.A. |
-| 54972 | CAPTOPRIL 25 MG TABLETAS | Tableta | Laboratorios Bussié S.A. |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 31803 | CAPTOPRIL25 MG | TABLETA | CAPTOPRIL | Vigente |
+| 32119 | CAPTOPRIL 50 MG | TABLETA | CAPTOPRIL | Vigente |
+| 54972 | CAPTOPRIL 25 MG TABLETAS | TABLETA | CAPTOPRIL | Vigente |
+| 54973 | CAPTOPRIL TABLETAS 50 MG | TABLETA | CAPTOPRIL | Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

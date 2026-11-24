@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 468
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nimodipine: nueva indicación predicha, Hipercolesterolemia familiar homocigota (nivel de evidencia L5). Indicación original: NIMODIPINA"
 monitor_inn: "nimodipine"
 predicted_indications: ["homozygous familial hypercholesterolemia", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -84,10 +84,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 19907710 | NISOM® 30 MG TABLETAS RECUBIERTAS | Tableta recubierta | NIMODIPINA | Vigente |
-| 19966420 | NIMODIPINO 30MG TABLETAS | Tableta recubierta | NIMODIPINA | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19907710 | NISOM® 30 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | NIMODIPINA | Vigente |
+| 19966420 | NIMODIPINO 30MG TABLETAS | TABLETA RECUBIERTA | NIMODIPINA | Vigente |
+| 19967738 | ORBEREC ® 30MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | NIMODIPINA | Vigente |
+| 19976349 | NIMODIPINO 30 MG | TABLETA RECUBIERTA | NIMODIPINA | Vigente |
+| 40927 | NIDIP® 30 MG | TABLETA RECUBIERTA | NIMODIPINA | Vigente |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

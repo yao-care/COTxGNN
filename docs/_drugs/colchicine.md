@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Colchicine"
 predicted_indications: ["Plasmodium falciparum malaria", "dermatofibrosarcoma protuberans"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Colchicine: nueva indicación predicha, Malaria por Plasmodium falciparum (Plasmodium falciparum malaria) (nivel de evidencia L5). Indicación original: COLCHICINA"
 ---
 
@@ -76,13 +76,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 La lista puede ser parcial.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20055858 | COLCHICINA 0.5 MG TABLETAS | Tableta | COLCHICINA |
-| 20253882 | SOVUSTA® | Tableta | COLCHICINA |
-| 20010760 | COLCHICINA TABLETAS 0.5 MG | Tableta | COLCHICINA |
-| 36324 | COLCHIMEDIO 0.5 MG TABLETAS | Tableta | COLCHICINA |
-| 19948217 | COLCHICINA 0.5 MG TABLETAS | Tableta | COLCHICINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19931153 | COLCHICINA 0.5 MG. TABLETAS | TABLETA | COLCHICINA | Vigente |
+| 19948217 | COLCHICINA 0.5 MG TABLETAS | TABLETA | COLCHICINA | Vigente |
+| 20010760 | COLCHICINA TABLETAS 0.5 MG | TABLETA | COLCHICINA | Vigente |
+| 20055858 | COLCHICINA 0.5 MG TABLETAS | TABLETA | COLCHICINA | Vigente |
+| 20253882 | SOVUSTA® | TABLETA | COLCHICINA | Vigente |
+
+Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

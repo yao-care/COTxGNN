@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 529
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Prednicarbate: nueva indicación predicha, Queratosis folicular invertida de la vulva (nivel de evidencia L5). Indicación original: PREDNICARBATO"
 monitor_inn: "Prednicarbate"
 predicted_indications: ["vulvar inverted follicular keratosis", "annular atrophic lichen planus", "lichen planus pigmentosus", "hypertrophic lichen planus", "lichen planus pemphigoides", "2-hydroxyethyl methacrylate sensitization", "primary cutaneous B-cell lymphoma"]
@@ -81,10 +81,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 19975547 | SKINPRED® EMULSION GEL | Emulsión | PREDNICARBATO | Vigente |
-| 20033013 | PEITEL® 0.25 % CREMA | Crema tópica | PREDNICARBATO | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19975547 | SKINPRED ® EMULSION GEL | EMULSIÓN | PREDNICARBATO | Vigente |
+| 20033013 | PEITEL® 0.25 % CREMA | CREMA TOPICA | PREDNICARBATO | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

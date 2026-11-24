@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 635
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TRANDOLAPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
 description: "Trandolapril: nueva indicación predicha, Malignant hypertensive renal disease (nivel de evidencia L5). Indicación original: TRANDOLAPRIL Y BLOQUEADORES DE CANALES DEL CALCIO"
@@ -107,9 +107,15 @@ Para la indicación principal (hipertensión renovascular maligna) no hay litera
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 230359 | TARKA® SR TABLETAS | Tableta de liberación prolongada | Trandolapril y bloqueadores de canales del calcio |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 230359 | TARKA® SR TABLETAS | TABLETA DE LIBERACION PROLONGADA | TRANDOLAPRIL Y BLOQUEADORES DE CANALES DEL CALCIO | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "diphenhydramine"
 predicted_indications: ["rosacea conjunctivitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Diphenhydramine: nueva indicación predicha, Conjuntivitis rosácea (rosacea conjunctivitis) (nivel de evidencia L5). Indicación original: DIFENHIDRAMINA"
 ---
 
@@ -71,12 +71,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20228058 | VICKZZZ® CAPSULAS | Cápsula blanda | DIFENHIDRAMINA |
-| 20232904 | DIFENHIDRAMINA CLORHIDRATO 50 MG/5ML SOLUCIÓN INYECTABLE | Solución inyectable | DIFENHIDRAMINA |
-| 20096034 | DIFENHIDRAMINA CLORHIDRATO 50 MG CÁPSULAS. | Cápsula dura | DIFENHIDRAMINA |
-| 20120374 | NORAVER® NF NOCHE | Gránulos | PARACETAMOL COMBINACIONES EXCLUYENDO SICOLEPTICOS |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19919306 | DIFENHIDRAMINA CLORHIDRATO 12.5MG /5MLJARABE | JARABE | DIFENHIDRAMINA | Vigente |
+| 19929219 | DIFENHIDRAMINA 50MG CÁPSULAS | CAPSULA DURA | DIFENHIDRAMINA | Vigente |
+| 19934507 | DIFENHIDRAMINA JARABE | JARABE | DIFENHIDRAMINA | Vigente |
+| 19955895 | DIFENHIDRAMINA CLORHIDRATO JARABE | JARABE | DIFENHIDRAMINA | Vigente |
+| 19962547 | DIFENHIDRAMINA HCL SOLUCION INYECTABLE 10 MG/ ML | SOLUCION INYECTABLE | DIFENHIDRAMINA | Vigente |
+
+Se muestran 5 de 12 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 La lista de registros puede ser parcial.
 

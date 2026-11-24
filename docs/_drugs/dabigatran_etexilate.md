@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 189
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dabigatran Etexilate: nueva indicación predicha, Colangitis esclerosante (nivel de evidencia L5). Indicación original: Dabigatrán etexilato"
 monitor_inn: "dabigatran etexilate"
 predicted_indications: ["sclerosing cholangitis", "obsolete familial combined hyperlipidemia", "hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "primary release disorder of platelets"]
@@ -84,11 +84,17 @@ Actualmente no hay ensayos clínicos relacionados registrados para colangitis es
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20188200 | DAGITRAN® 150 MG CAPSULAS DURAS | Cápsula dura | Dabigatrán etexilato |
-| 20195074 | DABIFIB® 150 MG CÁPSULA DURA | Cápsula dura | Dabigatrán etexilato |
-| 20218080 | NORMOLET® 110 MG CÁPSULA DURA | Cápsula dura | Dabigatrán etexilato |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20188200 | DAGITRAN® 150 MG CAPSULAS DURAS | CAPSULA DURA | DABIGATRAN ETEXILATO | Vigente |
+| 20195074 | DABIFIB® 150 MG CÁPSULA DURA | CAPSULA DURA | DABIGATRAN ETEXILATO | Vigente |
+| 20218080 | NORMOLET®110MG CAPSULA DURA | CAPSULA DURA | DABIGATRAN ETEXILATO | Temp. no comerc - Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

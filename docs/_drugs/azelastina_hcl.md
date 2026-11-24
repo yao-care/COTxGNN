@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 84
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 predicted_indications: []
 ---
 
@@ -89,6 +89,18 @@ Actualmente no hay literatura relacionada disponible.
 ---
 
 ## Información de Mercado en Colombia
+
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20122250 | AZEFLU® SUSPENSION SPRAY NASAL | SUSPENSION NASAL | COMBINACIONES | Vigente |
+| 20142975 | AZEC® | SUSPENSION NASAL | FLUTICASONE. COMBINACIONES | Vigente |
+| 20204445 | AZELASTINA HCI 137 µG.+ FLUTICAZONA PROPINATO 50 µG | SUSPENSION NASAL | COMBINACIONES | Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 El campo `total_licenses` es 0 y no se recuperaron licencias en la consulta a TFDA/INVIMA del 2026-03-29.
 

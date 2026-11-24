@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "DURVALUMAB"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Durvalumab: nueva indicación predicha, Adenocarcinoma del ligamento uterino (nivel de evidencia L5). Indicación original: Sin indicación detallada en la licencia"
 ---
 
@@ -85,9 +85,15 @@ Literatura de contexto asociada a la enfermedad en posición 2 (carcinoma endoce
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20143749 | IMFINZI® 50 MG/ML CONCENTRADO PARA SOLUCIÓN PARA INFUSIÓN | Solución concentrada para infusión | DURVALUMAB (sin detalle de indicación en el registro) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20143749 | IMFINZI® 50 MG/ML CONCENTRADO PARA SOLUCIÓN PARA INFUSIÓN | SOLUCIÓN CONCENTRADA PARA INFUSIÓN | DURVALUMAB | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

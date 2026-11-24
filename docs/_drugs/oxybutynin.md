@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 490
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Oxybutynin: nueva indicación predicha, Síndrome de piernas inquietas (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto indica solo \"OXIBUTININA\")"
 monitor_inn: "Oxybutynin"
 predicted_indications: ["restless legs syndrome", "gastroduodenitis", "peptic ulcer disease"]
@@ -91,9 +91,19 @@ Actualmente no hay literatura relacionada disponible para el síndrome de pierna
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20099350 | SINORIN® | Tableta cubierta con película | OXIBUTININA | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19908056 | MUTUM CR® 10 MG | TABLETA DE LIBERACION PROLONGADA | OXIBUTININA | Vigente |
+| 19930572 | UROPRAN® 5 MG TABLETA | TABLETA | OXIBUTININA | Vigente |
+| 20002599 | DELIFON TABLETAS | TABLETA RECUBIERTA | OXIBUTININA | Vigente |
+| 20099350 | SINORIN® | TABLETA CUBIERTA CON PELICULA | OXIBUTININA | Vigente |
+| 47188 | DELIFON ® JARABE | JARABE | OXIBUTININA | Vigente |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

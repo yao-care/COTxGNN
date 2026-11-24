@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 41
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ALPROSTADIL"
 predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", "congenital valvular dysplasia", "straddling or overriding tricuspid valve", "tricuspid valve prolapse (disease)", "anomaly of the tricuspid subvalvular apparatus", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "heart septal defect", "endemic goiter"]
 description: "Alprostadil: nueva indicación predicha, Malformación aórtica (aortic malformation) (nivel de evidencia L5). Indicación original: ALPROSTADIL"
@@ -81,19 +81,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Alprostadil se encuentra comercializado en Colombia, con 5 registros vigentes. La lista de registros puede ser parcial.
 
-<!-- review:begin co-lic-20261112-alprostadil-1 -->
+<!-- licenses:begin -->
 
-> **Corrección de revisión (2026-11-12)**: Texto original: "4 registros vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 6 registros sanitarios, de los cuales 5 vigentes y 1 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19954356 | CAVERJECT 20 MCG | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | ALPROSTADIL | Vigente |
+| 20093133 | DALVEOL 20 MCG/MLSOLUCION INYECTABLE | INYECTABLES | ALPROSTADIL | Vigente |
+| 20256489 | VESGLANDIN-E®500 MCG/ML SOLUCIÓN INYECTABLE | SOLUCION INYECTABLE | ALPROSTADIL | Vigente |
+| 20270758 | ALPROSTADIL 20 MCG / ML SOLUCIÓN INYECTABLE | SOLUCION INYECTABLE | ALPROSTADIL | Vigente |
+| 27612 | PROSTIN VR PEDIÁTRICO SOLUCIÓN INYECTABLE | SOLUCION INYECTABLE | ALPROSTADIL | Vigente |
 
-<!-- review:end co-lic-20261112-alprostadil-1 -->
+Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20270758 | Alprostadil 20 mcg/mL solución inyectable (ADS Pharma) | Solución inyectable | ALPROSTADIL (vigente) |
-| 20093133 | Dalveol 20 mcg/mL solución inyectable (Closter Pharma) | Inyectables | ALPROSTADIL (vigente) |
-| 19926427 | Alprostapint 20 µg ampollas (Pint Pharma) | Solución concentrada para infusión | ALPROSTADIL (vigente) |
-| 20256489 | Vesglandin-E 500 mcg/mL solución inyectable (Vesalius Pharma) | Solución inyectable | ALPROSTADIL (vigente) |
-| 19954356 | Caverject 20 mcg (Pfizer) | Polvo liofilizado para reconstituir a solución inyectable | ALPROSTADIL (vigente) |
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -123,7 +123,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-12 | Número de registros vigentes: 4 → 5 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 4 → 5 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Caverject (alprostadil) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a295fc1e-d82c-4f44-bc2d-a552bf594c98) |
 
 <!-- review:end log -->

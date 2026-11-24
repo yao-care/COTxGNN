@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 217
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Diazepam: nueva indicación predicha, Insomnio (nivel de evidencia L3). Indicación original: Diazepam"
 monitor_inn: "DIAZEPAM"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "hallucinogen abuse", "antidepressant type abuse", "barbiturate abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
@@ -91,9 +91,15 @@ Se muestran las publicaciones más relevantes para insomnio (se excluyeron traba
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20019151 | Diazepam solución inyectable 10 mg/2 mL (Laboratorio Biosano S.A.) | Solución inyectable | Diazepam |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20019151 | DIAZEPAM SOLUCION INYECTABLE 10 MG /2ML | SOLUCION INYECTABLE | DIAZEPAM | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

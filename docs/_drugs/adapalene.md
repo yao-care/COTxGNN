@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 28
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Adapalene: nueva indicación predicha, Zinc plasmático elevado (nivel de evidencia L5). Indicación original: Adapaleno"
 monitor_inn: "ADAPALENE"
 predicted_indications: ["zinc, elevated plasma"]
@@ -70,10 +70,19 @@ Además, el adapaleno tópico tiene baja absorción sistémica, lo que hace aún
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 208651 | Differin® Gel | Gel tópico | Adapalene | Vigente |
-| 19996391 | Zudenina® Plus Gel | Gel tópico | Adapaleno. Combinaciones | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19959553 | ZUDENINA® GEL | GEL TOPICO | ADAPALENE | Vigente |
+| 19983817 | ZUDENINA® F | GEL TOPICO | ADAPALENE | Vigente |
+| 19995797 | DIFFERIN® 0.3% GEL | GEL TOPICO | ADAPALENE | Vigente |
+| 19996391 | ZUDENINA® PLUS GEL | GEL TOPICO | ADAPALENO. COMBINACIONES | Vigente |
+| 20001247 | EPIDUO® | GEL TOPICO | ADAPALENO. COMBINACIONES | Vigente |
+
+Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

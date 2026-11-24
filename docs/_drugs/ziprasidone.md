@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 669
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "ziprasidone"
 predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "Tourette syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "syndromic myopia"]
 description: "Ziprasidone: nueva indicación predicha, Tricotilomanía (trichotillomania) (nivel de evidencia L5). En Colombia, registros sanitarios del INVIMA: 1 (vigentes: 0; además, temporalmente no comercializados: 1)"
@@ -81,9 +81,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19922147 | GEODON® CAPSULAS 80 MG (Aspen Colombiana S.A.S.) | Cápsula dura | ZIPRASIDONA (sin indicación detallada) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19922147 | GEODON® CAPSULAS 80 MG | CAPSULA DURA | ZIPRASIDONA | Temp. no comerc - Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 Este registro tiene estado **cancelado**. Actualmente no hay registros vigentes de ziprasidona en los datos consultados.
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 494
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Paliperidone: nueva indicación predicha, Distrofia retiniana con o sin anomalías extraoculares (nivel de evidencia L5). Indicación original: Paliperidona"
 monitor_inn: "Paliperidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
@@ -79,9 +79,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19983120 | INVEGA® Tabletas de Liberación Prolongada 6 mg (Janssen Cilag S.A.) | Tableta de liberación prolongada | Paliperidona |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19983119 | INVEGA® TABLETAS DE LIBERACION PROLONGADA 3 MG | TABLETA DE LIBERACION PROLONGADA | PALIPERIDONA | Vigente |
+| 19983120 | INVEGA® TABLETAS DE LIBERACION PROLONGADA 6 MG | TABLETA DE LIBERACION PROLONGADA | PALIPERIDONA | Vigente |
+| 19983122 | INVEGA® TABLETAS DE LIBERACION PROLONGADA DE 9 MG | TABLETA DE LIBERACION PROLONGADA | PALIPERIDONA | Vigente |
+| 20020732 | INVEGASUSTENNA® SUSPENSIÓN DE LIBERACIÓN PROLONGADA DE 75 MG | SUSPENSION INYECTABLE | PALIPERIDONA | Vigente |
+| 20020734 | INVEGA SUSTENNA® SUSPENSIONDE LIBERACIONPROLONGADA DE 100 MG | SUSPENSION INYECTABLE | PALIPERIDONA | Vigente |
+
+Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

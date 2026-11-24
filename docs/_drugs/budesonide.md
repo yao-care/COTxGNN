@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 119
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Budesonide: nueva indicación predicha, Eccema atópico (nivel de evidencia L5). Indicación original: Formoterol y budesonida (combinación inhalada para enfermedad respira…"
 monitor_inn: "Budesonide"
 predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
@@ -100,11 +100,19 @@ Se muestran las 10 publicaciones más relevantes de un total de 20 recuperadas. 
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20120802 | FORACORT 100 (Cipla Ltd) | Suspensión para inhalación | Formoterol y budesonida (vigente) |
-| 20039772 | BUDENOFALK® Espuma Rectal (Dr. Falk Pharma GmbH) | Aerosoles | Budesonida (vigente) |
-| 20102025 | COMPLEBREZ 6 mcg/100 mcg inhalación presurizada (Glenmark Pharmaceuticals Colombia S.A.S.) | Aerosoles | Formoterol y budesonida (vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 1980184 | PULMICORT® 0.5 MG / ML | SUSPENSION PARA NEBULIZACION | BUDESONIDA | Vigente |
+| 19906224 | B-CORT® 200 AEROSOL | AEROSOLES | BUDESONIDA | Vigente |
+| 19908024 | BUDENOFALK® 3 MG CÁPSULAS | CAPSULA DURA | BUDESONIDA | Vigente |
+| 19918906 | SYMBICORT TURBUHALER (R) 160/4.5/MCG/DOSIS | POLVO PARA INHALACION | FORMOTEROL Y BUDENOSINA | Vigente |
+| 19932996 | AEROVIAL® CÁPSULA DURA PARA ADMINISTRAR POR INHALADOR | CAPSULA DURA | FORMOTEROL Y BUDENOSINA | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

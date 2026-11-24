@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 100
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Benzocaine: nueva indicación predicha, Conjuntivitis papilar (nivel de evidencia L5). Indicación original: Benzocaína"
 monitor_inn: "Benzocaine"
 predicted_indications: ["papillary conjunctivitis"]
@@ -72,10 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19979716 | MOTAS DORMOLAS SOLUCION | Solución bucal | Benzocaína |
-| 20161662 | NORAVER MF | Tableta bucal | Cetilpiridinio cloruro + combinación |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19939513 | NORAVER P TABLETAS DE DISOLUCIÓN BUCAL | TABLETA BUCAL | CETILPIRIDINO CLORURO + COMBINACION | Vigente |
+| 20049882 | OTIFIX® SOLUCION OTICA | SOLUCION OTICA | COMBINACIONES | Vigente |
+| 20067385 | BUCOSEPTOL N | TABLETA BUCAL | BENZOCAINA | Vigente |
+| 20161662 | NORAVER MF | TABLETA BUCAL | CETILPIRIDINO CLORURO + COMBINACION | Vigente |
+| 20188546 | ISEPTIC® GARGANTA | TABLETA MASTICABLE | CETILPIRIDINO CLORURO + COMBINACION | Vigente |
+
+Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

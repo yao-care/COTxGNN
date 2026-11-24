@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Doxylamine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Doxylamine: nueva indicación predicha, enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: DOXILAMINA. COMBINACIONES"
 ---
 
@@ -69,9 +69,18 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20069694 | PLURIAMIN® TABLETAS DE LIBERACIÓN RETARDADA | Tableta de liberación retardada | DOXILAMINA. COMBINACIONES |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20069694 | PLURIAMIN® TABLETAS DE LIBERACIÓN RETARDADA | TABLETA DE LIBERACION RETARDADA | DOXILAMINA. COMBINACIONES | Vigente |
+| 20071791 | PLENIV® | CÁPSULA BLANDA DE GELATINA CON CUBIERTA ENTÉRICA | DOXILAMINA. COMBINACIONES | Vigente |
+| 20205655 | BONJESTA® XR 20MG | TABLETA DE LIBERACION PROLONGADA | DOXILAMINA. COMBINACIONES | Vigente |
+| 20218557 | TABCIN® EXTRA FUERTE NOCHE | CAPSULA BLANDA | PARACETAMOL | Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 La lista de registros puede ser parcial.
 

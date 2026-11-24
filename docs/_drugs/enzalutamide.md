@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Enzalutamide"
 predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Enzalutamide: nueva indicación predicha, leiomioma de próstata (prostate leiomyoma) (nivel de evidencia L5). Indicación original: ENZALUTAMIDA"
 ---
 
@@ -72,13 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 El estado de mercado en Colombia figura como comercializado. El número de registros puede ser parcial. Registros sanitarios principales:
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20224710 | XTANDI® 40MG TABLETAS | Tableta recubierta | ENZALUTAMIDA |
-| 20198992 | ENZALUTAMIDA 40MG CÁPSULAS BLANDAS | Cápsula blanda | ENZALUTAMIDA |
-| 20199474 | ZALTRENSA® 40 MG | Cápsula blanda | ENZALUTAMIDA |
-| 20178073 | XTANDI 80 MG TABLETAS | Tableta recubierta | ENZALUTAMIDA |
-| 20195068 | ENZASTIK® 40 MG CÁPSULAS BLANDAS | Cápsula blanda | ENZALUTAMIDA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20178073 | XTANDI 80 MG TABLETAS | TABLETA RECUBIERTA | ENZALUTAMIDA | Vigente |
+| 20195068 | ENZASTIK® 40 MG CÁPSULAS BLANDAS | CAPSULA BLANDA | ENZALUTAMIDA | Vigente |
+| 20196062 | ALUDEL® 40 MG CÁPSULAS BLANDAS | CAPSULA BLANDA | ENZALUTAMIDA | Vigente |
+| 20198992 | ENZALUTAMIDA 40MG CÁPSULAS BLANDAS | CAPSULA BLANDA | ENZALUTAMIDA | Vigente |
+| 20199336 | MAVARA® 40MG CÁPSULAS BLANDAS | CAPSULA BLANDA | ENZALUTAMIDA | Vigente |
+
+Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "chlorambucil"
 predicted_indications: ["ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Chlorambucil: nueva indicación predicha, ALK-positive large B-cell lymphoma (nivel de evidencia L5). Indicación original: CLORAMBUCIL"
 ---
 
@@ -72,9 +72,15 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 46264 | LEUKERAN TABLETAS RECUBIERTAS 2 MG | Tableta recubierta | CLORAMBUCIL |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 46264 | LEUKERAN TABLETAS RECUBIERTAS 2 MG | TABLETA RECUBIERTA | CLORAMBUCIL | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

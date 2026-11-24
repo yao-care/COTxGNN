@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 483
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Olopatadine: nueva indicación predicha, Conjuntivitis rosácea (nivel de evidencia L5). Indicación original: Olopatadina"
 monitor_inn: "olopatadine"
 predicted_indications: ["rosacea conjunctivitis"]
@@ -84,13 +84,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19989876 | Olopatadina 0.1% solución oftálmica | Solución oftálmica | Olopatadina |
-| 20211985 | Olopatadina 0.2% solución oftálmica | Solución oftálmica | Olopatadina |
-| 20056010 | Pataler® 0.2% solución oftálmica | Solución oftálmica | Olopatadina |
-| 20012348 | Olopat 0.2% | Solución oftálmica | Olopatadina |
-| 20203885 | Oloftal PF® | Solución oftálmica | Olopatadina |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19987145 | ALAP® 0.2% | SOLUCION OFTALMICA | OLOPATADINA | Vigente |
+| 19989876 | OLOPATADINA 0.1% SOLUCION OFTALMICA | SOLUCION OFTALMICA | OLOPATADINA | Vigente |
+| 19996873 | OLODINA® | SOLUCION OFTALMICA | OLOPATADINA | Vigente |
+| 20012348 | OLOPAT 0.2% | SOLUCION OFTALMICA | OLOPATADINA | Vigente |
+| 20026100 | OLOFTAL® 0.2% SOLUCION OFTALMICA | SOLUCION OFTALMICA | OLOPATADINA | Vigente |
+
+Se muestran 5 de 18 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -105,12 +111,6 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 
 **Justificación:**
 La predicción tiene un puntaje alto, pero no cuenta con ensayos clínicos ni literatura que la respalden (nivel L5). Además, el medicamento está comercializado en Colombia, con 17 registros sanitarios vigentes.
-
-<!-- review:begin co-lic-20261112-olopatadine-1 -->
-
-> **Corrección de revisión (2026-11-12)**: Texto original: "8 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 18 registros sanitarios, de los cuales 17 vigentes y 1 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261112-olopatadine-1 -->
 
 **Para avanzar se necesita:**
 - Revisión sistemática de literatura sobre antihistamínicos o estabilizadores de mastocitos en rosácea ocular
@@ -130,7 +130,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los 8 registros sanitarios están cancelados; no hay productos vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "(Se muestran 5 de los 8 registros, todos con estado cancelado.)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 8 → 17 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 8 → 17 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: olopatadine hydrochloride prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3aa27224-7b72-38eb-0c21-b8d73525ee85) |
 
 <!-- review:end log -->

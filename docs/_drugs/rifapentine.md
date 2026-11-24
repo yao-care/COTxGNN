@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 559
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Rifapentine: nueva indicación predicha, Lepra (nivel de evidencia L3). Indicación original: Rifapentin"
 monitor_inn: "Rifapentine"
 predicted_indications: ["leprosy", "female breast carcinoma", "Prinzmetal angina", "HIV infectious disease", "neuroretinitis", "vestibular neuronitis", "motor nerve neuritis", "brachial plexus neuritis", "dermatofibrosarcoma protuberans", "rheumatoid arthritis"]
@@ -98,9 +98,15 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20242586 | RIFANIL-INH® Tabletas Recubiertas (Vesalius Pharma S.A.S.) | Tableta recubierta | RIFAPENTIN |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20242586 | RIFANIL-INH® TABLETAS RECUBIERTAS. | TABLETA RECUBIERTA | RIFAPENTIN | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

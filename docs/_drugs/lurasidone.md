@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 417
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "lurasidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "syndromic myopia", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Lurasidone: nueva indicación predicha, Retinal dystrophy with or without extraocular anomalies (nivel de evidencia L5). Indicación original: LURASIDONA"
@@ -95,11 +95,19 @@ Por lo tanto, el puntaje alto de TxGNN y la cobertura en guías clínicas respal
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20167332 | LURALEP 40 MG TABLETA RECUBIERTA | Tableta recubierta | LURASIDONA | Vigente |
-| 20196548 | IBANTI® 40 COMPRIMIDOS RECUBIERTOS | Tableta recubierta | LURASIDONA | Temp. no comerc - Vigente |
-| 20221365 | ESLUX® 80 MG TABLETAS RECUBIERTAS | Tableta recubierta | LURASIDONA | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20156892 | LURAP® 40 | COMPRIMIDO | LURASIDONA | Vigente |
+| 20167332 | LURALEP 40 MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | LURASIDONA | Vigente |
+| 20192656 | LURAZIC®20 | TABLETA RECUBIERTA | LURASIDONA | Vigente |
+| 20221365 | ESLUX® 80 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | LURASIDONA | Vigente |
+| 20221410 | ESLUX® 40 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | LURASIDONA | Vigente |
+
+Se muestran 5 de 9 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

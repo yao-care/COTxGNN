@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 453
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mometasone: nueva indicación predicha, Linfoma cutáneo primario de células T (nivel de evidencia L5). Indicación original: Mometasona"
 monitor_inn: "mometasone"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
@@ -75,13 +75,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20019847 | FURODERM CREMA | Crema tópica | Mometasona |
-| 20202403 | FURAFAR® 0.1 % CREMA | Crema tópica | Mometasona |
-| 214137 | NASONEX® SPRAY NASAL | Suspensión nasal | Mometasona |
-| 20205917 | RINIALER® 0.05% SPRAY NASAL | Solución para inhalación | Mometasona |
-| 20227452 | MINESTEROL 0.1% CREMA | Crema tópica | Mometasona |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19947270 | MOMETASONA FUROATO 0.1% CREMA | CREMA TOPICA | MOMETASONA | Vigente |
+| 19965516 | DERMACORTINE® LOCIÓN | LOCION | MOMETASONA | Vigente |
+| 19968015 | DERMACORTINE CREMA | CREMA TOPICA | MOMETASONA | Vigente |
+| 19977136 | RINOSONA® | SUSPENSION NASAL | MOMETASONA | Vigente |
+| 19987642 | DERMACORTINE®EMULSION | EMULSIÓN | MOMETASONA | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 El sexto registro (DIFENZ®, crema tópica, tetrinoína combinaciones) no se muestra en la tabla por el límite de 5 filas.
 

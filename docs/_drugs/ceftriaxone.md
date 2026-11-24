@@ -75,9 +75,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20163214 | CEFTRINOX® 1000 MG | Polvo estéril para reconstituir a solución inyectable | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19914040 | AXTAR®1G POLVO ESTERIL PARA INYECCION | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | CEFTRIAXONA | Vigente |
+| 19919587 | CEFTRIAXONA PARA INYECCION1000 MG | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | CEFTRIAXONA | Vigente |
+| 20028604 | CEFTRIDELT® | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | CEFTRIAXONA | Vigente |
+| 20166360 | CEFTRIAXONA 1.0 G POLVO LIOFILIZADO PARA RECONSTITUIR | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | CEFTRIAXONA | Vigente |
+| 20208606 | CEFTRIAXONA PARA INYECCIÓN 1 G | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | CEFTRIAXONA | Vigente |
+
+Se muestran 5 de 9 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 La información de registros puede ser parcial.
 

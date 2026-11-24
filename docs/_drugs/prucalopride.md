@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 542
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Prucalopride: nueva indicación predicha, Hipoalfalipoproteinemia (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto de indicación solo indica \"P…"
 monitor_inn: "prucalopride"
 predicted_indications: ["hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "duodenal ulcer (disease)", "oral candidiasis", "obsolete familial combined hyperlipidemia", "amyloidosis (disease)", "strongyloidiasis", "HIV infectious disease", "primary amyloidosis", "acquired amyloid peripheral neuropathy"]
@@ -88,9 +88,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20038945 | RESOLOR® tabletas recubiertas de 2 mg | Tableta recubierta | PRUCALOPRIDA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20038945 | RESOLOR ® TABLETAS RECUBIERTAS DE 2 MG | TABLETA RECUBIERTA | PRUCALOPRIDA | Vigente |
+| 20248125 | PRUCAL®1 | TABLETA RECUBIERTA | PRUCALOPRIDA | Temp. no comerc - Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

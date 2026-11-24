@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 469
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "niraparib"
 predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "inner ear neoplasm", "pre-malignant neoplasm", "schwannoma of jugular foramen"]
 description: "Niraparib: nueva indicación predicha, Epiglottis neoplasm (nivel de evidencia L5). Indicación original: NIRAPARIB"
@@ -104,9 +104,15 @@ Niraparib ya está aprobado en otros países como mantenimiento en cáncer de ov
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20213253 | ZEJULA® 100 MG TABLETAS RECUBIERTAS | Tableta recubierta | NIRAPARIB (el registro no detalla la indicación) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20213253 | ZEJULA® 100 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | NIRAPARIB | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

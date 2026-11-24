@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 553
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 monitor_inn: "regorafenib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell renal carcinoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "childhood kidney cell carcinoma", "vulva sarcoma"]
 description: "Regorafenib: nueva indicación predicha, Liposarcoma (nivel de evidencia L2). Indicación original: REGORAFENIB"
@@ -83,9 +83,15 @@ Sin embargo, la evidencia depende del subtipo: las cohortes de liposarcoma en lo
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20152989 | STIVARGA 40 MG TABLETA RECUBIERTA (BAYER A.G.) | Tableta recubierta | REGORAFENIB (sin texto de indicación específico) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20152989 | STIVARGA 40 MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | REGORAFENIB | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

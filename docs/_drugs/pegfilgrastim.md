@@ -71,12 +71,19 @@ Cabe señalar que la "retinopatía diabética" (puntaje 0.9973) es la categoría
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20153351 | FULPHILA® | Solución inyectable | PEGFILGRASTIM | Vigente |
-| 19959519 | NEULASTIM® solución inyectable 6 mg/0.6 mL | Solución inyectable | PEGFILGRASTIM | Temp. no comerc - Vigente |
-| 20066850 | GENFILGRAS® PEG | Solución inyectable | PEGFILGRASTIM | Vigente |
-| 20188047 | ZIEXTENZO® 6 mg/0.6 mL en jeringa precargada | Solución inyectable | PEGFILGRASTIM | Temp. no comerc - Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20066850 | GENFILGRAS® PEG | SOLUCION INYECTABLE | PEGFILGRASTIM | Vigente |
+| 20153351 | FULPHILA® | SOLUCION INYECTABLE | PEGFILGRASTIM | Vigente |
+| 20127676 | PEG-GRAFEEL SOLUCIÓN INYECTABLE 6MG/0.6ML | SOLUCION INYECTABLE | PEGFILGRASTIM | Vigente |
+| 19959519 | NEULASTIM ® SOLUCION INYECTABLE 6 MG/0.6 ML | SOLUCION INYECTABLE | PEGFILGRASTIM | Temp. no comerc - Vigente |
+| 20188047 | ZIEXTENZO® 6MG/0.6 ML SOLUCIÓN INYECTABLE EN JERINGA PRECARGADA | SOLUCION INYECTABLE | PEGFILGRASTIM | Temp. no comerc - Vigente |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

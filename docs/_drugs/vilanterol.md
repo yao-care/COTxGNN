@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 658
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "VILANTEROL"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
 description: "Vilanterol: nueva indicación predicha, Hyperlucent lung (nivel de evidencia L5). Indicación original: VILANTEROL Y BROMURO UMECLIDINUM"
@@ -110,9 +110,15 @@ Se muestran los ensayos más relevantes de los 28 identificados (priorizando fas
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20073341 | ANORO® ELLIPTA® | Polvo para inhalación | Vilanterol y bromuro de umeclidinio |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20073341 | ANORO® ELLIPTA® | POLVO PARA INHALACION | VILANTEROL Y BROMURO UMECLIDINUM | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

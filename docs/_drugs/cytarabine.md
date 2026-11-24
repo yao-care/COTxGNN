@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 9
 monitor_inn: "Cytarabine"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cytarabine: nueva indicación predicha, Carcinoma pulmonar de células pequeñas (small cell lung carcinoma) (nivel de evidencia L3). Indicación original: CITARABINA"
 ---
 
@@ -80,11 +80,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20241746 | ALDACIT® 100 MG polvo liofilizado para reconstituir a solución inyectable | Polvo liofilizado para reconstituir a solución inyectable | Citarabina |
-| 20116728 | ZABINA® | Solución inyectable | Citarabina |
-| 20145347 | ALDACIT® 100MG/5ML solución inyectable | Solución inyectable | Citarabina |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20066788 | CITARABINA INYECTABLE 500 MG/5 ML | SOLUCION INYECTABLE | CITARABINA | Vigente |
+| 20116728 | ZABINA® | SOLUCION INYECTABLE | CITARABINA | Vigente |
+| 20240744 | ALDACIT® 1000 MG POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCIÓN INYECTABLE | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | CITARABINA | Vigente |
+| 20240752 | ALDACIT® 500 MG POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCIÓN INYECTABLE | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | CITARABINA | Vigente |
+| 20014765 | CITARABINA 500 MG/10 ML | SOLUCION INYECTABLE | CITARABINA | Temp. no comerc - Vigente |
+
+Se muestran 5 de 10 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 La lista de registros puede ser parcial.
 

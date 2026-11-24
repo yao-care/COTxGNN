@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 656
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Venetoclax: nueva indicación predicha, Linfoma de Hodgkin (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto apr…"
 monitor_inn: "VENETOCLAX"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
@@ -82,9 +82,15 @@ Actualmente no hay ensayos clínicos relacionados registrados para este subtipo 
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20139971 | VENCLEXTA® 100 MG TABLETA RECUBIERTA (ABBVIE S.A.S.) | Tableta recubierta | Solo consigna el nombre del principio activo ("Venetoclax"), sin indicación detallada |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20139971 | VENCLEXTA® 100 MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | VENETOCLAX | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 Venetoclax está comercializado en Colombia y tiene 1 registro vigente de 1 en total.
 

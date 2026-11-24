@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "insulin glulisine"
 predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "classic stiff person syndrome", "focal stiff limb syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Insulin Glulisine: nueva indicación predicha, Síndrome de disfunción sensible a la tiamina (thiamine-responsive dysfunction syndrome) (nivel de evidencia L5). Indicación original: INSULINA GLULISINA"
 ---
 
@@ -72,9 +72,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19950478 | APIDRA ® | Solución inyectable | Insulina glulisina |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19950478 | APIDRA ® | SOLUCION INYECTABLE | INSULINA GLULISINA | Vigente |
+| 19950479 | APIDRA ® | SOLUCION INYECTABLE | INSULINA GLULISINA | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 La lista de registros puede ser parcial.
 

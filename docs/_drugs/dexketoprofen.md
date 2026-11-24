@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 211
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dexketoprofen: nueva indicación predicha, Tendinitis (nivel de evidencia L5). Indicación original: No detallada en el registro sanitario"
 monitor_inn: "dexketoprofen"
 predicted_indications: ["tendinitis", "fibromyalgia", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis", "migraine disorder", "headache disorder", "migraine with brainstem aura", "exostosis", "congenital hypotrichosis milia"]
@@ -84,10 +84,19 @@ Actualmente no hay ensayos clínicos relacionados registrados para tendinitis.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20105211 | DEXKETOVITAE 25 MG/10ML | Solución oral | Dexketoprofeno | Vigente |
-| 20103268 | DEXKETOVITAE® 25 MG comprimidos recubiertos | Tableta recubierta | Dexketoprofeno | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19928118 | KETESSE ® TABLETAS 25 MG | TABLETA RECUBIERTA | DEXKETOPROFENO | Vigente |
+| 20076204 | KETESSE®50 MG/2 ML INYECTABLE | SOLUCION INYECTABLE | DEXKETOPROFENO | Vigente |
+| 20097584 | CODACET 25 MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | DEXKETOPROFENO | Vigente |
+| 20103268 | DEXKETOVITAE® 25 MG COMPRIMIDOS RECUBIERTOS | TABLETA RECUBIERTA | DEXKETOPROFENO | Vigente |
+| 20105211 | DEXKETOVITAE 25 MG/10ML | SOLUCION ORAL | DEXKETOPROFENO | Vigente |
+
+Se muestran 5 de 9 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 Ambos registros pertenecen a GALENICUM HEALTH COLOMBIA S.A.S.
 

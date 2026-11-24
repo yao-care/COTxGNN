@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 583
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Serine: nueva indicación predicha, Miopatía visceral familiar (nivel de evidencia L5). Indicación original: Emulsiones lipídicas"
 monitor_inn: "Serine"
 predicted_indications: ["familial visceral myopathy", "intestinal obstruction", "unclassified intestinal pseudoobstruction", "myopathic intestinal pseudoobstruction", "neuronal intestinal dysplasia, type B", "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked", "exercise-induced malignant hyperthermia", "aqueous misdirection"]
@@ -90,9 +90,19 @@ Como referencia, la segunda predicción (obstrucción intestinal) recuperó publ
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20216947 | NUTRIFLEX® OMEGA SPECIAL NOVO (B. Braun Medical S.A.) | Emulsión inyectable | Emulsiones lipídicas |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19908160 | TRAVASOL PLUS 15% LIBRE DE BISULFITO | SOLUCION INYECTABLE | AMINOACIDOS | Vigente |
+| 19931121 | AMINOVEN® 15 % | SOLUCION INYECTABLE | AMINOACIDOS | Vigente |
+| 19931123 | AMINOVEN 10% | SOLUCION INYECTABLE | AMINOACIDOS | Vigente |
+| 19933606 | AMINOVEN INFANT 10% | SOLUCION INYECTABLE | AMINOACIDOS | Vigente |
+| 20022622 | NUTRIFLEXLIPID SPECIAL | EMULSION INYECTABLE | COMBINACIONES | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

@@ -99,9 +99,19 @@ A modo de referencia, la indicación predicha con mayor respaldo bibliográfico 
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 213766 | TOPAMAC® 100 MG TABLETAS | Tableta | TOPIRAMATO |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19926868 | TOPAMAC® SPRINKLE 15 MG | CAPSULA DURA | TOPIRAMATO | Vigente |
+| 20005150 | TOPICTAL® 25 MG | TABLETA RECUBIERTA | TOPIRAMATO | Vigente |
+| 20005151 | TOPICTAL® 50 MG | TABLETA RECUBIERTA | TOPIRAMATO | Vigente |
+| 20005152 | TOPICTAL® 100 MG | TABLETA RECUBIERTA | TOPIRAMATO | Vigente |
+| 20202318 | TOMZY ® 25MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | TOPIRAMATO | Vigente |
+
+Se muestran 5 de 9 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 Conviene verificar si existen otros productos de topiramato (por ejemplo, genéricos) con registro vigente.
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 560
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "rifaximin"
 predicted_indications: ["oral candidiasis", "commissural lip fistula", "osteoradionecrosis of the mandible", "oral leukoedema", "burning mouth syndrome", "candidiasis"]
 description: "Rifaximin: nueva indicación predicha, Oral candidiasis (nivel de evidencia L5). Indicación original: RIFAXIMINA"
@@ -83,12 +83,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20227193 | THYAM® 550 MG TABLETAS RECUBIERTAS | Tableta recubierta | Rifaximina | Vigente |
-| 20080133 | IFAXIM® 550MG | Cápsula blanda | Rifaximina | Vigente |
-| 20077580 | RIFAXIGAL® 100MG/5ML | Polvo para reconstituir a suspensión oral | Rifaximina | Vigente |
-| 20235706 | RIFADEXA 550 MG TABLETAS | Tableta recubierta | Rifaximina | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19973415 | IFAXIM 200 MG. | CAPSULA BLANDA | RIFAXIMINA | Vigente |
+| 20058720 | RIFAX® 550MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | RIFAXIMINA | Vigente |
+| 20077580 | RIFAXIGAL® 100MG/5ML POLVO PARA RECONSTITUIR A SUSPENSION ORAL | POLVO PARA RECONSTITUIR A SUSPENSION ORAL | RIFAXIMINA | Vigente |
+| 20078198 | RIFAXIGAL® | TABLETA RECUBIERTA | RIFAXIMINA | Vigente |
+| 20080133 | IFAXIM ® 550MG | CAPSULA BLANDA | RIFAXIMINA | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

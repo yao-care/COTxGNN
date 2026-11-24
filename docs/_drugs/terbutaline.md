@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 616
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "Terbutaline"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 description: "Terbutaline: nueva indicación predicha, Malformación respiratoria (respiratory malformation) (nivel de evidencia L5). Indicación original: TERBUTALINA"
@@ -83,12 +83,18 @@ El puntaje alto de TxGNN (0,9952) refleja sobre todo la cercanía del fármaco c
 
 Terbutalina figura como comercializada en Colombia. La lista de registros puede ser parcial.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 38998 | TERBUROP® Solución para Nebulización | Solución para nebulización | Terbutalina |
-| 20009248 | NASMINE N.F. Jarabe | Jarabe | Terbutalina combinaciones |
-| 218166 | TERBUROP® Jarabe | Jarabe | Terbutalina |
-| 218164 | TERBUROP Guayacolato Jarabe | Jarabe | Terbutalina combinaciones |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20009248 | NASMINE N.F. JARABE | JARABE | TERBUTALINA COMBINACIONES | Vigente |
+| 218164 | TERBUROP GUAYACOLATO JARABE | JARABE | TERBUTALINA COMBINACIONES | Vigente |
+| 218166 | TERBUROP® JARABE | JARABE | TERBUTALINA | Vigente |
+| 38998 | TERBUROP® SOLUCION PARA NEBULIZACION | SOLUCION PARA NEBULIZACION | TERBUTALINA | Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

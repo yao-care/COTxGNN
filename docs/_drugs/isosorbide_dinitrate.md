@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "isosorbide dinitrate"
 predicted_indications: ["alopecia", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "pulmonary hypertension", "diffuse alopecia areata", "vascular disease", "hypertrichosis (disease)", "kyphoscoliotic heart disease", "visceral calciphylaxis", "arterial thoracic outlet syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Isosorbide Dinitrate: nueva indicación predicha, Alopecia (nivel de evidencia L5). Indicación original: Isosorbida dinitrato"
 ---
 
@@ -71,9 +71,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 37246 | ISOCORD® SUBLINGUAL (Laboratorios Bago de Colombia S.A.S.) | Tableta sublingual | Isosorbida dinitrato (solo se indica el principio activo) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 37246 | ISOCORD ® SUBLINGUAL | TABLETA SUBLINGUAL | ISOSORBIDE DINITRATO | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 La lista puede ser parcial: los datos reportan al menos un registro.
 

@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 130
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "candesartan"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "benign prostatic hyperplasia (disease)", "alopecia"]
 description: "Candesartan: nueva indicación predicha, trastorno de migraña (migraine disorder) (nivel de evidencia L2). Indicación original: CANDESARTAN"
@@ -90,10 +90,19 @@ Además, el efecto preventivo está respaldado por datos de ensayos aleatorizado
 
 Se encontraron registros sanitarios vigentes de candesartán como monofármaco; la lista puede ser parcial.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20022576 | CANDESARTAN 16 MG TABLETAS (GENFAR S.A.) | Tableta | CANDESARTAN (vigente) |
-| 20080461 | CANDESARTAN 8 MG (TECNOQUIMICAS S.A.) | Tableta | CANDESARTAN (vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19930255 | ATACAND® PLUS 16 / 12.5 MG TABLETAS | TABLETA | CANDESARTAN Y DIURETICOS | Vigente |
+| 19932060 | CANDESARTAN TABLETAS 8 MG | TABLETA | CANDESARTAN | Vigente |
+| 19961419 | ATACAND® 32 MG | TABLETA | CANDESARTAN | Vigente |
+| 20010690 | ATACAND® PLUS 32 / 12.5 MG TABLETAS | TABLETA | CANDESARTAN Y DIURETICOS | Vigente |
+| 20022576 | CANDESARTAN 16 MG TABLETAS | TABLETA | CANDESARTAN | Vigente |
+
+Se muestran 5 de 12 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -91,9 +91,19 @@ Para la indicación principal no hay literatura disponible. Las publicaciones m�
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19960905 | VITAMINA A CAPSULAS (C.I. Farmacápsulas S.A.S.) | Cápsula dura | Retinol (vitamina A) — estado: vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19900780 | VITALIPID® - NINFANT | EMULSION INYECTABLE | COMBINACIONES | Vigente |
+| 19900781 | VITALIPID® N - ADULT | EMULSION INYECTABLE | COMBINACIONES | Vigente |
+| 19904368 | RETIBLAN 50 CAPSULAS | CAPSULA BLANDA | RETINOL ( VIT A) | Vigente |
+| 19939451 | MULTI-12/K1 PEDIATRICO | SOLUCION INYECTABLE | COMBINACIONES | Vigente |
+| 19940150 | PEDIAVIT ZINC | SOLUCION ORAL | MULTIVITAMINAS Y OTROS MINERALES INCL COMBINACIONES | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 537
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "Progesterone"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Progesterone: nueva indicación predicha, Enfermedad fibroquística de la mama (breast fibrocystic disease) (nivel de evidencia L4). Indicación original: PROGESTERONA"
@@ -82,9 +82,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20077105 | GESTAGENO® 100 MG cápsulas de gelatina blanda (EXELTIS S.A.S) | Cápsula blanda | PROGESTERONA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19902589 | GESLUTIN PNM CAPSULAS BLANDAS 100 MG | CAPSULA BLANDA | PROGESTERONA | Vigente |
+| 19903566 | PROGESTOGEL 1% | GEL TOPICO | PROGESTERONA | Vigente |
+| 19930589 | UTROGESTAN® 200 MG CÁPSULAS | CAPSULA BLANDA | PROGESTERONA | Vigente |
+| 19942690 | PROGENDO®200 MG | CAPSULA BLANDA | PROGESTERONA | Vigente |
+| 19946206 | GESLUTIN- PNM ® 200MG CAPSULAS BLANDAS | CAPSULA BLANDA | PROGESTERONA | Vigente |
+
+Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 La lista de registros puede ser parcial.
 

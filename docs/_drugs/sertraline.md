@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 585
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Sertraline"
 predicted_indications: ["schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
 description: "Sertraline: nueva indicación predicha, Trastorno esquizotípico de la personalidad (schizotypal personality disorder) (nivel de evidencia L5). Indicación original: SERTRALINA"
@@ -74,9 +74,19 @@ Actualmente no hay literatura relacionada disponible para el trastorno esquizot�
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20224090 | IRRADIAX® 50MG | Tableta recubierta | SERTRALINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19912124 | SERTRALINA TABLETAS 50 MG | TABLETA | SERTRALINA | Vigente |
+| 19928166 | SERTRALINA 50 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | SERTRALINA | Vigente |
+| 19928496 | SERTRALINA 100 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | SERTRALINA | Vigente |
+| 19928497 | SERTRALINA MK 50 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | SERTRALINA | Vigente |
+| 19929758 | ZOLOF® 100MG | TABLETA RECUBIERTA | SERTRALINA | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 La lista de registros puede ser parcial.
 

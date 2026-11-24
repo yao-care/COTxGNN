@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 257
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Epinephrine: nueva indicación predicha, Enfermedad pulmonar obstructiva (nivel de evidencia L5). Indicación original: Epinefrina"
 monitor_inn: "Epinephrine"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
@@ -118,9 +118,19 @@ Se listan los 10 ensayos más relevantes (de 15 identificados), priorizando los 
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20032463 | Epinefrina solución inyectable 1 mg/1 mL (Laboratorio Biosano S.A.) | Solución inyectable | Epinefrina |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19927232 | NEWCAINA® 2% E80 | SOLUCION INYECTABLE | LIDOCAINA COMBINACIONES | Vigente |
+| 19929371 | LIDOCAINA 2% E-100 | SOLUCION INYECTABLE | LIDOCAINA COMBINACIONES | Vigente |
+| 19930286 | EPINEFRINA (ADRENALINA) 1 MG /1MLSOLUCION INYECTABLE | SOLUCION INYECTABLE | EPINEFRINA | Vigente |
+| 19933337 | ODONTOCAINA ® 2% | SOLUCION INYECTABLE | MEPIVACAINA COMBINACIONES | Vigente |
+| 19987519 | ARTHEEK(R) ARTICAINA AL 4% CON EPINEFRINA 1:100.000 | SOLUCION INYECTABLE | EPINEFRINA | Vigente |
+
+Se muestran 5 de 14 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

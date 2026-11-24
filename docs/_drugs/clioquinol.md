@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "CLIOQUINOL"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clioquinol: nueva indicación predicha, Enfermedad infecciosa ectotrix (ectothrix infectious disease) (nivel de evidencia L5). Indicación original: BETAMETASONA Y ANTIBIOTICOS"
 ---
 
@@ -73,11 +73,18 @@ Actualmente no hay literatura relacionada disponible.
 
 Según los datos compilados para este informe, el estado de mercado es comercializado. Los registros sanitarios identificados corresponden a cremas tópicas; la lista puede ser parcial.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19972065 | BETAGEN CREMA TOPICA | Crema tópica | BETAMETASONA Y ANTIBIOTICOS |
-| 19972066 | DERMA - 3CREMA | Crema tópica | BETAMETASONA Y ANTIBIOTICOS |
-| 19994745 | DERMOCUAD CREMA | Crema tópica | BETAMETASONA Y ANTIBIOTICOS |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19972065 | BETAGEN CREMA TOPICA | CREMA TOPICA | BETAMETASONA Y ANTIBIOTICOS | Vigente |
+| 19972066 | DERMA - 3CREMA | CREMA TOPICA | BETAMETASONA Y ANTIBIOTICOS | Vigente |
+| 19994745 | DERMOCUAD CREMA | CREMA TOPICA | BETAMETASONA Y ANTIBIOTICOS | Vigente |
+| 35005 | DESONIDA CLIOQUINOL CREMA. | CREMA TOPICA | DESONIDA Y ANTISEPTICOS | Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

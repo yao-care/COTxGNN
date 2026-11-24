@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Dorzolamide"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Dorzolamide: nueva indicación predicha, hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). Indicación original: TIMOLOL COMBINACIONES"
 ---
 
@@ -71,6 +71,20 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
+
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19934159 | GLAUCOTENSIL® T | SOLUCION OFTALMICA | TIMOLOL COMBINACIONES | Vigente |
+| 19937946 | DORZOPT® | SOLUCION OFTALMICA | TIMOLOL COMBINACIONES | Vigente |
+| 19983819 | DORZOLAM® SOLUCION OFTALMICA | SOLUCION OFTALMICA | DORZOLAMIDA | Vigente |
+| 19989599 | DORTIM SOLUCIÓN OFTÁLMICA | SOLUCION OFTALMICA | TIMOLOL COMBINACIONES | Vigente |
+| 19992655 | DORPRETIM ® SOLUCIÓN OFTALMICA | SOLUCION OFTALMICA | TIMOLOL COMBINACIONES | Vigente |
+
+Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 El estado de mercado en Colombia es **comercializado**, según los registros sanitarios locales. El producto registrado es una solución oftálmica. No se dispone de datos sobre su uso en afecciones del cabello o del cuero cabelludo, y la vía oftálmica no es compatible a priori con una indicación del cuero cabelludo.
 

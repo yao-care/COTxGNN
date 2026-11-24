@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Etofenamate"
 predicted_indications: ["ankylosing spondylitis", "rheumatoid vasculitis", "hypermobility of coccyx", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "pseudoachondroplasia", "myosclerosis", "polyarticular juvenile rheumatoid arthritis", "Kummell disease"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Etofenamate: nueva indicación predicha, Espondilitis anquilosante (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto solo indica \"ETOFENAMATO\")"
 ---
 
@@ -73,9 +73,15 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20069025 | ETOFENAMATO 1G/2ML | Solución inyectable | ETOFENAMATO (el texto del registro no detalla indicación) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20069025 | ETOFENAMATO 1G/2ML | SOLUCION INYECTABLE | ETOFENAMATO | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 La lista puede ser parcial: se registra al menos 1 registro sanitario.
 

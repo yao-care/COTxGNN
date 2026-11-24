@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 557
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "rifabutin"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "sclerosing cholangitis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "conjunctivitis", "leprosy", "endocarditis", "pneumocystosis", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
 description: "Rifabutin: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L5). Indicación original: RIFABUTIN"
@@ -93,9 +93,15 @@ Ningún ensayo evalúa la rifabutina como tratamiento de la infección por VIH. 
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20155669 | RIFBUTIN® 150 MG CAPSULAS | Cápsula dura | RIFABUTIN |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20155669 | RIFBUTIN® 150 MG CAPSULAS | CAPSULA DURA | RIFABUTIN | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

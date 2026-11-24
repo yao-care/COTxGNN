@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 532
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pregabalin: nueva indicación predicha, Tendinitis (nivel de evidencia L5). Indicación original: Pregabalina"
 monitor_inn: "Pregabalin"
 predicted_indications: ["tendinitis", "idiopathic granulomatous myositis", "myositis fibrosa", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
@@ -87,9 +87,19 @@ Actualmente no hay ensayos clínicos relacionados registrados para tendinitis.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20190070 | LIMIAR ® 150 MG CÁPSULA DURA | Cápsula dura | PREGABALINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19953202 | LYRICA 75 MG CAPSULAS | CAPSULA DURA | PREGABALINA | Vigente |
+| 19953203 | LYRICA 300MG CAPSULAS | CAPSULA DURA | PREGABALINA | Vigente |
+| 19953204 | LYRICA® 150 MG CAPSULAS | CAPSULA DURA | PREGABALINA | Vigente |
+| 20015000 | MARTESIA® 25 MG | CAPSULA DURA | PREGABALINA | Vigente |
+| 20020743 | PREGABALINA150 MG | CAPSULA DURA | PREGABALINA | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

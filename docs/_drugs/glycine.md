@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 319
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Glycine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L5). Indicación original: Emulsiones lipidas"
 monitor_inn: "Glycine"
 predicted_indications: ["nasal cavity disease"]
@@ -83,9 +83,19 @@ El unico ensayo asociado es un estudio de imagen diagnostica con un radiotrazado
 
 ## Informacion de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmaceutica | Indicacion Aprobada |
-|---------|------|------|-----------|
-| 20216947 | NUTRIFLEX® OMEGA SPECIAL NOVO | Emulsion inyectable | Emulsiones lipidas |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19908160 | TRAVASOL PLUS 15% LIBRE DE BISULFITO | SOLUCION INYECTABLE | AMINOACIDOS | Vigente |
+| 19931121 | AMINOVEN® 15 % | SOLUCION INYECTABLE | AMINOACIDOS | Vigente |
+| 19931123 | AMINOVEN 10% | SOLUCION INYECTABLE | AMINOACIDOS | Vigente |
+| 19933606 | AMINOVEN INFANT 10% | SOLUCION INYECTABLE | AMINOACIDOS | Vigente |
+| 20022622 | NUTRIFLEXLIPID SPECIAL | EMULSION INYECTABLE | COMBINACIONES | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

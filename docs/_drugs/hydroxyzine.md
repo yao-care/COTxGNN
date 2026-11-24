@@ -72,9 +72,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20219373 | HIDROXIZINA CLORHIDRATO 100 MG/2 ML SOLUCIÓN INYECTABLE | Solución inyectable | HIDROXIZINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20219373 | HIDROXIZINA CLORHIDRATO 100 MG/2 ML SOLUCIÓN INYECTABLE | SOLUCION INYECTABLE | HIDROXIZINA | Temp. no comerc - Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

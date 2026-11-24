@@ -77,9 +77,19 @@ Actualmente no hay literatura relacionada disponible para esta enfermedad.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20066897 | VIRATAZ® TABLETAS | Tableta recubierta | Texto de indicación no detallado en los datos locales |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20066897 | VIRATAZ® TABLETAS | TABLETA RECUBIERTA | ATAZANAVIR+RITONAVIR | Vigente |
+| 20143065 | TAMSURIDE® | CAPSULA DURA | ATAZANAVIR | Vigente |
+| 20149871 | ZANAVIR-R | TABLETA RECUBIERTA | ATAZANAVIR+RITONAVIR | Vigente |
+| 20161298 | CONTIVIR | TABLETA RECUBIERTA | ATAZANAVIR + COMBINACION | Vigente |
+| 20166433 | VIRALNICH® TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | ATAZANAVIR+RITONAVIR | Vigente |
+
+Se muestran 5 de 7 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 La lista puede ser parcial, ya que los registros de los datos compilados están incompletos.
 

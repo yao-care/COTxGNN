@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 240
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Duloxetine: nueva indicación predicha, Tortícolis paroxístico benigno de la infancia (nivel de evidencia L5). Indicación original: DULOXETINA"
 monitor_inn: "duloxetine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "obsessive-compulsive disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "paranoid personality disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type"]
@@ -105,10 +105,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20112029 | DUXETERO® 60 MG CÁPSULAS DE LIBERACIÓN RETARDADA | Cápsula dura | Duloxetina |
-| 20015009 | ALACIR® 60 | Tableta de liberación retardada | Duloxetina |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20015007 | ALACIR® 30 | TABLETA CON CUBIERTA ENTERICA CON PELICULA | DULOXETINA | Vigente |
+| 20015009 | ALACIR® 60 | TABLETA DE LIBERACION RETARDADA | DULOXETINA | Vigente |
+| 20019446 | DUXETINA ® 60 MG CAPSULA DE LIBERACION RETARDADA. | CAPSULA DURA | DULOXETINA | Vigente |
+| 20038991 | DUXETINA® 30 MG CÁPSULAS DE LIBERACIÓN RETARDADA | CAPSULA CON CUBIERTA ENTERICA | DULOXETINA | Vigente |
+| 20083249 | NOVAFLEX® 60MG CAPSULAS DE LIBERACION RETARDADA | CAPSULA CON CUBIERTA ENTERICA | DULOXETINA | Vigente |
+
+Se muestran 5 de 11 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 
@@ -142,12 +151,6 @@ La predicción carece de ensayos clínicos y literatura (nivel L5), no hay vínc
 - Aclarar la indicación original aprobada, ya que el registro solo indica "duloxetina".
 - Verificar la situación regulatoria: el medicamento está comercializado en Colombia y cuenta con 10 registros vigentes.
 
-<!-- review:begin co-lic-20261112-duloxetine-1 -->
-
-> **Corrección de revisión (2026-11-12)**: Texto original: "2 registros vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 11 registros sanitarios, de los cuales 10 vigentes y 1 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261112-duloxetine-1 -->
-
 <!-- review:begin log -->
 
 ## Registro de revisión
@@ -157,7 +160,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, los dos registros sanitarios colombianos están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 2 → 10 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 2 → 10 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Duloxetine Delayed-Release (duloxetine hydrochloride) prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00628e5e-4c5b-2573-e063-6294a90a0e3b) |
 
 <!-- review:end log -->

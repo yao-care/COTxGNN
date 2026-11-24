@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 574
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Rutin: nueva indicación predicha, Enfermedad fibroquística de la mama (nivel de evidencia L5). Indicación original: Multivitaminas y otros minerales, incluidas combinaciones"
 monitor_inn: "rutin"
 predicted_indications: ["breast fibrocystic disease", "apocrine adenosis of breast", "blunt duct adenosis of breast", "benign mammary dysplasia", "vulvovaginal candidiasis", "breast abscess", "fat necrosis of breast", "vaginitis (disease)"]
@@ -74,10 +74,16 @@ Para la predicción de vaginitis (una indicación secundaria) se recuperaron dos
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19908281 | SUPRAVITAL | Cápsula blanda | Multivitaminas y otros minerales, incluidas combinaciones (vigente) |
-| 19942493 | SUPRAVITAL PLUS | Cápsula blanda | Multivitaminas más hierro (vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19908281 | SUPRAVITAL | CAPSULA BLANDA | MULTIVITAMINAS Y OTROS MINERALES INCL COMBINACIONES | Temp. no comerc - Vigente |
+| 19942493 | SUPRAVITAL PLUS | CAPSULA BLANDA | MULTIVITAMINAS MAS HIERRO | Temp. no comerc - Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

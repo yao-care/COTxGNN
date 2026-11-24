@@ -85,13 +85,19 @@ Actualmente no hay ensayos clínicos relacionados registrados para artritis reum
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20233281 | Rivaroxabán 20 mg tabletas recubiertas | Tableta recubierta | Rivaroxabán |
-| 20233324 | Decoag® 20 mg tabletas | Tableta recubierta | Rivaroxabán |
-| 20204324 | Svatrom 20 mg tabletas recubiertas | Tableta recubierta | Rivaroxabán |
-| 20192388 | Rivaroxabán 20 mg tabletas recubiertas | Tableta recubierta | Rivaroxabán |
-| 20177233 | Xaroban® 20 | Tableta recubierta | Rivaroxabán |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19998726 | XARELTO® COMPRIMIDOS RECUBIERTOS 10 MG | TABLETA CUBIERTA CON PELICULA | RIVAROXABAN | Vigente |
+| 20029235 | XARELTO® 20 MG COMPRIMIDOS RECUBIERTOS | TABLETA CUBIERTA CON PELICULA | RIVAROXABAN | Vigente |
+| 20029236 | XARELTO® 15 MG COMPRIMIDOSRECUBIERTOS | TABLETA CUBIERTA CON PELICULA | RIVAROXABAN | Vigente |
+| 20067147 | XARELTO® 2.5 MG COMPRIMIDOS RECUBIERTOS | TABLETA RECUBIERTA | RIVAROXABAN | Vigente |
+| 20121065 | VAROXRED TABLETAS 10 MG | TABLETA RECUBIERTA | RIVAROXABAN | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

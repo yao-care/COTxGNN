@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 667
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Zanubrutinib: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L5). Indicación original: Agente antineoplásico e inmunomodulador"
 monitor_inn: "ZANUBRUTINIB"
 predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma"]
@@ -96,9 +96,15 @@ Ninguna de estas publicaciones evalúa zanubrutinib en leucemia mieloide; casi t
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20262984 | BRUKINSA® 80 MG CÁPSULAS | Cápsula dura | Zanubrutinib (sin indicación detallada en el registro) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20262984 | BRUKINSA® 80MG CAPSULAS | CAPSULA DURA | ZANUBRUTINIB | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 428
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mepivacaine: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L5). Indicación original: Mepivacaína combinaciones"
 monitor_inn: "mepivacaine"
 predicted_indications: ["gastroduodenitis", "peptic ulcer disease"]
@@ -89,9 +89,16 @@ Actualmente no hay literatura relacionada disponible para gastroduodenitis.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 19933337 | ODONTOCAINA® 2% | Solución inyectable | Mepivacaína combinaciones | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19933337 | ODONTOCAINA ® 2% | SOLUCION INYECTABLE | MEPIVACAINA COMBINACIONES | Vigente |
+| 19935278 | ODONTOCAINA 3% | SOLUCION INYECTABLE | MEPIVACAINA | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

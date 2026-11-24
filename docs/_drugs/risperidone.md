@@ -104,10 +104,19 @@ Esta lógica se refuerza con dos ensayos de Fase 3 completados de risperidona ad
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20007289 | RISPERIDONA 2 MG (Tecnoquímicas S.A.) | Tableta cubierta (gragea) | Risperidona (vigente) |
-| 20160734 | ISPERIN® 2 MG (Momenta Farmacéutica S.A.S.) | Tableta recubierta | Risperidona (vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19926482 | TRACTAL® COMPRIMIDOS RECUBIERTOS 1 MG | TABLETA RECUBIERTA | RISPERIDONA | Vigente |
+| 19926483 | TRACTAL® 2 | TABLETA RECUBIERTA | RISPERIDONA | Vigente |
+| 19934447 | RISPERDAL® CONSTA®25 MG SUSPENSION INYECTABLE | POLVO ESTERIL PARA RECONSTITUIR A SUSPENSIONINYECTABLE | RISPERIDONA | Vigente |
+| 19956205 | TRACTAL® GOTAS | SOLUCION ORAL | RISPERIDONA | Vigente |
+| 19998043 | RISPERDAL CONSTA® 37.5 MG SUSPENSION INYECTABLE | POLVO ESTERIL PARA RECONSTITUIR A SUSPENSIONINYECTABLE | RISPERIDONA | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

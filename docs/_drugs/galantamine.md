@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 307
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "galantamine"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
 description: "Galantamine: nueva indicación predicha, Trastornos del movimiento psicogénicos (psychogenic movement disorders) (nivel de evidencia L5). Indicación original: GALANTAMINA"
@@ -90,10 +90,16 @@ Actualmente no hay literatura relacionada disponible para trastornos del movimie
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 19954847 | Reminyl® ER cápsulas de 16 mg | Cápsula de liberación prolongada | Galantamina | Vigente |
-| 19932247 | Reminyl® solución oral de 4 mg/ml | Solución oral | Galantamina | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19932247 | REMINYL® SOLUCION ORAL DE 4 MG/ML | SOLUCION ORAL | GALANTAMINA | Vigente |
+| 19954847 | REMINYL ® ER CAPSULAS DE 16 MG | CAPSULA DE LIBERACION PROLONGADA | GALANTAMINA | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

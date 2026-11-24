@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 49
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "amiodarone"
 predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
 description: "Amiodarone: nueva indicación predicha, Taquicardia ventricular polimórfica catecolaminérgica (catecholaminergic polymorphic ventricular tachycardia) (nivel de evidencia L5)."
@@ -82,12 +82,19 @@ Ninguna de estas publicaciones evalúa la amiodarona en la taquicardia ventricul
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 52270 | CORDARONE® 200 MG TABLETA | Tableta | AMIODARONA | Vigente |
-| 45892 | AMIODARONA 200MG TABLETA | Tableta | AMIODARONA | Vigente |
-| 52271 | CORDARONE INYECTABLE | Solución inyectable | AMIODARONA | Vigente |
-| 19992832 | AMIODARONA CLORHIDRATO 150 MG/3ML | Solución inyectable | AMIODARONA | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19992832 | AMIODARONA CLORHIDRATO150 MG/3ML | SOLUCION INYECTABLE | AMIODARONA | Vigente |
+| 20043928 | AMIODARONA 200MG TABLETAS | TABLETA | AMIODARONA | Vigente |
+| 20220132 | AMIODARONA CLORHIDRATO SOLUCIÓN INYECTABLE 150 MG / 3 ML | SOLUCION INYECTABLE | AMIODARONA | Vigente |
+| 45892 | AMIODARONA 200MG TABLETA | TABLETA | AMIODARONA | Vigente |
+| 52270 | CORDARONE® 200 MG TABLETA | TABLETA | AMIODARONA | Vigente |
+
+Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 La lista de registros puede ser parcial.
 

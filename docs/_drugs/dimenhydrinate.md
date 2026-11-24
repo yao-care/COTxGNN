@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 223
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dimenhydrinate: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L5). Indicación original: Dimenhidrinato"
 monitor_inn: "dimenhydrinate"
 predicted_indications: ["allergic urticaria", "cold urticaria"]
@@ -80,10 +80,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19950623 | DIMENOL® TABLETAS | Tableta | Dimenhidrinato |
-| 20158112 | MARE-OFF® | Tableta | Dimenhidrinato |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19908368 | MAREOL® TABLETAS | TABLETA | DIMENHIDRINATO | Vigente |
+| 19913783 | PASEDOL TABLETAS | TABLETA | DIMENHIDRINATO | Vigente |
+| 19950623 | DIMENOL ®TABLETAS | TABLETA | DIMENHIDRINATO | Vigente |
+| 20056532 | DRAMAMINE | TABLETA | DIMENHIDRINATO | Vigente |
+| 20158112 | MARE-OFF® | TABLETA | DIMENHIDRINATO | Vigente |
+
+Se muestran 5 de 11 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

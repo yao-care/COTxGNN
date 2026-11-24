@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "COBICISTAT"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cobicistat: nueva indicación predicha, síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) (nivel de evidencia L5). Indicación original: DARUNAVIR Y COBICISTAT"
 ---
 
@@ -71,9 +71,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20104155 | PREZCOBIX® TABLETAS RECUBIERTAS | Tableta recubierta | Registrado como combinación con darunavir |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20104155 | PREZCOBIX® TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | DARUNAVIR Y COBICISTAT | Vigente |
+| 20111795 | GENVOYA ® TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | ELVITEGRAVIR. COBICISTAT. EMTICITABINA. TENOFOVIR ALAFENAMIDA | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

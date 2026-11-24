@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 9
 monitor_inn: "cilastatin"
 predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cilastatin: nueva indicación predicha, Infección por Staphylococcus aureus (staphylococcus aureus infection) (nivel de evidencia L3). Indicación original: IMIPENEM Y CILASTATINA"
 ---
 
@@ -84,11 +84,19 @@ Es importante precisar que el uso de cilastatina en esta dirección depende de s
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20256282 | IMIPENEM+CILASTATINA 500+500 MG POLVO PARA RECONSTITUIR | Polvo estéril para reconstituir a solución inyectable | Imipenem y cilastatina |
-| 20134454 | IMIPENEM/CILASTATINA POLVO PARA RECONSTITUIR A SOLUCIÓN INYECTABLE | Polvo estéril para reconstituir a solución inyectable | Imipenem y cilastatina |
-| 19982795 | IMIPENEM Y CILASTATINA 1G. | Polvo estéril para reconstituir a solución inyectable | Imipenem y cilastatina |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19982795 | IMIPENEM Y CILASTATINA1G. | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | IMIPENEM Y CILASTATINA | Vigente |
+| 20072860 | IMIPENEM 500 MG CILASTATINA 500 MG | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | IMIPENEM Y CILASTATINA | Vigente |
+| 20134454 | IMIPENEM/CILASTATINA POLVO PARA RECONSTITUIR A SOLUCIÓN INYECTABLE | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | IMIPENEM Y CILASTATINA | Vigente |
+| 20212212 | RECARBRIO® | POLVO PARA SOLUCIÓN INYECTABLE | IMIPENEM. CILASTATINA . RELEBACTAM | Vigente |
+| 20256282 | IMIPENEM+CILASTATINA 500+500 MG POLVO PARA RECONSTITUIR | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | IMIPENEM Y CILASTATINA | Vigente |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 Los tres registros corresponden a productos en combinación imipenem/cilastatina; no describen la situación regulatoria de cilastatina como ingrediente único. La lista de registros puede ser parcial.
 

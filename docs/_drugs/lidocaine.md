@@ -72,11 +72,17 @@ Actualmente no hay literatura relacionada disponible.
 
 Se listan los 3 registros disponibles; puede haber más registros no incluidos.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 227028 | PROCTO - GLYVENOL® SUPOSITORIOS | Supositorio | Lidocaína combinaciones |
-| 20265430 | AXIFER FARMET ® | Ungüento tópico | Lidocaína combinaciones |
-| 20021553 | LIDOMAX® | Crema tópica | Lidocaína |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19927232 | NEWCAINA® 2% E80 | SOLUCION INYECTABLE | LIDOCAINA COMBINACIONES | Vigente |
+| 19929371 | LIDOCAINA 2% E-100 | SOLUCION INYECTABLE | LIDOCAINA COMBINACIONES | Vigente |
+| 19935632 | B-VIT HT | SOLUCION INYECTABLE | TIAMINA (VIT B1) | Vigente |
+
+Se muestran 3 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 El texto del registro es una denominación del principio activo, no una indicación clínica detallada. Ninguno de estos registros incluye la queratoconjuntivitis epitelial punteada ni otra indicación ocular, y ninguno corresponde a una presentación oftálmica.
 

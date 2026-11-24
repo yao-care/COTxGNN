@@ -72,6 +72,20 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19969274 | CARVEDILOL 25 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | CARVEDILOL | Vigente |
+| 19972152 | CARVEDILOL25 MG TABLETAS. | TABLETA | CARVEDILOL | Vigente |
+| 20005109 | CARVEDILOL 12.5 MG TABLETAS | TABLETA | CARVEDILOL | Vigente |
+| 20005748 | CARVEDILOL 6.25 MG TABLETAS | TABLETA | CARVEDILOL | Vigente |
+| 20086955 | CARVEDILOL 6.25 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | CARVEDILOL | Vigente |
+
+Se muestran 5 de 16 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
+
 El fármaco figura como comercializado en Colombia. Los registros sanitarios corresponden a productos de un solo principio activo, en forma de tableta y tableta recubierta de administración oral. Es posible que la lista de registros disponible esté incompleta.
 
 ## Consideraciones de Seguridad

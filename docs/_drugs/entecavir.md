@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 254
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "ENTECAVIR"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
 description: "Entecavir: nueva indicación predicha, Infección crónica por el virus de la hepatitis C (chronic hepatitis C virus infection) (nivel de evidencia L5). Indicación original: ENTECAVIR"
@@ -96,11 +96,19 @@ Estado de mercado: **Comercializado**. Los 12 registros sanitarios están vigent
 
 <!-- review:end co-lic-20261112-entecavir-1 -->
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 19964164 | BARACLUDE TABLETA RECUBIERTA 1MG | Tableta recubierta | Entecavir | Vigente |
-| 19964241 | BARACLUDE TABLETA RECUBIERTA 0.5 MG | Tableta recubierta | Entecavir | Vigente |
-| 20118266 | ZENTAIR 0.5 MG | Tableta recubierta | Entecavir | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19964164 | BARACLUDE TABLETA RECUBIERTA 1MG | TABLETA RECUBIERTA | ENTECAVIR | Vigente |
+| 19964241 | BARACLUDE TABLETA RECUBIERTA 0.5 MG | TABLETA RECUBIERTA | ENTECAVIR | Vigente |
+| 20109354 | VORIX® 0.5 MG | TABLETA RECUBIERTA | ENTECAVIR | Vigente |
+| 20109429 | VORIX® 1.0 MG | TABLETA RECUBIERTA | ENTECAVIR | Vigente |
+| 20118266 | ZENTAIR 0.5 MG | TABLETA RECUBIERTA | ENTECAVIR | Vigente |
+
+Se muestran 5 de 14 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 313
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Gilteritinib: nueva indicación predicha, Poliomielitis bulbar (nivel de evidencia L5). Indicación original: Gilteritinib"
 monitor_inn: "GILTERITINIB"
 predicted_indications: ["bulbar polio"]
@@ -87,9 +87,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20170124 | XOSPATA 40MG | Tableta recubierta | Gilteritinib |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20170124 | XOSPATA 40MG | TABLETA RECUBIERTA | GILTERITINIB | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

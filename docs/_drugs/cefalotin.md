@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "cefalotin"
 drugbank_id: DB00456
 predicted_indications: ["gonococcal urethritis", "Ureaplasma urethritis", "bronchitis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "congenital analbuminemia"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Cefalotin: nueva indicación predicha, uretritis gonocócica (gonococcal urethritis) (nivel de evidencia L5). Indicación original: CEFALOTINA"
 ---
 
@@ -81,11 +81,17 @@ El estado de mercado registrado es "Comercializado". Los datos compilados indica
 
 <!-- review:end co-lic-20261105-cefalotin-1 -->
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20170303 | CEFALOTINA SÓDICA 1G/VIAL | Polvo estéril para reconstituir a solución inyectable | CEFALOTINA |
-| 20192711 | CEFALODELT® | Polvo para solución inyectable | CEFALOTINA |
-| 20200906 | CEFALOTINA 1G POLVO PARA RECONSTITUIR A SOLUCIÓN INYECTABLE | Polvo estéril para reconstituir a solución inyectable | CEFALOTINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20170303 | CEFALOTINA SÓDICA 1G/VIAL | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | CEFALOTINA | Vigente |
+| 20192711 | CEFALODELT® | POLVO PARA SOLUCIÓN INYECTABLE | CEFALOTINA | Vigente |
+| 20200906 | CEFALOTINA 1G POLVO PARA RECONSTITUIR A SOLUCIÓN INYECTABLE | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | CEFALOTINA | Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

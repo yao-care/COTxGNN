@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 262
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ertapenem: nueva indicación predicha, Artritis bacteriana (nivel de evidencia L5). Indicación original: Ertapenem"
 monitor_inn: "ERTAPENEM"
 predicted_indications: ["bacterial arthritis"]
@@ -98,10 +98,19 @@ Una décima publicación sobre hidradenitis supurativa (PMID 29183082) se excluy
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20117466 | ERTAGRAM® 1 G | Polvo liofilizado para reconstituir a solución inyectable | ERTAPENEM |
-| 20163864 | ERTAPENEM 1G/VIAL | Polvo estéril para reconstituir a solución inyectable | ERTAPENEM |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20086217 | ERTAPENEM 1G | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | ERTAPENEM | Vigente |
+| 20117466 | ERTAGRAM® 1 G | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | ERTAPENEM | Vigente |
+| 20163864 | ERTAPENEM 1G/VIAL POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | ERTAPENEM | Vigente |
+| 20179940 | ERTAPENEM SODICO 1G/VIAL. | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | ERTAPENEM | Vigente |
+| 20255794 | ERTAPENEM POLVO PARA RECONSTITUIR | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | ERTAPENEM | Vigente |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

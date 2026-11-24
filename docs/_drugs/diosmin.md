@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 224
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Diosmin: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: DIOSMIN COMBINACIONES"
 monitor_inn: "diosmin"
 predicted_indications: ["amenorrhea (disease)"]
@@ -81,9 +81,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20004470 | VEDIPAL® COMPRIMIDOS RECUBIERTOS | Tableta recubierta | DIOSMIN COMBINACIONES |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19962154 | DIOSMINA500MG | TABLETA CUBIERTA CON PELICULA | DIOSMIN | Vigente |
+| 20004470 | VEDIPAL® COMPRIMIDOS RECUBIERTOS | TABLETA RECUBIERTA | DIOSMIN COMBINACIONES | Vigente |
+| 20114716 | VEDIPAL ® 1000 | TABLETA RECUBIERTA | DIOSMIN COMBINACIONES | Vigente |
+| 20193546 | PERIVASC® 500 TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | DIOSMIN | Vigente |
+| 20193851 | PERIVASC® 1000MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | DIOSMIN | Vigente |
+
+Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

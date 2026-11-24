@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 592
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sucralfate: nueva indicación predicha, Reflujo duodenogástrico (nivel de evidencia L2). Indicación original: Sucralfato"
 monitor_inn: "Sucralfate"
 predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
@@ -82,12 +82,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20013276 | SUGASTRIN® SUSPENSION | Suspensión oral | Sucralfato (vigente) |
-| 41528 | DIP SUSPENSION | Suspensión oral | Sucralfato (vigente) |
-| 20056480 | ULPIGAS® | Tableta dispersable | Sucralfato (vigente) |
-| 36743 | ALSUCRAL® TABLETAS X 1 G. | Tableta | Sucralfato (vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20004631 | SUGASTRIN | TABLETA RECUBIERTA | SUCRALFATE | Vigente |
+| 20013276 | SUGASTRIN® SUSPENSION | SUSPENSION ORAL | SUCRALFATE | Vigente |
+| 20056480 | ULPIGAS® | TABLETA DISPERSABLE | SUCRALFATE | Vigente |
+| 20087855 | ALBISAN SUSPENSION | SUSPENSION ORAL | SUCRALFATE | Vigente |
+| 20108016 | SUCRALFATO 1G/ 5 ML SUSPENSION | SUSPENSION ORAL | SUCRALFATE | Vigente |
+
+Se muestran 5 de 7 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -119,12 +126,6 @@ Existe plausibilidad mecanística y dos ensayos aleatorizados pequeños, antiguo
 - Valorar la seguridad en pacientes con enfermedad renal o diabetes (contraindicaciones del grafo) y el manejo de las interacciones, en especial con antirretrovirales inhibidores de integrasa (dolutegravir, bictegravir), tetraciclinas y bisfosfonatos.
 - Diseñar un ensayo contemporáneo, controlado y con desenlaces objetivos (endoscópicos e histológicos), comparado con tratamientos actuales como los inhibidores de la bomba de protones.
 
-<!-- review:begin co-lic-20261112-sucralfate-1 -->
-
-> **Corrección de revisión (2026-11-12)**: Texto original: "4 licencias válidas" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 7 registros sanitarios, de los cuales 7 vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261112-sucralfate-1 -->
-
 <!-- review:begin log -->
 
 ## Registro de revisión
@@ -134,7 +135,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "no hay registros sanitarios vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 4 → 7 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 4 → 7 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Sucralfate Oral Suspension (sucralfate) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e595c2a-edd0-43f7-a2db-69553b9557d9) |
 
 <!-- review:end log -->

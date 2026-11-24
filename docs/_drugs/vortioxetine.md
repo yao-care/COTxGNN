@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 665
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "vortioxetine"
 predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
 description: "Vortioxetine: nueva indicación predicha, Trastorno neurótico (neurotic disorder) (nivel de evidencia L5). Indicación original: VORTIOXETINA"
@@ -121,9 +121,19 @@ Estas publicaciones respaldan la eficacia de vortioxetina en depresión mayor, n
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20215225 | ACSODIX® 10MG COMPRIMIDOS RECUBIERTOS (TABLETAS RECUBIERTAS) | Tableta recubierta (vía oral) | VORTIOXETINA | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20080353 | BRINTELLIX® 20 MG | TABLETA RECUBIERTA | VORTIOXETINA | Vigente |
+| 20088450 | BRINTELLIX® 10 MG | TABLETA RECUBIERTA | VORTIOXETINA | Vigente |
+| 20215223 | ACSODIX® 5 TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | VORTIOXETINA | Vigente |
+| 20215225 | ACSODIX® 10MG COMPRIMIDOS RECUBIERTOS (TABLETAS RECUBIERTAS) | TABLETA RECUBIERTA | VORTIOXETINA | Vigente |
+| 20215227 | ACSODIX® 20 TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | VORTIOXETINA | Vigente |
+
+Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

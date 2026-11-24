@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 195
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dapsone: nueva indicación predicha, Neumocistosis (nivel de evidencia L1). Indicación original: DAPSONA"
 monitor_inn: "Dapsone"
 predicted_indications: ["pneumocystosis"]
@@ -110,10 +110,16 @@ En consecuencia, la predicción coincide con un uso ya reconocido en guías. Los
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20148515 | DAPSULON® 50 MG (vigente) | Tableta cubierta con película | DAPSONA |
-| 20145596 | DAPSULON® 100 MG (vigente) | Tableta | DAPSONA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20145596 | DAPSULON® 100 MG | TABLETA | DAPSONA | Vigente |
+| 20148515 | DAPSULON® 50 MG | TABLETA CUBIERTA CON PELICULA | DAPSONA | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 594
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sulfacetamide: nueva indicación predicha, Vasculitis postinfecciosa (nivel de evidencia L5). Indicación original: Sulfacetamida"
 monitor_inn: "sulfacetamide"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "punctate epithelial keratoconjunctivitis", "exposure keratitis", "parasitic eyelid infestation"]
@@ -94,9 +94,15 @@ En predicciones secundarias se identificaron dos publicaciones, ninguna de las c
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20022399 | SULFAOFTAL® 10% SOLUCIÓN OFTÁLMICA | Solución oftálmica | Sulfacetamida |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20022399 | SULFAOFTAL ® 10% SOLUCION OFTÁLMICA | SOLUCION OFTALMICA | SULFACETAMIDA | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

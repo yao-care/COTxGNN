@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 558
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rifampicin: nueva indicación predicha, Conjuntivitis (nivel de evidencia L4). Indicación original: No especificada en los registros (el texto de indicación solo indica…"
 monitor_inn: "rifampicin"
 predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
@@ -92,10 +92,16 @@ Actualmente no hay ensayos clínicos relacionados registrados para conjuntivitis
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20677 | RIFAMPICINA 300MG CAPSULAS (TECNOQUÍMICAS S.A.) | Cápsula dura | Solo figura "Rifampicina" (estado: vigente) |
-| 30168 | RIFAMPICINA 300 MG (COLMED LTDA) | Cápsula dura | Solo figura "Rifampicina" (estado: vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20677 | RIFAMPICINA 300MG CAPSULAS | CAPSULA DURA | RIFAMPICINA | Vigente |
+| 30168 | RIFAMPICINA 300 MG | CAPSULA DURA | RIFAMPICINA | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

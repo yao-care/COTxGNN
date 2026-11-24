@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 437
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Methylprednisolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Methylprednisolone: nueva indicación predicha, Alopecia mucinosa (nivel de evidencia L5). Indicación original: PREDNISOLONA"
@@ -70,10 +70,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Estado: comercializado, con registros sanitarios vigentes. La lista puede ser parcial.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20128975 | Metilprednisolona 16 mg | Tableta recubierta | Prednisolona |
-| 20136274 | Precort® 16 mg tabletas recubiertas | Tableta recubierta | Metilprednisolona |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19990590 | METILPREDNISOLONA 500 MG | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | METILPREDNISOLONA | Vigente |
+| 20128952 | METILPREDNISOLONA 4 MG | TABLETA RECUBIERTA | METILPREDNISOLONA | Vigente |
+| 20128975 | METILPREDNISOLONA 16 MG | TABLETA RECUBIERTA | PREDNISOLONA | Vigente |
+| 20136180 | PRECORT®4 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | METILPREDNISOLONA | Vigente |
+| 20136274 | PRECORT® 16 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | METILPREDNISOLONA | Vigente |
+
+Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 Ambos productos son de vía oral.
 

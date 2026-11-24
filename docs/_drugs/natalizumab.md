@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 463
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "NATALIZUMAB"
 predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
 description: "Natalizumab: nueva indicación predicha, Bronchitis (nivel de evidencia L5). Indicación original: NATALIZUMAB"
@@ -89,10 +89,16 @@ Se listan las publicaciones más relevantes, priorizando estudios observacionale
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20241992 | TYSABRI® SUBCUTÁNEO 150MG/ML | Solución inyectable | Natalizumab (vigente) |
-| 20006016 | TYSABRI® | Solución concentrada para infusión | Natalizumab (vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20006016 | TYSABRI® | SOLUCIÓN CONCENTRADA PARA INFUSIÓN | NATALIZUMAB | Vigente |
+| 20241992 | TYSABRI® SUBCUTÁNEO 150MG/ML | SOLUCION INYECTABLE | NATALIZUMAB | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 393
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Leuprolide"
 predicted_indications: ["osteoarthritis", "pseudoachondroplasia"]
 description: "Leuprolide: nueva indicación predicha, Osteoartritis (osteoarthritis) (nivel de evidencia L5). Indicación original: LEUPRORELINA ACETATO"
@@ -77,10 +77,16 @@ El alto puntaje de TxGNN (0.997) es únicamente una predicción computacional, s
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19956218 | ELIGARD® 22.5 MG | Polvo liofilizado para reconstituir a solución inyectable | Leuprorelina acetato |
-| 20032905 | ELIGARD® 45 MG | Polvo estéril para reconstituir a suspensión inyectable | Leuprorelina acetato |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19956218 | ELIGARD® 22.5 MG POLVO LIOFILIZADO PARA SUSPENSION INYECTABLE | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | LEUPRORELINA ACETATO | Vigente |
+| 20032905 | ELIGARD ® 45 MG | POLVO ESTERIL PARA RECONSTITUIR A SUSPENSIONINYECTABLE | LEUPRORELINA ACETATO | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

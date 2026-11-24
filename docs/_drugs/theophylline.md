@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "Theophylline"
 predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotracheitis", "tracheal disease", "pharyngitis", "acute laryngopharyngitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Theophylline: nueva indicación predicha, Enfermedad trombótica (nivel de evidencia L5). Indicación original: El único registro sanitario encontrado solo muestra \"AMBROXOL\" en el…"
 ---
 
@@ -93,9 +93,15 @@ Ninguno de los siguientes trabajos evalúa la teofilina como terapia de la tromb
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20005160 | TRIATUSIC® JARABE | Jarabe | Solo figura "AMBROXOL" (principio activo, sin texto de indicación clínica) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20005160 | TRIATUSIC® JARABE | JARABE | AMBROXOL | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 El nombre del producto y los datos de origen sugieren que podría ser una asociación de varios principios activos, por lo que este registro no permite describir cómo está aprobada la teofilina como único ingrediente. La lista de registros puede ser parcial.
 

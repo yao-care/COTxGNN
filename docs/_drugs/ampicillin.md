@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 56
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Ampicillin"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
 description: "Ampicillin: nueva indicación predicha, Laringitis (laryngitis) (nivel de evidencia L4). Indicación original: AMPICILINA E INHIBIDOR ENZIMATICO"
@@ -92,9 +92,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20166599 | AUROPENNZ 1.5 G | Polvo estéril para reconstituir a solución inyectable | Ampicilina e inhibidor enzimático |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19991580 | AMPICILINA + SULBACTAM 1.5 G POLVO ESTERIL PARA INYECCION. | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | AMPICILINA E INHIBIDOR ENZIMATICO | Vigente |
+| 20166596 | AUROPENNZ 3.0 G POLVO ESTERIL PARAINYECCIÓN | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | AMPICILINA E INHIBIDOR ENZIMATICO | Vigente |
+| 218004 | AMPICILINA + SULBACTAM 1.5 G | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | AMPICILINA E INHIBIDOR ENZIMATICO | Vigente |
+| 230357 | AMPICILINA250 MG / 5 MLPOLVO PARA RECONSTITUIR A SUSPENSION ORAL. | POLVO PARA RECONSTITUIR A SUSPENSION ORAL | AMPICILINA | Vigente |
+| 27259 | UNASYN INYECTABLE 1.5 G. | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | AMPICILINA E INHIBIDOR ENZIMATICO | Vigente |
+
+Se muestran 5 de 7 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

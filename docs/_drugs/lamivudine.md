@@ -92,12 +92,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19990398 | Lamivudina 10 mg/mL solución oral | Solución oral | Lamivudina |
-| 20085320 | Abacavir 600 mg + Lamivudina 300 mg tabletas recubiertas | Tableta recubierta | Lamivudina y abacavir |
-| 20160000 | Delstrigo® tabletas recubiertas | Tableta recubierta | Lamivudina, tenofovir disoproxilo y doravirina |
-| 20081132 | Triumeq® 50 mg / 600 mg / 300 mg | Tableta recubierta | Lamivudina, abacavir y dolutegravir |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19975104 | LAMIVUDINA SOLUCION ORAL 10 MG /ML | SOLUCION ORAL | LAMIVUDINA | Vigente |
+| 20008845 | ABACAVIR 600 MG Y LAMIVUDINA 300 MG | TABLETA CUBIERTA CON PELICULA | LAMIVUDINA Y ABACAVIR | Vigente |
+| 20081132 | TRIUMEQ® 50 MG / 600 MG / 300 MG | TABLETA RECUBIERTA | LAMIDUBINA. ABACAVIR Y DOLUTEGRAVIR | Vigente |
+| 20085320 | ABACAVIR 600 MG + LAMIVUDINA 300 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | LAMIVUDINA Y ABACAVIR | Vigente |
+| 20120947 | TOLAMID® | TABLETA RECUBIERTA | LAMIVUDINA Y ABACAVIR | Vigente |
+
+Se muestran 5 de 14 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

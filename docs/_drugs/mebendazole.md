@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 419
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mebendazole: nueva indicación predicha, Acné (nivel de evidencia L5). Indicación original: Mebendazol"
 monitor_inn: "Mebendazole"
 predicted_indications: ["acne (disease)"]
@@ -73,10 +73,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19948951 | ASCAZOL® 100 MG/5ML SUSPENSION (vigente) | Suspensión oral | Mebendazol |
-| 19946472 | CHALVER ZAKOR® SUSPENSION (vigente) | Suspensión oral | Mebendazol |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19946472 | CHALVER ZAKOR ®SUSPENSION | SUSPENSION ORAL | MEBENDAZOL | Vigente |
+| 19948951 | ASCAZOL® 100 MG/5ML SUSPENSION | SUSPENSION ORAL | MEBENDAZOL | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

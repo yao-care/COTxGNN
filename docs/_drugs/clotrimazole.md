@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 175
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Clotrimazole"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
 description: "Clotrimazole: nueva indicación predicha, Acné (acne (disease)) (nivel de evidencia L5). Indicación original: CLOTRIMAZOL"
@@ -89,10 +89,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19971011 | CUTAMYCON 500 MG (vigente) | Cápsula blanda | Clotrimazol |
-| 20018316 | DERMA Q CREMA TÓPICA (vigente) | Crema tópica | Mometasona |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19908154 | GYNOFLOR® CREMA VAGINAL | CREMA VAGINAL | COMBINACIONES DE IMIDAZOL DERIVADOS | Vigente |
+| 19909066 | CLOTRIMAZOLCREMA VAGINAL AL 1% | CREMA VAGINAL | CLOTRIMAZOL | Vigente |
+| 19911224 | CLOTRIMAZOL CREMA TOPICA AL 1% | CREMA TOPICA | CLOTRIMAZOL | Vigente |
+| 19912977 | CLOTRIMAZOL 1% | CREMA TOPICA | CLOTRIMAZOL | Vigente |
+| 19919737 | CLOTRIMAZOL CREMA VAGINAL 1% | CREMA VAGINAL | CLOTRIMAZOL | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

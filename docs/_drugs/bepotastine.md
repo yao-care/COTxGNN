@@ -72,20 +72,18 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0.99) generó para Bepotasti
 
 ## Información de Mercado en Colombia
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 20067043 | BEPOTASTINA BESILATO (EQUIVALENTE A 10.70 MG DE BEPOTASTINA) | SOLUCION OFTALMICA | Vencido |
-| 20215922 | BEPOTASTINA BESILATO EQUIVALENTE A 10.7 MG DE BEPOTASTINA | SOLUCION OFTALMICA | Temp. no comerc - Vigente |
-| 20201515 | BEPOTASTINA BESILATO 15.00 MG EQUIVALENTE A BEPOTASTINA | SOLUCION OFTALMICA | Vigente |
-| 20079303 | BEPOTASTINA BESILATO | SOLUCION OFTALMICA | Temp. no comerc - Vigente |
+<!-- licenses:begin -->
 
-<!-- review:begin co-row-20261124-bepotastine-1 -->
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20201515 | ELAR-B | SOLUCION OFTALMICA | BEPOTASTINA | Vigente |
+| 20079303 | DOLCETTINA® | SOLUCION OFTALMICA | BEPOTASTINA | Temp. no comerc - Vigente |
+| 20215922 | TRALER POEN® LC SOLUCIÓN OFTÁLMICA ESTÉRIL | SOLUCION OFTALMICA | BEPOTASTINA | Temp. no comerc - Vigente |
+| 20067043 | TRALER POEN | SOLUCION OFTALMICA | BEPOTASTINA | Vencido |
 
-> **Corrección de revisión (2026-11-24)**: Texto original: "20067043 / BEPOTASTINA BESILATO (EQUIVALENTE A 10.70 MG DE BEPOTASTINA) / SOLUCION OFTALMICA / Temp. no comerc - Vigente" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-24): el registro sanitario 20067043 figura como «Vencido». Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
-<!-- review:end co-row-20261124-bepotastine-1 -->
-
-Los datos solo contienen parte de los registros; la lista puede estar incompleta.
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -105,7 +103,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-24 | Registro 20067043: estado vigente → vencido | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-24 | Registro 20067043: estado vigente → vencido | Reemplazado por la tabla de registros generada por programa (antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

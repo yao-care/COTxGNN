@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 107
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Biotin: nueva indicación predicha, Dispepsia (nivel de evidencia L5). Indicación original: Multivitaminas y elementos traza"
 monitor_inn: "Biotin"
 predicted_indications: ["dyspepsia", "gastroparesis (disease)"]
@@ -80,9 +80,17 @@ Ninguna de estas publicaciones evalúa la biotina como tratamiento de la dispeps
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 215439 | CERNEVIT® | Polvo liofilizado para reconstituir a solución inyectable | Multivitaminas y elementos traza |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 215439 | CERNEVIT® | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | MULTIVITAMINAS Y ELEMENTOS TRAZA | Vigente |
+| 43462 | SOLUVIT® N | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | COMBINACIONES | Vigente |
+| 19936177 | GESTAVIT ® MATERNO | CAPSULA BLANDA | MULTIVITAMINAS MAS HIERRO | Temp. no comerc - Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

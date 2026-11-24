@@ -86,9 +86,19 @@ Actualmente no hay ensayos clínicos relacionados registrados para esta indicaci
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20071330 | DESVENLAFAXINA 50 MG (Laboratorios MK S.A.S.) | Tableta de liberación prolongada | DESVENLAFAXINA (sin indicación detallada) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20001974 | PRISTIQ® 50 MG TABLETAS DE LIBERACION PROLONGADA | TABLETA DE LIBERACION PROLONGADA | DESVENLAFAXINA | Vigente |
+| 20001976 | PRISTIQ® 100 MG TABLETAS DE LIBERACION PROLONGADA | TABLETA DE LIBERACION PROLONGADA | DESVENLAFAXINA | Vigente |
+| 20071330 | DESVENLAFAXINA 50 MG | TABLETA DE LIBERACION PROLONGADA | DESVENLAFAXINA | Vigente |
+| 20141471 | DESVENLAFAXINA 50 MG | TABLETA DE LIBERACION PROLONGADA | DESVENLAFAXINA | Vigente |
+| 20141473 | DESVENLAFAXINA 100 MG | TABLETA DE LIBERACION PROLONGADA | DESVENLAFAXINA | Vigente |
+
+Se muestran 5 de 9 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

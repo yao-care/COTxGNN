@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 361
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Itraconazole: nueva indicación predicha, Neumocistosis (nivel de evidencia L5). Indicación original: ITRACONAZOL"
 monitor_inn: "Itraconazole"
 predicted_indications: ["pneumocystosis"]
@@ -100,10 +100,19 @@ Las publicaciones son en su mayoría revisiones y series de casos sobre infeccio
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20122550 | ITRACONAZOL 10 MG/ ML (vigente) | Solución oral | ITRACONAZOL |
-| 20095994 | FUNGITRAL® 1G/100 ML (vigente) | Solución oral | ITRACONAZOL |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19942227 | ALBISEC® | CAPSULA DURA | SECNIDAZOL | Vigente |
+| 19999657 | ITROL® | CAPSULA DURA | ITRACONAZOL | Vigente |
+| 20063322 | ALBISEC ONE® | TABLETA RECUBIERTA | ITRACONAZOL | Vigente |
+| 20095994 | FUNGITRAL® 1G/100 ML | SOLUCION ORAL | ITRACONAZOL | Vigente |
+| 20122550 | ITRACONAZOL 10 MG/ ML | SOLUCION ORAL | ITRACONAZOL | Vigente |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

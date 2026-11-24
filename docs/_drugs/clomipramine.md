@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 171
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clomipramine: nueva indicación predicha, Trastorno de ansiedad (nivel de evidencia L1). Indicación original: CLOMIPRAMINA"
 monitor_inn: "clomipramine"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "agoraphobia", "attention deficit-hyperactivity disorder"]
@@ -94,9 +94,15 @@ Solo dos ensayos evalúan directamente clomipramina (NCT00004310 y NCT00564564);
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 227031 | ANAFRANIL® RETARD 75 MG TABLETAS RECUBIERTAS DE LIBERACIÓN PROLONGADA | Tableta de liberación prolongada | CLOMIPRAMINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 227031 | ANAFRANIL® RETARD 75 MG TABLETAS RECUBIERTAS DE LIBERACION PROLONGADA | TABLETA DE LIBERACION PROLONGADA | CLOMIPRAMINA | Temp. no comerc - Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

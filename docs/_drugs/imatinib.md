@@ -83,9 +83,19 @@ Actualmente no hay ensayos clínicos relacionados registrados para fibrosarcoma 
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19939440 | GLIVEC® 100 MG COMPRIMIDOS CON CUBIERTA PELICULAR | Tableta cubierta con película | IMATINIB |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19939438 | GLIVEC® 400 MG COMPRIMIDO CON CUBIERTA PELICULAR | TABLETA CUBIERTA CON PELICULA | IMATINIB | Vigente |
+| 19939440 | GLIVEC® 100 MG COMPRIMIDOS CON CUBIERTA PELICULAR | TABLETA CUBIERTA CON PELICULA | IMATINIB | Vigente |
+| 20064440 | IMATERO® | TABLETA CUBIERTA CON PELICULA | IMATINIB | Vigente |
+| 20109807 | IMUDAY® | CAPSULA DURA | IMATINIB | Vigente |
+| 20135094 | NEXTINIB® 400 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | IMATINIB | Vigente |
+
+Se muestran 5 de 9 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

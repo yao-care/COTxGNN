@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 540
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Propranolol: nueva indicación predicha, Miopatía distal, tipo Tateyama (nivel de evidencia L5). Indicación original: Propranolol"
 monitor_inn: "propranolol"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
@@ -92,12 +92,18 @@ Actualmente no hay literatura relacionada disponible para miopatía distal tipo 
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 57771 | Propranolol clorhidrato 40 mg tabletas (Pentacoop S.A.) | Tableta | Propranolol | Vigente |
-| 35618 | Propranolol clorhidrato 40 mg tabletas (Tecnoquímicas S.A.) | Tableta | Propranolol | Vigente |
-| 35619 | Propranolol 80 mg tabletas (Tecnoquímicas S.A.) | Tableta | Propranolol | Vigente |
-| 19978181 | Propranolol 40 mg tabletas (Novamed S.A.S.) | Tableta | Propranolol | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19978181 | PROPRANOLOL 40 MG TABLETAS | TABLETA | PROPRANOLOL | Vigente |
+| 35618 | PROPRANOLOL CLORHIDRATO 40 MG TABLETAS | TABLETA | PROPRANOLOL | Vigente |
+| 35619 | PROPRANOLOL80 MG TABLETAS | TABLETA | PROPRANOLOL | Vigente |
+| 57771 | PROPRANOLOL CLORHIDRATO 40 MG. TABLETAS | TABLETA | PROPRANOLOL | Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

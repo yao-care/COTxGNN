@@ -75,13 +75,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Hay registros sanitarios vigentes; se listan los principales (hasta 5):
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 36575 | Amoxicilina cápsulas 500 mg | Cápsula dura | Amoxicilina |
-| 20083462 | Solomoxy | Cápsula dura | Amoxicilina |
-| 20125193 | Weidermicina 500 mg cápsulas | Cápsula dura | Amoxicilina |
-| 20135836 | Amoxidal 1.0 g | Tableta | Amoxicilina |
-| 20198689 | Deltmoxi cápsulas 500 mg | Cápsula dura | Amoxicilina |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20004922 | KOACT 312.5 POLVO PARA RECONSTITUIR A SUSPENSIÓN ORAL | POLVO PARA RECONSTITUIR A SUSPENSION ORAL | AMOXICILINA Y BETA-LACTAMASA INHIBIDOR | Vigente |
+| 20032447 | IPICLAV® 1 G | TABLETA RECUBIERTA | AMOXICILINA Y BETA-LACTAMASA INHIBIDOR | Vigente |
+| 20079039 | ATAK CLAV® | POLVO PARA RECONSTITUIR A SUSPENSION ORAL | AMOXICILINA Y BETA-LACTAMASA INHIBIDOR | Vigente |
+| 20083462 | SOLOMOXY | CAPSULA DURA | AMOXICILINA | Vigente |
+| 20109747 | AMOXICLIN ® DUO | TABLETA RECUBIERTA | AMOXICILINA Y BETA-LACTAMASA INHIBIDOR | Vigente |
+
+Se muestran 5 de 19 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -81,9 +81,15 @@ Actualmente no hay literatura relacionada disponible para hipertermia maligna in
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 19973358 | VICLEAR® | Tableta | ACETAZOLAMIDA | Temp. no comerc - Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19973358 | VICLEAR® | TABLETA | ACETAZOLAMIDA | Temp. no comerc - Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

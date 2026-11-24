@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 604
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "tamoxifen"
 predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Tamoxifen: nueva indicación predicha, Mammary Paget disease (nivel de evidencia L5). Indicación original: TAMOXIFENO"
@@ -95,11 +95,18 @@ Sin embargo, la evidencia se limita a casos clínicos, series de casos y anális
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 201175 | NOLVADEX®-D Tabletas 20 mg | Tableta recubierta | Tamoxifeno (sin texto de indicación detallado) |
-| 35448 | TAXUS® 20 mg Comprimidos | Tableta | Tamoxifeno (sin texto de indicación detallado) |
-| 20237754 | SUMIXIFENO® 20 mg | Tableta recubierta | Tamoxifeno (sin texto de indicación detallado) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 201175 | NOLVADEX®-D TABLETAS 20 MG | TABLETA RECUBIERTA | TAMOXIFENO | Vigente |
+| 20187876 | AUROTAMFONY® 20 MG TABLETAS RECUBIERTA | TABLETA RECUBIERTA | TAMOXIFENO | Vigente |
+| 35448 | TAXUS® 20 MG COMPRIMIDOS | TABLETA | TAMOXIFENO | Vigente |
+| 20237754 | SUMIXIFENO® 20 MG | TABLETA RECUBIERTA | TAMOXIFENO | Temp. no comerc - Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

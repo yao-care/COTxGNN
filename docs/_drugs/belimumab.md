@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "BELIMUMAB"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "fetal and neonatal alloimmune thrombocytopenia", "severe nonproliferative diabetic retinopathy", "autosomal dominant macrothrombocytopenia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Belimumab: nueva indicación predicha, trastorno primario de la liberación plaquetaria (primary release disorder of platelets) (nivel de evidencia L5). Indicación original: BELIMUMAB"
 ---
 
@@ -71,10 +71,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20048122 | BENLYSTA 120 MG polvo liofilizado concentrado para solución para infusión | Polvo liofilizado para reconstituir a solución inyectable | No registrada en los datos locales |
-| 20066631 | BENLYSTA 400 MG polvo liofilizado concentrado para solución para infusión | Polvo liofilizado para reconstituir a solución inyectable | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20048122 | BENLYSTA 120 MG POLVO LIOFILIZADO CONCENTRADO PARA SOLUCION PARA INFUSION | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | BELIMUMAB | Vigente |
+| 20066631 | BENLYSTA 400 MG POLVO LIOFILIZADO CONCENTRADO PARA SOLUCION PARA INFUSION | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | BELIMUMAB | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

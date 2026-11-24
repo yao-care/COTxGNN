@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 357
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Isoniazid: nueva indicación predicha, Conjuntivitis (nivel de evidencia L5). Indicación original: ISONIAZIDA"
 monitor_inn: "isoniazid"
 predicted_indications: ["conjunctivitis"]
@@ -92,11 +92,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20190631 | GOTBISON® 100 MG. TABLETAS RECUBIERTAS (vigente) | Tableta recubierta | ISONIAZIDA |
-| 20190638 | GOTBISON® 300 MG TABLETA RECUBIERTAS (vigente) | Tableta recubierta | ISONIAZIDA |
-| 19927446 | SOLONEX® 100 MG TABLETAS (vigente) | Tableta | ISONIAZIDA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19927446 | SOLONEX® 100 MG TABLETAS | TABLETA | ISONIAZIDA | Vigente |
+| 20051587 | ISONIAZIDA 300 MG | TABLETA | ISONIAZIDA | Vigente |
+| 20190631 | GOTBISON® 100 MG. TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | ISONIAZIDA | Vigente |
+| 20190638 | GOTBISON® 300 MG TABLETA RECUBIERTAS. | TABLETA RECUBIERTA | ISONIAZIDA | Vigente |
+| 20242586 | RIFANIL-INH® TABLETAS RECUBIERTAS. | TABLETA RECUBIERTA | RIFAPENTIN | Vigente |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

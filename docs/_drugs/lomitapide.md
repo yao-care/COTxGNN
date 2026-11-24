@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 407
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "lomitapide"
 predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "platelet storage pool deficiency"]
 description: "Lomitapide: nueva indicación predicha, Marcothrombocytopenia with mitral valve insufficiency (nivel de evidencia L5). Indicación original: LOMITAPIDA"
@@ -96,13 +96,19 @@ Se listan los 5 principales:
 
 <!-- review:end co-lic-20261105-lomitapide-2 -->
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20250301 | TROMBACTAN® 10 MG CAPSULAS DURAS | Cápsula dura | Lomitapida (sin detalle de indicación) |
-| 20245910 | TROMBACTAN® 5 MG CAPSULAS | Cápsula dura | Lomitapida (sin detalle de indicación) |
-| 20246008 | TROMBACTAN® 20 MG CAPSULAS | Cápsula dura | Lomitapida (sin detalle de indicación) |
-| 20097720 | JUXTAPID® CÁPSULAS POR 5 MG | Cápsula dura | Lomitapida (sin detalle de indicación) |
-| 20071948 | JUXTAPID® CÁPSULAS POR 20 MG | Cápsula dura | Lomitapida (sin detalle de indicación) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20071948 | JUXTAPID® CÁPSULAS POR 20 MG | CAPSULA DURA | LOMITAPIDA | Vigente |
+| 20097720 | JUXTAPID® CÁPSULAS POR 5 MG | CAPSULA DURA | LOMITAPIDA | Vigente |
+| 20213827 | OLESTAPIDE® 20 MG CÁPSULAS | CAPSULA DURA | LOMITAPIDA | Vigente |
+| 20213830 | OLESTAPIDE® 10 MG CÁPSULAS | CAPSULA DURA | LOMITAPIDA | Vigente |
+| 20213835 | OLESTAPIDE®5 MG CÁPSULAS | CAPSULA DURA | LOMITAPIDA | Vigente |
+
+Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

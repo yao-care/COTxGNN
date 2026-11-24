@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "givosiran"
 predicted_indications: ["hepatoportal sclerosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "chronic hepatitis C virus infection", "glycogen storage disease due to hepatic glycogen synthase deficiency", "chronic hepatitis B virus infection", "disorder of phenylalanine metabolism"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Givosiran: nueva indicación predicha, Esclerosis hepatoportal (hepatoportal sclerosis) (nivel de evidencia L5). Indicación original: GIVOSIRAN SODICO"
 ---
 
@@ -71,9 +71,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20211712 | GIVLAARI® 189 MG/ML SOLUCION INYECTABLE | Solución inyectable | La indicación aprobada no está registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20211712 | GIVLAARI® 189 MG/ML SOLUCION INYECTABLE | SOLUCION INYECTABLE | GIVOSIRAN SODICO | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

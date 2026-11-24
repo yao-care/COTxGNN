@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 399
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Levodopa: nueva indicación predicha, Encefalitis subaguda de Rasmussen (nivel de evidencia L5). Indicación original: Levodopa con inhibidor de decarboxilasa e inhibidor de COMT"
 monitor_inn: "LEVODOPA"
 predicted_indications: ["Rasmussen subacute encephalitis"]
@@ -82,9 +82,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 19995528 | STALEVO® comprimidos con cubierta pelicular 200/50/200 mg (Sandoz GmbH) | Tableta recubierta | Levodopa inhibidor de decarboxilasa e inhibidor COMT | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 1980397 | CARBIDOPA X 25 MG Y LEVODOPA X 250 MG | TABLETA | LEVODOPA E INHIBIDOR DE DECARBOXILASA | Vigente |
+| 19951169 | STALEVO ® COMPRIMIDOCON CUBIERTA PELICULAR50 MG. 12.5MG Y 200MG | TABLETA CUBIERTA CON PELICULA | LEVODOPA E INHIBIDOR DE DECARBOXILASA | Vigente |
+| 19951170 | STALEVO® 100/25/200MG TABLETAS RECUBIERTAS CON PELICULA | TABLETA CUBIERTA CON PELICULA | LEVODOPA E INHIBIDOR DE DECARBOXILASA | Vigente |
+| 19951171 | STALEVO ® 150MG/37.5MG/200MG TABLETAS RECUBIERTAS CON PELICULA | TABLETA CUBIERTA CON PELICULA | LEVODOPA E INHIBIDOR DE DECARBOXILASA | Vigente |
+| 19995528 | STALEVO® COMPRIMIDOSCON CUBIERTAPELICULAR 200/50/200 MG | TABLETA RECUBIERTA | LEVODOPA INHIBIDOR DE DECARBOXILASA E INHIBIDOR COMT | Vigente |
+
+Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

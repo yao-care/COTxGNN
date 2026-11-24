@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 571
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Rosuvastatin"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
 description: "Rosuvastatin: nueva indicación predicha, Cholesterol-ester transfer protein deficiency (nivel de evidencia L5). Indicación original: ROSUVASTATINA"
@@ -110,10 +110,19 @@ Se listan los ensayos más relevantes para hipercolesterolemia familiar (se prio
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20147254 | ROSUVITAE® 20 MG TABLETAS RECUBIERTAS | Tableta recubierta | Rosuvastatina |
-| 20109641 | FENOVAS® 10 MG | Cápsula blanda | Ácido fenofíbrico, rosuvastatina |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19942772 | CRESTOR® 10 MG | TABLETA CUBIERTA CON PELICULA | ROSUVASTATINA | Vigente |
+| 19985046 | CARDIOMAX® 20MG TABLETAS RECUBIERTAS | TABLETA SUBLINGUAL | ROSUVASTATINA | Vigente |
+| 19987776 | CRESTOR® 40 MG | TABLETA RECUBIERTA | ROSUVASTATINA | Vigente |
+| 19991863 | ROSUVASTATINA10 MG | TABLETA RECUBIERTA | ROSUVASTATINA | Vigente |
+| 19991912 | REX® 10 MG TABLETAS | TABLETA CUBIERTA CON PELICULA | ROSUVASTATINA | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

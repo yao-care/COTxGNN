@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 198
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Daunorubicin: nueva indicación predicha, Linfoma de Hodgkin (nivel de evidencia L3). Indicación original: DAUNORRUBICINA"
 monitor_inn: "daunorubicin"
 predicted_indications: ["Hodgkins lymphoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "neuroblastoma", "ALK-positive large B-cell lymphoma", "adenosarcoma", "retroperitoneal neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "pulmonary blastoma"]
@@ -104,9 +104,15 @@ Se listan las publicaciones más relevantes (la evidencia comprende sobre todo r
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20132662 | AL DAUNO® 20 MG | Polvo liofilizado para reconstituir a solución inyectable | DAUNORRUBICINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20132662 | AL DAUNO® 20MG POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | DAUNORRUBICINA | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 El fabricante es AL PHARMA S.A.S.
 

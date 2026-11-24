@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Decitabine"
 predicted_indications: ["refractory cytopenia of childhood"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Decitabine: nueva indicación predicha, citopenia refractaria de la infancia (refractory cytopenia of childhood) (nivel de evidencia L5). Indicación original: DECITABINA"
 ---
 
@@ -75,11 +75,17 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19991325 | DACOGEN ® | Polvo liofilizado para reconstituir a solución inyectable | DECITABINA |
-| 20195412 | AURODECINJET 50 MG | Polvo liofilizado para reconstituir a solución inyectable | DECITABINA |
-| 20097119 | REDTIBIN 50 MG/VIAL | Polvo liofilizado | DECITABINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19991325 | DACOGEN ® | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | DECITABINA | Vigente |
+| 20097119 | REDTIBIN 50 MG/VIAL | POLVO LIOFILIZADO | DECITABINA | Vigente |
+| 20195412 | AURODECINJET 50 MG | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | DECITABINA | Temp. no comerc - Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 608
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Tazobactam: usos conocidos y estado de mercado en Colombia; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -72,9 +72,19 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) generó para Tazobacta
 
 ## Información de Mercado en Colombia
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 20089767 | PIPERACILINA | POLVO ESTERIL PARA RECONSTITUIR A SOLUCI | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20010839 | PIPERACILINA (SODICA)4G + TAZOBACTAM (SODICO) 0.5 G | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | PIPERACILINA E INHIBIDOR ENZIMATICO | Vigente |
+| 20025675 | DELBACTAM® | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | PIPERACILINA E INHIBIDOR ENZIMATICO | Vigente |
+| 20057245 | PIPERACILINA 4.0 G + TAZOBACTAM 0.5 G POLVO PARA RECONSTITUIR A SOLUCION INYECTABLE | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | PIPERACILINA E INHIBIDOR ENZIMATICO | Vigente |
+| 20059801 | PIPERACILINA 4G + TAZOBACTAM 0.5G | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | PIPERACILINA E INHIBIDOR ENZIMATICO | Vigente |
+| 20082710 | KABICTAM® POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | PIPERACILINA E INHIBIDOR ENZIMATICO | Vigente |
+
+Se muestran 5 de 14 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

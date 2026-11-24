@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 452
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MODAFINIL"
 predicted_indications: ["insomnia (disease)"]
 description: "Modafinil: nueva indicación predicha, insomnio (insomnia (disease)) (nivel de evidencia L5). Indicación original: MODAFINIL"
@@ -83,10 +83,16 @@ Ninguna de las publicaciones identificadas estudia directamente el insomnio como
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19968570 | VIGIA® 100 MG (PROCAPS S.A.) | Cápsula blanda | MODAFINIL (sin detalle de indicación; estado: vigente) |
-| 19968571 | VIGIA® 200 MG (PROCAPS S.A.) | Cápsula blanda | MODAFINIL (sin detalle de indicación; estado: vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19968570 | VIGIA® 100 MG | CAPSULA BLANDA | MODAFINIL | Vigente |
+| 19968571 | VIGIA ®200 MG | CAPSULA BLANDA | MODAFINIL | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 La lista de registros puede ser parcial.
 

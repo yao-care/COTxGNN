@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 555
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Resorcinol: nueva indicación predicha, Acné queloide (nivel de evidencia L5). Indicación original: Ácido salicílico, ácido benzoico, resorcinol (combinación)"
 monitor_inn: "RESORCINOL"
 predicted_indications: ["acne keloid", "amyopathic dermatomyositis", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial"]
@@ -93,10 +93,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20052715 | Querafar® Solución Tópica | Solución tópica | Ácido salicílico, ácido benzoico, resorcinol (vigente) |
-| 19977478 | Mesalit Solución Tópica | Solución tópica | Varias combinaciones (vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19977478 | MESALITSOLUCIONTOPICA | SOLUCION TOPICA | VARIAS COMBINACIONES | Vigente |
+| 20052715 | QUERAFAR® SOLUCION TOPICA | SOLUCION TOPICA | ÄCIDO SALICILICO. ÁCIDO BENZOICO. RESORCINOL | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

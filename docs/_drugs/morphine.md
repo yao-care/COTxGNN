@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 456
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "morphine"
 predicted_indications: ["myofascial pain syndrome", "manic bipolar affective disorder", "Tourette syndrome", "restless legs syndrome", "attention deficit hyperactivity disorder, inattentive type", "migraine disorder", "trichotillomania", "methemoglobinemia", "migraine with brainstem aura", "specific developmental disorder"]
 description: "Morphine: nueva indicación predicha, Síndrome de dolor miofascial (myofascial pain syndrome) (nivel de evidencia L5). Indicación original: MORFINA"
@@ -79,10 +79,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 218190 | MORFINA CLORHIDRATO AL 3% SOLUCIÓN ORAL | Solución oral | MORFINA |
-| 20013906 | MORFINA CLORHIDRATO 10 MG / ML | Solución inyectable | MORFINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20013906 | MORFINA CLORHIDRATO 10 MG / ML | SOLUCION INYECTABLE | MORFINA | Vigente |
+| 218190 | MORFINA CLORHIDRATO AL 3% SOLUCIÓN ORAL | SOLUCION ORAL | MORFINA | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -102,18 +102,18 @@ Como contexto, la literatura asociada a otras predicciones se centra en el uso o
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20219978 | GLAUCOPROST Solución Oftálmica Estéril | Solución oftálmica | Travoprost | Vencido |
-| 19950508 | GLAUCOPROST Solución Oftálmica | Solución oftálmica | Travoprost | Vigente |
-| 20087519 | FOCUS® | Solución oftálmica | Travoprost | Temp. no comerc - Vigente |
-| 20236408 | BRISTRIO® | Solución oftálmica | Travoprost | Vigente |
+<!-- licenses:begin -->
 
-<!-- review:begin co-row-20261124-travoprost-1 -->
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19950508 | GLAUCOPROST SOLUCION OFTALMICA | SOLUCION OFTALMICA | TRAVOPROST | Vigente |
+| 20236408 | BRISTRIO® | SOLUCION OFTALMICA | TRAVOPROST | Vigente |
+| 20087519 | FOCUS® | SOLUCION OFTALMICA | TRAVOPROST | Temp. no comerc - Vigente |
+| 20219978 | GLAUCOPROST SOLUCIÓN OFTÁLMICA ESTÉRIL | SOLUCION OFTALMICA | TRAVOPROST | Vencido |
 
-> **Corrección de revisión (2026-11-24)**: Texto original: "20219978 / GLAUCOPROST Solución Oftálmica Estéril / Solución oftálmica / Travoprost / Temp. no comerc - Vigente" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-24): el registro sanitario 20219978 figura como «Vencido». Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
-<!-- review:end co-row-20261124-travoprost-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -164,7 +164,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "Además, el mercado colombiano no tiene registros vigentes de travoprost" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Revisar la situación regulatoria: los cuatro registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Travoprost Ophthalmic Soluton (travoprost) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498a376e-a74e-48d8-a022-ad15a1ecadb5) |
-| 2026-11-24 | Registro 20219978: estado vigente → vencido | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-24 | Registro 20219978: estado vigente → vencido | Reemplazado por la tabla de registros generada por programa (antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

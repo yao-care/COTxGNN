@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Ergocalciferol"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis", "craniofacial conodysplasia", "renal osteodystrophy", "calcium-alkali syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ergocalciferol: nueva indicación predicha, Displasia acromesomélica tipo Campailla-Martinelli (acromesomelic dysplasia, Campailla Martinelli type) (nivel de evidencia L5)."
 ---
 
@@ -74,9 +74,15 @@ Actualmente no hay literatura relacionada disponible.
 
 Según los datos compilados, el estado del producto en Colombia es comercializado. Se registró al menos 1 registro sanitario vigente; la lista puede ser parcial.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19900781 | VITALIPID® N - ADULT (FRESENIUS KABI AB) | Emulsión inyectable | COMBINACIONES |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19900781 | VITALIPID® N - ADULT | EMULSION INYECTABLE | COMBINACIONES | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

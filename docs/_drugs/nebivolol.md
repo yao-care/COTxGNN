@@ -96,9 +96,19 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20009035 | NABILA® 10 MG COMPRIMIDOS | Tableta | NEBIVOLOL | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19915315 | NEBILET® COMPRIMIDOS 5 MG | TABLETA | NEBIVOLOL | Vigente |
+| 20001377 | NABILA® 5 MG COMPRIMIDOS | COMPRIMIDO | NEBIVOLOL | Vigente |
+| 20009025 | NEVITEN® 5 MG TABLETAS | TABLETA | NEBIVOLOL | Vigente |
+| 20009035 | NABILA® 10 MG COMPRIMIDOS | TABLETA | NEBIVOLOL | Vigente |
+| 20009036 | NABILA® 2.5 MG COMPRIMIDOS | TABLETA | NEBIVOLOL | Vigente |
+
+Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

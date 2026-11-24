@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 554
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Relebactam: nueva indicación predicha, Hiperamilasemia (nivel de evidencia L5). Indicación original: Imipenem. Cilastatina. Relebactam"
 monitor_inn: "relebactam"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia"]
@@ -71,9 +71,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20212212 | RECARBRIO® (Merck Sharp and Dohme Corp) | Polvo para solución inyectable | Imipenem. Cilastatina. Relebactam |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20212212 | RECARBRIO® | POLVO PARA SOLUCIÓN INYECTABLE | IMIPENEM. CILASTATINA . RELEBACTAM | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

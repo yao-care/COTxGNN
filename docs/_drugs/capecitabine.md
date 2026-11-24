@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Capecitabine"
 predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Capecitabine: nueva indicación predicha, Adenocarcinoma gástrico y poliposis proximal del estómago (gastric adenocarcinoma and proximal polyposis of the stomach) (nivel de evidencia L5). Indicación o…"
 ---
 
@@ -72,10 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Se encontraron al menos 2 registros sanitarios y la lista podría estar incompleta. Ambos están vigentes.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20155908 | KAPIXA® 500 MG TABLETAS RECUBIERTAS | Tableta recubierta | CAPECITABINA |
-| 20060296 | CAPEC® 500 MG TABLETAS RECUBIERTAS | Tableta recubierta | CAPECITABINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20060296 | CAPEC ®500MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | CAPECITABINA | Vigente |
+| 20095993 | CAPIIBINE 500 MG TABLETAS | TABLETA RECUBIERTA | CAPECITABINA | Vigente |
+| 20132906 | CORRETAL 500 MG | TABLETA RECUBIERTA | CAPECITABINA | Vigente |
+| 20146928 | CAPETABIN® 500 MG TABLETAS | TABLETA | CAPECITABINA | Vigente |
+| 20152744 | CAPECITAL® 500 MG | TABLETA RECUBIERTA | CAPECITABINA | Vigente |
+
+Se muestran 5 de 10 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

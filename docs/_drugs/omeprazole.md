@@ -92,10 +92,19 @@ Hay además una señal de precaución. Estudios preclínicos en ratas (PMID 1038
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20066112 | OMEPRAZOL 40 MG (COLMED LTDA) – vigente | Cápsula dura | OMEPRAZOL |
-| 20066115 | OMEPRAZOL 20 MG (PROCAPS S.A.) – vigente | Cápsula dura | OMEPRAZOL |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19922566 | OMEPRAZOL 40 MG | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | OMEPRAZOL | Vigente |
+| 19942064 | UPRAZOL® 20 MG | CAPSULA DURA | OMEPRAZOL | Vigente |
+| 19989805 | SUMICETRON® 40 MG | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | OMEPRAZOL | Vigente |
+| 20044344 | K- DELPRAZOL® | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | OMEPRAZOL | Vigente |
+| 20056433 | ULCEPAR® 20 MG | CAPSULA DURA | OMEPRAZOL | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "fludrocortisone"
 predicted_indications: ["primary cutaneous T-cell lymphoma", "cystic teratoma", "spinal cord dermoid cyst", "dermoid cyst of ovary", "disease of orbital part of eye adnexa", "eye disease", "disease of orbital region", "exostosis"]
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-24
 description: "Fludrocortisone: nueva indicación predicha, linfoma cutáneo primario de células T (primary cutaneous T-cell lymphoma) (nivel de evidencia L5). Indicación original: FLUDROCORTISONA"
 ---
 
@@ -71,11 +71,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20176766 | FLORINEF® 0.1 MG TABLETAS | Tableta | FLUDROCORTISONA |
-| 20168629 | FLOCURTIN® 0.1 MG TABLETAS | Tableta | FLUDROCORTISONA |
-| 27649 | ASTONIN® H TABLETAS | Tableta | FLUDROCORTISONA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20168629 | FLOCURTIN® 0.1 MG TABLETAS | TABLETA | FLUDROCORTISONA | Vigente |
+| 27649 | ASTONIN® H TABLETAS | TABLETA | FLUDROCORTISONA | Vigente |
+| 20176766 | FLORINEF® 0.1 MG TABLETAS | TABLETA | FLUDROCORTISONA | Temp. no comerc - Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

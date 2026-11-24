@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 345
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Insulin Degludec: nueva indicación predicha, Ooforitis autoinmune (nivel de evidencia L5). Indicación original: Insulina degludec"
 monitor_inn: "insulin degludec"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
@@ -108,9 +108,15 @@ Además, existen numerosos estudios de fase 1 (farmacodinamia y farmacocinética
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20059262 | TRESIBA® 100 U/ML | Solución inyectable | INSULINA DEGLUDEC |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20059262 | TRESIBA® 100 U/ML | SOLUCION INYECTABLE | INSULINA DEGLUDEC | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

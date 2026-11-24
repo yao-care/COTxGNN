@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Azithromycin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Azithromycin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). Indicación original: AZITROMICINA"
 ---
 
@@ -72,13 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 19911014 | PENFLUZ 500 MG TABLETAS | Tableta |
-| 20068317 | AKRIBACT® | Tableta |
-| 19970784 | AZITROFAR® TABLETAS | Tableta |
-| 20189232 | AZITROMICINA 500MG | Tableta recubierta |
-| 20099969 | MILAGRAM® TABLETAS | Tableta |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19911014 | PENFLUZ 500 MG TABLETAS | TABLETA | AZITROMICINA | Vigente |
+| 19970784 | AZITROFAR® TABLETAS | TABLETA | AZITROMICINA | Vigente |
+| 19993382 | AZTROBAC 200 MG / 5 ML | POLVO ESTERIL PARA RECONSTITUIR A SUSPENSIONINYECTABLE | AZITROMICINA | Vigente |
+| 20068317 | AKRIBACT® | TABLETA | AZITROMICINA | Vigente |
+| 20099969 | MILAGRAM® TABLETAS | TABLETA | AZITROMICINA | Vigente |
+
+Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

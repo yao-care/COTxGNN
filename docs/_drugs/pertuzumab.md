@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 510
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PERTUZUMAB"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
 description: "Pertuzumab: nueva indicación predicha, Ectomesenchymoma (nivel de evidencia L5). Indicación original: PERTUZUMAB Y TRASTUZUMAB"
@@ -95,11 +95,17 @@ Es importante notar que pertuzumab ya es tratamiento estándar en cáncer de mam
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20195976 | PHESGO® 600MG/600MG | Solución inyectable | Pertuzumab y trastuzumab |
-| 20195789 | PHESGO® 1200 MG/600 MG | Solución inyectable | Pertuzumab y trastuzumab |
-| 20060320 | PERJETA® 420 MG/14 ML | Solución concentrada para infusión | Pertuzumab |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20060320 | PERJETA® 420 MG/14 ML SOLUCIÓN CONCENTRADA PARA INFUSIÓN | SOLUCIÓN CONCENTRADA PARA INFUSIÓN | PERTUZUMAB | Vigente |
+| 20195789 | PHESGO® 1200 MG/600 MG | SOLUCION INYECTABLE | PERTUZUMAB Y TRASTUZUMAB | Vigente |
+| 20195976 | PHESGO® 600MG/600MG | SOLUCION INYECTABLE | PERTUZUMAB Y TRASTUZUMAB | Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

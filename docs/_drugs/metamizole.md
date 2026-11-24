@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 433
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Metamizole: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L4). Indicación original: Butilescopolamina y analgésicos"
 monitor_inn: "metamizole"
 drugbank_id: DB04817
@@ -92,9 +92,17 @@ Ninguna de estas publicaciones evalúa la eficacia de metamizol en artritis reum
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19959402 | Dipirona 2.5 g + Hioscina 20 mg/5 mL solución inyectable (Laboratorio Biosano S.A.) | Solución inyectable | Butilescopolamina y analgésicos |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19959402 | DIPIRONA 2.5 G + HIOSCINA 20 MG/5 ML SOLUCION INYECTABLE | SOLUCION INYECTABLE | BUTILESCOPOLAMINA Y ANALGESICOS | Vigente |
+| 20017069 | DOSALDIN® GOTAS | SOLUCION ORAL | METAMIZOL SODIO COMBINACIONES EXCLUYENDO SICOLEPTICOS | Vigente |
+| 39815 | NEOSALDINA® GOTAS | SOLUCION ORAL | METAMIZOL SODIO COMBINACIONES EXCLUYENDO SICOLEPTICOS | Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

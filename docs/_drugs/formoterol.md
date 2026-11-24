@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Formoterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Formoterol: nueva indicación predicha, malformación respiratoria (respiratory malformation) (nivel de evidencia L5). Indicación original: FORMOTEROL Y BUDENOSINA"
 ---
 
@@ -83,11 +83,19 @@ Ninguna de las publicaciones recuperadas estudia directamente la malformación r
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19978720 | BUSTEROL® INHALADOR | Suspensión para inhalación | Formoterol y budesonida |
-| 20161093 | FOSTER NEXTHALER | Polvo para inhalación | Formoterol + beclometasona |
-| 20102025 | COMPLEBREZ 6MCG/100 MCG INHALACIÓN PRESURIZADA | Aerosoles | Formoterol y budesonida |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19932996 | AEROVIAL® CÁPSULA DURA PARA ADMINISTRAR POR INHALADOR | CAPSULA DURA | FORMOTEROL Y BUDENOSINA | Vigente |
+| 19978720 | BUSTEROL®INHALADOR | SUSPENSION PARA INHALACION | FORMOTEROL Y BUDENOSINA | Vigente |
+| 20010948 | FOSTER ®100 MCG / 6 MCGSOLUCIÓN PARA INHALACIÓN | SOLUCION PARA INHALACION | FORMOTEROL +BECLOMETASONA | Vigente |
+| 20017162 | SYMBICORT RAPIHALER® 80/4.5 MCG / INHALACIÓN | SUSPENSION PARA INHALACION | FORMOTEROL Y BUDENOSINA | Vigente |
+| 20028694 | SYMBICORT RAPIHALER® 160/4.5 MCG/INHALACION | SUSPENSION PARA INHALACION | FORMOTEROL Y BUDENOSINA | Vigente |
+
+Se muestran 5 de 10 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 La lista de registros puede ser parcial.
 

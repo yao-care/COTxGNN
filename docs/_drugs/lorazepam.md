@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 410
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lorazepam: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \"LORAZE…"
 monitor_inn: "LORAZEPAM"
 predicted_indications: ["trigeminal nerve neoplasm"]
@@ -94,10 +94,18 @@ Para las epilepsias reflejas, la literatura disponible consiste sobre todo en re
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 19902389 | ATIVAN 2 MG TABLETAS | Tableta | LORAZEPAM | Vigente |
-| 19902391 | ATIVAN® 1 MG TABLETAS | Tableta | LORAZEPAM | Temp. no comerc - Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19902389 | ATIVAN 2 MG TABLETAS | TABLETA | LORAZEPAM | Vigente |
+| 19914657 | LORAZEPAM TABLETA 2 MG | TABLETA | LORAZEPAM | Vigente |
+| 227599 | LORAZEPAM 2 MG TABLETAS | TABLETA | LORAZEPAM | Vigente |
+| 19902391 | ATIVAN® 1 MG TABLETAS | TABLETA | LORAZEPAM | Temp. no comerc - Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 Ambos registros pertenecen a PFIZER S.A.S.
 
@@ -129,12 +137,6 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Justificación:**
 La indicación principal (neoplasia del nervio trigémino) carece de ensayos, literatura y justificación mecanística, y su puntaje alto proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes aprendidas entre enfermedades relacionadas, no evidencia biológica. Además, el medicamento está comercializado en Colombia con 3 registros sanitarios vigentes y los datos de seguridad del prospecto no están disponibles.
 
-<!-- review:begin co-lic-20261112-lorazepam-1 -->
-
-> **Corrección de revisión (2026-11-12)**: Texto original: "2 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 4 registros sanitarios, de los cuales 3 vigentes y 1 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261112-lorazepam-1 -->
-
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), un vacío crítico que impide el tamizaje de seguridad.
 - Obtener datos del mecanismo de acción desde DrugBank.
@@ -157,7 +159,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "y están cancelados, por lo que actualmente no hay comercialización autorizada en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Aclarar la situación regulatoria: los registros están cancelados, por lo que cualquier uso nuevo exigiría un nuevo registro o reactivación" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 2 → 3 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 2 → 3 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Loreev Xr (lorazepam) prescribing information, Almatica Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=227734c1-bf01-9607-73ea-5a1f38a89bd9) |
 
 <!-- review:end log -->

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 146
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Celecoxib: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (nivel de evidencia L5). Indicación original: No especificada en los registros (solo figura \"Celecoxib\")"
 monitor_inn: "CELECOXIB"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "hypermobility of coccyx", "brachyolmia", "rheumatoid nodulosis", "WHIM syndrome"]
@@ -87,13 +87,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20193169 | SOSEDOL® | Cápsula dura | CELECOXIB |
-| 19933716 | CELECOXIB 200 MG CÁPSULA (Laboratorios La Santé) | Cápsula dura | CELECOXIB |
-| 20127514 | CELECOXIB 200 MG CÁPSULA (Genfar) | Cápsula dura | CELECOXIB |
-| 20028796 | MIODAR® 200 MG CÁPSULAS | Cápsula dura | CELECOXIB |
-| 19936110 | CEFINIX 200 MG CÁPSULA | Cápsula dura | CELECOXIB |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19900840 | CELEBREX® 200 MG CAPSULA | CAPSULA DURA | CELECOXIB | Vigente |
+| 19914681 | CELECOXIB 200 MG CÁPSULAS | CAPSULA DURA | CELECOXIB | Vigente |
+| 19914682 | CELECOXIB 100 MG CAPSULAS. | CAPSULA DURA | CELECOXIB | Vigente |
+| 19926701 | CELECOXIB 200 MG CAPSULAS | CAPSULA DURA | CELECOXIB | Vigente |
+| 19933716 | CELECOXIB 200 MG CÁPSULA. | CAPSULA DURA | CELECOXIB | Vigente |
+
+Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 
@@ -115,12 +121,6 @@ No se dispone de las advertencias del prospecto. Consultar el prospecto para la 
 **Justificación:**
 La predicción se basa solo en el modelo computacional TxGNN (aprendizaje profundo), sin ensayos clínicos, sin literatura y sin un vínculo mecanístico plausible con una enfermedad de origen genético. Además, el medicamento está comercializado en este país y cuenta con 12 registros sanitarios vigentes.
 
-<!-- review:begin co-lic-20261112-celecoxib-1 -->
-
-> **Corrección de revisión (2026-11-12)**: Texto original: "7 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 13 registros sanitarios, de los cuales 12 vigentes y 1 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261112-celecoxib-1 -->
-
 **Para avanzar se necesita:**
 - Un fundamento biológico que conecte la inhibición de COX-2 con la vía GDF5/BMP, mediante estudios preclínicos.
 - Datos detallados del mecanismo de acción.
@@ -137,7 +137,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los 7 registros sanitarios de celecoxib en Colombia figuran como **cancelados**. Actualmente no hay productos vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 7 → 12 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 7 → 12 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Vyscoxa (celecoxib) prescribing information, Carwin Pharmaceutical Associates, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5094d47e-f791-4190-9397-b7500143a74d) |
 
 <!-- review:end log -->

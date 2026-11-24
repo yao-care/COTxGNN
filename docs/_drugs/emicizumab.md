@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "EMICIZUMAB"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "thrombotic thrombocytopenic purpura", "fetal and neonatal alloimmune thrombocytopenia", "flood factor deficiency"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Emicizumab: nueva indicación predicha, Pseudoenfermedad de von Willebrand (pseudo-von Willebrand disease) (nivel de evidencia L5). Indicación original: EMICIZUMAB"
 ---
 
@@ -72,10 +72,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20152900 | HEMLIBRA® 30 MG/ML SOLUCION INYECTABLE | Solución inyectable | EMICIZUMAB |
-| 20135003 | HEMLIBRA® 150 MG/ML SOLUCIÓN INYECTABLE | Solución inyectable | EMICIZUMAB |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20135003 | HEMLIBRA® 150 MG/ML SOLUCIÓN INYECTABLE | SOLUCION INYECTABLE | EMICIZUMAB | Vigente |
+| 20152900 | HEMLIBRA® 30 MG/ML SOLUCION INYECTABLE | SOLUCION INYECTABLE | EMICIZUMAB | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 La lista de registros puede ser parcial.
 

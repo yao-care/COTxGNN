@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 629
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tobramycin: nueva indicación predicha, Queratitis por exposición (nivel de evidencia L4). Indicación original: Dexametasona y antiinfecciosos (combinación oftálmica)"
 monitor_inn: "Tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
@@ -90,11 +90,19 @@ Actualmente no hay ensayos clínicos relacionados registrados para queratitis po
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20148323 | OPHTHABRACIN-D UNGUENTO (vigente) | Ungüento oftálmico | Dexametasona y antiinfecciosos |
-| 19983161 | TQ TOBRAOFTAL D® Suspensión oftálmica estéril (vigente) | Suspensión oftálmica | Antibióticos en combinación con otros fármacos |
-| 19929503 | TOBRACORT 0.3% (vigente) | Suspensión oftálmica | Dexametasona y antiinfecciosos |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19929503 | TOBRACORT 0.3% | SUSPENSION OFTALMICA | DEXAMETASONA Y ANTIINFECCIOSOS | Vigente |
+| 19978835 | TQ TOBRAOFTAL®. SOLUCION OFTALMICA ESTERIL | SOLUCION OFTALMICA | TOBRAMICINA | Vigente |
+| 19983161 | TQ TOBRAOFTAL D® SUSPENSION OFTALMICA ESTERIL | SUSPENSION OFTALMICA | ANTIBIOTICOS EN COMBINACION CON OTROS F RMACOS | Vigente |
+| 19993894 | TOBRAVISION® | SOLUCION OFTALMICA | TOBRAMICINA | Vigente |
+| 20022403 | TOBROPTIC® COMPUESTO SUSPENSIÓN OFTÁLMICA | SUSPENSION OFTALMICA | ANTIBIOTICOS EN COMBINACION CON OTROS F RMACOS | Vigente |
+
+Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

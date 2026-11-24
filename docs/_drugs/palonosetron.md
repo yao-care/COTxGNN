@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 496
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Palonosetron: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \"PALONO…"
 monitor_inn: "PALONOSETRON"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
@@ -85,9 +85,17 @@ Nota: una revisión de 2026 (PMID 42748473, *Eur Heart J Cardiovasc Pharmacother
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20156752 | Palonosetron 250 mcg/5 mL solución inyectable (HB Human Bioscience S.A.S.) | Solución inyectable | PALONOSETRON (sin detalle de indicación) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20134090 | PALOHALT® 0.25MG/5ML SOLUCIÓN INYECTABLE | SOLUCION INYECTABLE | PALONOSETRON | Vigente |
+| 20156752 | PALONOSETRON 250.0 MCG /5 ML SOLUCION INYECTABLE | SOLUCION INYECTABLE | PALONOSETRON | Vigente |
+| 19956714 | ONICIT® SOLUCION INYECTABLE | SOLUCION INYECTABLE | PALONOSETRON | Temp. no comerc - Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

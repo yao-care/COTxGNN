@@ -78,10 +78,19 @@ Actualmente no hay ensayos clínicos relacionados registrados para síndrome de 
 
 ## Informacion de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20165941 | TQ OFTAMOX® D UD | Solución oftálmica | Dexametasona y antiinfecciosos |
-| 20133598 | MOXFACIN® 400 MG TABLETA RECUBIERTA | Tableta recubierta | Moxifloxacina |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19902058 | AVELOX®400 MG COMPRIMIDOS | TABLETA RECUBIERTA | MOXIFLOXACINA | Vigente |
+| 19924029 | AVELOX® IV SOLUCIÓN PARA INFUSIÓN 400 MG/250 ML | SOLUCION INYECTABLE | MOXIFLOXACINA | Vigente |
+| 19941675 | VIGAMOX® SOLUCION OFTALMICA ESTERIL | SOLUCION OFTALMICA | MOXIFLOXACINO | Vigente |
+| 19950731 | QUINOMAX® 400 MG TABLETA CUBIERTA | TABLETA CUBIERTA CON PELICULA | MOXIFLOXACINA | Vigente |
+| 19997612 | VIGADEXA® SOLUCIÓN OFTÁLMICA ESTÉRIL | SOLUCION OFTALMICA | DEXAMETASONA Y ANTIINFECCIOSOS | Vigente |
+
+Se muestran 5 de 18 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

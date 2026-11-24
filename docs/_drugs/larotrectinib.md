@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 382
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Larotrectinib: nueva indicación predicha, Neoplasia endocrina múltiple (nivel de evidencia L5). Indicación original: LAROTRECTINIB"
 monitor_inn: "larotrectinib"
 predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast carcinoma"]
@@ -86,10 +86,16 @@ Es importante subrayar que no existe evidencia directa de que la inhibición de 
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20200411 | VITRAKVI® SOLUCIÓN ORAL DE 20 MG/ML (estado: vigente) | Solución oral | LAROTRECTINIB |
-| 20201285 | VITRAKVI® CÁPSULAS DE 100 MG (estado: vigente) | Cápsula dura | LAROTRECTINIB |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20200411 | VITRAKVI® SOLUCIÓN ORAL DE 20 MG/ML | SOLUCION ORAL | LAROTRECTINIB | Vigente |
+| 20201285 | VITRAKVI®CÁPSULAS DE 100MG | CAPSULA DURA | LAROTRECTINIB | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

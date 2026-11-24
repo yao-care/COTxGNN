@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 95
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Beclomethasone Dipropionate: nueva indicación predicha, Eccema atópico (nivel de evidencia L3). Indicación original: BECLOMETASONA"
 monitor_inn: "Beclomethasone dipropionate"
 predicted_indications: ["atopic eczema"]
@@ -93,13 +93,19 @@ Ninguna publicación es un ensayo controlado aleatorizado. Se listan por relevan
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20262343 | Beclometasona dipropionato 250 mcg solución para inhalación oral | Solución para inhalación | BECLOMETASONA |
-| 19992495 | Eclosynt-Nas | Aerosoles | BECLOMETASONA |
-| 20084123 | Beclort® 250 mcg suspensión para inhalación | Suspensión para inhalación | BECLOMETASONA |
-| 20012688 | Beclometasona dipropionato 50 mcg/dosis aerosol nasal | Aerosoles | BECLOMETASONA |
-| 19924207 | Beclometasona 50 mcg/dosis solución para inhalación | Solución para inhalación | BECLOMETASONA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19924207 | BECLOMETASONA 50MCG/DOSIS SOLUCIÓNPARA INHALACION | SOLUCION PARA INHALACION | BECLOMETASONA | Vigente |
+| 19935124 | NABUMEX® INHALADOR250 MCG | SOLUCION PARA INHALACION | BECLOMETASONA | Vigente |
+| 19988819 | KELHALE® INHALADOR 250 MCG. | AEROSOLES | BECLOMETASONA | Vigente |
+| 19992494 | ECLOSYNT® | AEROSOLES | BECLOMETASONA | Vigente |
+| 19992495 | ECLOSYNT-NAS | AEROSOLES | BECLOMETASONA | Vigente |
+
+Se muestran 5 de 14 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 Todas las presentaciones registradas son inhaladas o nasales; ninguna es de uso dérmico.
 
@@ -128,12 +134,6 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Justificación:**
 El puntaje del modelo es alto y el mecanismo de clase es plausible, pero no hay ensayos clínicos y la literatura es indirecta, de baja calidad o centrada en seguridad. Además, el medicamento está comercializado con 14 registros colombianos vigentes, pero ninguno corresponde a una formulación dérmica. Se trata de un uso de clase ya conocido, no de una indicación nueva respaldada por evidencia propia.
 
-<!-- review:begin co-lic-20261112-beclomethasone_dipropionate-1 -->
-
-> **Corrección de revisión (2026-11-12)**: Texto original: "5 registros colombianos vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 14 registros sanitarios, de los cuales 14 vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261112-beclomethasone_dipropionate-1 -->
-
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), ya que su ausencia impide completar el tamizaje de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
@@ -157,7 +157,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los cinco registros sanitarios están cancelados; no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "no existe actualmente un registro vigente ni dérmico" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 5 → 14 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 5 → 14 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Qnasl (beclomethasone dipropionate) prescribing information, Teva Respiratory, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4b8d8e84-b5d2-4e56-97ec-4f72971465c5) |
 
 <!-- review:end log -->

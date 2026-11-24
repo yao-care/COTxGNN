@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 356
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Irinotecan: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L5). Indicación original: IRINOTECAN"
 monitor_inn: "IRINOTECAN"
 predicted_indications: ["female breast carcinoma"]
@@ -102,10 +102,19 @@ Sin embargo, esa evidencia proviene del conjugado y no del irinotecan libre. Los
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20012770 | Irinotecan solución inyectable 100 mg/5 mL (Grupo Unipharm S.A. / Laboratorios Uni S.A.) | Solución inyectable | Irinotecan (sin detalle) — vigente |
-| 20141121 | Rotecan 100 mg/5 mL solución inyectable (Hetero Labs Limited) | Solución inyectable | Irinotecan (sin detalle) — vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19952096 | CLORHIDRATO DE IRINOTECAN TRIHIDRATO 20 MG/ML | SOLUCION INYECTABLE | IRINOTECAN | Vigente |
+| 20010926 | IRINOTECAN SOLUCIÓN PARA INYECCION VIAL POR 100 MG/5 ML | SOLUCION INYECTABLE | IRINOTECÁN | Vigente |
+| 20012770 | IRINOTECANSOLUCION INYECTABLE100 MG/ 5 ML | SOLUCION INYECTABLE | IRINOTECAN | Vigente |
+| 20053624 | IRINOTECAN CLORHIDRATO INYECTABLE 100 MG / 5 ML | SOLUCION INYECTABLE | IRINOTECAN | Vigente |
+| 20141121 | ROTECAN100 MG/5 ML SOLUCIÓN INYECTABLE | SOLUCION INYECTABLE | IRINOTECAN | Vigente |
+
+Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

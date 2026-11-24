@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 480
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Olaparib: usos conocidos y estado de mercado en Colombia; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -72,12 +72,16 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) generó para Olaparib 
 
 ## Información de Mercado en Colombia
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 20124752 | OLAPARIB | TABLETA RECUBIERTA | Vigente |
-| 20142204 | OLAPARIB | TABLETA RECUBIERTA | Vigente |
+<!-- licenses:begin -->
 
-Los datos solo contienen parte de los registros; la lista puede estar incompleta.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20124752 | LYNPARZA® 150 MG | TABLETA RECUBIERTA | OLAPARIB | Vigente |
+| 20142204 | LYNPARZA® 100 MG | TABLETA RECUBIERTA | OLAPARIB | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

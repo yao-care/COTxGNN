@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 312
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Gemfibrozil: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L4). Indicación original: GEMFIBROZIL"
 monitor_inn: "gemfibrozil"
 predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", "HIV infectious disease", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "methemoglobinemia, alpha type", "sclerosing cholangitis", "methemoglobin reductase deficiency"]
@@ -85,10 +85,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 36269 | GEMFIBROZILO 600MG TABLETAS | Tableta recubierta | GEMFIBROZIL |
-| 22877 | LOPID® TABLETAS 600MG | Tableta recubierta | GEMFIBROZIL |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 1981505 | GEMFIBROZILO 600 MG | TABLETA RECUBIERTA | GEMFIBROZIL | Vigente |
+| 19998076 | GEMFIBROZILO600 MG TABLETAS | TABLETA CUBIERTA CON PELICULA | GEMFIBROZIL | Vigente |
+| 20005938 | GEMFIBROZILO TABLETAS RECUBIERTAS 600 MG. | TABLETA RECUBIERTA | GEMFIBROZIL | Vigente |
+| 20008573 | STOLIP TABLETAS | TABLETA RECUBIERTA | GEMFIBROZIL | Vigente |
+| 225194 | GEMFIBROZILO 900 MG | TABLETA RECUBIERTA | GEMFIBROZIL | Vigente |
+
+Se muestran 5 de 10 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

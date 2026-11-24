@@ -74,9 +74,19 @@ Otras predicciones del modelo, todas de nivel L5 y sin ensayos ni literatura, so
 
 ## Informacion de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20116677 | NOGLUPEC® JARABE | Jarabe | TOS SUPRESORES Y EXPECTORANTES |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19391 | DOCEFAL TOSUS | JARABE | CLORFENAMINA COMBINACIONES | Vigente |
+| 19965223 | DEXTROMETORFANO BROMHIDRATO 15MG/5ML JARABE | JARABE | DEXTROMETORFANO | Vigente |
+| 20005160 | TRIATUSIC® JARABE | JARABE | AMBROXOL | Vigente |
+| 20023975 | TUSSINAR® JARABE | JARABE | OPIO DERIVADOS Y EXPECTORANTES | Vigente |
+| 20030934 | DEXONAVJARABE 15 MG /5 ML | JARABE | DEXTROMETORFANO | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

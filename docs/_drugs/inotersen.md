@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 343
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Inotersen: nueva indicación predicha, Porfiria aguda intermitente (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \"INOTER…"
 monitor_inn: "inotersen"
 predicted_indications: ["acute intermittent porphyria", "appendicitis", "IgG4-related pachymeningitis", "IgG4-related retroperitoneal fibrosis", "non-infectious meningitis", "peritonitis", "infectious meningitis", "IgG4-related mesenteritis", "IgG4-related mediastinitis", "eosinophilic angiocentric fibrosis"]
@@ -83,9 +83,15 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20206946 | TEGSEDI™ 284 MG/1.5ML | Solución inyectable | INOTERSEN |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20206946 | TEGSEDI™ 284 MG/1.5ML | SOLUCION INYECTABLE | INOTERSEN | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

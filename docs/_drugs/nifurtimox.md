@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 467
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Nifurtimox: nueva indicación predicha, Analbuminemia congénita (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \"NIFURT…"
 monitor_inn: "NIFURTIMOX"
 predicted_indications: ["congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "blood group incompatibility", "monoclonal gammopathy", "premalignant hematological system disease", "hematological disease associated with an acquired peripheral neuropathy"]
@@ -98,10 +98,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20215184 | LAMPIT® 30MG COMPRIMIDOS | Tableta | NIFURTIMOX | Vigente |
-| 20215915 | LAMPIT® 120MG | Tableta | NIFURTIMOX | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20215184 | LAMPIT® 30MG COMPRIMIDOS | TABLETA | NIFURTIMOX | Vigente |
+| 20215915 | LAMPIT® 120MG | TABLETA | NIFURTIMOX | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "hydroxyurea"
 predicted_indications: ["female breast carcinoma", "sickle cell-hemoglobin E disease syndrome", "cervical adenosarcoma", "colon mucinous adenocarcinoma", "rectum mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 description: "Hydroxyurea: nueva indicación predicha, Carcinoma de mama femenino (female breast carcinoma) (nivel de evidencia L5). Indicación original: HIDROXICARBAMIDA"
 ---
 
@@ -81,10 +81,16 @@ Ninguna publicación es un ensayo clínico que estudie directamente la hidroxiur
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 42034 | HYDREA CAPSULAS 500 MG | Cápsula dura | HIDROXICARBAMIDA |
-| 20257687 | HIDROXIUREA 500 MG CAPSULA DURA | Cápsula dura | HIDROXICARBAMIDA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20257687 | HIDROXIUREA 500 MG CAPSULA DURA | CAPSULA DURA | HIDROXICARBAMIDA | Vigente |
+| 42034 | HYDREA CAPSULAS 500 MG | CAPSULA DURA | HIDROXICARBAMIDA | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

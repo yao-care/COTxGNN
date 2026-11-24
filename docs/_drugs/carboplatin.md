@@ -70,12 +70,18 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 19974848 | CARBOPLATINO 450 MG INYECTABLE 450MG/45ML | Solución inyectable |
-| 19941539 | ONCOCARB 150 MG/15 ML | Solución inyectable |
-| 19982073 | CARBOPLATINO 450MG/45ML SOLUCIÓN INYECTABLE | Solución inyectable |
-| 20215154 | CARBOHET® 10 MG/ML SOLUCIÓN CONCENTRADA PARA INFUSIÓN | Solución concentrada para infusión |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19941539 | ONCOCARB 150 MG/15 ML | SOLUCION INYECTABLE | CARBOPLATINO | Vigente |
+| 19974848 | CARBOPLATINO 450 MG INYECTABLE450MG/45ML | SOLUCION INYECTABLE | CARBOPLATINO | Vigente |
+| 19982073 | CARBOPLATINO 450MG /45ML SOLUCION INYECTABLE | SOLUCION INYECTABLE | CARBOPLATINO | Vigente |
+| 20215154 | CARBOHET® 10 MG/ML SOLUCIÓN CONCENTRADA PARA INFUSIÓN | SOLUCIÓN CONCENTRADA PARA INFUSIÓN | CARBOPLATINO | Temp. no comerc - Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

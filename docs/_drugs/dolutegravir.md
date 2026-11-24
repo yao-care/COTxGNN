@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 3
 monitor_inn: "dolutegravir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dolutegravir: nueva indicación predicha, Infección por virus de la inmunodeficiencia simia (simian immunodeficiency virus infection) (nivel de evidencia L4). Indicación original: LAMIVUDINA Y DOLUTEG…"
 ---
 
@@ -83,11 +83,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20171830 | DOVATO® 50MG + 300MG TABLETAS RECUBIERTAS CON PELÍCULA | Tableta recubierta | Lamivudina y dolutegravir |
-| 20071938 | TIVICAY® 50 MG TABLETAS RECUBIERTAS CON PELÍCULA | Tableta cubierta con película | Dolutegravir |
-| 20270161 | DOLUTEL® 50 MG TABLETAS RECUBIERTAS | Tableta recubierta | Dolutegravir |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20071938 | TIVICAY® 50 MG TABLETAS RECUBIERTAS CON PELÍCULA | TABLETA CUBIERTA CON PELICULA | DOLUTEGRAVIR | Vigente |
+| 20081132 | TRIUMEQ® 50 MG / 600 MG / 300 MG | TABLETA RECUBIERTA | LAMIDUBINA. ABACAVIR Y DOLUTEGRAVIR | Vigente |
+| 20171830 | DOVATO® 50MG + 300MG TABLETAS RECUBIERTAS CON PELÍCULA | TABLETA RECUBIERTA | LAMIVUDINA Y DOLUTEGRAVIR | Vigente |
+| 20270161 | DOLUTEL® 50 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | DOLUTEGRAVIR | Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 La lista de registros puede ser parcial.
 

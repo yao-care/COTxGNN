@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 271
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ETORICOXIB"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
 description: "Etoricoxib: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: ETORICOXIB"
@@ -101,11 +101,19 @@ Evidencia relacionada de cefaleas afines (indicaciones secundarias del modelo):
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20219448 | XICOX® 60 MG | Tableta recubierta | Etoricoxib (sin detalle de indicación) | Temp. no comerc - Vigente |
-| 20226690 | MEDIKET® 90 MG tabletas recubiertas | Tableta recubierta | Etoricoxib (sin detalle de indicación) | Vigente |
-| 20070877 | ANEXIA® 60 MG | Tableta cubierta con película | Etoricoxib (sin detalle de indicación) | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19976048 | ARCOXIA ® 120 MG TABLETAS (ETORICOXIB) | TABLETA RECUBIERTA | ETORICOXIB | Vigente |
+| 19976049 | ARCOXIA® 60 MG TABLETAS | TABLETA RECUBIERTA | ETORICOXIB | Vigente |
+| 19976050 | ARCOXIA® 90 MG TABLETAS | TABLETA RECUBIERTA | ETORICOXIB | Vigente |
+| 20059807 | ERICOX 60 MG | TABLETA RECUBIERTA | ETORICOXIB | Vigente |
+| 20060069 | ERICOX ® 90 | TABLETA RECUBIERTA | ETORICOXIB | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

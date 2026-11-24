@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 565
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Risdiplam: nueva indicación predicha, Acné (nivel de evidencia L5). Indicación original: Risdiplam"
 monitor_inn: "RISDIPLAM"
 predicted_indications: ["acne (disease)"]
@@ -70,9 +70,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20197087 | EVRYSDI | Polvo para reconstituir a solución oral | Risdiplam |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20197087 | EVRYSDI | POLVO PARA RECONSTITUIR A SOLUCION ORAL | RISDIPLAM | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

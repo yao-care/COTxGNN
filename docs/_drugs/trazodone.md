@@ -100,10 +100,19 @@ Se priorizan los ensayos controlados aleatorizados (ECA), luego las revisiones y
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19960669 | TRAZODONA HCI 50 MG | Tableta recubierta | TRAZODONA |
-| 19903033 | TRITTICO A.C 150 | Tableta de liberación prolongada | TRAZODONA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 17135 | TRAZODONA 50 MG TABLETAS | TABLETA | TRAZODONA | Vigente |
+| 19903033 | TRITTICO A.C 150 | TABLETA DE LIBERACION PROLONGADA | TRAZODONA | Vigente |
+| 19941742 | TRAZODONA CLORHIDRATO 50MG TABLETAS | TABLETA | TRAZODONA | Vigente |
+| 19960669 | TRAZODONA HCI 50 MG | TABLETA RECUBIERTA | TRAZODONA | Vigente |
+| 19988272 | TRAZODONA CLORHIDRATO50 MG TABLETA | TABLETA RECUBIERTA | TRAZODONA | Vigente |
+
+Se muestran 5 de 10 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

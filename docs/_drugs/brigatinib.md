@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 114
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Brigatinib: nueva indicación predicha, Fibromatosis gingival (nivel de evidencia L5). Indicación original: Brigatinib"
 monitor_inn: "BRIGATINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "pulmonary sulcus neoplasm", "lung germ cell tumor", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
@@ -82,10 +82,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20193913 | ALUNBRIG® 90MG | Tableta recubierta | BRIGATINIB | Vigente |
-| 20193910 | ALUNBRIG® 30MG | Tableta recubierta | BRIGATINIB | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20193910 | ALUNBRIG® 30MG | TABLETA RECUBIERTA | BRIGATINIB | Vigente |
+| 20193913 | ALUNBRIG® 90MG | TABLETA RECUBIERTA | BRIGATINIB | Vigente |
+| 20193918 | ALUNBRIG® 180MG | TABLETA RECUBIERTA | BRIGATINIB | Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 Ambos registros pertenecen a Takeda Colombia S.A.S.
 

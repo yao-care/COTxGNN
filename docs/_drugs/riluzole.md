@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 562
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "riluzole"
 predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome", "autosomal dominant mitochondrial myopathy with exercise intolerance"]
 description: "Riluzole: nueva indicación predicha, Polimicrogiria parieto-occipital parasagital bilateral (bilateral parasagittal parieto-occipital polymicrogyria) (nivel de evidencia L5)."
@@ -72,13 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20080854 | RILUZOL 50 MG TABLETAS (Actifarma) | Tableta | RILUZOL (vigente) |
-| 20254040 | DOLVIO 50 (Alkem Laboratories) | Tableta recubierta | RILUZOL (vigente) |
-| 20201114 | RILUZOL 50 MG TABLETAS (Actifarma) | Tableta | RILUZOL (vigente) |
-| 206956 | RILUTEK® TABLETAS X 50MG (Sanofi-Aventis) | Tableta recubierta | RILUZOL (vigente) |
-| 20204277 | TEGLUTIK® SUSPENSIÓN ORAL 5 MG/ML (Italfarmaco) | Suspensión oral | RILUZOL (vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20080854 | RILUZOL 50 MG TABLETAS | TABLETA | RILUZOL | Vigente |
+| 20201114 | RILUZOL 50 MG TABLETAS | TABLETA | RILUZOL | Vigente |
+| 20204277 | TEGLUTIK® SUSPENSIÓN ORAL 5 MG/ML | SUSPENSION ORAL | RILUZOL | Vigente |
+| 20254040 | DOLVIO 50 | TABLETA RECUBIERTA | RILUZOL | Vigente |
+| 206956 | RILUTEK® TABLETAS X 50MG | TABLETA RECUBIERTA | RILUZOL | Vigente |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

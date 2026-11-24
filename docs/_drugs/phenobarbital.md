@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 511
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Phenobarbital: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: Fenobarbital"
 monitor_inn: "Phenobarbital"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
@@ -84,11 +84,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20108399 | Fenobarbital 0.4 % solución oral (vigente) | Solución oral | FENOBARBITAL |
-| 19905550 | Fenobarbital tabletas 50 mg (vigente) | Tableta | FENOBARBITAL |
-| 20101277 | Fenobarbital 10 mg tabletas (vigente) | Tableta | FENOBARBITAL |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19905550 | FENOBARBITAL TABLETAS 50 MG. | TABLETA | FENOBARBITAL | Vigente |
+| 20008611 | FENOBARBITALSODICO 40 MG/ML | SOLUCION INYECTABLE | FENOBARBITAL | Vigente |
+| 20101277 | FENOBARBITAL 10 MG TABLETAS | TABLETA | FENOBARBITAL | Vigente |
+| 20108399 | FENOBARBITAL 0.4 % SOLUCIÓN ORAL | SOLUCION ORAL | FENOBARBITAL | Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 602
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tafenoquine: nueva indicación predicha, Mastocitosis sistémica indolente (Smouldering systemic mastocytosis) (nivel de evidencia L5). Indicación original: Succinato de tafenoquina"
 monitor_inn: "tafenoquine"
 predicted_indications: ["Smouldering systemic mastocytosis"]
@@ -82,9 +82,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20239141 | KOZENIS 50 MG | Tableta dispersable | Succinato de tafenoquina | Temp. no comerc - Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20239141 | KOZENIS 50 MG | TABLETA DISPERSABLE | SUCCINATO DE TAFENOQUINA | Temp. no comerc - Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 El único registro (GlaxoSmithKline Colombia S.A.) está cancelado, por lo que actualmente no hay producto vigente en el mercado colombiano.
 

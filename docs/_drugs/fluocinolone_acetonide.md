@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "fluocinolone acetonide"
 predicted_indications: ["lichen planus pemphigoides"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Fluocinolone Acetonide: nueva indicación predicha, Penfigoide liquenoide plano (lichen planus pemphigoides) (nivel de evidencia L5). Indicación original: FLUOCINOLONA ACETONIDA Y ANTIINFECCIOSOS"
 ---
 
@@ -73,10 +73,16 @@ Actualmente no hay literatura relacionada disponible.
 
 Registros sanitarios en los datos compilados (la lista puede ser parcial):
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20063316 | ACEOTO PLUS® | Solución ótica | Fluocinolona acetonida y antiinfecciosos |
-| 19931579 | TRI-LUMA® CREMA | Crema tópica | Combinaciones de corticosteroides |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19931579 | TRI-LUMA® CREMA | CREMA TOPICA | COMBINACIONES DE CORTICOSTEROIDES | Vigente |
+| 20063316 | ACEOTO PLUS® | SOLUCION OTICA | FLUOCINOLONA ACETONIDA Y ANTIINFECCIOSOS | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 495
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PALIVIZUMAB"
 predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "tumor of testis and paratestis", "cystic neoplasm", "schwannoma of jugular foramen", "mesenchymoma", "thyroglossal duct cyst"]
 description: "Palivizumab: nueva indicación predicha, Benign neoplasm of tongue (nivel de evidencia L5). Indicación original: PALIVIZUMAB"
@@ -81,10 +81,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20094809 | SYNAGIS® 100 MG solución para inyección | Solución inyectable | Palivizumab | Vigente |
-| 20085777 | SYNAGIS 50 MG solución para inyección | Solución inyectable | Palivizumab | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20085777 | SYNAGIS 50MG SOLUCIÓN PARA INYECCIÓN | SOLUCION INYECTABLE | PALIVIZUMAB | Vigente |
+| 20094809 | SYNAGIS®100 MG SOLUCION PARA INYECCIÓN | SOLUCION INYECTABLE | PALIVIZUMAB | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 Ambos registros pertenecen a AstraZeneca Colombia S.A.S.
 

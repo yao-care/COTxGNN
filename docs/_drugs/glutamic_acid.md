@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 317
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Glutamic Acid: nueva indicación predicha, Osteoporosis posmenopáusica (nivel de evidencia L4). Indicación original: Aminoácidos"
 monitor_inn: "glutamic acid"
 predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated osteoporosis", "primary hereditary glaucoma", "gastroparesis (disease)"]
@@ -94,9 +94,19 @@ La mayoría de los artículos no evalúan el ácido glutámico como tratamiento.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20086182 | AMINOPLASMAL® 10% E | Solución inyectable | Aminoácidos |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19908160 | TRAVASOL PLUS 15% LIBRE DE BISULFITO | SOLUCION INYECTABLE | AMINOACIDOS | Vigente |
+| 20022622 | NUTRIFLEXLIPID SPECIAL | EMULSION INYECTABLE | COMBINACIONES | Vigente |
+| 20033258 | OLIMEL N9 E | EMULSION INYECTABLE | COMBINACIONES | Vigente |
+| 20033290 | PERIOLIMEL N 4 E | EMULSION INYECTABLE | COMBINACIONES | Vigente |
+| 20057807 | NUMETA® G 19% E | EMULSION INYECTABLE | COMBINACIONES | Vigente |
+
+Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

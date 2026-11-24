@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 32
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Albendazole"
 predicted_indications: ["coenurosis"]
 description: "Albendazole: nueva indicación predicha, Cenurosis (coenurosis) (nivel de evidencia L5). Indicación original: ALBENDAZOL"
@@ -97,13 +97,19 @@ La literatura es mayoritariamente de revisión y trata la neurocisticercosis.
 
 Siete registros sanitarios de albendazol de ingrediente único figuran como vigentes; la lista puede ser parcial.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19973311 | Albendazol 200 mg tableta (Pentacoop) | Tableta | ALBENDAZOL |
-| 20119849 | Albendazol 2% suspensión (Coopidrogas) | Suspensión oral | ALBENDAZOL |
-| 29497 | Rotopar suspensión (Chalver) | Suspensión oral | ALBENDAZOL |
-| 19929550 | Albendazol 200 mg (American Generics) | Tableta recubierta | ALBENDAZOL |
-| 19928206 | Albendazol suspensión (American Generics) | Suspensión oral | ALBENDAZOL |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19908202 | ALBENDAZOL 200 MG TABLETAS. | TABLETA | ALBENDAZOL | Vigente |
+| 19928206 | ALBENDAZOL SUSPENSION | SUSPENSION ORAL | ALBENDAZOL | Vigente |
+| 19929550 | ALBENDAZOL 200 MG | TABLETA RECUBIERTA | ALBENDAZOL | Vigente |
+| 19941968 | FINAPAR SUSPENSION | SUSPENSION ORAL | ALBENDAZOL | Vigente |
+| 19950100 | FINAPAR TABLETAS | TABLETA | ALBENDAZOL | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

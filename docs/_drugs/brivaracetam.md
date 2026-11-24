@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "BRIVARACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Brivaracetam: nueva indicación predicha, Deficiencia de beta-cetotiolasa (beta-ketothiolase deficiency) (nivel de evidencia L5). Indicación original: BRIVARACETAM"
 ---
 
@@ -71,10 +71,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20149182 | BRIVIACT® 25 MG COMPRIMIDOS RECUBIERTOS | Comprimido | BRIVARACETAM |
-| 20162350 | BRIVAXON® 100 MG TABLETA RECUBIERTA | Tableta recubierta | BRIVARACETAM |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20149183 | BRIVIACT ® 50 MG COMPRIMIDOS RECUBIERTOS. | TABLETA | BRIVARACETAM | Vigente |
+| 20149185 | BRIVIACT ® 100MG COMPRIMIDOS RECUBIERTOS | TABLETA RECUBIERTA | BRIVARACETAM | Vigente |
+| 20149186 | BRIVIACT® 10 MG/ML SOLUCIÓN ORAL | SOLUCION ORAL | BRIVARACETAM | Vigente |
+| 20149188 | BRIVIACT ® 10 MG/ML SOLUCION INYECTABLE PARA PERFUSION | SOLUCION INYECTABLE | BRIVARACETAM | Vigente |
+| 20162350 | BRIVAXON® 100 MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | BRIVARACETAM | Vigente |
+
+Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 La lista de registros puede ser parcial.
 

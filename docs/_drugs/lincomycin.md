@@ -84,10 +84,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20134615 | LINCOMICINA INYECCION 600 MG/2ML (Caplin Point Laboratories Colombia S.A.S.) | Solución inyectable | LINCOMICINA | Temp. no comerc - Vigente |
-| 40743 | LINCOCIN® 600 MG/ 2 ML SOLUCION INYECTABLE (Pfizer S.A.S.) | Solución inyectable | LINCOMICINA | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 40743 | LINCOCIN® 600 MG/ 2 ML SOLUCION INYECTABLE | SOLUCION INYECTABLE | LINCOMICINA | Vigente |
+| 20134615 | LINCOMICINA INYECCION 600 MG/2ML | SOLUCION INYECTABLE | LINCOMICINA | Temp. no comerc - Vigente |
+| 20110548 | LINCOMICINA 600 MG/ 2 ML | SOLUCION INYECTABLE | LINCOMICINA | Vencido |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

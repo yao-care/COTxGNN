@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 579
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Salbutamol: nueva indicación predicha, Conjuntivitis papilar (nivel de evidencia L5). Indicación original: SALBUTAMOL"
 monitor_inn: "Salbutamol"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
@@ -81,9 +81,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19992498 | SACRUSYT® | Aerosoles | SALBUTAMOL |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19900625 | VENTILAN® OSP INHALADOR | AEROSOLES | SALBUTAMOL | Vigente |
+| 19983467 | MUXOL ® JARABE NIÑOS | JARABE | SALBUTAMOL Y OTROS FARMACOS PARA ENFERMEDAD OBSTRUCTIVA DE LA VIA AER… | Vigente |
+| 19983468 | MUXOL® JARABE ADULTOS | SOLUCION ORAL | SALBUTAMOL Y OTROS FARMACOS PARA ENFERMEDAD OBSTRUCTIVA DE LA VIA AER… | Vigente |
+| 19988817 | NEUMOLEX JARABE | SOLUCION ORAL | SALBUTAMOL Y OTROS FARMACOS PARA ENFERMEDAD OBSTRUCTIVA DE LA VIA AER… | Vigente |
+| 20011983 | SALBUTAMOL 100MCG/DOSIS | SUSPENSION PARA INHALACION | SALBUTAMOL | Vigente |
+
+Se muestran 5 de 12 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

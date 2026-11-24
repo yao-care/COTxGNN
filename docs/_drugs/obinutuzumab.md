@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 475
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Obinutuzumab: usos conocidos y estado de mercado en Colombia; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -73,9 +73,15 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) generó para Obinutuzu
 
 ## Información de Mercado en Colombia
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 20065694 | OBINUTUZUMAB | SOLUCIÓN CONCENTRADA PARA INFUSIÓN | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20065694 | GAZYVA ® CONCENTRADO PARA SOLUCIÓN PARA INFUSIÓN 1000 MG / VIAL 40 ML | SOLUCIÓN CONCENTRADA PARA INFUSIÓN | OBINUTUZUMAB | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

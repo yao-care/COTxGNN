@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 444
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Miglustat: nueva indicación predicha, Síndrome de ictiosis autosómica con curso fatal (nivel de evidencia L5). Indicación original: Enfermedad de Gaucher (uso clínico documentado). El texto del regis…"
 monitor_inn: "MIGLUSTAT"
 predicted_indications: ["autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease", "Krabbe disease", "metachromatic leukodystrophy", "Wolman disease with hypolipoproteinemia and acanthocytosis", "encephalopathy due to prosaposin deficiency", "Tay-Sachs disease", "benign neoplasm of adrenal gland", "recessive X-linked ichthyosis", "fatty acid hydroxylase-associated neurodegeneration"]
@@ -74,12 +74,22 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20261973 | MIGLUSTAT 100 MG - CÁPSULAS DURAS (GLOBAL-TEC COLOMBIA SAS) | Cápsula dura | MIGLUSTATO | Vigente |
-| 20010809 | ZAVESCA® 100 MG (JANSSEN CILAG S.A.) | Cápsula dura | MIGLUSTATO | Vigente |
+<!-- licenses:begin -->
 
-Ningún registro está vigente actualmente. Cualquier uso en Colombia requeriría una nueva gestión regulatoria.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20010809 | ZAVESCA® 100 MG | CAPSULA DURA | MIGLUSTATO | Vigente |
+| 20261973 | MIGLUSTAT 100 MG - CAPSULAS DURAS | CAPSULA DURA | MIGLUSTATO | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
+
+<!-- review:begin co-lic-20261124-miglustat-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Ningún registro está vigente actualmente. Cualquier uso en Colombia requeriría una nueva gestión regulatoria." Eliminado: afirmaba que ningún registro sanitario está vigente, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23): el medicamento tiene 2 registros sanitarios, todos vigentes. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124-miglustat-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -124,6 +134,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, no hay registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que los dos registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-24 | Eliminado: afirmaba que ningún registro sanitario está vigente | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

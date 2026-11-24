@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "etoposide"
 predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "Ewing sarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Etoposide: nueva indicación predicha, carcinoma adenomatoso fetal bien diferenciado del pulmón (well-differentiated fetal adenocarcinoma of the lung) (nivel de evidencia L5). Indicación original: ETO…"
 ---
 
@@ -76,12 +76,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Los datos locales registran 4 registros sanitarios de etopósido en solución inyectable (monofármaco).
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20094214 | ETOSID 100 MG/ 5 ML | Solución inyectable | ETOPOSIDO |
-| 20048821 | ETOPOSIDO INYECTABLE 100 MG / 5 ML | Solución inyectable | ETOPOSIDO |
-| 19951646 | ETOPOSIDO 100 MG | Solución inyectable | ETOPOSIDO |
-| 19982071 | ETOPOSIDO 100 MG/5 ML SOLUCION INYECTABLE. | Solución inyectable | ETOPOSIDO |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19951646 | ETOPOSIDO 100 MG | SOLUCION INYECTABLE | ETOPOSIDO | Vigente |
+| 19982071 | ETOPOSIDO 100 MG/5 ML SOLUCION INYECTABLE. | SOLUCION INYECTABLE | ETOPOSIDO | Vigente |
+| 20048821 | ETOPOSIDO INYECTABLE 100 MG / 5 ML | SOLUCION INYECTABLE | ETOPOSIDO | Vigente |
+| 20094214 | ETOSID 100 MG/ 5 ML | SOLUCION INYECTABLE | ETOPOSIDO | Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

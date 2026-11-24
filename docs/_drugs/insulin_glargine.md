@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 346
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Insulin Glargine: nueva indicación predicha, Ooforitis autoinmune (nivel de evidencia L5). Indicación original: Insulina glargina"
 monitor_inn: "Insulin glargine"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
@@ -101,11 +101,19 @@ La única predicción con literatura asociada es la **agenesia pancreática**; e
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 19914262 | LANTUS® 100 U/ML | Solución inyectable | Insulina glargina | Vigente |
-| 20060088 | GLARITUS 100UI/ML | Solución inyectable | Insulina glargina | Vigente |
-| 20128168 | SOLIQUA® 30-60 | Solución inyectable | Insulina glargina + lixisenatida | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19914262 | LANTUS ® 100 U / ML | SOLUCION INYECTABLE | INSULINA GLARGINA | Vigente |
+| 19914312 | LANTUS® 100 IU/ML | SOLUCION INYECTABLE | INSULINA GLARGINA | Vigente |
+| 20060088 | GLARITUS 100UI/ML SOLUCIÓN INYECTABLE. | SOLUCION INYECTABLE | INSULINA GLARGINA | Vigente |
+| 20111469 | SOLIQUA® 10-40 | SOLUCION INYECTABLE | INSULINA GLARGINA + LIXISENATIDA | Vigente |
+| 20128168 | SOLIQUA® 30-60 | SOLUCION INYECTABLE | INSULINA GLARGINA + LIXISENATIDA | Vigente |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

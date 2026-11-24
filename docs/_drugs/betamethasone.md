@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 104
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Betamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
 description: "Betamethasone: nueva indicación predicha, Alopecia mucinosa (nivel de evidencia L4). Indicación original: BETAMETASONA Y ANTIBIOTICOS"
@@ -75,12 +75,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Los registros listados pueden ser una lista parcial.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20114683 | Betametasona + Clotrimazol 1% + Neomicina 0.5% | Crema tópica | Betametasona y antibióticos | Vigente |
-| 20137501 | DKG Crema® | Crema tópica | Betametasona y antibióticos | Vigente |
-| 20256128 | Derprosol Trex® Crema | Crema tópica | Betametasona y antibióticos | Vigente |
-| 20176216 | Ephitree® | Crema tópica | Betametasona y antibióticos | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19971457 | BETAMETASONA ACETATO 3.0 MG. + BETAMETASONA (COMO SODIO FOSFATO ) 3 MG /ML. | SUSPENSION INYECTABLE | BETAMETASONA | Vigente |
+| 19974890 | BETADUO® 2ML | SUSPENSION INYECTABLE | BETAMETASONA | Vigente |
+| 19975980 | TRICLIMBAC SOLUCION OTICA | SOLUCION OTICA | BETAMETASONA | Vigente |
+| 19994642 | BETAMETASONA DIPROPIONATO + BETAMETASONA FOSFATO DISODICO / 2 ML | SUSPENSION INYECTABLE | BETAMETASONA | Vigente |
+| 19994644 | BETAMETASONA DIPROPIONATO+BETAMETASONA FOSFATO DISODICO | SUSPENSION INYECTABLE | BETAMETASONA | Vigente |
+
+Se muestran 5 de 18 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

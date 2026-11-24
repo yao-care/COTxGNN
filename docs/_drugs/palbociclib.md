@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 493
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PALBOCICLIB"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
 description: "Palbociclib: nueva indicación predicha, Hyperthyroidism (nivel de evidencia L5). Indicación original: PALBOCICLIB"
@@ -88,12 +88,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20195984 | REAMPLA® 125 MG TABLETAS RECUBIERTAS | Tableta cubierta con película | Palbociclib (estado: vigente) |
-| 20242070 | BAPOCIL® 125MG | Cápsula dura | Palbociclib (estado: vigente) |
-| 20195993 | REAMPLA® 100 MG TABLETAS RECUBIERTAS | Tableta cubierta con película | Palbociclib (estado: vigente) |
-| 20242562 | BAPOCIL® 75MG | Cápsula dura | Palbociclib (estado: vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20145979 | REAMPLA® | CAPSULA DURA | PALBOCICLIB | Vigente |
+| 20195984 | REAMPLA® 125 MG TABLETAS RECUBIERTAS | TABLETA CUBIERTA CON PELICULA | PALBOCICLIB | Vigente |
+| 20195993 | REAMPLA® 100 MG TABLETAS RECUBIERTAS | TABLETA CUBIERTA CON PELICULA | PALBOCICLIB | Vigente |
+| 20196171 | REAMPLA® 75 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | PALBOCICLIB | Vigente |
+| 20196854 | PABPCIB® 75 MG CAPSULAS | CAPSULA DURA | PALBOCICLIB | Vigente |
+
+Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 
@@ -129,12 +136,6 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Justificación:**
 La evidencia para artritis reumatoide se limita a estudios preclínicos, un reporte de caso y un estudio de cohorte sin confirmación de resultados, sin ensayos clínicos registrados (nivel L4). Además, el medicamento está comercializado en Colombia con 8 registros sanitarios vigentes, y la mielosupresión y la señal tromboembólica exigen cautela en una enfermedad crónica no oncológica.
 
-<!-- review:begin co-lic-20261112-palbociclib-1 -->
-
-> **Corrección de revisión (2026-11-12)**: Texto original: "4 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 8 registros sanitarios, de los cuales 8 vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261112-palbociclib-1 -->
-
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), actualmente no disponible.
 - Completar los datos del mecanismo de acción desde DrugBank.
@@ -162,7 +163,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 4 → 8 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 4 → 8 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Ibrance (palbociclib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792) |
 
 <!-- review:end log -->

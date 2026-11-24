@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 7
 monitor_inn: "ABATACEPT"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Abatacept: nueva indicación predicha, espondilitis anquilosante (ankylosing spondylitis) (nivel de evidencia L3). Indicación original: ABATACEPT"
 ---
 
@@ -86,9 +86,16 @@ La única evidencia directa es un estudio piloto abierto, pequeño y sin grupo c
 
 Según los registros locales, el producto se encuentra comercializado. La lista de registros puede ser parcial.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20041743 | ORENCIA® solución inyectable para administración subcutánea 125 mg/ml | Solución inyectable | Sin texto de indicación detallado en el registro |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19976227 | ORENCIA® 250 MG - POLVO LIOFILIZADO PARA SOLUCIÓN INYECTABLE INTRAVENOSA | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | ABATACEPT | Vigente |
+| 20041743 | ORENCIA® SOLUCION INYECTABLE PARA ADMINISTRACION SUBCUTÁNEA 125 MG/ML | SOLUCION INYECTABLE | ABATACEPT | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

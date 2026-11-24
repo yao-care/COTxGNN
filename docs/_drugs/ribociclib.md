@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 556
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ribociclib: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L4). Indicación original: RIBOCICLIB"
 monitor_inn: "ribociclib"
 predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets"]
@@ -91,9 +91,15 @@ Nota: el segundo resultado recuperado (PMID 41641105, reporte de caso de adenoca
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20115059 | KISQALI 200 MG TABLETAS RECUBIERTAS | Tableta recubierta | RIBOCICLIB |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20115059 | KISQALI 200 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | RIBOCICLIB | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

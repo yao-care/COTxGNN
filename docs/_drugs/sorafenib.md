@@ -80,11 +80,17 @@ Por ello la predicción es mecanísticamente plausible, pero sigue siendo una hi
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20241006 | SORAFENIB 200MG | Tableta recubierta | SORAFENIB (estado: vigente) |
-| 20227759 | SAFINAR® | Tableta recubierta | SORAFENIB (estado: vigente) |
-| 19971195 | NEXAVAR® 200MG | Tableta cubierta con película | SORAFENIB (estado: vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19971195 | NEXAVAR ® 200MG | TABLETA CUBIERTA CON PELICULA | SORAFENIB | Vigente |
+| 20227759 | SAFINAR® | TABLETA RECUBIERTA | SORAFENIB | Vigente |
+| 20241006 | SORAFENIB 200MG | TABLETA RECUBIERTA | SORAFENIB | Temp. no comerc - Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

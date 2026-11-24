@@ -81,11 +81,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19982950 | ZAS TABLETAS | Tableta | PARACETAMOL COMBINACIONES EXCLUYENDO SICOLEPTICOS |
-| 20188459 | RESFRYGRYP NOCHE® | Gránulos | PREPARACIONES DE OTRAS COMBINACIONES PARA EL RESFRIADO COMÚN |
-| 20165041 | ADVIL® GRIPA MAX | Cápsula blanda | IBUPROFENO. DEXTROMETORFANO BROMHIDRATO. FENILEFRINA CLORHIDRATO. CLORFENIRAMINA MALEATO |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19391 | DOCEFAL TOSUS | JARABE | CLORFENAMINA COMBINACIONES | Vigente |
+| 19721 | PAX® CALIENTE NOCHE GRANULADO SABORA PANELA LIMÓN Y SABOR A LIMON | GRANULOS | PARACETAMOL COMBINACIONES EXCLUYENDO SICOLEPTICOS | Vigente |
+| 19906457 | DOLEX® CONTRA LOS SINTOMAS DE LA GRIPA TABLETAS. | TABLETA | PARACETAMOL COMBINACIONES EXCLUYENDO SICOLEPTICOS | Vigente |
+| 19909497 | CLARIGRIP® TABLETAS. | TABLETA | PARACETAMOL COMBINACIONES EXCLUYENDO SICOLEPTICOS | Vigente |
+| 19940383 | CLORFENIRAMINA JARABE | JARABE | CLORFENAMINA | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 La lista de registros puede ser parcial.
 

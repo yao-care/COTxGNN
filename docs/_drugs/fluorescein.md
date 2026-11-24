@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 295
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluorescein: nueva indicación predicha, Angina de Prinzmetal (nivel de evidencia L5). Indicación original: Fluoresceína (uso diagnóstico)"
 monitor_inn: "fluorescein"
 predicted_indications: ["Prinzmetal angina", "antithrombin deficiency type 2", "rheumatoid arthritis", "factor 5 excess with spontaneous thrombosis", "hemoglobinopathy", "heparin cofactor 2 deficiency", "thrombophilia", "hyperthyroidism", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations"]
@@ -83,10 +83,16 @@ Actualmente no hay literatura relacionada disponible para Angina de Prinzmetal.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20008605 | FLUORESCEINA SODICA 10%. | Solución inyectable | Fluoresceína |
-| 19933781 | BIO-GLOSOLUCION | Solución inyectable | Fluoresceína |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19933781 | BIO-GLOSOLUCION | SOLUCION INYECTABLE | FLUORESCEINA | Vigente |
+| 20008605 | FLUORESCEINA SODICA 10%. | SOLUCION INYECTABLE | FLUORESCEINA | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

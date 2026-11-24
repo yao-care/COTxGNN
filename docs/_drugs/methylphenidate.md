@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 436
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Methylphenidate: nueva indicación predicha, Síndrome faciodigitogenital (nivel de evidencia L5). Indicación original: METILFENIDATO"
 monitor_inn: "methylphenidate"
 predicted_indications: ["faciodigitogenital syndrome", "chondromyxoid fibroma", "specific developmental disorder", "dysthymic disorder"]
@@ -99,18 +99,19 @@ Los demás artículos recuperados son revisiones generales, estudios cualitativo
 
 El medicamento está comercializado; actualmente hay 7 registros sanitarios vigentes.
 
-<!-- review:begin co-lic-20261112-methylphenidate-1 -->
+<!-- licenses:begin -->
 
-> **Corrección de revisión (2026-11-12)**: Texto original: "4 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 7 registros sanitarios, de los cuales 7 vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20204214 | CONSIV®54 MG TABLETAS DE LIBERACION PROLONGADA | TABLETA DE LIBERACION PROLONGADA | METILFENIDATO | Vigente |
+| 20233511 | METILFENIDATO 10MG | TABLETA | METILFENIDATO | Vigente |
+| 20242636 | ATEXAM® XR 54 | TABLETA DE LIBERACION PROLONGADA | METILFENIDATO | Vigente |
+| 20242646 | ATEXAM® XR 18 | TABLETA DE LIBERACION PROLONGADA | METILFENIDATO | Vigente |
+| 20242665 | ATEXAM® XR 27 | TABLETA DE LIBERACION PROLONGADA | METILFENIDATO | Vigente |
 
-<!-- review:end co-lic-20261112-methylphenidate-1 -->
+Se muestran 5 de 7 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 227970 | RITALINA 10 MG COMPRIMIDOS | Tableta | METILFENIDATO (vigente) |
-| 20242636 | ATEXAM® XR 54 | Tableta de liberación prolongada | METILFENIDATO (vigente) |
-| 20242665 | ATEXAM® XR 27 | Tableta de liberación prolongada | METILFENIDATO (vigente) |
-| 20242646 | ATEXAM® XR 18 | Tableta de liberación prolongada | METILFENIDATO (vigente) |
+<!-- licenses:end -->
 
 ---
 
@@ -165,7 +166,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "no hay registros vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 4 → 7 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 4 → 7 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Metadate Cd (methylphenidate hydrochloride) prescribing information, Lannett Company, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29f06562-6b6a-4ca6-b62e-d08a45fb3dd4) |
 
 <!-- review:end log -->

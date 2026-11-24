@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 30
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aflibercept: nueva indicación predicha, Esotropía (nivel de evidencia L5). Indicación original: AFLIBERCEPT"
 monitor_inn: "AFLIBERCEPT"
 predicted_indications: ["esotropia"]
@@ -87,9 +87,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20039088 | EYLIA® SOLUCIÓN PARA INYECCIÓN INTRAVÍTREA (BAYER A.G.) | Solución inyectable | AFLIBERCEPT | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20039088 | EYLIA® SOLUCIÓN PARA INYECCIÓN INTRAVÍTREA | SOLUCION INYECTABLE | AFLIBERCEPT | Vigente |
+| 20269865 | EYLIA ® 8MG SOLUCIÓN PARA INYECCIÓN INTRAVÍTREA | SOLUCION INYECTABLE | AFLIBERCEPT | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

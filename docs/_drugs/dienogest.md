@@ -90,9 +90,19 @@ Ninguna de estas publicaciones demuestra que dienogest trate la amenorrea como e
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20093177 | DIENILLE® comprimido recubierto | Tableta recubierta | DIENOGEST Y ETINILESTRADIOL |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20001058 | BELLAFACE® | TABLETA CUBIERTA CON PELICULA | DIENOGEST Y ETINILESTRADIOL | Vigente |
+| 20005233 | GIANDA® TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | DIENOGEST Y ETINILESTRADIOL | Vigente |
+| 20005723 | QLAIRA | TABLETA | DIENOGEST Y ESTRADIOL | Vigente |
+| 20018592 | VISANNE® | TABLETA | DIENOGEST | Vigente |
+| 20038827 | DIENOMET 2 MG TABLETAS | TABLETA | DIENOGEST | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

@@ -84,12 +84,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20065382 | MESILAX® | Suspensión para administrar por vía rectal | Mesalazina |
-| 19999923 | MESAX 500 MG TABLETAS | Tableta con cubierta entérica con película | Mesalazina |
-| 20041831 | SALOFALK® 3G | Gránulos | Mesalazina |
-| 20235125 | MESALAZINA TABLETA RECUBIERTA X 500 MG | Tableta con recubrimiento entérico | Mesalazina |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19978379 | SALOFALK® 1000 MG | GRANULOS | MESALAZINA | Vigente |
+| 19979281 | PENTASA 500 MG | TABLETA DE LIBERACION PROLONGADA | MESALAZINA | Vigente |
+| 19982968 | PENTASA®1 G GRANULOS DE LIBERACION PROLONGADA | GRANULOS | MESALAZINA | Vigente |
+| 19995433 | PENTASA® SUPOSITORIOS | SUPOSITORIO | MESALAZINA | Vigente |
+| 19998498 | MESAX4G / 60 ML SUSPENSION RECTAL | SUSPENSION PARA ADMINISTRAR POR VIA RECTAL | MESALAZINA | Vigente |
+
+Se muestran 5 de 17 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

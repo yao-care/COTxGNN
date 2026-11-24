@@ -87,12 +87,19 @@ Se muestran las publicaciones más relevantes, priorizando estudios de eficacia 
 
 La lista de registros puede ser parcial. Todos los productos corresponden a combinaciones y no describen la situación de la emtricitabina como ingrediente único.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20131470 | DESCOVY® 200MG/25MG TABLETAS RECUBIERTAS | Tableta recubierta | Emtricitabina y tenofovir alafenamida |
-| 20148969 | VYVALTO | Tableta recubierta | Emtricitabina y tenofovir alafenamida |
-| 20063471 | FOVIREM® | Tableta cubierta con película | Tenofovir disoproxil y emtricitabina |
-| 20119027 | ODEFSEY® 200 MG - 25 MG - 25 MG TABLETAS RECUBIERTAS | Tableta recubierta | Emtricitabina / rilpivirina / tenofovir alafenamida |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20009816 | TRUVADA® 300/200 | TABLETA RECUBIERTA | TENOFOVIR DISOPROXIL Y EMTRICITABINA | Vigente |
+| 20043884 | EMTRICITABINA 200 MG Y TENOFOVIR DISOPROXIL FUMARATO 300MG | TABLETA RECUBIERTA | TENOFOVIR DISOPROXIL Y EMTRICITABINA | Vigente |
+| 20054501 | COMPLERA® TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | EMTRICITABINA. TENOFOVIR DISOPROXIL Y RILPIVIRINA | Vigente |
+| 20061503 | STRIBILD® TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | EMTRICITABINA. TENOFOVIR DISOPROXIL. ELVITEGRAVIR Y COBICISTAT | Vigente |
+| 20063471 | FOVIREM® | TABLETA CUBIERTA CON PELICULA | TENOFOVIR DISOPROXIL Y EMTRICITABINA | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

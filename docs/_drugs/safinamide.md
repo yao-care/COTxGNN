@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 578
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "safinamide"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration"]
 description: "Safinamide: nueva indicación predicha, Encefalitis subaguda de Rasmussen (Rasmussen subacute encephalitis) (nivel de evidencia L5). Indicación original: SAFINAMIDA"
@@ -72,10 +72,16 @@ Otras predicciones del modelo, también solo con evidencia L5, son mielitis (0.9
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20202462 | ZAFIMID 100MG. TABLETAS RECUBIERTAS | Tableta | SAFINAMIDA | Vigente |
-| 20202459 | ZAFIMID® 50MG | Tableta recubierta | SAFINAMIDA | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20202459 | ZAFIMID® 50MG | TABLETA RECUBIERTA | SAFINAMIDA | Vigente |
+| 20202462 | ZAFIMID 100MG. TABLETAS RECUBIERTAS | TABLETA | SAFINAMIDA | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

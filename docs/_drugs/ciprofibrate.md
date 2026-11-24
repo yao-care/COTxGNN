@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Ciprofibrate"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "fibroma of prostate"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ciprofibrate: nueva indicación predicha, Deficiencia de la proteína de transferencia de ésteres de colesterol (nivel de evidencia L5). Indicación original: Ciprofibrato"
 ---
 
@@ -76,12 +76,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 La lista puede ser parcial: se muestran los 4 registros identificados.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19986691 | CIPROFIBRATO 100 MG TABLETAS (Laboratorios La Santé S.A.) | Tableta | CIPROFIBRATO |
-| 20028347 | CIPROFIBRATO TABLETAS X 100 MG (Genfar S.A.) | Tableta | CIPROFIBRATO |
-| 20013191 | FIBROLIP® 100 MG TABLETAS (Megalabs Colombia S.A.S) | Tableta | CIPROFIBRATO |
-| 20010476 | GIABRI® 100 MG TABLETAS (Merck S.A.) | Tableta | CIPROFIBRATO |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19986691 | CIPROFIBRATO 100 MG TABLETAS | TABLETA | CIPROFIBRATO | Vigente |
+| 20010476 | GIABRI® 100 MG TABLETAS | TABLETA | CIPROFIBRATO | Vigente |
+| 20013191 | FIBROLIP® 100 MG TABLETAS | TABLETA | CIPROFIBRATO | Vigente |
+| 20028347 | CIPROFIBRATO TABLETAS X 100 MG | TABLETA | CIPROFIBRATO | Vigente |
+
+Se muestran 4 de 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

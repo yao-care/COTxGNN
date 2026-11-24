@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 65
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Aripiprazole"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
 description: "Aripiprazole: nueva indicación predicha, Gaze palsy, familial horizontal, with progressive scoliosis (nivel de evidencia L5). Indicación original: ARIPIPRAZOL"
@@ -114,11 +114,19 @@ Nota: una de las publicaciones recuperadas (PMID 38669232, metaanálisis sobre a
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20091370 | ILIMIT® (estado: vigente) | Solución oral | ARIPIPRAZOL |
-| 20173116 | STROZOVEN® 30 MG TABLETAS (estado: vigente) | Tableta | ARIPIPRAZOL |
-| 20173114 | STROZOVEN® 15 MG TABLETAS (estado: vigente) | Tableta | ARIPIPRAZOL |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19984722 | ILIMIT MEGALABS® 15 MG | TABLETA | ARIPIPRAZOL | Vigente |
+| 19988981 | ARIPRAZOL® 15 MG | TABLETA | ARIPIPRAZOL | Vigente |
+| 20087873 | ZOLAPRIL 15 MG | TABLETA DISPERSABLE | ARIPIPRAZOL | Vigente |
+| 20091370 | ILIMIT® | SOLUCION ORAL | ARIPIPRAZOL | Vigente |
+| 20094480 | PRAZENTOL® 15 MG TABLETAS | TABLETA | ARIPIPRAZOL | Vigente |
+
+Se muestran 5 de 16 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

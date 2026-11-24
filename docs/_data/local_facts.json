@@ -21,11 +21,11 @@
   "items_current": 2397
  },
  "reviews": {
-  "records": 1415,
+  "records": 1418,
   "pages": 561,
   "public_pages_with_records": 553,
   "by_action": {
-   "correct": 971,
+   "correct": 974,
    "mechanism": 444
   }
  },
@@ -276,33 +276,27 @@
  },
  "recent_reviews": [
   {
-   "t": "Travoprost",
-   "u": "/drugs/travoprost/",
-   "s": "Registro 20219978: estado vigente → vencido",
+   "t": "Tetrabenazine",
+   "u": "/drugs/tetrabenazine/",
+   "s": "Eliminado: afirmaba que ningún registro sanitario está vigente",
    "d": "2026-11-24"
   },
   {
-   "t": "Paroxetine",
-   "u": "/drugs/paroxetine/",
-   "s": "Registro 20065995: estado vigente → vencido",
+   "t": "Spironolactone",
+   "u": "/drugs/spironolactone/",
+   "s": "Eliminado: afirmaba que ningún registro sanitario está vigente",
    "d": "2026-11-24"
   },
   {
-   "t": "Fluconazole",
-   "u": "/drugs/fluconazole/",
-   "s": "Registro 20053245: estado vigente → vencido",
+   "t": "Miglustat",
+   "u": "/drugs/miglustat/",
+   "s": "Eliminado: afirmaba que ningún registro sanitario está vigente",
    "d": "2026-11-24"
   },
   {
    "t": "Epinastine",
    "u": "/drugs/epinastine/",
-   "s": "Registro 19977977: estado vigente → vencido",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Bepotastine",
-   "u": "/drugs/bepotastine/",
-   "s": "Registro 20067043: estado vigente → vencido",
+   "s": "Registros vigentes: 3 → 2",
    "d": "2026-11-24"
   },
   {
@@ -418,37 +412,37 @@
    "u": "/drugs/oxaliplatin/",
    "s": "Número de registros vigentes: 4 → 8",
    "d": "2026-11-12"
+  },
+  {
+   "t": "Orlistat",
+   "u": "/drugs/orlistat/",
+   "s": "Número de registros vigentes: 3 → 14",
+   "d": "2026-11-12"
   }
  ],
  "recent_licence_reviews": [
   {
-   "t": "Travoprost",
-   "u": "/drugs/travoprost/",
-   "s": "Registro 20219978: estado vigente → vencido",
+   "t": "Tetrabenazine",
+   "u": "/drugs/tetrabenazine/",
+   "s": "Eliminado: afirmaba que ningún registro sanitario está vigente",
    "d": "2026-11-24"
   },
   {
-   "t": "Paroxetine",
-   "u": "/drugs/paroxetine/",
-   "s": "Registro 20065995: estado vigente → vencido",
+   "t": "Spironolactone",
+   "u": "/drugs/spironolactone/",
+   "s": "Eliminado: afirmaba que ningún registro sanitario está vigente",
    "d": "2026-11-24"
   },
   {
-   "t": "Fluconazole",
-   "u": "/drugs/fluconazole/",
-   "s": "Registro 20053245: estado vigente → vencido",
+   "t": "Miglustat",
+   "u": "/drugs/miglustat/",
+   "s": "Eliminado: afirmaba que ningún registro sanitario está vigente",
    "d": "2026-11-24"
   },
   {
    "t": "Epinastine",
    "u": "/drugs/epinastine/",
-   "s": "Registro 19977977: estado vigente → vencido",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Bepotastine",
-   "u": "/drugs/bepotastine/",
-   "s": "Registro 20067043: estado vigente → vencido",
+   "s": "Registros vigentes: 3 → 2",
    "d": "2026-11-24"
   },
   {
@@ -467,6 +461,12 @@
    "t": "Tenofovir Disoproxil",
    "u": "/drugs/tenofovir-disoproxil/",
    "s": "Número de registros vigentes: 4 → 16",
+   "d": "2026-11-12"
+  },
+  {
+   "t": "Telmisartan",
+   "u": "/drugs/telmisartan/",
+   "s": "Número de registros vigentes: 2 → al menos 18",
    "d": "2026-11-12"
   }
  ],

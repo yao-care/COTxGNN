@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 413
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Loteprednol etabonate"
 predicted_indications: ["conjunctival folliculosis", "chronic follicular conjunctivitis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "pseudomembranous conjunctivitis", "Angelucci syndrome", "acute hemorrhagic conjunctivitis", "acute contagious conjunctivitis", "otitis externa"]
 description: "Loteprednol Etabonate: nueva indicación predicha, Conjunctival folliculosis (nivel de evidencia L5). Indicación original: LOTEPREDNOL"
@@ -87,13 +87,19 @@ Como dato indirecto, para otra indicación predicha (conjuntivitis pseudomembran
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19925591 | LOTESOFT SUSPENSION OFTALMICA | Suspensión oftálmica | LOTEPREDNOL |
-| 20086574 | TQ OFTAPREDNOL® SUSPENSION OFTALMICA ESTERIL | Suspensión oftálmica | LOTEPREDNOL |
-| 20208117 | TALOF® SUSPENSIÓN OFTÁLMICA ESTÉRIL | Suspensión oftálmica | LOTEPREDNOL |
-| 20051434 | DISALOT® | Suspensión oftálmica | LOTEPREDNOL |
-| 20220552 | LOTEMICIN® | Suspensión oftálmica | Antibióticos en combinación con otros fármacos |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20051434 | DISALOT® | SUSPENSION OFTALMICA | LOTEPREDNOL | Vigente |
+| 20086574 | TQ OFTAPREDNOL® SUSPENSION OFTALMICA ESTERIL | SUSPENSION OFTALMICA | LOTEPREDNOL | Vigente |
+| 20086576 | OFTAPREDNOL MAX® SUSPENSION OFTALMICA ESTERIL | SUSPENSION OFTALMICA | LOTEPREDNOL | Vigente |
+| 20208117 | TALOF® SUSPENSIÓN OFTÁLMICA ESTÉRIL | SUSPENSION OFTALMICA | LOTEPREDNOL | Vigente |
+| 20220552 | LOTEMICIN® | SUSPENSION OFTALMICA | ANTIBIOTICOS EN COMBINACION CON OTROS F RMACOS | Vigente |
+
+Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

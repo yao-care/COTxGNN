@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 520
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Plerixafor: nueva indicación predicha, CMM7 (nivel de evidencia L5). Indicación original: El registro sanitario solo indica el nombre del principio activo (\"PL…"
 monitor_inn: "PLERIXAFOR"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
@@ -78,11 +78,17 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20255171 | Plerixafor 24 mg solución inyectable (Avalon Pharmaceutical S.A.) | Solución inyectable | Plerixafor (sin texto de indicación detallado) |
-| 20056150 | Mozobil® (Genzyme Corporation) | Solución inyectable | Plerixafor (sin texto de indicación detallado) |
-| 20187826 | Aurople­ristem 20 mg/ml (Eugia Pharma Specialities Limited) | Solución inyectable | Plerixafor (sin texto de indicación detallado) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20056150 | MOZOBIL® | SOLUCION INYECTABLE | PLERIXAFOR | Vigente |
+| 20187826 | AUROPLERISTEM 20 MG/ML | SOLUCION INYECTABLE | PLERIXAFOR | Vigente |
+| 20255171 | PLERIXAFOR 24 MG SOLUCION INYECTABLE | SOLUCION INYECTABLE | PLERIXAFOR | Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

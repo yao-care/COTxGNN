@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "fluorouracil"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "sickle cell-beta-thalassemia disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin E disease syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluorouracil: nueva indicación predicha, Rabdomiosarcoma embrionario de tipo botrioide de la vagina (botryoid-type embryonal rhabdomyosarcoma of the vagina) (nivel de evidencia L5). Indicación origin…"
 ---
 
@@ -74,12 +74,19 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 Los datos locales muestran 4 registros sanitarios de fluorouracilo como único principio activo (la lista puede ser parcial):
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19964018 | 5- FLUOROURACIL. 5% UNGUENTO | Ungüento tópico | FLUOROURACILO |
-| 216264 | 5 - FLUOROURACIL CREMA 2.5% | Crema tópica | FLUOROURACILO |
-| 19930999 | 5-FLUOROURACIL 5% GEL | Gel tópico | FLUOROURACILO |
-| 20071503 | FLUOROURACILO INYECCION 500 MG | Solución inyectable | FLUOROURACILO |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19930999 | 5-FLUOROURACIL 5% GEL | GEL TOPICO | FLUOROURACILO | Vigente |
+| 19964018 | 5- FLUOROURACIL. 5% UNGUENTO | UNGUENTO TOPICO | FLUOROURACILO | Vigente |
+| 20053621 | FLUOROURACILO INYECTABLE 500 MG / 10 ML | SOLUCION INYECTABLE | FLUOROURACILO | Vigente |
+| 20071503 | FLUOROURACILO INYECCION 500 MG | SOLUCION INYECTABLE | FLUOROURACILO | Vigente |
+| 20121175 | FLUOROURACILO 500 MG | SOLUCION INYECTABLE | FLUOROURACILO | Vigente |
+
+Se muestran 5 de 7 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

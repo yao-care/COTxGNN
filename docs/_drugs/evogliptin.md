@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 274
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Evogliptin: nueva indicación predicha, Opsismodisplasia (nivel de evidencia L5). Indicación original: Evogliptina tartrato"
 monitor_inn: "evogliptin"
 predicted_indications: ["opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "drug-induced localized lipodystrophy"]
@@ -78,9 +78,15 @@ El puntaje alto de TxGNN (0.9935) proviene del modelo TxGNN (deep learning) y pu
 
 ## Informacion de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20188468 | SUGANON® | Tableta recubierta | Evogliptina tartrato |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20188468 | SUGANON® | TABLETA RECUBIERTA | EVOGLIPTINA TARTRATO | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 Fabricante: Eurofarma Colombia S.A.S.
 

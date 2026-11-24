@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 304
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fulvestrant: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L4). Indicación original: FLUVESTRANT"
 monitor_inn: "FULVESTRANT"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -84,10 +84,19 @@ Actualmente no hay ensayos clínicos relacionados registrados para esta indicaci
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20190314 | FULVESANT® 250 MG/5 ML | Solución inyectable | FLUVESTRANT |
-| 19955642 | FASLODEX® 250 MG / 5 ML | Solución inyectable | FLUVESTRANT |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19955642 | FASLODEX® 250 MG / 5 ML | SOLUCION INYECTABLE | FLUVESTRANT | Vigente |
+| 20118041 | ERANFU® SOLUCION INYECTABLE 250 MG/5 ML. | SOLUCION INYECTABLE | FLUVESTRANT | Vigente |
+| 20132157 | FULVESTRANT 250 MG/5ML SOLUCIÓN INYECTABLE | SOLUCION INYECTABLE | FLUVESTRANT | Vigente |
+| 20177494 | FURETRANT® | SOLUCION INYECTABLE | FLUVESTRANT | Vigente |
+| 20190314 | FULVESANT® 250 MG/5 ML | SOLUCION INYECTABLE | FLUVESTRANT | Vigente |
+
+Se muestran 5 de 10 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

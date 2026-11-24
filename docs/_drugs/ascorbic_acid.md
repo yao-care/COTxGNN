@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Ascorbic acid"
 predicted_indications: ["non-syndromic esophageal malformation", "esophageal disease", "congenital prothrombin deficiency", "injury", "biotin metabolic disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "perinatal disease", "disease by subcellular system affected"]
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Ascorbic Acid: nueva indicación predicha, Malformación esofágica no sindrómica (non-syndromic esophageal malformation) (nivel de evidencia L5). Indicación original: ACIDO ASCORBICO (VIT C)"
 ---
 
@@ -79,10 +79,19 @@ Según los registros locales, el estado de mercado es comercializado, con al men
 
 <!-- review:end co-lic-20261112-ascorbic_acid-1 -->
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 20265640 | VITAMINA C 500 MG | Tableta masticable |
-| 20024687 | DEVIT-C® | Tableta masticable |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19940150 | PEDIAVIT ZINC | SOLUCION ORAL | MULTIVITAMINAS Y OTROS MINERALES INCL COMBINACIONES | Vigente |
+| 19943196 | VITAMINA C SOLUCION INYECTABLE | SOLUCION INYECTABLE | ACIDO ASCORBICO (VIT C) | Vigente |
+| 19944583 | VICITRA®500 MG | CAPSULA DURA | ACIDO ASCORBICO (VIT C) | Vigente |
+| 19960586 | NATELE® EASYGELS | CAPSULA BLANDA | MULTIVITAMINAS Y OTROS MINERALES INCL COMBINACIONES | Vigente |
+| 19966774 | SIVITAM® GOTAS | SOLUCION ORAL | ACIDO ASCORBICO (VIT C) | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

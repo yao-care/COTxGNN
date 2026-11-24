@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 101
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Benzoic Acid: nueva indicación predicha, Bronquitis (nivel de evidencia L5). Indicación original: Ácido salicílico, ácido benzoico"
 monitor_inn: "benzoic acid"
 predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "dry eye syndrome", "palmar fibromatosis", "Ledderhose disease", "infantile digital fibromatosis", "hereditary angioedema with C1Inh deficiency", "posterior leukoencephalopathy syndrome", "C1 inhibitor deficiency"]
@@ -85,10 +85,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19930281 | NIXODERM UNGUENTO | Ungüento tópico | Ácido salicílico, ácido benzoico (vigente) |
-| 20028320 | DERMICOX | Solución tópica | Ácido aminobenzoico (vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19930281 | NIXODERM UNGUENTO | UNGUENTO TOPICO | ACIDO SALICILICO. ACIDO BENZOICO | Vigente |
+| 19977478 | MESALITSOLUCIONTOPICA | SOLUCION TOPICA | VARIAS COMBINACIONES | Vigente |
+| 20028320 | DERMICOX | SOLUCION TOPICA | AMINOBENZOICO ACIDO | Vigente |
+| 20052715 | QUERAFAR® SOLUCION TOPICA | SOLUCION TOPICA | ÄCIDO SALICILICO. ÁCIDO BENZOICO. RESORCINOL | Vigente |
+| 37349 | MICOFIX® LOCION | SOLUCION TOPICA | ACIDO SALICILICO COMBINACIONES | Vigente |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

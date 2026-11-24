@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 111
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "bleomycin"
 predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "primary pulmonary lymphoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung"]
 description: "Bleomycin: nueva indicación predicha, neoplasia de la cauda equina (cauda equina neoplasm) (nivel de evidencia L5). Indicación original: BLEOMICINA"
@@ -73,10 +73,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20259728 | BLENA® 15 UI | Polvo liofilizado para reconstituir a solución inyectable | Bleomicina |
-| 20092577 | BLEOMICINA 15 UI | Polvo liofilizado | Bleomicina |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20092577 | BLEOMICINA 15 UI | POLVO LIOFILIZADO | BLEOMICINA | Vigente |
+| 20259728 | BLENA® 15 UI POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCIÓN INYECTABLE | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | BLEOMICINA | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

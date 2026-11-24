@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "diatrizoate"
 predicted_indications: ["rheumatoid arthritis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Diatrizoate: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L5). Indicación original: Combinaciones de medios de contraste para rayos X de alta osmolaridad"
 ---
 
@@ -75,9 +75,15 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 La lista puede ser parcial: los datos compilados indican al menos 1 registro sanitario.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 34342 | MD-GASTROVIEW® (medio de contraste para radiografía) | Solución oral | Combinaciones medios de contraste para rayos X de alta osmolaridad |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 34342 | MD- GASTROVIEW® (MEDIO DE CONTRASTE PARA RADIOGRAFIA) | SOLUCION ORAL | COMBINACIONES MEDIOS DE CONTRASTE PARA RAYOS X DE ALTA OSMOLARIDAD | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

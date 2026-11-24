@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 546
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RAMIPRIL"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
 description: "Ramipril: nueva indicación predicha, Pulmonary hypertension with unclear multifactorial mechanism (nivel de evidencia L5). Indicación original: RAMIPRIL"
@@ -94,9 +94,15 @@ Los demás artículos recuperados para la indicación cercana tratan sobre conte
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20160917 | IPCA RAMCOR 5 | Cápsula dura | RAMIPRIL |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20160917 | IPCA RAMCOR 5 | CAPSULA DURA | RAMIPRIL | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 Fabricante: IPCA Laboratories Limited.
 

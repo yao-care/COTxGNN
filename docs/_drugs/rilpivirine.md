@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 561
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rilpivirine: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L5). Indicación original: Emtricitabina / Rilpivirina / Tenofovir alafenamida (combinación a…"
 monitor_inn: "rilpivirine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -90,10 +90,16 @@ Actualmente no hay ensayos clínicos relacionados registrados para esta indicaci
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20119027 | ODEFSEY® 200 MG - 25 MG - 25 MG TABLETAS RECUBIERTAS | Tableta recubierta | Emtricitabina / Rilpivirina / Tenofovir alafenamida | Vigente |
-| 20240862 | ERESTZ® | Tableta recubierta | Emtricitabina, Tenofovir disoproxil y Rilpivirina | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20119027 | ODEFSEY® 200 MG - 25 MG - 25 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | EMTRICITABINA / RILPIVIRINA / TENOFOVIR ALAFENAMIDA | Vigente |
+| 20240862 | ERESTZ® | TABLETA RECUBIERTA | EMTRICITABINA. TENOFOVIR DISOPROXIL Y RILPIVIRINA | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

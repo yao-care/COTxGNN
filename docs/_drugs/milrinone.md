@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 445
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Milrinone: nueva indicación predicha, Alopecia (nivel de evidencia L5). Indicación original: MILRINONA"
 monitor_inn: "milrinone"
 predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "headache disorder", "migraine disorder", "migraine with brainstem aura", "trigeminal autonomic cephalalgia", "acute pulmonary heart disease"]
@@ -87,12 +87,18 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 40198 | COROTROPE® 10 MG (Sanofi-Aventis de Colombia) | Solución inyectable | MILRINONA |
-| 20060004 | MILRINONA 10MG/10ML (Proclin Pharma) | Solución inyectable | MILRINONA |
-| 20003652 | MILRINONA 10 MG / 10 ML, vial por 10 ml (Medyseh Ltda.) | Solución inyectable | MILRINONA |
-| 20200726 | MILRINONA 10 MG / 10 ML (Farmatech S.A.) | Solución inyectable | MILRINONA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20003652 | MILRINONA 10 MG / 10 ML SOLUCION INYECTABLE. VIAL POR 10 ML | SOLUCION INYECTABLE | MILRINONA | Vigente |
+| 20060004 | MILRINONA 10MG/10ML | SOLUCION INYECTABLE | MILRINONA | Vigente |
+| 40198 | COROTROPE® 10 MG | SOLUCION INYECTABLE | MILRINONA | Vigente |
+| 20200726 | MILRINONA 10 MG / 10 ML SOLUCION INYECTABLE | SOLUCION INYECTABLE | MILRINONA | Temp. no comerc - Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

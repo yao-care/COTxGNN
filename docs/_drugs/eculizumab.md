@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 244
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Eculizumab: nueva indicación predicha, Hematopoyesis cíclica (nivel de evidencia L5). Indicación original: ECULIZUMAB"
 monitor_inn: "ECULIZUMAB"
 predicted_indications: ["cyclic hematopoiesis", "autosomal recessive severe congenital neutropenia due to JAGN1 deficiency", "X-linked severe congenital neutropenia", "congenital neutropenia-myelofibrosis-nephromegaly syndrome", "adult idiopathic neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "autosomal recessive severe congenital neutropenia due to CSF3R deficiency", "severe congenital neutropenia", "primary release disorder of platelets"]
@@ -83,11 +83,17 @@ Para otras predicciones del modelo se recuperaron publicaciones, pero correspond
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20164753 | ELIZARIA® 10 MG/ML | Solución concentrada para infusión | ECULIZUMAB | Vigente |
-| 20254329 | BKEMV® 300 MG | Solución concentrada para infusión | ECULIZUMAB | Vigente |
-| 20028870 | SOLIRIS® 300 MG | Solución concentrada para infusión | ECULIZUMAB | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20028870 | SOLIRIS ® 300 MGSOLUCION PARA INFUSIÓN INTRAVENOSA | SOLUCIÓN CONCENTRADA PARA INFUSIÓN | ECULIZUMAB | Vigente |
+| 20164753 | ELIZARIA® 10MG/ML SOLUCIÓN CONCENTRADA PARA INFUSIÓN | SOLUCIÓN CONCENTRADA PARA INFUSIÓN | ECULIZUMAB | Vigente |
+| 20254329 | BKEMV® 300 MG | SOLUCIÓN CONCENTRADA PARA INFUSIÓN | ECULIZUMAB | Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

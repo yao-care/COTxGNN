@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 135
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carbamazepine: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L4). Indicación original: Carbamazepina"
 monitor_inn: "Carbamazepine"
 predicted_indications: ["trigeminal nerve neoplasm", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
@@ -100,10 +100,19 @@ Se muestran las publicaciones más relevantes de las 20 recuperadas (la evidenci
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 226679 (cancelado) | TEGRETOL® 2% SUSPENSION | Suspensión oral | CARBAMAZEPINA |
-| 227365 | TEGRETOL® RETARD DE 400 MG | Tableta de liberación prolongada | CARBAMAZEPINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 227365 | TEGRETOL® RETARD DE 400 MG | TABLETA DE LIBERACION PROLONGADA | CARBAMAZEPINA | Vigente |
+| 227376 | TEGRETOL RETARD DE 200 MG | TABLETA DE LIBERACION PROLONGADA | CARBAMAZEPINA | Vigente |
+| 44969 | CARBAMAZEPINA TABLETAS | TABLETA | CARBAMAZEPINA | Vigente |
+| 56106 | CARBAMAZEPINA 2% SUSPENSIÓN ORAL | SUSPENSION ORAL | CARBAMAZEPINA | Vigente |
+| 226679 | TEGRETOL ® 2% SUSPENSION | SUSPENSION ORAL | CARBAMAZEPINA | Perdida Fuerza Ejec |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

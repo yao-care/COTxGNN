@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 75
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atosiban: nueva indicación predicha, Glaucoma hereditario primario (nivel de evidencia L5). Indicación original: Atosiban"
 monitor_inn: "ATOSIBAN"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "congenital hypotrichosis milia", "alopecia", "hypotrichosis simplex of the scalp", "vascular disease", "diffuse alopecia areata", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "visceral calciphylaxis"]
@@ -106,10 +106,18 @@ Actualmente no hay literatura relacionada disponible para glaucoma hereditario p
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20131614 | EVERPREM® solución para infusión 6.75 mg/0.9 mL | Solución para infusión | Atosiban | Vigente |
-| 20131612 | EVERPREM® concentrado para solución para infusión 37.5 mg/5 mL | Solución concentrada para infusión | Atosiban | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19982404 | TRACTOCILE 37.5 MG/ 5 ML CONCENTRADO PARA SOLUCION POR INFUSION | SOLUCION INYECTABLE | ATOSIBAN | Vigente |
+| 19982405 | TRACTOCILE 6.75 MG/0.9 ML SOLUCION PARA INFUSION INTRAVENOSA | SOLUCION INYECTABLE | ATOSIBAN | Vigente |
+| 20131612 | EVERPREM® CONCENTRADO PARA SOLUCIÓN PARA INFUSIÓN 37.5 MG/5ML | SOLUCIÓN CONCENTRADA PARA INFUSIÓN | ATOSIBAN | Vigente |
+| 20131614 | EVERPREM® SOLUCIÓN PARA INFUSIÓN 6.75 MG/0.9 ML | SOLUCIÓN PARA INFUSIÓN | ATOSIBAN | Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 515
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Pilocarpine: usos conocidos y estado de mercado en Colombia; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -72,11 +72,17 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) generó para este fár
 
 ## Información de Mercado en Colombia
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 39261 | PILOCARPINA CLORHIDRATO | SOLUCION OFTALMICA | Vigente |
-| 20097979 | PILOCARPINA CLORHIDRATO | TABLETA RECUBIERTA | Vigente |
-| 20091048 | PILOCARPINA CLORHIDRATO | TABLETA CUBIERTA CON PELICULA | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20091048 | CARPIX® TABLETA RECUBIERTA | TABLETA CUBIERTA CON PELICULA | PILOCARPINA | Vigente |
+| 20097979 | PICARPIN® | TABLETA RECUBIERTA | PILOCARPINA | Vigente |
+| 39261 | ISOPTO CARPINA® 2% | SOLUCION OFTALMICA | PILOCARPINA | Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 349
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Interferon Beta-1B: nueva indicación predicha, Leucemia de células pilosas (hairy cell leukemia) (nivel de evidencia L5). Indicación original: Interferón beta-1b"
 monitor_inn: "INTERFERON BETA-1B"
 predicted_indications: ["hairy cell leukemia", "autoimmune disease of central nervous system"]
@@ -96,9 +96,15 @@ Como información complementaria (esclerosis múltiple), publicaciones principal
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 202595 | BETAFERON | Polvo liofilizado para reconstituir a solución inyectable | INTERFERON BETA-1B |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 202595 | BETAFERON. | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | INTERFERON BETA-1B | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

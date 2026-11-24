@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 363
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ivermectin: nueva indicación predicha, Candidiasis vulvovaginal (nivel de evidencia L5). Indicación original: Ivermectina"
 monitor_inn: "Ivermectin"
 predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "congenital candidiasis", "neonatal candidiasis", "candida glabrata", "postmenopausal atrophic vaginitis", "candidiasis, invasive"]
@@ -88,13 +88,19 @@ Entre las otras predicciones, las dos publicaciones vinculadas no respaldan efic
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20253293 | SIMPIOX | Solución oral | IVERMECTINA (vigente) |
-| 19979253 | IVERMECTINA 0.6% GOTAS | Solución oral | IVERMECTINA (vigente) |
-| 19980678 | QUANOX | Solución oral | IVERMECTINA (vigente) |
-| 19938258 | KILOX 0.6% GOTAS | Solución oral | IVERMECTINA (vigente) |
-| 20082013 | SOOLANTRA® 10 MG/G CREMA | Crema tópica | IVERMECTINA (vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19938258 | KILOX0.6% GOTAS | SOLUCION ORAL | IVERMECTINA | Vigente |
+| 19979253 | IVERMECTINA 0.6% GOTAS | SOLUCION ORAL | IVERMECTINA | Vigente |
+| 19980678 | QUANOX | SOLUCION ORAL | IVERMECTINA | Vigente |
+| 20002482 | QUANOX LOCION | SOLUCION TOPICA | IVERMECTINA | Vigente |
+| 20077686 | IVERBLAS® 0.6% SUSPENSION ORAL | SUSPENSION ORAL | IVERMECTINA | Vigente |
+
+Se muestran 5 de 14 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 
@@ -114,12 +120,6 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 **Justificación:**
 La predicción corresponde únicamente a un modelo computacional (nivel L5), sin ensayos clínicos, sin literatura de apoyo y sin mecanismo antifúngico plausible. Además, el medicamento está comercializado en Colombia con 11 registros sanitarios vigentes, y la información de seguridad del prospecto no está disponible.
-
-<!-- review:begin co-lic-20261112-ivermectin-1 -->
-
-> **Corrección de revisión (2026-11-12)**: Texto original: "5 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 14 registros sanitarios, de los cuales 11 vigentes y 3 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261112-ivermectin-1 -->
 
 **Para avanzar se necesita:**
 - Datos de mecanismo de acción detallados (consulta a DrugBank).
@@ -143,7 +143,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "dado que los 5 registros están cancelados, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 5 → 11 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 5 → 11 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Stromectol (ivermectin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=681888c9-af79-4b7d-ae80-c3f4f6f1effd) |
 
 <!-- review:end log -->

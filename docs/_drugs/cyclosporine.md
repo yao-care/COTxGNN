@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 185
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cyclosporine: nueva indicación predicha, Enfermedad granulomatosa crónica autosómica recesiva (nivel de evidencia L4). Indicación original: Ciclosporina"
 monitor_inn: "Cyclosporine"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
@@ -97,13 +97,19 @@ Los 8 registros sanitarios están vigentes.
 
 <!-- review:end co-lic-20261112-cyclosporine-1 -->
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 33038 | Sandimmun Neoral cápsulas blandas con microemulsión 25 mg | Cápsula blanda | Ciclosporina |
-| 33037 | Sandimmun Neoral cápsula blanda microemulsión 100 mg | Cápsula blanda | Ciclosporina |
-| 20070206 | Citabiclos 100 | Cápsula blanda | Ciclosporina |
-| 51612 | Sandimmun Neoral cápsula blanda con microemulsión 50 mg | Cápsula blanda | Ciclosporina |
-| 24092 | Sandimmun concentrado para perfusión 50 mg/ml | Solución inyectable | Ciclosporina |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19932152 | MODUSIK - A OFTENO | SOLUCION OFTALMICA | CICLOSPORINA | Vigente |
+| 19937980 | RESTASIS® EMULSIÓN OFTÁLMICA | EMULSIÓN | CICLOSPORINA | Vigente |
+| 20070206 | CITABICLOS® 100 | CAPSULA BLANDA | CICLOSPORINA | Vigente |
+| 22899 | SANDIMMUN NEORAL MICROEMULSION | EMULSION ORAL | CICLOSPORINA | Vigente |
+| 24092 | SANDIMMUN® CONCENTRADO PARA PERFUSION 50 MG/ML | SOLUCION INYECTABLE | CICLOSPORINA | Vigente |
+
+Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

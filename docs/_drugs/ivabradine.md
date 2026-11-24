@@ -86,10 +86,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20178284 | IVAZYD ® 7.5 (vigente) | Tableta recubierta | Ivabradina |
-| 19983733 | PROCORALAN 7.5 MG comprimidos recubiertos (vigente) | Tableta cubierta con película | Ivabradina |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19983733 | PROCORALAN 7.5 MG COMPRIMIDOS RECUBIERTOS | TABLETA CUBIERTA CON PELICULA | IVABRADINE | Vigente |
+| 19983736 | PROCORALAN5 MG - COMPRIMIDOS RECUBIERTOS | TABLETA | IVABRADINE | Vigente |
+| 20140528 | IVABEAT-5 | TABLETA RECUBIERTA | IVABRADINE | Vigente |
+| 20140598 | IVABEAT7.5 | TABLETA RECUBIERTA | IVABRADINE | Vigente |
+| 20178284 | IVAZYD ® 7.5 | TABLETA RECUBIERTA | IVABRADINE | Vigente |
+
+Se muestran 5 de 10 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

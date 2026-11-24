@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 625
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Thiopental: nueva indicación predicha, Tricotilomanía (nivel de evidencia L5). Indicación original: TIOPENTAL"
 monitor_inn: "thiopental"
 predicted_indications: ["trichotillomania", "Prinzmetal angina", "migraine disorder", "Tourette syndrome", "migraine with brainstem aura", "obsolete bundle branch block", "substance abuse/dependence", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -85,9 +85,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 11878 | TIOPENTAL 1 G. I.V. polvo para solución inyectable | Polvo estéril para reconstituir a solución inyectable | TIOPENTAL |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 11878 | TIOPENTAL 1 G. I V . POLVO PARA SOLUCIÓNINYECTABLE. | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | TIOPENTAL | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

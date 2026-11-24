@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 348
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Insulin Human: nueva indicación predicha, Ooforitis autoinmune (nivel de evidencia L5). Indicación original: Insulina (humana)"
 monitor_inn: "insulin human"
 predicted_indications: ["autoimmune oophoritis", "focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "pancreatic agenesis", "idiopathic localized lipodystrophy"]
@@ -99,9 +99,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20061253 | WOSULIN N 100UI/ML SUSPENSIÓN INYECTABLE | Suspensión inyectable | Insulina (humana) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20061253 | WOSULIN N 100UI/ML SUSPENSIÓN INYECTABLE | SUSPENSION INYECTABLE | INSULINA (HUMANA) | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 Fabricante: Elixym Biopharmaceutical S.A.S.
 

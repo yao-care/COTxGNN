@@ -101,13 +101,19 @@ Se priorizan los estudios más relevantes; ninguno evalúa directamente dacarbaz
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20211561 | NEGORIX 200 MG | Polvo liofilizado para reconstituir a solución inyectable | Dacarbazina |
-| 20080268 | CARBAVEN 200 | Polvo liofilizado para reconstituir a solución inyectable | Dacarbazina |
-| 19961319 | DACARBAZINA 200 MG (Blau Farmacéutica) | Polvo liofilizado para reconstituir a solución inyectable | Dacarbazina |
-| 224892 | DACARBAZINE (Medac GmbH) | Polvo liofilizado para reconstituir a solución inyectable | Dacarbazina |
-| 20194844 | TREXTECH 200 MG | Polvo liofilizado para reconstituir a solución inyectable | Dacarbazina |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19961319 | DACARBAZINA 200 MG | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | DACARBAZINA | Vigente |
+| 20083480 | DACARBAZINA 200 MG | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | DACARBAZINA | Vigente |
+| 20211561 | NEGORIX ® 200MG | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | DACARBAZINA | Vigente |
+| 20080268 | CARBAVEN 200 | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | DACARBAZINA | Temp. no comerc - Vigente |
+| 20194844 | TREXTECH® 200 MG POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCIÓN INYECTABLE | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | DACARBAZINA | Temp. no comerc - Vigente |
+
+Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 
@@ -150,13 +156,7 @@ La predicción se basa solo en el modelo (L4), sin ensayos clínicos y con liter
 - Completar el mecanismo de acción desde DrugBank.
 - Definir las histologías específicas del tracto aerodigestivo superior donde dacarbazina podría ser relevante (p. ej., melanoma mucoso).
 - Buscar estudios clínicos directos en esta población.
-- Aclarar la viabilidad regulatoria y comercial, dado que el medicamento está comercializado y cuenta con 4 licencias vigentes.
-
-<!-- review:begin co-lic-20261112-dacarbazine-1 -->
-
-> **Corrección de revisión (2026-11-12)**: Texto original: "6 licencias vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 6 registros sanitarios, de los cuales 4 vigentes y 1 vigentes pero temporalmente no comercializados; 1 perdieron fuerza ejecutoria o fueron cancelados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261112-dacarbazine-1 -->
+- Aclarar la viabilidad regulatoria y comercial, dado que el medicamento está comercializado y cuenta con 3 licencias vigentes.
 
 <!-- review:begin log -->
 
@@ -168,7 +168,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los seis registros sanitarios están cancelados; actualmente no hay productos vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "no hay registros vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 6 → 4 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 6 → 4 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL476 (dacarbazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL476) |
 
 <!-- review:end log -->

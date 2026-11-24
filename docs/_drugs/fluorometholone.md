@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "fluorometholone"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "infective urethral stricture", "post-infectious syndrome", "punctate epithelial keratoconjunctivitis", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy", "glaucomatocyclitic crisis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluorometholone: nueva indicación predicha, Vasculitis postinfecciosa (postinfectious vasculitis) (nivel de evidencia L5). Indicación original: FLUOROMETOLONA"
 ---
 
@@ -72,11 +72,17 @@ Actualmente no hay literatura relacionada disponible para vasculitis postinfecci
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19959732 | FLUOFTAL ® 0.1 % SUSPENSION OFTALMICA. | Suspensión oftálmica | FLUOROMETOLONA |
-| 20050754 | FLU-SURE T® SUSPENSIÓN OFTÁLMICA | Suspensión oftálmica | TETRIZOLINA COMBINACIONES |
-| 20058411 | FLUOMAX® SUSPENSIÓN OFTÁLMICA | Suspensión oftálmica | FLUOROMETOLONA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19959732 | FLUOFTAL ® 0.1 % SUSPENSION OFTALMICA. | SUSPENSION OFTALMICA | FLUOROMETOLONA | Vigente |
+| 20050754 | FLU-SURE T® SUSPENSIÓN OFTÁLMICA | SUSPENSION OFTALMICA | TETRIZOLINA COMBINACIONES | Vigente |
+| 20058411 | FLUOMAX® SUSPENSIÓN OFTÁLMICA | SUSPENSION OFTALMICA | FLUOROMETOLONA | Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -79,9 +79,15 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20063700 | EPIRUBICINA 50 MG (Blau Farmacéutica Colombia S.A.S.) | Polvo liofilizado para reconstituir a solución inyectable | EPIRRUBICINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20063700 | EPIRUBICINA 50 MG | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | EPIRRUBICINA | Vencido |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

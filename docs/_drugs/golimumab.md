@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "GOLIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Golimumab: nueva indicación predicha, Hipermovilidad del coxis (hypermobility of coccyx) (nivel de evidencia L5). Indicación original: GOLIMUMAB"
 ---
 
@@ -72,9 +72,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20018951 | SIMPONI® SOLUCIÓN INYECTABLE 50MG | Solución inyectable | No se registra texto de indicación aprobada en los datos locales |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20018951 | SIMPONI® SOLUCIÓN INYECTABLE 50MG | SOLUCION INYECTABLE | GOLIMUMAB | Vigente |
+| 20069677 | SIMPONI® IV | SOLUCION INYECTABLE | GOLIMUMAB | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 La lista de registros puede ser parcial.
 

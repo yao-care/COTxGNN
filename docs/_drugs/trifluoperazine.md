@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 645
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Trifluoperazine: nueva indicación predicha, Trastorno bipolar afectivo maníaco (nivel de evidencia L5). Indicación original: AMITRIPTILINA Y SICOLEPTICOS"
 monitor_inn: "trifluoperazine"
 predicted_indications: ["manic bipolar affective disorder"]
@@ -101,10 +101,16 @@ Se listan las publicaciones más relevantes con resumen disponible (prioridad: r
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 29529 | CUAIT - D COMPRIMIDOS. | Comprimido | AMITRIPTILINA Y SICOLEPTICOS |
-| 44895 | MODIUR® 1 MG | Comprimido | TRIFLUOPERAZINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 29529 | CUAIT - D COMPRIMIDOS. | COMPRIMIDO | AMITRIPTILINA Y SICOLEPTICOS | Vigente |
+| 44895 | MODIUR® 1 MG | COMPRIMIDO | TRIFLUOPERAZINA | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 Ambos registros pertenecen a Laboratorios Bagó de Colombia S.A.S.
 

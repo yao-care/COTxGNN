@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 184
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cyclopentolate: nueva indicación predicha, Síndrome de la cola de caballo (nivel de evidencia L5). Indicación original: Ciclopentolato"
 monitor_inn: "cyclopentolate"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
@@ -75,10 +75,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19954096 | CYCLOGYL 1%® SOLUCION OFTALMICA ESTERIL (Alcon Laboratorios Inc) – Vigente | Solución oftálmica | CICLOPENTOLATO |
-| 37468 | CICLOPENTOLATO CLORHIDRATO 1% (Oftalmoquímica S.A.) – Vigente | Solución oftálmica | CICLOPENTOLATO |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19954096 | CYCLOGYL 1%® SOLUCION OFTALMICA ESTERIL | SOLUCION OFTALMICA | CICLOPENTOLATO | Vigente |
+| 37468 | CICLOPENTOLATO CLORHIDRATO 1% | SOLUCION OFTALMICA | CICLOPENTOLATO | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

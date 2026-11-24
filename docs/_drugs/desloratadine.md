@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Desloratadine"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Desloratadine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L5). Indicación original: DESLORATADINA"
 ---
 
@@ -76,13 +76,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Los datos compilados muestran 7 registros sanitarios de desloratadina como único principio activo, en forma de tableta recubierta y jarabe. La lista puede ser parcial.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 20196512 | SINNALLER® | Tableta recubierta |
-| 20106242 | HISTALINE | Tableta recubierta |
-| 20075867 | RINILORAN® JARABE | Jarabe |
-| 20137626 | NEWTARPAN® tableta cubierta 5 mg | Tableta recubierta |
-| 20262256 | DESLORIX 50 mg/100 ml jarabe | Jarabe |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19920537 | AERIUS® TABLETAS | TABLETA RECUBIERTA | DESLORATADINA | Vigente |
+| 19922943 | DESALEX TABLETAS. | TABLETA RECUBIERTA | DESLORATADINA | Vigente |
+| 19929010 | DESLORAN® TABLETAS RECUBIERTAS 5 MG | TABLETA RECUBIERTA | DESLORATADINA | Vigente |
+| 19930372 | DESALEX ® JARABE | JARABE | DESLORATADINA | Vigente |
+| 19934761 | DESLORAN® JARABE | JARABE | DESLORATADINA | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 426
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Melphalan: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L5). Indicación original: Melphalan"
 monitor_inn: "melphalan"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
@@ -96,13 +96,19 @@ Una limitación importante: la evidencia proviene de regímenes combinados a dos
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20167599 | Melfalán 50 mg | Polvo liofilizado para reconstituir a solución inyectable | MELPHALAN | Vigente |
-| 20269433 | Melfalán para inyección 50 mg/vial | Polvo liofilizado | MELPHALAN | Vigente |
-| 218558 | Alkeran® inyectable | Polvo liofilizado para reconstituir a solución inyectable | MELPHALAN | Vigente |
-| 46265 | Alkeran® 2 mg tabletas | Tableta cubierta con película | MELPHALAN | Vigente |
-| 20161853 | Nozomi® 50 mg | Polvo liofilizado para reconstituir a solución inyectable | MELPHALAN | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20161853 | NOZOMI ® 50 MG | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | MELPHALAN | Vigente |
+| 20167599 | MELFALAN 50 MG POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | MELPHALAN | Vigente |
+| 20176265 | MYELKILAN® 50MG POLVO PARA INYECCIÓN | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | MELPHALAN | Vigente |
+| 20197131 | MELFASEVEN® 50MG POLVO LIOFILIZADO PARA INYECCIÓN | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | MELPHALAN | Vigente |
+| 20269433 | MELFALÁNPARA INYECCIÓN POLVO 50 MG/VIAL LIOFILIZADO PARA INYECCIÓN | POLVO LIOFILIZADO | MELPHALAN | Vigente |
+
+Se muestran 5 de 7 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

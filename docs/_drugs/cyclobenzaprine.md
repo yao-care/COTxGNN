@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 183
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Cyclobenzaprine: nueva indicación predicha, Síndrome de dolor miofascial (nivel de evidencia L2). Indicación original: Ciclobenzaprina"
 monitor_inn: "cyclobenzaprine"
 predicted_indications: ["myofascial pain syndrome", "neuralgia", "papillary conjunctivitis"]
@@ -89,10 +89,19 @@ Esta relación está respaldada por ensayos aleatorizados: uno en distensión mi
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20073630 | DOLORO® | Tableta recubierta | Ciclobenzaprina (vigente) |
-| 20190464 | BENRELAX Cápsula Blanda | Cápsula blanda | Ciclobenzaprina clorhidrato + clonixinato de lisina (vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19908244 | DORIXINA® RELAX COMPRIMIDOS RECUBIERTOS | TABLETA RECUBIERTA | CICLOBENZAPRINA CLORHIDRATO + CLONIXINATO DE LISINA | Vigente |
+| 20044427 | MITRUL® 15 MG | CAPSULA DE LIBERACION PROLONGADA | CICLOBENZAPRINA | Vigente |
+| 20073629 | DOLORO® | TABLETA RECUBIERTA | CICLOBENZAPRINA | Vigente |
+| 20073630 | DOLORO® | TABLETA RECUBIERTA | CICLOBENZAPRINA | Vigente |
+| 20092573 | CICLOBENZAPRINA CLORHIDRATO 5 MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | CICLOBENZAPRINA | Vigente |
+
+Se muestran 5 de 11 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

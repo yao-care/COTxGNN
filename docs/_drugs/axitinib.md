@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 4
 monitor_inn: "AXITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Axitinib: nueva indicación predicha, liposarcoma (nivel de evidencia L4). Indicación original: AXITINIB"
 ---
 
@@ -74,10 +74,17 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20210813 | GLENMARK AXZYB® 5 MG TABLETAS RECUBIERTAS | Tableta recubierta | No registrada en los datos locales |
-| 20056375 | INLYTA® 1 MG TABLETA RECUBIERTA | Tableta recubierta | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20050749 | INLYTA ® 5MG TABLETAS RECUBIERTAS | TABLETA CUBIERTA CON PELICULA | AXITINIB | Vigente |
+| 20056375 | INLYTA ® 1 MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | AXITINIB | Vigente |
+| 20210813 | GLENMARK AXZYB®5 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | AXITINIB | Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 La lista de registros puede ser parcial.
 

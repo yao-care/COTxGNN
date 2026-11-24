@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 121
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Buprenorphine: nueva indicación predicha, Porfiria aguda intermitente (nivel de evidencia L4). Indicación original: Buprenorfina"
 monitor_inn: "Buprenorphine"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease"]
@@ -73,10 +73,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 19967654 | TRANSTEC® 70 MCG/H | Solución para uso transdérmico (parche) | BUPRENORFINA | Vigente |
-| 19967651 | TRANSTEC® 35 MCG/H | Solución para uso transdérmico (parche) | BUPRENORFINA | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19967651 | TRANSTEC® 35 MCG/ H | SOLUCION PARA USO TRANSDERMICO(PARCHE) | BUPRENORFINA | Vigente |
+| 19967652 | TRANSTEC® 52.5 MCG/H | SOLUCION PARA USO TRANSDERMICO(PARCHE) | BUPRENORFINA | Vigente |
+| 19967654 | TRANSTEC® 70 MCG / H | SOLUCION PARA USO TRANSDERMICO(PARCHE) | BUPRENORFINA | Vigente |
+| 20076277 | NORSPAN® 7 (20MCG/H) | SOLUCION PARA USO TRANSDERMICO(PARCHE) | BUPRENORFINA | Vigente |
+| 20081185 | NORSPAN® 7(10MCG/H) | SOLUCION PARA USO TRANSDERMICO(PARCHE) | BUPRENORFINA | Vigente |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

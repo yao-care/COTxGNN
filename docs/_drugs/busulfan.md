@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 123
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Busulfan: nueva indicación predicha, Síndrome mielodisplásico (nivel de evidencia L1). Indicación original: No especificada en los registros"
 monitor_inn: "BUSULFAN"
 predicted_indications: ["myelodysplastic syndrome", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "seborrheic keratosis", "feline acquired immunodeficiency syndrome"]
@@ -111,12 +111,18 @@ Se muestran los ensayos más relevantes (de un total superior a 40 registrados p
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20158009 | Busulfan solución inyectable 60 mg/10 mL | Solución inyectable | BUSULFAN (vigente) |
-| 20254653 | Busadvan | Solución inyectable | BUSULFAN (vigente) |
-| 20152745 | Alsulfan® | Solución concentrada para infusión | BUSULFAN (vigente) |
-| 20205961 | Buslera® | Solución inyectable | BUSULFAN (vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20152745 | ALSULFAN® | SOLUCIÓN CONCENTRADA PARA INFUSIÓN | BUSULFAN | Vigente |
+| 20158009 | BUSULFAN SOLUCIÓN INYECTABLE 60 MG/10 ML | SOLUCION INYECTABLE | BUSULFAN | Vigente |
+| 20205961 | BUSLERA® | SOLUCION INYECTABLE | BUSULFAN | Vigente |
+| 20254653 | BUSADVAN | SOLUCION INYECTABLE | BUSULFAN | Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

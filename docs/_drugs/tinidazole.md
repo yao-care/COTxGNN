@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 627
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tinidazole: nueva indicación predicha, Vaginitis atrófica posmenopáusica (nivel de evidencia L5). Indicación original: Tinidazol"
 monitor_inn: "Tinidazole"
 predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "breast fibrocystic disease", "AIDS", "apocrine adenosis of breast", "blunt duct adenosis of breast", "AIDS related complex", "congenital human immunodeficiency virus", "benign mammary dysplasia"]
@@ -87,12 +87,19 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 35988 | Tinidazol tabletas recubiertas 500 mg (Genfar S.A.) | Tableta recubierta | Tinidazol |
-| 53078 | Tinidazol 1 g (Memphis Products S.A.) | Tableta recubierta | Tinidazol |
-| 20046882 | Soloplus óvulos (Procaps S.A.) | Óvulo | Combinaciones de imidazol derivados |
-| 19961239 | Zoltifar 500 mg (Farmacoop) | Tableta recubierta | Tinidazol |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 1980027 | TINIDAZOL 500 MG | TABLETA CUBIERTA CON PELICULA | TINIDAZOL | Vigente |
+| 19961239 | ZOLTIFAR ®500 MG | TABLETA RECUBIERTA | TINIDAZOL | Vigente |
+| 19961241 | TINIDAZOL 500 MG TABLETA RECUBIERTA | TABLETA | TINIDAZOL | Vigente |
+| 19973784 | MEMBITROL SUSPENSION | SUSPENSION ORAL | TINIDAZOL | Vigente |
+| 19987527 | MEMBITROL®1 G TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | TINIDAZOL | Vigente |
+
+Se muestran 5 de 15 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 
@@ -128,12 +135,6 @@ La predicción no tiene respaldo clínico ni bibliográfico (nivel L5), y el mec
 - Aclarar la situación regulatoria, dado que el medicamento está comercializado y cuenta con 12 licencias vigentes.
 - Evaluar candidatas alternativas del mismo análisis. Por ejemplo, la predicción para SIDA tiene algo más de respaldo indirecto, como el tratamiento de coinfecciones y un ensayo de microbioma, aunque sigue siendo un enfoque de soporte y no un tratamiento de la enfermedad.
 
-<!-- review:begin co-lic-20261112-tinidazole-1 -->
-
-> **Corrección de revisión (2026-11-12)**: Texto original: "4 licencias vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 15 registros sanitarios, de los cuales 12 vigentes y 3 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261112-tinidazole-1 -->
-
 <!-- review:begin log -->
 
 ## Registro de revisión
@@ -143,7 +144,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los cuatro registros sanitarios están **cancelados**; actualmente no hay productos de tinidazol vigentes en el país según los datos compilad" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 4 → 12 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 4 → 12 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tindazole (tinidazole) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45fa3ebd-52da-4987-82a1-4a64f99785a7) |
 
 <!-- review:end log -->

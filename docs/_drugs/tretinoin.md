@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 643
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tretinoin: nueva indicación predicha, Nódulos reumatoides (rheumatoid nodulosis) (nivel de evidencia L5). Indicación original: Tretinoína en combinaciones"
 monitor_inn: "Tretinoin"
 predicted_indications: ["rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "juvenile idiopathic arthritis", "juvenile chronic polyarthritis", "juvenile arthritis due to defect in LACC1", "osteoarthritis", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "Quinquaud's folliculitis decalvans"]
@@ -81,11 +81,17 @@ Actualmente no hay literatura relacionada disponible para nódulos reumatoides.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 19950832 | Folister Hair Lotion | Solución tópica | Tetrinoína, combinaciones | Vigente |
-| 27207 | Vesanoid® 10 mg | Cápsula blanda | Tretinoína | Vigente |
-| 19931579 | Tri-Luma® Crema | Crema tópica | Combinaciones de corticosteroides | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19931579 | TRI-LUMA® CREMA | CREMA TOPICA | COMBINACIONES DE CORTICOSTEROIDES | Vigente |
+| 19950832 | FOLISTER HAIR LOTION | SOLUCION TOPICA | TETRINOINA COMBINACIONES | Vigente |
+| 27207 | VESANOID® 10 MG. | CAPSULA BLANDA | TRETINOIN | Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

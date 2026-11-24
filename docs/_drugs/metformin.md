@@ -90,9 +90,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20235551 | WILMETINA 500 MG TABLETAS RECUBIERTAS | Tableta recubierta | METFORMINA | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19924741 | GLUCOVANCE 500/2.5 MG TABLETAS | TABLETA CUBIERTA CON PELICULA | METFORMINA Y SULFONILUREAS | Vigente |
+| 19936956 | METFORMINA CLORHIDRATO TABLETAS 850 MG | TABLETA RECUBIERTA | METFORMINA | Vigente |
+| 19941292 | GLUCOPHAGE ® XR TABLETA DE LIBERACION PROLONGADA | TABLETA DE LIBERACION PROLONGADA | METFORMINA | Vigente |
+| 19944665 | METFORMINA CLORHIDRATO 850 MG | TABLETA RECUBIERTA | METFORMINA | Vigente |
+| 19977388 | AMARYL® M 2 MG/500 MG COMPRIMIDOS | TABLETA CUBIERTA CON PELICULA | METFORMINA Y SULFONILUREAS | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 366
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ketoconazole: nueva indicación predicha, Acné (nivel de evidencia L4). Indicación original: Ketoconazol"
 monitor_inn: "ketoconazole"
 predicted_indications: ["acne (disease)"]
@@ -102,11 +102,19 @@ La mayoría de estas publicaciones aportan respaldo indirecto (mecanismo, contex
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 24579 | KETOCONAZOL 200 MG TABLETAS | Tableta | Ketoconazol |
-| 20153361 | CHAMPÚ KETONOVA | Emulsión (champú) | Ketoconazol |
-| 19999481 | BEXON DUO® CÁPSULAS BLANDAS VAGINALES | Cápsula blanda | Clindamicina combinaciones |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19900428 | DERMATREX® CREMA | CREMA TOPICA | DEXAMETASONA Y ANTIBIOTICOS | Vigente |
+| 19902578 | SHAMPOO CON KETOCONAZOL 1 % | EMULSION (CHAMPOO) | KETOCONAZOL | Vigente |
+| 19918847 | KETOCONAZOL TABLETAS 200 MG | TABLETA | KETOCONAZOL | Vigente |
+| 19931135 | KETOMED® CHAMPU | EMULSION (CHAMPOO) | KETOCONAZOL | Vigente |
+| 19937307 | KETOCONAZOLCREMA | CREMA TOPICA | KETOCONAZOL | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

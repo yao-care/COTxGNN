@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 285
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Filgrastim: nueva indicación predicha, Trastorno primario de liberación plaquetaria (nivel de evidencia L5). Indicación original: FILGRASTIM"
 monitor_inn: "FILGRASTIM"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder"]
@@ -83,9 +83,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20002046 | FILGRASTIM 300 MCG/ML SOLUCIÓN INYECTABLE (MEGALABS COLOMBIA S.A.S) | Solución inyectable | FILGRASTIM |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20002046 | FILGRASTIM 300 MCG/ML SOLUCIÓN INYECTABLE | SOLUCION INYECTABLE | FILGRASTIM | Vigente |
+| 214314 | BIOFIGRAN 300 µG | SOLUCION INYECTABLE | FILGRASTIM | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

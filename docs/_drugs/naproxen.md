@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 461
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Naproxen: nueva indicación predicha, Síndrome de braquidactilia-sindactilia (nivel de evidencia L5). Indicación original: Combinaciones de tiocolchicósido"
 monitor_inn: "Naproxen"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
@@ -77,11 +77,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20240091 | MIDOL ® (vigente) | Tableta recubierta | Combinaciones de tiocolchicósido |
-| 20210473 | RELAFEN® Tabletas Recubiertas (vigente) | Tableta recubierta | Tiocolchicósida |
-| 20024731 | DURAFLEX ® 500MG (vigente) | Cápsula blanda | Naproxeno |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 17145 | NAPROXENO250 MG COMPRIMIDOS | TABLETA | NAPROXENO | Vigente |
+| 19904176 | NAPROXENO SODICO 550 MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | NAPROXENO | Vigente |
+| 19915081 | LUMBAL® TABLETA RECUBIERTA | TABLETA RECUBIERTA | CAFEINA | Vigente |
+| 19929252 | NAPROXENO 500 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | NAPROXENO | Vigente |
+| 19939580 | NAPROXENO 125 MG/5ML POLVO PARA SUSPENSION | POLVO PARA RECONSTITUIR A SOLUCION ORAL | NAPROXENO | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

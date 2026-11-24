@@ -79,11 +79,19 @@ El estado de mercado es comercializado, con al menos 19 registros sanitarios vig
 
 <!-- review:end co-lic-20261112-dexamethasone-1 -->
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20174553 | OFTALMAX® | Solución oftálmica | Dexametasona y antiinfecciosos (vigente) |
-| 20004823 | FIXAMICIN DEXACIPRO GOTAS OTICAS | Suspensión ótica | Dexametasona y antiinfecciosos (vigente) |
-| 20235748 | TOBRAMISOL D® | Suspensión oftálmica | Dexametasona y antiinfecciosos (vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19900428 | DERMATREX® CREMA | CREMA TOPICA | DEXAMETASONA Y ANTIBIOTICOS | Vigente |
+| 19929503 | TOBRACORT 0.3% | SUSPENSION OFTALMICA | DEXAMETASONA Y ANTIINFECCIOSOS | Vigente |
+| 19933628 | DEXAMETASONA INYECTABLE 4 MG / ML | SOLUCION INYECTABLE | DEXAMETASONA | Vigente |
+| 19934762 | DEXAMETASONA FOSFATO INYECTABLE 8 MG / 2ML | SOLUCION INYECTABLE | DEXAMETASONA | Vigente |
+| 19951944 | POLIOFTAL® SOLUCION OFTALMICA | SOLUCION OFTALMICA | ANTIBIOTICOS EN COMBINACION CON OTROS F RMACOS | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

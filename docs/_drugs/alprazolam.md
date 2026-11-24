@@ -80,12 +80,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 41269 | XANAX ® 1.0 MG TABLETAS | Tableta | Alprazolam |
-| 227600 | ALPRAZOLAM 0.5 MG TABLETAS | Tableta | Alprazolam |
-| 13874 | XANAX 0.25 MG TABLETAS | Tableta | Alprazolam |
-| 19928029 | XANAX ® 0.5 MG TABLETAS | Tableta | Alprazolam |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19928029 | XANAX ® 0.5 MG TABLETAS | TABLETA | ALPRAZOLAM | Vigente |
+| 20060224 | XANAX ®GOTAS | SOLUCION ORAL | ALPRAZOLAM | Vigente |
+| 227600 | ALPRAZOLAM 0.5 MG TABLETAS | TABLETA | ALPRAZOLAM | Vigente |
+| 41269 | XANAX ® 1.0 MG TABLETAS | TABLETA | ALPRAZOLAM | Vigente |
+| 13874 | XANAX 0.25 MG TABLETAS | TABLETA | ALPRAZOLAM | Temp. no comerc - Vigente |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 La lista de registros puede ser parcial.
 

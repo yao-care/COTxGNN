@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 455
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Moroctocog Alfa: nueva indicación predicha, Trastorno primario de liberación plaquetaria (nivel de evidencia L5). Indicación original: Coagulación factores VIII"
 monitor_inn: "MOROCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
@@ -81,12 +81,18 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20046519 | XYNTHA® 2000 UI | Polvo liofilizado para reconstituir a solución inyectable | Coagulación factores VIII | Vigente |
-| 20005016 | XYNTHA® 500 UI | Polvo liofilizado para reconstituir a solución inyectable | Coagulación factores VIII | Vigente |
-| 20046518 | XYNTHA® 1000 UI | Polvo liofilizado para reconstituir a solución inyectable | Coagulación factores VIII | Vigente |
-| 20005015 | XYNTHA® 250 UI | Polvo liofilizado para reconstituir a solución inyectable | Coagulación factores VIII | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20005015 | XYNTHA® 250 UI POLVO LIOFILIZADO PARA SOLUCION INYECTABLE | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | COAGULACION FACTORES VIII | Vigente |
+| 20005016 | XYNTHA ® 500 UI POLVO LIOFILIZADO PARA SOLUCIÓN INYECTABLE | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | COAGULACION FACTORES VIII | Vigente |
+| 20046518 | XYNTHA ® 1000 UI POLVO LIOFILIZADO PARA SOLUCION INYECTABLE | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | COAGULACION FACTORES VIII | Vigente |
+| 20046519 | XYNTHA® 2000 UI | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | COAGULACION FACTORES VIII | Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 Todos los registros pertenecen a PFIZER S.A.S.
 

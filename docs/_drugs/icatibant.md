@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "icatibant"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Icatibant: nueva indicación predicha, Serpinopatía con polimerización tóxica de serpinas (serpinopathy with toxic serpin polymerization) (nivel de evidencia L5). Indicación original: ICATIBANT"
 ---
 
@@ -74,10 +74,18 @@ Actualmente no hay literatura relacionada disponible.
 
 Los datos de registros pueden ser parciales. Todos los registros listados están vigentes.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20019909 | FIRAZYR® | Solución inyectable | ICATIBANT |
-| 20245779 | SYTREHA® | Solución inyectable | ICATIBANT |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20019909 | FIRAZYR® | SOLUCION INYECTABLE | ICATIBANT | Vigente |
+| 20179155 | EXABANT® | SOLUCION INYECTABLE | ICATIBANT | Vigente |
+| 20207652 | WILLOBANT® | SOLUCION INYECTABLE | ICATIBANT | Vigente |
+| 20245779 | SYTREHA® | SOLUCION INYECTABLE | ICATIBANT | Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

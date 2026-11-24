@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Fenofibrate"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Fenofibrate: nueva indicación predicha, Deficiencia de la proteína de transferencia de ésteres de colesterol (nivel de evidencia L5). Indicación original: PRAVASTATINA Y FENOFIBRATO"
 ---
 
@@ -75,9 +75,17 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20114242 | PRAVAFEN® CÁPSULAS | Cápsula dura | PRAVASTATINA Y FENOFIBRATO |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20024180 | NORTRICOL 200 CAPSULAS | CAPSULA DURA | FENOFIBRATO | Vigente |
+| 20057142 | FENOLIP® 200 MG CAPSULA | CAPSULA DURA | FENOFIBRATO | Vigente |
+| 20114242 | PRAVAFEN® CAPSULAS | CAPSULA DURA | PRAVASTATINA Y FENOFIBRATO | Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 La lista puede ser parcial. Este producto es una combinación; su licencia no describe cómo está aprobado el fenofibrato como principio activo único.
 

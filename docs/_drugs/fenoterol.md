@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 280
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Fenoterol: nueva indicación predicha, Atrofia multisistémica (nivel de evidencia L5). Indicación original: Fenoterol + bromuro de ipratropio"
 monitor_inn: "fenoterol"
 predicted_indications: ["multiple system atrophy", "postural orthostatic tachycardia syndrome", "variably protease-sensitive prionopathy", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "sinoatrial block", "sinoatrial node disease"]
@@ -83,11 +83,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 19931241 | BERODUAL® HFA | Solución para inhalación | Fenoterol + bromuro de ipratropio | Vigente |
-| 54889 | BERODUAL® SOLUCION | Solución para inhalación | Fenoterol + bromuro de ipratropio | Vigente |
-| 19952369 | PULBRONC NF NIÑOS | Jarabe | Fenoterol y otros fármacos para enfermedad obstructiva de la vía aérea | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19931241 | BERODUAL® HFA | SOLUCION PARA INHALACION | FENOTEROL +BROMURO DE IPRATROPIO | Vigente |
+| 19952369 | PULBRONC NFNIÑOS | JARABE | FENOTEROL Y OTROS FARMACOS PARA ENFERMEDAD OBSTRUCTIVA DE LA VIA AEREA | Vigente |
+| 54889 | BERODUAL® SOLUCION. | SOLUCION PARA INHALACION | FENOTEROL +BROMURO DE IPRATROPIO | Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

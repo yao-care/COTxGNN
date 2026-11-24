@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 169
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clofazimine: nueva indicación predicha, Neumocistosis (nivel de evidencia L5). Indicación original: CLOFAZIMINA"
 monitor_inn: "Clofazimine"
 predicted_indications: ["pneumocystosis", "malaria", "gastrin secretion abnormality"]
@@ -86,9 +86,15 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20274960 | CLOFZIMIN® 100 MG | Tableta recubierta | CLOFAZIMINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20274960 | CLOFZIMIN® 100 MG | TABLETA RECUBIERTA | CLOFAZIMINA | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

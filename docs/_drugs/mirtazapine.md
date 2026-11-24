@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 449
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mirtazapine: nueva indicación predicha, Síndrome de Ohdo y variantes (nivel de evidencia L5). Indicación original: Mirtazapina"
 monitor_inn: "Mirtazapine"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
@@ -83,12 +83,19 @@ Cualquier uso sintomático (por ejemplo, para el sueño, el apetito o el estado 
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20165068 | AUROZAPINE OD 30 MG TABLETAS ORODISPERSABLES | Tableta orodispersable | MIRTAZAPINA | Vigente |
-| 19928993 | MIRTAPAX ® | Tableta recubierta | MIRTAZAPINA | Vigente |
-| 20165061 | AUROZAPINE OD 15 MG TABLETAS ORODISPERSABLES | Tableta orodispersable | MIRTAZAPINA | Temp. no comerc - Vigente |
-| 20090945 | EPILFARMO 30 MG | Tableta recubierta | MIRTAZAPINA | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19928993 | MIRTAPAX ® | TABLETA RECUBIERTA | MIRTAZAPINA | Vigente |
+| 19955888 | TAZEPIN® 30 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | MIRTAZAPINA | Vigente |
+| 19974935 | MIRTAZAPINA 30 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | MIRTAZAPINA | Vigente |
+| 20052424 | MIRTAZAPINA HUMAX® TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | MIRTAZAPINA | Vigente |
+| 20084048 | MIRTAZAPINA 15 MG | TABLETA | MIRTAZAPINA | Vigente |
+
+Se muestran 5 de 9 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

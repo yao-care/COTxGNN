@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 212
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Dexlansoprazole: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L5). Indicación original: DEXLANSOPRAZOL"
 monitor_inn: "dexlansoprazole"
 predicted_indications: ["gastroduodenitis", "duodenal obstruction", "achlorhydria", "leather-bottle stomach"]
@@ -88,10 +88,19 @@ Sin embargo, los ensayos de Fase 3 disponibles evaluaron esofagitis erosiva, no 
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20201891 | DEXLANZOPRAL 60 DR | Cápsula dura | DEXLANSOPRAZOL |
-| 20224127 | LANSODEX® 60 MG CÁPSULAS DE LIBERACIÓN RETARDADA | Cápsula con cubierta entérica | DEXLANSOPRAZOL |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20200240 | DEXLANZOPRAL 30 DR | CAPSULA CON CUBIERTA ENTERICA | DEXLANSOPRAZOL | Vigente |
+| 20201891 | DEXLANZOPRAL 60 DR | CAPSULA DURA | DEXLANSOPRAZOL | Vigente |
+| 20224127 | LANSODEX® 60 MG CAPSULAS DE LIBERACIÓN RETARDADA | CAPSULA CON CUBIERTA ENTERICA | DEXLANSOPRAZOL | Vigente |
+| 20050924 | DEXILANT® 30MG | CAPSULA DE LIBERACION PROLONGADA | LANSOPRAZOL | Vigente |
+| 20230505 | XANPRAZOL® 30 MG CÁPSULAS DE LIBERACIÓN RETARDADA | CAPSULA DURA | DEXLANSOPRAZOL | Vigente |
+
+Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

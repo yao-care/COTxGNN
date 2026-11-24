@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 4
 monitor_inn: "OFATUMUMAB"
 predicted_indications: ["follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma", "Langerhans cell histiocytosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ofatumumab: nueva indicación predicha, Linfoma folicular (nivel de evidencia L1). Indicación original: No especificada en el registro (el texto solo indica \"OFATUMUMAB\")"
 ---
 
@@ -97,9 +97,15 @@ La relación con la indicación local no puede evaluarse con precisión, porque 
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20190663 | KESIMPTA | Solución inyectable | OFATUMUMAB (el registro no detalla la indicación) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20190663 | KESIMPTA | SOLUCION INYECTABLE | OFATUMUMAB | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

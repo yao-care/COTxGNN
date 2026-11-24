@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 484
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
 description: "Omalizumab: nueva indicación predicha, bronquitis (bronchitis) (nivel de evidencia L5). Indicación original: OMALIZUMAB"
@@ -82,9 +82,16 @@ Por tanto, la predicción es mecanísticamente plausible solo en subgrupos con i
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20104049 | XOLAIR® SOLUCIÓN INYECTABLE | Solución inyectable | OMALIZUMAB |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20094435 | XOLAIR ® SOLUCIÓN INYECTABLE 75MG /0.5ML | SOLUCION INYECTABLE | OMALIZUMAB | Vigente |
+| 20104049 | XOLAIR ® SOLUCIÓN INYECTABLE | SOLUCION INYECTABLE | OMALIZUMAB | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 La lista de registros puede ser parcial.
 

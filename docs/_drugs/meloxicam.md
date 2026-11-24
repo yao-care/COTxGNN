@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 425
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Meloxicam: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (nivel de evidencia L5). Indicación original: Meloxicam"
 monitor_inn: "MELOXICAM"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -89,11 +89,19 @@ Actualmente no hay literatura relacionada disponible para la indicación princip
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 19986264 | MEPROGAL 15MG TABLETA | Tableta | MELOXICAM | Vigente |
-| 227880 | ARTRICLOX 15 MG TABLETAS | Tableta | MELOXICAM | Cancelado |
-| 53916 | MELCOX 7.5 MG TABLETAS | Tableta | MELOXICAM | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19906196 | MELOXICAM15 MG TABLETAS | TABLETA | MELOXICAM | Vigente |
+| 19907425 | MELOXICAM7.5 MG TABLETAS. | TABLETA | MELOXICAM | Vigente |
+| 19907426 | MELOXICAM 15 MG TABLETAS. | TABLETA | MELOXICAM | Vigente |
+| 19924074 | FLEXOL SOLUCION INYECTABLE 15 MG / 1.5 ML | SOLUCION INYECTABLE | MELOXICAM | Vigente |
+| 19941485 | BIENEX INY® | SOLUCION INYECTABLE | MELOXICAM | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

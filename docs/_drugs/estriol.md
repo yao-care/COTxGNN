@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 264
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Estriol: nueva indicación predicha, Amenorrea (nivel de evidencia L3). Indicación original: ESTRIOL"
 monitor_inn: "ESTRIOL"
 predicted_indications: ["amenorrhea (disease)"]
@@ -88,10 +88,16 @@ Esta hipótesis se apoya en un estudio de 2012 sobre la administración de estri
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20007729 | ESTEINE® óvulo vaginal de liberación sostenida (vigente) | Óvulo | ESTRIOL |
-| 55341 | OVESTIN® óvulos vaginales (vigente) | Óvulo | ESTRIOL |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20007729 | ESTEINE®OVULO VAGINAL DE LIBERACION SOSTENIDA | OVULO | ESTRIOL | Vigente |
+| 55341 | OVESTIN® OVULOS VAGINALES | OVULO | ESTRIOL | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

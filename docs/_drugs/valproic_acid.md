@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 652
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Valproic Acid: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: Ácido valproico"
 monitor_inn: "valproic acid"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
@@ -82,10 +82,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Informacion de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmaceutica | Indicacion Aprobada |
-|---------|------|------|-----------|
-| 40284 | DEPAKENE® JARABE | Jarabe | Ácido valproico (sin indicación detallada) |
-| 20016549 | FERBIN® C.L. 250 MG CAPSULA | Cápsula dura | Ácido valproico (sin indicación detallada) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19955370 | FERBIN ® JARABE | JARABE | VALPROICO ACIDO | Vigente |
+| 20016549 | FERBIN® C.L. 250 MG CAPSULA | CAPSULA DURA | VALPROICO ACIDO | Vigente |
+| 40284 | DEPAKENE® JARABE | JARABE | VALPROICO ACIDO | Vigente |
+| 40407 | DEPAKENE® CAPSULAS | CAPSULA BLANDA | VALPROICO ACIDO | Vigente |
+| 47792 | FERBIN CAPSULA BLANDA | CAPSULA BLANDA | VALPROICO ACIDO | Vigente |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

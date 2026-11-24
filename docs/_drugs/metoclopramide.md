@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 438
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Metoclopramide: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \"METOCL…"
 monitor_inn: "metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
@@ -100,12 +100,19 @@ Nota: la literatura recuperada consiste sobre todo en revisiones antiguas sobre 
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19955371 | METOCLOPRAMIDA 10 MG TABLETAS | Tableta | METOCLOPRAMIDA (vigente) |
-| 19956364 | ENZIMAR GOTAS PEDIATRICAS | Solución oral | METOCLOPRAMIDA (vigente) |
-| 19941418 | METOCLOPRAMIDA10 MG | Tableta | METOCLOPRAMIDA (vigente) |
-| 19927476 | PLASIL® INYECTABLE | Solución inyectable | METOCLOPRAMIDA (vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 1980019 | METOCLOPRAMIDA 10 MG TABLETAS | TABLETA | METOCLOPRAMIDA | Vigente |
+| 19909576 | METOCLOPRAMIDA 10 MG TABLETAS | TABLETA | METOCLOPRAMIDA | Vigente |
+| 19927476 | PLASIL® INYECTABLE | SOLUCION INYECTABLE | METOCLOPRAMIDA | Vigente |
+| 19930423 | METOCLOPRAMIDA 4 MG / ML GOTAS | SOLUCION ORAL | METOCLOPRAMIDA | Vigente |
+| 19933831 | METOCLOPRAMIDA 4 MG/ML GOTAS | SOLUCION ORAL | METOCLOPRAMIDA | Vigente |
+
+Se muestran 5 de 16 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

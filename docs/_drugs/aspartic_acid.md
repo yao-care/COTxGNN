@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 69
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Aspartic Acid: nueva indicación predicha, Acidosis tubular renal (nivel de evidencia L5). Indicación original: Aminoácidos"
 monitor_inn: "aspartic acid"
 predicted_indications: ["renal tubular acidosis"]
@@ -88,9 +88,19 @@ Ninguna de estas publicaciones evalúa el ácido aspártico como tratamiento de 
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20086182 | AMINOPLASMAL® 10% E | Solución inyectable | Aminoácidos |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19908160 | TRAVASOL PLUS 15% LIBRE DE BISULFITO | SOLUCION INYECTABLE | AMINOACIDOS | Vigente |
+| 20022622 | NUTRIFLEXLIPID SPECIAL | EMULSION INYECTABLE | COMBINACIONES | Vigente |
+| 20033258 | OLIMEL N9 E | EMULSION INYECTABLE | COMBINACIONES | Vigente |
+| 20033290 | PERIOLIMEL N 4 E | EMULSION INYECTABLE | COMBINACIONES | Vigente |
+| 20057807 | NUMETA® G 19% E | EMULSION INYECTABLE | COMBINACIONES | Vigente |
+
+Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

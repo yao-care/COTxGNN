@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 617
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "terconazole"
 predicted_indications: ["trichomonal vulvovaginitis", "vulvitis", "postmenopausal atrophic vaginitis", "herpetic vulvovaginitis", "ulceration of vulva", "vulvar neoplasm", "vaginal discharge", "bacterial vaginosis"]
 description: "Terconazole: nueva indicación predicha, Vulvovaginitis tricomonásica (trichomonal vulvovaginitis) (nivel de evidencia L5). Indicación original: TERCONAZOL - DEXAMETASONA"
@@ -75,11 +75,17 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20265420 | DECADRON T® (vigente) | Crema vaginal | Terconazol - Dexametasona |
-| 20135424 | TEREX-3 (vigente) | Crema vaginal | Dexametasona y antibióticos |
-| 20013336 | VAGICORT® Crema Vaginal (vigente) | Crema vaginal | Terconazol - Dexametasona |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20013336 | VAGICORT® CREMA VAGINAL | CREMA VAGINAL | TERCONAZOL - DEXAMETASONA | Vigente |
+| 20135424 | TEREX-3 | CREMA VAGINAL | DEXAMETASONA Y ANTIBIOTICOS | Vigente |
+| 20265420 | DECADRON T® | CREMA VAGINAL | TERCONAZOL - DEXAMETASONA | Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

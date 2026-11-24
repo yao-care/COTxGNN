@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 545
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RALTEGRAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Raltegravir: nueva indicación predicha, Simian immunodeficiency virus infection (nivel de evidencia L4). Indicación original: RALTEGRAVIR"
@@ -94,10 +94,19 @@ Todos los estudios son preclínicos (macacos o in vitro). No se identificaron EC
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20082552 | ISENTRESS® GRÁNULOS PARA SUSPENSIÓN ORAL 100 MG (estado: vigente) | Gránulos | Raltegravir |
-| 20060995 | ISENTRESS® TABLETAS MASTICABLES 25 MG (estado: vigente) | Tableta masticable | Raltegravir |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20060995 | ISENTRESS® TABLETAS MASTICABLES 25 MG | TABLETA MASTICABLE | RALTEGRAVIR | Vigente |
+| 20082552 | ISENTRESS® GRÁNULOS PARA SUSPENSIÓN ORAL 100 MG | GRANULOS | RALTEGRAVIR | Vigente |
+| 20152990 | ISENTRESS® 600 MG TABLETAS | TABLETA RECUBIERTA | RALTEGRAVIR | Vigente |
+| 20210081 | NEOVIR ® 400 | TABLETA RECUBIERTA | RALTEGRAVIR | Temp. no comerc - Vigente |
+| 19988423 | ISENTRESS® 400 MG | TABLETA RECUBIERTA | RALTEGRAVIR | Perdida Fuerza Ejec |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "EZETIMIBE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ezetimibe: nueva indicación predicha, Deficiencia de la proteína de transferencia de ésteres de colesterol (nivel de evidencia L5). Indicación original: Simvastatina combinaciones paquetes"
 ---
 
@@ -73,9 +73,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20138715 | EZIT-ST 10/10 | Tableta | Simvastatina combinaciones paquetes |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19936459 | ZETIA® TABLETAS. | TABLETA | EZETIMIBE | Vigente |
+| 19951296 | VYTORIN ® 10/10MG | TABLETA | SIMVASTATIN Y EZETIMIBE | Vigente |
+| 19951298 | VYTORIN ® 10/20 MG | TABLETA | SIMVASTATIN Y EZETIMIBE | Vigente |
+| 19951299 | VYTORIN ® 10/40 MG | TABLETA | SIMVASTATIN Y EZETIMIBE | Vigente |
+| 19974991 | TIAZOMET S® | TABLETA RECUBIERTA | SIMVASTATINA COMBINACIONES PAQUETES | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 La lista puede ser parcial.
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 526
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Pralatrexate"
 predicted_indications: ["pleural adenomatoid tumor", "relapsing-remitting multiple sclerosis", "pleural biphasic mesothelioma", "pleural epithelioid mesothelioma", "lymphohistiocytoid mesothelioma", "pericardium cancer", "pleural sarcomatoid mesothelioma", "malignant peritoneal mesothelioma", "well differentiated papillary mesothelioma", "pleural mesothelioma"]
 description: "Pralatrexate: nueva indicación predicha, Pleural adenomatoid tumor (nivel de evidencia L5). Indicación original: PRALATREXATO"
@@ -94,9 +94,15 @@ Para la indicación principal (tumor adenomatoide pleural) actualmente no hay li
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20055048 | DIFOLTA 20 MG/ML SOLUCIÓN PARA INFUSIÓN (BIOSIDUS COLOMBIA S.A.S.) | Solución inyectable | PRALATREXATO |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20055048 | DIFOLTA 20 MG/ML SOLUCION PARA INFUSION | SOLUCION INYECTABLE | PRALATREXATO | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

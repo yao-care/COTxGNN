@@ -77,9 +77,19 @@ Ninguna de las publicaciones recuperadas estudia directamente el tratamiento de 
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20189193 | AMOXIDAL PLUS 600 POLVO PARA RECONSTITUIR A SUSPENSION ORAL | Polvo para reconstituir a suspensión oral | Amoxicilina y inhibidor de betalactamasa |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20004922 | KOACT 312.5 POLVO PARA RECONSTITUIR A SUSPENSIÓN ORAL | POLVO PARA RECONSTITUIR A SUSPENSION ORAL | AMOXICILINA Y BETA-LACTAMASA INHIBIDOR | Vigente |
+| 20109747 | AMOXICLIN ® DUO | TABLETA RECUBIERTA | AMOXICILINA Y BETA-LACTAMASA INHIBIDOR | Vigente |
+| 20121023 | AMOXCLAVER® 625 | TABLETA RECUBIERTA | AMOXICILINA Y BETA-LACTAMASA INHIBIDOR | Vigente |
+| 20122253 | AMOXCLAVER® 1000 | TABLETA RECUBIERTA | AMOXICILINA Y BETA-LACTAMASA INHIBIDOR | Vigente |
+| 20143321 | AMOXIDAL PLUS COMPRIMIDOS RECUBIERTOS | TABLETA RECUBIERTA | AMOXICILINA Y BETA-LACTAMASA INHIBIDOR | Vigente |
+
+Se muestran 5 de 10 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 Los datos de registros son parciales, por lo que la lista puede estar incompleta.
 

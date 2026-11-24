@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 440
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Metronidazole: nueva indicación predicha, Neumocistosis (nivel de evidencia L5). Indicación original: Metronidazol / combinaciones de imidazol derivados"
 monitor_inn: "Metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
@@ -100,11 +100,19 @@ Ninguna publicación muestra que metronidazol sea eficaz contra la neumocistosis
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20174992 | SOLMETRIN® 500 MG TABLETAS | Tableta | Metronidazol | Temp. no comerc - Vigente |
-| 20162295 | Metronidazol 10% + Clotrimazol 2% | Crema vaginal | Combinaciones de imidazol derivados | Temp. no comerc - Vigente |
-| 20052649 | GYNECLOR | Óvulo | Combinaciones de imidazol derivados | Temp. no comerc - Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 1980496 | METRONIDAZOL 500 MG TABLETAS | TABLETA | METRONIDAZOL | Vigente |
+| 1983837 | METRONIDAZOL 500 MG OVULOS | OVULO | METRONIDAZOL | Vigente |
+| 19908154 | GYNOFLOR® CREMA VAGINAL | CREMA VAGINAL | COMBINACIONES DE IMIDAZOL DERIVADOS | Vigente |
+| 19924454 | FLAGYL® ÓVULOS VAGINALES | OVULO | NISTATINA COMBINACIONES | Vigente |
+| 19934637 | METARSAL N CAPSULAS | CAPSULA DURA | COMBINACIONES DE IMIDAZOL DERIVADOS | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

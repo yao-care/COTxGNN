@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 142
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cefazolin: nueva indicación predicha, Otitis media infecciosa (nivel de evidencia L5). Indicación original: CEFAZOLINA"
 monitor_inn: "Cefazolin"
 predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media"]
@@ -86,9 +86,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20152146 | CEFAZOLINA 1 G | Polvo estéril para reconstituir a solución inyectable | CEFAZOLINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20057250 | CEFAZOLINA 1.0 G | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | CEFAZOLINA | Vigente |
+| 20125214 | ZOLIBIOS 1 G | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | CEFAZOLINA | Vigente |
+| 20129942 | CEFAZOLINA SÓDICA 1 G / VIAL POLVO PARA RECONSTITUIR A SOLUCIÓN INYECTABLE | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | CEFAZOLINA | Vigente |
+| 20152146 | CEFAZOLINA 1 G | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | CEFAZOLINA | Vigente |
+| 20160166 | CEFAZOLINA 1G | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | CEFAZOLINA | Vigente |
+
+Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

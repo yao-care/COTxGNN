@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "artemether"
 predicted_indications: ["acquired angioedema", "angioedema", "hereditary angioedema", "nephrogenic syndrome of inappropriate antidiuresis", "acute contagious conjunctivitis", "scleroderma (disease)", "conjunctivitis", "renin-angiotensin-aldosterone system-blocker-induced angioedema"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Artemether: nueva indicación predicha, angioedema adquirido (acquired angioedema) (nivel de evidencia L5). Indicación original: ARTEMETER COMBINACIONES"
 ---
 
@@ -77,9 +77,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20012776 | COARTEM® 20/120 COMPRIMIDOS | Tableta cubierta con película | ARTEMETER COMBINACIONES |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20005913 | COARTEM® TABLETAS DISPERSABLES 20/120MG | TABLETA DISPERSABLE | ARTEMETER COMBINACIONES | Vigente |
+| 20012776 | COARTEM® 20/120 COMPRIMIDOS | TABLETA CUBIERTA CON PELICULA | ARTEMETER COMBINACIONES | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 La lista puede ser parcial. Este registro corresponde a un producto con artemeter en combinación, por lo que no describe la aprobación del principio activo por sí solo.
 

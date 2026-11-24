@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 462
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "naratriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Naratriptan: nueva indicación predicha, Atrophoderma vermiculata (nivel de evidencia L5). Indicación original: NARATRIPTAN"
@@ -99,9 +99,15 @@ Se priorizaron los ensayos aleatorizados, seguidos de las revisiones. Ninguna pu
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 219084 | NARAMIG TABLETAS 2.5 MG | Tableta recubierta | NARATRIPTAN |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 219084 | NARAMIG TABLETAS 2.5 MG | TABLETA RECUBIERTA | NARATRIPTAN | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

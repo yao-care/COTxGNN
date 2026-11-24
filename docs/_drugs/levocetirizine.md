@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 398
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Levocetirizine: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L5). Indicación original: LEVOCETIRIZINA"
 monitor_inn: "Levocetirizine"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
@@ -88,10 +88,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20126402 | RIZIN® TABLETAS | Tableta recubierta | LEVOCETIRIZINA | Vigente |
-| 20232631 | Levocetirizina diclorhidrato 5 mg tabletas recubiertas | Tableta recubierta | LEVOCETIRIZINA | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20040729 | NORAVER® G FAST TOTAL | CAPSULA BLANDA | FENILEFRINA COMBINACIONES | Vigente |
+| 20126402 | RIZIN® TABLETAS | TABLETA RECUBIERTA | LEVOCETIRIZINA | Vigente |
+| 20232631 | LEVOCETIRIZINA DICLORHIDRATO 5MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | LEVOCETIRIZINA | Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

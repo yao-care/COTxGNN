@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 364
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ixabepilone: nueva indicación predicha, Sarcoma de Ewing (nivel de evidencia L5). Indicación original: Ixabepilona"
 monitor_inn: "ixabepilone"
 predicted_indications: ["Ewing sarcoma", "salivary gland type cancer of the breast", "breast papillomatosis", "breast leiomyoma", "breast lipoma", "diabetic mastopathy", "benign neoplasm of male breast", "giant adenofibroma of the breast", "infiltrating nipple syringomatous adenoma", "subareolar duct papillomatosis"]
@@ -85,10 +85,16 @@ Sin embargo, los datos disponibles no identifican una señal de eficacia suficie
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20001658 | IXEMPRA® 45 MG POLVO PARA SOLUCIÓN INYECTABLE (vigente) | Polvo liofilizado para reconstituir a solución inyectable | Ixabepilona |
-| 20001660 | IXEMPRA® 15 MG POLVO SOLUCIÓN INYECTABLE (vigente) | Polvo liofilizado para reconstituir a solución inyectable | Ixabepilona |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20001658 | IXEMPRA® 45 MG POLVO PARA SOLUCION INYECTABLE | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | IXABEPILONA | Vigente |
+| 20001660 | IXEMPRA® 15 MG POLVO SOLUCION INYECTABLE | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | IXABEPILONA | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

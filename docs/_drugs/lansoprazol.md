@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB00448
 monitor_inn: "Lansoprazole"
 predicted_indications: ["duodenal obstruction"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lansoprazol: nueva indicación predicha, Obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). Indicación original: LANSOPRAZOL"
 ---
 
@@ -73,13 +73,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 20057384 | LANZOR® 30 MG CÁPSULA | Cápsula dura |
-| 20093574 | LANGENIX® 30MG CÁPSULAS DE LIBERACIÓN RETARDADA | Cápsula de liberación prolongada |
-| 20145955 | LANGENIX® 15MG CÁPSULAS DE LIBERACIÓN RETARDADA | Cápsula de liberación prolongada |
-| 20172406 | DIZMOPRAZ® CÁPSULAS. MICROGRÁNULOS CON CUBIERTA ENTÉRICA | Cápsula dura |
-| 19939607 | REFLUYET® | Cápsula dura |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20057384 | LANZOR® 30 MG CÁPSULA | CAPSULA DURA | LANSOPRAZOL | Vigente |
+| 20093574 | LANGENIX® 30MG CAPSULAS DE LIBERACIÓN RETARDADA | CAPSULA DE LIBERACION PROLONGADA | LANSOPRAZOL | Vigente |
+| 20145955 | LANGENIX® 15MG CAPSULAS DE LIBERACIÓN RETARDADA | CAPSULA DE LIBERACION PROLONGADA | LANSOPRAZOL | Vigente |
+| 20172406 | DIZMOPRAZ® CAPSULAS. MICROGRANULOS CON CUBIERTA ENTÉRICA | CAPSULA DURA | LANSOPRAZOL | Vigente |
+| 19939607 | REFLUYET® | CAPSULA DURA | LANSOPRAZOL | Vigente |
+
+Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 Hay 6 registros sanitarios vigentes; la tabla muestra los 5 principales.
 

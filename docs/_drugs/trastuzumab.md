@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 637
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
 description: "Trastuzumab: nueva indicación predicha, Malignant cutaneous granular cell skin tumor (nivel de evidencia L5). Indicación original: PERTUZUMAB Y TRASTUZUMAB"
@@ -91,12 +91,19 @@ La evidencia disponible es solo indirecta. El único ensayo evalúa trastuzumab 
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20195976 | PHESGO® 600MG/600MG | Solución inyectable | Pertuzumab y trastuzumab | Vigente |
-| 20144826 | TRAZIMERA® 440MG | Polvo para solución inyectable | Trastuzumab | Vigente |
-| 20195789 | PHESGO® 1200 MG/600 MG | Solución inyectable | Pertuzumab y trastuzumab | Vigente |
-| 20055046 | HERCEPTIN® SOLUCIÓN INYECTABLE 600MG/5ML | Solución inyectable | Trastuzumab | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19903070 | HERCEPTIN ® POLVO LIOFILIZADO PARA INFUSION 440 MG | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | TRASTUZUMAB | Vigente |
+| 20055046 | HERCEPTIN® SOLUCION INYECTABLE 600MG/5ML | SOLUCION INYECTABLE | TRASTUZUMAB | Vigente |
+| 20130360 | HERTICAD® | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | TRASTUZUMAB | Vigente |
+| 20142329 | OGIVRI® | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | TRASTUZUMAB | Vigente |
+| 20143846 | BISINTEX | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | TRASTUZUMAB | Vigente |
+
+Se muestran 5 de 12 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 269
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ETONOGESTREL"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "blunt duct adenosis of breast", "apocrine adenosis of breast", "benign mammary dysplasia"]
 description: "Etonogestrel: nueva indicación predicha, Amenorrea (amenorrhea (disease)) (nivel de evidencia L5). Indicación original: PROGESTÁGENO+ESTRÓGENO"
@@ -91,9 +91,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20128300 | EXELRING ® | Sistemas de liberación | Progestágeno+Estrógeno |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19969493 | IMPLANON NXT 68 MG | IMPLANTE | ETONOGESTREL | Vigente |
+| 19987333 | NUVARING®ANILLO VAGINAL | SISTEMAS DE LIBERACION | ANILLO VAGINAL CON PROGESTAGENO Y ESTROGENO | Vigente |
+| 20128300 | EXELRING ® | SISTEMAS DE LIBERACION | PROGESTÁGENO+ESTRÓGENO | Vigente |
+| 20168885 | MICROGYNON RING | SISTEMAS DE LIBERACION | PROGESTÁGENO+ESTRÓGENO | Vigente |
+| 20177543 | STANIA | SISTEMAS DE LIBERACION | PROGESTÁGENO+ESTRÓGENO | Vigente |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

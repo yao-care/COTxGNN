@@ -70,6 +70,20 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19908192 | CONCOR® 2.5 MG TABLETAS | TABLETA RECUBIERTA | BISOPROLOL | Vigente |
+| 20040649 | CONCOR ® AM 5 MG / 10 MG | TABLETA | BISOPROLOL | Vigente |
+| 20051245 | CONCOR® AM 5 MG/5MG | TABLETA | BISOPROLOL | Vigente |
+| 20094212 | BISOPROLOL 5 MG | TABLETA RECUBIERTA | BISOPROLOL | Vigente |
+| 20094213 | BISOPROLOL 2.5 MG | TABLETA RECUBIERTA | BISOPROLOL | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
+
 Bisoprolol figura como **comercializado** en Colombia. Los registros sanitarios disponibles corresponden a una forma oral (tableta recubierta). Los datos locales pueden ser parciales, por lo que el listado de registros podría no estar completo.
 
 ## Consideraciones de Seguridad

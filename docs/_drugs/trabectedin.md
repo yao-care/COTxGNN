@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 633
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Trabectedin: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L5). Indicación original: Trabectedina"
 monitor_inn: "trabectedin"
 predicted_indications: ["female breast carcinoma"]
@@ -99,9 +99,15 @@ Conviene aclarar que este vínculo se apoya en publicaciones y no en datos estru
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19997476 | YONDELIS® 1MG POLVO LIOFILIZADO PARA INYECCIÓN | Polvo liofilizado para reconstituir a solución inyectable | Trabectedina |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19997476 | YONDELIS® 1MG POLVO LIOFILIZADO PARA INYECCIÓN | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | TRABECTEDIN | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

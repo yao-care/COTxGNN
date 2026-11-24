@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Ipilimumab: nueva indicación predicha, Coroideremia (nivel de evidencia L5). Indicación original: No especificada"
 monitor_inn: "IPILIMUMAB"
 predicted_indications: ["choroideremia"]
@@ -81,9 +81,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20031989 | YERVOY® 5 mg/ml solución inyectable para infusión intravenosa | Solución inyectable | IPILIMUMAB |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20031989 | YERVOY®5 MG /ML SOLUCION INYECTABLE PARA INFUSION INTRAVENOSA | SOLUCION INYECTABLE | IPILIMUMAB | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 Fabricante: Bristol Myers Squibb de Colombia S.A.
 

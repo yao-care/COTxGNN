@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "CLOPIDOGREL"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clopidogrel: nueva indicación predicha, migraña con aura del tronco encefálico (migraine with brainstem aura) (nivel de evidencia L5). Indicación original: CLOPIDOGREL"
 ---
 
@@ -86,10 +86,19 @@ Ninguna publicación estudia directamente la migraña con aura del tronco encef�
 
 Los registros sanitarios de clopidogrel son de producto de un solo principio activo, en forma oral.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20198152 | CLOPIDOGREL 75 MG TABLETAS RECUBIERTAS | Tableta recubierta | Texto de indicación no detallado |
-| 19942021 | CLOPIDOGREL 75 MG TABLETA RECUBIERTA | Tableta recubierta | Texto de indicación no detallado |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19942021 | CLOPIDOGREL 75 MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | CLOPIDOGREL | Vigente |
+| 19959943 | CLOPIDOGREL 75 MG | TABLETA CUBIERTA CON PELICULA | CLOPIDOGREL | Vigente |
+| 19971140 | CLOPIDOGREL 75 MG | TABLETA RECUBIERTA | CLOPIDOGREL | Vigente |
+| 19976641 | TROMBOXTYL 75MG | TABLETA | CLOPIDOGREL | Vigente |
+| 19980931 | CLOPIDOGREL 75 MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | CLOPIDOGREL | Vigente |
+
+Se muestran 5 de 11 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

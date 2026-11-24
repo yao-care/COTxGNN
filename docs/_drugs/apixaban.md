@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 60
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "APIXABAN"
 predicted_indications: ["migraine disorder"]
 description: "Apixaban: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: INHIBIDORES DIRECTOS DEL FACTOR XA"
@@ -79,9 +79,19 @@ Este ensayo no estudia directamente la migraña, por lo que no aporta evidencia 
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20254500 | CARDIOTEC® 2.5 MG TABLETAS RECUBIERTAS | Tableta recubierta | Inhibidores directos del factor Xa |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20040898 | ELIQUIS® 2.5MGTABLETAS RECUBIERTAS | TABLETA RECUBIERTA | INHIBIDORES DIRECTOS DEL FACTOR XA | Vigente |
+| 20056956 | ELIQUIS® 5 MG | TABLETA RECUBIERTA | INHIBIDORES DIRECTOS DEL FACTOR XA | Vigente |
+| 20128791 | KEIXA 5MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | INHIBIDORES DIRECTOS DEL FACTOR XA | Vigente |
+| 20139305 | KEIXA 2.5 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | INHIBIDORES DIRECTOS DEL FACTOR XA | Vigente |
+| 20155907 | XALUTEM ® 5 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | INHIBIDORES DIRECTOS DEL FACTOR XA | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 La lista de registros puede estar incompleta.
 

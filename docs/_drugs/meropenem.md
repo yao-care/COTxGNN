@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 431
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 monitor_inn: "MEROPENEM"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "laryngitis", "paratyphoid fever", "Lyme disease", "gonococcal urethritis", "Ureaplasma urethritis"]
 description: "Meropenem: nueva indicación predicha, Artritis bacteriana (bacterial arthritis) (nivel de evidencia L5). Indicación original: MEROPENEM"
@@ -83,9 +83,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20159905 | MEROPENEM 0.5 G | Polvo estéril para reconstituir a solución inyectable | MEROPENEM |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19942150 | MEROPENEM 1G POLVO ESTERIL PARA SOLUCION INYECTABLE | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | MEROPENEM | Vigente |
+| 19961388 | MEROPENEM 1 G | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | MEROPENEM | Vigente |
+| 19978219 | MEROPENEM1 G | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | MEROPENEM | Vigente |
+| 19981441 | MEROPENEM PARA INYECCION USP POR 1000 MG | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | MEROPENEM | Vigente |
+| 20085484 | KABIPENEM® 1.0 G POLVO PARA SOLUCION INYECTABLE | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | MEROPENEM | Vigente |
+
+Se muestran 5 de 17 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

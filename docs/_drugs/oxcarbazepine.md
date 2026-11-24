@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 489
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Oxcarbazepine"
 predicted_indications: ["restless legs syndrome"]
 description: "Oxcarbazepine: nueva indicación predicha, Restless legs syndrome (nivel de evidencia L4). Indicación original: OXCARBAZEPINA"
@@ -97,10 +97,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 19961607 | OXCARBAZEPINA 300 MG (Tecnoquímicas S.A.) | Tableta cubierta con película | Oxcarbazepina | Vigente |
-| 1980885 | TRILEPTAL® 6 % suspensión (Novartis Pharma AG) | Suspensión oral | Oxcarbazepina | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 1980885 | TRILEPTAL® 6 % SUSPENSION | SUSPENSION ORAL | OXCARBAZEPINA | Vigente |
+| 19908543 | TRILEPTAL 300 MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | OXCARBAZEPINA | Vigente |
+| 19908545 | TRILEPTAL®600 MG TABLETA | TABLETA RECUBIERTA | OXCARBAZEPINA | Vigente |
+| 19961607 | OXCARBAZEPINA 300 MG | TABLETA CUBIERTA CON PELICULA | OXCARBAZEPINA | Vigente |
+| 20007957 | OXCARBAZEPINA 600 MG | TABLETA RECUBIERTA | OXCARBAZEPINA | Vigente |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 535
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Primidone: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: PRIMIDONA"
 monitor_inn: "primidone"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
@@ -93,9 +93,15 @@ La literatura es mayoritariamente sobre carbamazepina; **no se encontró ningún
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20132767 | PRIMIDONA 250 MG TABLETAS | Tableta | PRIMIDONA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20132767 | PRIMIDONA 250 MG TABLETAS | TABLETA | PRIMIDONA | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 El producto estaba a cargo del Fondo Nacional de Estupefacientes (Ministerio de Salud y Protección Social).
 

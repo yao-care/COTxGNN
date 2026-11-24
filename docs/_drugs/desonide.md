@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Desonide"
 predicted_indications: ["polyp of vocal cord", "polyp of middle ear", "polyp of external auditory canal", "polyp of frontal sinus", "polyp of ureter", "polyp of vulva", "fibroepithelial polyp", "neoplastic polyp", "epulis", "uterine polyp"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Desonide: nueva indicación predicha, Pólipo de cuerda vocal (polyp of vocal cord) (nivel de evidencia L5). Indicación original: DESONIDA"
 ---
 
@@ -73,13 +73,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Registros sanitarios principales (la lista puede ser parcial):
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20253823 | ITROCSONA® 0.1% CREMA | Crema tópica | DESONIDA |
-| 20262013 | DESOKORT® 0.1% CREMA | Crema tópica | DESONIDA |
-| 217278 | DESONIDA 0.1% CREMA | Crema tópica | DESONIDA |
-| 20042454 | DESONIDA 0.05% CREMA | Crema tópica | DESONIDA |
-| 20206932 | DESOTOPIC® 0.1 % LOCIÓN | Loción | DESONIDA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19924904 | DESONIDAEMULSION 0.05 % | EMULSIÓN | DESONIDA | Vigente |
+| 19943250 | DERMOSUPRIL® CREMA 0.1% | CREMA TOPICA | DESONIDA | Vigente |
+| 19945473 | DERMOSUPRIL®EMULSION | EMULSIÓN | DESONIDA | Vigente |
+| 19945670 | DERMOSUPRIL® CREMA 0.05% | CREMA TOPICA | DESONIDA | Vigente |
+| 20042454 | DESONIDA 0.05% CREMA | CREMA TOPICA | DESONIDA | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

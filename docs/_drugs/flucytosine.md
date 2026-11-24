@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 290
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Flucytosine: nueva indicación predicha, Enfermedad ósea de Paget (nivel de evidencia L5). Indicación original: FLUCITOSINA"
 monitor_inn: "flucytosine"
 drugbank_id: DB01099
@@ -76,9 +76,15 @@ Cualquier justificación posible (por ejemplo, efectos de metabolitos tipo 5-FU 
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20135088 | ANCOTOSIN® | Cápsula dura | FLUCITOSINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20135088 | ANCOTOSIN® | CAPSULA DURA | FLUCITOSINA | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 El fabricante es Global Service Pharmaceutical S.A.S.
 

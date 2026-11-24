@@ -72,16 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20053245 | HONGIZOL® CÁPSULAS (vencido) | Cápsula dura | FLUCONAZOL |
-| 48561 | BATEN® 150 MG CÁPSULAS (vigente) | Cápsula dura | FLUCONAZOL |
+<!-- licenses:begin -->
 
-<!-- review:begin co-row-20261124-fluconazole-1 -->
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 1980782 | FLUCONAZOL CAPSULAS X 150 MG. | CAPSULA DURA | FLUCONAZOL | Vigente |
+| 19901231 | FLUCONAZOL 150 MG CÁPSULAS | CAPSULA DURA | FLUCONAZOL | Vigente |
+| 19928895 | FARZUL 150 MG CÁPSULAS DURAS | CAPSULA DURA | FLUCONAZOL | Vigente |
+| 19930849 | FLUCONAZOL CAPSULAS 200 MG | CAPSULA DURA | FLUCONAZOL | Vigente |
+| 19956005 | FLUCONAZOL 200 MG/100ML | SOLUCION INYECTABLE | FLUCONAZOL | Vigente |
 
-> **Corrección de revisión (2026-11-24)**: Texto original: "20053245 / HONGIZOL® CÁPSULAS (vigente) / Cápsula dura / FLUCONAZOL" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-24): el registro sanitario 20053245 figura como «Vencido». Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
 
-<!-- review:end co-row-20261124-fluconazole-1 -->
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -130,7 +133,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, los dos registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-24 | Registro 20053245: estado vigente → vencido | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-24 | Registro 20053245: estado vigente → vencido | Reemplazado por la tabla de registros generada por programa (antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 178
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Codeine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L5). Indicación original: Paracetamol, combinaciones excluyendo psicolépticos"
 monitor_inn: "Codeine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
@@ -83,9 +83,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 58027 | ALGIMIDE TABLETAS | Tableta | Paracetamol, combinaciones excluyendo psicolépticos | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19931776 | APRIX-F® TABLETAS | TABLETA | CODEINA Y PARACETAMOL | Vigente |
+| 20028484 | ACETAMINOFEN/CODEINA 325 MG/30 MG | TABLETA | CODEINA COMBINACIONES EXCL. SICOLEPTICOS | Vigente |
+| 20031822 | ACETAMINOFEN + CODEINA 325 MG/8MG | TABLETA | PARACETAMOL COMBINACIONES EXCLUYENDO SICOLEPTICOS | Vigente |
+| 20038519 | ACETAMINOFEN 325 MG + CODEINA FOSFATO 30 MG TABLETAS | TABLETA | CODEINA Y PARACETAMOL | Vigente |
+| 20046741 | NODOL® FORTE TABLETAS | TABLETA | CODEINA COMBINACIONES EXCL. SICOLEPTICOS | Vigente |
+
+Se muestran 5 de 18 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

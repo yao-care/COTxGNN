@@ -72,17 +72,17 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20218995 | ATERGIT® Solución Oftálmica Estéril | Solución oftálmica | Epinastina | Vigente |
-| 19964592 | RELESTAT® | Solución oftálmica | Epinastina | Vigente |
-| 19977977 | ATERGIT® Solución Oftálmica Estéril | Solución oftálmica | Epinastina | Vencido |
+<!-- licenses:begin -->
 
-<!-- review:begin co-row-20261124-epinastine-1 -->
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19964592 | RELESTAT ® | SOLUCION OFTALMICA | EPINASTINA | Vigente |
+| 20218995 | ATERGIT® SOLUCIÓN OFTÁLMICA ESTÉRIL | SOLUCION OFTALMICA | EPINASTINA | Vigente |
+| 19977977 | ATERGIT® SOLUCION OFTALMICA ESTERIL | SOLUCION OFTALMICA | EPINASTINA | Vencido |
 
-> **Corrección de revisión (2026-11-24)**: Texto original: "19977977 / ATERGIT® Solución Oftálmica Estéril / Solución oftálmica / Epinastina / Temp. no comerc - Vigente" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-24): el registro sanitario 19977977 figura como «Vencido». Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
-<!-- review:end co-row-20261124-epinastine-1 -->
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -131,7 +131,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria (registros cancelados) y la viabilidad de una nueva comercialización" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: epinastine hydrochloride prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d4ee45c-e58f-4b7c-b389-898f5c27f54d) |
-| 2026-11-24 | Registro 19977977: estado vigente → vencido | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-24 | Registro 19977977: estado vigente → vencido | Reemplazado por la tabla de registros generada por programa (antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-24 | Registros vigentes: 3 → 2 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->

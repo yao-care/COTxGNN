@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 288
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Flubendazole: nueva indicación predicha, Carcinoma de vejiga urinaria (urinary bladder carcinoma) (nivel de evidencia L5). Indicación original: Flubendazol"
 monitor_inn: "flubendazole"
 predicted_indications: ["urinary bladder carcinoma", "urinary bladder neoplasm", "infiltrating bladder urothelial carcinoma", "non-invasive bladder urothelial carcinoma", "bladder urachal urothelial carcinoma", "bladder squamous papilloma", "bladder signet ring cell adenocarcinoma", "bladder colloid adenocarcinoma", "bladder mixed adenocarcinoma", "bladder colonic type adenocarcinoma"]
@@ -99,13 +99,19 @@ Para la predicción principal (carcinoma de vejiga urinaria) no hay literatura d
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 40823 | FLUOBEN® SUSPENSION 2% | Suspensión oral | Flubendazol |
-| 20020871 | FERITREX® SUSPENSION | Suspensión oral | Flubendazol |
-| 20039210 | DECAFLUSAN® 500 MG TABLETAS | Tableta | Flubendazol |
-| 19959902 | FERITREX® 500 MG TABLETAS | Tableta | Flubendazol |
-| 19929393 | FUGOS SUSPENSIÓN | Suspensión oral | Flubendazol |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19959902 | FERITREX® 500 MG TABLETAS | TABLETA | FLUBENDAZOL | Vigente |
+| 20020871 | FERITREX® SUSPENSION | SUSPENSION ORAL | FLUBENDAZOL | Vigente |
+| 20039210 | DECAFLUSAN® 500 MG TABLETAS | TABLETA | FLUBENDAZOL | Vigente |
+| 40823 | FLUOBEN® SUSPENSION 2% | SUSPENSION ORAL | FLUBENDAZOL | Vigente |
+| 19929393 | FUGOS SUSPENSIÓN | SUSPENSION ORAL | FLUBENDAZOL | Temp. no comerc - Vigente |
+
+Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

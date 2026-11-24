@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "dronabinol"
 drugbank_id: DB00470
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia", "pulmonary hypertension", "hypertrichosis (disease)", "kyphoscoliotic heart disease", "Ambras type hypertrichosis universalis congenita", "atrophoderma vermiculata"]
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 description: "Dronabinol: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). En Colombia, registros sanitarios del INVIMA: 4 (vigentes: 0; además, temporalmente no comercializados: 4)"
 ---
 
@@ -74,12 +74,18 @@ El puntaje del modelo es muy alto y coherente con esta biología, pero es una pr
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19967436 | LAXENOL 2.5 MG | Cápsula blanda | DRONABINOL |
-| 19967437 | LAXENOL 5 MG | Cápsula blanda | DRONABINOL |
-| 20233134 | LAXENOL® 5 MG | Cápsula blanda | DRONABINOL |
-| 19967647 | LAXENOL 10 MG | Cápsula blanda | DRONABINOL |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19967436 | LAXENOL 2.5 MG | CAPSULA BLANDA | DRONABINOL | Temp. no comerc - Vigente |
+| 19967437 | LAXENOL 5 MG | CAPSULA BLANDA | DRONABINOL | Temp. no comerc - Vigente |
+| 19967647 | LAXENOL 10 MG | CAPSULA BLANDA | DRONABINOL | Temp. no comerc - Vigente |
+| 20233134 | LAXENOL® 5 MG | CAPSULA BLANDA | DRONABINOL | Temp. no comerc - Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

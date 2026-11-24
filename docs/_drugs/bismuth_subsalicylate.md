@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 109
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bismuth Subsalicylate: nueva indicación predicha, Paratifoidea (fiebre paratifoidea) (nivel de evidencia L5). Indicación original: Subcitrato de bismuto / Subsalicilato de bismuto"
 monitor_inn: "Bismuth subsalicylate"
 predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "salmonellosis", "typhoid fever", "conjunctivitis", "relapsing fever", "acute contagious conjunctivitis", "gingivitis", "punctate epithelial keratoconjunctivitis", "otitis externa"]
@@ -104,10 +104,19 @@ Como referencia, la literatura disponible para la predicción cercana de **salmo
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 1991423 | BISBACTER® SUSPENSION | Suspensión oral | Bismuto subcitrato |
-| 20248335 | BISMUCAR® TABLETAS | Tableta masticable | Subsalicilato de bismuto |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 1991423 | BISBACTER® SUSPENSION | SUSPENSION ORAL | BISMUTO SUBCITRATO | Vigente |
+| 20172297 | BISLAKSO ® | SUSPENSION ORAL | SUBSALICILATO DE BISMUTO | Vigente |
+| 20198307 | BISMUCAR® | SUSPENSION ORAL | SUBSALICILATO DE BISMUTO | Vigente |
+| 20248335 | BISMUCAR® TABLETAS | TABLETA MASTICABLE | SUBSALICILATO DE BISMUTO | Vigente |
+| 42932 | BISBACTER® TABLETAS | TABLETA MASTICABLE | BISMUTO SUBCITRATO | Vigente |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

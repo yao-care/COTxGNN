@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 25
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acetylcysteine: nueva indicación predicha, Enfermedad trombótica (nivel de evidencia L1). Indicación original: Acetilcisteína"
 monitor_inn: "Acetylcysteine"
 predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal cavity disease", "dry eye syndrome", "pharyngitis", "acute laryngopharyngitis", "tracheal disease", "transient ischemic attack (disease)", "laryngotracheitis", "angle-closure glaucoma"]
@@ -101,11 +101,19 @@ Conviene precisar que la evidencia se concentra en microangiopatías trombótica
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19970253 | Rinofluimucil® solución nasal (Zambon Colombia) | Solución nasal | Acetilcisteína (vigente) |
-| 20094856 | Fluiq® 600 mg (Eurofarma Colombia) | Polvo | Acetilcisteína (vigente) |
-| 19904497 | Fluimucil® 2% (Zambon Colombia) | Jarabe | Acetilcisteína (vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19904497 | FLUIMUCIL® 2% | JARABE | ACETILCISTEINA | Vigente |
+| 19929593 | AFLUX JARABE LISTO | SOLUCION ORAL | ACETILCISTEINA | Vigente |
+| 19969414 | ACETILCISTEINA600 MG SOBRES POR 1.5 G | GRANULOS | ACETILCISTEINA | Vigente |
+| 19970253 | RINOFLUIMUCIL ® SOLUCION NASAL | SOLUCIONNASAL | ACETILCISTEINA | Vigente |
+| 20003535 | ZIFLUVIS 600 MG | GRANULOS | ACETILCISTEINA | Vigente |
+
+Se muestran 5 de 15 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

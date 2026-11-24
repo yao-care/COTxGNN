@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 327
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Hydrocodone: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Paracetamol. Combinaciones con psicolépticos"
 monitor_inn: "hydrocodone"
 drugbank_id: DB00956
@@ -84,9 +84,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20113430 | SINALGEN MAXTABLETAS. | Tableta | Paracetamol. Combinaciones con psicolépticos |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20044013 | DOVIR ® TABLETAS | TABLETA | HYDROCODONA Y IBUPROFENO | Vigente |
+| 20061322 | SINALGEN® 5/325 TABLETAS | TABLETA | PARACETAMOL. COMBINACIONES CON PSICOLECTICOS | Vigente |
+| 20082896 | DOLOFF®5-325 TABLETAS | TABLETA RECUBIERTA | HIDROCODONA Y PARACETAMOL | Vigente |
+| 20087738 | DOLOFF® 7.5-325 TABLETAS RECUBIERTAS. | TABLETA RECUBIERTA | HIDROCODONA Y PARACETAMOL | Vigente |
+| 20113430 | SINALGEN MAXTABLETAS. | TABLETA | PARACETAMOL. COMBINACIONES CON PSICOLECTICOS | Vigente |
+
+Se muestran 5 de 18 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

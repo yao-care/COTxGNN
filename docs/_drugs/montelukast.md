@@ -108,9 +108,19 @@ El puntaje del modelo debe leerse con cautela. La mayoría de los ensayos son so
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20190806 | BONVENT® | Tableta masticable | Solo consta el nombre "MONTELUKAST", sin texto de indicación |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19935334 | CERROKAST® 5 MG TABLETAS MASTICABLES | TABLETA MASTICABLE | MONTELUKAST | Vigente |
+| 19936346 | MONTELUKAST 4 MG TABLETA MASTICABLE | TABLETA MASTICABLE | MONTELUKAST | Vigente |
+| 19939789 | MONTELUKAST 10 MG TABLETA CUBIERTA | TABLETA CUBIERTA CON PELICULA | MONTELUKAST | Vigente |
+| 19961834 | ASMONT® 5 MG TABLETAS MASTICABLES | TABLETA MASTICABLE | MONTELUKAST | Vigente |
+| 19961836 | ASMONT ® 4 MG TABLETAS MASTICABLES | TABLETA MASTICABLE | MONTELUKAST | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 Fabricante: TECNOFAR TQ S.A.S.
 

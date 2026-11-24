@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 517
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "pirfenidone"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
 description: "Pirfenidone: nueva indicación predicha, Extracutaneous mastocytoma (nivel de evidencia L5). Indicación original: PIRFENIDONA"
@@ -95,11 +95,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20093425 | ESBRIET® cápsulas duras 267 mg (vigente) | Cápsula dura | Pirfenidona |
-| 20251036 | FIBROPER® 801 mg tableta recubierta (vigente) | Tableta recubierta | Pirfenidona |
-| 20258933 | HETOPIR® 801 mg tabletas recubiertas (vigente) | Tableta recubierta | Pirfenidona |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20093425 | ESBRIET® CÁPSULAS DURAS 267 MG | CAPSULA DURA | PIRFENIDONA | Vigente |
+| 20095491 | PIRFENEX | TABLETA RECUBIERTA | PIRFENIDONA | Vigente |
+| 20162688 | ESBRIET® PIRFENIDONA | TABLETA | PIRFENIDONA | Vigente |
+| 20201009 | ESGRINIL® 267 MG CAPSULAS DURAS | CAPSULA DURA | PIRFENIDONA | Vigente |
+| 20201017 | ESGRINIL® 801 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | PIRFENIDONA | Vigente |
+
+Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 
@@ -120,12 +128,6 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Justificación:**
 La predicción se apoya solo en evidencia preclínica indirecta y en reportes de caso que incluso apuntan a un posible riesgo. No hay ensayos clínicos; el medicamento está comercializado en Colombia y cuenta con 8 registros sanitarios vigentes.
 
-<!-- review:begin co-lic-20261112-pirfenidone-1 -->
-
-> **Corrección de revisión (2026-11-12)**: Texto original: "3 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 13 registros sanitarios, de los cuales 8 vigentes y 5 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261112-pirfenidone-1 -->
-
 **Para avanzar se necesita:**
 - Obtener las advertencias y contraindicaciones del prospecto de INVIMA y los datos del mecanismo de acción desde DrugBank.
 - Estudios preclínicos en modelos tumorales (no solo fibróticos benignos) que confirmen o descarten actividad antitumoral.
@@ -144,7 +146,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "cuyos registros sanitarios figuran actualmente como cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 3 → 8 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 3 → 8 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Esbriet (pirfenidone) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e) |
 
 <!-- review:end log -->

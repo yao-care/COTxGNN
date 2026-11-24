@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 659
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Vildagliptin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Vildagliptin: nueva indicación predicha, Focal stiff limb syndrome (nivel de evidencia L5). Indicación original: METFORMINA / VILDAGLIPTINA"
@@ -81,9 +81,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 19998394 | GALVUS® MET comprimidos recubiertos con película 50 mg / 1000 mg (Novartis Pharma AG) | Tableta cubierta con película | Metformina / Vildagliptina | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19988550 | GALVUS® 50 MG COMPRIMIDOS | TABLETA | VILDAGLIPTINA | Vigente |
+| 19998393 | GALVUS® MET COMPRIMIDO RECUBIERTO CON PELICULA 50 MG/850 MG | TABLETA CUBIERTA CON PELICULA | METFORMINA / VILDAGLIPTINA | Vigente |
+| 19998394 | GALVUS® MET COMPRIMIDOS RECUBIERTOS CON PELICULA 50 MG /1000 MG | TABLETA CUBIERTA CON PELICULA | METFORMINA / VILDAGLIPTINA | Vigente |
+| 20003706 | GALVUS® MET 50/500 COMPRIMIDOS RECUBIERTOS CON PELICULA | TABLETA RECUBIERTA | METFORMINA / VILDAGLIPTINA | Vigente |
+| 20193049 | VILZER | TABLETA | VILDAGLIPTINA | Vigente |
+
+Se muestran 5 de 17 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

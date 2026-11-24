@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 231
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Donepezil: nueva indicación predicha, Trastornos psicógenos del movimiento (nivel de evidencia L5). Indicación original: DONEPEZIL"
 monitor_inn: "donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
@@ -88,12 +88,19 @@ Actualmente no hay literatura relacionada disponible para trastornos psicógenos
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20118656 | ARIZIL 10 MG | Tableta recubierta | DONEPEZIL | Vigente |
-| 19993779 | Donepezilo Clorhidrato 10 mg tabletas recubiertas | Tableta recubierta | DONEPEZIL | Temp. no comerc - Vigente |
-| 19947560 | Donepecilo Clorhidrato 5 mg | Tableta recubierta | DONEPEZIL | Temp. no comerc - Vigente |
-| 19946097 | ALZIT® 10 MG | Tableta recubierta | DONEPEZIL | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19946097 | ALZIT® 10 MG | TABLETA RECUBIERTA | DONEPEZIL | Vigente |
+| 19946098 | ALZIT® 5 MG | TABLETA RECUBIERTA | DONEPEZIL | Vigente |
+| 20072619 | LINDEZIP® 10 MG | TABLETA RECUBIERTA | DONEPEZIL | Vigente |
+| 20072620 | LINDEZIP® 5 MG | TABLETA RECUBIERTA | DONEPEZIL | Vigente |
+| 20118656 | ARIZIL 10 MG | TABLETA RECUBIERTA | DONEPEZIL | Vigente |
+
+Se muestran 5 de 9 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

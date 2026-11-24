@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 460
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Naphazoline: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (nivel de evidencia L5). Indicación original: Nafazolina"
 monitor_inn: "naphazoline"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "primary hereditary glaucoma", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "open-angle glaucoma", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
@@ -83,13 +83,19 @@ Para la predicción de glaucoma de ángulo abierto (rank 8) existe una publicaci
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20177412 | DILAOFTAL® | Solución oftálmica | Nafazolina |
-| 20211293 | BLUE-ZUL® Solución Oftálmica | Solución oftálmica | Nafazolina |
-| 20242858 | OFTACLEAR® | Solución oftálmica | Nafazolina |
-| 20217421 | Nafazolina Clorhidrato 1 mg/ml Solución Oftálmica | Solución oftálmica | Nafazolina |
-| 20161178 | NAFOLINA® Solución Oftálmica | Solución oftálmica | Nafazolina |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19907773 | OFTALMOTRISOL®SOLUCION OFTALMICA | SOLUCION OFTALMICA | NAFAZOLINA | Vigente |
+| 19912760 | ALBASOL ® LIQUIFILM ® SOLUCION OFTALMICA | SOLUCION OFTALMICA | NAFAZOLINA | Vigente |
+| 19985533 | NAZIL OFTENO® | SOLUCION OFTALMICA | NAFAZOLINA | Vigente |
+| 20032237 | LUZ ZUL SOLUCION OFTALMICA | SOLUCION OFTALMICA | NAFAZOLINA | Vigente |
+| 20075424 | NAFVISION® | SOLUCION OFTALMICA | NAFAZOLINA | Vigente |
+
+Se muestran 5 de 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 *(Se muestran los 5 principales de 8 registros.)*
 

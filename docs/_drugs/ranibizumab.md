@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 548
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RANIBIZUMAB"
 predicted_indications: ["tetanic cataract", "immature cataract", "mature cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "hemorrhagic disease of newborn"]
 description: "Ranibizumab: nueva indicación predicha, Tetanic cataract (nivel de evidencia L5). Indicación original: RANIBIZUMAB"
@@ -93,9 +93,15 @@ Actualmente no hay ensayos clínicos relacionados registrados para esta indicaci
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19977793 | LUCENTIS® 10 MG/ML SOLUCIÓN INYECTABLE (Novartis Pharma AG) | Solución inyectable | RANIBIZUMAB |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19977793 | LUCENTIS® 10 MG /ML SOLUCION INYECTABLE | SOLUCION INYECTABLE | RANIBIZUMAB | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

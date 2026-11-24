@@ -8,7 +8,7 @@ indication_count: 4
 drugbank_id: DB09009
 monitor_inn: "Articaine"
 predicted_indications: ["gout", "exostosis", "allergic asthma", "intrinsic asthma"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Articaina: nueva indicación predicha, Gota (gout) (nivel de evidencia L5). Indicación original: EPINEFRINA"
 ---
 
@@ -71,11 +71,17 @@ Actualmente no hay literatura relacionada disponible para la gota.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 19987519 | ARTHEEK® ARTICAINA AL 4% CON EPINEFRINA 1:100.000 | Solución inyectable |
-| 20002907 | SEPTANEST® ADRENALINE AU 1/100.000 | Solución inyectable |
-| 20087089 | ARTHEEK SP® | Solución inyectable |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19987519 | ARTHEEK(R) ARTICAINA AL 4% CON EPINEFRINA 1:100.000 | SOLUCION INYECTABLE | EPINEFRINA | Vigente |
+| 20002907 | SEPTANEST® ADRENALINEE AU 1/100.000 | SOLUCION INYECTABLE | ARTICAINA COMBINACIONES | Vigente |
+| 20087089 | ARTHEEK SP® | SOLUCION INYECTABLE | ARTICAINA COMBINACIONES | Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 Los tres registros sanitarios están vigentes.
 

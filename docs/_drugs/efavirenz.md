@@ -82,11 +82,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20146088 | VOYTEL® | Tableta recubierta | Efavirenz, tenofovir disoproxil y emtricitabina |
-| 20139380 | AVONZA® | Tableta recubierta | Lamivudina, tenofovir disoproxil y efavirenz |
-| 20132929 | ETRAVIR® | Tableta recubierta | Efavirenz, tenofovir disoproxil y emtricitabina |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20021554 | EFAVIRENZ 600 MG. | TABLETA RECUBIERTA | EFAVIRENZ | Vigente |
+| 20063470 | ESTIVA®600 MG TABLETAS | TABLETA RECUBIERTA | EFAVIRENZ | Vigente |
+| 20064176 | TRUSTIVA ® | TABLETA CUBIERTA CON PELICULA | EFAVIRENZ. TENOFOVIR DISOPROXIL Y EMTRICITABINA | Vigente |
+| 20066564 | EFAVIRENZ 600MG + EMTRICITABINE 200MG + TENOFOVIR DISOPROXIL FUMARATO 300MG TABLETAS RECU… | TABLETA RECUBIERTA | EFAVIRENZ. TENOFOVIR DISOPROXIL Y EMTRICITABINA | Vigente |
+| 20099714 | TENOMUNE ® | TABLETA RECUBIERTA | EFAVIRENZ. TENOFOVIR DISOPROXIL Y EMTRICITABINA | Vigente |
+
+Se muestran 5 de 9 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 La lista puede ser parcial. Los tres productos son combinaciones de dosis fija, por lo que sus registros no describen la situación regulatoria de efavirenz como principio activo único.
 

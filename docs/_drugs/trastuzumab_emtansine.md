@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 639
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Trastuzumab Emtansine: usos conocidos y estado de comercialización en Colombia; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -75,10 +75,16 @@ Los candidatos que el modelo de aprendizaje profundo TxGNN (puntuación ≥ 0,99
 
 ## Información de Mercado en Colombia
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 20058197 | TRASTUZUMAB EMTANSINA | POLVO LIOFILIZADO PARA RECONSTITUIR A SO | Vigente |
-| 20064940 | TRASTUZUMAB EMTANSINA | POLVO LIOFILIZADO PARA RECONSTITUIR A SO | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20058197 | KADCYLA® POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE 100MG/VIAL | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | TRASTUZUMAB EMTANSINA | Vigente |
+| 20064940 | KADCYLA® POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE 160MG/VIAL | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | TRASTUZUMAB EMTANSINA | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

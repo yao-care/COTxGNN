@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 423
 evidence_level: L2
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "mefenamic acid"
 predicted_indications: ["headache disorder", "trigeminal autonomic cephalalgia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "migraine disorder", "migraine with brainstem aura"]
 description: "Mefenamic Acid: nueva indicación predicha, Trastorno de cefalea (headache disorder) (nivel de evidencia L2). Indicación original: MEFENAMICO ACIDO"
@@ -83,9 +83,15 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 27865 | ÁCIDO MEFENÁMICO 500 MG TABLETAS CUBIERTAS (Tecnoquímicas S.A.) | Tableta cubierta con película | Ácido mefenámico (sin indicación detallada) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 27865 | ACIDO MEFENAMICO 500 MG TABLETAS CUBIERTAS | TABLETA CUBIERTA CON PELICULA | MEFENAMICO ACIDO | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

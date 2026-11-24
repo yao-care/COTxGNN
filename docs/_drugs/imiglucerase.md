@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 336
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Imiglucerase: nueva indicación predicha, Síndrome de Hurler (MPS I) (nivel de evidencia L5). Indicación original: IMIGLUCERASA"
 monitor_inn: "imiglucerase"
 predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
@@ -83,11 +83,17 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20166019 | BANTACE® 200 (vigente) | Polvo liofilizado para reconstituir a solución inyectable | IMIGLUCERASA |
-| 20118253 | BANTACE® 400 (vigente) | Polvo liofilizado para reconstituir a solución inyectable | IMIGLUCERASA |
-| 20013754 | CEREZYME® 400U (vigente) | Polvo liofilizado para reconstituir a solución inyectable | IMIGLUCERASA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20013754 | CEREZYME® 400U | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | IMIGLUCERASA | Vigente |
+| 20118253 | BANTACE ® 400 | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | IMIGLUCERASA | Vigente |
+| 20166019 | BANTACE® 200 | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | IMIGLUCERASA | Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

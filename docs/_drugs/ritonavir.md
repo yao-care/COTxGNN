@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 567
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "RITONAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Ritonavir: nueva indicación predicha, Simian immunodeficiency virus infection (nivel de evidencia L4). Indicación original: ATAZANAVIR+RITONAVIR"
@@ -93,13 +93,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20122950 | ANCEF ® R | Tableta recubierta | Atazanavir + ritonavir |
-| 20109284 | VIRONTAR N comprimidos recubiertos | Tableta recubierta | Combinaciones (ritonavir y darunavir) |
-| 20167292 | FURTHAS®R tabletas recubiertas | Tableta cubierta con película | Darunavir y ritonavir |
-| 20149871 | ZANAVIR-R | Tableta recubierta | Atazanavir + ritonavir |
-| 20197888 | ETEVIHR® R | Tableta recubierta | Darunavir + ritonavir |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19945353 | RITONAX MEM® 100 CAPSULAS | CAPSULA BLANDA | RITONAVIR | Vigente |
+| 20066897 | VIRATAZ® TABLETAS | TABLETA RECUBIERTA | ATAZANAVIR+RITONAVIR | Vigente |
+| 20109025 | VIRONTAR | COMPRIMIDO | DARUNAVIR + RITONAVIR | Vigente |
+| 20109284 | VIRONTAR N COMPRIMIDOS RECUBIERTOS | TABLETA RECUBIERTA | COMBINACIONES (RITONAVIR Y DARUNAVIR) | Vigente |
+| 20115574 | LOPINAVIR 200 MG + RITONAVIR 50 MG | TABLETA RECUBIERTA | LOPINAVIR Y RITONAVIR | Vigente |
+
+Se muestran 5 de 15 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 
@@ -125,12 +131,6 @@ Consultar el prospecto para advertencias y contraindicaciones oficiales, ya que 
 **Justificación:**
 La predicción se apoya únicamente en estudios preclínicos y in vitro en modelos animales, sin ensayos clínicos, y el SIV no es una indicación terapéutica en humanos. Además, el medicamento está comercializado en Colombia con 14 registros sanitarios vigentes y el perfil de interacciones y contraindicaciones es amplio.
 
-<!-- review:begin co-lic-20261112-ritonavir-1 -->
-
-> **Corrección de revisión (2026-11-12)**: Texto original: "5 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 15 registros sanitarios, de los cuales 14 vigentes; 1 perdieron fuerza ejecutoria o fueron cancelados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261112-ritonavir-1 -->
-
 **Para avanzar se necesita:**
 - Definir si existe un uso relevante (por ejemplo, investigación en modelos animales de VIH) o si la predicción debe descartarse como indicación humana.
 - Obtener el mecanismo de acción desde DrugBank.
@@ -154,7 +154,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los cinco registros se encuentran cancelados; actualmente no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 5 → 14 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 5 → 14 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

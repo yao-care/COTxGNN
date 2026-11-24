@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 551
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rasburicase: nueva indicación predicha, Hipouricemia renal (nivel de evidencia L5). Indicación original: RASBURICASA"
 monitor_inn: "rasburicase"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "hepatic porphyria", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "hepatoportal sclerosis", "renal tubular acidosis", "disorder of phenylalanine metabolism"]
@@ -103,9 +103,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20060952 | FASTURTEC® 1.5 MG / ML | Polvo liofilizado para reconstituir a solución inyectable | RASBURICASA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20060952 | FASTURTEC®1.5 MG / ML | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | RASBURICASA | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

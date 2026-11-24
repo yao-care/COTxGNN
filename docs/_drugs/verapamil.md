@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 657
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Verapamil: nueva indicación predicha, Bloqueo de rama (término obsoleto) (nivel de evidencia L5). Indicación original: Trandolapril y bloqueadores de canales de calcio"
 monitor_inn: "verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
@@ -89,9 +89,18 @@ Actualmente no hay literatura relacionada disponible para la indicación princip
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 230359 | TARKA® SR TABLETAS | Tableta de liberación prolongada | Trandolapril y bloqueadores de canales de calcio |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 230359 | TARKA® SR TABLETAS | TABLETA DE LIBERACION PROLONGADA | TRANDOLAPRIL Y BLOQUEADORES DE CANALES DEL CALCIO | Vigente |
+| 36606 | VERAPAMILO 80 MG | TABLETA RECUBIERTA | VERAPAMIL | Vigente |
+| 36782 | VERAPAMILO 120MG. | TABLETA CUBIERTA (GRAGEA) | VERAPAMIL | Vigente |
+| 37892 | VERAPAMILO CLORHIDRATO TABLETAS RECUBIERTAS 80 MG. | TABLETA RECUBIERTA | VERAPAMIL | Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "HALOPERIDOL"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Haloperidol: nueva indicación predicha, Defecto congénito de la glicosilación con fucosilación defectuosa (congenital disorder of glycosylation with defective… (nivel de evidencia L5). Indicación ori…"
 ---
 
@@ -73,13 +73,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Los datos compilados indican que el medicamento figura como comercializado en Colombia, con registros sanitarios de presentaciones de haloperidol en solución inyectable, solución oral y tabletas. Los datos pueden ser parciales.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19929092 | Haloperidol solución inyectable | Solución inyectable | No registrada en los datos locales |
-| 19999331 | Haloperidol solución oral 2 mg/ml | Solución oral | No registrada en los datos locales |
-| 20118490 | Apracal gotas | Solución oral | No registrada en los datos locales |
-| 19940401 | Haloperidol tabletas 10 mg | Tableta | No registrada en los datos locales |
-| 11416 | Haloperidol 10 mg tabletas recubiertas | Tableta recubierta | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19940398 | HALOPERIDOL TABLETAS 5 MG | TABLETA | HALOPERIDOL | Vigente |
+| 19940401 | HALOPERIDOL TABLETAS 10 MG | TABLETA | HALOPERIDOL | Vigente |
+| 19974149 | HALOPERIDOL SOLUCION ORAL2 MG/ML | SOLUCION ORAL | HALOPERIDOL | Vigente |
+| 19998377 | HALOPERIDOLINYECTABLE 5 MG/1 ML | SOLUCION INYECTABLE | HALOPERIDOL | Vigente |
+| 19999331 | HALOPERIDOL SOLUCION ORAL 2 MG / ML | SOLUCION ORAL | HALOPERIDOL | Vigente |
+
+Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

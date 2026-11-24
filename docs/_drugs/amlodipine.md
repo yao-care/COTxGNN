@@ -99,10 +99,19 @@ Publicaciones más relevantes de la indicación con mayor evidencia (hemorragia 
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20106314 | RACORVAL A 160/5 MG TABLETAS RECUBIERTAS (vigente) | Tableta recubierta | Valsartán y amlodipino |
-| 20121052 | RACORVAL ® 3D (vigente) | Tableta recubierta | Valsartán, amlodipino e hidroclorotiazida |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19902457 | AMDIPIN H 5-12.5 | TABLETA | HIDROCLOROTIAZIDA Y AGENTES AHORRADORES DE POTASIO | Vigente |
+| 19902458 | AMDIPIN H® 10 MG | TABLETA | HIDROCLOROTIAZIDA Y AGENTES AHORRADORES DE POTASIO | Vigente |
+| 19915210 | AMLODIPINO 5MG TABLETAS | TABLETA | AMLODIPINO | Vigente |
+| 19928328 | AMLODIPINO 10 MG TABLETAS | TABLETA | AMLODIPINO | Vigente |
+| 19928630 | AMLODIPINO 5 MG TABLETAS | TABLETA | AMLODIPINO | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

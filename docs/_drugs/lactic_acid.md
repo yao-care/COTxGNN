@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 371
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "lactic acid"
 predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome"]
 description: "Lactic Acid: nueva indicación predicha, Coartacion atipica de la aorta (nivel de evidencia L5). Indicación original: Paracetamol, combinaciones excluyendo sicolepticos"
@@ -101,9 +101,17 @@ Estos estudios usan acido poli-L-lactico como material de dispositivos o el lact
 
 ## Informacion de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmaceutica | Indicacion Aprobada |
-|---------|------|------|-----------|
-| 20167956 | ACETAMINOFEN 325 MG + NAPROXENO 220MG | Capsula blanda | Paracetamol, combinaciones excluyendo sicolepticos |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19995450 | COLLOPLUS® SOLUCION | SOLUCION TOPICA | SALICILICO ACIDO | Vigente |
+| 20003378 | KINOR NF | SOLUCION TOPICA | SALICILICO ACIDO | Vigente |
+| 20167956 | ACETAMINOFEN 325 MG + NAPROXENO 220MG | CAPSULA BLANDA | PARACETAMOL COMBINACIONES EXCLUYENDO SICOLEPTICOS | Temp. no comerc - Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

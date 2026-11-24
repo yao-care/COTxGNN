@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 506
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "PEMETREXED"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
 description: "Pemetrexed: nueva indicación predicha, Pleural adenomatoid tumor (nivel de evidencia L5). Indicación original: PEMETREXED"
@@ -99,10 +99,19 @@ Una limitación importante: no existe un ensayo de Fase 3 específico para mesot
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20108592 | REVOTRAIN 100 MG | Polvo liofilizado para reconstituir a solución inyectable | PEMETREXED |
-| 20192961 | AUROPEXAFAR® 500 MG | Polvo liofilizado para reconstituir a solución inyectable | PEMETREXED |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20072986 | PEXITAZ100 | POLVO LIOFILIZADO | PEMETREXED | Vigente |
+| 20108592 | REVOTRAIN 100 MG | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | PEMETREXED | Vigente |
+| 20127801 | PLEUREX | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | PEMETREXED | Vigente |
+| 20142738 | PEMETA®100 MG POLVO LIOFILIZADO | POLVO LIOFILIZADO | PEMETREXED | Vigente |
+| 20142739 | PEMETA®500 MG POLVO LIOFILIZADO | POLVO LIOFILIZADO | PEMETREXED | Vigente |
+
+Se muestran 5 de 7 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

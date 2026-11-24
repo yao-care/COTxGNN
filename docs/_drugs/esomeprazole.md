@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Esomeprazole"
 predicted_indications: ["duodenal obstruction"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Esomeprazole: nueva indicación predicha, obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). Indicación original: ESOMEPRAZOL"
 ---
 
@@ -72,10 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20155892 | ACIDPRAZOL® 40 MG CÁPSULA. | Cápsula dura | ESOMEPRAZOL |
-| 20235954 | ESIO® 20MG | Tableta con recubrimiento entérico | ESOMEPRAZOL |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19915411 | NEXIUM MUPS® 20 MG | TABLETA CON CUBIERTA ENTERICA CON PELICULA | ESOMEPRAZOL | Vigente |
+| 19940076 | ESOPRAX ® 40 CAPSULAS | CAPSULA DURA | ESOMEPRAZOL | Vigente |
+| 19947032 | ESOMEPRAZOL 20 MG TABLETAS DE LIBERACIÓN RETARDADA. | TABLETA CON CUBIERTA ENTERICA CON PELICULA | ESOMEPRAZOL | Vigente |
+| 19948574 | ESOZ 40 MG TABLETAS DE LIBERACIÓN RETARDADA. | TABLETA DE LIBERACION RETARDADA | ESOMEPRAZOL | Vigente |
+| 19953919 | ESOMEPRAZOL40 MG | TABLETA CON RECUBRIMIENTO ENTÉRICO | ESOMEPRAZOL | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 La lista de registros puede ser parcial.
 

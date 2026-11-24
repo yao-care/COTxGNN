@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 509
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Perindopril: nueva indicación predicha, enfermedad renal hipertensiva maligna (nivel de evidencia L5). Indicación original: Perindopril y amlodipino"
 monitor_inn: "PERINDOPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
@@ -73,9 +73,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20007274 | COVERAM® 10 MG / 5MG COMPRIMIDOS | Tableta | Perindopril y amlodipino |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20004571 | BI PRETERAX ® 5.0 MG | TABLETA CUBIERTA CON PELICULA | PERINDOPRIL Y DIURETICOS | Vigente |
+| 20007272 | COVERAM ® 5 MG / 5 MG COMPRIMIDOS | TABLETA | PERINDOPRIL Y AMLODIPINO | Vigente |
+| 20007274 | COVERAM® 10 MG / 5MG COMPRIMIDOS | TABLETA | PERINDOPRIL Y AMLODIPINO | Vigente |
+| 20007275 | COVERAM® 10 MG /10MG COMPRIMIDOS | TABLETA | PERINDOPRIL Y AMLODIPINO | Vigente |
+| 20082410 | COVERATRIX 5 MG/1.25 MG/10 MG COMPRIMIDOS RECUBIERTOS CON PELÍCULA | TABLETA CUBIERTA CON PELICULA | PERINDOPRILO. AMLODIPINO E INDAPAMIDA | Vigente |
+
+Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 630
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tocilizumab: nueva indicación predicha, Espondilitis anquilosante (nivel de evidencia L3). Indicación original: No especificada"
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
@@ -97,11 +97,17 @@ Sin embargo, el registro clínico es desfavorable. Los dos ensayos de Fase 3 con
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20002627 | ACTEMRA® Concentrado para infusión 200 mg/10 mL | Solución inyectable | TOCILIZUMAB (vigente) |
-| 20062328 | ACTEMRA® Solución inyectable 162 mg/0.9 mL | Solución inyectable | TOCILIZUMAB (vigente) |
-| 20002629 | ACTEMRA® Concentrado para infusión 80 mg/4 mL | Solución inyectable | TOCILIZUMAB (vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20002627 | ACTEMRA® CONCENTRADO PARA INFUSION 200 MG/10ML | SOLUCION INYECTABLE | TOCILIZUMAB | Vigente |
+| 20002629 | ACTEMRA® CONCENTRADO PARA INFUSION 80 MG/4ML | SOLUCION INYECTABLE | TOCILIZUMAB | Vigente |
+| 20062328 | ACTEMRA®SOLUCIÓN INYECTABLE 162MG/0.9ML | SOLUCION INYECTABLE | TOCILIZUMAB | Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 Los tres registros pertenecen a F. Hoffmann-La Roche Ltd.
 

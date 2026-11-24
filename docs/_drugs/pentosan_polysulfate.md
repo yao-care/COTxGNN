@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 508
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pentosan Polysulfate: nueva indicación predicha, Trastorno primario de liberación plaquetaria (primary release disorde… (nivel de evidencia L5). Indicación original: Pentosano polisulfato de sodio"
 monitor_inn: "pentosan polysulfate"
 predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease"]
@@ -89,9 +89,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20177532 | PENTODOL 100 MG CAPSULA | Cápsula dura | Pentosano polisulfato de sodio |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20177532 | PENTODOL 100 MG CAPSULA | CAPSULA DURA | PENTOSANO POLISULFATO DE SODIO | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 El fabricante del registro es Inversiones Plamatech Ltda.
 

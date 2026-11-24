@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 322
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Guaifenesin: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L5). Indicación original: Combinaciones (con guaifenesina)"
 monitor_inn: "Guaifenesin"
 predicted_indications: ["nasal cavity disease", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
@@ -80,13 +80,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20260928 | TUSSIFLEX DUO JARABE | Jarabe | Combinaciones |
-| 20242577 | FLEXVI | Jarabe | Combinaciones |
-| 209473 | VICK ® 44 EXP (JARABE) | Jarabe | Guaifenesina |
-| 19959895 | JARABE VICKMIEL | Jarabe | Guaifenesina |
-| 20116677 | NOGLUPEC® JARABE | Jarabe | Tos supresores y expectorantes |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19959895 | JARABE VICKMIEL | JARABE | GUAIFENESINA | Vigente |
+| 20116677 | NOGLUPEC® JARABE | JARABE | TOS SUPRESORES Y EXPECTORANTES | Vigente |
+| 20242577 | FLEXVI | JARABE | COMBINACIONES | Vigente |
+| 20260928 | TUSSIFLEX DUO JARABE | JARABE | COMBINACIONES | Vigente |
+| 209473 | VICK ® 44 EXP (JARABE) | JARABE | GUAIFENESINA | Vigente |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

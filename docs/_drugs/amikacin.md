@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "amikacin"
 predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "punctate epithelial keratoconjunctivitis", "typhoid fever", "epiglottitis", "salmonellosis", "congenital analbuminemia", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "meningococcemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amikacin: nueva indicación predicha, fiebre paratifoidea (paratyphoid fever) (nivel de evidencia L5). Indicación original: AMIKACINA"
 ---
 
@@ -79,6 +79,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | [30724049](https://pubmed.ncbi.nlm.nih.gov/30724049/) | 2018 | Cohorte | Pakistan Journal of Biological Sciences | Aislamiento e identificación de *S. paratyphi* en pacientes con fiebre entérica en Quetta. |
 
 ## Información de Mercado en Colombia
+
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19908236 | AMIKACINA 500 MG/2ML | SOLUCION INYECTABLE | AMIKACINA | Vigente |
+| 19908237 | AMIKACINA 100 MG / 2 ML | SOLUCION INYECTABLE | AMIKACINA | Vigente |
+| 19929230 | AMIKACINA DE 500 MG POR 2 ML | SOLUCION INYECTABLE | AMIKACINA | Vigente |
+| 20207236 | DELTKACINA ® INYECTABLE 500 MG/2ML | SOLUCION INYECTABLE | AMIKACINA | Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 Según los registros sanitarios locales, el estado de mercado de amikacina en Colombia es **Comercializado**. El producto está registrado como solución inyectable (concentración 500 mg/2 ml). Los registros disponibles pueden estar incompletos. La tabla detallada de registros sanitarios la añade el programa a partir de los datos de licencia.
 

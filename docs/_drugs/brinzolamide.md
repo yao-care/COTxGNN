@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 115
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Brinzolamide: usos conocidos y situación de mercado en Colombia; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -72,11 +72,16 @@ Todos los candidatos que el modelo TxGNN propone para Brinzolamide, y que se pue
 
 ## Información de Mercado en Colombia
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 20075435 | BRIMONIDINA TARTRATO | SUSPENSION OFTALMICA | Vigente |
+<!-- licenses:begin -->
 
-Los datos solo contienen parte de los registros; la lista puede estar incompleta.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20005679 | AZARGA® SUSPENSION OFTÁLMICA ESTÉRIL | SUSPENSION OFTALMICA | TIMOLOL COMBINACIONES | Vigente |
+| 20075435 | SIMBRINZA® SUSPENSION OFTALMICA | SUSPENSION OFTALMICA | BRINZOLAMIDA | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

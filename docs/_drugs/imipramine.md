@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 338
 evidence_level: L3
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Imipramine: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (TDAH) (nivel de evidencia L3). Indicación original: No especificada en el registro (el texto aprobado solo i…"
 monitor_inn: "imipramine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
@@ -95,10 +95,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 58148 | IMIPRAMINA 25 MG | Tableta recubierta | Imipramina |
-| 20028647 | IMIPRAMINA CLORHIDRATO 25 MG TABLETAS RECUBIERTAS | Tableta recubierta | Imipramina |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19940399 | IMIPRAMINA CLORHIDRATO TABLETAS 25 MG | TABLETA RECUBIERTA | IMIPRAMINA | Vigente |
+| 20028647 | IMIPRAMINA CLOHIDRATO 25 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | IMIPRAMINA | Vigente |
+| 20030724 | IMIPRAMINA CLORHIDRATO 10 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | IMIPRAMINA | Vigente |
+| 58148 | IMIPRAMINA25 MG | TABLETA RECUBIERTA | IMIPRAMINA | Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 
@@ -117,12 +125,6 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 **Justificación:**
 La evidencia es de nivel L3, sin ensayos clínicos registrados y con estudios de diseño no verificado. Además, los tricíclicos son de segunda línea en TDAH por su perfil de seguridad cardiovascular y anticolinérgico y por la carga de 290 interacciones; en Colombia el medicamento está comercializado y cuenta con 4 licencias válidas.
-
-<!-- review:begin co-lic-20261112-imipramine-1 -->
-
-> **Corrección de revisión (2026-11-12)**: Texto original: "2 licencias válidas" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 4 registros sanitarios, de los cuales 4 vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261112-imipramine-1 -->
 
 **Para avanzar se necesita:**
 - Verificar el diseño de los estudios clave (especialmente los de 1983 y 2008) y buscar ECA o metaanálisis de imipramina en TDAH.
@@ -146,7 +148,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 2 → 4 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 2 → 4 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: imipramine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd3b62a-88d4-49eb-b0aa-71e28cf40919) |
 
 <!-- review:end log -->

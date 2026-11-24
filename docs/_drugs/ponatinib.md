@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 523
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ponatinib: nueva indicación predicha, Fibromatosis gingival (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \"PONATI…"
 monitor_inn: "ponatinib"
 predicted_indications: ["fibromatosis, gingival", "liposarcoma"]
@@ -96,9 +96,15 @@ Para la predicción secundaria (liposarcoma):
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20129443 | ICLUSIG® 15 MG TABLETAS RECUBIERTAS | Tableta recubierta | PONATINIB | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20129443 | ICLUSIG® 15 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | PONATINIB | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 213
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dexmedetomidine: nueva indicación predicha, Síndrome nefrogénico de antidiuresis inapropiada (nivel de evidencia L5). Indicación original: Dexmedetomidina"
 monitor_inn: "dexmedetomidine"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia"]
@@ -87,13 +87,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20211117 | DEXMECORD® 100 MCG/ML POR 4 ML SOLUCIÓN INYECTABLE | Solución inyectable | Dexmedetomidina |
-| 20084133 | PRECEDEX® 400MCG/100ML (4MCG/ML) | Solución inyectable | Dexmedetomidina |
-| 20260005 | DEXTOMID-VP® 100 MCG/ML SOLUCIÓN INYECTABLE | Solución inyectable | Dexmedetomidina |
-| 20227787 | DELTODELT® 0.1 MG/ML SOLUCIÓN INYECTABLE | Solución inyectable | Dexmedetomidina |
-| 20233713 | DELTODELT® DEXMEDETOMIDINA 4 MCG/ML. SOLUCIÓN INYECTABLE. | Inyectables | Dexmedetomidina |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19906735 | PRECEDEX®100MCG/1ML | SOLUCION INYECTABLE | DEXMEDETOMIDINA | Vigente |
+| 20063203 | DEXDOR | SOLUCION INYECTABLE | DEXMEDETOMIDINA | Vigente |
+| 20084133 | PRECEDEX® 400MCG/100ML (4MCG/ML) | SOLUCION INYECTABLE | DEXMEDETOMIDINA | Vigente |
+| 20087299 | DEXMEDETOMIDINA 0.2 MG/ 2 ML SOLUCION INYECTABLE | SOLUCION INYECTABLE | DEXMEDETOMIDINA | Vigente |
+| 20131283 | DEXMEDETOMIDINA 200 MCG/ 2 ML | SOLUCION INYECTABLE | DEXMEDETOMIDINA | Vigente |
+
+Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 
@@ -113,12 +119,6 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Justificación:**
 - El puntaje del modelo es alto, pero no hay ensayos ni publicaciones. El mecanismo de la enfermedad (defecto del receptor V2) no se corrige con la acción central de un agonista alfa-2, por lo que la predicción es poco creíble.
 - El medicamento está comercializado en este país y cuenta con 11 registros sanitarios vigentes.
-
-<!-- review:begin co-lic-20261112-dexmedetomidine-1 -->
-
-> **Corrección de revisión (2026-11-12)**: Texto original: "5 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 13 registros sanitarios, de los cuales 11 vigentes y 2 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261112-dexmedetomidine-1 -->
 
 **Para avanzar se necesita:**
 - Estudios preclínicos o de mecanismo que demuestren algún efecto sobre la función del receptor V2 o sobre la antidiuresis en este síndrome.
@@ -142,7 +142,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los 5 registros sanitarios encontrados están **cancelados**; no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Aclarar la situación regulatoria de los registros cancelados antes de cualquier desarrollo local" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 5 → 11 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 5 → 11 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-20 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Precedex (dexmedetomidine hydrochloride) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92b7ddaa-e45a-4b64-a802-bb5df8771dd6) |
 
 <!-- review:end log -->

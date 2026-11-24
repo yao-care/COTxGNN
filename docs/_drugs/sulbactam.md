@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 593
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sulbactam: nueva indicación predicha, Artritis bacteriana (nivel de evidencia L5). Indicación original: Ampicilina e inhibidor enzimático"
 monitor_inn: "SULBACTAM"
 predicted_indications: ["bacterial arthritis"]
@@ -96,10 +96,19 @@ Se priorizaron los estudios con diseño comparativo o clínico sobre casos aisla
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20166596 | AUROPENNZ 3.0 G | Polvo estéril para reconstituir a solución inyectable | Ampicilina e inhibidor enzimático (vigente) |
-| 20166599 | AUROPENNZ 1.5 G | Polvo estéril para reconstituir a solución inyectable | Ampicilina e inhibidor enzimático (vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19931216 | AMPICILINA Y SULBACTAM 1.5 G. | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | AMPICILINA E INHIBIDOR ENZIMATICO | Vigente |
+| 20036512 | AMPIDELT® | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | AMPICILINA E INHIBIDOR ENZIMATICO | Vigente |
+| 20125217 | BIOSABACTAM® 1.5 G | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | AMPICILINA E INHIBIDOR ENZIMATICO | Vigente |
+| 20166596 | AUROPENNZ 3.0 G POLVO ESTERIL PARAINYECCIÓN | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | AMPICILINA E INHIBIDOR ENZIMATICO | Vigente |
+| 27259 | UNASYN INYECTABLE 1.5 G. | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | AMPICILINA E INHIBIDOR ENZIMATICO | Vigente |
+
+Se muestran 5 de 7 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 Pueden existir otros productos de ampicilina-sulbactam comercializados con registros distintos; esto debe verificarse.
 

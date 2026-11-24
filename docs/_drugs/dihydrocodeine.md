@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 221
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Dihydrocodeine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L5). Indicación original: DIHIDROCODEINA"
 monitor_inn: "dihydrocodeine"
 predicted_indications: ["nasal cavity disease", "allergic urticaria", "papillary conjunctivitis", "faucial diphtheria", "cervical disc degenerative disorder", "headache disorder", "cold urticaria", "trigeminal autonomic cephalalgia"]
@@ -94,12 +94,18 @@ Como referencia, para la predicción de rango 7 (trastorno de cefalea) se recupe
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 31398 | PARACODINA JARABE | Jarabe | DIHIDROCODEINA (vigente) |
-| 19955900 | DIHIDROCODEINA BITARTRATO 2.42 MG/ML JARABE | Jarabe | DIHIDROCODEINA (vigente) |
-| 33722 | PARACODINA GOTAS | Solución oral | DIHIDROCODEINA (vigente) |
-| 20056688 | DIHIDROCODEINA 2.42 MG/ML SOLUCIÓN ORAL | Solución oral | DIHIDROCODEINA (vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19955900 | DIHIDROCODEINA BITARTRATO 2.42 MG/ML JARABE | JARABE | DIHIDROCODEINA | Vigente |
+| 20056688 | DIHIDROCODEINA2.42 MG/ ML SOLUCIÓN ORAL | SOLUCION ORAL | DIHIDROCODEINA | Vigente |
+| 31398 | PARACODINA JARABE | JARABE | DIHIDROCODEINA | Vigente |
+| 33722 | PARACODINA GOTAS | SOLUCION ORAL | DIHIDROCODEINA | Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

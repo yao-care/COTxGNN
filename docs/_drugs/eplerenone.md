@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "eplerenone"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Eplerenone: nueva indicación predicha, Hipertensión pulmonar por enfermedad pulmonar y/o hipoxia (pulmonary hypertension owing to lung disease and/or hypoxia) (nivel de evidencia L5). Indicación orig…"
 ---
 
@@ -82,10 +82,18 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica |
-|---------|------|------|
-| 20139404 | EPNONE 25 MG TABLETA RECUBIERTA | Tableta recubierta |
-| 20139405 | EPNONE® 50 TABLETA RECUBIERTA | Tableta recubierta |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20035401 | INSPRA® 50 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | EPLERENONA | Vigente |
+| 20047198 | INSPRA® 25 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | EPLERENONA | Vigente |
+| 20139404 | EPNONE 25 MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | EPLERENONA | Vigente |
+| 20139405 | EPNONE® 50 TABLETA RECUBIERTA | TABLETA RECUBIERTA | EPLERENONA | Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 La lista de registros puede ser parcial.
 

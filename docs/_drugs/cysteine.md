@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 187
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cysteine: nueva indicación predicha, Síndrome de ojo seco (nivel de evidencia L4). Indicación original: Combinaciones"
 monitor_inn: "Cysteine"
 predicted_indications: ["dry eye syndrome", "closed-angle glaucoma", "nasal cavity disease", "acute laryngopharyngitis", "pharyngitis", "exercise-induced malignant hyperthermia", "angle-closure glaucoma"]
@@ -100,9 +100,16 @@ Se listan las publicaciones más pertinentes (no hay ECA ni estudios clínicos e
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20057807 | NUMETA® G 19% E | Emulsión inyectable | Combinaciones |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20057807 | NUMETA® G 19% E | EMULSION INYECTABLE | COMBINACIONES | Vigente |
+| 20118686 | NUMETA G 13% E. | EMULSION INYECTABLE | COMBINACIONES | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

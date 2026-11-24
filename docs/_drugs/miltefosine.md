@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Miltefosine"
 predicted_indications: ["echinococcus granulosus infectious disease", "alveolar echinococcosis", "Smouldering systemic mastocytosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Miltefosine: nueva indicación predicha, Enfermedad infecciosa por Echinococcus granulosus (echinococcus granulosus infectious disease) (nivel de evidencia L5). Indicación original: MILTEFOSINA"
 ---
 
@@ -71,10 +71,16 @@ Actualmente no hay literatura relacionada disponible para esta enfermedad.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20228850 | ANTYLEX® 10 | Cápsula dura | MILTEFOSINA (el texto no detalla la enfermedad) |
-| 20131141 | ANTYLEX 50 MG CAPSULAS | Cápsula dura | MILTEFOSINA (el texto no detalla la enfermedad) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20131141 | ANTYLEX 50 MG CAPSULAS | CAPSULA DURA | MILTEFOSINA | Vigente |
+| 20228850 | ANTYLEX® 10 | CAPSULA DURA | MILTEFOSINA | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 Ambos registros son de producto de un solo principio activo, están vigentes y pertenecen a GENYX S.A.S.
 

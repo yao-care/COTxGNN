@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 286
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Finasteride: nueva indicación predicha, Hipertricosis universal congénita tipo Ambras (nivel de evidencia L5). Indicación original: Finasteride"
 monitor_inn: "FINASTERIDE"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
@@ -88,12 +88,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20135117 | BINFIN® 5.0 MG TABLETA RECUBIERTA | Tableta recubierta | Finasteride | Vigente |
-| 20062982 | OPPTEST 5 MG TABLETAS RECUBIERTAS | Tableta recubierta | Finasterida | Vigente |
-| 19970940 | FINASTERIDE 5 MG | Tableta cubierta con película | Finasterida | Vigente |
-| 19981163 | FINASTERIDA 1 MG TABLETAS | Tableta recubierta | Finasteride | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19940480 | FOLISTER | CAPSULA BLANDA | FINASTERIDE | Vigente |
+| 19970940 | FINASTERIDE5MG | TABLETA CUBIERTA CON PELICULA | FINASTERIDA | Vigente |
+| 19981163 | FINASTERIDA 1 MG TABLETAS | TABLETA RECUBIERTA | FINASTERIDE | Vigente |
+| 20062982 | OPPTEST5 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | FINASTERIDA | Vigente |
+| 20135117 | BINFIN® 5.0 MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | FINASTERIDE | Vigente |
+
+Se muestran 5 de 7 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

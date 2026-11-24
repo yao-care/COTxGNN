@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 378
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lanreotide: nueva indicación predicha, Hipertricosis (enfermedad) (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \"Lanreo…"
 monitor_inn: "lanreotide"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita"]
@@ -85,12 +85,18 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19935650 | Somatuline Autogel 60 mg (Ipsen Pharma) | Solución inyectable | Lanreotido |
-| 20258943 | Lantera (Adium SAS) | Solución inyectable | Lanreotido |
-| 19995723 | Somatuline Autogel 120 mg (Ipsen Pharma) | Solución inyectable | Lanreotido |
-| 19935648 | Somatuline Autogel 90 mg (Ipsen Pharma) | Solución inyectable | Lanreotido |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19935648 | SOMATULINE ® AUTOGEL 90MG | SOLUCION INYECTABLE | LANREOTIDO | Vigente |
+| 19935650 | SOMATULINE ® AUTOGEL ® 60 MG | SOLUCION INYECTABLE | LANREOTIDO | Vigente |
+| 19995723 | SOMATULINE®AUTOGEL 120 MG | SOLUCION INYECTABLE | LANREOTIDO | Vigente |
+| 20258943 | LANTERA | SOLUCION INYECTABLE | LANREOTIDO | Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

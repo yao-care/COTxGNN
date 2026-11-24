@@ -101,12 +101,19 @@ Evidencia de apoyo indirecto de la segunda predicción (infección por virus de 
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20140868 | DUOPETSA® tableta recubierta | Tableta recubierta | Tenofovir disoproxil y emtricitabina | Vigente |
-| 20018444 | Tenofovir disoproxil fumarato 300 mg tableta recubierta | Tableta recubierta | Tenofovir disoproxil | Cancelado |
-| 20063471 | FOVIREM® | Tableta cubierta con película | Tenofovir disoproxil y emtricitabina | Vigente |
-| 20146088 | VOYTEL® | Tableta recubierta | Efavirenz, tenofovir disoproxil y emtricitabina | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20009816 | TRUVADA® 300/200 | TABLETA RECUBIERTA | TENOFOVIR DISOPROXIL Y EMTRICITABINA | Vigente |
+| 20043884 | EMTRICITABINA 200 MG Y TENOFOVIR DISOPROXIL FUMARATO 300MG | TABLETA RECUBIERTA | TENOFOVIR DISOPROXIL Y EMTRICITABINA | Vigente |
+| 20054501 | COMPLERA® TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | EMTRICITABINA. TENOFOVIR DISOPROXIL Y RILPIVIRINA | Vigente |
+| 20061503 | STRIBILD® TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | EMTRICITABINA. TENOFOVIR DISOPROXIL. ELVITEGRAVIR Y COBICISTAT | Vigente |
+| 20063471 | FOVIREM® | TABLETA CUBIERTA CON PELICULA | TENOFOVIR DISOPROXIL Y EMTRICITABINA | Vigente |
+
+Se muestran 5 de 18 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 
@@ -124,13 +131,7 @@ Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La indicación predicha es veterinaria (FIV), con un único estudio animal de combinación que no permite aislar el efecto del tenofovir, y no hay ensayos clínicos. Además, el medicamento está comercializado en Colombia con 16 registros sanitarios vigentes, y faltan los datos de seguridad del prospecto, lo que bloquea un tamizaje de seguridad.
-
-<!-- review:begin co-lic-20261112-tenofovir_disoproxil-1 -->
-
-> **Corrección de revisión (2026-11-12)**: Texto original: "4 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 18 registros sanitarios, de los cuales 16 vigentes y 1 vigentes pero temporalmente no comercializados; 1 perdieron fuerza ejecutoria o fueron cancelados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261112-tenofovir_disoproxil-1 -->
+La indicación predicha es veterinaria (FIV), con un único estudio animal de combinación que no permite aislar el efecto del tenofovir, y no hay ensayos clínicos. Además, el medicamento está comercializado en Colombia con 15 registros sanitarios vigentes, y faltan los datos de seguridad del prospecto, lo que bloquea un tamizaje de seguridad.
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones).
@@ -153,7 +154,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria (registros cancelados) y la viabilidad de comercialización en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 4 → 16 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 4 → 16 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Viread (tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33fd6418-fbdc-42ca-a50d-ce2a476a5418) |
 
 <!-- review:end log -->

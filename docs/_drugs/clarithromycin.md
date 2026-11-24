@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Clarithromycin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clarithromycin: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5). Indicación original: CLARITROMICINA"
 ---
 
@@ -72,10 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20179259 | KLARICID® SUSPENSION 125 MG/ 5 ML | Gránulos | CLARITROMICINA |
-| 20086452 | KLARICID® UD | Tableta de liberación modificada | CLARITROMICINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 14446 | CLARITROMICINA 500 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | CLARITROMICINA | Vigente |
+| 19901371 | CLARITROMICINA 500 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | CLARITROMICINA | Vigente |
+| 19906258 | KLAMICINA® TABLETAS RECUBIERTAS 500 MG | TABLETA RECUBIERTA | CLARITROMICINA | Vigente |
+| 19911016 | CIRIDAC ® 500 MG. TABLETAS | TABLETA | CLARITROMICINA | Vigente |
+| 19915103 | CLARITROMICINA500MG | TABLETA RECUBIERTA | CLARITROMICINA | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 Los datos locales de estos registros pueden estar incompletos (lista parcial).
 

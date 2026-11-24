@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 293
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Flunarizine: usos conocidos y estado de mercado en Colombia; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -72,12 +72,18 @@ Los candidatos que el modelo TxGNN propone para Flunarizine (puntuación ≥ 0,9
 
 ## Información de Mercado en Colombia
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 43310 | FLUNARIZINA CLORHIDRATO 11.8 MG EQUIVALENTE A FLUNARIZINA BA | TABLETA | Vigente |
-| 45084 | FLUNARIZINA CLORHIDRATO EQUIVALENTE A FLUNARIZINA BASE | CAPSULA DURA | Vigente |
-| 20013222 | FLUNARIZINA CLORHIDRATO. EQUIVALENTE A FLUNARIZINA | TABLETA | Vigente |
-| 19999406 | FLUNARIZINA CLORHIDRATO EQUIVALENTE A FLUNARIZINA BASE | TABLETA | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19999406 | FLUNARIZINA 10 MG TABLETAS | TABLETA | FLUNARIZINA | Vigente |
+| 20013222 | FLUI-DEX 10 MG | TABLETA | FLUNARIZINA | Vigente |
+| 43310 | FLUNARIZINA 10MG TABLETAS. | TABLETA | FLUNARIZINA | Vigente |
+| 45084 | FLUNARIZINA5 MG | CAPSULA DURA | FLUNARIZINA | Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

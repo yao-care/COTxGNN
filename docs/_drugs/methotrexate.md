@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 435
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Methotrexate"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Methotrexate: nueva indicación predicha, Pulmonary blastoma (nivel de evidencia L5). Indicación original: METROTEXATE"
@@ -94,10 +94,19 @@ Actualmente no hay literatura relacionada disponible para blastoma pulmonar.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 19927154 | METOTREXATO 2.5 MG (ASOFARMA S.A.I. Y C.) | Tableta | METROTEXATE | Vigente |
-| 20243244 | METREXATO® 50 MG/2 ML (BLAU FARMACÉUTICA COLOMBIA S.A.S.) | Solución inyectable | METROTEXATE | Temp. no comerc - Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19927154 | METOTREXATO 2.5 MG | TABLETA | METROTEXATE | Vigente |
+| 20006244 | METOTREXATO PARA INYECCION POR 50 MG /2ML (SOLUCION INYECTABLE) | SOLUCION INYECTABLE | METROTEXATE | Vigente |
+| 20055206 | METOTREXATO INYECTABLE 50 MG / 2 ML | SOLUCION INYECTABLE | METROTEXATE | Vigente |
+| 20062852 | METOTREXATO TABLETAS X 2.5 MG | TABLETA | METROTEXATE | Vigente |
+| 20116869 | METREXATO | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | METROTEXATE | Vigente |
+
+Se muestran 5 de 12 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

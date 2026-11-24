@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 573
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Rufinamide"
 predicted_indications: ["perioral myoclonia with absences"]
 description: "Rufinamide: nueva indicación predicha, Perioral myoclonia with absences (nivel de evidencia L5). Indicación original: RUFINAMIDA"
@@ -79,9 +79,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20153553 | INOVELON® 400 MG | Tableta recubierta | RUFINAMIDA | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20153553 | INOVELON® 400 MG | TABLETA RECUBIERTA | RUFINAMIDA | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 El fabricante registrado es BIOTOSCANA FARMA S.A. Actualmente existe 1 registro vigente de 1 en Colombia y el medicamento está comercializado.
 

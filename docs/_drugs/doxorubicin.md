@@ -98,11 +98,19 @@ Se muestran los ensayos más relevantes (hasta 10). Los que no tienen valoració
 
 Los datos pueden ser parciales.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20155365 | GRANA | Solución inyectable | DOXORUBICINA |
-| 20241643 | DOXO SPAL 2MG/ML SOLUCION INYECTABLE | Solución inyectable | DOXORUBICINA |
-| 19969115 | DOXOPEG ® 2 MG/ML | Suspensión inyectable | DOXORUBICINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19969115 | DOXOPEG ® 2 MG/ML | SUSPENSION INYECTABLE | DOXORUBICINA | Vigente |
+| 20010928 | DOXORUBICINA SOLUCION INYECTABLE 10 MG/ 5ML | SOLUCION INYECTABLE | DOXORUBICINA | Vigente |
+| 20043047 | DOXORUBICINACLORHIDRATO 50 MG / 25 ML SOLUCION PARA INFUSION | SOLUCION INYECTABLE | DOXORUBICINA | Vigente |
+| 20061064 | DOXORUBICINA 50 MG | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | DOXORUBICINA | Vigente |
+| 20118394 | SENFRENDA | SUSPENSION INYECTABLE | DOXORUBICINA | Vigente |
+
+Se muestran 5 de 12 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

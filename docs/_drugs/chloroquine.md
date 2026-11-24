@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 152
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Chloroquine: nueva indicación predicha, Artritis idiopática juvenil poliarticular con factor reumatoide positivo (nivel de evidencia L5). Indicación original: No especificada en los registros"
 monitor_inn: "chloroquine"
 predicted_indications: ["rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis", "juvenile chronic polyarthritis", "juvenile idiopathic arthritis"]
@@ -86,10 +86,16 @@ Para la indicación general de artritis idiopática juvenil (predicciones relaci
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19973372 | CLOROQUINA FOSFATO 250MG | Tableta | CLOROQUINA |
-| 20305885 | CLOROQUINA TABLETAS 150 MG | Tableta | CLOROQUINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19973372 | CLOROQUINA FOSFATO 250MG | TABLETA | CLOROQUINA | Vigente |
+| 20305885 | CLOROQUINA TABLETAS 150 MG | TABLETA | CLOROQUINA | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

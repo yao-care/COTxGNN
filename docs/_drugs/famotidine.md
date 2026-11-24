@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Famotidine"
 predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "multiple endocrine neoplasia", "acne (disease)"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Famotidine: nueva indicación predicha, obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). Indicación original: FAMOTIDINA"
 ---
 
@@ -74,10 +74,17 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19959810 | GASTRUM® 10 MG TABLETA | Tableta | Famotidina |
-| 20249954 | PEPTOFAN® 40 MG | Tableta recubierta | Famotidina |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19959810 | GASTRUM® 10 MG TABLETA | TABLETA | FAMOTIDINA | Vigente |
+| 20249950 | FAMOTIDINA 40 MG | TABLETA RECUBIERTA | FAMOTIDINA | Vigente |
+| 20249954 | PEPTOFAN® 40 MG | TABLETA RECUBIERTA | FAMOTIDINA | Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 La lista de registros puede ser parcial.
 

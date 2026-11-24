@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "colistin"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "infective urethral stricture", "paratyphoid fever", "sinusitis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Colistin: nueva indicación predicha, vasculitis postinfecciosa (postinfectious vasculitis) (nivel de evidencia L5). Indicación original: HIDROCORTISONA Y ANTIINFECCIOSOS"
 ---
 
@@ -73,11 +73,18 @@ Actualmente no hay literatura relacionada disponible.
 
 Los registros sanitarios disponibles en los datos compilados (la lista puede ser parcial):
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20018421 | OIDOLYT GOTAS OTICAS | Suspensión ótica | Hidrocortisona y antiinfecciosos |
-| 20148396 | COLIJECT ® 150 MG / VIAL | Polvo liofilizado para reconstituir a solución inyectable | Colistina |
-| 20033548 | FIXAMICIN® GOTAS OTICAS | Suspensión ótica | Hidrocortisona y antiinfecciosos |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20018421 | OIDOLYT GOTAS OTICAS | SUSPENSION OTICA | HIDROCORTISONA Y ANTIINFECCIOSOS | Vigente |
+| 20033548 | FIXAMICIN® GOTAS OTICAS | SUSPENSION OTICA | HIDROCORTISONA Y ANTIINFECCIOSOS | Vigente |
+| 20068056 | COLISTIMETATO 150MG/VIAL | POLVO | COLISTINA | Vigente |
+| 20148396 | COLIJECT ® 150 MG / VIAL | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | COLISTINA | Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 422
 evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Medroxyprogesterone acetate"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Medroxyprogesterone Acetate: nueva indicación predicha, Enfermedad fibroquística de la mama (breast fibrocystic disease) (nivel de evidencia L3). Indicación original: MEDROXIPROGESTERONA"
@@ -82,11 +82,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 21776 | PROVERA 5 MG TABLETAS (vigente) | Tableta | Medroxiprogesterona |
-| 40914 | PROVERA 10 MG TABLETAS (vigente) | Tableta | Medroxiprogesterona |
-| 20237472 | MEDROXI-ONE (vigente) | Suspensión inyectable | Medroxiprogesterona acetato |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19999216 | MEDROXIPROGESTERONA 5 MG TABLETAS | TABLETA | MEDROXIPROGESTERONA | Vigente |
+| 20175926 | ILEINE® | SUSPENSION INYECTABLE | MEDROXIPROGESTERONA | Vigente |
+| 21776 | PROVERA 5MG TABLETAS | TABLETA | MEDROXIPROGESTERONA | Vigente |
+| 40914 | PROVERA 10 MG TABLETAS | TABLETA | MEDROXIPROGESTERONA | Vigente |
+| 13854 | CYCLOFEM | SUSPENSION INYECTABLE | MEDROXIPROGESTERONA + ESTRADIOL | Temp. no comerc - Vigente |
+
+Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 La lista de registros puede ser parcial.
 

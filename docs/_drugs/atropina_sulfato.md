@@ -8,7 +8,7 @@ indication_count: 2
 drugbank_id: DB00572
 monitor_inn: "Atropine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Atropina Sulfato: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: ATROPINA"
 ---
 
@@ -84,13 +84,19 @@ Ningún estudio citado evalúa directamente la atropina como tratamiento de la m
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19930287 | ATROPINA SULFATO 1MG/ 1ML SOLUCION INYECTABLE | Solución inyectable | ATROPINA |
-| 19940877 | ATROPINA SULFATO SOLUCION INYECTABLE 1 MG / ML | Solución inyectable | ATROPINA |
-| 20028845 | ATROPINA SULFATO SOLUCION INYECTABLE 1MG/ML | Solución inyectable | ATROPINA |
-| 20240762 | ALLEANCE OFTENO® | Solución oftálmica | ATROPINA |
-| 94321 | ATROPINA 1% | Solución oftálmica | ATROPINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19930287 | ATROPINA SULFATO 1MG/ 1ML SOLUCION INYECTABLE | SOLUCION INYECTABLE | ATROPINA | Vigente |
+| 19940877 | ATROPINA SULFATO SOLUCION INYECTABLE 1 MG / ML | SOLUCION INYECTABLE | ATROPINA | Vigente |
+| 20002218 | LOMOTIL® TABLETAS | TABLETA | DIFENOXILATO | Vigente |
+| 20028845 | ATROPINA SULFATO SOLUCION INYECTABLE 1MG/ML | SOLUCION INYECTABLE | ATROPINA | Vigente |
+| 20240762 | ALLEANCE OFTENO® | SOLUCION OFTALMICA | ATROPINA | Vigente |
+
+Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

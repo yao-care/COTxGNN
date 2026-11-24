@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 591
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Spironolactone: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (nivel de evidencia L5). Indicación original: ESPIRONOLACTONA"
 monitor_inn: "Spironolactone"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
@@ -81,12 +81,25 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 19933407 | DOXICLAT® TABLETA. | Tableta | ESPIRONOLACTONA | Vigente |
-| 49664 | ALDACTONE® TABLETAS 25 MG | Tableta | ESPIRONOLACTONA | Vigente |
+<!-- licenses:begin -->
 
-Ningún registro se encuentra vigente actualmente.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19933407 | DOXICLAT® TABLETA. | TABLETA | ESPIRONOLACTONA | Vigente |
+| 19942429 | ESPIRONOLACTONA TABLETA RECUBIERTA 100 MG | TABLETA RECUBIERTA | ESPIRONOLACTONA | Vigente |
+| 19963165 | ESPIROLAN 100 MG TABLETAS. | TABLETA | ESPIRONOLACTONA | Vigente |
+| 19963166 | ESPIROLAN 25 MG TABLETAS | TABLETA | ESPIRONOLACTONA | Vigente |
+| 20015631 | ESPIRONOLACTONA TABLETAS 25 MG | TABLETA | ESPIRONOLACTONA | Vigente |
+
+Se muestran 5 de 11 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
+
+<!-- review:begin co-lic-20261124-spironolactone-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Ningún registro se encuentra vigente actualmente." Eliminado: afirmaba que ningún registro sanitario está vigente, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23): el medicamento tiene 11 registros sanitarios, todos vigentes. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124-spironolactone-1 -->
 
 ---
 
@@ -135,6 +148,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los registros colombianos están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que ambos registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-24 | Eliminado: afirmaba que ningún registro sanitario está vigente | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

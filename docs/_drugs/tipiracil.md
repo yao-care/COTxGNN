@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 628
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 monitor_inn: "tipiracil"
 predicted_indications: ["cecum villous adenoma", "lipoma of colon", "cecum neuroendocrine tumor G1", "colonic lymphangioma", "cecal disease", "colon leiomyoma", "benign neoplasm of cecum", "cavernous hemangioma of colon", "colorectal gastrointestinal stromal tumor"]
 description: "Tipiracil: nueva indicación predicha, adenoma velloso del ciego (cecum villous adenoma) (nivel de evidencia L5). Indicación original: TRIFLURIDINA Y TIPIRACILO"
@@ -72,9 +72,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20245134 | LONSURF® (trifluridina 20 mg + tipiracilo 8,19 mg) | Tableta cubierta con película | Trifluridina y tipiracilo |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20245134 | LONSURF®TRIFLURIDINA 20 MG + TIPIRACILO8.19 MG COMPRIMIDO RECUBIERTO CON PELÍCULA | TABLETA CUBIERTA CON PELICULA | TRIFLURIDINA Y TIPIRACILO | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

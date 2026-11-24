@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 383
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LATANOPROST"
 predicted_indications: ["visceral calciphylaxis", "hypotrichosis simplex of the scalp", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "congenital hypotrichosis milia", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis"]
 description: "Latanoprost: nueva indicación predicha, Visceral calciphylaxis (nivel de evidencia L5). Indicación original: LATANOPROST"
@@ -80,10 +80,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 19947216 | LATANOX® | Solución oftálmica | Latanoprost | Vigente |
-| 20134226 | KAIROS PF® Solución Oftálmica | Solución oftálmica | Latanoprost | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19918936 | XALACOM GOTAS OFTALMICAS | SOLUCION OFTALMICA | TIMOLOL COMBINACIONES | Vigente |
+| 19947216 | LATANOX® | SOLUCION OFTALMICA | LATANOPROST | Vigente |
+| 19949566 | GAAP OFTENO® | SOLUCION OFTALMICA | LATANOPROST | Vigente |
+| 20134226 | KAIROS PF® SOLUCIÓN OFTÁLMICA | SOLUCION OFTALMICA | LATANOPROST | Vigente |
+| 213704 | XALATAN ® 50 MCG / ML SOLUCION OFTALMICA | SOLUCION OFTALMICA | LATANOPROST | Vigente |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

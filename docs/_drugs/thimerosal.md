@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 623
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Thimerosal: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (nivel de evidencia L5). Indicación original: Tiomersal"
 monitor_inn: "THIMEROSAL"
 drugbank_id: DB11590
@@ -83,9 +83,15 @@ Además, los compuestos de mercurio son tóxicos y pueden causar efectos dermato
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 24342 | MERTHIOLATE INCOLORO (TINTURA) | Solución tópica | Tiomersal |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 24342 | MERTHIOLATE INCOLORO (TINTURA) | SOLUCION TOPICA | TIOMERSAL | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

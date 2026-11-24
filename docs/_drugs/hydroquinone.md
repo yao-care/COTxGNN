@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 330
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Hydroquinone: nueva indicación predicha, Queratosis seborreica (nivel de evidencia L5). Indicación original: Hidroquinona"
 monitor_inn: "hydroquinone"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "exanthem (disease)", "lichen disease"]
@@ -84,9 +84,19 @@ Actualmente no hay ensayos clínicos relacionados registrados para queratosis se
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 48599 | CREMOQUINONA 5% CREMA | Crema tópica | Hidroquinona |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 15826 | FILTROQUINONA ® CREMA | CREMA TOPICA | HIDROQUINONA | Vigente |
+| 19931579 | TRI-LUMA® CREMA | CREMA TOPICA | COMBINACIONES DE CORTICOSTEROIDES | Vigente |
+| 19953067 | BETARRETIN® H CREMA | CREMA TOPICA | HIDROQUINONA | Vigente |
+| 20010389 | CREMOQUINONA® | CREMA TOPICA | HIDROQUINONA | Vigente |
+| 20038659 | RELIFE SKIN®. | LOCION | HIDROQUINONA | Vigente |
+
+Se muestran 5 de 14 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

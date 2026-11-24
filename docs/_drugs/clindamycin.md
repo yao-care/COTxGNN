@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 165
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clindamycin: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (nivel de evidencia L5). Indicación original: Clindamicina combinaciones"
 monitor_inn: "Clindamycin"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis", "non-human animal disease", "neurotrophic keratopathy", "epidemic keratoconjunctivitis", "postmenopausal atrophic vaginitis"]
@@ -84,12 +84,19 @@ Como referencia, la segunda indicación predicha (queratitis por exposición, pu
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20131113 | PRIVARE® 2C1019541002 | Óvulo | Clindamicina combinaciones | Vigente |
-| 20129610 | CLINDASHER® Crema Vaginal | Crema vaginal | Clindamicina | Vigente |
-| 20097862 | GYNO BACLIN® | Crema vaginal | Clindamicina | Vigente |
-| 20014120 | VAGYLIN | Crema vaginal | Clindamicina | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19996391 | ZUDENINA® PLUS GEL | GEL TOPICO | ADAPALENO. COMBINACIONES | Vigente |
+| 20001737 | VAGINSOL F CREMA VAGINAL | CREMA VAGINAL | CLINDAMICINA | Vigente |
+| 20010096 | CLINDAMIZOL ® | OVULO | CLINDAMICINA COMBINACIONES | Vigente |
+| 20014120 | VAGYLIN | CREMA VAGINAL | CLINDAMICINA | Vigente |
+| 20023727 | VALERIS®FORTE OVULOVAGINAL | OVULO | CLOTRIMAZOL | Vigente |
+
+Se muestran 5 de 11 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 
@@ -108,12 +115,6 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 
 **Justificación:**
 La predicción carece de ensayos clínicos y literatura de apoyo, y el mecanismo antibacteriano de la clindamicina no se relaciona claramente con una queratopatía mayormente no infecciosa. Además, el medicamento está comercializado en Colombia y cuenta con 11 registros sanitarios vigentes.
-
-<!-- review:begin co-lic-20261112-clindamycin-1 -->
-
-> **Corrección de revisión (2026-11-12)**: Texto original: "4 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 11 registros sanitarios, de los cuales 11 vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261112-clindamycin-1 -->
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción de la clindamicina y análisis de su relevancia para la superficie ocular
@@ -137,7 +138,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 4 → 11 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 4 → 11 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cleocin Hydrochloride (clindamycin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df9a2a41-b132-4f43-8940-b2d773b1369a) |
 
 <!-- review:end log -->

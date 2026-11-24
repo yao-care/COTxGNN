@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 406
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lithium Carbonate: nueva indicación predicha, Pseudoacondroplasia (nivel de evidencia L5). Indicación original: Litio"
 monitor_inn: "Lithium carbonate"
 predicted_indications: ["pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia", "myosclerosis", "brachyolmia-amelogenesis imperfecta syndrome", "brachydactyly-syndactyly syndrome", "Behr syndrome", "WHIM syndrome", "combined immunodeficiency due to moesin deficiency"]
@@ -86,10 +86,16 @@ Actualmente no hay literatura relacionada disponible para pseudoacondroplasia.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20018308 | ACTILITIO® TABLETAS 300 MG | Tableta | LITIO | Vigente |
-| 20005911 | THERALITE® 300 MG | Tableta | LITIO | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20005911 | THERALITE® 300 MG | TABLETA | LITIO | Vigente |
+| 20018308 | ACTILITIO® TABLETAS 300 MG | TABLETA | LITIO | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

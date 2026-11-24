@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 229
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Docusate: nueva indicación predicha, Síndrome de Plummer-Vinson (nivel de evidencia L5). Indicación original: Sodio docusato"
 monitor_inn: "docusate"
 predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia"]
@@ -66,9 +66,15 @@ Cabe mencionar una segunda predicción del modelo: la **anemia megaloblástica c
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 19913206 | SENNAX PLUS® TABLETAS RECUBIERTAS | Tableta recubierta | SODIO DOCUSATO | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19913206 | SENNAX PLUS® TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | SODIO DOCUSATO | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

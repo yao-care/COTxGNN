@@ -95,12 +95,19 @@ Varios estudios de Fase 2 combinaron oxaliplatino con gemcitabina, raltitrexed, 
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20109106 | OXALISEVEN® 100 | Polvo liofilizado para reconstituir a solución inyectable | Oxaliplatino |
-| 20109105 | OXALISEVEN® 50 | Polvo liofilizado para reconstituir a solución inyectable | Oxaliplatino |
-| 20044068 | Oxaliplatino 100 mg/20 ml solución inyectable | Solución inyectable | Oxaliplatino |
-| 19969843 | Oxaliplatino 100 mg inyectable | Polvo liofilizado para reconstituir a solución inyectable | Oxaliplatino |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19969843 | OXALIPLATINO 100 MG INYECTABLE | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | OXALIPLATINO | Vigente |
+| 20044067 | OXALIPLATINO 50 MG /10 ML SOLUCION INYECTABLE | SOLUCION INYECTABLE | OXALIPLATINO | Vigente |
+| 20044068 | OXALIPLATINO 100 MG/20MLSOLUCION INYECTABLE | SOLUCION INYECTABLE | OXALIPLATINO | Vigente |
+| 20109105 | OXALISEVEN® 50 | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | OXALIPLATINO | Vigente |
+| 20109106 | OXALISEVEN® 100 | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | OXALIPLATINO | Vigente |
+
+Se muestran 5 de 9 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 
@@ -132,13 +139,7 @@ No se dispone de las advertencias del prospecto de INVIMA; es necesario consulta
 **Decisión: Hold**
 
 **Justificación:**
-Existe una base mecanística sólida y varios estudios de Fase 2 con actividad, pero son pequeños y de un solo brazo, con un resultado negativo en segunda línea. No hay ensayos de Fase 3, y el estándar de platino con pemetrexed sigue siendo la referencia. Además, el medicamento está comercializado en Colombia con 8 registros vigentes y faltan los datos de seguridad del prospecto.
-
-<!-- review:begin co-lic-20261112-oxaliplatin-1 -->
-
-> **Corrección de revisión (2026-11-12)**: Texto original: "4 registros vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 9 registros sanitarios, de los cuales 8 vigentes y 1 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261112-oxaliplatin-1 -->
+Existe una base mecanística sólida y varios estudios de Fase 2 con actividad, pero son pequeños y de un solo brazo, con un resultado negativo en segunda línea. No hay ensayos de Fase 3, y el estándar de platino con pemetrexed sigue siendo la referencia. Además, el medicamento está comercializado en Colombia con 7 registros vigentes y faltan los datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Descargar y analizar el prospecto de INVIMA para obtener advertencias y contraindicaciones, requisito para el tamizaje de seguridad.
@@ -162,7 +163,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Aclarar la situación regulatoria: no hay registro vigente en Colombia, por lo que se requeriría un nuevo registro o una vía de importación" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 4 → 8 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 4 → 8 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: oxaliplatin prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6f89dc3-a594-4b5b-8728-272e20c1ecb5) |
 
 <!-- review:end log -->

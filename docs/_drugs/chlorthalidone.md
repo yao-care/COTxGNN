@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Chlorthalidone"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "acute pulmonary heart disease", "congenital hypotrichosis milia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Chlorthalidone: nueva indicación predicha, glaucoma hereditario primario (primary hereditary glaucoma) (nivel de evidencia L5). Indicación original: CLORTALIDONA"
 ---
 
@@ -72,11 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20101174 | CARDIOL 25 MG® | Tableta recubierta | CLORTALIDONA |
-| 20061697 | HIDROTEN ® 25 MG TABLETAS | Tableta | CLORTALIDONA |
-| 20126544 | CARDIOL® 12.5 MG | Tableta recubierta | CLORTALIDONA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20061696 | HIDROTEN® 12.5 MG TABLETAS | TABLETA | CLORTALIDONA | Vigente |
+| 20061697 | HIDROTEN ® 25 MG TABLETAS | TABLETA | CLORTALIDONA | Vigente |
+| 20066918 | BRASARTAN® CTDN 80/25 MG | TABLETA RECUBIERTA | VALSARTAN Y DIURETICOS | Vigente |
+| 20077311 | BRASARTAN® CTDN TABLETA RECUBIERTA | TABLETA | VALSARTAN Y DIURETICOS | Vigente |
+| 20079037 | BRASARTAN® CTDN 160/25 MG | TABLETA RECUBIERTA | VALSARTAN Y DIURETICOS | Vigente |
+
+Se muestran 5 de 16 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 La lista de registros puede ser parcial.
 

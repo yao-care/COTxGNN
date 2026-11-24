@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 219
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Diclofenac: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (según la predicción de mayor puntaje… (nivel de evidencia L5). Indicación original: Tramadol y diclofenaco (combinación analgésica)"
 monitor_inn: "Diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
@@ -100,9 +100,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20220497 | DICASEN® 50/50 | Tableta | Tramadol y diclofenaco |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 1983917 | DICLOFENACO SÓDICO 100 MG - HIDROXIDO DE ALUMINIO GEL EQUIVALENTE A200 MG | CAPSULA BLANDA | DICLOFENAC COMBINACIONES | Vigente |
+| 19902446 | DICLOFENACO TABLETAS CON RECUBRIMIENTO ENTERICO 50 MG | TABLETA CON RECUBRIMIENTO ENTÉRICO | DICLOFENACO | Vigente |
+| 19934565 | CLOFENIL® 75 MG / 3 ML INYECTABLE | SOLUCION INYECTABLE | DICLOFENACO | Vigente |
+| 19934768 | DICLOFENACO SODICO 75 MG/ 3 ML | SOLUCION INYECTABLE | DICLOFENACO | Vigente |
+| 19934821 | DICLOFENACO 50 MG TABLETAS RECUBIERTAS DE LIBERACIÓN RETARDADA | TABLETA RECUBIERTA | DICLOFENACO | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "fenticonazole"
 predicted_indications: ["trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "vulvitis", "herpetic vulvovaginitis"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 description: "Fenticonazole: nueva indicación predicha, Vulvovaginitis tricomonásica (trichomonal vulvovaginitis) (nivel de evidencia L5). Indicación original: COMBINACIONES DE IMIDAZOL DERIVADOS"
 ---
 
@@ -74,11 +74,17 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19961513 | LOMEXIN CREMA VAGINAL 2% | Crema vaginal | COMBINACIONES DE IMIDAZOL DERIVADOS |
-| 19963225 | LOMEXIN 600 MG ÓVULOS | Óvulo | FENTICONAZOL |
-| 20067502 | GITIZOL (FENTICONAZOL 0,02 G/G) CREMA VAGINAL | Crema vaginal | FENTICONAZOL |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19961513 | LOMEXIN CREMA VAGINAL 2% | CREMA VAGINAL | COMBINACIONES DE IMIDAZOL DERIVADOS | Vigente |
+| 19963225 | LOMEXIN 600 MG OVULOS | OVULO | FENTICONAZOL | Vigente |
+| 20067502 | GITIZOL (FENTICONAZOL 0.02 G/G) CREMA VAGINAL | CREMA VAGINAL | FENTICONAZOL | Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

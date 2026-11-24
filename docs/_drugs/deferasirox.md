@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 200
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Deferasirox: nueva indicación predicha, Infección por VIH (nivel de evidencia L4). Indicación original: No especificada en los registros (solo figura \"Deferasirox\")"
 monitor_inn: "DEFERASIROX"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
@@ -84,10 +84,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20176281 | THALADEF® 360 MG TABLETAS RECUBIERTAS (vigente) | Tableta recubierta | DEFERASIROX |
-| 20146047 | FERASIRO 500 MG TABLETA DISPERSABLE (vigente) | Tableta dispersable | DEFERASIROX |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20096376 | JADENU®180 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | DEFERASIROX | Vigente |
+| 20096377 | JADENU® 360MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | DEFERASIROX | Vigente |
+| 20145925 | FERASIRO ® 250 MG TABLETA DISPERSABLE | TABLETA DISPERSABLE | DEFERASIROX | Vigente |
+| 20146047 | FERASIRO 500 MG TABLETA DISPERSABLE | TABLETA DISPERSABLE | DEFERASIROX | Vigente |
+| 20176281 | THALADEF® 360 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | DEFERASIROX | Vigente |
+
+Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 564
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Risankizumab: nueva indicación predicha, Dermatitis (nivel de evidencia L2). Indicación original: No especificada en el registro INVIMA (el texto solo repite \"RISANKIZ…"
 monitor_inn: "risankizumab"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
@@ -96,9 +96,15 @@ El puntaje alto de TxGNN refleja cercanía en la red de conocimiento, no prueba 
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20193278 | SKYRIZI® 150 MG/ML | Solución inyectable | RISANKIZUMAB (el registro no detalla la indicación) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20193278 | SKYRIZI® 150 MG/ML | SOLUCION INYECTABLE | RISANKIZUMAB | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 Fabricante: ABBVIE S.A.S.
 

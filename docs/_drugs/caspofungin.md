@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 140
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Caspofungin: nueva indicación predicha, Anomalía de la secreción de gastrina (nivel de evidencia L5). Indicación original: Caspofungina"
 monitor_inn: "caspofungin"
 predicted_indications: ["gastrin secretion abnormality"]
@@ -63,9 +63,19 @@ El puntaje alto de TxGNN (0.9944) proviene solo de una predicción del modelo Tx
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20095165 | KAFUM 50 MG/VIAL | Polvo liofilizado para reconstituir a solución inyectable | CASPOFUNGIN |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20095165 | KAFUM 50 MG/VIAL | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | CASPOFUNGIN | Vigente |
+| 20107146 | CASPONGYN® 50 MG | POLVO PARA SOLUCIÓN INYECTABLE | CASPOFUNGIN | Vigente |
+| 20121784 | ESTASIN® 50 | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | CASPOFUNGIN | Vigente |
+| 20121786 | ESTASIN® 70 | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | CASPOFUNGIN | Vigente |
+| 20134349 | CASPOFUNGINA POLVO LIOFILIZADO PARA SOLUCION INYECTABLE 50 MG | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | CASPOFUNGIN | Vigente |
+
+Se muestran 5 de 18 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

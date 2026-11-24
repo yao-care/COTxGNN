@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 321
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 monitor_inn: "goserelin"
 predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
 description: "Goserelin: nueva indicación predicha, amenorrea (amenorrhea (disease)) (nivel de evidencia L5). Indicación original: GOSERELINA"
@@ -85,9 +85,15 @@ Ningún estudio citado prueba la goserelina como tratamiento de la amenorrea en 
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 201182 | ZOLADEX® LA 10.8 MG (AstraZeneca Colombia S.A.S.) | Implante | GOSERELINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 201182 | ZOLADEX ® LA 10.8 MG | IMPLANTE | GOSERELINA | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

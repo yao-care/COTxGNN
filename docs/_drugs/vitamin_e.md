@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 664
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "Vitamin E"
 predicted_indications: ["inborn disorder of bilirubin metabolism", "bilirubin metabolism disease", "hereditary North American Indian childhood cirrhosis", "drug-induced liver injury", "microvillus inclusion disease", "hyperbiliverdinemia", "Navajo neurohepatopathy", "nevus of Ito", "adult-onset multiple mitochondrial DNA deletion syndrome due to DGUOK deficiency", "mitochondrial DNA depletion syndrome, hepatocerebral form"]
 description: "Vitamin E: nueva indicación predicha, Inborn disorder of bilirubin metabolism (nivel de evidencia L5). Indicación original: MULTIVITAMINAS Y OTROS MINERALES INCL COMBINACIONES"
@@ -73,9 +73,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19960586 | NATELE® EASYGELS | Cápsula blanda | Multivitaminas y otros minerales, incluidas combinaciones |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19900780 | VITALIPID® - NINFANT | EMULSION INYECTABLE | COMBINACIONES | Vigente |
+| 19900781 | VITALIPID® N - ADULT | EMULSION INYECTABLE | COMBINACIONES | Vigente |
+| 19939451 | MULTI-12/K1 PEDIATRICO | SOLUCION INYECTABLE | COMBINACIONES | Vigente |
+| 19947023 | VITAMINA E 1.000 IU | CAPSULA BLANDA | TOCOFEROL (VIT E) | Vigente |
+| 19960586 | NATELE® EASYGELS | CAPSULA BLANDA | MULTIVITAMINAS Y OTROS MINERALES INCL COMBINACIONES | Vigente |
+
+Se muestran 5 de 9 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

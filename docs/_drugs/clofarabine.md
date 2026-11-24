@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 168
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Clofarabine: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L1). Indicación original: CLOFARABINA"
 monitor_inn: "Clofarabine"
 predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"]
@@ -106,10 +106,16 @@ Se muestran los ensayos más relevantes (de un total de 43 registrados para esta
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20137192 | RELUKA® Solución concentrada para infusión inyectable | Solución concentrada para infusión | CLOFARABINA (vigente) |
-| 20094735 | CLOFAZIC® 20MG/20ML | Solución inyectable | CLOFARABINA (vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20137192 | RELUKA® SOLUCION CONCENTRADA PARA INFUSION INYECTABLE | SOLUCIÓN CONCENTRADA PARA INFUSIÓN | CLOFARABINA | Vigente |
+| 20094735 | CLOFAZIC® 20MG/20ML | SOLUCION INYECTABLE | CLOFARABINA | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

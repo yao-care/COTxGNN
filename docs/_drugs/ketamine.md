@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 365
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ketamine: nueva indicación predicha, Trastorno de cefalea (headache disorder) (nivel de evidencia L1). Indicación original: KETAMINA"
 monitor_inn: "ketamine"
 predicted_indications: ["headache disorder"]
@@ -103,9 +103,18 @@ Nota: el conjunto de literatura incluye además estudios sobre ketamina en depre
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 49510 | KETAMINA I.V. | Solución inyectable | KETAMINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20041864 | KETAMINA CLORHIDRATO 500 MG/10ML | SOLUCION INYECTABLE | KETAMINA | Vigente |
+| 20083397 | KETAKOV® SOLUCION INYECTABLE 50 MG/ ML | SOLUCION INYECTABLE | KETAMINA | Vigente |
+| 20241853 | CLORHIDRATO DE KETAMINA SOLUCIÓN INYECTABLE | SOLUCION INYECTABLE | KETAMINA | Vigente |
+| 49510 | KETAMINA I.V. | SOLUCION INYECTABLE | KETAMINA | Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 Fabricante: FEPARVI S.A.S.
 

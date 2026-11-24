@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 599
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "SUNITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
 description: "Sunitinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L2). Indicación original: SUNITINIB"
@@ -91,12 +91,19 @@ La señal es limitada: las cohortes son pequeñas, las tasas de respuesta public
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20196041 | RENISUN® 12.5 mg cápsulas duras | Cápsula dura | SUNITINIB (vigente) |
-| 20193310 | RENISUN® 50 mg cápsulas duras | Cápsula dura | SUNITINIB (vigente) |
-| 20194945 | RENISUN® 37.5 mg cápsulas duras | Cápsula dura | SUNITINIB (vigente) |
-| 20196071 | RENISUN® 25 mg cápsulas | Cápsula dura | SUNITINIB (vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19968255 | SUTENT® CAPSULAS 12.5 MG | CAPSULA DURA | SUNITINIB | Vigente |
+| 19968257 | SUTENT® CAPSULAS 25 MG | CAPSULA DURA | SUNITINIB | Vigente |
+| 19968258 | SUTENT® CAPSULAS 50 MG | CAPSULA DURA | SUNITINIB | Vigente |
+| 20193310 | RENISUN® 50MG CÁPSULAS DURAS | CAPSULA DURA | SUNITINIB | Vigente |
+| 20194945 | RENISUN® 37.5MG CÁPSULAS DURAS | CAPSULA DURA | SUNITINIB | Vigente |
+
+Se muestran 5 de 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 Los cuatro registros pertenecen a HB Human Bioscience S.A.S.
 

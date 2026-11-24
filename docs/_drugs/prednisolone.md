@@ -86,12 +86,19 @@ Es importante aclarar que el nivel L2 se basa únicamente en los títulos de la 
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20009756 | PREDNIOFTAL F® | Suspensión oftálmica | Prednisolona |
-| 19997234 | DIETYSOLONE PLUS SUSPENSION OFTALMICA | Suspensión oftálmica | Fenilefrina combinaciones |
-| 20071241 | PREDNISOLONA TABLETAS 5 MG | Tableta | Prednisolona |
-| 230341 | SOPHIPREN OFTENO | Suspensión oftálmica | Prednisolona |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19912759 | PRED-F® SUSPENSION OFTALMICA. | SUSPENSION OFTALMICA | PREDNISOLONA | Vigente |
+| 19936154 | PREFOX-T® | SUSPENSION OFTALMICA | PREDNISOLONA Y MIDRI TICOS | Vigente |
+| 19953438 | PREDNISOLONA 5 MG TABLETAS | TABLETA | PREDNISOLONA | Vigente |
+| 19982087 | TQ CORTIOFTAL 1% SUSPENSION OFTALMICA | SUSPENSION OFTALMICA | PREDNISOLONA | Vigente |
+| 19984620 | CORTIOFTAL- F SUSPENSIONOFTALMICA ESTERIL | SUSPENSION OFTALMICA | FENILEFRINA COMBINACIONES | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

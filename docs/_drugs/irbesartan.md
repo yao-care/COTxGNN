@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "IRBESARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Irbesartan: nueva indicación predicha, enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: IRBESARTAN"
 ---
 
@@ -72,9 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20048718 | CORIONAL® 300 MG TABLETAS RECUBIERTAS | Tableta recubierta | IRBESARTAN |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19948497 | IRBEPREX® 300 MG TABLETAS | TABLETA | IRBESARTAN | Vigente |
+| 19948593 | IRBEPREX H® 300/12.5 MGTABLETAS | TABLETA | IRBESARTAN Y DIURETICOS | Vigente |
+| 19949125 | IRBETIAZID®300 | TABLETA | IRBESARTAN Y DIURETICOS | Vigente |
+| 19949126 | IRBETIAZID® 150 | TABLETA | IRBESARTAN Y DIURETICOS | Vigente |
+| 19951640 | IRBETT 300TABLETAS | TABLETA | IRBESARTAN | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 La lista de registros puede ser parcial.
 

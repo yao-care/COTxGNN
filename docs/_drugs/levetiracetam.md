@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 395
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LEVETIRACETAM"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Levetiracetam: nueva indicación predicha, Beta-ketothiolase deficiency (nivel de evidencia L5). Indicación original: LEVETIRACETAM"
@@ -107,12 +107,19 @@ Se listan los 10 ensayos más relevantes de los 16 registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20122152 | Levetiracetam 1000 mg tabletas recubiertas | Tableta recubierta | LEVETIRACETAM |
-| 20098490 | Convulam solución oral | Solución oral | LEVETIRACETAM |
-| 19999765 | Keppra concentrado para solución para perfusión 100 mg/ml | Solución inyectable | LEVETIRACETAM |
-| 19936411 | Keppra tabletas 1000 mg | Tableta recubierta | LEVETIRACETAM |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19936411 | KEPPRA ® TABLETAS 1000 MG | TABLETA RECUBIERTA | LEVETIRACETAM | Vigente |
+| 19936412 | KEPPRA ® TABLETAS 500 MG | TABLETA RECUBIERTA | LEVETIRACETAM | Vigente |
+| 19975838 | KEPPRA® SOLUCION ORAL | SOLUCION ORAL | LEVETIRACETAM | Vigente |
+| 19999765 | KEPPRA ® CONCENTRADO PARA SOLUCION PARA PERFUSION 100MG/ ML | SOLUCION INYECTABLE | LEVETIRACETAM | Vigente |
+| 20007895 | CEUMID® COMPRIMIDOS RECUBIERTOS 1000 MG | TABLETA CUBIERTA CON PELICULA | LEVETIRACETAM | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

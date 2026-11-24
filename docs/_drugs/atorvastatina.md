@@ -8,7 +8,7 @@ indication_count: 4
 drugbank_id: DB01076
 monitor_inn: "Atorvastatin"
 predicted_indications: ["HIV infectious disease", "brain stem infarction", "cholesterol-ester transfer protein deficiency", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atorvastatina: nueva indicación predicha, Infección por VIH (HIV infectious disease) (nivel de evidencia L2). Indicación original: ATORVASTATIN"
 ---
 
@@ -96,6 +96,20 @@ Se muestran 10 de las 20 publicaciones, priorizando ensayos aleatorizados.
 | [10449305](https://pubmed.ncbi.nlm.nih.gov/10449305/) | 1999 | Estudio clínico | AIDS | Uso de atorvastatina en la hiperlipidemia asociada a inhibidores de proteasa |
 
 ## Información de Mercado en Colombia
+
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19908144 | ATORVASTATINA 20 MG. | TABLETA RECUBIERTA | ATORVASTATIN | Vigente |
+| 19913750 | ATORVASTATINA 20 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | ATORVASTATIN | Vigente |
+| 19913753 | ATORVASTATINA 10 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | ATORVASTATIN | Vigente |
+| 19919867 | LIPITOR® 40 MG. TABLETAS | TABLETA | ATORVASTATIN | Vigente |
+| 19935527 | LIPITOR®80 MG TABLETAS | TABLETA RECUBIERTA | ATORVASTATIN | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 Atorvastatina figura como **comercializada** en Colombia. La lista de registros puede ser parcial. Las presentaciones son orales: tabletas, tabletas recubiertas y tabletas cubiertas con película.
 

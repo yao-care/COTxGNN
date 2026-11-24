@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 451
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "mitoxantrone"
 predicted_indications: ["upper aerodigestive tract neoplasm", "small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "head and neck cancer", "bladder exstrophy-epispadias-cloacal exstrophy complex"]
 description: "Mitoxantrone: nueva indicación predicha, Upper aerodigestive tract neoplasm (nivel de evidencia L5). Indicación original: MITOXANTRONA"
@@ -101,9 +101,15 @@ Hoy el interés se concentra en la formulación liposomal, con un estudio de fas
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20063702 | MITOXANTRONA 20 MG / 10 ML (Blau Farmacéutica Colombia S.A.S.) | Solución inyectable | MITOXANTRONA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20063702 | MITOXANTRONA 20 MG / 10 ML | SOLUCION INYECTABLE | MITOXANTRONA | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

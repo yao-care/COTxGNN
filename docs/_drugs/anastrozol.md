@@ -8,7 +8,7 @@ indication_count: 5
 drugbank_id: DB01217
 monitor_inn: "Anastrozole"
 predicted_indications: ["neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "monocytic leukemia"]
-last_modified_at: 2026-11-16
+last_modified_at: 2026-11-24
 description: "Anastrozol: nueva indicación predicha, Neuroblastoma (nivel de evidencia L5). Indicación original: ANASTROZOL"
 ---
 
@@ -73,13 +73,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19910957 | TROZOLET 1 MG COMPRIMIDOS RECUBIERTOS | Tableta cubierta con película | No registrada en los datos locales |
-| 20038017 | ANANA® 1 MG | Tableta cubierta con película | No registrada en los datos locales |
-| 20039756 | ANASTROZOL 1 MG (Sandoz) | Tableta recubierta | No registrada en los datos locales |
-| 20060326 | HB ONCOCARE® | Tableta recubierta | No registrada en los datos locales |
-| 206742 | ARIMIDEX® 1 MG | Tableta recubierta | No registrada en los datos locales |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19910957 | TROZOLET 1 MG COMPRIMIDOS RECUBIERTOS. | TABLETA CUBIERTA CON PELICULA | ANASTROZOL | Vigente |
+| 20038017 | ANANA® 1 MG TABLETA CUBIERTA CON PELICULA | TABLETA CUBIERTA CON PELICULA | ANASTROZOL | Vigente |
+| 20039756 | ANASTROZOL 1 MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | ANASTROZOL | Vigente |
+| 20060326 | HB ONCOCARE® | TABLETA RECUBIERTA | ANASTROZOL | Vigente |
+| 20064693 | ANASTOLE® 1 MG TABLETAS | TABLETA RECUBIERTA | ANASTROZOL | Vigente |
+
+Se muestran 5 de 10 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 Se muestran 5 de los 10 registros sanitarios vigentes.
 

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 172
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clonazepam: nueva indicación predicha, Síndrome de piernas inquietas (nivel de evidencia L3). Indicación original: No especificada"
 monitor_inn: "CLONAZEPAM"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
@@ -92,10 +92,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19935777 | COQUAN® 0.5 MG TABLETAS RECUBIERTAS | Tableta recubierta | CLONAZEPAM (vigente) |
-| 19954442 | SEDATRIL® 2 MG | Tableta | CLONAZEPAM (vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19920065 | COQUAN® GOTAS | SOLUCION ORAL | CLONAZEPAM | Vigente |
+| 19934941 | COQUAN® 2 MG TABLETARECUBIERTA | TABLETA RECUBIERTA | CLONAZEPAM | Vigente |
+| 19935777 | COQUAN® 0.5 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | CLONAZEPAM | Vigente |
+| 19954442 | SEDATRIL® 2 MG | TABLETA | CLONAZEPAM | Vigente |
+| 20051145 | SEDATRIL®SOLUCION ORAL | SOLUCION ORAL | CLONAZEPAM | Vigente |
+
+Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

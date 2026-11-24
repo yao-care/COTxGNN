@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 648
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tropicamide: nueva indicación predicha, Síndrome de la cola de caballo (nivel de evidencia L5). Indicación original: Tropicamida en combinaciones (solución oftálmica)"
 monitor_inn: "Tropicamide"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
@@ -94,11 +94,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20069775 | T-P OFTENO | Solución oftálmica | Tropicamida combinaciones | Vigente |
-| 20215215 | FOTORRETIN® Solución Oftálmica Estéril | Solución oftálmica | Fenilefrina combinaciones | Vigente |
-| 19950677 | FOTORRETIN® Solución Oftálmica | Solución oftálmica | Fenilefrina combinaciones | Temp. no comerc - Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19978455 | TROPIFEN® | SOLUCION OFTALMICA | TROPICAMIDA COMBINACIONES | Vigente |
+| 20069775 | T-P OFTENO | SOLUCION OFTALMICA | TROPICAMIDA COMBINACIONES | Vigente |
+| 20140008 | BIOGLOZYL® SOLUCIONOFTALMICA | SOLUCION OFTALMICA | TROPICAMIDA COMBINACIONES | Vigente |
+| 20215215 | FOTORRETIN® SOLUCIÓN OFTÁLMICA ESTÉRIL | SOLUCION OFTALMICA | FENILEFRINA COMBINACIONES | Vigente |
+| 19950677 | FOTORRETIN ® SOLUCIÓN OFTÁLMICA | SOLUCION OFTALMICA | FENILEFRINA COMBINACIONES | Temp. no comerc - Vigente |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 
@@ -124,12 +132,6 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto aprobad
 **Justificación:**
 La predicción se basa únicamente en el modelo computacional (L5), sin ensayos clínicos ni literatura. Además, el fármaco está comercializado en Colombia con 4 registros vigentes, pero solo existe en forma oftálmica, y no hay una vía de administración plausible para la indicación predicha, que requiere descompresión quirúrgica y no tratamiento anticolinérgico.
 
-<!-- review:begin co-lic-20261112-tropicamide-1 -->
-
-> **Corrección de revisión (2026-11-12)**: Texto original: "3 registros vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 5 registros sanitarios, de los cuales 4 vigentes y 1 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261112-tropicamide-1 -->
-
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción (consulta a la API de DrugBank).
 - Advertencias y contraindicaciones del prospecto en INVIMA (descargar y analizar el PDF).
@@ -146,7 +148,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los tres registros sanitarios están cancelados; no hay productos vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 3 → 4 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 3 → 4 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Mydriacyl (tropicamide) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d4f4a2e-eb00-4c65-b3fa-baf5738d468d) |
 
 <!-- review:end log -->

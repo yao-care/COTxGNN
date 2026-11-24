@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 126
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cabozantinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L5). Indicación original: Cabozantinib"
 monitor_inn: "CABOZANTINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "angiolipoma"]
@@ -93,9 +93,15 @@ Sin embargo, la evidencia directa específica para liposarcoma es limitada. El e
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20172869 | CABOMETYX 40 MG (IPSEN PHARMA) | Tableta recubierta | CABOZANTINIB |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20172869 | CABOMETYX 40 MG | TABLETA RECUBIERTA | CABOZANTINIB | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 606
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tapentadol: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: Tapentadol"
 monitor_inn: "tapentadol"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -93,10 +93,19 @@ Para la predicción principal (trastorno de migraña) no hay literatura disponib
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20049944 | PALEXIS® RETARD 100 MG (vigente) | Tableta de liberación prolongada | TAPENTADOL |
-| 20049941 | PALEXIS® RETARD 150 MG (vigente) | Tableta de liberación prolongada | TAPENTADOL |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20018741 | PALEXIS® RETARD 50MG | TABLETA DE LIBERACION PROLONGADA | TAPENTADOL | Vigente |
+| 20049941 | PALEXIS® RETARD 150 MG | TABLETA DE LIBERACION PROLONGADA | TAPENTADOL | Vigente |
+| 20049944 | PALEXIS® RETARD 100 MG | TABLETA DE LIBERACION PROLONGADA | TAPENTADOL | Vigente |
+| 20049946 | PALEXIS ® 50 MG. | TABLETA RECUBIERTA | TAPENTADOL | Vigente |
+| 20052257 | PALEXIS® RETARD 25MG | TABLETA DE LIBERACION PROLONGADA | TAPENTADOL | Vigente |
+
+Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

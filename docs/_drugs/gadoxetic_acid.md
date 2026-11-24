@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 306
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Gadoxetic Acid: nueva indicación predicha, Hipertiroidismo (nivel de evidencia L5). Indicación original: Medios de contraste paramagnético (gadolinio)"
 monitor_inn: "gadoxetic acid"
 drugbank_id: DB08884
@@ -90,9 +90,15 @@ Para la indicación principal (hipertiroidismo) no hay literatura disponible. La
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20030187 | PRIMOVIST® SOLUCIÓN INYECTABLE | Solución inyectable | Medios de contraste paramagnético (gadolinio) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20030187 | PRIMOVIST® SOLUCIÓN INYECTABLE | SOLUCION INYECTABLE | MEDIOS DE CONTRASTE PARAMAGNETICO (GADOLIN) | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

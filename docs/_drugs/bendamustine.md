@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 98
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bendamustine: nueva indicación predicha, Linfoma de células del manto (nivel de evidencia L1). Indicación original: BENDAMUSTINE"
 monitor_inn: "Bendamustine"
 predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Hodgkins lymphoma", "small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "MALT lymphoma", "relapsing-remitting multiple sclerosis"]
@@ -108,9 +108,19 @@ Se listan los ensayos más relevantes (de un total de 44 identificados para esta
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20154170 | Bendamustina Clorhidrato 100 mg polvo liofilizado para inyección (Laboratorio Kemex S.A.) | Polvo liofilizado para reconstituir a solución inyectable | BENDAMUSTINE |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20135863 | BESUMID PARA INYECCIÓN 100 MG. | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | BENDAMUSTINE | Vigente |
+| 20137452 | LEUKUSTIM® 100 MG POLVO LIOFILIZADO | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | BENDAMUSTINE | Vigente |
+| 20147385 | BENDAL® | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | BENDAMUSTINE | Vigente |
+| 20152258 | BENDAMUSTINA CLORHIDRATO PARA INYECCION 25 MG/VIAL | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | BENDAMUSTINE | Vigente |
+| 20152514 | BENDAMUSTINA CLORHIDRATO PARA INYECCION 100 MG/ VIAL | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | BENDAMUSTINE | Vigente |
+
+Se muestran 5 de 14 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Citotoxicidad
 

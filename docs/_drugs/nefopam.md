@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 465
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Nefopam: nueva indicación predicha, Craniosinostosis con catarata (craniostenosis cataract) (nivel de evidencia L5). Indicación original: NEFOPAM"
 monitor_inn: "nefopam"
 predicted_indications: ["craniostenosis cataract", "immature cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "diabetic cataract", "lumbar spinal stenosis"]
@@ -93,9 +93,15 @@ La evidencia corresponde a la estenosis espinal lumbar (no a la indicación prin
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20108472 | ACUPAN SOLUCION INYECTABLE (BIOCODEX) | Solución inyectable | NEFOPAM | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20108472 | ACUPAN SOLUCION INYECTABLE | SOLUCION INYECTABLE | NEFOPAM | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

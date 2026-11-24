@@ -93,10 +93,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19984 | PAX® DIA GRANULADO (vigente) | Gránulos | Paracetamol combinaciones excluyendo sicolépticos |
-| 19984369 | NOXPIRIN® SINUS TABLETA (vigente) | Tableta cubierta con película | Fenilefrina combinaciones |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19721 | PAX® CALIENTE NOCHE GRANULADO SABORA PANELA LIMÓN Y SABOR A LIMON | GRANULOS | PARACETAMOL COMBINACIONES EXCLUYENDO SICOLEPTICOS | Vigente |
+| 19906457 | DOLEX® CONTRA LOS SINTOMAS DE LA GRIPA TABLETAS. | TABLETA | PARACETAMOL COMBINACIONES EXCLUYENDO SICOLEPTICOS | Vigente |
+| 19907635 | ACIDRINEDJARABE. | JARABE | PSEUDOEFEDRINA COMBINACIONES | Vigente |
+| 19909497 | CLARIGRIP® TABLETAS. | TABLETA | PARACETAMOL COMBINACIONES EXCLUYENDO SICOLEPTICOS | Vigente |
+| 19914757 | ADOREM GRIPA TABLETAS | TABLETA | PARACETAMOL COMBINACIONES EXCLUYENDO SICOLEPTICOS | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

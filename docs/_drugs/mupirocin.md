@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 458
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mupirocin: nueva indicación predicha, Empiema pleural (nivel de evidencia L5). Indicación original: Mupirocina"
 monitor_inn: "mupirocin"
 predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
@@ -83,9 +83,18 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 19952603 | PRESIDERM® | Ungüento tópico | Mupirocina | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19952603 | PRESIDERM® | UNGUENTO TOPICO | MUPIROCINA | Vigente |
+| 19964644 | MUPICARE®UNGUENTO 2 % | UNGUENTO TOPICO | MUPIROCINA | Vigente |
+| 20018316 | DERMA Q CREMA TOPICA | CREMA TOPICA | MOMETASONE | Vigente |
+| 20164323 | MUPIRAL ® UNGUENTO | UNGUENTO TOPICO | MUPIROCINA | Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 Fabricante: MEGALABS COLOMBIA S.A.S.
 

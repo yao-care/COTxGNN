@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 412
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Losartan: nueva indicación predicha, Enfermedad renal hipertensiva maligna (nivel de evidencia L5). Indicación original: Losartán"
 monitor_inn: "LOSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
@@ -83,10 +83,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20189581 | SANTANIL® tableta recubierta 50 mg | Tableta recubierta | Losartán |
-| 20263318 | LOSAN HCT® tableta recubierta | Tableta recubierta | Losartán y diuréticos |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19900484 | SATOREN ® H TABLETAS | TABLETA | LOSARTAN Y DIURETICOS | Vigente |
+| 19908404 | HYZAAR® FORTE 100 / 25MG | TABLETA CUBIERTA CON PELICULA | LOSARTAN Y DIURETICOS | Vigente |
+| 19929989 | ARAPRES-ANZG | TABLETA CUBIERTA CON PELICULA | LOSARTAN | Vigente |
+| 19931835 | LOSARTAN POTÁSICO 50MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | LOSARTAN | Vigente |
+| 19932984 | LOSARTAN 50 MG | TABLETA CUBIERTA CON PELICULA | LOSARTAN | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

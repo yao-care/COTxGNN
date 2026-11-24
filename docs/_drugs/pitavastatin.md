@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "pitavastatin"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pitavastatin: nueva indicación predicha, Deficiencia de la proteína de transferencia de ésteres de colesterol (nivel de evidencia L5). Indicación original: Pitavastatina"
 ---
 
@@ -72,11 +72,17 @@ Actualmente no hay literatura relacionada disponible.
 
 La lista es parcial: se muestran 3 registros vigentes y puede haber más. Todos son productos de un solo principio activo.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20250238 | ALTACOR® 2 MG tableta recubierta | Tableta recubierta | Pitavastatina |
-| 20250244 | ALTACOR® 4 MG tabletas recubiertas | Tableta recubierta | Pitavastatina |
-| 20250209 | ALTACOR® 1 MG tabletas recubiertas | Tableta recubierta | Pitavastatina |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20250209 | ALTACOR®1 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | PITAVASTATINA | Vigente |
+| 20250238 | ALTACOR ® 2 MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | PITAVASTATINA | Vigente |
+| 20250244 | ALTACOR ®4 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | PITAVASTATINA | Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

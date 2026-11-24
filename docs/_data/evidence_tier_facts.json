@@ -1634,7 +1634,7 @@
     "lt": 0,
     "lv": 18,
     "r": 3,
-    "rs": "Registro 20053245: estado vigente → vencido",
+    "rs": "Eliminado: \"dado que no hay registros vigentes\"",
     "x": 0
    },
    {
@@ -2425,8 +2425,8 @@
     "i": "hypotrichosis simplex of the scalp",
     "lt": 11,
     "lv": 11,
-    "r": 2,
-    "rs": "Eliminado: \"dado que ambos registros están cancelados\"",
+    "r": 3,
+    "rs": "Eliminado: afirmaba que ningún registro sanitario está vigente",
     "x": 0
    },
    {
@@ -3438,7 +3438,7 @@
     "lt": 6,
     "lv": 5,
     "r": 4,
-    "rs": "Registro 20065995: estado vigente → vencido",
+    "rs": "Eliminado: \"dado que ambos registros están cancelados\"",
     "x": 0
    },
    {
@@ -4549,7 +4549,7 @@
     "lt": 3,
     "lv": 2,
     "r": 4,
-    "rs": "Registro 19977977: estado vigente → vencido",
+    "rs": "Registros vigentes: 3 → 2",
     "x": 0
    },
    {
@@ -4812,8 +4812,8 @@
     "i": "autosomal ichthyosis syndrome with fatal disease course",
     "lt": 2,
     "lv": 2,
-    "r": 2,
-    "rs": "Eliminado: \"dado que los dos registros están cancelados\"",
+    "r": 3,
+    "rs": "Eliminado: afirmaba que ningún registro sanitario está vigente",
     "x": 0
    },
    {
@@ -5087,8 +5087,8 @@
     "i": "polycystic kidney disease 3 with or without polycystic liver disease",
     "lt": 2,
     "lv": 2,
-    "r": 3,
-    "rs": "Eliminado: \"los dos registros sanitarios en Colombia están cancelados y\"",
+    "r": 4,
+    "rs": "Eliminado: afirmaba que ningún registro sanitario está vigente",
     "x": 0
    },
    {
@@ -5099,7 +5099,7 @@
     "lt": 4,
     "lv": 2,
     "r": 4,
-    "rs": "Registro 20219978: estado vigente → vencido",
+    "rs": "Eliminado: \"Revisar la situación regulatoria: los cuatro registros están cancelados\"",
     "x": 0
    },
    {

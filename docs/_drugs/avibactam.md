@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "avibactam"
 predicted_indications: ["ureter tuberculosis", "urinary schistosomiasis", "polyclonal hyperviscosity syndrome", "hyperamylasemia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Avibactam: nueva indicación predicha, Tuberculosis del uréter (ureter tuberculosis) (nivel de evidencia L5). Indicación original: CEFTAZIDIMA E INHIBIDOR DE BETALACTAMASA"
 ---
 
@@ -76,9 +76,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20157002 | ZAVICEFTA | Polvo estéril para reconstituir a solución inyectable | Ceftazidima e inhibidor de betalactamasa |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20157002 | ZAVICEFTA | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | CEFTAZIDIMA E INHIBIDOR DE BETALACTAMASA | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

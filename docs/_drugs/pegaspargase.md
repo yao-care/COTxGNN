@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 503
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "pegaspargase"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
 description: "Pegaspargase: nueva indicación predicha, Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (nivel de evidencia L5). Indicación original: PEGASPARGASA"
@@ -114,10 +114,16 @@ Se muestran las publicaciones más relevantes (priorizando ECA y revisiones):
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20105447 | ONCASPAR® 3750 UI | Solución inyectable | PEGASPARGASA |
-| 20200646 | ONCASPAR® 750 U/ML polvo para solución inyectable | Polvo liofilizado para reconstituir a solución inyectable | PEGASPARGASA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20105447 | ONCASPAR ®3750 UI | SOLUCION INYECTABLE | PEGASPARGASA | Vigente |
+| 20200646 | ONCASPAR® 750 U/ML POLVO PARA SOLUCIÓN INYECTABLE | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | PEGASPARGASA | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 492
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PACLITAXEL"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Paclitaxel: nueva indicación predicha, Parameningeal embryonal rhabdomyosarcoma (nivel de evidencia L5). Indicación original: PACLITAXEL"
@@ -108,18 +108,19 @@ Se listan los ensayos más relevantes (priorizando Fase 3 y Fase 2 con paclitaxe
 
 Existen 15 registros sanitarios vigentes; el medicamento se encuentra comercializado.
 
-<!-- review:begin co-lic-20261112-paclitaxel-1 -->
+<!-- licenses:begin -->
 
-> **Corrección de revisión (2026-11-12)**: Texto original: "4 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 16 registros sanitarios, de los cuales 15 vigentes; 1 perdieron fuerza ejecutoria o fueron cancelados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19952097 | PACLITAXEL 100 MG/ 16.7 ML VIAL | SOLUCION INYECTABLE | PACLITAXEL | Vigente |
+| 19976518 | PACLITAXEL 30 MG SOLUCION INYECTABLE | SOLUCION INYECTABLE | PACLITAXEL | Vigente |
+| 19976519 | PACLITAXEL 100 MG SOLUCIONINYECTABLE | SOLUCION INYECTABLE | PACLITAXEL | Vigente |
+| 19991105 | PACLITAXEL 300MG | SOLUCION INYECTABLE | PACLITAXEL | Vigente |
+| 20007285 | PACLITAXEL 30 MG/ 5 ML SOLUCION INYECTABLE | SOLUCION INYECTABLE | PACLITAXEL | Vigente |
 
-<!-- review:end co-lic-20261112-paclitaxel-1 -->
+Se muestran 5 de 16 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19976519 | Paclitaxel 100 mg solución inyectable (Fresenius Kabi Oncology) | Solución inyectable | Paclitaxel (sin detalle de indicación) |
-| 20047567 | Paclitaxel inyectable 100 mg / 16.67 mL (Ropsohn Therapeutics) | Solución inyectable | Paclitaxel (sin detalle de indicación) |
-| 20020276 | Paclitaxel 100 mg / 16.7 mL vial solución inyectable (Venus Remedies) | Solución inyectable | Paclitaxel (sin detalle de indicación) |
-| 20137724 | Taxela® solución inyectable (Hetero Labs) | Solución inyectable | Paclitaxel (sin detalle de indicación) |
+<!-- licenses:end -->
 
 ---
 
@@ -173,7 +174,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "no hay registros sanitarios vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 4 → 15 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 4 → 15 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Paclitaxel Protein-Bound Particles For Injectable Suspension (Albumin-Bound) (paclitaxel) prescribing information, NorthStar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e9d5093-fbfc-470a-8520-811c46a8870c) |
 
 <!-- review:end log -->

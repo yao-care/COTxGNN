@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 38
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Allopurinol: nueva indicación predicha, Porfiria hepática (nivel de evidencia L5). Indicación original: Alopurinol"
 monitor_inn: "Allopurinol"
 predicted_indications: ["hepatic porphyria", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "disorder of phenylalanine metabolism", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "idiopathic eosinophilic myositis"]
@@ -85,11 +85,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 11415 | ALOPURINOL 300 MG (Memphis Products S.A.) | Tableta | Alopurinol (estado: vigente) |
-| 18777 | UROCUAD® Tabletas 100 mg (Teofarma S.R.L.) | Tableta | Alopurinol (estado: vigente) |
-| 19966240 | ALLO Tableta (Laboratorios Neo Ltda.) | Tableta | Alopurinol (estado: vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 11415 | ALOPURINOL 300 MG | TABLETA | ALOPURINOL | Vigente |
+| 18777 | UROCUAD® TABLETAS 100 MG. | TABLETA | ALOPURINOL | Vigente |
+| 19966240 | ALLO TABLETA | TABLETA | ALOPURINOL | Vigente |
+| 20049088 | ALOPURINOL 100 MG TABLETA | TABLETA | ALOPURINOL | Vigente |
+| 20222454 | ZYLOPRIM 100MG TABLETAS | TABLETA | ALOPURINOL | Vigente |
+
+Se muestran 5 de 9 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 
@@ -109,12 +117,6 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 
 **Justificación:**
 No hay ensayos clínicos y la literatura disponible no estudia el alopurinol en porfiria; el puntaje alto de TxGNN proviene del modelo TxGNN (aprendizaje profundo) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. Además, existe una posible señal de seguridad (efecto porfirinogénico en animales) y en Colombia el medicamento está comercializado, con 9 registros sanitarios vigentes.
-
-<!-- review:begin co-lic-20261112-allopurinol-1 -->
-
-> **Corrección de revisión (2026-11-12)**: Texto original: "3 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 9 registros sanitarios, de los cuales 9 vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261112-allopurinol-1 -->
 
 **Para avanzar se necesita:**
 - Revisión sistemática de la literatura sobre alopurinol y porfirias (seguridad porfirinogénica, hemo oxigenasa, citocromo P450).
@@ -138,7 +140,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 3 → 9 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-12 | Número de registros vigentes: 3 → 9 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Aloprim (allopurinol) prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10cc918f-aa44-415b-932d-2404695ac449) |
 
 <!-- review:end log -->

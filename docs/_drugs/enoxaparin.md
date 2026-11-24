@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 252
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Enoxaparin: nueva indicación predicha, Trombofilia por deficiencia de proteína C, autosómica recesiva (nivel de evidencia L5). Indicación original: ENOXAPARINA"
 monitor_inn: "enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
@@ -87,10 +87,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19960641 | ENOXPAR® INYECTABLE 60 MG /0.6 ML | Solución inyectable | ENOXAPARINA |
-| 20084687 | ENOXAPARINA SÓDICA JERINGAS PRELLENADAS 60 MG/0.6 ML | Solución inyectable | ENOXAPARINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19950452 | CLENOX ® | SOLUCION INYECTABLE | ENOXAPARINA | Vigente |
+| 20007986 | ENOXALOW® | SOLUCION INYECTABLE | ENOXAPARINA | Vigente |
+| 20084687 | ENOXAPARINA SODICA JERINGAS PRELLENADAS 60 MG/ 0.6 ML | SOLUCION INYECTABLE | ENOXAPARINA | Vigente |
+| 36240 | CLEXANE INYECTABLE 20 MG / 0.2 ML. | SOLUCION INYECTABLE | ENOXAPARINA | Vigente |
+| 36241 | CLEXANE 40 MG/ 0.4 ML INYECTABLE. | SOLUCION INYECTABLE | ENOXAPARINA | Vigente |
+
+Se muestran 5 de 14 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

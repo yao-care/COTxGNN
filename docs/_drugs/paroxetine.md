@@ -63,16 +63,19 @@ El puntaje alto (0.9911) proviene del modelo TxGNN (aprendizaje profundo) y pued
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20065995 | NATH 7.5 MG CAPSULAS (vencido) | Cápsula dura | PAROXETINA |
-| 19952343 | PAROXETINA 20 MG (vigente) | Tableta cubierta con película | PAROXETINA |
+<!-- licenses:begin -->
 
-<!-- review:begin co-row-20261124-paroxetine-1 -->
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19914072 | PAXAN 20MG | TABLETA RECUBIERTA | PAROXETINA | Vigente |
+| 19952343 | PAROXETINA 20 MG | TABLETA CUBIERTA CON PELICULA | PAROXETINA | Vigente |
+| 19976152 | PAROXETINA TABLETASX 20 MG | TABLETA RECUBIERTA | PAROXETINA | Vigente |
+| 20056876 | PRESSIVO® | TABLETA RECUBIERTA | PAROXETINA | Vigente |
+| 218588 | SEROXAT® 20 MG TABLETAS. | TABLETA RECUBIERTA | PAROXETINA | Vigente |
 
-> **Corrección de revisión (2026-11-24)**: Texto original: "20065995 / NATH 7.5 MG CAPSULAS (vigente) / Cápsula dura / PAROXETINA" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-24): el registro sanitario 20065995 figura como «Vencido». Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
-<!-- review:end co-row-20261124-paroxetine-1 -->
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 
@@ -117,7 +120,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "no hay registros sanitarios vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que ambos registros están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Paxil Cr (paroxetine hydrochloride) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=483bd97f-c4d0-4e23-aaa8-6334f4471e0c) |
-| 2026-11-24 | Registro 20065995: estado vigente → vencido | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-24 | Registro 20065995: estado vigente → vencido | Reemplazado por la tabla de registros generada por programa (antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

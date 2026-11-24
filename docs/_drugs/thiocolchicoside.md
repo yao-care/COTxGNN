@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 624
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Thiocolchicoside: nueva indicación predicha, Insomnio (nivel de evidencia L5). Indicación original: Paracetamol, combinaciones excluyendo psicolépticos"
 monitor_inn: "thiocolchicoside"
 drugbank_id: DB11582
@@ -90,9 +90,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20083126 | FLEXIMAX® ACE TABLETAS RECUBIERTAS | Tableta recubierta | Paracetamol, combinaciones excluyendo psicolépticos |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19990096 | TIOCOLSID 4 MGTABLETAS | TABLETA | TIOCOLCHICOSIDA | Vigente |
+| 20023655 | TIOCOLSID® 8 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | TIOCOLCHICOSIDA | Vigente |
+| 20063873 | PARALGEN® | TABLETA RECUBIERTA | TIOCOLCHICOSIDA | Vigente |
+| 20064726 | PARALGEN MAX | TABLETA RECUBIERTA | IBUPROFEN COMBINACIONES | Vigente |
+| 20064903 | TIOCOLFEN® 400 CÁPSULA DURA CON CONTENIDO LIQUIDO | CAPSULA DURA | IBUPROFEN COMBINACIONES | Vigente |
+
+Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

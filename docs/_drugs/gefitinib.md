@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 310
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Gefitinib: nueva indicación predicha, Fibromatosis gingival (nivel de evidencia L5). Indicación original: Gefitinib"
 monitor_inn: "GEFITINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "lung benign neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "lung germ cell tumor", "pulmonary sulcus neoplasm", "junctional epidermolysis bullosa"]
@@ -106,12 +106,18 @@ Entre las 10 principales predicciones del modelo, ninguna supera el nivel L4. To
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20178908 | GEFALTINIB® 250MG | Tableta recubierta | Gefitinib |
-| 20211358 | GRACETIB® 250 MG | Tableta recubierta | Gefitinib |
-| 20217433 | GEFBOOK® 250 | Tableta recubierta | Gefitinib |
-| 20187314 | GEFTRA® 250 MG | Tableta recubierta | Gefitinib |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20187314 | GEFTRA® 250 MG | TABLETA RECUBIERTA | GEFITINIB | Vigente |
+| 20211358 | GRACETIB® 250 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | GEFITINIB | Vigente |
+| 20178908 | GEFALTINIB® 250MG | TABLETA RECUBIERTA | GEFITINIB | Temp. no comerc - Vigente |
+| 20217433 | GEFBOOK® 250 | TABLETA RECUBIERTA | GEFITINIB | Temp. no comerc - Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

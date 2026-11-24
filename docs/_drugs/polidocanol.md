@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 522
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "POLIDOCANOL"
 predicted_indications: ["esophageal varices with bleeding", "esophageal varices without bleeding", "Immunoerythromyeloid hypoplasia", "pigmented paravenous retinochoroidal atrophy", "progressive bifocal chorioretinal atrophy", "X-linked retinal dysplasia", "monosomy X", "cone dystrophy", "oligocone trichromacy", "retinoschisis of fovea"]
 description: "Polidocanol: nueva indicación predicha, Esophageal varices with bleeding (nivel de evidencia L1). Indicación original: POLIDOCANOL"
@@ -107,10 +107,16 @@ Se priorizan los estudios aleatorizados, seguidos de revisiones y otros diseños
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20018886 | ETOXIVEN® 3% | Solución inyectable | Polidocanol (estado: vigente) |
-| 20017789 | ETOXIVEN® 1% | Solución inyectable | Polidocanol (estado: vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20017789 | ETOXIVEN ® 1% | SOLUCION INYECTABLE | POLIDOCANOL | Vigente |
+| 20018886 | ETOXIVEN® 3% | SOLUCION INYECTABLE | POLIDOCANOL | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

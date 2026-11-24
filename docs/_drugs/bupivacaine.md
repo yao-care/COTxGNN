@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 120
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bupivacaine: nueva indicación predicha, Acrodermatitis crónica atrófica (nivel de evidencia L5). Indicación original: BUPIVACAINA"
 monitor_inn: "Bupivacaine"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
@@ -87,9 +87,17 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20013329 | BUPINEST 0.75% PESADO | Solución inyectable | BUPIVACAINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19931883 | BUPIVACAINA CLORHIDRATO SOLUCION INYECTABLE 50 MG / 10 ML | SOLUCION INYECTABLE | BUPIVACAINA | Vigente |
+| 20013329 | BUPINEST 0.75% PESADO | SOLUCION INYECTABLE | BUPIVACAINA | Vigente |
+| 52033 | BUPIROP 0.5% SIMPLEAMPOULEPACK | SOLUCION INYECTABLE | BUPIVACAINA | Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 Fabricante: Ropsohn Therapeutics S.A.S.
 

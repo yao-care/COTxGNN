@@ -84,10 +84,19 @@ Hay al menos 19 registros sanitarios vigentes. La lista puede ser parcial.
 
 <!-- review:end co-lic-20261112-levonorgestrel-1 -->
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|-----|
-| 20046501 | JAYDESS® | Implantes y sistemas intrauterinos e intraoculares | Levonorgestrel | Vigente |
-| 20080147 | POSTCOID® 0.75 MG | Tableta | Levonorgestrel | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19900498 | MIRENA | IMPLANTES Y SISTEMAS INTRAUTERINOS E INTRAOCULARES | LEVONORGESTREL | Vigente |
+| 19907975 | MICROFEMIN | TABLETA CUBIERTA (GRAGEA) | LEVONORGESTREL Y ETINILESTRADIOL | Vigente |
+| 19934015 | JADELLE ® | IMPLANTE | LEVONORGESTREL | Vigente |
+| 19951553 | POSTDAY® 0.75 MG TABLETA | TABLETA | LEVONORGESTREL | Vigente |
+| 19965149 | POSTINOR-1® COMPRIMIDOS | COMPRIMIDO | LEVONORGESTREL | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

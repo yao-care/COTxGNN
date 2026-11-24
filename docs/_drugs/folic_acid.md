@@ -90,9 +90,19 @@ Todas las publicaciones identificadas son de apoyo indirecto: revisiones sobre v
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20098323 | P-NATAL® | Cápsula blanda de gelatina con cubierta entérica | Multivitaminas más hierro |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19908845 | ACIDO FOLICO 1 MG. | TABLETA | FOLICO ACIDO | Vigente |
+| 19935634 | GESTAFER® | CAPSULA BLANDA | MULTIVITAMINAS MAS HIERRO | Vigente |
+| 19939451 | MULTI-12/K1 PEDIATRICO | SOLUCION INYECTABLE | COMBINACIONES | Vigente |
+| 19940561 | IOFI® TABLETAS CUBIERTAS | TABLETA RECUBIERTA | FERROSO FUMARATO | Vigente |
+| 19948035 | ACIDO FOLICO 10 MG /ML | SOLUCION ORAL | FOLICO ACIDO | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

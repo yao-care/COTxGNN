@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 620
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tetrabenazine: nueva indicación predicha, Enfermedad renal poliquística tipo 3 con o sin enfermedad hepática poliquística (nivel de evidencia L5). Indicación original: Tetrabenazina"
 monitor_inn: "Tetrabenazine"
 predicted_indications: ["polycystic kidney disease 3 with or without polycystic liver disease", "renal-hepatic-pancreatic dysplasia", "Joubert syndrome with renal defect", "karyomegalic interstitial nephritis", "thoracic malformation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "acute intermittent porphyria", "adult familial nephronophthisis-spastic quadriparesia syndrome", "atypical glycine encephalopathy", "congenital disorder of glycosylation with defective fucosylation"]
@@ -81,12 +81,22 @@ Actualmente no hay literatura relacionada disponible para la indicación princip
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20034891 | TETMODIS | Tableta | Tetrabenazina |
-| 20203198 | TETRABEX® | Tableta recubierta | Tetrabenazina |
+<!-- licenses:begin -->
 
-Ningún registro se encuentra vigente actualmente.
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20034891 | TETMODIS | TABLETA | TETRABENAZINA | Vigente |
+| 20203198 | TETRABEX® | TABLETA RECUBIERTA | TETRABENAZINA | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
+
+<!-- review:begin co-lic-20261124-tetrabenazine-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Ningún registro se encuentra vigente actualmente." Eliminado: afirmaba que ningún registro sanitario está vigente, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23): el medicamento tiene 2 registros sanitarios, todos vigentes. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124-tetrabenazine-1 -->
 
 ---
 
@@ -135,6 +145,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria (registros cancelados) y la disponibilidad real del producto en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "los dos registros sanitarios en Colombia están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Xenazine (tetrabenazine) prescribing information, Lundbeck Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac768bab-8afa-4446-bc7f-caeeffec0cda) |
+| 2026-11-24 | Eliminado: afirmaba que ningún registro sanitario está vigente | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

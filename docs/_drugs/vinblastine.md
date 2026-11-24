@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 660
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Vinblastine: nueva indicación predicha, Rabdomiosarcoma (nivel de evidencia L4). Indicación original: Vinblastina"
 monitor_inn: "vinblastine"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
@@ -106,10 +106,16 @@ No se encontraron ensayos controlados aleatorizados para esta indicación.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20134951 | VINCABLAS® 10 MG/VIAL | Polvo liofilizado para reconstituir a solución inyectable | Vinblastina |
-| 20099893 | VINBLASTINA SULFATO 10 MG | Polvo liofilizado para reconstituir a solución inyectable | Vinblastina |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20099893 | VINBLASTINA SULFATO 10 MG | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | VINBLASTINA | Vigente |
+| 20134951 | VINCABLAS® 10 MG/VIAL | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | VINBLASTINA | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

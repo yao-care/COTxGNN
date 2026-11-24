@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "heparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Heparin: nueva indicación predicha, Trombofilia por deficiencia de proteína C, autosómica recesiva (thrombophilia due to protein C deficiency… (nivel de evidencia L5). Indicación original: HEPARINA"
 ---
 
@@ -72,10 +72,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 206903 | LIOTON® 1000 GEL | Gel tópico | HEPARINA |
-| 19970942 | HEPARINA SODICA INYECTABLE 5.000 U.I./ML | Solución inyectable | HEPARINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19942878 | HEPARINA SODICA 25.000 UI INYECTABLE | SOLUCION INYECTABLE | HEPARINA | Vigente |
+| 19970942 | HEPARINA SODICA INYECTABLE5.000U.I. / ML | SOLUCION INYECTABLE | HEPARINA | Vigente |
+| 20029707 | SUMIMED HEPAMAX-S ® | SOLUCION INYECTABLE | HEPARINA | Vigente |
+| 206903 | LIOTON® 1000 GEL | GEL TOPICO | HEPARINA | Vigente |
+| 19924352 | CONTRACTUBEX ® GEL | GEL TOPICO | HEPARINA COMBINACIONES | Temp. no comerc - Vigente |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 La lista de registros puede ser parcial.
 

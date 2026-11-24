@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "DARUNAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Darunavir: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) (nivel de evidencia L5). Indicación original: COMBINACIONES (RITONAVIR…"
 ---
 
@@ -71,10 +71,16 @@ Actualmente no hay literatura relacionada disponible para esta predicción.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20109284 | VIRONTAR N COMPRIMIDOS RECUBIERTOS | Tableta recubierta | Combinaciones (ritonavir y darunavir) |
-| 20109025 | VIRONTAR | Comprimido | Darunavir + ritonavir |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20109025 | VIRONTAR | COMPRIMIDO | DARUNAVIR + RITONAVIR | Vigente |
+| 20109284 | VIRONTAR N COMPRIMIDOS RECUBIERTOS | TABLETA RECUBIERTA | COMBINACIONES (RITONAVIR Y DARUNAVIR) | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

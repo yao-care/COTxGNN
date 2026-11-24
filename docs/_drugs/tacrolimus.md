@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 600
 evidence_level: L1
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tacrolimus: nueva indicación predicha, Dermatitis seborreica (nivel de evidencia L1). Indicación original: No especificada en los registros (el texto de indicación solo indica…"
 monitor_inn: "TACROLIMUS"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
@@ -95,11 +95,19 @@ Los diseños detallados y los resultados de estos ensayos no están en los datos
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 19983582 | PROGRAF® XL cápsulas de liberación prolongada de 0.5 mg | Cápsula de liberación prolongada | Tacrolimus | Vigente |
-| 20192450 | Tacrolimus 3 mg cápsulas duras de liberación prolongada | Cápsula de liberación prolongada | Tacrolimus | Vigente |
-| 20230266 | TALIMUZ® 1 mg | Cápsula dura | Tacrolimus | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19943739 | PROGRAF ® SOLUCION INYECTABLE DE 5MG/ML | SOLUCION INYECTABLE | TACROLIMUS | Vigente |
+| 19943740 | PROGRAF® CAPSULAS DE 5 MG | CAPSULA DURA | TACROLIMUS | Vigente |
+| 19943741 | PROGRAF ® CAPSULAS DE 1 MG | CAPSULA DURA | TACROLIMUS | Vigente |
+| 19961660 | CROMUS 0.03 % | UNGUENTO TOPICO | TACROLIMUS | Vigente |
+| 19961661 | CROMUS® 0.1% | UNGUENTO TOPICO | TACROLIMUS | Vigente |
+
+Se muestran 5 de 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

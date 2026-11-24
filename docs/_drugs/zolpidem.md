@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 670
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Zolpidem: nueva indicación predicha, Tortícolis paroxística benigna de la infancia (nivel de evidencia L5). Indicación original: ZOLPIDEM"
 monitor_inn: "zolpidem"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
@@ -99,13 +99,19 @@ Se muestran las publicaciones más relevantes, priorizando ECA, metaanálisis y 
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 19927197 | ZOLPIDEM 10 MG TABLETAS (Tecnoquímicas) | Tableta recubierta | ZOLPIDEM | Vigente |
-| 19982431 | ZOLPIDEM HEMITARTRATO 10.00 MG (Humax) | Tableta recubierta | ZOLPIDEM | Cancelado |
-| 20233494 | ZOLPIDEM HEMITARTRATO 5 MG (Momenta) | Tableta sublingual | ZOLPIDEM | Vigente |
-| 19963349 | ZOLPIDEM TABLETAS RECUBIERTAS 10 MG (Genfar) | Tableta recubierta | ZOLPIDEM | Vigente |
-| 20233478 | ZOLNOX® SL 5 MG (Eurofarma) | Tableta sublingual | ZOLPIDEM | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19927197 | ZOLPIDEM 10 MG TABLETAS | TABLETA RECUBIERTA | ZOLPIDEM | Vigente |
+| 19963349 | ZOLPIDEM TABLETAS RECUBIERTASPOR 10 MG. | TABLETA RECUBIERTA | ZOLPIDEM | Vigente |
+| 20233478 | ZOLNOX® SL 5MG | TABLETA SUBLINGUAL | ZOLPIDEM | Vigente |
+| 20233480 | ZOLNOX® 10MG | TABLETA | ZOLPIDEM | Vigente |
+| 20233494 | ZOLPIDEM HEMITARTRATO 5MG | TABLETA SUBLINGUAL | ZOLPIDEM | Vigente |
+
+Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

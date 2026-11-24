@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 598
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Sumatriptan: usos conocidos y situación de mercado en Colombia; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -72,11 +72,19 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) generó para Sumatript
 
 ## Información de Mercado en Colombia
 
-| Registro | Producto | Forma farmacéutica | Estado |
-|------|------|------|------|
-| 19948755 | SUMATRIPTAN (CONTIENE SUCCINATO DE SUMATRIPTAN70 MG) | TABLETA CUBIERTA CON PELICULA | Vigente |
-| 20241625 | SUMATRIPTAN (EQUIVALENTE A 139.960 MG DE SUMATRIPTAN SUCCINA | TABLETA | Vigente |
-| 20241587 | SUMATRIPTAN (EQUIVALENTE A 69.980 MG DE SUMATRIPTAN SUCCINAT | TABLETA RECUBIERTA | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19946826 | SITRAN® TABLETAS | TABLETA | SUMATRIPTAN | Vigente |
+| 19948755 | IMIGRAN® FDT 50 MG | TABLETA CUBIERTA CON PELICULA | SUMATRIPTAN | Vigente |
+| 20061217 | TRASS® TABLETA RECUBIERTA | TABLETA RECUBIERTA | NAPROXENO | Vigente |
+| 20093972 | SUAXINA® TABLETA RECUBIERTA | TABLETA RECUBIERTA | SUMATRIPTAN. COMBINACIONES | Vigente |
+| 20241587 | SUMAFIX 50 MG TABLETAS | TABLETA RECUBIERTA | SUMATRIPTAN | Vigente |
+
+Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

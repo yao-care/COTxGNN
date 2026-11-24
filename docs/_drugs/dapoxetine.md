@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 194
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Dapoxetine: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: DAPOXETINA"
 monitor_inn: "dapoxetine"
 predicted_indications: ["migraine disorder", "dysthymic disorder", "migraine with brainstem aura"]
@@ -80,10 +80,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20142988 | LONGRIDE 60 MG (vigente) | Tableta recubierta | DAPOXETINA |
-| 20142989 | LONGRIDE 30 MG (vigente) | Tableta recubierta | DAPOXETINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20142988 | LONGRIDE 60 MG | TABLETA RECUBIERTA | DAPOXETINA | Vigente |
+| 20142989 | LONGRIDE 30 MG | TABLETA RECUBIERTA | DAPOXETINA | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

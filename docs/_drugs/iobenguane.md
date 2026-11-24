@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 350
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "IOBENGUANE"
 drugbank_id: DB06704
 predicted_indications: ["hypotensive disorder", "multiple system atrophy", "variably protease-sensitive prionopathy", "postural orthostatic tachycardia syndrome"]
@@ -85,10 +85,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 229122 | MIBG- 131- T | Sin dato | IOBENGUANE (131I) |
-| 228909 | MIBG-131-D | Sin dato | IOBENGUANE (131I) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 228909 | MIBG-131-D | SIN DATO | IOBENGUANE (131I) | Vigente |
+| 229122 | MIBG- 131- T | SIN DATO | IOBENGUANE (131I) | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 443
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Midodrine: nueva indicación predicha, Prionopatía sensible a proteasa de forma variable (nivel de evidencia L5). Indicación original: \"MIDODRINA\""
 monitor_inn: "midodrine"
 predicted_indications: ["variably protease-sensitive prionopathy", "faciodigitogenital syndrome", "attention deficit-hyperactivity disorder", "hypotensive disorder", "attention deficit hyperactivity disorder, inattentive type", "sinoatrial node disease", "monogenic obesity", "specific developmental disorder", "obsolete hypertelorism (disease)", "sinoatrial block"]
@@ -78,10 +78,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20202650 | SYNCOPGOR® | Tableta | MIDODRINA | Vigente |
-| 20022446 | MIDODRINA 5 MG | Tableta recubierta | MIDODRINA | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20022446 | MIDODRINA 5 MG | TABLETA RECUBIERTA | MIDODRINA | Vigente |
+| 20202650 | SYNCOPGOR® | TABLETA | MIDODRINA | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 Ambos registros corresponden a monofármacos de administración oral.
 

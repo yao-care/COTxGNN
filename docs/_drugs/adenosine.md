@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 29
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Adenosine: nueva indicación predicha, Bloqueo de rama del haz (término obsoleto) (nivel de evidencia L5). Indicación original: ADENOSINA"
 monitor_inn: "Adenosine"
 predicted_indications: ["obsolete bundle branch block"]
@@ -95,12 +95,18 @@ Para la indicación principal (bloqueo de rama del haz) actualmente no hay liter
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20148959 | ADENOTROY | Solución inyectable | ADENOSINA (vigente) |
-| 20139028 | ADENOSINA SOLUCIÓN INYECTABLE 6MG/2ML | Solución inyectable | ADENOSINA (vigente) |
-| 20272824 | TAKIKARD® 6 MG/2 ML SOLUCIÓN INYECTABLE | Solución inyectable | ADENOSINA (vigente) |
-| 20058380 | ADENOSINA 6MG / 2 ML SOLUCIÓN INYECTABLE | Solución inyectable | ADENOSINA (vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20058380 | ADENOSINA 6MG / 2 ML SOLUCION INYECTABLE | SOLUCION INYECTABLE | ADENOSINA | Vigente |
+| 20139028 | ADENOSINA SOLUCION INYECTABLE 6MG/2ML | SOLUCION INYECTABLE | ADENOSINA | Vigente |
+| 20148959 | ADENOTROY | SOLUCION INYECTABLE | ADENOSINA | Vigente |
+| 20272824 | TAKIKARD® 6 MG/2 ML SOLUCIÓN INYECTABLE | SOLUCION INYECTABLE | ADENOSINA | Vigente |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

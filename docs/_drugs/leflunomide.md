@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 386
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Leflunomide: nueva indicación predicha, Síndrome de braquidactilia-sindactilia (nivel de evidencia L5). Indicación original: Leflunomida"
 monitor_inn: "Leflunomide"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -90,12 +90,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20127508 | ZORATOMIN® 20 MG TABLETAS RECUBIERTAS | Tableta recubierta | Leflunomide |
-| 20152814 | LEFLUNOMIDA 20 MG TABLETA RECUBIERTA | Tableta recubierta | Leflunomide |
-| 230658 | ARAVA® TABLETAS RECUBIERTAS 20 MG | Tableta recubierta | Leflunomide |
-| 20252398 | INFLAXEN® | Tableta recubierta | Leflunomide |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19963298 | INFLAXEN 20 MG | CAPSULA BLANDA | LEFLUNOMIDE | Vigente |
+| 20127508 | ZORATOMIN® 20 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | LEFLUNOMIDE | Vigente |
+| 20152814 | LEFLUNOMIDA 20 MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | LEFLUNOMIDE | Vigente |
+| 230658 | ARAVA® TABLETAS RECUBIERTAS 20 MG. | TABLETA RECUBIERTA | LEFLUNOMIDE | Vigente |
+| 19963299 | INFLAXEN 100 MG | CAPSULA BLANDA | LEFLUNOMIDE | Temp. no comerc - Vigente |
+
+Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

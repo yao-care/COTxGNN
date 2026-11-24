@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "levothyroxine"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Levothyroxine: nueva indicación predicha, Hipodisplasia/aplasia renal (nivel de evidencia L5). Indicación original: Levotiroxina de sodio"
 ---
 
@@ -79,9 +79,19 @@ Actualmente no hay literatura relacionada disponible.
 
 La lista proviene de un recuento parcial; pueden existir más registros.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19992452 | EUTIROX® 150 MCG | Tableta (vía oral) | Levotiroxina de sodio |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19930427 | SYNTHROID® 25 MCG | TABLETA | LEVOTIROXINA DE SODIO | Vigente |
+| 19930428 | SYNTHROID® 50 MCG | TABLETA | LEVOTIROXINA DE SODIO | Vigente |
+| 19930429 | SYNTHROID® 75 MCG TABLETAS | TABLETA | LEVOTIROXINA DE SODIO | Vigente |
+| 19930430 | SYNTHROID® 88 MCG | TABLETA | LEVOTIROXINA DE SODIO | Vigente |
+| 19930431 | SYNTHROID® 100 MCG TABLETAS | TABLETA | LEVOTIROXINA DE SODIO | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

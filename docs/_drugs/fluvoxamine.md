@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "fluvoxamine"
 predicted_indications: ["paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
-last_modified_at: 2026-11-06
+last_modified_at: 2026-11-24
 description: "Fluvoxamine: nueva indicación predicha, trastorno de personalidad paranoide (paranoid personality disorder) (nivel de evidencia L5). Indicación original: FLUVOXAMINA"
 ---
 
@@ -74,10 +74,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20202309 | ANSIVOX® 100 MG TABLETAS RECUBIERTAS | Tableta recubierta | Fluvoxamina |
-| 59491 | LUVOX 100 MG TABLETAS RECUBIERTAS | Tableta recubierta | Fluvoxamina |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20195273 | OCIVOX 100MG | TABLETA RECUBIERTA | FLUVOXAMINA | Vigente |
+| 20195302 | XAMINA® 100MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | FLUVOXAMINA | Vigente |
+| 20202309 | ANSIVOX® 100 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | FLUVOXAMINA | Vigente |
+| 226058 | VOXAMIN® TABLETA RECUBIERTA | TABLETA RECUBIERTA | FLUVOXAMINA | Vigente |
+| 59491 | LUVOX 100 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | FLUVOXAMINA | Vigente |
+
+Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 Los registros listados pueden ser una relación parcial.
 

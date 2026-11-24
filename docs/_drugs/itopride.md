@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 360
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Itopride: nueva indicación predicha, Enfermedad de Crohn del intestino delgado (nivel de evidencia L5). Indicación original: Itoprida"
 monitor_inn: "itopride"
 predicted_indications: ["small bowel Crohn disease", "venous insufficiency (disease)", "achlorhydria", "hiatus hernia (disease)"]
@@ -84,9 +84,15 @@ Todas las predicciones restantes también tienen nivel de evidencia L5, sin ensa
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20199458 | PRIDOT® | Tableta recubierta | Itoprida |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20199458 | PRIDOT® | TABLETA RECUBIERTA | ITOPRIDA | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ---
 

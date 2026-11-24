@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 580
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SALMETEROL"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: nueva indicación predicha, malformación respiratoria (respiratory malformation) (nivel de evidencia L5). Indicación original: SALMETEROL Y FLUTICASONA"
@@ -87,10 +87,19 @@ Ninguna publicación estudia directamente la malformación respiratoria.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20128097 | SEROHALE 125 SYNCHROBREATHE SB | Suspensión para inhalación | Salmeterol y fluticasona |
-| 20128029 | SEROHALE 250 SYNCHROBREATHE SB | Suspensión para inhalación | Salmeterol y fluticasona |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19902533 | SERETIDE® DISKUS 50/500 MCG | POLVO PARA INHALACION | SALMETEROL Y FLUTICASONA | Vigente |
+| 19902534 | SERETIDE® DISKUS 50/100 MCG | POLVO PARA INHALACION | SALMETEROL Y FLUTICASONA | Vigente |
+| 19913254 | SERETIDE ® EVOHALER ® 25/125MCG | SUSPENSION PARA INHALACION | SALMETEROL Y FLUTICASONA | Vigente |
+| 19913256 | SERETIDE 'OSP' INHALADOR 25/50 MCG | SUSPENSION PARA INHALACION | SALMETEROL Y FLUTICASONA | Vigente |
+| 19913258 | SERETIDE® EVOHALER®25/250 MCG. | SUSPENSION PARA INHALACION | SALMETEROL Y FLUTICASONA | Vigente |
+
+Se muestran 5 de 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

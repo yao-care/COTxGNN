@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 603
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Talc: nueva indicación predicha, Enfermedad trombótica (nivel de evidencia L5). Indicación original: CLINDAMICINA"
 monitor_inn: "talc"
 drugbank_id: DB09511
@@ -88,9 +88,15 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20270123 | CLINDAMICINA 300 MG CÁPSULA | Cápsula dura | CLINDAMICINA | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20270123 | CLINDAMICINA 300 MG CÁPSULA | CAPSULA DURA | CLINDAMICINA | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

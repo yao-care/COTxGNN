@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Lovastatin"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lovastatin: nueva indicación predicha, Deficiencia de la proteína de transferencia de ésteres de colesterol (nivel de evidencia L5). Indicación original: Lovastatina"
 ---
 
@@ -74,10 +74,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 La lista puede estar incompleta (se indican al menos 2 registros).
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 38340 | LOVASTATINA 20 MG TABLETAS (Tecnoquímicas S.A., Planta Yumbo) | Tableta | LOVASTATINA (sin indicación detallada) |
-| 1981959 | LOVASTATINA 20 MG TABLETAS (Novamed S.A.S.) | Tableta | LOVASTATINA (sin indicación detallada) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 1981959 | LOVASTATINA 20 MG TABLETAS | TABLETA | LOVASTATINA | Vigente |
+| 19927064 | LOVASTATINA TABLETAS 20 MG | TABLETA | LOVASTATINA | Vigente |
+| 19978741 | LOSTIN® 20 MG | TABLETA | LOVASTATINA | Vigente |
+| 38340 | LOVASTATINA 20 MG TABLETAS | TABLETA | LOVASTATINA | Vigente |
+| 40518 | LOVASTATINA 20MG TABLETA | TABLETA | LOVASTATINA | Temp. no comerc - Vigente |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

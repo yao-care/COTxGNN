@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "dipyridamole"
 predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "lateral sinus thrombosis", "cavernous sinus thrombosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dipyridamole: nueva indicación predicha, Sick sinus syndrome 2, autosomal dominant (nivel de evidencia L5). Indicación original: DIPIRIDAMOL"
 ---
 
@@ -73,10 +73,16 @@ Actualmente no hay literatura relacionada disponible.
 
 Hay al menos 2 registros sanitarios y la lista puede ser parcial. Ambos están vigentes.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20062876 | DIPIRIDAMOL 10 MG/2ML | Solución inyectable | DIPIRIDAMOL (sin indicación clínica especificada) |
-| 19905610 | PERSANTIN ® AMPOLLAS 10 MG/2 ML SOLUCIÓN INYECTABLE | Solución inyectable | DIPIRIDAMOL (sin indicación clínica especificada) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19905610 | PERSANTIN ® AMPOLLAS 10 MG/2 ML SOLUCIÓN INYECTABLE | SOLUCION INYECTABLE | DIPIRIDAMOL | Vigente |
+| 20062876 | DIPIRIDAMOL 10 MG/2ML | SOLUCION INYECTABLE | DIPIRIDAMOL | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

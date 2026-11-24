@@ -71,12 +71,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20134443 | LANDAX | Solución oftálmica | Levofloxacino |
-| 20087579 | LEQUIBAC® | Tableta cubierta con película | Levofloxacina |
-| 20094747 | PRINF® 750 MG TABLETAS RECUBIERTAS | Tableta recubierta | Levofloxacina |
-| 20077633 | AVOSAL® | Tableta recubierta | Levofloxacina |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19942620 | TRUXA® 500 MG COMPRIMIDOS RECUBIERTOS | TABLETA CUBIERTA CON PELICULA | LEVOFLOXACINA | Vigente |
+| 19996540 | LEVOFLOXACINASANDOZ ® 500 MG TABLETAS CON PELICULA | TABLETA RECUBIERTA | LEVOFLOXACINA | Vigente |
+| 19999203 | TRUXA® 750 MG | TABLETA CUBIERTA CON PELICULA | LEVOFLOXACINA | Vigente |
+| 20008193 | LEVOFLOXACINA 500 MG | TABLETA RECUBIERTA | LEVOFLOXACINA | Vigente |
+| 20012091 | ADIX® 500 | TABLETA RECUBIERTA | LEVOFLOXACINA | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 Es posible que esta lista de registros sea parcial.
 

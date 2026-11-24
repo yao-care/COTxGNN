@@ -81,9 +81,18 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19905001 | FRAGMIN® 2500 UI SOLUCIÓN INYECTABLE (Pfizer S.A.S.) | Solución inyectable | Dalteparina |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19904162 | FRAGMIN® 5000 UI SOLUCION INYECTABLE | SOLUCION INYECTABLE | DALTEPARINA | Vigente |
+| 19905001 | FRAGMIN® 2500 UI SOLUCION INYECTABLE | SOLUCION INYECTABLE | DALTEPARINA | Vigente |
+| 19979363 | FRAGMIN 7500 UI ANTI-XA/ 0.3 ML SOLUCION INYECTABLE | SOLUCION INYECTABLE | DALTEPARINA | Vigente |
+| 19981427 | FRAGMIN® 10000 UIANTI FACTOR - XA / 0.4 ML SOLUCION INYECTABLE | SOLUCION INYECTABLE | DALTEPARINA | Vencido |
+
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

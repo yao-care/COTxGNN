@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 246
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Eltrombopag: nueva indicación predicha, Infección por VIH (nivel de evidencia L3). Indicación original: ELTROMBOPAG"
 monitor_inn: "eltrombopag"
 predicted_indications: ["HIV infectious disease"]
@@ -93,12 +93,19 @@ Un cribado in vitro (PMID 32977702) sugirió que eltrombopag podría modular la 
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20196775 | TROMBOLADE® 50 MG TABLETA RECUBIERTA | Tableta recubierta | ELTROMBOPAG (vigente) |
-| 20254187 | ELTHROPA® 25 MG TABLETAS RECUBIERTAS | Tableta recubierta | ELTROMBOPAG (vigente) |
-| 20254196 | ELTHROPA® 50 MG TABLETAS RECUBIERTAS | Tableta recubierta | ELTROMBOPAG (vigente) |
-| 20193113 | BIEMPAG® 25MG TABLETAS RECUBIERTAS | Tableta cubierta con película | ELTROMBOPAG (vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20193113 | BIEMPAG® 25MG TABLETAS RECUBIERTAS | TABLETA CUBIERTA CON PELICULA | ELTROMBOPAG | Vigente |
+| 20196656 | TROMBOLADE® 25 MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | ELTROMBOPAG | Vigente |
+| 20196775 | TROMBOLADE® 50 MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | ELTROMBOPAG | Vigente |
+| 20254187 | ELTHROPA® 25 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | ELTROMBOPAG | Vigente |
+| 20254196 | ELTHROPA® 50 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | ELTROMBOPAG | Vigente |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

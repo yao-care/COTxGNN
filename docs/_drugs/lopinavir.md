@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 409
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lopinavir: nueva indicación predicha, Infección por el virus de la inmunodeficiencia simia (SIV) (nivel de evidencia L4). Indicación original: Lopinavir y ritonavir"
 monitor_inn: "LOPINAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -84,10 +84,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20215036 | LOPARTA® 40MG/10MG | Gránulos | Lopinavir y ritonavir |
-| 20115574 | LOPINAVIR 200 MG + RITONAVIR 50 MG | Tableta recubierta | Lopinavir y ritonavir |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20115574 | LOPINAVIR 200 MG + RITONAVIR 50 MG | TABLETA RECUBIERTA | LOPINAVIR Y RITONAVIR | Vigente |
+| 20215036 | LOPARTA® 40MG/10MG | GRANULOS | LOPINAVIR Y RITONAVIR | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

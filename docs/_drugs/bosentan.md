@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 112
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bosentan: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L4). Indicación original: BOSENTAN"
 monitor_inn: "BOSENTAN"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]
@@ -89,10 +89,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20174462 | BOSENTAN 125 MG | Tableta recubierta | BOSENTAN (vigente) |
-| 20103607 | TABOSEN® 125 MG tableta recubierta | Tableta | BOSENTAN (vigente) |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19988005 | TRACLEER® 125 MG TABLETAS RECUBIERTAS DE PELICULA. | TABLETA CUBIERTA CON PELICULA | BOSENTAN | Vigente |
+| 19988006 | TRACLEER ® 62.5 MG TABLETAS RECUBIERTAS DE PELICULA. | TABLETA CUBIERTA CON PELICULA | BOSENTAN | Vigente |
+| 20062943 | BOSENTAS125MG | TABLETA RECUBIERTA | BOSENTAN | Vigente |
+| 20072694 | BOSENTAN 125 | TABLETA RECUBIERTA | BOSENTAN | Vigente |
+| 20072696 | BOSENTAN 62.5 MG | TABLETA RECUBIERTA | BOSENTAN | Vigente |
+
+Se muestran 5 de 14 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

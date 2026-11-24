@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 46
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Ambroxol: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L5). Indicación original: Ambroxol"
 monitor_inn: "ambroxol"
 predicted_indications: ["nasal cavity disease", "vulvovaginal candidiasis", "faucial diphtheria", "cervical disc degenerative disorder"]
@@ -83,13 +83,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 52467 | AMBROXOL CLORHIDRATO JARABE 15 MG/5ML | Jarabe | Ambroxol |
-| 1980176 | MUCOSOLVAN COMPOSITUM JARABE ADULTOS | Jarabe | Combinaciones |
-| 16779 | AMBROXOL 15 MG/5ML SOLUCIÓN ORAL | Solución oral | Ambroxol |
-| 19949895 | AMBROXOL CLORHIDRATO 30 MG/5 ML | Jarabe | Ambroxol |
-| 20005160 | TRIATUSIC® JARABE | Jarabe | Ambroxol |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 16779 | AMBROXOL15 MG/ 5ML SOLUCIÓN ORAL | SOLUCION ORAL | AMBROXOL | Vigente |
+| 1980176 | MUCOSOLVAN COMPOSITUM JARABE ADULTOS | JARABE | COMBINACIONES | Vigente |
+| 19949895 | AMBROXOL CLORHIDRATO 30 MG/ 5 ML | JARABE | AMBROXOL | Vigente |
+| 19949896 | AMBROXOLCLORHIDRATO 15 MG / 5 ML | JARABE | AMBROXOL | Vigente |
+| 19971179 | MUXOL®FLEM JARABE NIÑOS | JARABE | AMBROXOL | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

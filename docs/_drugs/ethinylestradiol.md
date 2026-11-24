@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 267
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Ethinylestradiol: nueva indicación predicha, Zinc plasmático elevado (nivel de evidencia L5). Indicación original: Dienogest y etinilestradiol"
 monitor_inn: "Ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
@@ -81,9 +81,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20093177 | DIENILLE® comprimido recubierto | Tableta recubierta | Dienogest y etinilestradiol | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19902231 | FACETIX® TABLETAS RECUBIERTAS | TABLETA | CIPROTERONE Y ESTROGENO | Vigente |
+| 19907975 | MICROFEMIN | TABLETA CUBIERTA (GRAGEA) | LEVONORGESTREL Y ETINILESTRADIOL | Vigente |
+| 19908328 | BELARA® TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | CLORMADINONA Y ETINILESTRADIOL | Vigente |
+| 19951775 | YAX® | TABLETA RECUBIERTA | DROSPIRENONA Y ESTROGENO | Vigente |
+| 19968665 | YASMINIQ® | TABLETA CUBIERTA CON PELICULA | DROSPIRENONA Y ETINILESTRADIOL | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

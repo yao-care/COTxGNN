@@ -103,9 +103,19 @@ Por tanto, la predicción es mecanísticamente coherente, pero corresponde a un 
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19989089 | Ezetimibe 10 + Simvastatina 20 tabletas cubiertas | Tableta recubierta | Simvastatina combinaciones paquetes |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19936914 | SIMVASTATINA 40 MG TABLETAS | TABLETA CUBIERTA CON PELICULA | SIMVASTATINA | Vigente |
+| 19943601 | SIMVASTATINA TABLETA RECUBIERTA 40 MG | TABLETA RECUBIERTA | SIMVASTATINA | Vigente |
+| 19943602 | SIMVASTATINA TABLETAS RECUBIERTAS X 20 MG | TABLETA RECUBIERTA | SIMVASTATINA | Vigente |
+| 19951296 | VYTORIN ® 10/10MG | TABLETA | SIMVASTATIN Y EZETIMIBE | Vigente |
+| 19951298 | VYTORIN ® 10/20 MG | TABLETA | SIMVASTATIN Y EZETIMIBE | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

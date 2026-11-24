@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 287
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Flavoxate: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad, tipo inatento (nivel de evidencia L5). Indicación original: Flavoxato"
 monitor_inn: "flavoxate"
 predicted_indications: ["attention deficit hyperactivity disorder, inattentive type", "irritable bowel syndrome", "specific developmental disorder", "attention deficit-hyperactivity disorder", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "peptic ulcer disease"]
@@ -97,9 +97,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20026026 | BLADURIL® 200 MG | Tableta recubierta | Flavoxato | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20026026 | BLADURIL® 200 MG | TABLETA RECUBIERTA | FLAVOXATO | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 Fabricante: Recordati Ireland Limited. Vía de administración: oral.
 

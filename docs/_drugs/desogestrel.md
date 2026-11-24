@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 205
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Desogestrel: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: Desogestrel"
 monitor_inn: "DESOGESTREL"
 predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "acne (disease)", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]
@@ -94,10 +94,17 @@ Por ello, la predicción es plausible como manejo de soporte, pero no como trata
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19924192 | CERAZETTE® tabletas recubiertas (estado: vigente) | Tableta recubierta | Desogestrel |
-| 20094185 | TEJANIA® 0,075 mg comprimidos recubiertos (estado: vigente) | Tableta con cubierta entérica con película | Desogestrel |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19924192 | CERAZETTE® TABLETAS RECUBIERTAS. | TABLETA RECUBIERTA | DESOGESTREL | Vigente |
+| 20094185 | TEJANIA ® 0.075 MG COMPRIMIDOS RECUBIERTOS | TABLETA CON CUBIERTA ENTERICA CON PELICULA | DESOGESTREL | Vigente |
+| 55959 | MERCILON® TABLETA | TABLETA | DESOGESTREL Y ESTROGENO | Vigente |
+
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

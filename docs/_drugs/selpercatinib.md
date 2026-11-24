@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 582
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Selpercatinib: nueva indicación predicha, Hipertensión pulmonar (nivel de evidencia L5). Indicación original: No especificada"
 monitor_inn: "SELPERCATINIB"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura"]
@@ -87,10 +87,16 @@ Ninguna de las publicaciones evalúa selpercatinib en hipertensión pulmonar; se
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20232108 | RETSEVMO® 80 MG (vigente) | Cápsula dura | SELPERCATINIB |
-| 20232107 | RETSEVMO® 40 MG (vigente) | Cápsula dura | SELPERCATINIB |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20232107 | RETSEVMO ® 40MG | CAPSULA DURA | SELPERCATINIB | Vigente |
+| 20232108 | RETSEVMO ® 80 MG | CAPSULA DURA | SELPERCATINIB | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

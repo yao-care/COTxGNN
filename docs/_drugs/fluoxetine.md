@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 8
 monitor_inn: "fluoxetine"
 predicted_indications: ["schizotypal personality disorder", "schizoid personality disorder", "paranoid personality disorder", "histrionic personality disorder (disease)", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "phobic disorder", "Ohdo syndrome and variants"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluoxetine: nueva indicación predicha, Trastorno de personalidad esquizotípica (schizotypal personality disorder) (nivel de evidencia L3). Indicación original: FLUOXETINA"
 ---
 
@@ -83,10 +83,16 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 Se listan al menos 2 registros sanitarios vigentes; la lista puede ser parcial.
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20007689 | FLUOXETINA 20 MG TABLETAS | Tableta | FLUOXETINA |
-| 20091059 | PRAGMATEN® JARABE | Jarabe | FLUOXETINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 10815 | FLUOXETINA 20 MG CÁPSULAS | CAPSULA DURA | FLUOXETINA | Vigente |
+| 19954105 | FLUOXETINA 20 MG/5ML JARABE | JARABE | FLUOXETINA | Vigente |
+
+Se muestran 2 de 14 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

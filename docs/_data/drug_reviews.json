@@ -18212,7 +18212,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-alprostadil-1",
@@ -18232,7 +18235,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-ambroxol-1",
@@ -18292,7 +18298,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-beclomethasone_dipropionate-1",
@@ -18312,7 +18321,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-carfilzomib-1",
@@ -18332,7 +18344,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-celecoxib-1",
@@ -18352,7 +18367,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-clindamycin-1",
@@ -18372,7 +18390,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-cyclosporine-1",
@@ -18412,7 +18433,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-dasatinib-1",
@@ -18432,7 +18456,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-dexamethasone-1",
@@ -18472,7 +18499,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-dobutamine-1",
@@ -18492,7 +18522,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-duloxetine-1",
@@ -18512,7 +18545,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-dutasteride-1",
@@ -18592,7 +18628,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-folic_acid-1",
@@ -18672,7 +18711,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-imipramine-1",
@@ -18692,7 +18734,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-irinotecan-1",
@@ -18732,7 +18777,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-ketoconazole-1",
@@ -18812,7 +18860,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-meloxicam-1",
@@ -18872,7 +18923,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-metoprolol-1",
@@ -18972,7 +19026,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-olanzapine-1",
@@ -19032,7 +19089,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-orlistat-1",
@@ -19052,7 +19112,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-oxaliplatin-1",
@@ -19072,7 +19135,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-paclitaxel-1",
@@ -19092,7 +19158,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-palbociclib-1",
@@ -19112,7 +19181,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-phenobarbital-1",
@@ -19152,7 +19224,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-phenytoin-1",
@@ -19172,7 +19247,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-pirfenidone-1",
@@ -19192,7 +19270,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-piroxicam-1",
@@ -19252,7 +19333,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-rivaroxaban-1",
@@ -19332,7 +19416,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-sulfamethoxazole-1",
@@ -19392,7 +19479,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-tinidazole-1",
@@ -19412,7 +19502,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-tropicamide-1",
@@ -19432,7 +19525,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層）"
+   "method": "2026-11-12 人工查核（正文張數對事實層）",
+   "status": "resolved_by_program",
+   "resolved_on": "2026-11-24",
+   "resolved_note": "el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra"
   },
   {
    "id": "co-lic-20261112-atazanavir-1",
@@ -31728,7 +31824,9 @@
     }
    ],
    "checked": "2026-11-24",
-   "method": "2026-11-24 人工查核（每週許可證排程擋下的頁，逐列對照 INVIMA CUM 與證據包）"
+   "method": "2026-11-24 人工查核（每週許可證排程擋下的頁，逐列對照 INVIMA CUM 與證據包）",
+   "status": "superseded",
+   "superseded_by": "程式產生的許可證表（scripts/sync_license_tables.py，2026-11-24 依證據包 INVIMA CUM 重排；表上的狀態欄照 CUM 現行狀態）"
   },
   {
    "id": "co-row-20261124-epinastine-1",
@@ -31748,7 +31846,9 @@
     }
    ],
    "checked": "2026-11-24",
-   "method": "2026-11-24 人工查核（每週許可證排程擋下的頁，逐列對照 INVIMA CUM 與證據包）"
+   "method": "2026-11-24 人工查核（每週許可證排程擋下的頁，逐列對照 INVIMA CUM 與證據包）",
+   "status": "superseded",
+   "superseded_by": "程式產生的許可證表（scripts/sync_license_tables.py，2026-11-24 依證據包 INVIMA CUM 重排；表上的狀態欄照 CUM 現行狀態）"
   },
   {
    "id": "co-row-20261124-travoprost-1",
@@ -31768,7 +31868,9 @@
     }
    ],
    "checked": "2026-11-24",
-   "method": "2026-11-24 人工查核（每週許可證排程擋下的頁，逐列對照 INVIMA CUM 與證據包）"
+   "method": "2026-11-24 人工查核（每週許可證排程擋下的頁，逐列對照 INVIMA CUM 與證據包）",
+   "status": "superseded",
+   "superseded_by": "程式產生的許可證表（scripts/sync_license_tables.py，2026-11-24 依證據包 INVIMA CUM 重排；表上的狀態欄照 CUM 現行狀態）"
   },
   {
    "id": "co-row-20261124-fluconazole-1",
@@ -31788,7 +31890,9 @@
     }
    ],
    "checked": "2026-11-24",
-   "method": "2026-11-24 人工查核（每週許可證排程擋下的頁，逐列對照 INVIMA CUM 與證據包）"
+   "method": "2026-11-24 人工查核（每週許可證排程擋下的頁，逐列對照 INVIMA CUM 與證據包）",
+   "status": "superseded",
+   "superseded_by": "程式產生的許可證表（scripts/sync_license_tables.py，2026-11-24 依證據包 INVIMA CUM 重排；表上的狀態欄照 CUM 現行狀態）"
   },
   {
    "id": "co-row-20261124-paroxetine-1",
@@ -31808,7 +31912,9 @@
     }
    ],
    "checked": "2026-11-24",
-   "method": "2026-11-24 人工查核（每週許可證排程擋下的頁，逐列對照 INVIMA CUM 與證據包）"
+   "method": "2026-11-24 人工查核（每週許可證排程擋下的頁，逐列對照 INVIMA CUM 與證據包）",
+   "status": "superseded",
+   "superseded_by": "程式產生的許可證表（scripts/sync_license_tables.py，2026-11-24 依證據包 INVIMA CUM 重排；表上的狀態欄照 CUM 現行狀態）"
   },
   {
    "id": "co-lic-20261124-epinastine-1",
@@ -31829,6 +31935,69 @@
    ],
    "checked": "2026-11-24",
    "method": "2026-11-24 人工查核（每週許可證排程擋下的頁，checker M3c）"
+  },
+  {
+   "id": "co-lic-20261124-miglustat-1",
+   "drug": "miglustat",
+   "file": "miglustat.md",
+   "action": "correct",
+   "claim": "Ningún registro está vigente actualmente. Cualquier uso en Colombia requeriría una nueva gestión regulatoria.",
+   "replacement": "",
+   "summary": "Eliminado: afirmaba que ningún registro sanitario está vigente",
+   "note": "Eliminado: afirmaba que ningún registro sanitario está vigente, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23): el medicamento tiene 2 registros sanitarios, todos vigentes. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "市場段落的 AI 句說沒有任何有效註冊；事實層（2026-11-23 每週排程後的 INVIMA CUM）total 2、valid 2、cancelled 0。是 2026-10 證據包把有效許可誤判成註銷時產生的報告句，2026-11-05 依成分重建時刪句工具沒認出「Ningún registro está/se encuentra vigente」這種寫法（checker X_LOCAL es noreg 也漏）；2026-11-24 市場段落換成程式許可證表後，表上全是 Vigente、這句緊接在表下，以獨立偵測全量掃描時找到",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（程式許可證表上線後，獨立偵測全量掃正文張數／狀態句，逐句對照事實層與證據包）",
+   "anchor": "<!-- licenses:end -->"
+  },
+  {
+   "id": "co-lic-20261124-spironolactone-1",
+   "drug": "spironolactone",
+   "file": "spironolactone.md",
+   "action": "correct",
+   "claim": "Ningún registro se encuentra vigente actualmente.",
+   "replacement": "",
+   "summary": "Eliminado: afirmaba que ningún registro sanitario está vigente",
+   "note": "Eliminado: afirmaba que ningún registro sanitario está vigente, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23): el medicamento tiene 11 registros sanitarios, todos vigentes. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "市場段落的 AI 句說沒有任何有效註冊；事實層（2026-11-23 每週排程後的 INVIMA CUM）total 11、valid 11、cancelled 0。是 2026-10 證據包把有效許可誤判成註銷時產生的報告句，2026-11-05 依成分重建時刪句工具沒認出「Ningún registro está/se encuentra vigente」這種寫法（checker X_LOCAL es noreg 也漏）；2026-11-24 市場段落換成程式許可證表後，表上全是 Vigente、這句緊接在表下，以獨立偵測全量掃描時找到",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（程式許可證表上線後，獨立偵測全量掃正文張數／狀態句，逐句對照事實層與證據包）",
+   "anchor": "<!-- licenses:end -->"
+  },
+  {
+   "id": "co-lic-20261124-tetrabenazine-1",
+   "drug": "tetrabenazine",
+   "file": "tetrabenazine.md",
+   "action": "correct",
+   "claim": "Ningún registro se encuentra vigente actualmente.",
+   "replacement": "",
+   "summary": "Eliminado: afirmaba que ningún registro sanitario está vigente",
+   "note": "Eliminado: afirmaba que ningún registro sanitario está vigente, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23): el medicamento tiene 2 registros sanitarios, todos vigentes. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "市場段落的 AI 句說沒有任何有效註冊；事實層（2026-11-23 每週排程後的 INVIMA CUM）total 2、valid 2、cancelled 0。是 2026-10 證據包把有效許可誤判成註銷時產生的報告句，2026-11-05 依成分重建時刪句工具沒認出「Ningún registro está/se encuentra vigente」這種寫法（checker X_LOCAL es noreg 也漏）；2026-11-24 市場段落換成程式許可證表後，表上全是 Vigente、這句緊接在表下，以獨立偵測全量掃描時找到",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（程式許可證表上線後，獨立偵測全量掃正文張數／狀態句，逐句對照事實層與證據包）",
+   "anchor": "<!-- licenses:end -->"
   }
  ]
 }

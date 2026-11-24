@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 481
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "OLMESARTAN"
 predicted_indications: ["Prinzmetal angina", "hypotrichosis simplex of the scalp", "migraine disorder", "alopecia", "pulmonary hypertension", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "kyphoscoliotic heart disease", "open-angle glaucoma"]
 description: "Olmesartan: nueva indicación predicha, Prinzmetal angina (nivel de evidencia L5). Indicación original: OLMERSARTAN MEDOXOMIL Y DIURETICOS"
@@ -78,9 +78,19 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada | Estado |
-|---------|------|------|-----------|------|
-| 20103712 | OLMEDOXTAN H® 40MG/12.5MG | Tableta recubierta | Olmesartán medoxomilo y diuréticos | Vigente |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19954948 | OLMETEC 20 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | OLMESARTAN MEDOXIMIL | Vigente |
+| 19954949 | OLMETEC HCT 20/12.5 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | OLMERSARTAN MEDOXOMIL Y DIURETICOS | Vigente |
+| 19954951 | OLMETEC HCT 40/12.5 MG TABLETASRECUBIERTAS | TABLETA RECUBIERTA | OLMERSARTAN MEDOXOMIL Y DIURETICOS | Vigente |
+| 20022567 | OLMETECANLO 40 MG / 10 MG | TABLETA RECUBIERTA | TELMISARTAN Y AMLODIPINO | Vigente |
+| 20022571 | OLMETECANLO 40 MG/ 5MG | TABLETA RECUBIERTA | OLMESARTAN MEDOXIMIL | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

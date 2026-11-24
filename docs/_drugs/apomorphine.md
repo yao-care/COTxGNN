@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "apomorphine"
 predicted_indications: ["polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "myopia X-linked", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "syndromic myopia", "hydranencephaly (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Apomorphine: nueva indicación predicha, polimicrogiria perisilviana con hipoplasia cerebelosa y artrogriposis (polymicrogyria, perisylvian… (nivel de evidencia L5). Indicación original: APOMORFINA"
 ---
 
@@ -70,9 +70,15 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20104307 | DACEPTON® 100 MG / 20 ML SOLUCION INYECTABLE | Solución inyectable | APOMORFINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20104307 | DACEPTON® 100 MG / 20 ML SOLUCION INYECTABLE | SOLUCION INYECTABLE | APOMORFINA | Vigente |
+
+Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 543
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Pseudoephedrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L5). Indicación original: Combinaciones de paracetamol excluyendo psicolépticos"
 monitor_inn: "pseudoephedrine"
 predicted_indications: ["nasal cavity disease", "allergic urticaria"]
@@ -89,10 +89,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20018638 | TYPIREC ANTIGRIPAL | Cápsula blanda | Paracetamol combinaciones excluyendo psicolépticos |
-| 20013677 | ROSSFELL® CÁPSULAS | Cápsula dura | Pseudoefedrina combinaciones |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20252575 | CETIRIZINA DICLORHIDRATO 5 MG/5 ML + SULFATO DE PSEUDOEFEDRINA 60 MG/5 ML | JARABE | PSEUDOEFEDRINA | Vigente |
+| 20013450 | ROSSFELJARABE | JARABE | PSEUDOEFEDRINA COMBINACIONES | Vencido |
+| 20013677 | ROSSFELL® CAPSULAS | CAPSULA DURA | PSEUDOEFEDRINA COMBINACIONES | Vencido |
+| 20018638 | TYPIREC ANTIGRIPAL | CAPSULA BLANDA | PARACETAMOL COMBINACIONES EXCLUYENDO SICOLEPTICOS | Vencido |
+| 20018641 | NIOFEN® FLU FORTE CAPS | CAPSULA BLANDA | IBUPROFENO | Vencido |
+
+Se muestran 5 de 7 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

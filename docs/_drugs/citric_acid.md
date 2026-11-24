@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 160
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "citric acid"
 predicted_indications: ["stomach disease", "pharyngitis", "acute laryngopharyngitis", "postgastrectomy syndrome", "nasal cavity disease", "papillary conjunctivitis", "blepharoconjunctivitis", "rhinitis"]
 description: "Citric Acid: nueva indicación predicha, Enfermedad del estómago (stomach disease) (nivel de evidencia L5). Indicación original: ELECTROLITOS COMBINACIONES"
@@ -80,9 +80,19 @@ Ninguna de las publicaciones evalúa el ácido cítrico como tratamiento de la e
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19978751 | HIDRALITOS | Solución oral | Electrolitos combinaciones |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19978751 | HIDRALITOS | SOLUCION ORAL | ELECTROLITOS COMBINACIONES | Vigente |
+| 20047307 | ALKA - SELTZER® TABLETAS | TABLETA EFERVESCENTE | ANTIACIDOS CON BICARBONATO DE SODIO | Vigente |
+| 20073040 | PICOPREP® POLVO PARA SOLUCIÓN ORAL | POLVO PARA RECONSTITUIR A SOLUCION ORAL | SODIO PICOSULFATO COMBINACIONES | Vigente |
+| 20119541 | TRAVAD PIK | POLVO PARA RECONSTITUIR A SOLUCION ORAL | SODIO PICOSULFATO COMBINACIONES | Vigente |
+| 20242867 | ALKA® -DIRECT | TABLETA EFERVESCENTE | BICARBONATO DE SODIO + ÁCIDO CÍTRICO | Vigente |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 La lista de registros puede ser parcial.
 

@@ -74,11 +74,19 @@ Actualmente no hay literatura relacionada disponible.
 
 Los datos compilados registran 3 registros sanitarios de isotretinoína en monoterapia (la lista puede ser parcial):
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20002702 | DERMALONA 20 MG CÁPSULA BLANDA | Cápsula blanda | ISOTETRINOINA |
-| 19993476 | HYNDRIAX 20 MG CÁPSULAS | Cápsula blanda | ISOTETRINOINA |
-| 19970684 | ISOTRETINOINA 20 MG | Cápsula blanda | ISOTETRINOINA |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19962874 | ROVACOR ® | CAPSULA BLANDA | ISOTETRINOINA | Vigente |
+| 19970684 | ISOTRETINOINA 20 MG | CAPSULA BLANDA | ISOTETRINOINA | Vigente |
+| 19970685 | ISOTRETINOINA 10 MG | CAPSULA BLANDA | ISOTETRINOINA | Vigente |
+| 19980098 | REYTRIN 20 MG CAPSULA | CAPSULA BLANDA | ISOTETRINOINA | Vigente |
+| 20020357 | ISOFACE 20 MG | CAPSULA BLANDA | ISOTETRINOINA | Vigente |
+
+Se muestran 5 de 12 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

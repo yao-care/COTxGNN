@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 653
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "VALSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
 description: "Valsartan: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L4). Indicación original: VALSARTAN Y DIURETICOS"
@@ -73,9 +73,19 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 19980966 | DIOVAN® HCT 320 / 12.5 MG | Tableta recubierta | Valsartán y diuréticos |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19910346 | DIOVAN® HCT 160 MG/12.5 MG COMPRIMIDOS RECUBIERTOS | TABLETA RECUBIERTA | VALSARTAN Y DIURETICOS | Vigente |
+| 19930410 | VALSARTAN80 MG | CAPSULA DURA | VALSARTAN | Vigente |
+| 19930412 | VALSARTAN 160MG | CAPSULA DURA | VALSARTAN | Vigente |
+| 19931043 | DIOVAN® HCT 160/25 | TABLETA RECUBIERTA | VALSARTAN Y DIURETICOS | Vigente |
+| 19937175 | VALSAPREX® 80 MG TABLETAS | TABLETA RECUBIERTA | VALSARTAN | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

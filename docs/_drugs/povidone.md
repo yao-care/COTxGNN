@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 525
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Povidone: nueva indicación predicha, Eritrodermia ictiosiforme congénita (nivel de evidencia L5). Indicación original: Atorvastatina y ezetimibe"
 monitor_inn: "povidone"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
@@ -80,9 +80,16 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20249624 | COLMIBE® 40/10 TABLETAS | Tableta | Atorvastatina y ezetimibe |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20249624 | COLMIBE® 40/10 TABLETAS | TABLETA | ATORVASTATINA Y EZETIMIBE | Vigente |
+| 20258933 | HETOPIR® 801 MG TABLETA RECUBIERTAS | TABLETA RECUBIERTA | PIRFENIDONA | Vigente |
+
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 

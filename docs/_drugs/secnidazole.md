@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 581
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Secnidazole"
 predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vaginal discharge", "vulvar neoplasm", "leukoplakia of vagina", "vulvovaginal candidiasis"]
 description: "Secnidazole: nueva indicación predicha, Vaginitis atrófica posmenopáusica (postmenopausal atrophic vaginitis) (nivel de evidencia L5). Indicación original: SECNIDAZOL"
@@ -81,12 +81,19 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20085584 | Secnidazol 1 g Tabletas | Tableta recubierta | Secnidazol |
-| 43991 | Secnidazol 500 mg Tabletas | Tableta | Secnidazol |
-| 53919 | Secnidazol 1 g | Tableta cubierta con película | Secnidazol |
-| 20232574 | Segnivag Duo® | Tableta recubierta | Combinaciones de imidazol derivados |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 1980632 | SECNICHEN TABLETAS | TABLETA RECUBIERTA | SECNIDAZOL | Vigente |
+| 19903653 | SECNIDAZOL 1 G TABLETAS | TABLETA | SECNIDAZOL | Vigente |
+| 19938955 | GIARDAMEB 1 G TABLETAS | TABLETA RECUBIERTA | SECNIDAZOL | Vigente |
+| 19942227 | ALBISEC® | CAPSULA DURA | SECNIDAZOL | Vigente |
+| 19947567 | NIDAZ®TABLETA 1 G | TABLETA RECUBIERTA | SECNIDAZOL | Vigente |
+
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+
+<!-- licenses:end -->
 
 ---
 

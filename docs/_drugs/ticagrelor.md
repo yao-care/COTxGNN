@@ -87,11 +87,19 @@ Debe señalarse que la evidencia es indirecta para ticagrelor: el ensayo de Fase
 
 ## Información de Mercado en Colombia
 
-| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Indicación Aprobada |
-|---------|------|------|-----------|
-| 20235198 | Ticagrelor 90 mg tabletas | Tableta recubierta | Ticagrelor |
-| 20224822 | Torplat® 60 mg tabletas recubiertas | Tableta recubierta | Ticagrelor |
-| 20163351 | Tiare® tabletas 90 mg | Tableta recubierta | Ticagrelor |
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 20039341 | BRILINTA® 90 MG | TABLETA CUBIERTA CON PELICULA | TICAGRELOR | Vigente |
+| 20144810 | TICAGREL 60 | TABLETA RECUBIERTA | TICAGRELOR | Vigente |
+| 20148906 | TICAGREL90 | TABLETA RECUBIERTA | TICAGRELOR | Vigente |
+| 20163351 | TIARE® TABLETAS 90 MG | TABLETA RECUBIERTA | TICAGRELOR | Vigente |
+| 20197818 | TIARE® 60MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | TICAGRELOR | Vigente |
+
+Se muestran 5 de 17 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ---
 
