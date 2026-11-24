@@ -163,7 +163,8 @@ def process(text, tf):
     lines = strip_marks(text.split("\n"))
     a, b = _bounds(lines)
     if a is None:
-        return None
+        t2 = add_section("\n".join(lines), tf)
+        return t2 if t2 and t2 != text else None
     mask = _review_mask(lines)
     tb = [k for k in range(a, b) if lines[k].startswith("|") and k not in mask]
     rows, total, partial = counts(tf)
@@ -193,6 +194,28 @@ def process(text, tf):
         out = head + [""] + wrap(block_for(tf, n)) + [""] + rest + lines[b:]
     t2 = re.sub(r"\n{3,}", "\n\n", "\n".join(out))
     return t2 if t2 != text else None
+
+
+# 2026-11-24 第三輪（用戶決定，比照 JpTxGNN 第二輪）：公開頁沒有「## Información de Mercado en Colombia」段落、但證據包有
+# 衛生登記紀錄的，補一個段落放程式表（min(5, 可列筆數) 列＋SHOW 句）。位置：「## Consideraciones de Seguridad」之前（預測頁的固定順序）；
+# 沒有就「## Conclusión y Próximos Pasos」之前；再沒有（已知用途頁）就「## Descargo de responsabilidad」之前。
+# noindex 頁與證據包沒有紀錄的頁不補。
+SEC = "## Información de Mercado en Colombia"
+ADD_BEFORE = ("Consideraciones de Seguridad", "Conclusión y Próximos Pasos", "Conclusion y Proximos Pasos", "Descargo de responsabilidad")
+
+
+def add_section(text, tf):
+    fm = text.split("---", 2)[1] if text.startswith("---") else ""
+    rows = counts(tf)[0]
+    if re.search(r"^noindex:\s*true", fm, re.M) or not rows:
+        return None
+    lines = text.split("\n")
+    heads = {m.group(1): i for i, l in enumerate(lines) for m in [re.match(r"^## (.+?)\s*$", l)] if m}
+    at = next((heads[h] for h in ADD_BEFORE if h in heads), None)
+    if at is None:
+        return None
+    sec = [SEC, ""] + wrap(block_for(tf, min(5, len(rows)))) + [""]
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(lines[:at] + sec + lines[at:]))
 
 
 def block_lines(text):

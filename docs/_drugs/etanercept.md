@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ETANERCEPT"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Etanercept: nueva indicación predicha, Hipermovilidad del coxis (hypermobility of coccyx) (nivel de evidencia L5). Indicación original: ETANERCEPT"
 ---
 
@@ -67,6 +67,22 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 ## Evidencia de Literatura
 
 Actualmente no hay literatura relacionada disponible.
+
+## Información de Mercado en Colombia
+
+<!-- licenses:begin -->
+
+| Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
+|---------|------|------|------|------|
+| 19968208 | ETANAR ® 25 MG POLVO LIOFILIZADO | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | ETANERCEPT | Vigente |
+| 19978839 | ENBREL® 25 MG SOLUCION PARA INYECCION | SOLUCION INYECTABLE | ETANERCEPT | Vigente |
+| 19978841 | ENBREL® 50 MG SOLUCION PARA INYECCION | SOLUCION INYECTABLE | ETANERCEPT | Vigente |
+| 20211560 | ALTEBREL® 25MG/0.5ML | SOLUCION INYECTABLE | ETANERCEPT | Vigente |
+| 20211583 | ALTEBREL® 50MG/ML | SOLUCION INYECTABLE | ETANERCEPT | Vigente |
+
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+
+<!-- licenses:end -->
 
 ## Consideraciones de Seguridad
 

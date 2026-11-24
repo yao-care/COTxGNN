@@ -115,3 +115,11 @@ dbXXXXX 轉址頁原本指到被轉址頁的（db00448、db01060、db01076、db0
   co-lic-20261105 的殘句（methotrexate「los dos y…」、methylphenidate「los cuatro y si…」）只留去掉錯誤前提的建議；glycine、cefalotin 的寫死張數拿掉；denosumab、lisinopril、midodrine、palivizumab、trifluoperazine、upadacitinib、ruxolitinib 保留句的「Ambos／Los tres registros」改「Todos los registros」（事實層查證仍成立）。
 - 張數樣板：`src/cotxgnn/regulatory/site.py` 的 `_fig()` 原本寫死「El medicamento tiene N registros sanitarios (vigentes: V)」，改成不寫數字的一句；既有 775 筆紀錄說明同 id 重發（前版存 history，框的查核日期不變）。
 - 合計：新紀錄 112 筆、同 id 重發 829 筆（含 2 筆改錨）；刪掉舊表說明句後 sync_license_tables 照一般規則（至少 5 列）重排 6 頁程式表（cefpodoxime、cholecalciferol、ciprofibrate、fluoxetine、lidocaine、metoprolol）。checker 前後 0、gate exit 0。
+
+## 整頁沒有市場段落的公開頁補程式表（2026-11-24 第三輪）
+
+用戶 2026-11-24 第三輪決定（比照 JpTxGNN 第二輪的 `add_section`）：公開頁（非 noindex、非轉址）整頁沒有「## Información de Mercado en Colombia」、但證據包有 INVIMA 衛生登記紀錄的，補段落與程式表。
+- `scripts/sync_license_tables.py` 的 `add_section`：放在「## Consideraciones de Seguridad」之前（沒有就「## Conclusión y Próximos Pasos」、再沒有就「## Descargo de responsabilidad」）；表照 block_for（min(5, 可列筆數) 列＋SHOW 句）；noindex 頁、沒有紀錄的頁不補。
+  每週排程 sync_tables、依成分重建、build_license_snapshot.py 都會跑；`license_adapter.PAGE_NOTE` 放行補的段落標題行。
+- gate 第 18 項（`src/cotxgnn/regulatory/licenses.py` 第 5 條）：公開頁快照有程式表列、卻整頁沒有市場段落就擋。
+- 2026-11-24 全量量測 2 頁、補 2 頁：etanercept（5 筆，全部 vigente）、imipenem（4 筆，全部 vigente，含 imipenem＋cilastatina＋relebactam 的 RECARBRIO）；正文沒有寫死張數或劑型的市場說法，沒有新紀錄。checker 全量前後都是 0；gate exit 0。
