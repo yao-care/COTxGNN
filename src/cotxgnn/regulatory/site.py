@@ -3,9 +3,12 @@
 同目錄 page_format／licenses／withdrawn 與 scripts/apply_drug_reviews.py、build_license_snapshot.py、reviews_from_edits.py、
 check_original_indications.py 都讀這裡；核心流程比照 TwTxGNN 與 UsTxGNN，只有這份是本站自己的寫法。
 本站的市場資料是 INVIMA CUM（Código Único de Medicamentos，datos.gov.co；註冊狀態 Vigente／Vencido 等，號碼＝expediente），
-頁面文字用西班牙文。本站沒有程式產生的許可證表（市場段落的表是報告寫的），所以沒有程式區塊標記。
+頁面文字用西班牙文。市場段落的許可證表 2026-11-24 起由程式產生（scripts/sync_license_tables.py，前後有 licenses:begin／end 標記；
+用戶 2026-11-24 決定，原本是報告寫的表），gate 依快照驗程式區塊（program_block_problems）。
 """
+import importlib.util
 import re
+from pathlib import Path
 
 SITE = "COTxGNN"
 CODE = "co"
@@ -77,6 +80,41 @@ def own_ids(tf):
     return sorted({str(r.get("license_id") or "").strip() for r in tf.get("records") or [] if r.get("license_id")})
 
 
+PROGRAM_SCRIPT = "sync_license_tables.py"  # scripts/ 下產生程式許可證表的程式（build_license_snapshot 讀它的 rows_of／snap_extra）
+
+
+def _slt():
+    p = Path(__file__).resolve().parents[3] / "scripts" / PROGRAM_SCRIPT
+    s = importlib.util.spec_from_file_location("co_sync_license_tables", p)
+    m = importlib.util.module_from_spec(s)
+    s.loader.exec_module(m)
+    return m
+
+
+def program_block_problems(sec_lines, entry):
+    """程式區塊（licenses:begin／end）＝依快照重算的結果（scripts/sync_license_tables.py 的 expected_block；列數依頁面上的列數，
+    在 1～20 之間，快照存前 20 列）。段落裡有表卻沒有程式區塊＝AI 自由格式表沒換掉，也擋。"""
+    S = _slt()
+    has_b, has_e = S.BEGIN in sec_lines, S.END in sec_lines
+    if has_b != has_e:
+        return ["程式區塊標記不成對"]
+    if not has_b:
+        if any(l.startswith("|") for l in sec_lines) or any(l.strip() == S.NONE_LINE for l in sec_lines):
+            return ["市場段落的許可證表不是程式區塊（跑 python3 scripts/sync_license_tables.py）"]
+        return ["市場段落沒有程式許可證區塊（跑 python3 scripts/sync_license_tables.py）"]
+    i, j = sec_lines.index(S.BEGIN), sec_lines.index(S.END)
+    got = [x for x in sec_lines[i + 1:j] if x.strip()]
+    errs = []
+    if any(l.startswith("|") for k, l in enumerate(sec_lines) if k < i or k > j):
+        errs.append("市場段落在程式區塊外另有表格")
+    n = sum(1 for x in got[2:] if x.startswith("| ")) if got and got[0] == S.HEAD[0] else 0
+    want = S.expected_block(entry, n)
+    if got != want:
+        k = next((k for k, (x, y) in enumerate(zip(got, want)) if x != y), min(len(got), len(want)))
+        errs.append(f"程式區塊第 {k + 1} 行跟快照重算的結果不同（程式表被手改或資料已更新：跑 scripts/sync_license_tables.py）")
+    return errs
+
+
 # ---------- 刪改轉紀錄（reviews_from_edits） ----------
 # 2026-10-31～11-06 的許可證刪改（git log docs/_drugs；排程狀態格 698d9250、欄位名統一、排除表、AI 重產、description、表格空行不算）
 COMMITS = ["5fda915f", "d355c924", "e46b1db3"]
@@ -84,7 +122,10 @@ COMMITS = ["5fda915f", "d355c924", "e46b1db3"]
 REGEN_COMMITS = ["a0de58db", "0832fc39", "7821f117", "79c1d685", "9bfc813e", "5e323b6e", "6897e7dd", "0c2d953a"]
 SOURCES = [{"title": "INVIMA: Código Único de Medicamentos (datos.gov.co)", "url": "https://www.datos.gov.co/resource/i7cb-raxc.json"}]
 SENT = re.compile(r'(?<=[.!?])\s+(?=[A-ZÁÉÍÓÚÑ¿¡0-9(*"\[])|\n')
-PROGRAM_LINES = []
+# 程式寫的句子（scripts/sync_license_tables.py 的 SHOW／NONE_LINE、known_use_pages 的部分紀錄提示）：轉紀錄與驗證時不當成正文
+PROGRAM_LINES = [re.compile(r"^Se muestra(n)? (el único|los \d+|\d+ de (al menos )?\d+) registros? sanitarios? de este principio activo en los datos del INVIMA"),
+                 re.compile(r"^No se encontraron registros sanitarios de este principio activo en los datos del INVIMA"),
+                 re.compile(r"^Los datos solo contienen parte de los registros; la lista puede estar incompleta\.$")]
 CLASSIFY = [
     ("tw", re.compile(r"Taiwan|Taiwán|TFDA", re.I)),
     ("cancel", re.compile(r"cancelad|vencid|no (está |esta )?(registrad|comercializad|autorizad|disponible)|sin registro|"

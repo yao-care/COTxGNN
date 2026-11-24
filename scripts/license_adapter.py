@@ -90,3 +90,25 @@ def update(rec, new):
         return False  # 舊紀錄沒有 license_status 但原文是 Vigente：意義相同，不算變動
     rec["status"], rec["license_status"] = text, cls
     return True
+
+
+# 2026-11-24（用戶決定）：市場段落的許可證表改由程式產生（scripts/sync_license_tables.py）。每週排程（母目錄
+# license_refresh_20261029.py 的 sync_tables 掛鉤）對狀態有變的證據包重排程式表；3b 自我檢查另允許改的非表格行＝PAGE_NOTE
+# （表下程式說明句、NONE_LINE、程式區塊標記、known_use_pages 的舊部分紀錄提示）。
+PAGE_NOTE = (r"^(Se muestra(n)? (el único|los \d+|\d+ de (al menos )?\d+) registros? sanitarios? de este principio activo en los datos del "
+             r"INVIMA, Código Único de Medicamentos.*|No se encontraron registros sanitarios de este principio activo en los datos del INVIMA.*|"
+             r"Los datos solo contienen parte de los registros; la lista puede estar incompleta\.|<!-- licenses:(begin|end) -->)$")
+
+
+def sync_tables(site_root, bundles):
+    """狀態有變的藥：「Información de Mercado en Colombia」的程式許可證表依證據包重排（vigentes 在前），狀態照 CUM 現行狀態；
+    SHOW 句跟著改（規則見 scripts/sync_license_tables.py）。回傳 [(頁, 欄位, 前值, 後值)]"""
+    import importlib.util
+    from pathlib import Path
+    p = Path(site_root) / "scripts/sync_license_tables.py"
+    s = importlib.util.spec_from_file_location("co_sync_license_tables", p)
+    m = importlib.util.module_from_spec(s)
+    s.loader.exec_module(m)
+    if not bundles:
+        return []
+    return m.run(only=set(bundles))
