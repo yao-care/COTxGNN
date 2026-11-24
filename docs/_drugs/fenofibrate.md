@@ -87,7 +87,13 @@ Se muestran los 3 registros sanitarios de este principio activo en los datos del
 
 <!-- licenses:end -->
 
-La lista puede ser parcial. Este producto es una combinación; su licencia no describe cómo está aprobado el fenofibrato como principio activo único.
+De estos registros, PRAVAFEN® (pravastatina/fenofibrato) es una combinación; su licencia no describe cómo está aprobado el fenofibrato como principio activo único.
+
+<!-- review:begin co-lic-20261124b-fenofibrate-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "La lista puede ser parcial. Este producto es una combinación; su licencia no describe cómo está aprobado el fenofibrato como principio activo único." Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23): además de PRAVAFEN® (combinación), figuran productos de fenofibrato como único principio activo (NORTRICOL 200 y FENOLIP® 200 MG); se eliminó la advertencia de lista parcial. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124b-fenofibrate-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -108,6 +114,19 @@ No hay ensayos clínicos ni estudios que investiguen directamente la deficiencia
 - Estudios directos en la enfermedad (modelos o pacientes) que respalden la hipótesis.
 - Datos del mecanismo de acción y del prospecto de INVIMA (advertencias y contraindicaciones) para el análisis de seguridad.
 - Revisión de la seguridad frente a las contraindicaciones del grafo de conocimiento (hepáticas, musculares, renales y hematológicas).
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | Este producto → PRAVAFEN® | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -38,12 +38,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 ## Resumen en Una Frase
 
-Levotiroxina (levotiroxina de sodio) es una hormona tiroidea sintética que cuenta en Colombia con al menos 20 registros sanitarios vigentes de INVIMA, cuyo texto de indicación solo indica el nombre del principio activo.
+Levotiroxina (levotiroxina de sodio) es una hormona tiroidea sintética que cuenta en Colombia con registros sanitarios vigentes de INVIMA, cuyo texto de indicación solo indica el nombre del principio activo.
 El modelo TxGNN predice que podría ser efectiva para **hipodisplasia/aplasia renal**, pero **no existen ensayos clínicos ni publicaciones** en los datos compilados que respalden esta dirección; se trata únicamente de una predicción del modelo.
 
 <!-- review:begin co-lic-20261112-levothyroxine-1 -->
 
-> **Corrección de revisión (2026-11-12)**: Texto original: "un registro sanitario vigente" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 20 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-24)**: Texto original: "un registro sanitario vigente" Corregido: el número de registros sanitarios escrito en el texto no coincidía con los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23); el texto ya no indica una cifra fija. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261112-levothyroxine-1 -->
 
@@ -77,8 +77,6 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-La lista proviene de un recuento parcial; pueden existir más registros.
-
 <!-- licenses:begin -->
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
@@ -92,6 +90,12 @@ La lista proviene de un recuento parcial; pueden existir más registros.
 Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
 
 <!-- licenses:end -->
+
+<!-- review:begin co-lic-20261124b-levothyroxine-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "La lista proviene de un recuento parcial; pueden existir más registros." Eliminado: advertía que la lista de registros podría ser parcial. La tabla de Información de Mercado en Colombia se genera a partir de los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23) e indica cuántos registros muestra y que los datos de este informe solo incluyen parte de los registros. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124b-levothyroxine-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -126,8 +130,9 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-12 | Número de registros vigentes: 1 → al menos 20 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-24 | Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido) | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Levoxyl (levothyroxine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=758588c3-c63e-491b-0aa2-4f50d80cb174) |
+| 2026-11-24 | Eliminado: "La lista proviene de un recuento parcial; pueden existir más registros." | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

@@ -123,7 +123,7 @@ La predicción tiene un puntaje alto (0.9995), pero no hay ensayos clínicos reg
 
 <!-- review:begin co-lic-20261105-rifampicin-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Además, existen alternativas tópicas bien establecidas, y no hay registros sanitarios vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, existen alternativas tópicas bien establecidas, y no hay registros sanitarios vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-rifampicin-1 -->
 
@@ -136,7 +136,7 @@ La predicción tiene un puntaje alto (0.9995), pero no hay ensayos clínicos reg
 
 <!-- review:begin co-lic-20261105-rifampicin-2 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Fusionar las entradas duplicadas de conjuntivitis y evaluar la compatibilidad de vía de administración (una formulación oftálmica tópica no existe actualmente en Colombia; solo hay cápsulas orales, ambas canceladas). / Evaluar la rifampicina frente a las terapias tópicas actuales mediante revisión sistemática o estudio clínico moderno." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-05)**: Texto original: "Fusionar las entradas duplicadas de conjuntivitis y evaluar la compatibilidad de vía de administración (una formulación oftálmica tópica no existe actualmente en Colombia; solo hay cápsulas orales, ambas canceladas). / Evaluar la rifampicina frente a las terapias tópicas actuales mediante revisión sistemática o estudio clínico moderno." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-rifampicin-2 -->
 
@@ -148,8 +148,8 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "y no hay registros sanitarios vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-05 | Eliminado: "Fusionar las entradas duplicadas de conjuntivitis y evaluar la compatibilidad de vía de administración (una formulación oftálmica tópica no " | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "y no hay registros sanitarios vigentes en Colombia" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Fusionar las entradas duplicadas de conjuntivitis y evaluar la compatibilidad de vía de administración (una formulación oftálmica tópica no " | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: rifampin prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8be91604-d7cd-4f2b-997d-e3364e4092e5) |
 
 <!-- review:end log -->

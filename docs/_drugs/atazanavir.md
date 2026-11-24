@@ -38,12 +38,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 ## Resumen en Una Frase
 
-Atazanavir es un inhibidor de la proteasa del VIH-1 que cuenta con 7 registros sanitarios en Colombia (6 vigentes).
+Atazanavir es un inhibidor de la proteasa del VIH-1 que cuenta con registros sanitarios en Colombia.
 El modelo TxGNN predice que podría ser útil para la **síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome)**, una enfermedad veterinaria, con **0 ensayos clínicos** y **0 publicaciones** que respalden directamente esta predicción.
 
 <!-- review:begin co-lic-20261112-atazanavir-1 -->
 
-> **Corrección de revisión (2026-11-12)**: Texto original: "que cuenta con un registro sanitario en Colombia." Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 7 registros sanitarios, de los cuales 6 vigentes y 1 perdió fuerza ejecutoria. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-24)**: Texto original: "que cuenta con un registro sanitario en Colombia." Corregido: el número de registros sanitarios escrito en el texto no coincidía con los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23); el texto ya no indica una cifra fija. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261112-atazanavir-1 -->
 
@@ -91,7 +91,11 @@ Se muestran 5 de 7 registros sanitarios de este principio activo en los datos de
 
 <!-- licenses:end -->
 
-La lista puede ser parcial, ya que los registros de los datos compilados están incompletos.
+<!-- review:begin co-lic-20261124b-atazanavir-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "La lista puede ser parcial, ya que los registros de los datos compilados están incompletos." Eliminado: advertía que la lista de registros podría ser parcial. La tabla de Información de Mercado en Colombia se genera a partir de los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23) e indica cuántos registros muestra del total. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124b-atazanavir-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -123,8 +127,9 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-12 | Número de registros sanitarios: 1 → 7 (6 vigentes) | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-24 | Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido) | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Reyataz (atazanavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=165cff62-b284-4a27-a65d-9ec8a5bfcdd8) |
+| 2026-11-24 | Eliminado: "La lista puede ser parcial, ya que los registros de los datos compilados están incompletos." | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

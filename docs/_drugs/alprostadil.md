@@ -79,7 +79,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-Alprostadil se encuentra comercializado en Colombia, con 5 registros vigentes. La lista de registros puede ser parcial.
+Alprostadil se encuentra comercializado en Colombia, con 5 registros vigentes.
 
 <!-- licenses:begin -->
 
@@ -94,6 +94,12 @@ Alprostadil se encuentra comercializado en Colombia, con 5 registros vigentes. L
 Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
+
+<!-- review:begin co-lic-20261124b-alprostadil-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "La lista de registros puede ser parcial." Eliminado: advertía que la lista de registros podría ser parcial. La tabla de Información de Mercado en Colombia se genera a partir de los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23) e indica cuántos registros muestra del total. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124b-alprostadil-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -125,6 +131,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-12 | Número de registros vigentes: 4 → 5 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Caverject (alprostadil) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a295fc1e-d82c-4f44-bc2d-a552bf594c98) |
+| 2026-11-24 | Eliminado: "La lista de registros puede ser parcial." | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

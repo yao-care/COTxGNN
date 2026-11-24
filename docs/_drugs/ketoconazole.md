@@ -61,6 +61,12 @@ El modelo TxGNN predice que podría ser efectivo para **acné**, pero la evidenc
 | Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
+<!-- review:begin co-lic-20261112-ketoconazole-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "3 registros vigentes" Corregido: el número de registros sanitarios escrito en el texto no coincidía con los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23); el texto ya no indica una cifra fija. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-ketoconazole-1 -->
+
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -146,14 +152,8 @@ La predicción se apoya sobre todo en el puntaje computacional y en evidencia in
 - Definir la vía de administración (tópica frente a sistémica) y verificar su compatibilidad con los productos disponibles.
 - Obtener las advertencias y contraindicaciones del prospecto de INVIMA.
 - Completar los datos del mecanismo de acción desde DrugBank.
-- Aclarar la situación regulatoria en Colombia (el medicamento está comercializado y cuenta con al menos 18 registros vigentes) y evaluar si se requiere un nuevo registro.
+- Aclarar la situación regulatoria en Colombia (el medicamento está comercializado y cuenta con registros vigentes) y evaluar si se requiere un nuevo registro.
 - Evaluar el riesgo de hepatotoxicidad, supresión adrenal, prolongación del QT e interacciones antes de cualquier uso sistémico.
-
-<!-- review:begin co-lic-20261112-ketoconazole-1 -->
-
-> **Corrección de revisión (2026-11-12)**: Texto original: "3 registros vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 18 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261112-ketoconazole-1 -->
 
 <!-- review:begin log -->
 
@@ -165,7 +165,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "cuyos tres registros sanitarios están hoy cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "los tres registros colombianos están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 3 → al menos 18 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-24 | Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido) | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: ketoconazole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4baebcab-a237-42c0-9183-6f447a44e371) |
 
 <!-- review:end log -->

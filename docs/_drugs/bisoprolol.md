@@ -84,7 +84,13 @@ Se muestran 5 de al menos 20 registros sanitarios de este principio activo en lo
 
 <!-- licenses:end -->
 
-Bisoprolol figura como **comercializado** en Colombia. Los registros sanitarios disponibles corresponden a una forma oral (tableta recubierta). Los datos locales pueden ser parciales, por lo que el listado de registros podría no estar completo.
+Bisoprolol figura como **comercializado** en Colombia. Los registros sanitarios incluidos en los datos corresponden a formas orales (tabletas y tabletas recubiertas).
+
+<!-- review:begin co-lic-20261124b-bisoprolol-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Los registros sanitarios disponibles corresponden a una forma oral (tableta recubierta). Los datos locales pueden ser parciales, por lo que el listado de registros podría no estar completo." Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23): los registros incluyen tabletas y tabletas recubiertas (por ejemplo CONCOR® AM, en tableta). Se eliminó la advertencia de lista parcial: la tabla de Información de Mercado en Colombia ya indica que los datos de este informe solo incluyen parte de los registros. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124b-bisoprolol-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -103,6 +109,19 @@ La predicción se basa solo en el modelo (nivel L5). No hay ensayos clínicos ni
 - Advertencias y contraindicaciones del prospecto aprobado por INVIMA, para el análisis de seguridad.
 - Evaluación de la dosificación en insuficiencia renal.
 - Estudios preclínicos o clínicos exploratorios, si la revisión de la literatura respalda la hipótesis.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | una forma oral (tableta recubierta) → tabletas y tabletas recubiertas | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

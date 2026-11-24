@@ -88,7 +88,13 @@ Además, el efecto preventivo está respaldado por datos de ensayos aleatorizado
 
 ## Información de Mercado en Colombia
 
-Se encontraron registros sanitarios vigentes de candesartán como monofármaco; la lista puede ser parcial.
+Se encontraron registros sanitarios vigentes de candesartán como monofármaco.
+
+<!-- review:begin co-lic-20261124b-candesartan-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "candesartán como monofármaco; la lista puede ser parcial." Eliminado: advertía que la lista de registros podría ser parcial. La tabla de Información de Mercado en Colombia se genera a partir de los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23) e indica cuántos registros muestra del total. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124b-candesartan-1 -->
 
 <!-- licenses:begin -->
 
@@ -129,7 +135,8 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-10-31 | Eliminado: "Como salvedad, el campo de mecanismo de acción original no está disponible y el producto solo tiene registros cancelados en Colombia" | Ya no aparece tras regenerar el informe (2026-11-12: el informe se regeneró en noviembre de 2026 y ya no contiene esta afirmación; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-10-31 | Eliminado: "Como salvedad, el campo de mecanismo de acción original no está disponible y el producto solo tiene registros cancelados en Colombia" | Ya no aparece tras regenerar el informe (2026-11-12: el informe se regeneró en noviembre de 2026 y ya no contiene esta afirmación; antes: Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro)) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-24 | Eliminado: "candesartán como monofármaco; la lista puede ser parcial." | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

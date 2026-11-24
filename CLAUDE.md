@@ -103,3 +103,15 @@ dbXXXXX 轉址頁原本指到被轉址頁的（db00448、db01060、db01076、db0
 例：dronabinol「Indicación original: No consta en los datos locales」→「En Colombia, registros sanitarios del INVIMA: 4 (vigentes: 0; además, temporalmente no comercializados: 4)」；2026-11-19 改了 2 頁。
 由母目錄 `.claude/drug_meta_description.py --apply --site COTxGNN` 產生（站上複本 `tools/txgnn/.claude/drug_meta_description.py --apply --root .`），改動記在 `docs/_data/description_local_log.json`（pages＝目前句尾與原字樣、entries＝每次改動前後整行，可還原）。快照數字變了重跑會換新數字；`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾會自動 --apply，`check_seo_docs.py` 跑 --check 擋「還是未記載句尾」或「數字跟快照不符」。只改 front matter，lastmod_fix 不算正文改動、last_modified_at 不動。
 同日修：`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾重算 local_facts 的 atexit 掛鉤在結束時取不到 `__file__`（NameError，之前其實沒跑成），改成先算好路徑。
+
+## 第二輪：舊表說明句、保留語與紀錄裡的寫死張數（2026-11-24）
+
+用戶 2026-11-24 第二輪決定（第一輪列進待查的事逐句處理、紀錄說明不再寫死張數）：
+- 待查清單 19 句（描述舊 AI 表的說明句、數詞或廠商子集寫死的張數）逐句對照事實層（2026-11-23）與證據包：更正文字本身是舊表說明的 1105 紀錄同 id 重發（dexketoprofen、lorazepam「Ambos registros pertenecen a …」、bupivacaine、ketamine、terazosin「Fabricante: …」、mometasone「El sexto registro (DIFENZ®)」整句刪除；brigatinib「Ambos」→「Todos」，3 張皆 Takeda），
+  其餘寫新紀錄 `co-lic-20261124b-*`（capecitabine、lovastatin、sertaconazole、fusidic_acid、naphazoline、mupirocin、sunitinib 整句刪；efavirenz「三個都是複方」不成立（20021554、20063470 是單方）刪；methylprednisolone「Ambos productos son de vía oral」刪（另有注射用粉劑）；cilastatin「Los tres」→「Todos」；fluorouracil、isotretinoin 表前引言改成不寫數字）。19 項標 resolved，附 record_ids。
+- 劑型說法：市場段落全量掃描 19 句逐句對照證據包全部品項劑型；不成立的改寫：trimethoprim（1105 紀錄保留的「唯一劑型口服、沒有眼用」，證據包有注射液與 OQ-PLUS 眼用軟膏，同 id 重發刪除）、bisoprolol（另有 TABLETA）、desloratadine（7 張、錠劑與糖漿→實際含溶液、膠囊）、cabergoline、artemether（單數「Este registro」→複數）、fenofibrate（「Este producto es una combinación」→點名 PRAVAFEN®，另兩張單方）。其餘成立、保留。
+- 市場段落 AI 保留語「La lista (de registros) puede ser parcial」等：程式表說明句已寫顯示幾張、共幾張（部分收錄頁另寫「solo incluyen parte de los registros」），所以市場段落裡的保留語句（約 85 頁）以紀錄刪除，同句裡跟事實不符的張數（cabazitaxel 5、ciprofibrate 4、fluoxetine、metoprolol、albendazole、dipyridamole 等）一併刪；amikacin「表由程式補上」句一併刪。另寫的獨立寬偵測又找到 lidocaine「3 registros disponibles」、montelukast「Fabricante: TECNOFAR」，同樣處理。剩下 25 句的張數／單一持有人說法逐句查過跟事實層一致，不改。
+- 紀錄更正文字裡的張數：co-lic-20261112-* 與 co-lic-20261124-epinastine-1 的 replacement 改成不寫數字（「cuenta con registros sanitarios vigentes」等），note 改指向 Resumen rápido 與程式表，被點名的註冊號（artemether、octreotide、epinastine 的 19977977）保留；
+  co-lic-20261105 的殘句（methotrexate「los dos y…」、methylphenidate「los cuatro y si…」）只留去掉錯誤前提的建議；glycine、cefalotin 的寫死張數拿掉；denosumab、lisinopril、midodrine、palivizumab、trifluoperazine、upadacitinib、ruxolitinib 保留句的「Ambos／Los tres registros」改「Todos los registros」（事實層查證仍成立）。
+- 張數樣板：`src/cotxgnn/regulatory/site.py` 的 `_fig()` 原本寫死「El medicamento tiene N registros sanitarios (vigentes: V)」，改成不寫數字的一句；既有 775 筆紀錄說明同 id 重發（前版存 history，框的查核日期不變）。
+- 合計：新紀錄 112 筆、同 id 重發 829 筆（含 2 筆改錨）；刪掉舊表說明句後 sync_license_tables 照一般規則（至少 5 列）重排 6 頁程式表（cefpodoxime、cholecalciferol、ciprofibrate、fluoxetine、lidocaine、metoprolol）。checker 前後 0、gate exit 0。

@@ -150,10 +150,9 @@ def reason_kind(reason):
 
 
 def _fig(fc):
-    if not fc or fc.get("total") is None:
-        return ""
-    return (f" El medicamento tiene {fc['total']} registro{'s' if fc['total'] != 1 else ''} sanitario"
-            f"{'s' if fc['total'] != 1 else ''} (vigentes: {fc.get('valid') or 0}); las cifras actuales están en el Resumen rápido "
+    """2026-11-24（用戶決定）：原本寫死「El medicamento tiene N registros sanitarios (vigentes: V)」，會跟每週的 INVIMA 資料過期；
+    改成不寫數字、指向概覽表與程式許可證表（既有紀錄同 id 重發）。fc 參數保留相容。"""
+    return (" Las cifras actuales de registros sanitarios están en el Resumen rápido "
             "y en la tabla de Información de Mercado en Colombia.")
 
 

@@ -63,7 +63,7 @@ Hay además limitaciones de traslación: dapoxetina tiene absorción rápida y v
 
 <!-- review:begin co-lic-20261031-dapoxetine-1 -->
 
-> **Corrección de revisión (2026-10-31)**: Texto original: "Hay además limitaciones de traslación: dapoxetina tiene absorción rápida y vida media corta, diseñada para uso a demanda, lo que se adapta mal a una profilaxis crónica de la migraña. Su estado de mercado en Colombia (solo registros cancelados) también reduce la viabilidad de desarrollo." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-10-31)**: Texto original: "Hay además limitaciones de traslación: dapoxetina tiene absorción rápida y vida media corta, diseñada para uso a demanda, lo que se adapta mal a una profilaxis crónica de la migraña. Su estado de mercado en Colombia (solo registros cancelados) también reduce la viabilidad de desarrollo." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261031-dapoxetine-1 -->
 
@@ -112,7 +112,7 @@ La predicción se apoya solo en un puntaje computacional y en evidencia indirect
 
 <!-- review:begin co-lic-20261031-dapoxetine-2 -->
 
-> **Corrección de revisión (2026-10-31)**: Texto original: "Evaluar si el perfil farmacocinético de acción corta es compatible con un uso profiláctico o agudo en migraña. / Aclarar la situación regulatoria (registros cancelados) y la viabilidad comercial en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-10-31)**: Texto original: "Evaluar si el perfil farmacocinético de acción corta es compatible con un uso profiláctico o agudo en migraña. / Aclarar la situación regulatoria (registros cancelados) y la viabilidad comercial en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261031-dapoxetine-2 -->
 
@@ -124,8 +124,8 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-10-31 | Eliminado: "Su estado de mercado en Colombia (solo registros cancelados) también reduce la viabilidad de desarrollo" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-10-31 | Eliminado: "Aclarar la situación regulatoria (registros cancelados) y la viabilidad comercial en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-10-31 | Eliminado: "Su estado de mercado en Colombia (solo registros cancelados) también reduce la viabilidad de desarrollo" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-10-31 | Eliminado: "Aclarar la situación regulatoria (registros cancelados) y la viabilidad comercial en Colombia" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

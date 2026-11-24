@@ -72,7 +72,7 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Los datos de registros pueden ser parciales. Todos los registros listados están vigentes.
+Todos los registros listados están vigentes.
 
 <!-- licenses:begin -->
 
@@ -86,6 +86,12 @@ Los datos de registros pueden ser parciales. Todos los registros listados están
 Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
+
+<!-- review:begin co-lic-20261124b-icatibant-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Los datos de registros pueden ser parciales." Eliminado: advertía que la lista de registros podría ser parcial. La tabla de Información de Mercado en Colombia se genera a partir de los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23) e indica cuántos registros muestra del total. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124b-icatibant-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -117,6 +123,18 @@ La predicción no cuenta con ensayos clínicos ni literatura, el nivel de eviden
 - Estudios preclínicos en modelos de serpinopatía
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones)
 - Evaluación de seguridad, en particular de las interacciones con IECA
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | Eliminado: "Los datos de registros pueden ser parciales." | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

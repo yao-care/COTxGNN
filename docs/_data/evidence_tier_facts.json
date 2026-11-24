@@ -9,7 +9,7 @@
   "with_current": 35,
   "none_current": 1,
   "without_data": 6,
-  "with_reviews": 33,
+  "with_reviews": 34,
   "rows": [
    {
     "t": "Acetylcysteine",
@@ -30,7 +30,7 @@
     "lt": 14,
     "lv": 11,
     "r": 5,
-    "rs": "Número de registros sanitarios: 1 → 14",
+    "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
     "x": 0
    },
    {
@@ -95,8 +95,8 @@
     "i": "Sarcoma de Ewing",
     "lt": 12,
     "lv": 9,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: \"Los datos pueden ser parciales.\"",
     "x": 0
    },
    {
@@ -118,7 +118,7 @@
     "lt": 4,
     "lv": 4,
     "r": 4,
-    "rs": "Eliminado: \"dado que no hay registro vigente\"",
+    "rs": "Eliminado: \"Actualmente no hay registros vigentes\"",
     "x": 0
    },
    {
@@ -183,8 +183,8 @@
     "i": "Infección por VIH",
     "lt": 0,
     "lv": 18,
-    "r": 2,
-    "rs": "Eliminado: \"y el registro regulatorio colombiano muestra 0 licencias\"",
+    "r": 3,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -216,8 +216,8 @@
     "i": "trastorno de migraña",
     "lt": 12,
     "lv": 11,
-    "r": 1,
-    "rs": "Eliminado: \"Como salvedad, el campo de mecanismo de acción original no está disponible y el producto solo…",
+    "r": 2,
+    "rs": "Eliminado: \"candesartán como monofármaco; la lista puede ser parcial.\"",
     "x": 0
    },
    {
@@ -304,8 +304,8 @@
     "i": "Acné",
     "lt": 0,
     "lv": 18,
-    "r": 2,
-    "rs": "Número de registros vigentes: 2 → al menos 19",
+    "r": 3,
+    "rs": "Eliminado: \"La lista puede ser parcial.\"",
     "x": 0
    },
    {
@@ -327,7 +327,7 @@
     "lt": 0,
     "lv": 18,
     "r": 5,
-    "rs": "Eliminado: \"Aclarar la situación regulatoria: no hay registro vigente en Colombia\"",
+    "rs": "Eliminado: \"No hay registros vigentes para este fármaco\"",
     "x": 0
    },
    {
@@ -349,7 +349,7 @@
     "lt": 0,
     "lv": 17,
     "r": 3,
-    "rs": "Número de registros vigentes: 4 → al menos 16",
+    "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
     "x": 0
    },
    {
@@ -392,8 +392,8 @@
     "i": "liposarcoma",
     "lt": 20,
     "lv": 19,
-    "r": 2,
-    "rs": "Eliminado: \"los cuatro registros colombianos están cancelados y\"",
+    "r": 3,
+    "rs": "Eliminado: \"Los cuatro registros pertenecen a HB Human Bioscience S.A.S.\"",
     "x": 0
    },
    {
@@ -432,7 +432,7 @@
   "with_current": 69,
   "none_current": 1,
   "without_data": 6,
-  "with_reviews": 69,
+  "with_reviews": 70,
   "rows": [
    {
     "t": "Abatacept",
@@ -441,8 +441,8 @@
     "i": "espondilitis anquilosante",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -474,8 +474,8 @@
     "i": "Infección por Staphylococcus aureus",
     "lt": 5,
     "lv": 5,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Los tres registros → Todos los registros",
     "x": 0
    },
    {
@@ -496,8 +496,8 @@
     "i": "Carcinoma pulmonar de células pequeñas",
     "lt": 10,
     "lv": 4,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -562,8 +562,8 @@
     "i": "Trastorno de personalidad esquizotípica",
     "lt": 14,
     "lv": 12,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"Se listan al menos 2 registros sanitarios vigentes; la lista puede ser…\"",
     "x": 0
    },
    {
@@ -595,8 +595,8 @@
     "i": "Enfermedad fibroquística de la mama",
     "lt": 6,
     "lv": 4,
-    "r": 3,
-    "rs": "Eliminado: \"Determinar si existe un producto vigente de MPA en Colombia, ya que actualmente solo hay…",
+    "r": 4,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -727,8 +727,8 @@
     "i": "liposarcoma",
     "lt": 3,
     "lv": 3,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -738,8 +738,8 @@
     "i": "alopecia mucinosa",
     "lt": 18,
     "lv": 18,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"Los registros listados pueden ser una lista parcial.\"",
     "x": 0
    },
    {
@@ -794,7 +794,7 @@
     "lt": 8,
     "lv": 8,
     "r": 5,
-    "rs": "Número de registros vigentes: 6 → 8",
+    "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
     "x": 0
    },
    {
@@ -848,8 +848,8 @@
     "i": "Infección por virus de la inmunodeficiencia simia",
     "lt": 4,
     "lv": 4,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -881,8 +881,8 @@
     "i": "Infección por el virus de la inmunodeficiencia simia",
     "lt": 9,
     "lv": 7,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"Los tres productos son combinaciones de dosis fija…\"",
     "x": 0
    },
    {
@@ -892,8 +892,8 @@
     "i": "infección por virus de la inmunodeficiencia simia",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -903,8 +903,8 @@
     "i": "Infección por el virus de la inmunodeficiencia de los simios",
     "lt": 0,
     "lv": 19,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -970,7 +970,7 @@
     "lt": 0,
     "lv": 18,
     "r": 4,
-    "rs": "Número de registros vigentes: 3 → al menos 18",
+    "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
     "x": 0
    },
    {
@@ -1013,8 +1013,8 @@
     "i": "acné",
     "lt": 2,
     "lv": 1,
-    "r": 2,
-    "rs": "Eliminado: \"Aclarar la situación regulatoria actual (registro cancelado) y la disponibilidad de formulaciones…",
+    "r": 3,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -1090,8 +1090,8 @@
     "i": "Enfermedad fibroquística de la mama",
     "lt": 13,
     "lv": 9,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -1228,7 +1228,7 @@
   "with_current": 490,
   "none_current": 9,
   "without_data": 62,
-  "with_reviews": 449,
+  "with_reviews": 474,
   "rows": [
    {
     "t": "Acyclovir",
@@ -1248,8 +1248,8 @@
     "i": "Cenurosis",
     "lt": 0,
     "lv": 20,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"Siete registros sanitarios de albendazol de ingrediente único figuran …\"",
     "x": 0
    },
    {
@@ -1281,8 +1281,8 @@
     "i": "Enfermedad de la cavidad nasal",
     "lt": 0,
     "lv": 20,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "7 registros (tableta recubierta y jarabe) → formas actuales sin cifra",
     "x": 0
    },
    {
@@ -1292,8 +1292,8 @@
     "i": "obstrucción duodenal",
     "lt": 0,
     "lv": 20,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -1314,8 +1314,8 @@
     "i": "renal hypodysplasia/aplasia",
     "lt": 0,
     "lv": 20,
-    "r": 2,
-    "rs": "Número de registros vigentes: 1 → al menos 20",
+    "r": 3,
+    "rs": "Eliminado: \"La lista proviene de un recuento parcial; pueden existir más registros.\"",
     "x": 0
    },
    {
@@ -1337,7 +1337,7 @@
     "lt": 0,
     "lv": 20,
     "r": 3,
-    "rs": "Número de registros vigentes: 6 → al menos 20",
+    "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
     "x": 0
    },
    {
@@ -1359,7 +1359,7 @@
     "lt": 0,
     "lv": 20,
     "r": 4,
-    "rs": "Número de registros vigentes: 5 → al menos 20",
+    "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
     "x": 0
    },
    {
@@ -1369,8 +1369,8 @@
     "i": "Trastorno esquizotípico de la personalidad",
     "lt": 0,
     "lv": 20,
-    "r": 2,
-    "rs": "Eliminado: \"Aclarar la situación regulatoria local (registro cancelado) y valorar si otros registros de…",
+    "r": 3,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -1381,7 +1381,7 @@
     "lt": 0,
     "lv": 20,
     "r": 4,
-    "rs": "Número de registros vigentes: 2 → al menos 20",
+    "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
     "x": 0
    },
    {
@@ -1392,7 +1392,7 @@
     "lt": 0,
     "lv": 20,
     "r": 3,
-    "rs": "Eliminado: \"Además, el único registro sanitario en Colombia está cancelado\"",
+    "rs": "Eliminado: \"No hay registros vigentes\"",
     "x": 0
    },
    {
@@ -1402,8 +1402,8 @@
     "i": "gastroparesis (disease)",
     "lt": 0,
     "lv": 19,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: \"La lista es parcial: hay al menos 20 registros sanitarios.\"",
     "x": 0
    },
    {
@@ -1424,8 +1424,8 @@
     "i": "cholesterol-ester transfer protein deficiency",
     "lt": 0,
     "lv": 19,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista puede ser parcial.\"",
     "x": 0
    },
    {
@@ -1447,7 +1447,7 @@
     "lt": 0,
     "lv": 19,
     "r": 3,
-    "rs": "Eliminado: \"dado que el unico registro esta cancelado\"",
+    "rs": "Eliminado: \"(ya cancelado) de una emulsion lipidica para nutricion parenteral\"",
     "x": 0
    },
    {
@@ -1468,8 +1468,8 @@
     "i": "enfermedad renal hipertensiva maligna",
     "lt": 0,
     "lv": 19,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -1480,7 +1480,7 @@
     "lt": 0,
     "lv": 19,
     "r": 3,
-    "rs": "Número de registros vigentes: 3 → al menos 19",
+    "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
     "x": 0
    },
    {
@@ -1546,7 +1546,7 @@
     "lt": 0,
     "lv": 18,
     "r": 2,
-    "rs": "Número de registros vigentes: 5 → al menos 18",
+    "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
     "x": 0
    },
    {
@@ -1578,8 +1578,8 @@
     "i": "Trastorno de migraña",
     "lt": 0,
     "lv": 18,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede estar incompleta.\"",
     "x": 0
    },
    {
@@ -1589,8 +1589,8 @@
     "i": "Síndrome de hiperviscosidad policlonal",
     "lt": 0,
     "lv": 18,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"Los datos locales de estos registros pueden estar incompletos (lista parcial).\"",
     "x": 0
    },
    {
@@ -1600,8 +1600,8 @@
     "i": "Pólipo de cuerda vocal",
     "lt": 0,
     "lv": 18,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"Registros sanitarios principales (la lista puede ser parcial):\"",
     "x": 0
    },
    {
@@ -1611,8 +1611,8 @@
     "i": "alopecia mucinosa",
     "lt": 0,
     "lv": 18,
-    "r": 2,
-    "rs": "Número de registros vigentes: 3 → al menos 19",
+    "r": 3,
+    "rs": "Eliminado: \"(la lista puede ser parcial).\"",
     "x": 0
    },
    {
@@ -1655,8 +1655,8 @@
     "i": "Queratoconjuntivitis epitelial punteada",
     "lt": 0,
     "lv": 18,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"Es posible que esta lista de registros sea parcial.\"",
     "x": 0
    },
    {
@@ -1666,8 +1666,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 0,
     "lv": 18,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: \"Se listan los 3 registros disponibles; puede haber más registros no incluidos.\"",
     "x": 0
    },
    {
@@ -1678,7 +1678,7 @@
     "lt": 0,
     "lv": 18,
     "r": 4,
-    "rs": "Número de registros vigentes: 3 → al menos 18",
+    "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
     "x": 0
    },
    {
@@ -1688,8 +1688,8 @@
     "i": "Enfermedad de la región orbitaria",
     "lt": 19,
     "lv": 18,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"Los registros disponibles pueden ser parciales.\"",
     "x": 0
    },
    {
@@ -1700,7 +1700,7 @@
     "lt": 20,
     "lv": 18,
     "r": 2,
-    "rs": "Número de registros vigentes: 3 → 18",
+    "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
     "x": 0
    },
    {
@@ -1744,7 +1744,7 @@
     "lt": 0,
     "lv": 18,
     "r": 4,
-    "rs": "Número de registros vigentes: 5 → al menos 19",
+    "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
     "x": 0
    },
    {
@@ -1755,7 +1755,7 @@
     "lt": 0,
     "lv": 18,
     "r": 4,
-    "rs": "Número de registros vigentes: 2 → al menos 18",
+    "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
     "x": 0
    },
    {
@@ -1776,8 +1776,8 @@
     "i": "enfermedad renal hipertensiva maligna",
     "lt": 0,
     "lv": 17,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "una forma oral (tableta recubierta) → tabletas y tabletas recubiertas",
     "x": 0
    },
    {
@@ -1787,8 +1787,8 @@
     "i": "Enfermedad de la cavidad nasal",
     "lt": 18,
     "lv": 17,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -1798,8 +1798,8 @@
     "i": "enfermedad de la cavidad nasal",
     "lt": 0,
     "lv": 17,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -1809,8 +1809,8 @@
     "i": "hypotrichosis simplex of the scalp",
     "lt": 20,
     "lv": 17,
-    "r": 3,
-    "rs": "Número de registros vigentes: 8 → 17",
+    "r": 4,
+    "rs": "Eliminado: \"(Se muestran los 5 principales de 8 registros.)\"",
     "x": 0
    },
    {
@@ -1865,7 +1865,7 @@
     "lt": 0,
     "lv": 17,
     "r": 3,
-    "rs": "Número de registros vigentes: 4 → al menos 17",
+    "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
     "x": 0
    },
    {
@@ -1875,8 +1875,8 @@
     "i": "Malformación esofágica no sindrómica",
     "lt": 0,
     "lv": 16,
-    "r": 1,
-    "rs": "Número de registros vigentes: 1 → al menos 16",
+    "r": 2,
+    "rs": "Eliminado: \"La lista puede ser parcial.\"",
     "x": 0
    },
    {
@@ -1919,8 +1919,8 @@
     "i": "glaucoma hereditario primario",
     "lt": 16,
     "lv": 15,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -1930,8 +1930,8 @@
     "i": "esclerodermia difusa",
     "lt": 0,
     "lv": 15,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista puede ser parcial.\"",
     "x": 0
    },
    {
@@ -1963,8 +1963,8 @@
     "i": "Enfermedad renal hipertensiva maligna",
     "lt": 15,
     "lv": 15,
-    "r": 2,
-    "rs": "Número de registros vigentes: 4 → 15",
+    "r": 3,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial (se muestran al menos 4).\"",
     "x": 0
    },
    {
@@ -2095,8 +2095,8 @@
     "i": "cauda equina neoplasm",
     "lt": 16,
     "lv": 14,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista puede ser parcial.\"",
     "x": 0
    },
    {
@@ -2106,8 +2106,8 @@
     "i": "Neoplasia de epiglotis",
     "lt": 13,
     "lv": 13,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: \"El listado puede ser parcial.\"",
     "x": 0
    },
    {
@@ -2117,8 +2117,8 @@
     "i": "acromesomelic dysplasia, Campailla Martinelli type",
     "lt": 0,
     "lv": 13,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista puede ser parcial: se muestran los registros incluidos en los datos compilados.\"",
     "x": 0
    },
    {
@@ -2140,7 +2140,7 @@
     "lt": 15,
     "lv": 13,
     "r": 4,
-    "rs": "Número de registros vigentes: 3 → 13",
+    "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
     "x": 0
    },
    {
@@ -2150,8 +2150,8 @@
     "i": "exposure keratitis",
     "lt": 14,
     "lv": 13,
-    "r": 4,
-    "rs": "Número de registros vigentes: 7 → 13",
+    "r": 5,
+    "rs": "Eliminado: \"Se listan 5 de los 7 registros…\"",
     "x": 0
    },
    {
@@ -2216,8 +2216,8 @@
     "i": "Enfermedad renal hipertensiva maligna",
     "lt": 16,
     "lv": 12,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: \"Es posible que la lista de registros disponible esté incompleta.\"",
     "x": 0
    },
    {
@@ -2250,7 +2250,7 @@
     "lt": 14,
     "lv": 12,
     "r": 1,
-    "rs": "Número de registros vigentes: 3 → 12",
+    "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
     "x": 0
    },
    {
@@ -2261,7 +2261,7 @@
     "lt": 14,
     "lv": 12,
     "r": 4,
-    "rs": "Número de registros sanitarios: 1 → 14",
+    "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
     "x": 0
    },
    {
@@ -2304,8 +2304,8 @@
     "i": "hipermovilidad del coxis",
     "lt": 11,
     "lv": 11,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -2326,8 +2326,8 @@
     "i": "Malformación arteriovenosa pulmonar",
     "lt": 11,
     "lv": 11,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -2480,8 +2480,8 @@
     "i": "Conjuntivitis rosácea",
     "lt": 12,
     "lv": 10,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -2514,7 +2514,7 @@
     "lt": 0,
     "lv": 10,
     "r": 4,
-    "rs": "Número de registros vigentes: 1 → al menos 11",
+    "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
     "x": 0
    },
    {
@@ -2524,8 +2524,8 @@
     "i": "malformación respiratoria",
     "lt": 10,
     "lv": 10,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -2546,8 +2546,8 @@
     "i": "congenital disorder of glycosylation with defective fucosylation",
     "lt": 13,
     "lv": 10,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: \"Los datos pueden ser parciales.\"",
     "x": 0
    },
    {
@@ -2601,8 +2601,8 @@
     "i": "Adenocarcinoma gástrico y poliposis proximal del estómago",
     "lt": 10,
     "lv": 9,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"Se encontraron al menos 2 registros sanitarios…\"",
     "x": 0
    },
    {
@@ -2612,8 +2612,8 @@
     "i": "Uretritis por Ureaplasma",
     "lt": 10,
     "lv": 9,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: \"Los datos de registros son parciales, por lo que la lista puede estar incompleta.\"",
     "x": 0
    },
    {
@@ -2624,7 +2624,7 @@
     "lt": 9,
     "lv": 9,
     "r": 4,
-    "rs": "Eliminado: \"porque no hay registros vigentes en Colombia\"",
+    "rs": "Eliminado: \"y no hay registros vigentes\"",
     "x": 0
    },
    {
@@ -2634,8 +2634,8 @@
     "i": "Adenocarcinoma mucinoso del recto",
     "lt": 9,
     "lv": 9,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -2645,8 +2645,8 @@
     "i": "Síndrome de la extremidad rígida focal",
     "lt": 10,
     "lv": 9,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -2689,8 +2689,8 @@
     "i": "leiomioma de próstata",
     "lt": 8,
     "lv": 8,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"El número de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -2832,8 +2832,8 @@
     "i": "Carcinoma de mama femenino",
     "lt": 7,
     "lv": 7,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"Se registran 5 registros sanitarios (la lista puede ser parcial).\"",
     "x": 0
    },
    {
@@ -2854,8 +2854,8 @@
     "i": "Síndrome de la persona rígida clásico",
     "lt": 8,
     "lv": 7,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"Los registros disponibles pueden ser parciales.\"",
     "x": 0
    },
    {
@@ -2876,8 +2876,8 @@
     "i": "Rabdomiosarcoma embrionario de tipo botrioide de la vagina",
     "lt": 7,
     "lv": 7,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "4 registros (la lista puede ser parcial) → sin cifra fija",
     "x": 0
    },
    {
@@ -2887,8 +2887,8 @@
     "i": "enfermedad renal hipertensiva maligna",
     "lt": 12,
     "lv": 7,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "3 registros (la lista puede ser parcial) → sin cifra fija",
     "x": 0
    },
    {
@@ -2910,7 +2910,7 @@
     "lt": 7,
     "lv": 7,
     "r": 4,
-    "rs": "Número de registros vigentes: 4 → 7",
+    "rs": "Eliminado: \"registros están cancelados\"",
     "x": 0
    },
    {
@@ -2920,8 +2920,8 @@
     "i": "alopecia mucinosa",
     "lt": 8,
     "lv": 7,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 3,
+    "rs": "Eliminado: \"La lista puede ser parcial.\"",
     "x": 0
    },
    {
@@ -2942,8 +2942,8 @@
     "i": "Taquicardia ventricular polimórfica catecolaminérgica",
     "lt": 6,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -2964,8 +2964,8 @@
     "i": "Deficiencia de beta-cetotiolasa",
     "lt": 8,
     "lv": 6,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -2975,8 +2975,8 @@
     "i": "hiperamilasemia",
     "lt": 9,
     "lv": 6,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La información de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -2986,8 +2986,8 @@
     "i": "Malaria por Plasmodium falciparum",
     "lt": 6,
     "lv": 6,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista puede ser parcial.\"",
     "x": 0
    },
    {
@@ -2997,8 +2997,8 @@
     "i": "síndrome de braquidactilia-sindactilia",
     "lt": 7,
     "lv": 6,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -3053,7 +3053,7 @@
     "lt": 6,
     "lv": 6,
     "r": 3,
-    "rs": "Número de registros vigentes: 2 → 6",
+    "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
     "x": 0
    },
    {
@@ -3130,7 +3130,7 @@
     "lt": 11,
     "lv": 6,
     "r": 5,
-    "rs": "Número de registros sanitarios: 2 → 11",
+    "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
     "x": 0
    },
    {
@@ -3151,8 +3151,8 @@
     "i": "Malformación aórtica",
     "lt": 6,
     "lv": 5,
-    "r": 2,
-    "rs": "Número de registros vigentes: 4 → 5",
+    "r": 3,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -3162,8 +3162,8 @@
     "i": "Síndrome de inmunodeficiencia adquirida felina",
     "lt": 7,
     "lv": 5,
-    "r": 2,
-    "rs": "Número de registros sanitarios: 1 → 7 (6 vigentes)",
+    "r": 3,
+    "rs": "Eliminado: \"La lista puede ser parcial, ya que los registros de los datos compilados están incompletos.\"",
     "x": 0
    },
    {
@@ -3184,8 +3184,8 @@
     "i": "malformation syndrome with odontal and/or periodontal component",
     "lt": 5,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -3206,8 +3206,8 @@
     "i": "talla baja y nevos pigmentados",
     "lt": 5,
     "lv": 5,
-    "r": 1,
-    "rs": "Número de registros sanitarios: 1 → 5",
+    "r": 2,
+    "rs": "El registro local → Los registros locales",
     "x": 0
    },
    {
@@ -3217,8 +3217,8 @@
     "i": "cholesterol-ester transfer protein deficiency",
     "lt": 5,
     "lv": 5,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista puede ser parcial: se muestran los 4 registros identificados.\"",
     "x": 0
    },
    {
@@ -3228,8 +3228,8 @@
     "i": "Enfermedad del estómago",
     "lt": 5,
     "lv": 5,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -3250,8 +3250,8 @@
     "i": "Síndrome faciodigitogenital",
     "lt": 6,
     "lv": 5,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"en tabletas (lista posiblemente parcial):\"",
     "x": 0
    },
    {
@@ -3284,7 +3284,7 @@
     "lt": 5,
     "lv": 5,
     "r": 4,
-    "rs": "Número de registros vigentes: 2 → 5",
+    "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
     "x": 0
    },
    {
@@ -3316,8 +3316,8 @@
     "i": "trastorno de personalidad paranoide",
     "lt": 6,
     "lv": 5,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: \"Los registros listados pueden ser una relación parcial.\"",
     "x": 0
    },
    {
@@ -3459,8 +3459,8 @@
     "i": "Enfermedad infecciosa ectotrix",
     "lt": 5,
     "lv": 5,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"…ambos registros sanitarios listados figuran como vigentes…\"",
     "x": 0
    },
    {
@@ -3536,8 +3536,8 @@
     "i": "Insomnio",
     "lt": 5,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -3547,8 +3547,8 @@
     "i": "fiebre paratifoidea",
     "lt": 4,
     "lv": 4,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"Los registros disponibles pueden estar incompletos. La tabla detallada de registros sanitarios la…",
     "x": 0
    },
    {
@@ -3580,8 +3580,8 @@
     "i": "enfermedad renal hipertensiva maligna",
     "lt": 6,
     "lv": 4,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"Los registros pueden ser parciales.\"",
     "x": 0
    },
    {
@@ -3591,8 +3591,8 @@
     "i": "Enfermedad renal hipertensiva maligna",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: \"La lista puede ser parcial.\"",
     "x": 0
    },
    {
@@ -3602,8 +3602,8 @@
     "i": "Enfermedad infecciosa ectotrix",
     "lt": 4,
     "lv": 4,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"corresponden a cremas tópicas; la lista puede ser parcial.\"",
     "x": 0
    },
    {
@@ -3613,8 +3613,8 @@
     "i": "vasculitis postinfecciosa",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: \"Los registros sanitarios disponibles en los datos compilados (la lista puede ser parcial):\"",
     "x": 0
    },
    {
@@ -3646,8 +3646,8 @@
     "i": "enfermedad de la cavidad nasal",
     "lt": 4,
     "lv": 4,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -3657,8 +3657,8 @@
     "i": "Hipertensión pulmonar por enfermedad pulmonar y/o hipoxia",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -3690,8 +3690,8 @@
     "i": "Displasia acromesomélica tipo Hunter-Thompson",
     "lt": 4,
     "lv": 4,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -3701,8 +3701,8 @@
     "i": "thrombophilia due to protein C deficiency, autosomal recessive",
     "lt": 5,
     "lv": 4,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -3723,8 +3723,8 @@
     "i": "Serpinopatía con polimerización tóxica de serpinas",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: \"Los datos de registros pueden ser parciales.\"",
     "x": 0
    },
    {
@@ -3767,8 +3767,8 @@
     "i": "cholesterol-ester transfer protein deficiency",
     "lt": 5,
     "lv": 4,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista puede estar incompleta (se indican al menos 2 registros).\"",
     "x": 0
    },
    {
@@ -3789,8 +3789,8 @@
     "i": "pleural empyema (disease)",
     "lt": 4,
     "lv": 4,
-    "r": 2,
-    "rs": "Eliminado: \"Además, el único registro sanitario en Colombia está cancelado\"",
+    "r": 3,
+    "rs": "Eliminado: \"Fabricante: MEGALABS COLOMBIA S.A.S.\"",
     "x": 0
    },
    {
@@ -3801,7 +3801,7 @@
     "lt": 4,
     "lv": 4,
     "r": 4,
-    "rs": "Número de registros vigentes: 3 → 4",
+    "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
     "x": 0
    },
    {
@@ -3822,8 +3822,8 @@
     "i": "Malformación respiratoria",
     "lt": 4,
     "lv": 4,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -3900,7 +3900,7 @@
     "lt": 3,
     "lv": 3,
     "r": 3,
-    "rs": "Eliminado: \"Además, los registros sanitarios en Colombia están cancelados\"",
+    "rs": "Eliminado: \"y se encuentran cancelados; actualmente no hay registros vigentes\"",
     "x": 0
    },
    {
@@ -3911,7 +3911,7 @@
     "lt": 3,
     "lv": 3,
     "r": 4,
-    "rs": "Eliminado: \"dado que no hay registros vigentes en Colombia y\"",
+    "rs": "Eliminado: \"Este es el único registro y se encuentra cancelado, por lo que actualmente no hay productos…",
     "x": 0
    },
    {
@@ -3933,7 +3933,7 @@
     "lt": 3,
     "lv": 3,
     "r": 2,
-    "rs": "Eliminado: \"Verificar la situación vigente de los registros sanitarios, dado que los registros disponibles…",
+    "rs": "Eliminado: \"Los registros disponibles figuran con estado cancelado:\"",
     "x": 0
    },
    {
@@ -3987,8 +3987,8 @@
     "i": "obstrucción duodenal",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -3998,8 +3998,8 @@
     "i": "cholesterol-ester transfer protein deficiency",
     "lt": 3,
     "lv": 3,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Este producto → PRAVAFEN®",
     "x": 0
    },
    {
@@ -4076,7 +4076,7 @@
     "lt": 4,
     "lv": 3,
     "r": 4,
-    "rs": "Número de registros vigentes: 2 → 3",
+    "rs": "Eliminado: \"y están cancelados, por lo que actualmente no hay comercialización autorizada en Colombia\"",
     "x": 0
    },
    {
@@ -4141,8 +4141,8 @@
     "i": "cholesterol-ester transfer protein deficiency",
     "lt": 3,
     "lv": 3,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista es parcial: se muestran 3 registros vigentes…\"",
     "x": 0
    },
    {
@@ -4186,7 +4186,7 @@
     "lt": 3,
     "lv": 3,
     "r": 2,
-    "rs": "Eliminado: \"Además, en Colombia no hay registros sanitarios vigentes de ruxolitinib\"",
+    "rs": "Eliminado: \"Actualmente no hay registros vigentes en Colombia\"",
     "x": 0
    },
    {
@@ -4251,8 +4251,8 @@
     "i": "Hipertricosis",
     "lt": 4,
     "lv": 3,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"Los registros mostrados pueden ser una lista parcial.\"",
     "x": 0
    },
    {
@@ -4295,8 +4295,8 @@
     "i": "angioedema adquirido",
     "lt": 2,
     "lv": 2,
-    "r": 2,
-    "rs": "Número de registros sanitarios: 1 → 2",
+    "r": 3,
+    "rs": "Este registro → Los registros (COARTEM®)",
     "x": 0
    },
    {
@@ -4350,8 +4350,8 @@
     "i": "Osteoartritis",
     "lt": 4,
     "lv": 2,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista puede ser parcial: se muestran los registros incluidos en los datos compilados.\"",
     "x": 0
    },
    {
@@ -4515,8 +4515,8 @@
     "i": "sick sinus syndrome 2, autosomal dominant",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"Hay al menos 2 registros sanitarios y la lista puede ser parcial. Ambo…\"",
     "x": 0
    },
    {
@@ -4537,8 +4537,8 @@
     "i": "Pseudoenfermedad de von Willebrand",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -4549,7 +4549,7 @@
     "lt": 3,
     "lv": 2,
     "r": 4,
-    "rs": "Registros vigentes: 3 → 2",
+    "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
     "x": 0
    },
    {
@@ -4581,8 +4581,8 @@
     "i": "Penfigoide liquenoide plano",
     "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: \"Registros sanitarios en los datos compilados (la lista puede ser parcial):\"",
     "x": 0
    },
    {
@@ -4625,8 +4625,8 @@
     "i": "Hipermovilidad del coxis",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -4658,8 +4658,8 @@
     "i": "Síndrome de disfunción sensible a la tiamina",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -4725,7 +4725,7 @@
     "lt": 2,
     "lv": 2,
     "r": 3,
-    "rs": "Eliminado: \"el producto no tiene registros vigentes en Colombia y\"",
+    "rs": "Eliminado: \"No hay registros vigentes\"",
     "x": 0
    },
    {
@@ -4802,7 +4802,7 @@
     "lt": 2,
     "lv": 2,
     "r": 3,
-    "rs": "Eliminado: \"ya que los dos registros están cancelados\"",
+    "rs": "Eliminado: \"Actualmente no hay registros vigentes\"",
     "x": 0
    },
    {
@@ -4834,8 +4834,8 @@
     "i": "insomnio",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -4879,7 +4879,7 @@
     "lt": 2,
     "lv": 2,
     "r": 6,
-    "rs": "Número de registros sanitarios: 1 → 2",
+    "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
     "x": 0
    },
    {
@@ -4889,8 +4889,8 @@
     "i": "bronquitis",
     "lt": 2,
     "lv": 2,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -4912,7 +4912,7 @@
     "lt": 2,
     "lv": 2,
     "r": 3,
-    "rs": "Eliminado: \"Además, el fármaco no tiene registros vigentes en Colombia\"",
+    "rs": "Eliminado: \"y están cancelados, por lo que actualmente no hay productos vigentes con este principio activo\"",
     "x": 0
    },
    {
@@ -4988,8 +4988,8 @@
     "i": "Perforación de úlcera péptica",
     "lt": 3,
     "lv": 2,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede estar incompleta.\"",
     "x": 0
    },
    {
@@ -5077,7 +5077,7 @@
     "lt": 2,
     "lv": 2,
     "r": 4,
-    "rs": "Eliminado: \"dado que no hay registros vigentes en Colombia\"",
+    "rs": "Eliminado: \"No hay registros vigentes\"",
     "x": 0
    },
    {
@@ -5110,7 +5110,7 @@
     "lt": 2,
     "lv": 2,
     "r": 3,
-    "rs": "Eliminado: \"dado que no hay registros vigentes en Colombia\"",
+    "rs": "Eliminado: \"y están cancelados; no hay registros vigentes\"",
     "x": 0
    },
    {
@@ -5527,8 +5527,8 @@
     "i": "rheumatoid arthritis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: \"La lista puede ser parcial: los datos compilados indican al menos 1 re…\"",
     "x": 0
    },
    {
@@ -5582,8 +5582,8 @@
     "i": "Displasia acromesomélica tipo Campailla-Martinelli",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"Se registró al menos 1 registro sanitario vigente; la lista puede ser parcial.\"",
     "x": 0
    },
    {
@@ -5604,8 +5604,8 @@
     "i": "ankylosing spondylitis",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: \"La lista puede ser parcial: se registra al menos 1 registro sanitario.\"",
     "x": 0
    },
    {
@@ -5890,8 +5890,8 @@
     "i": "osteoarthritis",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista puede ser parcial.\"",
     "x": 0
    },
    {
@@ -5912,8 +5912,8 @@
     "i": "alopecia",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista puede ser parcial: los datos reportan al menos un registro.\"",
     "x": 0
    },
    {
@@ -5934,8 +5934,8 @@
     "i": "Serpinopatía con polimerización tóxica de serpinas",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: \"La lista puede ser parcial.\"",
     "x": 0
    },
    {
@@ -6396,8 +6396,8 @@
     "i": "liposarcoma",
     "lt": 1,
     "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -6473,8 +6473,8 @@
     "i": "thrombotic disease",
     "lt": 1,
     "lv": 1,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -6562,7 +6562,7 @@
     "lt": 2,
     "lv": 1,
     "r": 4,
-    "rs": "Eliminado: \"Además, el producto no tiene registros vigentes en Colombia\"",
+    "rs": "Eliminado: \"y actualmente no hay registros vigentes\"",
     "x": 0
    },
    {

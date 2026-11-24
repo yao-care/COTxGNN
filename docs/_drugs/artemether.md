@@ -38,12 +38,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 ## Resumen en Una Frase
 
-Artemeter es un antipalúdico de la familia de las artemisininas, con dos registros sanitarios locales en Colombia.
+Artemeter es un antipalúdico de la familia de las artemisininas, con registros sanitarios locales en Colombia.
 El modelo TxGNN predice que podría ser efectivo para **angioedema adquirido (acquired angioedema)**, pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección; es una predicción puramente computacional.
 
 <!-- review:begin co-lic-20261112-artemether-1 -->
 
-> **Corrección de revisión (2026-11-12)**: Texto original: "con un registro sanitario local en Colombia." Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 2 registros sanitarios vigentes (20005913 y 20012776). Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-24)**: Texto original: "con un registro sanitario local en Colombia." Corregido: el número de registros sanitarios escrito en el texto no coincidía con los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23) (COARTEM®: 20005913 y 20012776); el texto ya no indica una cifra fija. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261112-artemether-1 -->
 
@@ -88,7 +88,13 @@ Se muestran los 2 registros sanitarios de este principio activo en los datos del
 
 <!-- licenses:end -->
 
-La lista puede ser parcial. Este registro corresponde a un producto con artemeter en combinación, por lo que no describe la aprobación del principio activo por sí solo.
+Los registros corresponden a productos con artemeter en combinación (COARTEM®), por lo que no describen la aprobación del principio activo por sí solo.
+
+<!-- review:begin co-lic-20261124b-artemether-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "La lista puede ser parcial. Este registro corresponde a un producto con artemeter en combinación, por lo que no describe la aprobación del principio activo por sí solo." Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23): hay más de un registro (COARTEM® tabletas dispersables, 20005913, y comprimidos, 20012776), ambos en combinación con lumefantrina; se eliminó la advertencia de lista parcial. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124b-artemether-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -118,8 +124,9 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-12 | Número de registros sanitarios: 1 → 2 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-24 | Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido) | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL566534 (artemether): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL566534) |
+| 2026-11-24 | Este registro → Los registros (COARTEM®) | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

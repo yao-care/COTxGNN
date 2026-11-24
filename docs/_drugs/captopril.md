@@ -74,7 +74,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 ## Información de Mercado en Colombia
 
-Registros sanitarios disponibles. La lista puede ser parcial.
+Registros sanitarios disponibles.
 
 <!-- licenses:begin -->
 
@@ -88,6 +88,12 @@ Registros sanitarios disponibles. La lista puede ser parcial.
 Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
+
+<!-- review:begin co-lic-20261124b-captopril-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "La lista puede ser parcial." Eliminado: advertía que la lista de registros podría ser parcial. La tabla de Información de Mercado en Colombia se genera a partir de los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23) e indica cuántos registros muestra del total. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124b-captopril-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -112,6 +118,19 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 - Información de seguridad del prospecto aprobado, en especial en pacientes con insuficiencia renal.
 - Estudios clínicos o datos observacionales que evalúen directamente esta indicación.
 - Verificación de la vigencia de cada registro sanitario.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | Eliminado: "La lista puede ser parcial." | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -70,8 +70,6 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Se listan los 3 registros disponibles; puede haber más registros no incluidos.
-
 <!-- licenses:begin -->
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
@@ -79,10 +77,18 @@ Se listan los 3 registros disponibles; puede haber más registros no incluidos.
 | 19927232 | NEWCAINA® 2% E80 | SOLUCION INYECTABLE | LIDOCAINA COMBINACIONES | Vigente |
 | 19929371 | LIDOCAINA 2% E-100 | SOLUCION INYECTABLE | LIDOCAINA COMBINACIONES | Vigente |
 | 19935632 | B-VIT HT | SOLUCION INYECTABLE | TIAMINA (VIT B1) | Vigente |
+| 19980849 | LIDOCAINA HCL 2% JALEA ESTERIL | JALEA | LIDOCAINA | Vigente |
+| 19982562 | VERSATIS® 5% PARCHES | TRANSDERMICOS | LIDOCAINA | Vigente |
 
-Se muestran 3 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
 
 <!-- licenses:end -->
+
+<!-- review:begin co-lic-20261124b-lidocaine-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se listan los 3 registros disponibles; puede haber más registros no incluidos." Eliminado: describía la tabla de registros anterior (número de filas, un solo titular o fabricante, o registros que no se mostraban), reemplazada por la tabla generada a partir de los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23). Los registros, titulares y estados actuales están en la tabla de Información de Mercado en Colombia y en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124b-lidocaine-1 -->
 
 El texto del registro es una denominación del principio activo, no una indicación clínica detallada. Ninguno de estos registros incluye la queratoconjuntivitis epitelial punteada ni otra indicación ocular, y ninguno corresponde a una presentación oftálmica.
 
@@ -106,6 +112,19 @@ La predicción se apoya únicamente en el modelo TxGNN (nivel L5), sin ensayos n
 - Revisión del prospecto de INVIMA para advertencias y contraindicaciones oficiales.
 - Evaluación de la compatibilidad de vía y formulación (las presentaciones registradas en Colombia son supositorio, ungüento y crema, ninguna oftálmica).
 - Evaluación de seguridad ocular, en particular el efecto de la lidocaína sobre la cicatrización corneal.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | Eliminado: "Se listan los 3 registros disponibles; puede haber más registros no incluidos." | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -96,8 +96,6 @@ Se muestran los ensayos más relevantes (hasta 10). Los que no tienen valoració
 
 ## Información de Mercado en Colombia
 
-Los datos pueden ser parciales.
-
 <!-- licenses:begin -->
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
@@ -111,6 +109,12 @@ Los datos pueden ser parciales.
 Se muestran 5 de 12 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
+
+<!-- review:begin co-lic-20261124b-doxorubicin-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Los datos pueden ser parciales." Eliminado: advertía que la lista de registros podría ser parcial. La tabla de Información de Mercado en Colombia se genera a partir de los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23) e indica cuántos registros muestra del total. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124b-doxorubicin-1 -->
 
 ## Citotoxicidad
 
@@ -141,6 +145,19 @@ Varios ensayos de Fase 3 completados y ECAs publicados evalúan esquemas con dox
 - Datos detallados del mecanismo de acción
 - Plan de monitoreo cardíaco (dexrazoxano, límite de dosis acumulada)
 - Verificación de la vigencia de los registros sanitarios locales
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | Eliminado: "Los datos pueden ser parciales." | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

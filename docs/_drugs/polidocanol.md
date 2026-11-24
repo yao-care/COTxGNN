@@ -44,7 +44,7 @@ con **0 ensayos clínicos registrados** y **20 publicaciones** que actualmente r
 
 <!-- review:begin co-lic-20261105-polidocanol-2 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Polidocanol es un agente esclerosante que cuenta con registros sanitarios en Colombia (actualmente cancelados), pero cuyo texto de indicación aprobada no detalla un uso clínico específico." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-05)**: Texto original: "Polidocanol es un agente esclerosante que cuenta con registros sanitarios en Colombia (actualmente cancelados), pero cuyo texto de indicación aprobada no detalla un uso clínico específico." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-polidocanol-2 -->
 
@@ -72,7 +72,7 @@ La escleroterapia endoscópica de várices esofágicas aplica directamente este 
 
 <!-- review:begin co-lic-20261031-polidocanol-1 -->
 
-> **Corrección de revisión (2026-10-31)**: Texto original: "Dado que el mercado colombiano muestra únicamente registros cancelados, debe verificarse la disponibilidad real del producto antes de cualquier plan de uso." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-10-31)**: Texto original: "Dado que el mercado colombiano muestra únicamente registros cancelados, debe verificarse la disponibilidad real del producto antes de cualquier plan de uso." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261031-polidocanol-1 -->
 
@@ -137,7 +137,7 @@ La escleroterapia con polidocanol para várices esofágicas con sangrado tiene r
 
 <!-- review:begin co-lic-20261105-polidocanol-3 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "La escleroterapia con polidocanol para várices esofágicas con sangrado tiene respaldo en varios estudios aleatorizados y cohortes, y es un uso clínico ya establecido. Sin embargo, los registros colombianos están cancelados, no hay ensayos clínicos registrados y la práctica actual prefiere la ligadura con bandas, por lo que se requieren salvaguardas." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-05)**: Texto original: "La escleroterapia con polidocanol para várices esofágicas con sangrado tiene respaldo en varios estudios aleatorizados y cohortes, y es un uso clínico ya establecido. Sin embargo, los registros colombianos están cancelados, no hay ensayos clínicos registrados y la práctica actual prefiere la ligadura con bandas, por lo que se requieren salvaguardas." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-polidocanol-3 -->
 
@@ -150,7 +150,7 @@ La escleroterapia con polidocanol para várices esofágicas con sangrado tiene r
 
 <!-- review:begin co-lic-20261105-polidocanol-4 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Verificar la disponibilidad comercial y el estado regulatorio vigente del producto en Colombia (ambos registros están cancelados)" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-05)**: Texto original: "Verificar la disponibilidad comercial y el estado regulatorio vigente del producto en Colombia (ambos registros están cancelados)" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-polidocanol-4 -->
 
@@ -162,10 +162,10 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-10-31 | Eliminado: "Dado que el mercado colombiano muestra únicamente registros cancelados, debe verificarse la disponibilidad real del producto antes de cualqu" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-05 | Eliminado: "(actualmente cancelados)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-05 | Eliminado: "Sin embargo, los registros colombianos están cancelados, no hay ensayos clínicos registrados y la práctica actual prefiere la ligadura con b" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-05 | Eliminado: "(ambos registros están cancelados)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-10-31 | Eliminado: "Dado que el mercado colombiano muestra únicamente registros cancelados, debe verificarse la disponibilidad real del producto antes de cualqu" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "(actualmente cancelados)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Sin embargo, los registros colombianos están cancelados, no hay ensayos clínicos registrados y la práctica actual prefiere la ligadura con b" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "(ambos registros están cancelados)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Asclera (polidocanol) prescribing information, Methapharm, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bb1f342b-5352-4059-a0b2-e60fd652fd28) |
 
 <!-- review:end log -->

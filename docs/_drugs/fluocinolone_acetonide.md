@@ -71,7 +71,13 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Registros sanitarios en los datos compilados (la lista puede ser parcial):
+Registros sanitarios en los datos compilados:
+
+<!-- review:begin co-lic-20261124b-fluocinolone_acetonide-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Registros sanitarios en los datos compilados (la lista puede ser parcial):" Eliminado: advertía que la lista de registros podría ser parcial. La tabla de Información de Mercado en Colombia se genera a partir de los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23) e indica cuántos registros muestra del total. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124b-fluocinolone_acetonide-1 -->
 
 <!-- licenses:begin -->
 
@@ -104,6 +110,18 @@ La predicción se apoya únicamente en el modelo (nivel L5), sin ensayos clínic
 - Advertencias y contraindicaciones del prospecto aprobado por INVIMA
 - Evaluación de compatibilidad de vías de administración (tópica frente a sistémica)
 - Opinión de dermatología sobre el posicionamiento frente a tratamientos sistémicos
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | Eliminado: "Registros sanitarios en los datos compilados (la lista puede ser parcial):" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

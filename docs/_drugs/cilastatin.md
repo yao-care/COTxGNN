@@ -98,7 +98,13 @@ Se muestran los 5 registros sanitarios de este principio activo en los datos del
 
 <!-- licenses:end -->
 
-Los tres registros corresponden a productos en combinación imipenem/cilastatina; no describen la situación regulatoria de cilastatina como ingrediente único. La lista de registros puede ser parcial.
+Todos los registros corresponden a productos en combinación imipenem/cilastatina (RECARBRIO® incluye además relebactam); no describen la situación regulatoria de cilastatina como ingrediente único.
+
+<!-- review:begin co-lic-20261124b-cilastatin-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Los tres registros corresponden a productos en combinación imipenem/cilastatina; no describen la situación regulatoria de cilastatina como ingrediente único. La lista de registros puede ser parcial." Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23): los registros de cilastatina son todos combinaciones con imipenem; se eliminaron la cifra fija («Los tres registros») y la advertencia de lista parcial. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124b-cilastatin-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -123,11 +129,12 @@ La cilastatina carece de actividad antibacteriana propia; la evidencia disponibl
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL766 (cilastatin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL766) |
+| 2026-11-24 | Los tres registros → Todos los registros | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

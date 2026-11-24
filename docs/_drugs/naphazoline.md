@@ -97,13 +97,17 @@ Se muestran 5 de 20 registros sanitarios de este principio activo en los datos d
 
 <!-- licenses:end -->
 
-*(Se muestran los 5 principales de 8 registros.)*
-
 <!-- review:begin co-lic-20261105-naphazoline-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Los 8 registros sanitarios están cancelados; no hay productos vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 20 registros sanitarios (vigentes: 17); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-24)**: Texto original: "Los 8 registros sanitarios están cancelados; no hay productos vigentes." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-naphazoline-1 -->
+
+<!-- review:begin co-lic-20261124b-naphazoline-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "*(Se muestran los 5 principales de 8 registros.)*" Eliminado: describía la tabla de registros anterior (número de filas, un solo titular o fabricante, o registros que no se mostraban), reemplazada por la tabla generada a partir de los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23). Los registros, titulares y estados actuales están en la tabla de Información de Mercado en Colombia y en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124b-naphazoline-1 -->
 
 ---
 
@@ -126,7 +130,7 @@ La predicción se apoya solo en el puntaje del modelo (L5), sin ensayos ni liter
 
 <!-- review:begin co-lic-20261105-naphazoline-2 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Además, no hay productos vigentes en Colombia y existen alertas de seguridad en patologías oculares y cardiovasculares." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 20 registros sanitarios (vigentes: 17); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, no hay productos vigentes en Colombia y existen alertas de seguridad en patologías oculares y cardiovasculares." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-naphazoline-2 -->
 
@@ -135,12 +139,12 @@ La predicción se apoya solo en el puntaje del modelo (L5), sin ensayos ni liter
 - Datos preclínicos (modelos foliculares in vitro o in vivo) antes de plantear cualquier estudio clínico
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), que sigue pendiente
 - Completar los datos del mecanismo de acción desde DrugBank
-- Evaluar la viabilidad regulatoria y de vía de administración, dado que el medicamento está comercializado con 17 licencias vigentes y la única forma farmacéutica es oftálmica
+- Evaluar la viabilidad regulatoria y de vía de administración, dado que el medicamento está comercializado con licencias vigentes y la única forma farmacéutica es oftálmica
 - Considerar priorizar otros candidatos o indicaciones con mayor plausibilidad biológica
 
 <!-- review:begin co-lic-20261112-naphazoline-1 -->
 
-> **Corrección de revisión (2026-11-12)**: Texto original: "8 licencias vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 20 registros sanitarios, de los cuales 17 vigentes y 3 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-24)**: Texto original: "8 licencias vigentes" Corregido: el número de registros sanitarios escrito en el texto no coincidía con los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23); el texto ya no indica una cifra fija. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261112-naphazoline-1 -->
 
@@ -152,9 +156,10 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Los 8 registros sanitarios están cancelados; no hay productos vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-05 | Eliminado: "no hay productos vigentes en Colombia y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 8 → 17 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-24 | Eliminado: "Los 8 registros sanitarios están cancelados; no hay productos vigentes" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "no hay productos vigentes en Colombia y" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-24 | Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido) | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-24 | Eliminado: "(Se muestran los 5 principales de 8 registros.)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

@@ -72,7 +72,13 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 ## Información de Mercado en Colombia
 
-Los datos locales muestran 4 registros sanitarios de fluorouracilo como único principio activo (la lista puede ser parcial):
+Registros sanitarios de fluorouracilo en los datos del INVIMA:
+
+<!-- review:begin co-lic-20261124b-fluorouracil-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Los datos locales muestran 4 registros sanitarios de fluorouracilo como único principio activo (la lista puede ser parcial):" Corregido: el número de registros sanitarios escrito en el texto no coincidía con los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23); el texto ya no indica una cifra fija. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124b-fluorouracil-1 -->
 
 <!-- licenses:begin -->
 
@@ -123,11 +129,12 @@ La predicción se basa únicamente en el modelo (nivel L5): no hay ensayos ni pu
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Favlyxa (fluorouracil) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1daf714b-704c-4bcc-b6e0-6f0eb2bfe66b) |
+| 2026-11-24 | 4 registros (la lista puede ser parcial) → sin cifra fija | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

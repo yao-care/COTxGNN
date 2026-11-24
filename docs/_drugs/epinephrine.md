@@ -38,13 +38,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **3**
 
 ## Resumen en Una Frase
 
-La epinefrina (adrenalina) cuenta en Colombia con 14 registros sanitarios cuyo texto de indicación aprobada se limita al nombre del producto ("Epinefrina"), por lo que no se dispone de una indicación original detallada.
+La epinefrina (adrenalina) cuenta en Colombia con registros sanitarios cuyo texto de indicación aprobada se limita al nombre del producto ("Epinefrina"), por lo que no se dispone de una indicación original detallada.
 El modelo TxGNN predice que podría ser efectiva para **enfermedad pulmonar obstructiva**,
 con **15 ensayos clínicos** y **20 publicaciones** que actualmente respaldan esta dirección.
 
 <!-- review:begin co-lic-20261112-epinephrine-1 -->
 
-> **Corrección de revisión (2026-11-12)**: Texto original: "cuenta en Colombia con un registro sanitario cuyo texto" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 14 registros sanitarios, de los cuales 12 vigentes y 2 vigentes pero temporalmente no comercializados. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-24)**: Texto original: "cuenta en Colombia con un registro sanitario cuyo texto" Corregido: el número de registros sanitarios escrito en el texto no coincidía con los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23); el texto ya no indica una cifra fija. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261112-epinephrine-1 -->
 
@@ -74,7 +74,7 @@ Cabe señalar que la indicación original y el mecanismo de acción no constan e
 
 <!-- review:begin co-lic-20261105-epinephrine-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Cabe señalar que la indicación original y el mecanismo de acción no constan en los datos, y que el único registro sanitario está cancelado, por lo que debe verificarse la situación regulatoria de formulaciones específicas." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 14 registros sanitarios (vigentes: 12); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-05)**: Texto original: "Cabe señalar que la indicación original y el mecanismo de acción no constan en los datos, y que el único registro sanitario está cancelado, por lo que debe verificarse la situación regulatoria de formulaciones específicas." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-epinephrine-1 -->
 
@@ -162,7 +162,7 @@ Para enfermedad pulmonar obstructiva existen tres ensayos de Fase 3 completados 
 
 <!-- review:begin co-lic-20261105-epinephrine-2 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Sin embargo, la evidencia corresponde en gran parte a formulaciones inhaladas, y el único registro colombiano (solución inyectable) está cancelado, por lo que se recomienda avanzar con salvaguardas." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 14 registros sanitarios (vigentes: 12); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-05)**: Texto original: "Sin embargo, la evidencia corresponde en gran parte a formulaciones inhaladas, y el único registro colombiano (solución inyectable) está cancelado, por lo que se recomienda avanzar con salvaguardas." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-epinephrine-2 -->
 
@@ -182,9 +182,9 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "y que el único registro sanitario está cancelado, por lo que debe verificarse la situación regulatoria de formulaciones específicas" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-05 | Eliminado: "y el único registro colombiano (solución inyectable) está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros sanitarios: 1 → 14 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "y que el único registro sanitario está cancelado, por lo que debe verificarse la situación regulatoria de formulaciones específicas" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "y el único registro colombiano (solución inyectable) está cancelado" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-24 | Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido) | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Auvi-Q (epinephrine) prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f40988b-8365-4f7b-84d1-b88e053725cf) |
 
 <!-- review:end log -->

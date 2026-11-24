@@ -95,8 +95,6 @@ La literatura es mayoritariamente de revisión y trata la neurocisticercosis.
 
 ## Información de Mercado en Colombia
 
-Siete registros sanitarios de albendazol de ingrediente único figuran como vigentes; la lista puede ser parcial.
-
 <!-- licenses:begin -->
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
@@ -110,6 +108,12 @@ Siete registros sanitarios de albendazol de ingrediente único figuran como vige
 Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
 
 <!-- licenses:end -->
+
+<!-- review:begin co-lic-20261124b-albendazole-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Siete registros sanitarios de albendazol de ingrediente único figuran como vigentes; la lista puede ser parcial." Eliminado: advertía que la lista de registros podría ser parcial. La tabla de Información de Mercado en Colombia se genera a partir de los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23) e indica cuántos registros muestra y que los datos de este informe solo incluyen parte de los registros. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124b-albendazole-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -133,11 +137,12 @@ Ningún ensayo ni publicación estudia directamente la cenurosis. La evidencia d
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Albenza (albendazole) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1977a867-0ee1-44c0-8da3-fe59c48699f5) |
+| 2026-11-24 | Eliminado: "Siete registros sanitarios de albendazol de ingrediente único figuran …" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

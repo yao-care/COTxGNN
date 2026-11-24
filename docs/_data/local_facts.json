@@ -21,11 +21,11 @@
   "items_current": 2397
  },
  "reviews": {
-  "records": 1418,
-  "pages": 561,
-  "public_pages_with_records": 553,
+  "records": 1530,
+  "pages": 588,
+  "public_pages_with_records": 580,
   "by_action": {
-   "correct": 974,
+   "correct": 1086,
    "mechanism": 444
   }
  },
@@ -58,7 +58,7 @@
    "l": "L2",
    "lt": 20,
    "lv": 19,
-   "r": 2,
+   "r": 3,
    "i": "liposarcoma"
   },
   {
@@ -76,7 +76,7 @@
    "l": "L4",
    "lt": 18,
    "lv": 18,
-   "r": 1,
+   "r": 2,
    "i": "alopecia mucinosa"
   },
   {
@@ -94,7 +94,7 @@
    "l": "L5",
    "lt": 19,
    "lv": 18,
-   "r": 1,
+   "r": 2,
    "i": "Enfermedad de la región orbitaria"
   },
   {
@@ -247,6 +247,15 @@
    "i": "bone Paget disease"
   },
   {
+   "t": "Fusidic Acid",
+   "u": "/drugs/fusidic-acid/",
+   "l": "L5",
+   "lt": 14,
+   "lv": 13,
+   "r": 5,
+   "i": "exposure keratitis"
+  },
+  {
    "t": "Imiquimod",
    "u": "/drugs/imiquimod/",
    "l": "L5",
@@ -254,15 +263,6 @@
    "lv": 1,
    "r": 5,
    "i": "pre-malignant neoplasm"
-  },
-  {
-   "t": "Levetiracetam",
-   "u": "/drugs/levetiracetam/",
-   "l": "L5",
-   "lt": 0,
-   "lv": 15,
-   "r": 5,
-   "i": "beta-ketothiolase deficiency"
   }
  ],
  "example": {
@@ -276,198 +276,198 @@
  },
  "recent_reviews": [
   {
-   "t": "Tetrabenazine",
-   "u": "/drugs/tetrabenazine/",
-   "s": "Eliminado: afirmaba que ningún registro sanitario está vigente",
+   "t": "Triptorelin",
+   "u": "/drugs/triptorelin/",
+   "s": "Eliminado: \"Los registros mostrados pueden ser una lista parcial.\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Spironolactone",
-   "u": "/drugs/spironolactone/",
-   "s": "Eliminado: afirmaba que ningún registro sanitario está vigente",
+   "t": "Theophylline",
+   "u": "/drugs/theophylline/",
+   "s": "Eliminado: \"La lista de registros puede ser parcial.\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Miglustat",
-   "u": "/drugs/miglustat/",
-   "s": "Eliminado: afirmaba que ningún registro sanitario está vigente",
+   "t": "Terbutaline",
+   "u": "/drugs/terbutaline/",
+   "s": "Eliminado: \"La lista de registros puede ser parcial.\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Epinastine",
-   "u": "/drugs/epinastine/",
-   "s": "Registros vigentes: 3 → 2",
+   "t": "Temozolomide",
+   "u": "/drugs/temozolomide/",
+   "s": "Eliminado: \"La lista puede ser parcial.\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Tropicamide",
-   "u": "/drugs/tropicamide/",
-   "s": "Número de registros vigentes: 3 → 4",
-   "d": "2026-11-12"
+   "t": "Sunitinib",
+   "u": "/drugs/sunitinib/",
+   "s": "Eliminado: \"Los cuatro registros pertenecen a HB Human Bioscience S.A.S.\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Tinidazole",
-   "u": "/drugs/tinidazole/",
-   "s": "Número de registros vigentes: 4 → 12",
-   "d": "2026-11-12"
+   "t": "Sirolimus",
+   "u": "/drugs/sirolimus/",
+   "s": "Eliminado: \"La lista de registros puede ser parcial.\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Tenofovir Disoproxil",
-   "u": "/drugs/tenofovir-disoproxil/",
-   "s": "Número de registros vigentes: 4 → 16",
-   "d": "2026-11-12"
+   "t": "Sertraline",
+   "u": "/drugs/sertraline/",
+   "s": "Eliminado: \"La lista de registros puede ser parcial.\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Telmisartan",
-   "u": "/drugs/telmisartan/",
-   "s": "Número de registros vigentes: 2 → al menos 18",
-   "d": "2026-11-12"
+   "t": "Sertaconazole",
+   "u": "/drugs/sertaconazole/",
+   "s": "Eliminado: \"…ambos registros sanitarios listados figuran como vigentes…\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Sulfamethoxazole",
-   "u": "/drugs/sulfamethoxazole/",
-   "s": "Número de registros vigentes: 2 → al menos 20",
-   "d": "2026-11-12"
+   "t": "Ranitidine",
+   "u": "/drugs/ranitidine/",
+   "s": "Eliminado: \"La lista de registros puede estar incompleta.\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Sucralfate",
-   "u": "/drugs/sucralfate/",
-   "s": "Número de registros vigentes: 4 → 7",
-   "d": "2026-11-12"
+   "t": "Progesterone",
+   "u": "/drugs/progesterone/",
+   "s": "Eliminado: \"La lista de registros puede ser parcial.\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Secnidazole",
-   "u": "/drugs/secnidazole/",
-   "s": "Número de registros vigentes: 4 → al menos 17",
-   "d": "2026-11-12"
+   "t": "Pitavastatin",
+   "u": "/drugs/pitavastatin/",
+   "s": "Eliminado: \"La lista es parcial: se muestran 3 registros vigentes…\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Rivastigmine",
-   "u": "/drugs/rivastigmine/",
-   "s": "Número de registros sanitarios: 2 → 11",
-   "d": "2026-11-12"
+   "t": "Omalizumab",
+   "u": "/drugs/omalizumab/",
+   "s": "Eliminado: \"La lista de registros puede ser parcial.\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Rivaroxaban",
-   "u": "/drugs/rivaroxaban/",
-   "s": "Número de registros vigentes: 5 → al menos 19",
-   "d": "2026-11-12"
+   "t": "Nystatin",
+   "u": "/drugs/nystatin/",
+   "s": "Eliminado: \"Los registros disponibles pueden ser parciales.\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Ritonavir",
-   "u": "/drugs/ritonavir/",
-   "s": "Número de registros vigentes: 5 → 14",
-   "d": "2026-11-12"
+   "t": "Naphazoline",
+   "u": "/drugs/naphazoline/",
+   "s": "Eliminado: \"(Se muestran los 5 principales de 8 registros.)\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Prednisolone",
-   "u": "/drugs/prednisolone/",
-   "s": "Número de registros vigentes: 4 → al menos 16",
-   "d": "2026-11-12"
+   "t": "Mupirocin",
+   "u": "/drugs/mupirocin/",
+   "s": "Eliminado: \"Fabricante: MEGALABS COLOMBIA S.A.S.\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Piroxicam",
-   "u": "/drugs/piroxicam/",
-   "s": "Número de registros vigentes: 5 → al menos 20",
-   "d": "2026-11-12"
+   "t": "Modafinil",
+   "u": "/drugs/modafinil/",
+   "s": "Eliminado: \"La lista de registros puede ser parcial.\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Pirfenidone",
-   "u": "/drugs/pirfenidone/",
-   "s": "Número de registros vigentes: 3 → 8",
-   "d": "2026-11-12"
+   "t": "Miconazole",
+   "u": "/drugs/miconazole/",
+   "s": "Eliminado: \"La lista de registros puede ser parcial.\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Phenytoin",
-   "u": "/drugs/phenytoin/",
-   "s": "Número de registros vigentes: 1 → 6",
-   "d": "2026-11-12"
+   "t": "Metoprolol",
+   "u": "/drugs/metoprolol/",
+   "s": "Eliminado: \"La lista de registros puede ser parcial (se muestran al menos 4).\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Phenol",
-   "u": "/drugs/phenol/",
-   "s": "Número de registros vigentes: 3 → 7",
-   "d": "2026-11-12"
+   "t": "Methylprednisolone",
+   "u": "/drugs/methylprednisolone/",
+   "s": "Eliminado: \"La lista puede ser parcial.\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Phenobarbital",
-   "u": "/drugs/phenobarbital/",
-   "s": "Número de registros vigentes: 3 → 4",
-   "d": "2026-11-12"
+   "t": "Medroxyprogesterone Acetate",
+   "u": "/drugs/medroxyprogesterone-acetate/",
+   "s": "Eliminado: \"La lista de registros puede ser parcial.\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Palbociclib",
-   "u": "/drugs/palbociclib/",
-   "s": "Número de registros vigentes: 4 → 8",
-   "d": "2026-11-12"
+   "t": "Lovastatin",
+   "u": "/drugs/lovastatin/",
+   "s": "Eliminado: \"La lista puede estar incompleta (se indican al menos 2 registros).\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Paclitaxel",
-   "u": "/drugs/paclitaxel/",
-   "s": "Número de registros vigentes: 4 → 15",
-   "d": "2026-11-12"
+   "t": "Lidocaine",
+   "u": "/drugs/lidocaine/",
+   "s": "Eliminado: \"Se listan los 3 registros disponibles; puede haber más registros no incluidos.\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Oxaliplatin",
-   "u": "/drugs/oxaliplatin/",
-   "s": "Número de registros vigentes: 4 → 8",
-   "d": "2026-11-12"
+   "t": "Levothyroxine",
+   "u": "/drugs/levothyroxine/",
+   "s": "Eliminado: \"La lista proviene de un recuento parcial; pueden existir más registros.\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Orlistat",
-   "u": "/drugs/orlistat/",
-   "s": "Número de registros vigentes: 3 → 14",
-   "d": "2026-11-12"
+   "t": "Levonorgestrel",
+   "u": "/drugs/levonorgestrel/",
+   "s": "Eliminado: \"La lista puede ser parcial.\"",
+   "d": "2026-11-24"
   }
  ],
  "recent_licence_reviews": [
   {
-   "t": "Tetrabenazine",
-   "u": "/drugs/tetrabenazine/",
-   "s": "Eliminado: afirmaba que ningún registro sanitario está vigente",
+   "t": "Triptorelin",
+   "u": "/drugs/triptorelin/",
+   "s": "Eliminado: \"Los registros mostrados pueden ser una lista parcial.\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Spironolactone",
-   "u": "/drugs/spironolactone/",
-   "s": "Eliminado: afirmaba que ningún registro sanitario está vigente",
+   "t": "Theophylline",
+   "u": "/drugs/theophylline/",
+   "s": "Eliminado: \"La lista de registros puede ser parcial.\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Miglustat",
-   "u": "/drugs/miglustat/",
-   "s": "Eliminado: afirmaba que ningún registro sanitario está vigente",
+   "t": "Terbutaline",
+   "u": "/drugs/terbutaline/",
+   "s": "Eliminado: \"La lista de registros puede ser parcial.\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Epinastine",
-   "u": "/drugs/epinastine/",
-   "s": "Registros vigentes: 3 → 2",
+   "t": "Temozolomide",
+   "u": "/drugs/temozolomide/",
+   "s": "Eliminado: \"La lista puede ser parcial.\"",
    "d": "2026-11-24"
   },
   {
-   "t": "Tropicamide",
-   "u": "/drugs/tropicamide/",
-   "s": "Número de registros vigentes: 3 → 4",
-   "d": "2026-11-12"
+   "t": "Sunitinib",
+   "u": "/drugs/sunitinib/",
+   "s": "Eliminado: \"Los cuatro registros pertenecen a HB Human Bioscience S.A.S.\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Tinidazole",
-   "u": "/drugs/tinidazole/",
-   "s": "Número de registros vigentes: 4 → 12",
-   "d": "2026-11-12"
+   "t": "Sirolimus",
+   "u": "/drugs/sirolimus/",
+   "s": "Eliminado: \"La lista de registros puede ser parcial.\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Tenofovir Disoproxil",
-   "u": "/drugs/tenofovir-disoproxil/",
-   "s": "Número de registros vigentes: 4 → 16",
-   "d": "2026-11-12"
+   "t": "Sertraline",
+   "u": "/drugs/sertraline/",
+   "s": "Eliminado: \"La lista de registros puede ser parcial.\"",
+   "d": "2026-11-24"
   },
   {
-   "t": "Telmisartan",
-   "u": "/drugs/telmisartan/",
-   "s": "Número de registros vigentes: 2 → al menos 18",
-   "d": "2026-11-12"
+   "t": "Sertaconazole",
+   "u": "/drugs/sertaconazole/",
+   "s": "Eliminado: \"…ambos registros sanitarios listados figuran como vigentes…\"",
+   "d": "2026-11-24"
   }
  ],
  "files": {

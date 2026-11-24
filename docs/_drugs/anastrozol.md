@@ -125,7 +125,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Aunque las consultas a DrugBank y al prospecto (TFDA package insert) reportaron resultados exitosos (`result_count: 1`), los datos correspon" | Ya no aparece tras regenerar el informe (2026-11-16: el informe se regeneró en noviembre de 2026 y ya no contiene esta afirmación; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-05 | Eliminado: "Adicionalmente, Anastrozol no cuenta con ningún registro sanitario activo en Colombia, lo que representa una barrera regulatoria adicional p" | Ya no aparece tras regenerar el informe (2026-11-16: el informe se regeneró en noviembre de 2026 y ya no contiene esta afirmación; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Adicionalmente, Anastrozol no cuenta con ningún registro sanitario activo en Colombia, lo que representa una barrera regulatoria adicional p" | Ya no aparece tras regenerar el informe (2026-11-16: el informe se regeneró en noviembre de 2026 y ya no contiene esta afirmación; antes: Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro)) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

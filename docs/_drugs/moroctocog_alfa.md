@@ -98,7 +98,7 @@ Todos los registros pertenecen a PFIZER S.A.S.
 
 <!-- review:begin co-lic-20261105-moroctocog_alfa-2 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Todos los registros pertenecen a PFIZER S.A.S. y se encuentran cancelados; actualmente no hay presentaciones vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-05)**: Texto original: "Todos los registros pertenecen a PFIZER S.A.S. y se encuentran cancelados; actualmente no hay presentaciones vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-moroctocog_alfa-2 -->
 
@@ -117,7 +117,7 @@ La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos ni l
 
 <!-- review:begin co-lic-20261105-moroctocog_alfa-3 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos ni literatura, y la fisiopatología de los trastornos plaquetarios no responde a la reposición de factor VIII. Además, los registros sanitarios en Colombia están todos cancelados, lo que limita la viabilidad local." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-05)**: Texto original: "La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos ni literatura, y la fisiopatología de los trastornos plaquetarios no responde a la reposición de factor VIII. Además, los registros sanitarios en Colombia están todos cancelados, lo que limita la viabilidad local." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-moroctocog_alfa-3 -->
 
@@ -129,7 +129,7 @@ La predicción se basa únicamente en el modelo (L5), sin ensayos clínicos ni l
 
 <!-- review:begin co-lic-20261031-moroctocog_alfa-1 -->
 
-> **Corrección de revisión (2026-10-31)**: Texto original: "Aclarar la situación comercial del producto en Colombia (registros cancelados) y su disponibilidad. / Si se desea explorar alguna línea, priorizar un subtipo específico de deficiencia adquirida de factores de coagulación y verificar la identidad de la entidad "flood factor deficiency"." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 4 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-10-31)**: Texto original: "Aclarar la situación comercial del producto en Colombia (registros cancelados) y su disponibilidad. / Si se desea explorar alguna línea, priorizar un subtipo específico de deficiencia adquirida de factores de coagulación y verificar la identidad de la entidad "flood factor deficiency"." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261031-moroctocog_alfa-1 -->
 
@@ -141,9 +141,9 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-10-31 | Eliminado: "Aclarar la situación comercial del producto en Colombia (registros cancelados) y su disponibilidad" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-05 | Eliminado: "y se encuentran cancelados; actualmente no hay presentaciones vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-05 | Eliminado: "Además, los registros sanitarios en Colombia están todos cancelados, lo que limita la viabilidad local" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-10-31 | Eliminado: "Aclarar la situación comercial del producto en Colombia (registros cancelados) y su disponibilidad" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "y se encuentran cancelados; actualmente no hay presentaciones vigentes en Colombia" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, los registros sanitarios en Colombia están todos cancelados, lo que limita la viabilidad local" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL2109137 (moroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109137) |
 
 <!-- review:end log -->

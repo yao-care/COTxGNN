@@ -38,13 +38,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **4**
 
 ## Resumen en Una Frase
 
-La cabergolina es un agonista dopaminérgico que actúa principalmente sobre los receptores D2 y que cuenta con 5 registros sanitarios vigentes en Colombia.
+La cabergolina es un agonista dopaminérgico que actúa principalmente sobre los receptores D2 y que cuenta con registros sanitarios vigentes en Colombia.
 El modelo TxGNN predice que podría ser efectiva para el **síndrome de progeria, talla baja y nevos pigmentados (progeria-short stature-pigmented nevi syndrome)**, una enfermedad ultrarrara.
 Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección, por lo que es solo una predicción del modelo.
 
 <!-- review:begin co-lic-20261112-cabergoline-1 -->
 
-> **Corrección de revisión (2026-11-12)**: Texto original: "que cuenta con un registro sanitario local en Colombia." Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 5 registros sanitarios, todos vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-24)**: Texto original: "que cuenta con un registro sanitario local en Colombia." Corregido: el número de registros sanitarios escrito en el texto no coincidía con los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23); el texto ya no indica una cifra fija. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261112-cabergoline-1 -->
 
@@ -95,7 +95,13 @@ Se muestran los 5 registros sanitarios de este principio activo en los datos del
 
 <!-- licenses:end -->
 
-La cabergolina figura como **comercializada** en Colombia. El registro local corresponde a una presentación oral en tableta de un solo principio activo, y la lista de registros puede ser parcial.
+La cabergolina figura como **comercializada** en Colombia. Los registros locales corresponden a presentaciones orales en tableta de un solo principio activo.
+
+<!-- review:begin co-lic-20261124b-cabergoline-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "El registro local corresponde a una presentación oral en tableta de un solo principio activo, y la lista de registros puede ser parcial." Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23): hay más de un registro (todos en tableta, de cabergolina sola); se eliminó la advertencia de lista parcial. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124b-cabergoline-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -121,7 +127,8 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-12 | Número de registros sanitarios: 1 → 5 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-24 | Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido) | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-24 | El registro local → Los registros locales | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

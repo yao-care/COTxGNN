@@ -116,11 +116,11 @@ Se muestran 5 de al menos 20 registros sanitarios de este principio activo en lo
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya únicamente en el modelo TxGNN y en una revisión indirecta sobre tos aguda, sin ensayos clínicos para enfermedad de la cavidad nasal. Además, el medicamento está comercializado en Colombia y cuenta con al menos 18 registros sanitarios vigentes.
+La predicción se apoya únicamente en el modelo TxGNN y en una revisión indirecta sobre tos aguda, sin ensayos clínicos para enfermedad de la cavidad nasal. Además, el medicamento está comercializado en Colombia y cuenta con registros sanitarios vigentes.
 
 <!-- review:begin co-lic-20261112-ambroxol-1 -->
 
-> **Corrección de revisión (2026-11-12)**: Texto original: "5 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 18 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-24)**: Texto original: "5 registros sanitarios vigentes" Corregido: el número de registros sanitarios escrito en el texto no coincidía con los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23); el texto ya no indica una cifra fija. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261112-ambroxol-1 -->
 
@@ -140,7 +140,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los 5 registros sanitarios están cancelados; actualmente no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 5 → al menos 18 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-24 | Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido) | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

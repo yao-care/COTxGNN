@@ -89,7 +89,11 @@ Se muestra el único registro sanitario de este principio activo en los datos de
 
 <!-- licenses:end -->
 
-La lista de registros puede ser parcial.
+<!-- review:begin co-lic-20261124b-sirolimus-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "La lista de registros puede ser parcial." Eliminado: advertía que la lista de registros podría ser parcial. La tabla de Información de Mercado en Colombia se genera a partir de los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23) e indica cuántos registros muestra del total. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124b-sirolimus-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -109,6 +113,18 @@ Solo existe un ensayo de Fase 2 de un solo brazo sin resultados publicados, y ni
 - Datos detallados del mecanismo de acción y de la actividad de la vía mTOR en liposarcoma
 - Información de seguridad del prospecto (advertencias y contraindicaciones)
 - Evidencia aleatorizada o prospectiva específica en liposarcoma antes de reconsiderar la decisión
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | Eliminado: "La lista de registros puede ser parcial." | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

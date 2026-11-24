@@ -96,7 +96,11 @@ Se muestran 5 de 9 registros sanitarios de este principio activo en los datos de
 
 <!-- licenses:end -->
 
-La lista puede ser parcial. Los tres productos son combinaciones de dosis fija, por lo que sus registros no describen la situación regulatoria de efavirenz como principio activo único.
+<!-- review:begin co-lic-20261124b-efavirenz-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "La lista puede ser parcial. Los tres productos son combinaciones de dosis fija, por lo que sus registros no describen la situación regulatoria de efavirenz como principio activo único." Eliminado: afirmaba que los tres productos registrados son combinaciones de dosis fija; según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23) también figuran productos de efavirenz como único principio activo (por ejemplo EFAVIRENZ 600 MG, registro 20021554, y ESTIVA® 600 MG, 20063470). También se eliminó la advertencia de lista parcial. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124b-efavirenz-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -121,11 +125,12 @@ La evidencia proviene de estudios en animales y de laboratorio con un virus quim
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358) |
+| 2026-11-24 | Eliminado: "Los tres productos son combinaciones de dosis fija…" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

@@ -70,8 +70,6 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Se encontraron al menos 2 registros sanitarios y la lista podría estar incompleta. Ambos están vigentes.
-
 <!-- licenses:begin -->
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
@@ -85,6 +83,12 @@ Se encontraron al menos 2 registros sanitarios y la lista podría estar incomple
 Se muestran 5 de 10 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
+
+<!-- review:begin co-lic-20261124b-capecitabine-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Se encontraron al menos 2 registros sanitarios y la lista podría estar incompleta. Ambos están vigentes." Eliminado: el número de registros sanitarios escrito en el texto no coincidía con los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23). Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124b-capecitabine-1 -->
 
 ## Citotoxicidad
 
@@ -120,11 +124,12 @@ La predicción se apoya solo en el modelo computacional (nivel L5), sin ensayos 
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Xeloda (capecitabine) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e702d84d-7162-4751-bf37-d724cc7e45a5) |
+| 2026-11-24 | Eliminado: "Se encontraron al menos 2 registros sanitarios…" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

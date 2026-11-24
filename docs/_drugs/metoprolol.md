@@ -38,12 +38,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **6**
 
 ## Resumen en Una Frase
 
-Metoprolol es un betabloqueante cardioselectivo (beta-1) con 15 registros sanitarios vigentes en Colombia; el texto del registro solo menciona el nombre del principio activo, sin detallar una indicación.
+Metoprolol es un betabloqueante cardioselectivo (beta-1) con registros sanitarios vigentes en Colombia; el texto del registro solo menciona el nombre del principio activo, sin detallar una indicación.
 El modelo TxGNN predice que podría ser efectivo para **enfermedad renal hipertensiva maligna**, pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección, por lo que se trata únicamente de una predicción computacional.
 
 <!-- review:begin co-lic-20261112-metoprolol-1 -->
 
-> **Corrección de revisión (2026-11-12)**: Texto original: "cuatro registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): 15 registros sanitarios, de los cuales 15 vigentes. Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-24)**: Texto original: "cuatro registros sanitarios vigentes" Corregido: el número de registros sanitarios escrito en el texto no coincidía con los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23); el texto ya no indica una cifra fija. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261112-metoprolol-1 -->
 
@@ -84,8 +84,6 @@ Actualmente no hay literatura relacionada disponible para la indicación princip
 
 ## Información de Mercado en Colombia
 
-La lista de registros puede ser parcial (se muestran al menos 4).
-
 <!-- licenses:begin -->
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
@@ -94,10 +92,17 @@ La lista de registros puede ser parcial (se muestran al menos 4).
 | 19927923 | BETALOC ZOK® 25 MG | TABLETA DE LIBERACION PROLONGADA | METOPROLOL | Vigente |
 | 19943526 | METOPROLOL100 MG | TABLETA | METOPROLOL | Vigente |
 | 19961415 | METOPROLOL TARTRATO 50 MG TABLETAS | TABLETA | METOPROLOL | Vigente |
+| 19976470 | METOPROLOL 50 MG TABLETAS | TABLETA | METOPROLOL | Vigente |
 
-Se muestran 4 de 15 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 15 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
+
+<!-- review:begin co-lic-20261124b-metoprolol-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "La lista de registros puede ser parcial (se muestran al menos 4)." Eliminado: advertía que la lista de registros podría ser parcial. La tabla de Información de Mercado en Colombia se genera a partir de los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23) e indica cuántos registros muestra del total. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124b-metoprolol-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -129,8 +134,9 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-12 | Número de registros vigentes: 4 → 15 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-24 | Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido) | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Toprol Xl (metoprolol succinate) prescribing information, Melinta Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=496ddfaa-7c9c-4888-b747-a210249b367a) |
+| 2026-11-24 | Eliminado: "La lista de registros puede ser parcial (se muestran al menos 4)." | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

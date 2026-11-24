@@ -43,7 +43,7 @@ El modelo TxGNN predice que podría ser efectivo para **tumor adenomatoide pleur
 
 <!-- review:begin co-lic-20261105-pralatrexate-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "En Colombia contó con un registro sanitario, hoy cancelado, cuyo texto de indicación solo dice "PRALATREXATO". En el ámbito internacional se usa para el linfoma periférico de células T en recaída o refractario." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-05)**: Texto original: "En Colombia contó con un registro sanitario, hoy cancelado, cuyo texto de indicación solo dice "PRALATREXATO". En el ámbito internacional se usa para el linfoma periférico de células T en recaída o refractario." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-pralatrexate-1 -->
 
@@ -135,7 +135,7 @@ La predicción principal (tumor adenomatoide pleural) carece de evidencia y es p
 
 <!-- review:begin co-lic-20261105-pralatrexate-2 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "El registro sanitario colombiano está cancelado, lo que supone otra barrera práctica. Las indicaciones de mesotelioma pleural y pleural epitelioide (L3) son mejores candidatas a pregunta de investigación, pero no a decisión de avance." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-05)**: Texto original: "El registro sanitario colombiano está cancelado, lo que supone otra barrera práctica. Las indicaciones de mesotelioma pleural y pleural epitelioide (L3) son mejores candidatas a pregunta de investigación, pero no a decisión de avance." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-pralatrexate-2 -->
 
@@ -149,7 +149,7 @@ La predicción principal (tumor adenomatoide pleural) carece de evidencia y es p
 
 <!-- review:begin co-lic-20261105-pralatrexate-3 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Evaluar la viabilidad de acceso al fármaco en Colombia, dado que no hay registro vigente" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-05)**: Texto original: "Evaluar la viabilidad de acceso al fármaco en Colombia, dado que no hay registro vigente" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-pralatrexate-3 -->
 
@@ -161,9 +161,9 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "En Colombia contó con un registro sanitario, hoy cancelado, cuyo texto de indicación solo dice "PRALATREXATO"" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-05 | Eliminado: "El registro sanitario colombiano está cancelado, lo que supone otra barrera práctica" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-05 | Eliminado: "dado que no hay registro vigente" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "En Colombia contó con un registro sanitario, hoy cancelado, cuyo texto de indicación solo dice "PRALATREXATO"" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "El registro sanitario colombiano está cancelado, lo que supone otra barrera práctica" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "dado que no hay registro vigente" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Folotyn (pralatrexate) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f3d9c4d-9386-4451-b712-0fbdc5478d8f) |
 
 <!-- review:end log -->

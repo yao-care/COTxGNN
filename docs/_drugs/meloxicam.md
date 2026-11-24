@@ -55,6 +55,12 @@ El modelo TxGNN predice que podría ser efectivo para la **displasia acromesomé
 | Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
+<!-- review:begin co-lic-20261112-meloxicam-2 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "3 registros vigentes" Corregido: el número de registros sanitarios escrito en el texto no coincidía con los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23); el texto ya no indica una cifra fija. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261112-meloxicam-2 -->
+
 ---
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -121,26 +127,20 @@ Para advertencias y contraindicaciones del prospecto, consultar el prospecto del
 **Decisión: Hold**
 
 **Justificación:**
-La predicción principal no cuenta con ensayos clínicos ni literatura, carece de un vínculo mecanístico plausible (trastorno genético del crecimiento óseo vs. inhibición de COX) y, aunque el medicamento está comercializado en Colombia con al menos 19 registros sanitarios vigentes, el puntaje alto de TxGNN (modelo de aprendizaje profundo) por sí solo no basta para avanzar.
+La predicción principal no cuenta con ensayos clínicos ni literatura, carece de un vínculo mecanístico plausible (trastorno genético del crecimiento óseo vs. inhibición de COX) y, aunque el medicamento está comercializado en Colombia con registros sanitarios vigentes, el puntaje alto de TxGNN (modelo de aprendizaje profundo) por sí solo no basta para avanzar.
 
 <!-- review:begin co-lic-20261112-meloxicam-1 -->
 
-> **Corrección de revisión (2026-11-12)**: Texto original: "3 registros sanitarios vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 19 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-24)**: Texto original: "3 registros sanitarios vigentes" Corregido: el número de registros sanitarios escrito en el texto no coincidía con los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23); el texto ya no indica una cifra fija. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261112-meloxicam-1 -->
 
 **Para avanzar se necesita:**
 - Confirmar el mecanismo de acción del fármaco (dato faltante) y evaluar cualquier vínculo con la vía GDF5/CDMP1.
 - Obtener el prospecto de INVIMA para completar las advertencias y contraindicaciones.
-- Aclarar la situación regulatoria: el medicamento está comercializado en Colombia con al menos 19 registros vigentes.
+- Aclarar la situación regulatoria: el medicamento está comercializado en Colombia con registros vigentes.
 - Si se busca una línea más viable, priorizar la revisión de literatura sobre espondiloartropatía y AIJ, donde los AINE tienen un fundamento clínico establecido (aunque no sería un reposicionamiento novedoso).
 - Estudios preclínicos o de mecanismo si se desea explorar la indicación de displasia acromesomélica.
-
-<!-- review:begin co-lic-20261112-meloxicam-2 -->
-
-> **Corrección de revisión (2026-11-12)**: Texto original: "3 registros vigentes" Corregido según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-05): al menos 19 registros sanitarios vigentes (la lista de los datos está limitada a 20 registros). Las cifras actuales están en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
-
-<!-- review:end co-lic-20261112-meloxicam-2 -->
 
 <!-- review:begin log -->
 
@@ -150,8 +150,8 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-12 | Número de registros vigentes: 3 → al menos 19 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-12 | Número de registros vigentes: 3 → al menos 19 | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-24 | Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido) | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-24 | Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido) | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Zybic (meloxicam) prescribing information, Redmont Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a1c2d65f-ebb1-48bf-8fa1-c216f7d570ec) |
 
 <!-- review:end log -->

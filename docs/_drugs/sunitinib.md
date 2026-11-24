@@ -105,7 +105,11 @@ Se muestran 5 de 20 registros sanitarios de este principio activo en los datos d
 
 <!-- licenses:end -->
 
-Los cuatro registros pertenecen a HB Human Bioscience S.A.S.
+<!-- review:begin co-lic-20261124b-sunitinib-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Los cuatro registros pertenecen a HB Human Bioscience S.A.S." Eliminado: describía la tabla de registros anterior (número de filas, un solo titular o fabricante, o registros que no se mostraban), reemplazada por la tabla generada a partir de los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23). Los registros, titulares y estados actuales están en la tabla de Información de Mercado en Colombia y en el Resumen rápido. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124b-sunitinib-1 -->
 
 ---
 
@@ -137,7 +141,7 @@ Existe una señal clínica de Fase 2 en sarcomas de tejidos blandos que incluyen
 
 <!-- review:begin co-lic-20261105-sunitinib-2 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Además, los cuatro registros colombianos están cancelados y faltan las advertencias y contraindicaciones del prospecto, lo que impide el análisis de seguridad." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 20 registros sanitarios (vigentes: 19); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, los cuatro registros colombianos están cancelados y faltan las advertencias y contraindicaciones del prospecto, lo que impide el análisis de seguridad." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-sunitinib-2 -->
 
@@ -149,7 +153,7 @@ Existe una señal clínica de Fase 2 en sarcomas de tejidos blandos que incluyen
 
 <!-- review:begin co-lic-20261031-sunitinib-1 -->
 
-> **Corrección de revisión (2026-10-31)**: Texto original: "Obtener el prospecto de INVIMA con advertencias y contraindicaciones, y verificar la situación regulatoria (registros cancelados). / Confirmar los datos del mecanismo de acción en DrugBank." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. El medicamento tiene 20 registros sanitarios (vigentes: 19); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-10-31)**: Texto original: "Obtener el prospecto de INVIMA con advertencias y contraindicaciones, y verificar la situación regulatoria (registros cancelados). / Confirmar los datos del mecanismo de acción en DrugBank." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-10-31. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261031-sunitinib-1 -->
 
@@ -169,8 +173,9 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-10-31 | Eliminado: "Obtener el prospecto de INVIMA con advertencias y contraindicaciones, y verificar la situación regulatoria (registros cancelados)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-05 | Eliminado: "los cuatro registros colombianos están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-10-31 | Eliminado: "Obtener el prospecto de INVIMA con advertencias y contraindicaciones, y verificar la situación regulatoria (registros cancelados)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "los cuatro registros colombianos están cancelados y" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-24 | Eliminado: "Los cuatro registros pertenecen a HB Human Bioscience S.A.S." | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

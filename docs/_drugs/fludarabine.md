@@ -42,7 +42,7 @@ Fludarabina es un análogo de purinas (antimetabolito) con registros sanitarios 
 
 <!-- review:begin co-lic-20261105-fludarabine-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Fludarabina es un análogo de purinas (antimetabolito) con registros sanitarios en Colombia, hoy cancelados; el texto de indicación registrado solo repite el nombre del fármaco, sin detallar la enfermedad." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-05)**: Texto original: "Fludarabina es un análogo de purinas (antimetabolito) con registros sanitarios en Colombia, hoy cancelados; el texto de indicación registrado solo repite el nombre del fármaco, sin detallar la enfermedad." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-fludarabine-1 -->
 
@@ -159,7 +159,7 @@ Existen ensayos de Fase 3 que incorporan fludarabina en la linfodepleción para 
 
 <!-- review:begin co-lic-20261105-fludarabine-2 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar el estado regulatorio: los dos registros sanitarios en Colombia están cancelados, por lo que cualquier uso requeriría un registro vigente o una vía de importación / Definir el papel específico de fludarabina (linfodepleción o acondicionamiento) y su dosificación, con vigilancia de toxicidad y función renal" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 2 registros sanitarios (vigentes: 2); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar el estado regulatorio: los dos registros sanitarios en Colombia están cancelados, por lo que cualquier uso requeriría un registro vigente o una vía de importación / Definir el papel específico de fludarabina (linfodepleción o acondicionamiento) y su dosificación, con vigilancia de toxicidad y función renal" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-fludarabine-2 -->
 
@@ -173,8 +173,8 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "hoy cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-05 | Eliminado: "Aclarar el estado regulatorio: los dos registros sanitarios en Colombia están cancelados, por lo que cualquier uso requeriría un registro vi" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "hoy cancelados" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Aclarar el estado regulatorio: los dos registros sanitarios en Colombia están cancelados, por lo que cualquier uso requeriría un registro vi" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: fludarabine phosphate prescribing information, Hisun Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=291f6ee2-f5d2-ae6c-e063-6294a90a5951) |
 
 <!-- review:end log -->

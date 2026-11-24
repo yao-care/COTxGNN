@@ -96,11 +96,9 @@ Se muestran 5 de al menos 20 registros sanitarios de este principio activo en lo
 
 <!-- licenses:end -->
 
-Además, la única forma farmacéutica registrada es oral, y no existe una presentación oftálmica en el mercado colombiano según los datos disponibles.
-
 <!-- review:begin co-lic-20261105-trimethoprim-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "No hay registros vigentes. Además, la única forma farmacéutica registrada es oral, y no existe una presentación oftálmica en el mercado colombiano según los datos disponibles." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-24)**: Texto original: "No hay registros vigentes. Además, la única forma farmacéutica registrada es oral, y no existe una presentación oftálmica en el mercado colombiano según los datos disponibles." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. También se eliminó la frase según la cual la única forma farmacéutica registrada es oral y no existe presentación oftálmica: según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23) figuran también soluciones inyectables (por ejemplo 19995087) y un ungüento oftálmico (OQ-PLUS®, 19987851). Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-trimethoprim-1 -->
 
@@ -152,7 +150,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "No hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-24 | Eliminado: "No hay registros vigentes" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: trimethoprim prescribing information, SQUARE PHARMACEUTICALS PLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53ccf1b-315f-4454-824e-f69769908597) |
 

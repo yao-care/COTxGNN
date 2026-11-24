@@ -70,7 +70,7 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-El producto tiene un registro sanitario vigente en Colombia. La lista puede ser parcial.
+El producto tiene un registro sanitario vigente en Colombia.
 
 <!-- licenses:begin -->
 
@@ -81,6 +81,12 @@ El producto tiene un registro sanitario vigente en Colombia. La lista puede ser 
 Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
 
 <!-- licenses:end -->
+
+<!-- review:begin co-lic-20261124b-lanadelumab-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "La lista puede ser parcial." Eliminado: advertía que la lista de registros podría ser parcial. La tabla de Información de Mercado en Colombia se genera a partir de los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23) e indica cuántos registros muestra del total. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124b-lanadelumab-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -102,6 +108,18 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 - Revisión sistemática de la literatura sobre la enfermedad y el sistema calicreína-cinina.
 - Descargar y analizar el prospecto del INVIMA para completar el perfil de seguridad.
 - Evaluar la compatibilidad de la vía de administración (el producto local es inyectable) con el uso propuesto.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | Eliminado: "La lista puede ser parcial." | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
 
 ## Descargo de responsabilidad
 

@@ -38,13 +38,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-La glicina es un aminoacido que figura en un registro sanitario colombiano.
+La glicina es un aminoacido que figura en registros sanitarios colombianos.
 El modelo TxGNN predice que podria ser efectiva para **enfermedad de la cavidad nasal**,
 pero solo hay **1 ensayo clinico** (indirecto, sin relacion con la glicina como tratamiento) y **2 publicaciones** (basicas/preclinicas) que no respaldan realmente esta direccion.
 
 <!-- review:begin co-lic-20261105-glycine-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "La glicina es un aminoacido que figura en un registro sanitario colombiano (ya cancelado) de una emulsion lipidica para nutricion parenteral." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-24)**: Texto original: "La glicina es un aminoacido que figura en un registro sanitario colombiano (ya cancelado) de una emulsion lipidica para nutricion parenteral." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-glycine-1 -->
 
@@ -138,7 +138,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "(ya cancelado) de una emulsion lipidica para nutricion parenteral" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-24 | Eliminado: "(ya cancelado) de una emulsion lipidica para nutricion parenteral" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y el unico registro sanitario esta cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que el unico registro esta cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 

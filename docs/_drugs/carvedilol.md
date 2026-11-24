@@ -86,7 +86,13 @@ Se muestran 5 de 16 registros sanitarios de este principio activo en los datos d
 
 <!-- licenses:end -->
 
-El fármaco figura como comercializado en Colombia. Los registros sanitarios corresponden a productos de un solo principio activo, en forma de tableta y tableta recubierta de administración oral. Es posible que la lista de registros disponible esté incompleta.
+<!-- review:begin co-lic-20261124b-carvedilol-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Es posible que la lista de registros disponible esté incompleta." Eliminado: advertía que la lista de registros podría ser parcial. La tabla de Información de Mercado en Colombia se genera a partir de los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23) e indica cuántos registros muestra del total. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124b-carvedilol-1 -->
+
+El fármaco figura como comercializado en Colombia. Los registros sanitarios corresponden a productos de un solo principio activo, en forma de tableta y tableta recubierta de administración oral.
 
 ## Consideraciones de Seguridad
 
@@ -109,6 +115,19 @@ La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni li
 - Datos detallados del mecanismo de acción y su relación con la protección renal.
 - Las advertencias y contraindicaciones del prospecto, que no se obtuvieron en los datos compilados.
 - Una evaluación de seguridad renal y hemodinámica en pacientes con hipertensión grave.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | Eliminado: "Es posible que la lista de registros disponible esté incompleta." | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

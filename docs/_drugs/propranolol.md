@@ -129,7 +129,7 @@ La predicción para miopatía distal tipo Tateyama se basa únicamente en el pun
 
 <!-- review:begin co-lic-20261105-propranolol-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el grafo de conocimiento lista la miopatía y las enfermedades musculares como contraindicaciones, y en Colombia no hay registros vigentes del producto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, el grafo de conocimiento lista la miopatía y las enfermedades musculares como contraindicaciones, y en Colombia no hay registros vigentes del producto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-propranolol-1 -->
 
@@ -141,7 +141,7 @@ La predicción para miopatía distal tipo Tateyama se basa únicamente en el pun
 
 <!-- review:begin co-lic-20261105-propranolol-2 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Verificar la situación regulatoria: no hay registros vigentes en Colombia, por lo que habría que definir la vía para un producto comercializable. / Considerar priorizar las predicciones con algo de literatura (miocardiopatía cirrótica) como preguntas de investigación, verificando primero los diseños de los estudios, de los cuales solo se dispuso de títulos." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 4 registros sanitarios (vigentes: 4); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-05)**: Texto original: "Verificar la situación regulatoria: no hay registros vigentes en Colombia, por lo que habría que definir la vía para un producto comercializable. / Considerar priorizar las predicciones con algo de literatura (miocardiopatía cirrótica) como preguntas de investigación, verificando primero los diseños de los estudios, de los cuales solo se dispuso de títulos." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-propranolol-2 -->
 
@@ -153,8 +153,8 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "y en Colombia no hay registros vigentes del producto" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-05 | Eliminado: "Verificar la situación regulatoria: no hay registros vigentes en Colombia, por lo que habría que definir la vía para un producto comercializ" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "y en Colombia no hay registros vigentes del producto" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Verificar la situación regulatoria: no hay registros vigentes en Colombia, por lo que habría que definir la vía para un producto comercializ" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade) |
 
 <!-- review:end log -->

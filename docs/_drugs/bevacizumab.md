@@ -69,7 +69,7 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 
 ## Información de Mercado en Colombia
 
-Los registros sanitarios recopilados para este fármaco son de producto único, en forma de solución concentrada para infusión. El listado puede ser parcial.
+Los registros sanitarios recopilados para este fármaco son de producto único, en forma de solución concentrada para infusión.
 
 <!-- licenses:begin -->
 
@@ -84,6 +84,12 @@ Los registros sanitarios recopilados para este fármaco son de producto único, 
 Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
+
+<!-- review:begin co-lic-20261124b-bevacizumab-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "El listado puede ser parcial." Eliminado: advertía que la lista de registros podría ser parcial. La tabla de Información de Mercado en Colombia se genera a partir de los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23) e indica cuántos registros muestra del total. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124b-bevacizumab-1 -->
 
 ## Citotoxicidad
 
@@ -113,6 +119,19 @@ La predicción para neoplasia de epiglotis no tiene ensayos clínicos ni literat
 - Datos detallados del mecanismo de acción y su relación con esta indicación
 - Información de seguridad del prospecto (advertencias y contraindicaciones) para el análisis de seguridad
 - Verificación de las rutas de administración y de la compatibilidad de formulación
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | Eliminado: "El listado puede ser parcial." | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

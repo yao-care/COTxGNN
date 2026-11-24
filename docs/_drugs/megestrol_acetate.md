@@ -44,7 +44,7 @@ Cabe aclarar que se trata de un uso hormonal ya reconocido en la práctica clín
 
 <!-- review:begin co-lic-20261105-megestrol_acetate-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "El acetato de megestrol es una progestina sintética cuyo registro sanitario en Colombia (ya cancelado) lo identifica solo con el texto "MEGESTROL", sin una indicación más detallada." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-05)**: Texto original: "El acetato de megestrol es una progestina sintética cuyo registro sanitario en Colombia (ya cancelado) lo identifica solo con el texto "MEGESTROL", sin una indicación más detallada." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-megestrol_acetate-1 -->
 
@@ -126,7 +126,7 @@ Existe un ensayo aleatorizado de Fase 2 completado en cáncer endometrial con un
 
 <!-- review:begin co-lic-20261105-megestrol_acetate-2 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Sin embargo, la evidencia se limita a un solo estudio con megestrol como parte de una combinación, y el producto no tiene registros vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-05)**: Texto original: "Sin embargo, la evidencia se limita a un solo estudio con megestrol como parte de una combinación, y el producto no tiene registros vigentes en Colombia." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-megestrol_acetate-2 -->
 
@@ -138,7 +138,7 @@ Existe un ensayo aleatorizado de Fase 2 completado en cáncer endometrial con un
 
 <!-- review:begin co-lic-20261105-megestrol_acetate-3 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Definir la situación regulatoria: no hay registro vigente en Colombia, por lo que habría que evaluar un nuevo registro o la reactivación del existente. / Establecer un plan de monitoreo para pacientes con diabetes, hipertensión o enfermedad hepática o renal, y para quienes usen antidiabéticos." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 1 registro sanitario (vigentes: 1); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-05)**: Texto original: "Definir la situación regulatoria: no hay registro vigente en Colombia, por lo que habría que evaluar un nuevo registro o la reactivación del existente. / Establecer un plan de monitoreo para pacientes con diabetes, hipertensión o enfermedad hepática o renal, y para quienes usen antidiabéticos." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-megestrol_acetate-3 -->
 
@@ -155,9 +155,9 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "(ya cancelado) lo identifica solo con el texto "MEGESTROL"" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-05 | Eliminado: "y el producto no tiene registros vigentes en Colombia" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-05 | Eliminado: "Definir la situación regulatoria: no hay registro vigente en Colombia, por lo que habría que evaluar un nuevo registro o la reactivación del" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "(ya cancelado) lo identifica solo con el texto "MEGESTROL"" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "y el producto no tiene registros vigentes en Colombia" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Definir la situación regulatoria: no hay registro vigente en Colombia, por lo que habría que evaluar un nuevo registro o la reactivación del" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: megestrol acetate prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc921d5-e423-4379-a345-151e87d13651) |
 
 <!-- review:end log -->

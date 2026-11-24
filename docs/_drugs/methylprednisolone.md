@@ -68,7 +68,7 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Estado: comercializado, con registros sanitarios vigentes. La lista puede ser parcial.
+Estado: comercializado, con registros sanitarios vigentes.
 
 <!-- licenses:begin -->
 
@@ -84,7 +84,17 @@ Se muestran 5 de 8 registros sanitarios de este principio activo en los datos de
 
 <!-- licenses:end -->
 
-Ambos productos son de vía oral.
+<!-- review:begin co-lic-20261124b-methylprednisolone-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Ambos productos son de vía oral." Eliminado: describía los dos productos de la tabla anterior como de vía oral; según los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23) también figuran polvos para solución inyectable (por ejemplo METILPREDNISOLONA 500 MG, registro 19990590). Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124b-methylprednisolone-1 -->
+
+<!-- review:begin co-lic-20261124b-methylprednisolone-2 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "La lista puede ser parcial." Eliminado: advertía que la lista de registros podría ser parcial. La tabla de Información de Mercado en Colombia se genera a partir de los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23) e indica cuántos registros muestra del total. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124b-methylprednisolone-2 -->
 
 ## Consideraciones de Seguridad
 
@@ -108,11 +118,13 @@ La predicción se basa solo en el puntaje del modelo (nivel L5), sin ensayos cl�
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: methylprednisolone prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=97256c7e-5694-4148-926f-594b9d5c34f4) |
+| 2026-11-24 | Eliminado: "Ambos productos son de vía oral." | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-24 | Eliminado: "La lista puede ser parcial." | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

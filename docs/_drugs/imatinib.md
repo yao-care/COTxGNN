@@ -148,7 +148,7 @@ Para fibrosarcoma cardíaco no hay ensayos clínicos y la única publicación ci
 
 <!-- review:begin co-lic-20261105-imatinib-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Además, en Colombia el único registro de Glivec está cancelado. Entre las alternativas, "neoplasia fibroblástica" (DFSP) tiene la base más sólida y merece revisión prioritaria como pregunta de investigación." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 registros sanitarios (vigentes: 7); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-05)**: Texto original: "Además, en Colombia el único registro de Glivec está cancelado. Entre las alternativas, "neoplasia fibroblástica" (DFSP) tiene la base más sólida y merece revisión prioritaria como pregunta de investigación." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-imatinib-1 -->
 
@@ -160,7 +160,7 @@ Para fibrosarcoma cardíaco no hay ensayos clínicos y la única publicación ci
 
 <!-- review:begin co-lic-20261105-imatinib-2 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar el estado regulatorio en Colombia (registro cancelado; verificar si existen otras presentaciones o genéricos de imatinib vigentes). / Definir un plan de monitoreo de seguridad hematológica, hepática, renal y cardíaca, y revisar las interacciones de gravedad mayor." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. El medicamento tiene 9 registros sanitarios (vigentes: 7); las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar el estado regulatorio en Colombia (registro cancelado; verificar si existen otras presentaciones o genéricos de imatinib vigentes). / Definir un plan de monitoreo de seguridad hematológica, hepática, renal y cardíaca, y revisar las interacciones de gravedad mayor." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-imatinib-2 -->
 
@@ -172,8 +172,8 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "Además, en Colombia el único registro de Glivec está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-05 | Eliminado: "Aclarar el estado regulatorio en Colombia (registro cancelado; verificar si existen otras presentaciones o genéricos de imatinib vigentes)" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Además, en Colombia el único registro de Glivec está cancelado" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-05 | Eliminado: "Aclarar el estado regulatorio en Colombia (registro cancelado; verificar si existen otras presentaciones o genéricos de imatinib vigentes)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Gleevec (imatinib mesylate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b) |
 
 <!-- review:end log -->

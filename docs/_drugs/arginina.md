@@ -84,8 +84,6 @@ Ninguno de los estudios evalúa directamente la arginina como tratamiento de la 
 
 ## Información de Mercado en Colombia
 
-La lista es parcial: hay al menos 20 registros sanitarios.
-
 <!-- licenses:begin -->
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
@@ -99,6 +97,12 @@ La lista es parcial: hay al menos 20 registros sanitarios.
 Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
 
 <!-- licenses:end -->
+
+<!-- review:begin co-lic-20261124b-arginina-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "La lista es parcial: hay al menos 20 registros sanitarios." Eliminado: advertía que la lista de registros podría ser parcial. La tabla de Información de Mercado en Colombia se genera a partir de los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23) e indica cuántos registros muestra y que los datos de este informe solo incluyen parte de los registros. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124b-arginina-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -116,6 +120,19 @@ La predicción se apoya solo en estudios preclínicos e indirectos, sin ensayos 
 - Datos del mecanismo de acción y de seguridad (advertencias y contraindicaciones del prospecto)
 - Evaluación de la vía de administración y la formulación, ya que los productos locales son soluciones parenterales de nutrición
 - Si los datos preclínicos son favorables, un ensayo exploratorio en humanos con monitoreo hemodinámico
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | Eliminado: "La lista es parcial: hay al menos 20 registros sanitarios." | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

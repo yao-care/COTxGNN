@@ -71,7 +71,7 @@ Actualmente no hay literatura relacionada disponible.
 
 ## Información de Mercado en Colombia
 
-Los datos compilados indican que el medicamento figura como comercializado en Colombia, con registros sanitarios de presentaciones de haloperidol en solución inyectable, solución oral y tabletas. Los datos pueden ser parciales.
+Los datos compilados indican que el medicamento figura como comercializado en Colombia, con registros sanitarios de presentaciones de haloperidol en solución inyectable, solución oral y tabletas.
 
 <!-- licenses:begin -->
 
@@ -86,6 +86,12 @@ Los datos compilados indican que el medicamento figura como comercializado en Co
 Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
+
+<!-- review:begin co-lic-20261124b-haloperidol-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "Los datos pueden ser parciales." Eliminado: advertía que la lista de registros podría ser parcial. La tabla de Información de Mercado en Colombia se genera a partir de los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23) e indica cuántos registros muestra del total. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124b-haloperidol-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -110,6 +116,19 @@ La predicción se basa solo en el puntaje del modelo (0,9991), sin ensayos clín
 - Estudios preclínicos in vitro o en modelos celulares del trastorno
 - Revisión de las advertencias y contraindicaciones del prospecto, aún no disponibles en los datos compilados
 - Evaluación de seguridad, incluido el riesgo de prolongación del intervalo QT y las interacciones farmacológicas
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | Eliminado: "Los datos pueden ser parciales." | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

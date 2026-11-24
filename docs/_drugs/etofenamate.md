@@ -83,7 +83,11 @@ Se muestra el único registro sanitario de este principio activo en los datos de
 
 <!-- licenses:end -->
 
-La lista puede ser parcial: se registra al menos 1 registro sanitario.
+<!-- review:begin co-lic-20261124b-etofenamate-1 -->
+
+> **Corrección de revisión (2026-11-24)**: Texto original: "La lista puede ser parcial: se registra al menos 1 registro sanitario." Eliminado: advertía que la lista de registros podría ser parcial. La tabla de Información de Mercado en Colombia se genera a partir de los datos del INVIMA (Código Único de Medicamentos, datos al 2026-11-23) e indica cuántos registros muestra del total. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261124b-etofenamate-1 -->
 
 ## Consideraciones de Seguridad
 
@@ -115,6 +119,19 @@ La predicción para espondilitis anquilosante es mecanísticamente plausible por
 - Texto completo del prospecto aprobado por INVIMA (advertencias, contraindicaciones e indicaciones)
 - Evaluación de la compatibilidad de vía de administración (la presentación registrada es inyectable, mientras que la publicación disponible usa gel por iontoforesis)
 - Confirmar si existen registros sanitarios adicionales, ya que la lista puede ser parcial
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-24 | Eliminado: "La lista puede ser parcial: se registra al menos 1 registro sanitario." | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.
