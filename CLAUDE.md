@@ -123,3 +123,14 @@ dbXXXXX 轉址頁原本指到被轉址頁的（db00448、db01060、db01076、db0
   每週排程 sync_tables、依成分重建、build_license_snapshot.py 都會跑；`license_adapter.PAGE_NOTE` 放行補的段落標題行。
 - gate 第 18 項（`src/cotxgnn/regulatory/licenses.py` 第 5 條）：公開頁快照有程式表列、卻整頁沒有市場段落就擋。
 - 2026-11-24 全量量測 2 頁、補 2 頁：etanercept（5 筆，全部 vigente）、imipenem（4 筆，全部 vigente，含 imipenem＋cilastatina＋relebactam 的 RECARBRIO）；正文沒有寫死張數或劑型的市場說法，沒有新紀錄。checker 全量前後都是 0；gate exit 0。
+
+## 每週排程存現行 CUM 的成分、量新 expediente 漏收（2026-11-25 第五輪）
+
+用戶 2026-11-25 決定（第五輪第 3 條）：`scripts/license_adapter.py` 的 fetch() 原本只存 expediente、estadoregistro 與資料集，Release 裡只有 2026-03 有效集（co_fda_drugs.json，9,791 個 expediente）有成分；
+改成另以 `_attach_details` 依四個 CUM 資料集查 producto、titular、principioactivo、formafarmaceutica、descripcionatc（欄名同 co_fda_drugs.json），併進 `data/raw/invima_cum_estado.json` 的每一列
+（每個 (expediente, 資料集) 一列不變；principioactivo／formafarmaceutica 是清單，CUM 一個成分一列）；超過一成 expediente 取不到就 raise。2026-11-25 抓一次（36,180 列，全部有成分），經 data-overlay 進 Release。
+- `scripts/measure_cum_new_items.py`（只量、不改）：照原收集器規則（成分字串在 drug_mapping.csv 已有對照就沿用，否則 map_fda_drugs_to_drugbank；跟證據包 drugbank_ids 有交集），
+  只算現行狀態對到 valid 或 not_marketed（原收集器只收有效集、排除 withdrawn_statuses）的新 expediente。
+- 2026-11-25 量測：現行 36,175 個 expediente（valid 9,518、not_marketed 1,751、cancelled 24,906）；不在 2026-03 有效集、狀態 valid／not_marketed 的 1,730 個，對得到 DrugBank 982 個、屬於某證據包 920 個；
+  涉及 586 個證據包、2,098 筆（其中 valid 887 筆、319 包）；公開頁 273 頁 905 筆（valid 380 筆、154 頁），noindex 9、轉址 15、沒有頁 289 包；部分收錄 203 包、完整 383 包。
+  例：acetaminophen 36、metformin 32（多為 dapagliflozina 等複方）、clotrimazole 19、meloxicam 19、rivaroxaban 14。超過 50 個證據包，照第五輪說明先停下回報，沒有補收、沒有接進排程（待用戶決定）。

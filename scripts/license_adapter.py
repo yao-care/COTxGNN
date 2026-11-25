@@ -7,6 +7,7 @@ INVIMA 把 CUM 依狀態拆成四個公開資料集（免金鑰）：
   not_marketed：Temp. no comerc - Vigente、Temp. no comercializado - En Trámite Renov、Comercializado solo por Exportacion
   cancelled：Vencido、Cancelado、Revocado、Suspendido、Abandono、Desistido、Negado、Perdida Fuerza Ejec
 同一 expediente 出現在多個狀態時取 valid > not_marketed > cancelled。「No Aplica Registro」不採用。
+RAW_FILE 每列另存產品名、成分、劑型、持有人、ATC 描述（2026-11-25 起，見 _attach_details）。
 寫回紀錄：status＝INVIMA 原文、license_status＝對應狀態（reviewer 優先讀 license_status，西語「Vencido」不在註銷字樣裡）。
 """
 import time
@@ -53,7 +54,43 @@ def fetch():
             off += 50000
         if n == 0:
             raise RuntimeError(f"資料集 {ds}（{name}）回傳 0 筆")
+    _attach_details(out)
     return out
+
+
+# 2026-11-25（用戶第五輪決定）：每週排程原本只存 expediente 與狀態，Release 只有 2026-03 Vigente 集（9,791 個 expediente）有成分。
+# 改成連同收集器比對要用的欄位（產品名、成分、劑型、持有人、ATC 描述；欄名同 data/raw/co_fda_drugs.json）一起存，
+# 每個 (expediente, 資料集) 一列不變，principioactivo／formafarmaceutica 是該 expediente 在該資料集出現過的值（CUM 一個成分一列）。
+DETAIL = ("producto", "titular", "principioactivo", "formafarmaceutica", "descripcionatc")
+
+
+def _attach_details(out):
+    det = {}
+    for ds, name in SETS.items():
+        off = 0
+        while True:
+            rows = _get(f"https://www.datos.gov.co/resource/{ds}.json",
+                        {"$select": "expediente," + ",".join(DETAIL), "$group": "expediente," + ",".join(DETAIL),
+                         "$order": "expediente", "$limit": 50000, "$offset": off})
+            for x in rows:
+                d = det.setdefault((str(x.get("expediente") or "").strip(), name), {k: [] for k in DETAIL})
+                for k in DETAIL:
+                    v = (x.get(k) or "").strip()
+                    if v and v not in d[k]:
+                        d[k].append(v)
+            if len(rows) < 50000:
+                break
+            off += 50000
+    miss = 0
+    for r in out:
+        d = det.get((r["expediente"], r["dataset"]))
+        if not d:
+            miss += 1
+            continue
+        for k in DETAIL:
+            r[k] = d[k] if k in ("principioactivo", "formafarmaceutica") else " | ".join(d[k])
+    if out and miss > 0.1 * len(out):
+        raise RuntimeError(f"{miss} 個 expediente 取不到成分等欄位，疑似來源改變")
 
 
 def validate(new, old):
