@@ -134,7 +134,7 @@ La evidencia es de nivel L3: reportes de caso, una serie retrospectiva y revisio
 <!-- review:end co-lic-20261105-eltrombopag-1 -->
 
 **Para avanzar se necesita:**
-- Aclarar la situación regulatoria: los 4 y el texto de indicación solo repite el nombre del principio activo.
+- Aclarar la situación regulatoria: el texto de indicación solo repite el nombre del principio activo.
 - Obtener el prospecto de INVIMA para completar advertencias y contraindicaciones.
 - Confirmar el mecanismo de acción en DrugBank.
 - Verificar la población y la causa de terminación del ensayo NCT00678587.
@@ -144,7 +144,7 @@ La evidencia es de nivel L3: reportes de caso, una serie retrospectiva y revisio
 
 <!-- review:begin co-lic-20261105-eltrombopag-2 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria: los 4 registros están cancelados y el texto de indicación solo repite el nombre del principio activo." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-25)**: Texto original: "Aclarar la situación regulatoria: los 4 registros están cancelados y el texto de indicación solo repite el nombre del principio activo." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se reformuló el texto que quedó tras la eliminación para que la frase se lea completa. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-eltrombopag-2 -->
 
@@ -157,7 +157,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "no hay registros sanitarios vigentes en Colombia, y" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-05 | Eliminado: "registros están cancelados" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | «Aclarar la situación regulatoria: los 4 registros están canc…» → «Aclarar la situación regulatoria: el texto de indicación sol…» | Corregido (revisado el 2026-11-25; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Eltrombopag Olamine (eltrombopag) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4af8f855-f710-e96f-e063-6294a90abb46) |
 
 <!-- review:end log -->

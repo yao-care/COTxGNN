@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 513
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Phenylephrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
 description: "Phenylephrine: nueva indicación predicha, Enfermedad de la cavidad nasal (nasal cavity disease) (nivel de evidencia L3). Indicación original: PARACETAMOL COMBINACIONES EXCLUYENDO SICOLEPTICOS"
@@ -124,11 +124,11 @@ Para las advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-La predicción coincide con la farmacología conocida de la fenilefrina como descongestionante nasal, por lo que es una extensión de un uso existente. Sin embargo, no hay ensayos registrados, la literatura es de diseño limitado.
+La predicción coincide con la farmacología conocida de la fenilefrina como descongestionante nasal, por lo que es una extensión de un uso existente. Sin embargo, no hay ensayos registrados y la literatura es de diseño limitado.
 
 <!-- review:begin co-lic-20261105-phenylephrine-2 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Sin embargo, no hay ensayos registrados, la literatura es de diseño limitado y los registros colombianos están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-25)**: Texto original: "Sin embargo, no hay ensayos registrados, la literatura es de diseño limitado y los registros colombianos están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-phenylephrine-2 -->
 
@@ -160,7 +160,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "con registros hoy cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-05 | Eliminado: "y los registros colombianos están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | «Sin embargo, no hay ensayos registrados, la literatura es de…» → «Sin embargo, no hay ensayos registrados y la literatura es d…» | Corregido (revisado el 2026-11-25; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Biorphen (phenylephrine hydrochloride) prescribing information, Dr. Reddy's Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2f715e4e-b269-b935-d2c9-003cb29770be) |
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 152
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Chloroquine: nueva indicación predicha, Artritis idiopática juvenil poliarticular con factor reumatoide positivo (nivel de evidencia L5). Indicación original: No especificada en los registros"
 monitor_inn: "chloroquine"
 predicted_indications: ["rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis", "juvenile chronic polyarthritis", "juvenile idiopathic arthritis"]
@@ -126,12 +126,12 @@ La predicción se basa solo en el modelo computacional (L5), sin ensayos clínic
 - Revisión de literatura dirigida a cloroquina/hidroxicloroquina en artritis idiopática juvenil (preferiblemente ensayos controlados).
 - Obtener el prospecto de INVIMA con advertencias y contraindicaciones.
 - Confirmar el mecanismo de acción en DrugBank.
-- Evaluar la viabilidad regulatoria, comparar con la hidroxicloroquina, de perfil de seguridad más favorable.
+- Evaluar la viabilidad regulatoria y comparar con la hidroxicloroquina, de perfil de seguridad más favorable.
 - Plan de seguridad pediátrica (monitoreo oftalmológico, cardíaco y hematológico).
 
 <!-- review:begin co-lic-20261105-chloroquine-2 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Evaluar la viabilidad regulatoria, dado que no hay registros vigentes en Colombia, y comparar con la hidroxicloroquina, de perfil de seguridad más favorable." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-25)**: Texto original: "Evaluar la viabilidad regulatoria, dado que no hay registros vigentes en Colombia, y comparar con la hidroxicloroquina, de perfil de seguridad más favorable." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-chloroquine-2 -->
 
@@ -144,7 +144,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "los registros en Colombia están cancelados y" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia, y" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | «Evaluar la viabilidad regulatoria, dado que no hay registros…» → «Evaluar la viabilidad regulatoria y comparar con la hidroxic…» | Corregido (revisado el 2026-11-25; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: chloroquine phosphate prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06c69e2b-211b-4746-9f3a-f86d36520570) |
 
 <!-- review:end log -->

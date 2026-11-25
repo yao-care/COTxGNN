@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 663
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Vitamin A: nueva indicación predicha, Deficiencia congénita de protrombina (nivel de evidencia L5). Indicación original: Retinol (vitamina A)"
 monitor_inn: "Vitamin A"
 predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "florid cemento-osseous dysplasia", "perinatal disease", "segmental odontomaxillary dysplasia", "disease by subcellular system affected", "radiation or chemically induced disorder"]
@@ -116,11 +116,11 @@ Se muestran 5 de al menos 20 registros sanitarios de este principio activo en lo
 **Decisión: Hold**
 
 **Justificación:**
-La indicación con mayor puntaje del modelo (deficiencia congénita de protrombina) carece de evidencia y de plausibilidad biológica. La candidata con más respaldo (enfermedad perinatal, en la práctica displasia broncopulmonar en prematuros) tiene revisiones Cochrane, pero el beneficio es modesto, la etiqueta es muy amplia, faltan datos de seguridad de prospecto.
+La indicación con mayor puntaje del modelo (deficiencia congénita de protrombina) carece de evidencia y de plausibilidad biológica. La candidata con más respaldo (enfermedad perinatal, en la práctica displasia broncopulmonar en prematuros) tiene revisiones Cochrane, pero el beneficio es modesto, la etiqueta es muy amplia y faltan datos de seguridad de prospecto.
 
 <!-- review:begin co-lic-20261105-vitamin_a-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "La candidata con más respaldo (enfermedad perinatal, en la práctica displasia broncopulmonar en prematuros) tiene revisiones Cochrane, pero el beneficio es modesto, la etiqueta es muy amplia, el único registro sanitario en Colombia está cancelado y faltan datos de seguridad de prospecto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-25)**: Texto original: "La candidata con más respaldo (enfermedad perinatal, en la práctica displasia broncopulmonar en prematuros) tiene revisiones Cochrane, pero el beneficio es modesto, la etiqueta es muy amplia, el único registro sanitario en Colombia está cancelado y faltan datos de seguridad de prospecto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-vitamin_a-1 -->
 
@@ -129,11 +129,11 @@ La indicación con mayor puntaje del modelo (deficiencia congénita de protrombi
 - Obtener datos del mecanismo de acción desde DrugBank.
 - Verificar los ensayos clínicos aleatorizados primarios detrás de las revisiones Cochrane, porque el nivel L1 de enfermedad perinatal se basa en esas revisiones y no en ensayos incluidos en los datos.
 - Delimitar la indicación perinatal a una condición concreta (por ejemplo, displasia broncopulmonar en prematuros de muy bajo peso) y evaluar la vía de administración (intramuscular) y su viabilidad.
-- Evaluar la situación regulatoria, el perfil de seguridad en poblaciones vulnerables (embarazo, enfermedad hepática y renal).
+- Evaluar la situación regulatoria y el perfil de seguridad en poblaciones vulnerables (embarazo, enfermedad hepática y renal).
 
 <!-- review:begin co-lic-20261105-vitamin_a-2 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Evaluar la situación regulatoria, dado que no hay registros vigentes en Colombia, y el perfil de seguridad en poblaciones vulnerables (embarazo, enfermedad hepática y renal)." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-25)**: Texto original: "Evaluar la situación regulatoria, dado que no hay registros vigentes en Colombia, y el perfil de seguridad en poblaciones vulnerables (embarazo, enfermedad hepática y renal)." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-vitamin_a-2 -->
 
@@ -145,8 +145,8 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia, y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | «La candidata con más respaldo (enfermedad perinatal, en la p…» → «La candidata con más respaldo (enfermedad perinatal, en la p…» | Corregido (revisado el 2026-11-25; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | «Evaluar la situación regulatoria, dado que no hay registros …» → «Evaluar la situación regulatoria y el perfil de seguridad en…» | Corregido (revisado el 2026-11-25; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

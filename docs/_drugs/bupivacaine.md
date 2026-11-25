@@ -140,11 +140,11 @@ La predicción se apoya únicamente en el puntaje del modelo (nivel L5), sin ens
 - Datos del mecanismo de acción (consulta a DrugBank).
 - Descargar y analizar el prospecto en INVIMA para obtener advertencias y contraindicaciones oficiales (brecha de datos bloqueante para el tamizaje de seguridad).
 - Estudios preclínicos o mecanísticos que justifiquen un posible efecto en la indicación predicha.
-- Evaluar si tiene sentido continuar con esta candidata, que las demás predicciones del modelo tampoco tienen respaldo.
+- Evaluar si tiene sentido continuar con esta candidata, dado que las demás predicciones del modelo tampoco tienen respaldo.
 
 <!-- review:begin co-lic-20261105-bupivacaine-3 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Evaluar si tiene sentido continuar con esta candidata, dado que no hay registros vigentes en Colombia y que las demás predicciones del modelo tampoco tienen respaldo." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-25)**: Texto original: "Evaluar si tiene sentido continuar con esta candidata, dado que no hay registros vigentes en Colombia y que las demás predicciones del modelo tampoco tienen respaldo." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se reformuló el texto que quedó tras la eliminación para que la frase se lea completa. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-bupivacaine-3 -->
 
@@ -158,7 +158,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-24 | Eliminado: "Este es el único registro y se encuentra cancelado, por lo que actualmente no hay productos vigentes con bupivacaína en los datos compilados" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia y" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | «Evaluar si tiene sentido continuar con esta candidata, dado …» → «Evaluar si tiene sentido continuar con esta candidata, dado …» | Corregido (revisado el 2026-11-25; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Exparel (bupivacaine) prescribing information, Pacira Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bb5a9e59-0f51-11df-8a39-0800200c9a66) |
 
 <!-- review:end log -->

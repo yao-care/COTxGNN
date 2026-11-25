@@ -133,11 +133,11 @@ No se dispone de información de advertencias o contraindicaciones del prospecto
 **Decisión: Hold**
 
 **Justificación:**
-La plausibilidad mecanística es alta y el puntaje del modelo es elevado, pero se trata esencialmente de una extensión del uso antibacteriano existente. La evidencia es L3 (estudios pequeños y antiguos, reportes de caso y apoyo indirecto), no hay ensayos clínicos registrados, falta la revisión de seguridad del prospecto.
+La plausibilidad mecanística es alta y el puntaje del modelo es elevado, pero se trata esencialmente de una extensión del uso antibacteriano existente. La evidencia es L3 (estudios pequeños y antiguos, reportes de caso y apoyo indirecto), no hay ensayos clínicos registrados y falta la revisión de seguridad del prospecto.
 
 <!-- review:begin co-lic-20261105-sulbactam-2 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "La evidencia es L3 (estudios pequeños y antiguos, reportes de caso y apoyo indirecto), no hay ensayos clínicos registrados, los registros sanitarios locales están cancelados y falta la revisión de seguridad del prospecto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-25)**: Texto original: "La evidencia es L3 (estudios pequeños y antiguos, reportes de caso y apoyo indirecto), no hay ensayos clínicos registrados, los registros sanitarios locales están cancelados y falta la revisión de seguridad del prospecto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-sulbactam-2 -->
 
@@ -158,7 +158,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Ambos registros pertenecen a EUGIA PHARMA SPECIALITIES LIMITED y están cancelados" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-05 | Eliminado: "los registros sanitarios locales están cancelados y" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | «La evidencia es L3 (estudios pequeños y antiguos, reportes d…» → «La evidencia es L3 (estudios pequeños y antiguos, reportes d…» | Corregido (revisado el 2026-11-25; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: ampicillin and sulbactam prescribing information, Avenacy, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4446d4c8-056d-4bc3-8f58-21255b063398) |
 
 <!-- review:end log -->

@@ -468,9 +468,9 @@
    "file": "agomelatine.md",
    "action": "correct",
    "claim": "La predicción no cuenta con ensayos clínicos ni literatura, carece de un vínculo mecanístico plausible con la enfermedad y el único registro sanitario en Colombia está cancelado.",
-   "replacement": "La predicción no cuenta con ensayos clínicos ni literatura, carece de un vínculo mecanístico plausible con la enfermedad.",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "La predicción no cuenta con ensayos clínicos ni literatura y carece de un vínculo mecanístico plausible con la enfermedad.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：11-05 刪掉列舉末項後少了連接詞，同 id 重發補上",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -478,8 +478,8 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"y el único registro sanitario en Colombia está cancelado\"",
+   "checked": "2026-11-25",
+   "summary": "«La predicción no cuenta con ensayos clínicos ni literatura, …» → «La predicción no cuenta con ensayos clínicos ni literatura y…»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
    "history": [
     {
@@ -503,6 +503,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明不再寫死張數，指向概覽表與程式表"
+    },
+    {
+     "id": "co-lic-20261105-agomelatine-1",
+     "drug": "agomelatine",
+     "file": "agomelatine.md",
+     "action": "correct",
+     "claim": "La predicción no cuenta con ensayos clínicos ni literatura, carece de un vínculo mecanístico plausible con la enfermedad y el único registro sanitario en Colombia está cancelado.",
+     "replacement": "La predicción no cuenta con ensayos clínicos ni literatura, carece de un vínculo mecanístico plausible con la enfermedad.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"y el único registro sanitario en Colombia está cancelado\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪掉列舉的最後一項（連同前面的 y）後，留下的句子少了連接詞、成了逗號接兩個子句，2026-11-25 用戶決定同 id 重發，補上連接詞（更正文字不寫張數，模型預測文字不動）"
     }
    ]
   },
@@ -1180,9 +1202,9 @@
    "file": "amantadine.md",
    "action": "correct",
    "claim": "La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, el único registro sanitario está cancelado y el grafo de conocimiento señala la epilepsia como posible contraindicación.",
-   "replacement": "La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, el grafo de conocimiento señala la epilepsia como posible contraindicación.",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, y el grafo de conocimiento señala la epilepsia como posible contraindicación.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：11-05 刪掉列舉末項後少了連接詞，同 id 重發補上",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -1190,8 +1212,8 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"único registro sanitario está cancelado y el\"",
+   "checked": "2026-11-25",
+   "summary": "«La predicción se basa solo en el modelo (nivel L5), sin ensa…» → «La predicción se basa solo en el modelo (nivel L5), sin ensa…»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
    "history": [
     {
@@ -1215,6 +1237,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明不再寫死張數，指向概覽表與程式表"
+    },
+    {
+     "id": "co-lic-20261105-amantadine-1",
+     "drug": "amantadine",
+     "file": "amantadine.md",
+     "action": "correct",
+     "claim": "La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, el único registro sanitario está cancelado y el grafo de conocimiento señala la epilepsia como posible contraindicación.",
+     "replacement": "La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura, el grafo de conocimiento señala la epilepsia como posible contraindicación.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"único registro sanitario está cancelado y el\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪掉列舉的最後一項（連同前面的 y）後，留下的句子少了連接詞、成了逗號接兩個子句，2026-11-25 用戶決定同 id 重發，補上連接詞（更正文字不寫張數，模型預測文字不動）"
     }
    ]
   },
@@ -1309,9 +1353,9 @@
    "file": "amlodipine.md",
    "action": "correct",
    "claim": "- Aclarar la situación regulatoria local, ya que ambos registros están cancelados y corresponden a combinaciones.",
-   "replacement": "- Aclarar la situación regulatoria local, corresponden a combinaciones.",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "- Aclarar la situación regulatoria local.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Actualizado el 2026-11-25: se reformuló el texto que quedó tras la eliminación para que la frase se lea completa.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：11-05 刪句留下的半句讀不通，同 id 重發，只留讀得通的部分",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -1319,9 +1363,33 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"ya que ambos registros están cancelados y\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）"
+   "checked": "2026-11-25",
+   "summary": "«Aclarar la situación regulatoria local, ya que ambos registr…» → «Aclarar la situación regulatoria local.…»",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+   "history": [
+    {
+     "id": "co-lic-20261105-amlodipine-2",
+     "drug": "amlodipine",
+     "file": "amlodipine.md",
+     "action": "correct",
+     "claim": "- Aclarar la situación regulatoria local, ya que ambos registros están cancelados y corresponden a combinaciones.",
+     "replacement": "- Aclarar la situación regulatoria local, corresponden a combinaciones.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"ya que ambos registros están cancelados y\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪句後留下的半句讀不通（刪到句中、主詞或謂語被一起刪掉），2026-11-25 用戶決定同 id 重發，只留讀得通的部分（更正文字不寫張數，模型預測文字不動）"
+    }
+   ]
   },
   {
    "id": "co-lic-20261105-amlodipino-1",
@@ -1441,9 +1509,9 @@
    "file": "amylmetacresol.md",
    "action": "correct",
    "claim": "La predicción se basa únicamente en el modelo (nivel L5): no hay ensayos clínicos ni literatura, no existe un vínculo mecanístico plausible, y el único registro sanitario en Colombia está cancelado.",
-   "replacement": "La predicción se basa únicamente en el modelo (nivel L5): no hay ensayos clínicos ni literatura, no existe un vínculo mecanístico plausible.",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "La predicción se basa únicamente en el modelo (nivel L5): no hay ensayos clínicos ni literatura, y no existe un vínculo mecanístico plausible.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：11-05 刪掉列舉末項後少了連接詞，同 id 重發補上",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -1451,8 +1519,8 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"y el único registro sanitario en Colombia está cancelado\"",
+   "checked": "2026-11-25",
+   "summary": "«La predicción se basa únicamente en el modelo (nivel L5): no…» → «La predicción se basa únicamente en el modelo (nivel L5): no…»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
    "history": [
     {
@@ -1476,6 +1544,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明不再寫死張數，指向概覽表與程式表"
+    },
+    {
+     "id": "co-lic-20261105-amylmetacresol-2",
+     "drug": "amylmetacresol",
+     "file": "amylmetacresol.md",
+     "action": "correct",
+     "claim": "La predicción se basa únicamente en el modelo (nivel L5): no hay ensayos clínicos ni literatura, no existe un vínculo mecanístico plausible, y el único registro sanitario en Colombia está cancelado.",
+     "replacement": "La predicción se basa únicamente en el modelo (nivel L5): no hay ensayos clínicos ni literatura, no existe un vínculo mecanístico plausible.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"y el único registro sanitario en Colombia está cancelado\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪掉列舉的最後一項（連同前面的 y）後，留下的句子少了連接詞、成了逗號接兩個子句，2026-11-25 用戶決定同 id 重發，補上連接詞（更正文字不寫張數，模型預測文字不動）"
     }
    ]
   },
@@ -3467,9 +3557,9 @@
    "file": "bromfenac.md",
    "action": "correct",
    "claim": "Sin embargo, la indicación predicha es muy amplia, el único registro colombiano está cancelado y existen alertas de seguridad corneal y cutánea, por lo que se recomienda avanzar solo con restricciones.",
-   "replacement": "Sin embargo, la indicación predicha es muy amplia, existen alertas de seguridad corneal y cutánea, por lo que se recomienda avanzar solo con restricciones.",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "Sin embargo, la indicación predicha es muy amplia y existen alertas de seguridad corneal y cutánea, por lo que se recomienda avanzar solo con restricciones.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：11-05 刪掉列舉末項後少了連接詞，同 id 重發補上",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -3477,8 +3567,8 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"el único registro colombiano está cancelado y\"",
+   "checked": "2026-11-25",
+   "summary": "«Sin embargo, la indicación predicha es muy amplia, el único …» → «Sin embargo, la indicación predicha es muy amplia y existen …»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
    "history": [
     {
@@ -3502,6 +3592,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明不再寫死張數，指向概覽表與程式表"
+    },
+    {
+     "id": "co-lic-20261105-bromfenac-2",
+     "drug": "bromfenac",
+     "file": "bromfenac.md",
+     "action": "correct",
+     "claim": "Sin embargo, la indicación predicha es muy amplia, el único registro colombiano está cancelado y existen alertas de seguridad corneal y cutánea, por lo que se recomienda avanzar solo con restricciones.",
+     "replacement": "Sin embargo, la indicación predicha es muy amplia, existen alertas de seguridad corneal y cutánea, por lo que se recomienda avanzar solo con restricciones.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"el único registro colombiano está cancelado y\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪掉列舉的最後一項（連同前面的 y）後，留下的句子少了連接詞、成了逗號接兩個子句，2026-11-25 用戶決定同 id 重發，補上連接詞（更正文字不寫張數，模型預測文字不動）"
     }
    ]
   },
@@ -3661,9 +3773,9 @@
    "file": "bupivacaine.md",
    "action": "correct",
    "claim": "- Evaluar si tiene sentido continuar con esta candidata, dado que no hay registros vigentes en Colombia y que las demás predicciones del modelo tampoco tienen respaldo.",
-   "replacement": "- Evaluar si tiene sentido continuar con esta candidata, que las demás predicciones del modelo tampoco tienen respaldo.",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "- Evaluar si tiene sentido continuar con esta candidata, dado que las demás predicciones del modelo tampoco tienen respaldo.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se reformuló el texto que quedó tras la eliminación para que la frase se lea completa.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：11-05 刪句留下的半句讀不通，同 id 重發，只留讀得通的部分",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -3671,8 +3783,8 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"dado que no hay registros vigentes en Colombia y\"",
+   "checked": "2026-11-25",
+   "summary": "«Evaluar si tiene sentido continuar con esta candidata, dado …» → «Evaluar si tiene sentido continuar con esta candidata, dado …»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
    "history": [
     {
@@ -3696,6 +3808,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明不再寫死張數，指向概覽表與程式表"
+    },
+    {
+     "id": "co-lic-20261105-bupivacaine-3",
+     "drug": "bupivacaine",
+     "file": "bupivacaine.md",
+     "action": "correct",
+     "claim": "- Evaluar si tiene sentido continuar con esta candidata, dado que no hay registros vigentes en Colombia y que las demás predicciones del modelo tampoco tienen respaldo.",
+     "replacement": "- Evaluar si tiene sentido continuar con esta candidata, que las demás predicciones del modelo tampoco tienen respaldo.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"dado que no hay registros vigentes en Colombia y\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪句後留下的半句讀不通（刪到句中、主詞或謂語被一起刪掉），2026-11-25 用戶決定同 id 重發，只留讀得通的部分（更正文字不寫張數，模型預測文字不動）"
     }
    ]
   },
@@ -4015,9 +4149,9 @@
    "file": "cabozantinib.md",
    "action": "correct",
    "claim": "Cabozantinib es un inhibidor oral de múltiples cinasas que se comercializó en Colombia como CABOMETYX 40 mg, aunque su único registro sanitario está cancelado y no incluye un texto de indicación descriptivo.",
-   "replacement": "Cabozantinib es un inhibidor oral de múltiples cinasas que se comercializó en Colombia como CABOMETYX 40 mg, no incluye un texto de indicación descriptivo.",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "Cabozantinib es un inhibidor oral de múltiples cinasas que se comercializa en Colombia como CABOMETYX 40 mg, cuyo registro sanitario no incluye un texto de indicación descriptivo.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se reformuló el texto que quedó tras la eliminación para que la frase se lea completa.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：11-05 刪句留下的半句讀不通，同 id 重發，只留讀得通的部分",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -4025,8 +4159,8 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"aunque su único registro sanitario está cancelado y\"",
+   "checked": "2026-11-25",
+   "summary": "«Cabozantinib es un inhibidor oral de múltiples cinasas que s…» → «Cabozantinib es un inhibidor oral de múltiples cinasas que s…»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
    "history": [
     {
@@ -4050,6 +4184,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明不再寫死張數，指向概覽表與程式表"
+    },
+    {
+     "id": "co-lic-20261105-cabozantinib-2",
+     "drug": "cabozantinib",
+     "file": "cabozantinib.md",
+     "action": "correct",
+     "claim": "Cabozantinib es un inhibidor oral de múltiples cinasas que se comercializó en Colombia como CABOMETYX 40 mg, aunque su único registro sanitario está cancelado y no incluye un texto de indicación descriptivo.",
+     "replacement": "Cabozantinib es un inhibidor oral de múltiples cinasas que se comercializó en Colombia como CABOMETYX 40 mg, no incluye un texto de indicación descriptivo.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"aunque su único registro sanitario está cancelado y\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪句後留下的半句讀不通（刪到句中、主詞或謂語被一起刪掉），2026-11-25 用戶決定同 id 重發，只留讀得通的部分（更正文字不寫張數，模型預測文字不動）"
     }
    ]
   },
@@ -5285,9 +5441,9 @@
    "file": "chloroquine.md",
    "action": "correct",
    "claim": "- Evaluar la viabilidad regulatoria, dado que no hay registros vigentes en Colombia, y comparar con la hidroxicloroquina, de perfil de seguridad más favorable.",
-   "replacement": "- Evaluar la viabilidad regulatoria, comparar con la hidroxicloroquina, de perfil de seguridad más favorable.",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "- Evaluar la viabilidad regulatoria y comparar con la hidroxicloroquina, de perfil de seguridad más favorable.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：11-05 刪掉列舉末項後少了連接詞，同 id 重發補上",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -5295,8 +5451,8 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"dado que no hay registros vigentes en Colombia, y\"",
+   "checked": "2026-11-25",
+   "summary": "«Evaluar la viabilidad regulatoria, dado que no hay registros…» → «Evaluar la viabilidad regulatoria y comparar con la hidroxic…»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
    "history": [
     {
@@ -5320,6 +5476,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明不再寫死張數，指向概覽表與程式表"
+    },
+    {
+     "id": "co-lic-20261105-chloroquine-2",
+     "drug": "chloroquine",
+     "file": "chloroquine.md",
+     "action": "correct",
+     "claim": "- Evaluar la viabilidad regulatoria, dado que no hay registros vigentes en Colombia, y comparar con la hidroxicloroquina, de perfil de seguridad más favorable.",
+     "replacement": "- Evaluar la viabilidad regulatoria, comparar con la hidroxicloroquina, de perfil de seguridad más favorable.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"dado que no hay registros vigentes en Colombia, y\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪掉列舉的最後一項（連同前面的 y）後，留下的句子少了連接詞、成了逗號接兩個子句，2026-11-25 用戶決定同 id 重發，補上連接詞（更正文字不寫張數，模型預測文字不動）"
     }
    ]
   },
@@ -8690,9 +8868,9 @@
    "file": "dimenhydrinate.md",
    "action": "correct",
    "claim": "Además, existen alternativas preferidas (antihistamínicos de segunda generación), el perfil sedante y anticolinérgico es desfavorable, y los dos registros sanitarios en Colombia están cancelados.",
-   "replacement": "Además, existen alternativas preferidas (antihistamínicos de segunda generación), el perfil sedante y anticolinérgico es desfavorable.",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "Además, existen alternativas preferidas (antihistamínicos de segunda generación) y el perfil sedante y anticolinérgico es desfavorable.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：11-05 刪掉列舉末項後少了連接詞，同 id 重發補上",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -8700,8 +8878,8 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"y los dos registros sanitarios en Colombia están cancelados\"",
+   "checked": "2026-11-25",
+   "summary": "«Además, existen alternativas preferidas (antihistamínicos de…» → «Además, existen alternativas preferidas (antihistamínicos de…»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
    "history": [
     {
@@ -8725,6 +8903,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明不再寫死張數，指向概覽表與程式表"
+    },
+    {
+     "id": "co-lic-20261105-dimenhydrinate-2",
+     "drug": "dimenhydrinate",
+     "file": "dimenhydrinate.md",
+     "action": "correct",
+     "claim": "Además, existen alternativas preferidas (antihistamínicos de segunda generación), el perfil sedante y anticolinérgico es desfavorable, y los dos registros sanitarios en Colombia están cancelados.",
+     "replacement": "Además, existen alternativas preferidas (antihistamínicos de segunda generación), el perfil sedante y anticolinérgico es desfavorable.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"y los dos registros sanitarios en Colombia están cancelados\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪掉列舉的最後一項（連同前面的 y）後，留下的句子少了連接詞、成了逗號接兩個子句，2026-11-25 用戶決定同 id 重發，補上連接詞（更正文字不寫張數，模型預測文字不動）"
     }
    ]
   },
@@ -9626,9 +9826,9 @@
    "file": "eltrombopag.md",
    "action": "correct",
    "claim": "- Aclarar la situación regulatoria: los 4 registros están cancelados y el texto de indicación solo repite el nombre del principio activo.",
-   "replacement": "- Aclarar la situación regulatoria: los 4 y el texto de indicación solo repite el nombre del principio activo.",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "- Aclarar la situación regulatoria: el texto de indicación solo repite el nombre del principio activo.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se reformuló el texto que quedó tras la eliminación para que la frase se lea completa.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：11-05 刪句留下的半句讀不通，同 id 重發，只留讀得通的部分",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -9636,8 +9836,8 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"registros están cancelados\"",
+   "checked": "2026-11-25",
+   "summary": "«Aclarar la situación regulatoria: los 4 registros están canc…» → «Aclarar la situación regulatoria: el texto de indicación sol…»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
    "history": [
     {
@@ -9661,6 +9861,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明不再寫死張數，指向概覽表與程式表"
+    },
+    {
+     "id": "co-lic-20261105-eltrombopag-2",
+     "drug": "eltrombopag",
+     "file": "eltrombopag.md",
+     "action": "correct",
+     "claim": "- Aclarar la situación regulatoria: los 4 registros están cancelados y el texto de indicación solo repite el nombre del principio activo.",
+     "replacement": "- Aclarar la situación regulatoria: los 4 y el texto de indicación solo repite el nombre del principio activo.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"registros están cancelados\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪句後留下的半句讀不通（刪到句中、主詞或謂語被一起刪掉），2026-11-25 用戶決定同 id 重發，只留讀得通的部分（更正文字不寫張數，模型預測文字不動）"
     }
    ]
   },
@@ -12729,9 +12951,9 @@
    "file": "glycine.md",
    "action": "correct",
    "claim": "La prediccion se basa solo en el modelo computacional (L5): no hay ensayos ni literatura que evaluen la glicina en enfermedad nasal, no se conoce su mecanismo de accion y el unico registro sanitario esta cancelado.",
-   "replacement": "La prediccion se basa solo en el modelo computacional (L5): no hay ensayos ni literatura que evaluen la glicina en enfermedad nasal, no se conoce su mecanismo de accion.",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "La prediccion se basa solo en el modelo computacional (L5): no hay ensayos ni literatura que evaluen la glicina en enfermedad nasal, y no se conoce su mecanismo de accion.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：11-05 刪掉列舉末項後少了連接詞，同 id 重發補上",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -12739,9 +12961,33 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"y el unico registro sanitario esta cancelado\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）"
+   "checked": "2026-11-25",
+   "summary": "«La prediccion se basa solo en el modelo computacional (L5): …» → «La prediccion se basa solo en el modelo computacional (L5): …»",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+   "history": [
+    {
+     "id": "co-lic-20261105-glycine-2",
+     "drug": "glycine",
+     "file": "glycine.md",
+     "action": "correct",
+     "claim": "La prediccion se basa solo en el modelo computacional (L5): no hay ensayos ni literatura que evaluen la glicina en enfermedad nasal, no se conoce su mecanismo de accion y el unico registro sanitario esta cancelado.",
+     "replacement": "La prediccion se basa solo en el modelo computacional (L5): no hay ensayos ni literatura que evaluen la glicina en enfermedad nasal, no se conoce su mecanismo de accion.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"y el unico registro sanitario esta cancelado\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪掉列舉的最後一項（連同前面的 y）後，留下的句子少了連接詞、成了逗號接兩個子句，2026-11-25 用戶決定同 id 重發，補上連接詞（更正文字不寫張數，模型預測文字不動）"
+    }
+   ]
   },
   {
    "id": "co-lic-20261105-glycine-3",
@@ -13470,9 +13716,9 @@
    "file": "imiquimod.md",
    "action": "correct",
    "claim": "Sin embargo, los ensayos son muy pequeños, el producto no tiene registro vigente en Colombia y faltan datos de seguridad del prospecto, por lo que se recomienda avanzar con salvaguardas.",
-   "replacement": "Sin embargo, los ensayos son muy pequeños, faltan datos de seguridad del prospecto, por lo que se recomienda avanzar con salvaguardas.",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "Sin embargo, los ensayos son muy pequeños y faltan datos de seguridad del prospecto, por lo que se recomienda avanzar con salvaguardas.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：11-05 刪掉列舉末項後少了連接詞，同 id 重發補上",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -13480,8 +13726,8 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"el producto no tiene registro vigente en Colombia y\"",
+   "checked": "2026-11-25",
+   "summary": "«Sin embargo, los ensayos son muy pequeños, el producto no ti…» → «Sin embargo, los ensayos son muy pequeños y faltan datos de …»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
    "history": [
     {
@@ -13505,6 +13751,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明不再寫死張數，指向概覽表與程式表"
+    },
+    {
+     "id": "co-lic-20261105-imiquimod-3",
+     "drug": "imiquimod",
+     "file": "imiquimod.md",
+     "action": "correct",
+     "claim": "Sin embargo, los ensayos son muy pequeños, el producto no tiene registro vigente en Colombia y faltan datos de seguridad del prospecto, por lo que se recomienda avanzar con salvaguardas.",
+     "replacement": "Sin embargo, los ensayos son muy pequeños, faltan datos de seguridad del prospecto, por lo que se recomienda avanzar con salvaguardas.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"el producto no tiene registro vigente en Colombia y\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪掉列舉的最後一項（連同前面的 y）後，留下的句子少了連接詞、成了逗號接兩個子句，2026-11-25 用戶決定同 id 重發，補上連接詞（更正文字不寫張數，模型預測文字不動）"
     }
    ]
   },
@@ -15080,9 +15348,9 @@
    "file": "ivermectin.md",
    "action": "correct",
    "claim": "- Aclarar el estado regulatorio, dado que los 5 registros están cancelados, y la viabilidad de las vías de administración requeridas (por ejemplo, vaginal o tópica).",
-   "replacement": "- Aclarar el estado regulatorio, la viabilidad de las vías de administración requeridas (por ejemplo, vaginal o tópica).",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "- Aclarar el estado regulatorio y la viabilidad de las vías de administración requeridas (por ejemplo, vaginal o tópica).",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：11-05 刪掉列舉末項後少了連接詞，同 id 重發補上",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -15090,8 +15358,8 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"dado que los 5 registros están cancelados, y\"",
+   "checked": "2026-11-25",
+   "summary": "«Aclarar el estado regulatorio, dado que los 5 registros está…» → «Aclarar el estado regulatorio y la viabilidad de las vías de…»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
    "history": [
     {
@@ -15115,6 +15383,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明不再寫死張數，指向概覽表與程式表"
+    },
+    {
+     "id": "co-lic-20261105-ivermectin-1",
+     "drug": "ivermectin",
+     "file": "ivermectin.md",
+     "action": "correct",
+     "claim": "- Aclarar el estado regulatorio, dado que los 5 registros están cancelados, y la viabilidad de las vías de administración requeridas (por ejemplo, vaginal o tópica).",
+     "replacement": "- Aclarar el estado regulatorio, la viabilidad de las vías de administración requeridas (por ejemplo, vaginal o tópica).",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"dado que los 5 registros están cancelados, y\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪掉列舉的最後一項（連同前面的 y）後，留下的句子少了連接詞、成了逗號接兩個子句，2026-11-25 用戶決定同 id 重發，補上連接詞（更正文字不寫張數，模型預測文字不動）"
     }
    ]
   },
@@ -15168,9 +15458,9 @@
    "file": "ixabepilone.md",
    "action": "correct",
    "claim": "- Evaluar la disponibilidad real del fármaco en Colombia, dado que ambos registros están cancelados, y definir una vía regulatoria en caso de interés.",
-   "replacement": "- Evaluar la disponibilidad real del fármaco en Colombia, definir una vía regulatoria en caso de interés.",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "- Evaluar la disponibilidad real del fármaco en Colombia y definir una vía regulatoria en caso de interés.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：11-05 刪掉列舉末項後少了連接詞，同 id 重發補上",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -15178,8 +15468,8 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"dado que ambos registros están cancelados, y\"",
+   "checked": "2026-11-25",
+   "summary": "«Evaluar la disponibilidad real del fármaco en Colombia, dado…» → «Evaluar la disponibilidad real del fármaco en Colombia y def…»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
    "history": [
     {
@@ -15203,6 +15493,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明不再寫死張數，指向概覽表與程式表"
+    },
+    {
+     "id": "co-lic-20261105-ixabepilone-2",
+     "drug": "ixabepilone",
+     "file": "ixabepilone.md",
+     "action": "correct",
+     "claim": "- Evaluar la disponibilidad real del fármaco en Colombia, dado que ambos registros están cancelados, y definir una vía regulatoria en caso de interés.",
+     "replacement": "- Evaluar la disponibilidad real del fármaco en Colombia, definir una vía regulatoria en caso de interés.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"dado que ambos registros están cancelados, y\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪掉列舉的最後一項（連同前面的 y）後，留下的句子少了連接詞、成了逗號接兩個子句，2026-11-25 用戶決定同 id 重發，補上連接詞（更正文字不寫張數，模型預測文字不動）"
     }
    ]
   },
@@ -18975,9 +19287,9 @@
    "file": "megestrol_acetate.md",
    "action": "correct",
    "claim": "El acetato de megestrol es una progestina sintética cuyo registro sanitario en Colombia (ya cancelado) lo identifica solo con el texto \"MEGESTROL\", sin una indicación más detallada.",
-   "replacement": "El acetato de megestrol es una progestina sintética cuyo registro sanitario en Colombia, sin una indicación más detallada.",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "El acetato de megestrol es una progestina sintética; en los datos del INVIMA su indicación figura solo con el texto \"MEGESTROL\", sin una indicación más detallada.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se reformuló el texto que quedó tras la eliminación para que la frase se lea completa.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：11-05 刪句留下的半句讀不通，同 id 重發，只留讀得通的部分",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -18985,8 +19297,8 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"(ya cancelado) lo identifica solo con el texto \"MEGESTROL\"\"",
+   "checked": "2026-11-25",
+   "summary": "«El acetato de megestrol es una progestina sintética cuyo reg…» → «El acetato de megestrol es una progestina sintética; en los …»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
    "history": [
     {
@@ -19010,6 +19322,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明不再寫死張數，指向概覽表與程式表"
+    },
+    {
+     "id": "co-lic-20261105-megestrol_acetate-1",
+     "drug": "megestrol_acetate",
+     "file": "megestrol_acetate.md",
+     "action": "correct",
+     "claim": "El acetato de megestrol es una progestina sintética cuyo registro sanitario en Colombia (ya cancelado) lo identifica solo con el texto \"MEGESTROL\", sin una indicación más detallada.",
+     "replacement": "El acetato de megestrol es una progestina sintética cuyo registro sanitario en Colombia, sin una indicación más detallada.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"(ya cancelado) lo identifica solo con el texto \"MEGESTROL\"\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪句後留下的半句讀不通（刪到句中、主詞或謂語被一起刪掉），2026-11-25 用戶決定同 id 重發，只留讀得通的部分（更正文字不寫張數，模型預測文字不動）"
     }
    ]
   },
@@ -19817,9 +20151,9 @@
    "file": "mesalazine.md",
    "action": "correct",
    "claim": "La predicción no tiene ensayos clínicos ni literatura, carece de vínculo mecanístico plausible y el producto no tiene registros vigentes en Colombia.",
-   "replacement": "La predicción no tiene ensayos clínicos ni literatura, carece de vínculo mecanístico plausible.",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "La predicción no tiene ensayos clínicos ni literatura y carece de vínculo mecanístico plausible.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：11-05 刪掉列舉末項後少了連接詞，同 id 重發補上",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -19827,8 +20161,8 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"y el producto no tiene registros vigentes en Colombia\"",
+   "checked": "2026-11-25",
+   "summary": "«La predicción no tiene ensayos clínicos ni literatura, carec…» → «La predicción no tiene ensayos clínicos ni literatura y care…»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
    "history": [
     {
@@ -19852,6 +20186,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明不再寫死張數，指向概覽表與程式表"
+    },
+    {
+     "id": "co-lic-20261105-mesalazine-2",
+     "drug": "mesalazine",
+     "file": "mesalazine.md",
+     "action": "correct",
+     "claim": "La predicción no tiene ensayos clínicos ni literatura, carece de vínculo mecanístico plausible y el producto no tiene registros vigentes en Colombia.",
+     "replacement": "La predicción no tiene ensayos clínicos ni literatura, carece de vínculo mecanístico plausible.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"y el producto no tiene registros vigentes en Colombia\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪掉列舉的最後一項（連同前面的 y）後，留下的句子少了連接詞、成了逗號接兩個子句，2026-11-25 用戶決定同 id 重發，補上連接詞（更正文字不寫張數，模型預測文字不動）"
     }
    ]
   },
@@ -20523,9 +20879,9 @@
    "file": "midazolam.md",
    "action": "correct",
    "claim": "Existe plausibilidad mecanística y estudios históricos de midazolam oral en insomnio, pero la evidencia es antigua, los ensayos clínicos registrados son solo indirectos, y los dos registros sanitarios en Colombia están cancelados.",
-   "replacement": "Existe plausibilidad mecanística y estudios históricos de midazolam oral en insomnio, pero la evidencia es antigua, los ensayos clínicos registrados son solo indirectos.",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "Existe plausibilidad mecanística y estudios históricos de midazolam oral en insomnio, pero la evidencia es antigua y los ensayos clínicos registrados son solo indirectos.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：11-05 刪掉列舉末項後少了連接詞，同 id 重發補上",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -20533,9 +20889,33 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"y los dos registros sanitarios en Colombia están cancelados\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）"
+   "checked": "2026-11-25",
+   "summary": "«Existe plausibilidad mecanística y estudios históricos de mi…» → «Existe plausibilidad mecanística y estudios históricos de mi…»",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+   "history": [
+    {
+     "id": "co-lic-20261105-midazolam-1",
+     "drug": "midazolam",
+     "file": "midazolam.md",
+     "action": "correct",
+     "claim": "Existe plausibilidad mecanística y estudios históricos de midazolam oral en insomnio, pero la evidencia es antigua, los ensayos clínicos registrados son solo indirectos, y los dos registros sanitarios en Colombia están cancelados.",
+     "replacement": "Existe plausibilidad mecanística y estudios históricos de midazolam oral en insomnio, pero la evidencia es antigua, los ensayos clínicos registrados son solo indirectos.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"y los dos registros sanitarios en Colombia están cancelados\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪掉列舉的最後一項（連同前面的 y）後，留下的句子少了連接詞、成了逗號接兩個子句，2026-11-25 用戶決定同 id 重發，補上連接詞（更正文字不寫張數，模型預測文字不動）"
+    }
+   ]
   },
   {
    "id": "co-lic-20261105-midazolam-2",
@@ -20543,9 +20923,9 @@
    "file": "midazolam.md",
    "action": "correct",
    "claim": "- Definir la viabilidad regulatoria y comercial, dado que no hay registros vigentes y no se dispone de una forma oral aprobada.",
-   "replacement": "- Definir la viabilidad regulatoria y comercial, no se dispone de una forma oral aprobada.",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "- Definir la viabilidad regulatoria y comercial, dado que no se dispone de una forma oral aprobada.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Actualizado el 2026-11-25: se reformuló el texto que quedó tras la eliminación para que la frase se lea completa.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：11-05 刪句留下的半句讀不通，同 id 重發，只留讀得通的部分",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -20553,9 +20933,33 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"dado que no hay registros vigentes y\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）"
+   "checked": "2026-11-25",
+   "summary": "«Definir la viabilidad regulatoria y comercial, dado que no h…» → «Definir la viabilidad regulatoria y comercial, dado que no s…»",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+   "history": [
+    {
+     "id": "co-lic-20261105-midazolam-2",
+     "drug": "midazolam",
+     "file": "midazolam.md",
+     "action": "correct",
+     "claim": "- Definir la viabilidad regulatoria y comercial, dado que no hay registros vigentes y no se dispone de una forma oral aprobada.",
+     "replacement": "- Definir la viabilidad regulatoria y comercial, no se dispone de una forma oral aprobada.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"dado que no hay registros vigentes y\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪句後留下的半句讀不通（刪到句中、主詞或謂語被一起刪掉），2026-11-25 用戶決定同 id 重發，只留讀得通的部分（更正文字不寫張數，模型預測文字不動）"
+    }
+   ]
   },
   {
    "id": "co-lic-20261105-midodrine-1",
@@ -22386,9 +22790,9 @@
    "file": "nebivolol.md",
    "action": "correct",
    "claim": "Nebivolol es un betabloqueante selectivo beta-1 con efecto vasodilatador mediado por óxido nítrico, registrado en Colombia como tableta oral (NABILA® 10 mg), aunque el registro sanitario consta como cancelado y no detalla la indicación aprobada.",
-   "replacement": "Nebivolol es un betabloqueante selectivo beta-1 con efecto vasodilatador mediado por óxido nítrico, registrado en Colombia como tableta oral (NABILA® 10 mg), no detalla la indicación aprobada.",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "Nebivolol es un betabloqueante selectivo beta-1 con efecto vasodilatador mediado por óxido nítrico, registrado en Colombia en tabletas orales (por ejemplo, NABILA® 10 mg), cuyo texto de indicación registrado no detalla la indicación aprobada.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se reformuló el texto que quedó tras la eliminación para que la frase se lea completa.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：11-05 刪句留下的半句讀不通，同 id 重發，只留讀得通的部分",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -22396,8 +22800,8 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"aunque el registro sanitario consta como cancelado y\"",
+   "checked": "2026-11-25",
+   "summary": "«Nebivolol es un betabloqueante selectivo beta-1 con efecto v…» → «Nebivolol es un betabloqueante selectivo beta-1 con efecto v…»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
    "history": [
     {
@@ -22421,6 +22825,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明不再寫死張數，指向概覽表與程式表"
+    },
+    {
+     "id": "co-lic-20261105-nebivolol-1",
+     "drug": "nebivolol",
+     "file": "nebivolol.md",
+     "action": "correct",
+     "claim": "Nebivolol es un betabloqueante selectivo beta-1 con efecto vasodilatador mediado por óxido nítrico, registrado en Colombia como tableta oral (NABILA® 10 mg), aunque el registro sanitario consta como cancelado y no detalla la indicación aprobada.",
+     "replacement": "Nebivolol es un betabloqueante selectivo beta-1 con efecto vasodilatador mediado por óxido nítrico, registrado en Colombia como tableta oral (NABILA® 10 mg), no detalla la indicación aprobada.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"aunque el registro sanitario consta como cancelado y\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪句後留下的半句讀不通（刪到句中、主詞或謂語被一起刪掉），2026-11-25 用戶決定同 id 重發，只留讀得通的部分（更正文字不寫張數，模型預測文字不動）"
     }
    ]
   },
@@ -24268,9 +24694,9 @@
    "file": "oxymetazoline.md",
    "action": "correct",
    "claim": "Además, no hay ensayos clínicos, la literatura es mayormente indirecta o preclínica, y los cinco registros sanitarios en Colombia están cancelados.",
-   "replacement": "Además, no hay ensayos clínicos, la literatura es mayormente indirecta o preclínica.",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "Además, no hay ensayos clínicos y la literatura es mayormente indirecta o preclínica.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：11-05 刪掉列舉末項後少了連接詞，同 id 重發補上",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -24278,9 +24704,33 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"y los cinco registros sanitarios en Colombia están cancelados\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）"
+   "checked": "2026-11-25",
+   "summary": "«Además, no hay ensayos clínicos, la literatura es mayormente…» → «Además, no hay ensayos clínicos y la literatura es mayorment…»",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+   "history": [
+    {
+     "id": "co-lic-20261105-oxymetazoline-2",
+     "drug": "oxymetazoline",
+     "file": "oxymetazoline.md",
+     "action": "correct",
+     "claim": "Además, no hay ensayos clínicos, la literatura es mayormente indirecta o preclínica, y los cinco registros sanitarios en Colombia están cancelados.",
+     "replacement": "Además, no hay ensayos clínicos, la literatura es mayormente indirecta o preclínica.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"y los cinco registros sanitarios en Colombia están cancelados\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪掉列舉的最後一項（連同前面的 y）後，留下的句子少了連接詞、成了逗號接兩個子句，2026-11-25 用戶決定同 id 重發，補上連接詞（更正文字不寫張數，模型預測文字不動）"
+    }
+   ]
   },
   {
    "id": "co-lic-20261105-paclitaxel-1",
@@ -24706,9 +25156,9 @@
    "file": "pantoprazole.md",
    "action": "correct",
    "claim": "Sin embargo, es un uso ya establecido de la clase, el único registro sanitario en Colombia está cancelado y faltan datos de seguridad del prospecto.",
-   "replacement": "Sin embargo, es un uso ya establecido de la clase, faltan datos de seguridad del prospecto.",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "Sin embargo, es un uso ya establecido de la clase y faltan datos de seguridad del prospecto.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：11-05 刪掉列舉末項後少了連接詞，同 id 重發補上",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -24716,8 +25166,8 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"el único registro sanitario en Colombia está cancelado y\"",
+   "checked": "2026-11-25",
+   "summary": "«Sin embargo, es un uso ya establecido de la clase, el único …» → «Sin embargo, es un uso ya establecido de la clase y faltan d…»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
    "history": [
     {
@@ -24741,6 +25191,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明不再寫死張數，指向概覽表與程式表"
+    },
+    {
+     "id": "co-lic-20261105-pantoprazole-1",
+     "drug": "pantoprazole",
+     "file": "pantoprazole.md",
+     "action": "correct",
+     "claim": "Sin embargo, es un uso ya establecido de la clase, el único registro sanitario en Colombia está cancelado y faltan datos de seguridad del prospecto.",
+     "replacement": "Sin embargo, es un uso ya establecido de la clase, faltan datos de seguridad del prospecto.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"el único registro sanitario en Colombia está cancelado y\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪掉列舉的最後一項（連同前面的 y）後，留下的句子少了連接詞、成了逗號接兩個子句，2026-11-25 用戶決定同 id 重發，補上連接詞（更正文字不寫張數，模型預測文字不動）"
     }
    ]
   },
@@ -26008,9 +26480,9 @@
    "file": "phenylephrine.md",
    "action": "correct",
    "claim": "Sin embargo, no hay ensayos registrados, la literatura es de diseño limitado y los registros colombianos están cancelados.",
-   "replacement": "Sin embargo, no hay ensayos registrados, la literatura es de diseño limitado.",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "Sin embargo, no hay ensayos registrados y la literatura es de diseño limitado.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：11-05 刪掉列舉末項後少了連接詞，同 id 重發補上",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -26018,9 +26490,33 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"y los registros colombianos están cancelados\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）"
+   "checked": "2026-11-25",
+   "summary": "«Sin embargo, no hay ensayos registrados, la literatura es de…» → «Sin embargo, no hay ensayos registrados y la literatura es d…»",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+   "history": [
+    {
+     "id": "co-lic-20261105-phenylephrine-2",
+     "drug": "phenylephrine",
+     "file": "phenylephrine.md",
+     "action": "correct",
+     "claim": "Sin embargo, no hay ensayos registrados, la literatura es de diseño limitado y los registros colombianos están cancelados.",
+     "replacement": "Sin embargo, no hay ensayos registrados, la literatura es de diseño limitado.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"y los registros colombianos están cancelados\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪掉列舉的最後一項（連同前面的 y）後，留下的句子少了連接詞、成了逗號接兩個子句，2026-11-25 用戶決定同 id 重發，補上連接詞（更正文字不寫張數，模型預測文字不動）"
+    }
+   ]
   },
   {
    "id": "co-lic-20261105-phenylephrine-3",
@@ -27740,9 +28236,9 @@
    "file": "procaine.md",
    "action": "correct",
    "claim": "Además, no existen ensayos clínicos, el único registro sanitario colombiano está cancelado y faltan datos de seguridad del prospecto.",
-   "replacement": "Además, no existen ensayos clínicos, faltan datos de seguridad del prospecto.",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "Además, no existen ensayos clínicos y faltan datos de seguridad del prospecto.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：11-05 刪掉列舉末項後少了連接詞，同 id 重發補上",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -27750,8 +28246,8 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"el único registro sanitario colombiano está cancelado y\"",
+   "checked": "2026-11-25",
+   "summary": "«Además, no existen ensayos clínicos, el único registro sanit…» → «Además, no existen ensayos clínicos y faltan datos de seguri…»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
    "history": [
     {
@@ -27775,6 +28271,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明不再寫死張數，指向概覽表與程式表"
+    },
+    {
+     "id": "co-lic-20261105-procaine-1",
+     "drug": "procaine",
+     "file": "procaine.md",
+     "action": "correct",
+     "claim": "Además, no existen ensayos clínicos, el único registro sanitario colombiano está cancelado y faltan datos de seguridad del prospecto.",
+     "replacement": "Además, no existen ensayos clínicos, faltan datos de seguridad del prospecto.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"el único registro sanitario colombiano está cancelado y\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪掉列舉的最後一項（連同前面的 y）後，留下的句子少了連接詞、成了逗號接兩個子句，2026-11-25 用戶決定同 id 重發，補上連接詞（更正文字不寫張數，模型預測文字不動）"
     }
    ]
   },
@@ -27918,9 +28436,9 @@
    "file": "propofol.md",
    "action": "correct",
    "claim": "Sin embargo, no se dispone de resultados cuantitativos en los datos compilados, la evidencia es heterogénea y los dos registros colombianos están cancelados.",
-   "replacement": "Sin embargo, no se dispone de resultados cuantitativos en los datos compilados, la evidencia es heterogénea.",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "Sin embargo, no se dispone de resultados cuantitativos en los datos compilados y la evidencia es heterogénea.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：11-05 刪掉列舉末項後少了連接詞，同 id 重發補上",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -27928,8 +28446,8 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"y los dos registros colombianos están cancelados\"",
+   "checked": "2026-11-25",
+   "summary": "«Sin embargo, no se dispone de resultados cuantitativos en lo…» → «Sin embargo, no se dispone de resultados cuantitativos en lo…»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
    "history": [
     {
@@ -27953,6 +28471,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明不再寫死張數，指向概覽表與程式表"
+    },
+    {
+     "id": "co-lic-20261105-propofol-2",
+     "drug": "propofol",
+     "file": "propofol.md",
+     "action": "correct",
+     "claim": "Sin embargo, no se dispone de resultados cuantitativos en los datos compilados, la evidencia es heterogénea y los dos registros colombianos están cancelados.",
+     "replacement": "Sin embargo, no se dispone de resultados cuantitativos en los datos compilados, la evidencia es heterogénea.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"y los dos registros colombianos están cancelados\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪掉列舉的最後一項（連同前面的 y）後，留下的句子少了連接詞、成了逗號接兩個子句，2026-11-25 用戶決定同 id 重發，補上連接詞（更正文字不寫張數，模型預測文字不動）"
     }
    ]
   },
@@ -28662,9 +29202,9 @@
    "file": "ranibizumab.md",
    "action": "correct",
    "claim": "Sin embargo, no hay ensayos registrados en los datos, el único registro sanitario colombiano está cancelado y faltan los datos de seguridad del prospecto.",
-   "replacement": "Sin embargo, no hay ensayos registrados en los datos, faltan los datos de seguridad del prospecto.",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "Sin embargo, no hay ensayos registrados en los datos y faltan los datos de seguridad del prospecto.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：11-05 刪掉列舉末項後少了連接詞，同 id 重發補上",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -28672,8 +29212,8 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"el único registro sanitario colombiano está cancelado y\"",
+   "checked": "2026-11-25",
+   "summary": "«Sin embargo, no hay ensayos registrados en los datos, el úni…» → «Sin embargo, no hay ensayos registrados en los datos y falta…»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
    "history": [
     {
@@ -28697,6 +29237,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明不再寫死張數，指向概覽表與程式表"
+    },
+    {
+     "id": "co-lic-20261105-ranibizumab-2",
+     "drug": "ranibizumab",
+     "file": "ranibizumab.md",
+     "action": "correct",
+     "claim": "Sin embargo, no hay ensayos registrados en los datos, el único registro sanitario colombiano está cancelado y faltan los datos de seguridad del prospecto.",
+     "replacement": "Sin embargo, no hay ensayos registrados en los datos, faltan los datos de seguridad del prospecto.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"el único registro sanitario colombiano está cancelado y\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪掉列舉的最後一項（連同前面的 y）後，留下的句子少了連接詞、成了逗號接兩個子句，2026-11-25 用戶決定同 id 重發，補上連接詞（更正文字不寫張數，模型預測文字不動）"
     }
    ]
   },
@@ -30950,9 +31512,9 @@
    "file": "sacituzumab_govitecan.md",
    "action": "correct",
    "claim": "No existen ensayos clínicos ni publicaciones que respalden la predicción, no hay un mecanismo plausible (un agente citotóxico se asocia más con pérdida ósea que con protección), y el único registro sanitario en Colombia está cancelado.",
-   "replacement": "No existen ensayos clínicos ni publicaciones que respalden la predicción, no hay un mecanismo plausible (un agente citotóxico se asocia más con pérdida ósea que con protección).",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "No existen ensayos clínicos ni publicaciones que respalden la predicción, y no hay un mecanismo plausible (un agente citotóxico se asocia más con pérdida ósea que con protección).",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：11-05 刪掉列舉末項後少了連接詞，同 id 重發補上",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -30960,8 +31522,8 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"y el único registro sanitario en Colombia está cancelado\"",
+   "checked": "2026-11-25",
+   "summary": "«No existen ensayos clínicos ni publicaciones que respalden l…» → «No existen ensayos clínicos ni publicaciones que respalden l…»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
    "history": [
     {
@@ -30985,6 +31547,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明不再寫死張數，指向概覽表與程式表"
+    },
+    {
+     "id": "co-lic-20261105-sacituzumab_govitecan-2",
+     "drug": "sacituzumab_govitecan",
+     "file": "sacituzumab_govitecan.md",
+     "action": "correct",
+     "claim": "No existen ensayos clínicos ni publicaciones que respalden la predicción, no hay un mecanismo plausible (un agente citotóxico se asocia más con pérdida ósea que con protección), y el único registro sanitario en Colombia está cancelado.",
+     "replacement": "No existen ensayos clínicos ni publicaciones que respalden la predicción, no hay un mecanismo plausible (un agente citotóxico se asocia más con pérdida ósea que con protección).",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"y el único registro sanitario en Colombia está cancelado\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪掉列舉的最後一項（連同前面的 y）後，留下的句子少了連接詞、成了逗號接兩個子句，2026-11-25 用戶決定同 id 重發，補上連接詞（更正文字不寫張數，模型預測文字不動）"
     }
    ]
   },
@@ -31260,9 +31844,9 @@
    "file": "selpercatinib.md",
    "action": "correct",
    "claim": "Además, no hay un mecanismo plausible documentado, el perfil de seguridad es relevante y los registros sanitarios en Colombia están cancelados.",
-   "replacement": "Además, no hay un mecanismo plausible documentado, el perfil de seguridad es relevante.",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "Además, no hay un mecanismo plausible documentado y el perfil de seguridad es relevante.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：11-05 刪掉列舉末項後少了連接詞，同 id 重發補上",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -31270,8 +31854,8 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"y los registros sanitarios en Colombia están cancelados\"",
+   "checked": "2026-11-25",
+   "summary": "«Además, no hay un mecanismo plausible documentado, el perfil…» → «Además, no hay un mecanismo plausible documentado y el perfi…»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
    "history": [
     {
@@ -31295,6 +31879,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明不再寫死張數，指向概覽表與程式表"
+    },
+    {
+     "id": "co-lic-20261105-selpercatinib-1",
+     "drug": "selpercatinib",
+     "file": "selpercatinib.md",
+     "action": "correct",
+     "claim": "Además, no hay un mecanismo plausible documentado, el perfil de seguridad es relevante y los registros sanitarios en Colombia están cancelados.",
+     "replacement": "Además, no hay un mecanismo plausible documentado, el perfil de seguridad es relevante.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"y los registros sanitarios en Colombia están cancelados\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪掉列舉的最後一項（連同前面的 y）後，留下的句子少了連接詞、成了逗號接兩個子句，2026-11-25 用戶決定同 id 重發，補上連接詞（更正文字不寫張數，模型預測文字不動）"
     }
    ]
   },
@@ -31523,9 +32129,9 @@
    "file": "simvastatin.md",
    "action": "correct",
    "claim": "Sin embargo, es un uso ya establecido, el único registro sanitario en Colombia está cancelado y existe una carga alta de interacciones y riesgo de miopatía.",
-   "replacement": "Sin embargo, es un uso ya establecido, existe una carga alta de interacciones y riesgo de miopatía.",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "Sin embargo, es un uso ya establecido y existe una carga alta de interacciones y riesgo de miopatía.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：11-05 刪掉列舉末項後少了連接詞，同 id 重發補上",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -31533,9 +32139,33 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"el único registro sanitario en Colombia está cancelado y\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）"
+   "checked": "2026-11-25",
+   "summary": "«Sin embargo, es un uso ya establecido, el único registro san…» → «Sin embargo, es un uso ya establecido y existe una carga alt…»",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+   "history": [
+    {
+     "id": "co-lic-20261105-simvastatin-1",
+     "drug": "simvastatin",
+     "file": "simvastatin.md",
+     "action": "correct",
+     "claim": "Sin embargo, es un uso ya establecido, el único registro sanitario en Colombia está cancelado y existe una carga alta de interacciones y riesgo de miopatía.",
+     "replacement": "Sin embargo, es un uso ya establecido, existe una carga alta de interacciones y riesgo de miopatía.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"el único registro sanitario en Colombia está cancelado y\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪掉列舉的最後一項（連同前面的 y）後，留下的句子少了連接詞、成了逗號接兩個子句，2026-11-25 用戶決定同 id 重發，補上連接詞（更正文字不寫張數，模型預測文字不動）"
+    }
+   ]
   },
   {
    "id": "co-lic-20261105-simvastatin-2",
@@ -31827,9 +32457,9 @@
    "file": "sulbactam.md",
    "action": "correct",
    "claim": "La evidencia es L3 (estudios pequeños y antiguos, reportes de caso y apoyo indirecto), no hay ensayos clínicos registrados, los registros sanitarios locales están cancelados y falta la revisión de seguridad del prospecto.",
-   "replacement": "La evidencia es L3 (estudios pequeños y antiguos, reportes de caso y apoyo indirecto), no hay ensayos clínicos registrados, falta la revisión de seguridad del prospecto.",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "La evidencia es L3 (estudios pequeños y antiguos, reportes de caso y apoyo indirecto), no hay ensayos clínicos registrados y falta la revisión de seguridad del prospecto.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：11-05 刪掉列舉末項後少了連接詞，同 id 重發補上",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -31837,8 +32467,8 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"los registros sanitarios locales están cancelados y\"",
+   "checked": "2026-11-25",
+   "summary": "«La evidencia es L3 (estudios pequeños y antiguos, reportes d…» → «La evidencia es L3 (estudios pequeños y antiguos, reportes d…»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
    "history": [
     {
@@ -31862,6 +32492,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明不再寫死張數，指向概覽表與程式表"
+    },
+    {
+     "id": "co-lic-20261105-sulbactam-2",
+     "drug": "sulbactam",
+     "file": "sulbactam.md",
+     "action": "correct",
+     "claim": "La evidencia es L3 (estudios pequeños y antiguos, reportes de caso y apoyo indirecto), no hay ensayos clínicos registrados, los registros sanitarios locales están cancelados y falta la revisión de seguridad del prospecto.",
+     "replacement": "La evidencia es L3 (estudios pequeños y antiguos, reportes de caso y apoyo indirecto), no hay ensayos clínicos registrados, falta la revisión de seguridad del prospecto.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"los registros sanitarios locales están cancelados y\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪掉列舉的最後一項（連同前面的 y）後，留下的句子少了連接詞、成了逗號接兩個子句，2026-11-25 用戶決定同 id 重發，補上連接詞（更正文字不寫張數，模型預測文字不動）"
     }
    ]
   },
@@ -37121,9 +37773,9 @@
    "file": "vitamin_a.md",
    "action": "correct",
    "claim": "La candidata con más respaldo (enfermedad perinatal, en la práctica displasia broncopulmonar en prematuros) tiene revisiones Cochrane, pero el beneficio es modesto, la etiqueta es muy amplia, el único registro sanitario en Colombia está cancelado y faltan datos de seguridad de prospecto.",
-   "replacement": "La candidata con más respaldo (enfermedad perinatal, en la práctica displasia broncopulmonar en prematuros) tiene revisiones Cochrane, pero el beneficio es modesto, la etiqueta es muy amplia, faltan datos de seguridad de prospecto.",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "La candidata con más respaldo (enfermedad perinatal, en la práctica displasia broncopulmonar en prematuros) tiene revisiones Cochrane, pero el beneficio es modesto, la etiqueta es muy amplia y faltan datos de seguridad de prospecto.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：11-05 刪掉列舉末項後少了連接詞，同 id 重發補上",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -37131,9 +37783,33 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"el único registro sanitario en Colombia está cancelado y\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）"
+   "checked": "2026-11-25",
+   "summary": "«La candidata con más respaldo (enfermedad perinatal, en la p…» → «La candidata con más respaldo (enfermedad perinatal, en la p…»",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+   "history": [
+    {
+     "id": "co-lic-20261105-vitamin_a-1",
+     "drug": "vitamin_a",
+     "file": "vitamin_a.md",
+     "action": "correct",
+     "claim": "La candidata con más respaldo (enfermedad perinatal, en la práctica displasia broncopulmonar en prematuros) tiene revisiones Cochrane, pero el beneficio es modesto, la etiqueta es muy amplia, el único registro sanitario en Colombia está cancelado y faltan datos de seguridad de prospecto.",
+     "replacement": "La candidata con más respaldo (enfermedad perinatal, en la práctica displasia broncopulmonar en prematuros) tiene revisiones Cochrane, pero el beneficio es modesto, la etiqueta es muy amplia, faltan datos de seguridad de prospecto.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"el único registro sanitario en Colombia está cancelado y\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪掉列舉的最後一項（連同前面的 y）後，留下的句子少了連接詞、成了逗號接兩個子句，2026-11-25 用戶決定同 id 重發，補上連接詞（更正文字不寫張數，模型預測文字不動）"
+    }
+   ]
   },
   {
    "id": "co-lic-20261105-vitamin_a-2",
@@ -37141,9 +37817,9 @@
    "file": "vitamin_a.md",
    "action": "correct",
    "claim": "- Evaluar la situación regulatoria, dado que no hay registros vigentes en Colombia, y el perfil de seguridad en poblaciones vulnerables (embarazo, enfermedad hepática y renal).",
-   "replacement": "- Evaluar la situación regulatoria, el perfil de seguridad en poblaciones vulnerables (embarazo, enfermedad hepática y renal).",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "- Evaluar la situación regulatoria y el perfil de seguridad en poblaciones vulnerables (embarazo, enfermedad hepática y renal).",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración.",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：11-05 刪掉列舉末項後少了連接詞，同 id 重發補上",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -37151,9 +37827,33 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"dado que no hay registros vigentes en Colombia, y\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）"
+   "checked": "2026-11-25",
+   "summary": "«Evaluar la situación regulatoria, dado que no hay registros …» → «Evaluar la situación regulatoria y el perfil de seguridad en…»",
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+   "history": [
+    {
+     "id": "co-lic-20261105-vitamin_a-2",
+     "drug": "vitamin_a",
+     "file": "vitamin_a.md",
+     "action": "correct",
+     "claim": "- Evaluar la situación regulatoria, dado que no hay registros vigentes en Colombia, y el perfil de seguridad en poblaciones vulnerables (embarazo, enfermedad hepática y renal).",
+     "replacement": "- Evaluar la situación regulatoria, el perfil de seguridad en poblaciones vulnerables (embarazo, enfermedad hepática y renal).",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"dado que no hay registros vigentes en Colombia, y\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪掉列舉的最後一項（連同前面的 y）後，留下的句子少了連接詞、成了逗號接兩個子句，2026-11-25 用戶決定同 id 重發，補上連接詞（更正文字不寫張數，模型預測文字不動）"
+    }
+   ]
   },
   {
    "id": "co-lic-20261105-vitamin_e-1",
@@ -37515,9 +38215,9 @@
    "file": "zidovudine.md",
    "action": "correct",
    "claim": "Requerirían protecciones por mielotoxicidad, desplazamiento por la terapia antirretroviral combinada moderna y estado de mercado cancelado",
-   "replacement": "Requerirían protecciones por mielotoxicidad, desplazamiento por la terapia antirretroviral combinada moderna",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
-   "finding": "INVIMA CUM：zidovudina 有 Vigente 註冊，「estado de mercado cancelado」是 2026-10-03 reviewer 誤判；骨髓毒性與 ART 取代的說法保留",
+   "replacement": "Requerirían protecciones por mielotoxicidad y por su desplazamiento por la terapia antirretroviral combinada moderna.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se reformuló el texto que quedó tras la eliminación para que la frase se lea completa.",
+   "finding": "INVIMA CUM：zidovudina 有 Vigente 註冊，「estado de mercado cancelado」是 2026-10-03 reviewer 誤判；骨髓毒性與 ART 取代的說法保留；2026-11-25：11-05 刪句留下的半句讀不通，同 id 重發，只留讀得通的部分",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -37525,8 +38225,8 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"y estado de mercado cancelado\"",
+   "checked": "2026-11-25",
+   "summary": "«Requerirían protecciones por mielotoxicidad, desplazamiento …» → «Requerirían protecciones por mielotoxicidad y por su desplaz…»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
    "history": [
     {
@@ -37550,6 +38250,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明不再寫死張數，指向概覽表與程式表"
+    },
+    {
+     "id": "co-lic-20261105-zidovudine-1",
+     "drug": "zidovudine",
+     "file": "zidovudine.md",
+     "action": "correct",
+     "claim": "Requerirían protecciones por mielotoxicidad, desplazamiento por la terapia antirretroviral combinada moderna y estado de mercado cancelado",
+     "replacement": "Requerirían protecciones por mielotoxicidad, desplazamiento por la terapia antirretroviral combinada moderna",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+     "finding": "INVIMA CUM：zidovudina 有 Vigente 註冊，「estado de mercado cancelado」是 2026-10-03 reviewer 誤判；骨髓毒性與 ART 取代的說法保留",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"y estado de mercado cancelado\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "11-05 刪句後留下的半句讀不通（刪到句中、主詞或謂語被一起刪掉），2026-11-25 用戶決定同 id 重發，只留讀得通的部分（更正文字不寫張數，模型預測文字不動）"
     }
    ]
   },

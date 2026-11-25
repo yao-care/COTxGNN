@@ -128,11 +128,11 @@ No se dispone del prospecto con advertencias y contraindicaciones oficiales; con
 **Decisión: Hold**
 
 **Justificación:**
-La predicción es mecanísticamente coherente, pero coincide con el uso descongestionante ya establecido, por lo que no representa un reposicionamiento novedoso. Además, no hay ensayos clínicos, la literatura es mayormente indirecta o preclínica.
+La predicción es mecanísticamente coherente, pero coincide con el uso descongestionante ya establecido, por lo que no representa un reposicionamiento novedoso. Además, no hay ensayos clínicos y la literatura es mayormente indirecta o preclínica.
 
 <!-- review:begin co-lic-20261105-oxymetazoline-2 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Además, no hay ensayos clínicos, la literatura es mayormente indirecta o preclínica, y los cinco registros sanitarios en Colombia están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-25)**: Texto original: "Además, no hay ensayos clínicos, la literatura es mayormente indirecta o preclínica, y los cinco registros sanitarios en Colombia están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-oxymetazoline-2 -->
 
@@ -164,7 +164,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los cinco registros figuran como cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-05 | Eliminado: "y los cinco registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | «Además, no hay ensayos clínicos, la literatura es mayormente…» → «Además, no hay ensayos clínicos y la literatura es mayorment…» | Corregido (revisado el 2026-11-25; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Rhofade (oxymetazoline hydrochloride) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34298db6-647d-480d-88a8-dc53258a5164) |
 | 2026-11-25 | Eliminado: «motivo de la cancelación de los registros y si existe algún producto…» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 

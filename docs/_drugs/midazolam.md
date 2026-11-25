@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 442
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Midazolam: nueva indicación predicha, Insomnio (nivel de evidencia L3). Indicación original: Midazolam"
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
@@ -121,24 +121,24 @@ No se dispone de advertencias del prospecto; consultar el prospecto para informa
 **Decisión: Hold**
 
 **Justificación:**
-Existe plausibilidad mecanística y estudios históricos de midazolam oral en insomnio, pero la evidencia es antigua, los ensayos clínicos registrados son solo indirectos. Además, falta la información de seguridad del prospecto, lo que impide el tamizaje de seguridad.
+Existe plausibilidad mecanística y estudios históricos de midazolam oral en insomnio, pero la evidencia es antigua y los ensayos clínicos registrados son solo indirectos. Además, falta la información de seguridad del prospecto, lo que impide el tamizaje de seguridad.
 
 <!-- review:begin co-lic-20261105-midazolam-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Existe plausibilidad mecanística y estudios históricos de midazolam oral en insomnio, pero la evidencia es antigua, los ensayos clínicos registrados son solo indirectos, y los dos registros sanitarios en Colombia están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-25)**: Texto original: "Existe plausibilidad mecanística y estudios históricos de midazolam oral en insomnio, pero la evidencia es antigua, los ensayos clínicos registrados son solo indirectos, y los dos registros sanitarios en Colombia están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-midazolam-1 -->
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), que es un vacío bloqueante.
 - Confirmar el mecanismo de acción mediante DrugBank.
-- Definir la viabilidad regulatoria y comercial, no se dispone de una forma oral aprobada.
+- Definir la viabilidad regulatoria y comercial, dado que no se dispone de una forma oral aprobada.
 - Evaluar alternativas ya aprobadas para insomnio, dado el perfil de interacciones y las contraindicaciones.
 - Revisar evidencia más reciente que compare midazolam oral con hipnóticos actuales.
 
 <!-- review:begin co-lic-20261105-midazolam-2 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Definir la viabilidad regulatoria y comercial, dado que no hay registros vigentes y no se dispone de una forma oral aprobada." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-25)**: Texto original: "Definir la viabilidad regulatoria y comercial, dado que no hay registros vigentes y no se dispone de una forma oral aprobada." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Actualizado el 2026-11-25: se reformuló el texto que quedó tras la eliminación para que la frase se lea completa. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-midazolam-2 -->
 
@@ -150,8 +150,8 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "y los dos registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-05 | Eliminado: "dado que no hay registros vigentes y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | «Existe plausibilidad mecanística y estudios históricos de mi…» → «Existe plausibilidad mecanística y estudios históricos de mi…» | Corregido (revisado el 2026-11-25; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | «Definir la viabilidad regulatoria y comercial, dado que no h…» → «Definir la viabilidad regulatoria y comercial, dado que no s…» | Corregido (revisado el 2026-11-25; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Midazolam In Sodium Chloride (midazolam) prescribing information, WG Critical Care, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f051776f-94c5-4e34-80ed-f45b9c36881e) |
 
 <!-- review:end log -->

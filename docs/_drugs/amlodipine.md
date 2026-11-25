@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 51
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Amlodipine: nueva indicación predicha, Infarto del tronco encefálico (brain stem infarction) (nivel de evidencia L5). Indicación original: Valsartán y amlodipino (combinación antihipertensiva)"
 monitor_inn: "Amlodipine"
 predicted_indications: ["brain stem infarction", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
@@ -142,13 +142,13 @@ Para infarto del tronco encefálico solo existe la predicción del modelo (L5), 
 - Revisar los resultados del desenlace primario de TRIDENT antes de formular cualquier recomendación sobre hemorragia intracerebral.
 - Datos del mecanismo de acción consultando DrugBank.
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), actualmente no disponible.
-- Aclarar la situación regulatoria local, corresponden a combinaciones.
+- Aclarar la situación regulatoria local.
 - Estudios preclínicos o clínicos específicos de amlodipino en infarto del tronco encefálico o enfermedad cerebrovascular isquémica.
 - Plan de monitoreo de seguridad (angioedema, hipotensión).
 
 <!-- review:begin co-lic-20261105-amlodipine-2 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar la situación regulatoria local, ya que ambos registros están cancelados y corresponden a combinaciones." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-25)**: Texto original: "Aclarar la situación regulatoria local, ya que ambos registros están cancelados y corresponden a combinaciones." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Actualizado el 2026-11-25: se reformuló el texto que quedó tras la eliminación para que la frase se lea completa. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-amlodipine-2 -->
 
@@ -161,7 +161,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, en Colombia no hay registros vigentes de amlodipino" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-05 | Eliminado: "ya que ambos registros están cancelados y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | «Aclarar la situación regulatoria local, ya que ambos registr…» → «Aclarar la situación regulatoria local.…» | Corregido (revisado el 2026-11-25; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487) |
 
 <!-- review:end log -->

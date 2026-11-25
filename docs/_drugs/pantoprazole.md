@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 498
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Pantoprazol: nueva indicación predicha, obstrucción duodenal (nivel de evidencia L5). Indicación original: Pantoprazol"
 monitor_inn: "Pantoprazole"
 predicted_indications: ["duodenal obstruction"]
@@ -123,11 +123,11 @@ Consultar el prospecto para las advertencias y contraindicaciones oficiales.
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Existe un ensayo de Fase 3 completado y varios ECA publicados (pantoprazol vs. ranitidina y vs. omeprazol en úlcera duodenal) que respaldan el uso en enfermedad ulcerosa péptica. Sin embargo, es un uso ya establecido de la clase, faltan datos de seguridad del prospecto.
+Existe un ensayo de Fase 3 completado y varios ECA publicados (pantoprazol vs. ranitidina y vs. omeprazol en úlcera duodenal) que respaldan el uso en enfermedad ulcerosa péptica. Sin embargo, es un uso ya establecido de la clase y faltan datos de seguridad del prospecto.
 
 <!-- review:begin co-lic-20261105-pantoprazole-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Sin embargo, es un uso ya establecido de la clase, el único registro sanitario en Colombia está cancelado y faltan datos de seguridad del prospecto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-25)**: Texto original: "Sin embargo, es un uso ya establecido de la clase, el único registro sanitario en Colombia está cancelado y faltan datos de seguridad del prospecto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-pantoprazole-1 -->
 
@@ -162,7 +162,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado y" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | «Sin embargo, es un uso ya establecido de la clase, el único …» → «Sin embargo, es un uso ya establecido de la clase y faltan d…» | Corregido (revisado el 2026-11-25; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Confirmar la situación regulatoria en Colombia: no hay registro vigente, por lo que habría que gestionar uno nuevo o identificar otros produ" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Protonix I.V. (pantoprazole sodium) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b) |
 

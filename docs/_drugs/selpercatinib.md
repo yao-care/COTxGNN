@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 582
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Selpercatinib: nueva indicación predicha, Hipertensión pulmonar (nivel de evidencia L5). Indicación original: No especificada"
 monitor_inn: "SELPERCATINIB"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura"]
@@ -132,11 +132,11 @@ Consultar el prospecto para advertencias y contraindicaciones, ya que no se disp
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura que evalúen selpercatinib en hipertensión pulmonar. Además, no hay un mecanismo plausible documentado, el perfil de seguridad es relevante.
+La predicción se basa solo en el modelo (nivel L5), sin ensayos clínicos ni literatura que evalúen selpercatinib en hipertensión pulmonar. Además, no hay un mecanismo plausible documentado y el perfil de seguridad es relevante.
 
 <!-- review:begin co-lic-20261105-selpercatinib-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Además, no hay un mecanismo plausible documentado, el perfil de seguridad es relevante y los registros sanitarios en Colombia están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-25)**: Texto original: "Además, no hay un mecanismo plausible documentado, el perfil de seguridad es relevante y los registros sanitarios en Colombia están cancelados." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-selpercatinib-1 -->
 
@@ -161,7 +161,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "y los registros sanitarios en Colombia están cancelados" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | «Además, no hay un mecanismo plausible documentado, el perfil…» → «Además, no hay un mecanismo plausible documentado y el perfi…» | Corregido (revisado el 2026-11-25; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que los registros están cancelados" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->

@@ -169,3 +169,13 @@ dbXXXXX 轉址頁原本指到被轉址頁的（db00448、db01060、db01076、db0
 - 判定成立、不改：只有暫時未上市登記的頁寫「no hay registro(s) vigente(s)」（clomipramine、rutin、tafenoquine、ziprasidone；跟 description「vigentes: 0; además, temporalmente no comercializados」同口徑）；為新適應症評估新登記或確認其他產品的待辦（bendamustine、denosumab、ketoconazole、methylphenidate、topiramate、tapentadol）；pseudoephedrine（有 6 張註銷）。
 - 沒處理（不同類，回報）：eltrombopag「los 4 y el texto…」、amlodipine「…local, corresponden a combinaciones」、megestrol_acetate「cuyo registro sanitario en Colombia, sin…」是 11-05 刪句留下的殘句。
 - 驗證：apply --check 0、rewrite_license_counts --check 0；gate exit 0；checker 前後都是 P1 612（本機沒還原證據包，前後相同、跟這次無關）、--row-status 0；兩支偵測複查，剩下的命中都是上面判定成立的句子。正文有變的 36 頁 last_modified_at 改 2026-11-25。
+
+## 11-05 刪句留下的殘句改寫（2026-11-25 第八輪）
+
+用戶 2026-11-25 決定：11-05 刪掉矛盾子句後留下、讀不通的半句（第七輪點名 eltrombopag「los 4 y el texto…」、amlodipine「…local, corresponden a combinaciones」、megestrol_acetate「cuyo registro sanitario en Colombia, sin…」），找出產生殘句的查核紀錄同 id 重發，只留讀得通的部分；全站掃同類一併處理。前版存 history，更正文字不寫張數，模型預測文字不動。
+- 兩支獨立偵測全量掃：A＝紀錄端，比對 active correct 紀錄的 claim 與 replacement，列出刪在句中的 219 筆與刪掉列舉末項（連同前面的 y）後剩下逗號接子句的 48 筆，逐筆讀接縫；B＝頁面端，掃公開頁正文（扣查核框、程式表）句尾停在介系詞／連接詞、「los N y」、「cuyo … , sin」、逗號後直接接子句（, faltan／, existe／, comparar…）、句首小寫等 1,800 多處命中，逐類看過（多是正常寫法、列表項、跨行句）。
+- 32 筆 `co-lic-20261105-*` 同 id 重發（30 頁）：殘句讀不通 8 筆（eltrombopag-2、amlodipine-2、megestrol_acetate-1（改成「en los datos del INVIMA su indicación figura solo con el texto "MEGESTROL"」）、bupivacaine-3、cabozantinib-2、nebivolol-1、midazolam-2、zidovudine-1）；
+  刪掉列舉末項後少了連接詞、成了逗號接兩個子句的 24 筆補上 y（amantadine、bromfenac、imiquimod、pantoprazole、procaine、ranibizumab、simvastatin、sulbactam、vitamin_a×2、chloroquine、ivermectin、ixabepilone、agomelatine、amylmetacresol、glycine、mesalazine、midazolam、phenylephrine、propofol、sacituzumab_govitecan、selpercatinib、dimenhydrinate、oxymetazoline）。
+  頁面說明框加一句「Actualizado el 2026-11-25…」。照留：同位語列舉（「sin ensayos…, sin vínculo…」）、以逗號接關係子句的句子（bromazepam、cysteine、ciclesonide 等）。
+- 沒處理（不同類）：amlodipine 一句話總結「en Colombia sus registros sanitarios corresponden a combinaciones con valsartán」（快照已收紀錄另有多張單方錠劑），是事實說法、不是殘句。
+- 驗證：apply --check 0、rewrite_license_counts --check 0；gate exit 0；checker 前後都是 P1 612（本機沒還原證據包，前後相同）、--row-status 0；兩支偵測複查，處理過的句子都不再命中。正文有變的 30 頁 last_modified_at 改 2026-11-25。

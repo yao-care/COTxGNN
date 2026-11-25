@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 126
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Cabozantinib: nueva indicación predicha, Liposarcoma (nivel de evidencia L5). Indicación original: Cabozantinib"
 monitor_inn: "CABOZANTINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "amyotrophic lateral sclerosis", "bilateral parasagittal parieto-occipital polymicrogyria", "angiolipoma"]
@@ -38,12 +38,12 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 ## Resumen en Una Frase
 
-Cabozantinib es un inhibidor oral de múltiples cinasas que se comercializó en Colombia como CABOMETYX 40 mg, no incluye un texto de indicación descriptivo.
+Cabozantinib es un inhibidor oral de múltiples cinasas que se comercializa en Colombia como CABOMETYX 40 mg, cuyo registro sanitario no incluye un texto de indicación descriptivo.
 El modelo TxGNN predice que podría ser efectivo para **liposarcoma**, con **1 ensayo clínico** (no específico de liposarcoma) y **1 publicación** que respaldan esta dirección de forma indirecta.
 
 <!-- review:begin co-lic-20261105-cabozantinib-2 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Cabozantinib es un inhibidor oral de múltiples cinasas que se comercializó en Colombia como CABOMETYX 40 mg, aunque su único registro sanitario está cancelado y no incluye un texto de indicación descriptivo." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-25)**: Texto original: "Cabozantinib es un inhibidor oral de múltiples cinasas que se comercializó en Colombia como CABOMETYX 40 mg, aunque su único registro sanitario está cancelado y no incluye un texto de indicación descriptivo." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se reformuló el texto que quedó tras la eliminación para que la frase se lea completa. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-cabozantinib-2 -->
 
@@ -167,7 +167,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria en Colombia (registro cancelado) y la compatibilidad de la vía de administración" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-05 | Eliminado: "aunque su único registro sanitario está cancelado y" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | «Cabozantinib es un inhibidor oral de múltiples cinasas que s…» → «Cabozantinib es un inhibidor oral de múltiples cinasas que s…» | Corregido (revisado el 2026-11-25; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado y" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Cabometyx (cabozantinib) prescribing information, Exelixis, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3850cce2-6137-42e5-a792-d318c4a4b3b5) |
 

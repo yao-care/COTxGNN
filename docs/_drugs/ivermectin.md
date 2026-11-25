@@ -125,12 +125,12 @@ La predicción corresponde únicamente a un modelo computacional (nivel L5), sin
 - Datos de mecanismo de acción detallados (consulta a DrugBank).
 - Prospecto de INVIMA con advertencias y contraindicaciones, para el tamizaje de seguridad.
 - Estudios preclínicos in vitro de actividad contra *Candida* que justifiquen continuar.
-- Aclarar el estado regulatorio, la viabilidad de las vías de administración requeridas (por ejemplo, vaginal o tópica).
+- Aclarar el estado regulatorio y la viabilidad de las vías de administración requeridas (por ejemplo, vaginal o tópica).
 - Comparación con terapias ya aprobadas (azoles, equinocandinas), que son eficaces.
 
 <!-- review:begin co-lic-20261105-ivermectin-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar el estado regulatorio, dado que los 5 registros están cancelados, y la viabilidad de las vías de administración requeridas (por ejemplo, vaginal o tópica)." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-25)**: Texto original: "Aclarar el estado regulatorio, dado que los 5 registros están cancelados, y la viabilidad de las vías de administración requeridas (por ejemplo, vaginal o tópica)." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-ivermectin-1 -->
 
@@ -142,7 +142,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "dado que los 5 registros están cancelados, y" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | «Aclarar el estado regulatorio, dado que los 5 registros está…» → «Aclarar el estado regulatorio y la viabilidad de las vías de…» | Corregido (revisado el 2026-11-25; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 5 → 11 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Stromectol (ivermectin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=681888c9-af79-4b7d-ae80-c3f4f6f1effd) |
 

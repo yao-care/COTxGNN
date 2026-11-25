@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 536
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Procaine: nueva indicación predicha, Metahemoglobinemia (nivel de evidencia L4). Indicación original: Procaína"
 monitor_inn: "procaine"
 predicted_indications: ["methemoglobinemia", "methemoglobinemia, alpha type", "Tourette syndrome", "anaphylaxis", "methemoglobin reductase deficiency", "hyperthyroidism", "fibromyalgia", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis"]
@@ -121,11 +121,11 @@ No se dispone de las advertencias y contraindicaciones del prospecto; se recomie
 **Decisión: Hold**
 
 **Justificación:**
-La literatura sobre metahemoglobinemia indica que la procaína es una causa de la condición y no un tratamiento, por lo que el puntaje del modelo no se traduce en beneficio terapéutico. Además, no existen ensayos clínicos, faltan datos de seguridad del prospecto.
+La literatura sobre metahemoglobinemia indica que la procaína es una causa de la condición y no un tratamiento, por lo que el puntaje del modelo no se traduce en beneficio terapéutico. Además, no existen ensayos clínicos y faltan datos de seguridad del prospecto.
 
 <!-- review:begin co-lic-20261105-procaine-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Además, no existen ensayos clínicos, el único registro sanitario colombiano está cancelado y faltan datos de seguridad del prospecto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-25)**: Texto original: "Además, no existen ensayos clínicos, el único registro sanitario colombiano está cancelado y faltan datos de seguridad del prospecto." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se restituyó la conjunción que se perdió al eliminar el último elemento de la enumeración. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-procaine-1 -->
 
@@ -149,7 +149,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "el único registro sanitario colombiano está cancelado y" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | «Además, no existen ensayos clínicos, el único registro sanit…» → «Además, no existen ensayos clínicos y faltan datos de seguri…» | Corregido (revisado el 2026-11-25; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Verificar la situación regulatoria: no hay registros vigentes en Colombia, por lo que cualquier uso requeriría un nuevo registro o una vía a" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
