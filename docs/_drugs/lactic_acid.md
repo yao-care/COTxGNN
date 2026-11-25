@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 371
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "lactic acid"
 predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome"]
 description: "Lactic Acid: nueva indicación predicha, Coartacion atipica de la aorta (nivel de evidencia L5). Indicación original: Paracetamol, combinaciones excluyendo sicolepticos"
@@ -38,9 +38,15 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **5**
 
 ## Resumen en Una Frase
 
-El registro sanitario colombiano disponible para este farmaco corresponde a una combinacion de paracetamol (acetaminofen + naproxeno), cuya categoria de indicacion es "Paracetamol, combinaciones excluyendo sicolepticos".
+Los registros sanitarios colombianos asociados a este farmaco corresponden a soluciones topicas que combinan acido lactico con acido salicilico y a una capsula blanda de acetaminofen + naproxeno; la indicacion original registrada es la categoria de esta ultima ("Paracetamol, combinaciones excluyendo sicolepticos").
 El modelo TxGNN predice que el acido lactico podria ser efectivo para **coartacion atipica de la aorta**, pero **no hay ensayos clinicos ni publicaciones** que respalden esta direccion.
 Se trata de una prediccion puramente computacional (nivel de evidencia L5).
+
+<!-- review:begin co-lic-20261125c-lactic_acid-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "El registro sanitario colombiano disponible para este farmaco corresponde a una combinacion de paracetamol (acetaminofen + naproxeno), cuya categoria de indicacion es "Paracetamol, combinaciones excluyendo sicolepticos"." Corregido según los datos del INVIMA (Código Único de Medicamentos): además de la cápsula blanda de acetaminofén + naproxeno, hay soluciones tópicas que combinan ácido láctico con ácido salicílico (COLLOPLUS®, KINOR NF). Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125c-lactic_acid-1 -->
 
 ---
 
@@ -60,7 +66,13 @@ Se trata de una prediccion puramente computacional (nivel de evidencia L5).
 
 ## Por que es Razonable esta Prediccion?
 
-Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Lactic Acid es (traducción no oficial): «Agente reductor del pH». Texto original en inglés: "pH lowering agent" ([ChEMBL CHEMBL1200559 (lactic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200559), CC BY-SA 3.0; consultado el 2026-11-20). El unico registro sanitario asociado en Colombia corresponde a una capsula blanda que combina acetaminofen 325 mg y naproxeno 220 mg, por lo que la indicacion original registrada no refleja el uso habitual del acido lactico como tal (un metabolito comun y agente regulador de pH).
+Según ChEMBL (EMBL-EBI), el mecanismo de acción registrado para Lactic Acid es (traducción no oficial): «Agente reductor del pH». Texto original en inglés: "pH lowering agent" ([ChEMBL CHEMBL1200559 (lactic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200559), CC BY-SA 3.0; consultado el 2026-11-20). La indicacion original registrada proviene de un registro asociado que corresponde a una capsula blanda de acetaminofen 325 mg y naproxeno 220 mg, por lo que no refleja el uso habitual del acido lactico como tal (un metabolito comun y agente regulador de pH); los demas registros asociados son soluciones topicas de acido lactico con acido salicilico.
+
+<!-- review:begin co-lic-20261125c-lactic_acid-2 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "El unico registro sanitario asociado en Colombia corresponde a una capsula blanda que combina acetaminofen 325 mg y naproxeno 220 mg, por lo que la indicacion original registrada no refleja el uso habitual del acido lactico como tal (un metabolito comun y agente regulador de pH)." Corregido según los datos del INVIMA (Código Único de Medicamentos): la cápsula de acetaminofén + naproxeno no es el único registro asociado; también hay soluciones tópicas de ácido láctico con ácido salicílico. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125c-lactic_acid-2 -->
 
 Los datos compilados para este informe no respaldan un vinculo mecanistico. La coartacion de la aorta es un defecto vascular estructural y no hay indicios de que el acido lactico pueda corregirlo. El puntaje del modelo es muy alto (0.9959), pero es solo una prediccion computacional sin ensayos ni literatura que la sustenten.
 
@@ -156,6 +168,8 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Ademas, el unico registro sanitario en Colombia esta cancelado y corresponde a una combinacion distinta" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-20 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [ChEMBL CHEMBL1200559 (lactic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200559) |
+| 2026-11-25 | Registros asociados corregidos: además de la cápsula de acetaminofén + naproxeno, soluciones tópicas de ácido láctico con ácido salicílico | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | Registros asociados corregidos: además de la cápsula de acetaminofén + naproxeno, soluciones tópicas de ácido láctico con ácido salicílico | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

@@ -56558,6 +56558,126 @@
    ],
    "checked": "2026-11-25",
    "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）"
+  },
+  {
+   "id": "co-lic-20261125c-amlodipine-1",
+   "drug": "amlodipine",
+   "file": "amlodipine.md",
+   "action": "correct",
+   "claim": "en Colombia sus registros sanitarios corresponden a combinaciones con valsartán (e hidroclorotiazida).",
+   "replacement": "en Colombia tiene registros sanitarios de amlodipino como principio activo único y en combinación con otros antihipertensivos (por ejemplo, valsartán, hidroclorotiazida u olmesartán).",
+   "summary": "Composición de los registros sanitarios corregida: amlodipino solo y en combinación (no solo con valsartán)",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos): los registros sanitarios de amlodipino incluyen productos de amlodipino solo (tabletas) y combinaciones con valsartán, hidroclorotiazida, olmesartán, losartán, telmisartán, perindopril y otros; no corresponden solo a combinaciones con valsartán. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "部分收錄（已收 20＋只記號碼 72）；依 principioactivo：單方 22、複方 70（valsartán 24、hidroclorotiazida 16、olmesartán 11、losartán 5、perindopril 5 等）；「全部是 valsartán 複方」不成立",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第九輪人工查核（用戶決定：正文說「全部是複方／全部是單方／只有某種組合」的全稱說法，逐句對照證據包 tfda.records 全部品項（含 records_not_stored）的 principioactivo，不成立的改成跟證據包一致的寫法，更正文字不寫張數，模型預測文字不動）"
+  },
+  {
+   "id": "co-lic-20261125c-ritonavir-1",
+   "drug": "ritonavir",
+   "file": "ritonavir.md",
+   "action": "correct",
+   "claim": "y en Colombia sus registros sanitarios corresponden a combinaciones con atazanavir o darunavir.",
+   "replacement": "y en Colombia tiene registros sanitarios de ritonavir como principio activo único y en combinación con otros inhibidores de la proteasa (lopinavir, atazanavir o darunavir).",
+   "summary": "Composición de los registros sanitarios corregida: ritonavir solo y en combinación con lopinavir, atazanavir o darunavir",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos): además de las combinaciones con atazanavir o darunavir, hay registros de ritonavir solo (cápsulas y tabletas) y de lopinavir + ritonavir. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "部分收錄；依 principioactivo：單方 5（RITONAX MEM、RITOVIR、RETROFEROL 等）、複方 20（lopinavir 8、atazanavir 7、darunavir 5）；「只有 atazanavir／darunavir 複方」不成立",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第九輪人工查核（用戶決定：正文說「全部是複方／全部是單方／只有某種組合」的全稱說法，逐句對照證據包 tfda.records 全部品項（含 records_not_stored）的 principioactivo，不成立的改成跟證據包一致的寫法，更正文字不寫張數，模型預測文字不動）"
+  },
+  {
+   "id": "co-lic-20261125c-ritonavir-2",
+   "drug": "ritonavir",
+   "file": "ritonavir.md",
+   "action": "correct",
+   "claim": "Su uso en VIH-1 está establecido y en Colombia se registró en combinación con atazanavir y darunavir.",
+   "replacement": "Su uso en VIH-1 está establecido y en Colombia está registrado como principio activo único y en combinación con lopinavir, atazanavir o darunavir.",
+   "summary": "Composición de los registros sanitarios corregida: ritonavir solo y en combinación con lopinavir, atazanavir o darunavir",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos): además de las combinaciones con atazanavir y darunavir, hay registros de ritonavir solo y de lopinavir + ritonavir. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "同上一筆的同一前提（mecanismo 段落裡的 AI 說明句）",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第九輪人工查核（用戶決定：正文說「全部是複方／全部是單方／只有某種組合」的全稱說法，逐句對照證據包 tfda.records 全部品項（含 records_not_stored）的 principioactivo，不成立的改成跟證據包一致的寫法，更正文字不寫張數，模型預測文字不動）"
+  },
+  {
+   "id": "co-lic-20261125c-lactic_acid-1",
+   "drug": "lactic_acid",
+   "file": "lactic_acid.md",
+   "action": "correct",
+   "claim": "El registro sanitario colombiano disponible para este farmaco corresponde a una combinacion de paracetamol (acetaminofen + naproxeno), cuya categoria de indicacion es \"Paracetamol, combinaciones excluyendo sicolepticos\".",
+   "replacement": "Los registros sanitarios colombianos asociados a este farmaco corresponden a soluciones topicas que combinan acido lactico con acido salicilico y a una capsula blanda de acetaminofen + naproxeno; la indicacion original registrada es la categoria de esta ultima (\"Paracetamol, combinaciones excluyendo sicolepticos\").",
+   "summary": "Registros asociados corregidos: además de la cápsula de acetaminofén + naproxeno, soluciones tópicas de ácido láctico con ácido salicílico",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos): además de la cápsula blanda de acetaminofén + naproxeno, hay soluciones tópicas que combinan ácido láctico con ácido salicílico (COLLOPLUS®, KINOR NF). Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "完整收錄；3 張：COLLOPLUS、KINOR NF（ácido láctico＋ácido salicílico 外用液，Vigente）、ACETAMINOFEN＋NAPROXENO 軟膠囊（Temp. no comerc）；「唯一的登記是 paracetamol 複方」不成立",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第九輪人工查核（用戶決定：正文說「全部是複方／全部是單方／只有某種組合」的全稱說法，逐句對照證據包 tfda.records 全部品項（含 records_not_stored）的 principioactivo，不成立的改成跟證據包一致的寫法，更正文字不寫張數，模型預測文字不動）"
+  },
+  {
+   "id": "co-lic-20261125c-lactic_acid-2",
+   "drug": "lactic_acid",
+   "file": "lactic_acid.md",
+   "action": "correct",
+   "claim": "El unico registro sanitario asociado en Colombia corresponde a una capsula blanda que combina acetaminofen 325 mg y naproxeno 220 mg, por lo que la indicacion original registrada no refleja el uso habitual del acido lactico como tal (un metabolito comun y agente regulador de pH).",
+   "replacement": "La indicacion original registrada proviene de un registro asociado que corresponde a una capsula blanda de acetaminofen 325 mg y naproxeno 220 mg, por lo que no refleja el uso habitual del acido lactico como tal (un metabolito comun y agente regulador de pH); los demas registros asociados son soluciones topicas de acido lactico con acido salicilico.",
+   "summary": "Registros asociados corregidos: además de la cápsula de acetaminofén + naproxeno, soluciones tópicas de ácido láctico con ácido salicílico",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos): la cápsula de acetaminofén + naproxeno no es el único registro asociado; también hay soluciones tópicas de ácido láctico con ácido salicílico. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "同上一筆的同一前提",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第九輪人工查核（用戶決定：正文說「全部是複方／全部是單方／只有某種組合」的全稱說法，逐句對照證據包 tfda.records 全部品項（含 records_not_stored）的 principioactivo，不成立的改成跟證據包一致的寫法，更正文字不寫張數，模型預測文字不動）"
+  },
+  {
+   "id": "co-lic-20261125c-secnidazole-1",
+   "drug": "secnidazole",
+   "file": "secnidazole.md",
+   "action": "correct",
+   "claim": "registrado en Colombia como principio activo único y en combinación con otros derivados imidazólicos.",
+   "replacement": "registrado en Colombia como principio activo único y en combinación con antifúngicos azólicos (fluconazol o itraconazol).",
+   "summary": "Combinaciones registradas corregidas: con fluconazol o itraconazol (no derivados imidazólicos)",
+   "note": "Corregido según los datos del INVIMA (Código Único de Medicamentos): las combinaciones registradas de secnidazol son con fluconazol o itraconazol, que son antifúngicos triazólicos y no derivados imidazólicos (la expresión \"combinaciones de imidazol derivados\" es el nombre de la categoría ATC). Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "部分收錄；依 principioactivo：複方 13 張全是 fluconazol（10）或 itraconazol（3）＋secnidazol；fluconazol、itraconazol 是 triazol，不是 imidazol 衍生物（ATC G01AF20 類別名照原文）",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第九輪人工查核（用戶決定：正文說「全部是複方／全部是單方／只有某種組合」的全稱說法，逐句對照證據包 tfda.records 全部品項（含 records_not_stored）的 principioactivo，不成立的改成跟證據包一致的寫法，更正文字不寫張數，模型預測文字不動）"
   }
  ]
 }

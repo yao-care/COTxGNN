@@ -38,9 +38,15 @@ Nivel de evidencia: **L4** | Indicaciones predichas: **3**
 
 ## Resumen en Una Frase
 
-Ritonavir es un inhibidor de la proteasa del VIH-1 que se utiliza como potenciador farmacocinético, y en Colombia sus registros sanitarios corresponden a combinaciones con atazanavir o darunavir.
+Ritonavir es un inhibidor de la proteasa del VIH-1 que se utiliza como potenciador farmacocinético, y en Colombia tiene registros sanitarios de ritonavir como principio activo único y en combinación con otros inhibidores de la proteasa (lopinavir, atazanavir o darunavir).
 El modelo TxGNN predice que podría ser efectivo para la **infección por virus de inmunodeficiencia simia (SIV)**, con **0 ensayos clínicos** y **10 publicaciones** (en su mayoría estudios preclínicos en macacos y estudios in vitro) que actualmente respaldan esta dirección.
 Cabe aclarar que el SIV es un modelo animal del VIH, por lo que no constituye una nueva indicación terapéutica en humanos.
+
+<!-- review:begin co-lic-20261125c-ritonavir-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "y en Colombia sus registros sanitarios corresponden a combinaciones con atazanavir o darunavir." Corregido según los datos del INVIMA (Código Único de Medicamentos): además de las combinaciones con atazanavir o darunavir, hay registros de ritonavir solo (cápsulas y tabletas) y de lopinavir + ritonavir. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125c-ritonavir-1 -->
 
 ---
 
@@ -60,7 +66,13 @@ Cabe aclarar que el SIV es un modelo animal del VIH, por lo que no constituye un
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Los datos compilados para este informe no incluyen el mecanismo de acción del fármaco. Según la información conocida, ritonavir es un inhibidor de la proteasa del VIH-1 y un inhibidor de CYP3A4, usado como potenciador farmacocinético de otros antirretrovirales. Su uso en VIH-1 está establecido y en Colombia se registró en combinación con atazanavir y darunavir.
+Los datos compilados para este informe no incluyen el mecanismo de acción del fármaco. Según la información conocida, ritonavir es un inhibidor de la proteasa del VIH-1 y un inhibidor de CYP3A4, usado como potenciador farmacocinético de otros antirretrovirales. Su uso en VIH-1 está establecido y en Colombia está registrado como principio activo único y en combinación con lopinavir, atazanavir o darunavir.
+
+<!-- review:begin co-lic-20261125c-ritonavir-2 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "Su uso en VIH-1 está establecido y en Colombia se registró en combinación con atazanavir y darunavir." Corregido según los datos del INVIMA (Código Único de Medicamentos): además de las combinaciones con atazanavir y darunavir, hay registros de ritonavir solo y de lopinavir + ritonavir. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125c-ritonavir-2 -->
 
 El SIV es un lentivirus muy cercano al VIH y posee una proteasa homóloga, por lo que la actividad de los inhibidores de proteasa es plausible. Un estudio in vitro mostró que el SIVmac239 es inhibido por ritonavir con una concentración efectiva 50% de aproximadamente 13 nM, frente a 25 nM para el VIH-1 (PMID 12709355). También existen estudios en macacos con regímenes antirretrovirales combinados, uno de ellos con lopinavir/ritonavir (PMID 12951220).
 
@@ -155,6 +167,8 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "Los cinco registros se encuentran cancelados; actualmente no hay registros vigentes" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes en Colombia" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 5 → 14 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | Composición de los registros sanitarios corregida: ritonavir solo y en combinación con lopinavir, atazanavir o darunavir | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | Composición de los registros sanitarios corregida: ritonavir solo y en combinación con lopinavir, atazanavir o darunavir | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

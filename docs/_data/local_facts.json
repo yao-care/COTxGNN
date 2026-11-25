@@ -21,11 +21,11 @@
   "items_current": 2276
  },
  "reviews": {
-  "records": 1587,
+  "records": 1593,
   "pages": 590,
   "public_pages_with_records": 582,
   "by_action": {
-   "correct": 1143,
+   "correct": 1149,
    "mechanism": 444
   }
  },
@@ -267,6 +267,30 @@
  },
  "recent_reviews": [
   {
+   "t": "Secnidazole",
+   "u": "/drugs/secnidazole/",
+   "s": "Combinaciones registradas corregidas: con fluconazol o itraconazol (no derivados imidazólicos)",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Ritonavir",
+   "u": "/drugs/ritonavir/",
+   "s": "Composición de los registros sanitarios corregida: ritonavir solo y en combinación con lopinavir, atazanavir…",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Lactic Acid",
+   "u": "/drugs/lactic-acid/",
+   "s": "Registros asociados corregidos: además de la cápsula de acetaminofén + naproxeno, soluciones tópicas de ácido…",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Amlodipine",
+   "u": "/drugs/amlodipine/",
+   "s": "Composición de los registros sanitarios corregida: amlodipino solo y en combinación (no solo con valsartán)",
+   "d": "2026-11-25"
+  },
+  {
    "t": "Ziprasidone",
    "u": "/drugs/ziprasidone/",
    "s": "«ya que el único registro está cancelado» → «ya que su único registro figura como temporalmente no…",
@@ -385,33 +409,33 @@
    "u": "/drugs/insulin-degludec/",
    "s": "Eliminado: «confirmar si existe o se puede solicitar un registro sanitario…»",
    "d": "2026-11-25"
-  },
-  {
-   "t": "Ganirelix",
-   "u": "/drugs/ganirelix/",
-   "s": "«Además, el único registro sanitario en Colombia está cancelado.» → «Además, su único registro sanitario en…",
-   "d": "2026-11-25"
-  },
-  {
-   "t": "Fibrinogen Human",
-   "u": "/drugs/fibrinogen-human/",
-   "s": "Eliminado: «El producto tampoco cuenta hoy con registros vigentes en Colombia.»",
-   "d": "2026-11-25"
-  },
-  {
-   "t": "Fentanyl",
-   "u": "/drugs/fentanyl/",
-   "s": "«con 6 registros vigentes» → «con registros vigentes»",
-   "d": "2026-11-25"
-  },
-  {
-   "t": "Evogliptin",
-   "u": "/drugs/evogliptin/",
-   "s": "Eliminado: «(cancelación del registro)»",
-   "d": "2026-11-25"
   }
  ],
  "recent_licence_reviews": [
+  {
+   "t": "Secnidazole",
+   "u": "/drugs/secnidazole/",
+   "s": "Combinaciones registradas corregidas: con fluconazol o itraconazol (no derivados imidazólicos)",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Ritonavir",
+   "u": "/drugs/ritonavir/",
+   "s": "Composición de los registros sanitarios corregida: ritonavir solo y en combinación con lopinavir, atazanavir…",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Lactic Acid",
+   "u": "/drugs/lactic-acid/",
+   "s": "Registros asociados corregidos: además de la cápsula de acetaminofén + naproxeno, soluciones tópicas de ácido…",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Amlodipine",
+   "u": "/drugs/amlodipine/",
+   "s": "Composición de los registros sanitarios corregida: amlodipino solo y en combinación (no solo con valsartán)",
+   "d": "2026-11-25"
+  },
   {
    "t": "Ziprasidone",
    "u": "/drugs/ziprasidone/",
@@ -434,30 +458,6 @@
    "t": "Topotecan",
    "u": "/drugs/topotecan/",
    "s": "Eliminado: «reactivación del registro o nuevo registro sanitario para uso en…»",
-   "d": "2026-11-25"
-  },
-  {
-   "t": "Topiramate",
-   "u": "/drugs/topiramate/",
-   "s": "«su único registro sanitario en Colombia (TOPAMAC® 100 mg tabletas)…» → «el registro sanitario de TOPAMAC®…",
-   "d": "2026-11-25"
-  },
-  {
-   "t": "Tinidazole",
-   "u": "/drugs/tinidazole/",
-   "s": "Eliminado: «Además, no existen registros sanitarios vigentes en Colombia.»",
-   "d": "2026-11-25"
-  },
-  {
-   "t": "Tafenoquine",
-   "u": "/drugs/tafenoquine/",
-   "s": "«Además, el único registro sanitario en Colombia está cancelado.» → «Además, su único registro sanitario en…",
-   "d": "2026-11-25"
-  },
-  {
-   "t": "Salbutamol",
-   "u": "/drugs/salbutamol/",
-   "s": "Eliminado: «dado que no existen registros vigentes en Colombia»",
    "d": "2026-11-25"
   }
  ],

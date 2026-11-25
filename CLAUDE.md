@@ -179,3 +179,11 @@ dbXXXXX 轉址頁原本指到被轉址頁的（db00448、db01060、db01076、db0
   頁面說明框加一句「Actualizado el 2026-11-25…」。照留：同位語列舉（「sin ensayos…, sin vínculo…」）、以逗號接關係子句的句子（bromazepam、cysteine、ciclesonide 等）。
 - 沒處理（不同類）：amlodipine 一句話總結「en Colombia sus registros sanitarios corresponden a combinaciones con valsartán」（快照已收紀錄另有多張單方錠劑），是事實說法、不是殘句。
 - 驗證：apply --check 0、rewrite_license_counts --check 0；gate exit 0；checker 前後都是 P1 612（本機沒還原證據包，前後相同）、--row-status 0；兩支偵測複查，處理過的句子都不再命中。正文有變的 30 頁 last_modified_at 改 2026-11-25。
+
+## 單方／複方全稱說法對照證據包（2026-11-25 第九輪）
+
+用戶 2026-11-25 決定：amlodipine 一句話總結「en Colombia sus registros sanitarios corresponden a combinaciones con valsartán (e hidroclorotiazida)」跟證據包不符（另有多張 amlodipino 單方錠劑），照查核機制更正；全站掃「全部是複方／全部是單方／只有某種組合」這類全稱說法，對照證據包 tfda.records 全部品項（含 records_not_stored；成分取 principioactivo，2026-03 有效集 co_fda_drugs.json＋現行 invima_cum_estado.json），不成立的寫紀錄。更正文字不寫張數，模型預測文字不動。
+- 兩支偵測全量掃公開頁正文（扣查核框、程式表、查核紀錄表）：A＝全稱字樣（todos／únicamente／solo／corresponden a…）＋組成字樣（combinación／monofármaco／un solo principio activo…）＋本地市場語境，38 句、33 頁；B（獨立寬偵測）＝凡有組成字樣＋市場語境就列（含 description），269 句、228 頁，再依證據包單方／複方數與組合成分自動標可疑（全稱、提到複方而證據包沒有複方等）33 句。逐句對照。
+- 不成立 6 句、4 頁，寫 6 筆 `co-lic-20261125c-*`：amlodipine（單方 22、複方 70，組合不只 valsartán）、ritonavir 2 句（另有單方與 lopinavir＋ritonavir）、lactic_acid 2 句（「唯一登記是 acetaminofén＋naproxeno 軟膠囊」，另有 COLLOPLUS、KINOR NF 乳酸＋水楊酸外用液）、secnidazole（複方是 fluconazol／itraconazol，三唑類不是咪唑衍生物；「combinaciones de imidazol derivados」是 ATC 類別名）。
+- 判定成立、不改：emtricitabine、clenbuterol、cilastatin、avibactam、resorcinol、artemether（全為複方）、lisinopril、midodrine、miltefosine、pitavastatin、cabergoline、carvedilol（全為單方）等。只列舉部分組合、沒有全稱字樣的句子（lamivudine、tenofovir_disoproxil、losartan、tobramycin「solo o en combinación con …」）照留；快速總覽「Indicación Original」格與 description 的 ATC 原文（amlodipine「Valsartán y amlodipino」、ritonavir、lactic_acid「Paracetamol, combinaciones…」）是單一登記的適應症欄原文，不改。
+- 驗證：apply --check 0、rewrite_license_counts --check 0；gate exit 0；checker（本機還原 bundles＋raw）前後逐檔相同（M1 384、M3 2、M4 210、P1 220、P3 92、P7 218，跟這次無關）、--row-status 0；兩支偵測複查，更正過的句子只剩改後成立的寫法。正文有變的 4 頁 last_modified_at 改 2026-11-25。

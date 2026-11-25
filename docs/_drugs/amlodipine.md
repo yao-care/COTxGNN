@@ -38,9 +38,15 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 ## Resumen en Una Frase
 
-Amlodipino es un bloqueador de canales de calcio utilizado para la hipertensión y la angina estable crónica; en Colombia sus registros sanitarios corresponden a combinaciones con valsartán (e hidroclorotiazida).
+Amlodipino es un bloqueador de canales de calcio utilizado para la hipertensión y la angina estable crónica; en Colombia tiene registros sanitarios de amlodipino como principio activo único y en combinación con otros antihipertensivos (por ejemplo, valsartán, hidroclorotiazida u olmesartán).
 El modelo TxGNN predice que podría ser efectivo para **infarto del tronco encefálico** (la predicción con mayor puntaje), pero para esta indicación **no hay ensayos clínicos ni publicaciones** que la respalden.
 La evidencia más sólida de todo el análisis corresponde a otra indicación predicha, la **hemorragia intracerebral** (ensayo de Fase 3 completado, TRIDENT), aunque se trata de una combinación triple y no de amlodipino solo.
+
+<!-- review:begin co-lic-20261125c-amlodipine-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "en Colombia sus registros sanitarios corresponden a combinaciones con valsartán (e hidroclorotiazida)." Corregido según los datos del INVIMA (Código Único de Medicamentos): los registros sanitarios de amlodipino incluyen productos de amlodipino solo (tabletas) y combinaciones con valsartán, hidroclorotiazida, olmesartán, losartán, telmisartán, perindopril y otros; no corresponden solo a combinaciones con valsartán. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125c-amlodipine-1 -->
 
 ---
 
@@ -163,6 +169,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "Además, en Colombia no hay registros vigentes de amlodipino" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-25 | «Aclarar la situación regulatoria local, ya que ambos registr…» → «Aclarar la situación regulatoria local.…» | Corregido (revisado el 2026-11-25; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487) |
+| 2026-11-25 | Composición de los registros sanitarios corregida: amlodipino solo y en combinación (no solo con valsartán) | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 
