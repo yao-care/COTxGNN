@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 573
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Rufinamide"
 predicted_indications: ["perioral myoclonia with absences"]
 description: "Rufinamide: nueva indicación predicha, Perioral myoclonia with absences (nivel de evidencia L5). Indicación original: RUFINAMIDA"
@@ -125,8 +125,14 @@ La predicción se basa únicamente en el puntaje del modelo (nivel L5), sin ensa
 - Obtener los datos del mecanismo de acción desde DrugBank.
 - Descargar y analizar el prospecto de INVIMA para completar advertencias y contraindicaciones (brecha de seguridad bloqueante para el tamizaje de seguridad).
 - Realizar una revisión sistemática de la literatura sobre rufinamida en FIRES y otras epilepsias refractarias.
-- Evaluar la viabilidad de reactivar o tramitar un nuevo registro sanitario, y la compatibilidad de la vía de administración (oral) con la necesidad clínica.
+- Evaluar la compatibilidad de la vía de administración (oral) con la necesidad clínica.
 - Verificar las contraindicaciones hepáticas y hematológicas señaladas por el grafo de conocimiento.
+
+<!-- review:begin co-lic-20261125b-rufinamide-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "Evaluar la viabilidad de reactivar o tramitar un nuevo registro sanitario, y la compatibilidad" Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-rufinamide-1 -->
 
 <!-- review:begin log -->
 
@@ -138,6 +144,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "y el único registro sanitario en Colombia está cancelado" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Banzel (rufinamide) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a3fa925-1abd-458a-bd57-4ae780a1ef2d) |
+| 2026-11-25 | «Evaluar la viabilidad de reactivar o tramitar un nuevo registro…» → «Evaluar la compatibilidad» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

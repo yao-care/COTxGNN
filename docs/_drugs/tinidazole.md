@@ -127,7 +127,13 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción no tiene respaldo clínico ni bibliográfico (nivel L5), y el mecanismo de acción del fármaco no explica un beneficio en una condición causada por la deficiencia de estrógenos. Además, no existen registros sanitarios vigentes en Colombia.
+La predicción no tiene respaldo clínico ni bibliográfico (nivel L5), y el mecanismo de acción del fármaco no explica un beneficio en una condición causada por la deficiencia de estrógenos.
+
+<!-- review:begin co-lic-20261125b-tinidazole-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "Además, no existen registros sanitarios vigentes en Colombia." Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-tinidazole-1 -->
 
 **Para avanzar se necesita:**
 - Una hipótesis mecanística plausible, o evidencia preclínica o clínica que vincule tinidazol con la vaginitis atrófica.
@@ -146,6 +152,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "Los cuatro registros sanitarios están **cancelados**; actualmente no hay productos de tinidazol vigentes en el país según los datos compilad" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 4 → 12 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tindazole (tinidazole) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45fa3ebd-52da-4987-82a1-4a64f99785a7) |
+| 2026-11-25 | Eliminado: «Además, no existen registros sanitarios vigentes en Colombia.» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

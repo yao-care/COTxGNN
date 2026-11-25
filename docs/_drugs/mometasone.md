@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 453
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Mometasone: nueva indicación predicha, Linfoma cutáneo primario de células T (nivel de evidencia L5). Indicación original: Mometasona"
 monitor_inn: "mometasone"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
@@ -118,7 +118,13 @@ La predicción tiene un puntaje alto y un fundamento mecanístico plausible (los
 - Datos detallados del mecanismo de acción (MOA) desde DrugBank
 - Prospecto con advertencias y contraindicaciones desde INVIMA
 - Revisión de literatura y ensayos específicos de mometasona en micosis fungoide/linfoma cutáneo de células T
-- Evaluación de la ruta de administración (tópica) y de la viabilidad de un nuevo registro sanitario vigente en Colombia
+- Evaluación de la ruta de administración (tópica) y de la situación regulatoria en Colombia
+
+<!-- review:begin co-lic-20261125b-mometasone-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "y de la viabilidad de un nuevo registro sanitario vigente en Colombia" Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-mometasone-1 -->
 
 <!-- review:begin log -->
 
@@ -131,6 +137,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-24 | Eliminado: "Nota: los 6 registros sanitarios están cancelados; no hay registros vigentes" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-24 | Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido) | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Asmanex Hfa (mometasone furoate) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c6d63da-41bc-4894-bead-198e66c848ac) |
+| 2026-11-25 | «y de la viabilidad de un nuevo registro sanitario vigente en Colombia» → «y de la situación regulatoria en Colombia» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

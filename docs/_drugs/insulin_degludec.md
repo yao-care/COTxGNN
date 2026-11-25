@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 345
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Insulin Degludec: nueva indicación predicha, Ooforitis autoinmune (nivel de evidencia L5). Indicación original: Insulina degludec"
 monitor_inn: "insulin degludec"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
@@ -149,10 +149,16 @@ Existen múltiples ensayos de fase 3 completados y metaanálisis que respaldan e
 <!-- review:end co-lic-20261105-insulin_degludec-1 -->
 
 **Para avanzar se necesita:**
-- Verificar la situación regulatoria: confirmar si existe o se puede solicitar un registro sanitario vigente en Colombia.
+- Verificar la situación regulatoria.
 - Obtener el prospecto del INVIMA para completar el análisis de advertencias y contraindicaciones.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Plan de monitoreo de hipoglucemia y de interacciones, en especial con otros antidiabéticos, betabloqueadores y simpaticomiméticos.
+
+<!-- review:begin co-lic-20261125b-insulin_degludec-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: ": confirmar si existe o se puede solicitar un registro sanitario vigente en Colombia" Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-insulin_degludec-1 -->
 
 **Otras indicaciones predichas (rangos 2 a 6):** autoinmune ooforitis, opsismodisplasia, síndrome de disfunción sensible a tiamina, síndrome de persona rígida clásico y síndrome de extremidad rígida focal. Ninguna cuenta con ensayos clínicos ni literatura en los datos compilados (nivel L5), y los vínculos mecanísticos son especulativos o se basan en comorbilidad. La recomendación para todas ellas es **Hold**.
 
@@ -166,6 +172,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "y el único registro sanitario en Colombia está cancelado" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Tresiba (insulin degludec) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8ccd2f4-6ba9-4839-87f8-4742dc9b1c17) |
+| 2026-11-25 | Eliminado: «confirmar si existe o se puede solicitar un registro sanitario…» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 123
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Busulfan: nueva indicación predicha, Síndrome mielodisplásico (nivel de evidencia L1). Indicación original: No especificada en los registros"
 monitor_inn: "BUSULFAN"
 predicted_indications: ["myelodysplastic syndrome", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "seborrheic keratosis", "feline acquired immunodeficiency syndrome"]
@@ -168,9 +168,15 @@ Existen al menos dos ensayos de Fase 3 completados que incluyen regímenes con b
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), actualmente un vacío bloqueante para el tamizaje de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
-- Aclarar la situación regulatoria: reactivar o tramitar un nuevo registro sanitario vigente.
+- Aclarar la situación regulatoria.
 - Definir el contexto de uso (acondicionamiento para alo-TCMH en centros especializados) y un plan de monitoreo de toxicidad (mielosupresión, hepática, pulmonar y neurológica, incluido el riesgo de convulsiones).
 - Revisar el manejo de las interacciones relevantes, en particular metronidazol, azoles y otros fármacos concomitantes del trasplante.
+
+<!-- review:begin co-lic-20261125b-busulfan-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: ": reactivar o tramitar un nuevo registro sanitario vigente" Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-busulfan-1 -->
 
 ---
 
@@ -192,6 +198,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "Los cuatro registros figuran como cancelados, por lo que actualmente no hay producto con registro vigente en Colombia" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y los cuatro registros colombianos están cancelados" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: busulfan prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=086a715e-4958-4bb5-9ebd-86171e6b6203) |
+| 2026-11-25 | Eliminado: «reactivar o tramitar un nuevo registro sanitario vigente» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

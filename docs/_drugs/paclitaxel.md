@@ -164,12 +164,18 @@ Paclitaxel tiene evidencia clínica amplia en cáncer de mama, incluidos múltip
 <!-- review:end co-lic-20261105-paclitaxel-1 -->
 
 **Para avanzar se necesita:**
-- Verificar si existen registros vigentes o reactivar/renovar un registro sanitario ante INVIMA
+- Verificar la situación de los registros sanitarios ante INVIMA
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones)
 - Confirmar el papel específico de paclitaxel en los ensayos de Fase 3 para validar el nivel L1
 - Completar los datos del mecanismo de acción desde DrugBank
 - Plan de monitoreo de seguridad hematológica, neurológica y de hipersensibilidad
 - Tener presente que otras predicciones del modelo tienen respaldo mucho menor: cáncer de mama ER negativo, ER positivo y resistente a hormonas son subtipos con evidencia de Fase 2-3 (Proceed with Guardrails); mientras que el tumor de Ehrlich (modelo murino), carcinoma de mama bilateral, carcinoma de pezón y los rabdomiosarcomas embrionarios tienen evidencia preclínica, de reportes de caso o solo predicción del modelo (Hold)
+
+<!-- review:begin co-lic-20261125b-paclitaxel-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "Verificar si existen registros vigentes o reactivar/renovar un registro sanitario ante INVIMA" Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-paclitaxel-1 -->
 
 <!-- review:begin log -->
 
@@ -183,6 +189,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-12 | Número de registros vigentes: 4 → 15 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Paclitaxel Protein-Bound Particles For Injectable Suspension (Albumin-Bound) (paclitaxel) prescribing information, NorthStar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e9d5093-fbfc-470a-8520-811c46a8870c) |
 | 2026-11-25 | Eliminado: «15» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | «Verificar si existen registros vigentes o reactivar/renovar un…» → «Verificar la situación de los registros sanitarios ante INVIMA» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 274
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Evogliptin: nueva indicación predicha, Opsismodisplasia (nivel de evidencia L5). Indicación original: Evogliptina tartrato"
 monitor_inn: "evogliptin"
 predicted_indications: ["opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "drug-induced localized lipodystrophy"]
@@ -121,8 +121,14 @@ La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos cl
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones) para completar la evaluación de seguridad
 - Confirmar el mecanismo de acción en DrugBank y analizar su conexión con la vía INPPL1/SHIP2/PI3K
 - Realizar estudios preclínicos o de mecanismo que justifiquen la hipótesis en opsismodisplasia
-- Aclarar la situación regulatoria (cancelación del registro) y la viabilidad de comercialización en Colombia
+- Aclarar la situación regulatoria y la viabilidad de comercialización en Colombia
 - Considerar la necesidad clínica real, dado que se trata de una enfermedad ultrarrara, y si existen alternativas con mejor respaldo
+
+<!-- review:begin co-lic-20261125b-evogliptin-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "(cancelación del registro)" Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-evogliptin-1 -->
 
 <!-- review:begin log -->
 
@@ -135,6 +141,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "El único registro está cancelado, por lo que actualmente no hay producto vigente en el mercado" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL1779710 (evogliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1779710) |
+| 2026-11-25 | Eliminado: «(cancelación del registro)» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

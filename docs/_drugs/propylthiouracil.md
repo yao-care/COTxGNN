@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 541
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Propylthiouracil: nueva indicación predicha, Resistencia a la hormona tiroidea por mutación del receptor beta de la hormona tiroidea (nivel de evidencia L4). Indicación original: Propiltiouracilo"
 monitor_inn: "propylthiouracil"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
@@ -129,7 +129,13 @@ No se dispone del texto de advertencias y contraindicaciones del prospecto aprob
 **Decisión: Hold**
 
 **Justificación:**
-La predicción principal se apoya únicamente en el puntaje del modelo y en literatura preclínica y de casos que no evalúa el propiltiouracilo; además, el mecanismo sugiere un posible perjuicio en RTH-beta (aumento de TSH y bocio). El fármaco tampoco tiene registro vigente en Colombia.
+La predicción principal se apoya únicamente en el puntaje del modelo y en literatura preclínica y de casos que no evalúa el propiltiouracilo; además, el mecanismo sugiere un posible perjuicio en RTH-beta (aumento de TSH y bocio).
+
+<!-- review:begin co-lic-20261125b-propylthiouracil-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "El fármaco tampoco tiene registro vigente en Colombia." Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-propylthiouracil-1 -->
 
 **Para avanzar se necesita:**
 - Obtener el prospecto de INVIMA con advertencias y contraindicaciones (vacío bloqueante para el cribado de seguridad).
@@ -153,6 +159,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Aclarar la situación regulatoria (registros cancelados) y la disponibilidad real del producto en Colombia" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: propylthiouracil prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d819e532-09ac-434a-84a6-636c4204c7aa) |
+| 2026-11-25 | Eliminado: «El fármaco tampoco tiene registro vigente en Colombia.» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

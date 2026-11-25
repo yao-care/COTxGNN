@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 602
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Tafenoquine: nueva indicación predicha, Mastocitosis sistémica indolente (Smouldering systemic mastocytosis) (nivel de evidencia L5). Indicación original: Succinato de tafenoquina"
 monitor_inn: "tafenoquine"
 predicted_indications: ["Smouldering systemic mastocytosis"]
@@ -92,7 +92,13 @@ Se muestra el único registro sanitario de este principio activo en los datos de
 
 <!-- licenses:end -->
 
-El único registro (GlaxoSmithKline Colombia S.A.) está cancelado, por lo que actualmente no hay producto vigente en el mercado colombiano.
+El único registro (GlaxoSmithKline Colombia S.A.) figura como temporalmente no comercializado, por lo que actualmente no hay producto comercializado en Colombia.
+
+<!-- review:begin co-lic-20261125b-tafenoquine-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "El único registro (GlaxoSmithKline Colombia S.A.) está cancelado, por lo que actualmente no hay producto vigente en el mercado colombiano." Corregido según los datos del INVIMA: el registro figura como «Temp. no comerc - Vigente» (temporalmente no comercializado), no como cancelado. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-tafenoquine-1 -->
 
 ---
 
@@ -115,7 +121,13 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el puntaje del modelo (nivel L5), sin ensayos, literatura ni mecanismo plausible documentado. Además, el único registro sanitario en Colombia está cancelado.
+La predicción se basa solo en el puntaje del modelo (nivel L5), sin ensayos, literatura ni mecanismo plausible documentado. Además, su único registro sanitario en Colombia figura como temporalmente no comercializado.
+
+<!-- review:begin co-lic-20261125b-tafenoquine-2 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "Además, el único registro sanitario en Colombia está cancelado." Corregido según los datos del INVIMA: el registro figura como «Temp. no comerc - Vigente» (temporalmente no comercializado), no como cancelado. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-tafenoquine-2 -->
 
 **Para avanzar se necesita:**
 - Obtener datos del mecanismo de acción (consulta a DrugBank) y analizar su vínculo con la biología de KIT/mastocitos
@@ -128,11 +140,13 @@ La predicción se basa solo en el puntaje del modelo (nivel L5), sin ensayos, li
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Arakoda (tafenoquine) prescribing information, 60 Degrees Pharmaceuticals, INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=299e49d8-470f-4779-a010-4a1ee0e0c6cd) |
+| 2026-11-25 | «El único registro (GlaxoSmithKline Colombia S.A.) está cancelado, por…» → «El único registro (GlaxoSmithKline Colombia S.A.) figura como…» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | «Además, el único registro sanitario en Colombia está cancelado.» → «Además, su único registro sanitario en Colombia figura como…» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

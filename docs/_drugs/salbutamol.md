@@ -125,7 +125,13 @@ La predicción de TxGNN para conjuntivitis papilar es de puntaje muy alto, pero 
 - Evaluación de la compatibilidad de vía de administración (formulación oftálmica tópica) y de la similitud con la indicación original.
 - Obtención y análisis del prospecto oficial (INVIMA) para completar el cribado de seguridad.
 - Estudios preclínicos y, de ser favorables, un ensayo clínico exploratorio en conjuntivitis alérgica o papilar.
-- Aclarar la situación regulatoria, dado que no existen registros vigentes en Colombia.
+- Aclarar la situación regulatoria.
+
+<!-- review:begin co-lic-20261125b-salbutamol-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: ", dado que no existen registros vigentes en Colombia" Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-salbutamol-1 -->
 
 ---
 
@@ -143,6 +149,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado y" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Albuterol Sulfate Inhalation (albuterol sulfate) prescribing information, Amneal Pharmaceuticals NY LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e449282-ee58-4e36-b983-85c4e6f0864d) |
+| 2026-11-25 | Eliminado: «dado que no existen registros vigentes en Colombia» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

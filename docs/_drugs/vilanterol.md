@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 658
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "VILANTEROL"
 predicted_indications: ["hyperlucent lung", "tracheal stenosis", "bronchial neoplasm (disease)", "respiratory malformation", "tracheal calcification", "laryngotracheitis"]
 description: "Vilanterol: nueva indicación predicha, Hyperlucent lung (nivel de evidencia L5). Indicación original: VILANTEROL Y BROMURO UMECLIDINUM"
@@ -146,10 +146,16 @@ Existen múltiples ensayos de fase 3 completados y ECA publicados que respaldan 
 <!-- review:end co-lic-20261105-vilanterol-2 -->
 
 **Para avanzar se necesita:**
-- Aclarar la situación regulatoria local: motivo de la cancelación del registro y vías para una nueva solicitud ante INVIMA
+- Aclarar la situación regulatoria local ante INVIMA
 - Obtener el prospecto para completar advertencias y contraindicaciones
 - Confirmar los datos del mecanismo de acción desde una fuente primaria
 - Revisar el manejo clínico de las interacciones con antidiabéticos, simpaticomiméticos y fármacos que prolongan el QT
+
+<!-- review:begin co-lic-20261125b-vilanterol-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: ": motivo de la cancelación del registro y vías para una nueva solicitud ante INVIMA" Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-vilanterol-1 -->
 
 <!-- review:begin log -->
 
@@ -162,6 +168,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-10-31 | Eliminado: "El estado local de mercado (solo registro cancelado) puede afectar la disponibilidad en Colombia, aunque no la evidencia clínica" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y el único registro sanitario en Colombia está cancelado" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: fluticasone furoate and vilanterol prescribing information, Prasco Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a761487-c300-451a-8537-3196c00c11b5) |
+| 2026-11-25 | Eliminado: «motivo de la cancelación del registro y vías para una nueva solicitud…» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

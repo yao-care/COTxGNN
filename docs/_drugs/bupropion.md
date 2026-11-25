@@ -139,7 +139,13 @@ El prospecto no estuvo disponible en los datos compilados; consultar el prospect
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-Existe un ensayo de Fase 3 completado, otro de Fase 2/3 y uno de Fase 4, junto con una revisión Cochrane y metaanálisis que sitúan a bupropión como alternativa no estimulante en TDAH. Sin embargo, el perfil de seguridad (convulsiones, efectos cardiovasculares, alta carga de interacciones) y la ausencia de registros vigentes en Colombia exigen cautela.
+Existe un ensayo de Fase 3 completado, otro de Fase 2/3 y uno de Fase 4, junto con una revisión Cochrane y metaanálisis que sitúan a bupropión como alternativa no estimulante en TDAH. Sin embargo, el perfil de seguridad (convulsiones, efectos cardiovasculares, alta carga de interacciones) exige cautela.
+
+<!-- review:begin co-lic-20261125b-bupropion-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "y la ausencia de registros vigentes en Colombia exigen cautela" Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-bupropion-1 -->
 
 **Para avanzar se necesita:**
 - Confirmar que bupropión fue el agente evaluado y el comparador en NCT00048360 y NCT00061087, y revisar sus resultados publicados.
@@ -164,6 +170,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "que contó con registros sanitarios en Colombia (WELLBUTRIN® XL y BUPRION®), actualmente todos cancelados" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Definir la situación regulatoria: los tres registros están cancelados, por lo que se requeriría un nuevo registro o su reactivación" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Bupropion Hydrochloride Sr (bupropion hydrochloride) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfb45438-1116-48f2-9bfe-776ebbf1e119) |
+| 2026-11-25 | Eliminado: «y la ausencia de registros vigentes en Colombia exigen cautela» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

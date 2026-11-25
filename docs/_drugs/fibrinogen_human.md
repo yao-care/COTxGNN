@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 284
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Fibrinogen Human: nueva indicación predicha, Hemoglobinopatía (nivel de evidencia L5). Indicación original: Fibrinógeno humano"
 monitor_inn: "fibrinogen human"
 drugbank_id: DB09222
@@ -110,7 +110,13 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos ni literatura. Además, el perfil protrombótico de la hemoglobinopatía plantea una posible preocupación de seguridad. El producto tampoco cuenta hoy con registros vigentes en Colombia.
+La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos ni literatura. Además, el perfil protrombótico de la hemoglobinopatía plantea una posible preocupación de seguridad.
+
+<!-- review:begin co-lic-20261125b-fibrinogen_human-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "El producto tampoco cuenta hoy con registros vigentes en Colombia." Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-fibrinogen_human-1 -->
 
 **Para avanzar se necesita:**
 - Obtener datos del mecanismo de acción (consultar DrugBank).
@@ -134,6 +140,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "dado que ambos registros están cancelados" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | Eliminado: «El producto tampoco cuenta hoy con registros vigentes en Colombia.» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 118
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Bromfenac: nueva indicación predicha, Enfermedad ocular (eye disease) (nivel de evidencia L1). Indicación original: Bromfenaco"
 monitor_inn: "bromfenac"
 predicted_indications: ["eye disease", "optic papillitis", "von Hippel anomaly", "mcpherson robertson cammarano syndrome", "vulvar inverted follicular keratosis", "lagophthalmos", "microblepharon-ablephara syndrome", "seborrheic keratosis", "conjunctival degeneration", "luxation of globe"]
@@ -163,7 +163,13 @@ Existen múltiples ensayos de Fase 3 completados (inflamación posoperatoria, ed
 - Obtener y analizar el prospecto del INVIMA para completar advertencias y contraindicaciones.
 - Confirmar los datos del mecanismo de acción en DrugBank.
 - Definir un plan de monitoreo del estado corneal y limitar la duración del tratamiento, evitando su uso en superficies oculares comprometidas.
-- Aclarar la situación regulatoria: tramitar un nuevo registro o verificar la disponibilidad de otros productos con bromfenaco en Colombia.
+- Aclarar la situación regulatoria: verificar la disponibilidad de productos con bromfenaco en Colombia.
+
+<!-- review:begin co-lic-20261125b-bromfenac-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "tramitar un nuevo registro o verificar la disponibilidad de otros productos con bromfenaco en Colombia" Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-bromfenac-1 -->
 
 ---
 
@@ -182,6 +188,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "El único registro sanitario existente figura como cancelado, por lo que actualmente no hay producto vigente en el mercado colombiano" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "el único registro colombiano está cancelado y" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Bromfenac Ophthalmic Solution, 0.07% (bromfenac sodium) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4246c669-3c2a-2a2b-3b1c-696deb4ab519) |
+| 2026-11-25 | «tramitar un nuevo registro o verificar la disponibilidad de otros…» → «verificar la disponibilidad de productos con bromfenaco en Colombia» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

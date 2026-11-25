@@ -135,8 +135,14 @@ La predicción del modelo es muy alta (0.9982), pero no hay ensayos clínicos y 
 - Obtener y analizar el prospecto del INVIMA (advertencias y contraindicaciones), lo que actualmente bloquea el tamizaje de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Buscar estudios que evalúen clobazam directamente en FIRES/NORSE (series de casos, registros).
-- Determinar si existe un producto con registro vigente en Colombia o si habría que iniciar un nuevo trámite regulatorio.
+- Determinar la vía regulatoria en Colombia para la nueva indicación.
 - Evaluar el perfil de interacciones en pacientes críticos (opioides, anestésicos y otros antiepilépticos).
+
+<!-- review:begin co-lic-20261125b-clobazam-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "Determinar si existe un producto con registro vigente en Colombia o si habría que iniciar un nuevo trámite regulatorio." Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-clobazam-1 -->
 
 ---
 
@@ -155,6 +161,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "clobazam no tiene registros vigentes en Colombia y" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "que en Colombia contó con registros sanitarios como antiepiléptico/ansiolítico" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Onfi (clobazam) prescribing information, Lundbeck Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de03bd69-2dca-459c-93b4-541fd3e9571c) |
+| 2026-11-25 | «Determinar si existe un producto con registro vigente en Colombia o…» → «Determinar la vía regulatoria en Colombia para la nueva indicación.» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 489
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Oxcarbazepine"
 predicted_indications: ["restless legs syndrome"]
 description: "Oxcarbazepine: nueva indicación predicha, Restless legs syndrome (nivel de evidencia L4). Indicación original: OXCARBAZEPINA"
@@ -140,8 +140,14 @@ La predicción tiene un puntaje alto, pero la evidencia es de nivel L4: no hay e
 - Estudios clínicos o series de casos específicos de oxcarbazepina en epilepsia visual (fotosensible).
 - Datos del mecanismo de acción (MOA) desde DrugBank.
 - Prospecto oficial de INVIMA con advertencias y contraindicaciones.
-- Verificar la situación regulatoria: ver si existe un producto vigente o si se requiere un nuevo registro.
+- Verificar la situación regulatoria.
 - Evaluar el riesgo de agravamiento en síndromes epilépticos generalizados, donde los bloqueadores de canales de sodio pueden no ser adecuados.
+
+<!-- review:begin co-lic-20261125b-oxcarbazepine-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: ": ver si existe un producto vigente o si se requiere un nuevo registro" Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-oxcarbazepine-1 -->
 
 <!-- review:begin log -->
 
@@ -154,6 +160,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "registrado en Colombia bajo licencias hoy canceladas" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, los dos registros sanitarios colombianos están cancelados, por lo que actualmente no hay producto vigente en el mercado local" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Trileptal (oxcarbazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c5c86c8-ab7f-4fcf-bc1b-5a0b1fd0691b) |
+| 2026-11-25 | Eliminado: «ver si existe un producto vigente o si se requiere un nuevo registro» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

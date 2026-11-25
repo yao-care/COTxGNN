@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 46
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Ambroxol: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L5). Indicación original: Ambroxol"
 monitor_inn: "ambroxol"
 predicted_indications: ["nasal cavity disease", "vulvovaginal candidiasis", "faucial diphtheria", "cervical disc degenerative disorder"]
@@ -128,8 +128,14 @@ La predicción se apoya únicamente en el modelo TxGNN y en una revisión indire
 - Datos del mecanismo de acción (MOA) del fármaco
 - Información de seguridad del prospecto (advertencias y contraindicaciones), actualmente no disponible
 - Literatura y ensayos clínicos específicos sobre ambroxol en enfermedades de la cavidad nasal
-- Aclarar la situación regulatoria en Colombia (motivo de las cancelaciones y viabilidad de un nuevo registro)
+- Aclarar la situación regulatoria en Colombia (motivo de las cancelaciones)
 - Evaluar la compatibilidad de vías de administración (las formas registradas son jarabe y solución oral)
+
+<!-- review:begin co-lic-20261125b-ambroxol-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "(motivo de las cancelaciones y viabilidad de un nuevo registro)" Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-ambroxol-1 -->
 
 <!-- review:begin log -->
 
@@ -141,6 +147,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los 5 registros sanitarios están cancelados; actualmente no hay registros vigentes" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-24 | Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido) | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | «(motivo de las cancelaciones y viabilidad de un nuevo registro)» → «(motivo de las cancelaciones)» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

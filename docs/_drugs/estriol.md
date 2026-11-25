@@ -127,8 +127,14 @@ La evidencia se limita a un estudio de cohorte pequeño y una revisión sobre me
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), un vacío crítico que bloquea la evaluación de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Ensayos clínicos controlados que evalúen desenlaces clínicos (retorno de la menstruación, ovulación, densidad ósea) en AHF.
-- Aclarar la situación regulatoria: reactivación de registros o nueva solicitud, así como la compatibilidad de la vía de administración (vaginal) con el uso propuesto.
+- Aclarar la situación regulatoria y la compatibilidad de la vía de administración (vaginal) con el uso propuesto.
 - Evaluar la relación con la indicación original, que no está especificada en el registro.
+
+<!-- review:begin co-lic-20261125b-estriol-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: ": reactivación de registros o nueva solicitud, así como" Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-estriol-1 -->
 
 <!-- review:begin log -->
 
@@ -141,6 +147,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "registrado en Colombia en óvulos vaginales cuyos registros sanitarios hoy figuran cancelados" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "los dos registros sanitarios en Colombia están cancelados y" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL193482 (estriol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL193482) |
+| 2026-11-25 | Eliminado: «reactivación de registros o nueva solicitud, así como» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

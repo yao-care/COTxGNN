@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 117
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Bromazepam: nueva indicación predicha, Trastorno de migraña (nivel de evidencia L5). Indicación original: Bromazepam"
 monitor_inn: "BROMAZEPAM"
 predicted_indications: ["migraine disorder"]
@@ -126,7 +126,13 @@ La predicción se basa únicamente en el modelo (nivel L5), sin ensayos clínico
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Realizar una revisión sistemática de la literatura sobre benzodiazepinas en migraña.
 - Evaluar la similitud con la indicación original y la compatibilidad de vías de administración.
-- Aclarar el estado regulatorio, dado que no existen registros vigentes en Colombia.
+- Aclarar el estado regulatorio.
+
+<!-- review:begin co-lic-20261125b-bromazepam-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: ", dado que no existen registros vigentes en Colombia" Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-bromazepam-1 -->
 
 <!-- review:begin log -->
 
@@ -139,6 +145,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "que contó con registros sanitarios en Colombia, hoy cancelados" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "los dos registros sanitarios en Colombia están cancelados y" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL277062 (bromazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL277062) |
+| 2026-11-25 | Eliminado: «dado que no existen registros vigentes en Colombia» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

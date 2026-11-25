@@ -150,7 +150,13 @@ Hay un ensayo completado de Fase 2/3 y varios ECA publicados en migraña aguda (
 - Obtener el prospecto de INVIMA con advertencias y contraindicaciones oficiales.
 - Documentar el mecanismo de acción desde DrugBank.
 - Definir un protocolo de uso limitado a entornos monitorizados, con vigilancia de sedación, función respiratoria y presión arterial.
-- Evaluar la disponibilidad de un producto con registro vigente en Colombia.
+- Evaluar la disponibilidad del producto en Colombia.
+
+<!-- review:begin co-lic-20261125b-propofol-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "Evaluar la disponibilidad de un producto con registro vigente en Colombia." Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-propofol-1 -->
 
 ---
 
@@ -173,6 +179,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Ambos registros están cancelados, por lo que actualmente no hay registros vigentes en Colombia" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y los dos registros colombianos están cancelados" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | «Evaluar la disponibilidad de un producto con registro vigente en…» → «Evaluar la disponibilidad del producto en Colombia.» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

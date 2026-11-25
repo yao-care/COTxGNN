@@ -157,3 +157,15 @@ dbXXXXX 轉址頁原本指到被轉址頁的（db00448、db01060、db01076、db0
   lomitapide「8 de 8／los 9 (8 de 8)」、pirfenidone「8 registros vigentes」（含 ensayos 的句子 B 跳過）、paclitaxel「15 registros vigentes」（補收後變部分收錄）、isosorbide_dinitrate（另有 ISOCORD 口服錠）、etofenamate（另有 RHEUMON 凝膠）、guaifenesin（另有 MUCINEX 緩釋錠）；
   寬偵測順帶找到、原本就不成立的：glycine、lidocaine、trimethoprim 的劑型前提、ibuprofen、quetiapine「único registro」、serine「solo … NUTRIFLEX」、vortioxetine 待辦「cancelación del registro 20215225」（ACSODIX 10 mg 為 Vigente）。待辦條目只拿掉錯的前提。
 - 驗證：checker 全量前後 0、--row-status 0；gate exit 0；apply --check、rewrite_license_counts --check、sync_license_tables --check 都 0；另寫的寬偵測（數字對事實層、único／solo／todos／ambos＋註冊／劑型／持有人）全量掃補收的 282 頁，剩下的命中逐句看過都成立或不是張數句。
+
+## 待辦與決策理由「重新啟用／重新申請登記」的錯誤前提（2026-11-25 第七輪）
+
+用戶 2026-11-25 決定（第七輪第 1 條）：「下一步」待辦寫「能不能重新啟用登記／重新申請」（reactivar／reactivación del registro、nuevo registro、nueva solicitud）、「確認有沒有有效產品」或決策理由寫「沒有有效登記／已註銷」，而本藥其實有有效登記的（第六輪點名 donepezil、clobazam、propofol），全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數。
+- 兩支獨立偵測全量掃公開頁＋noindex（排除查核框、程式表、查核紀錄表）：A＝規範字樣（reactiv…、nuevo registro、nueva solicitud、registro(s) vigente(s)、situación／estado／vía regulatoria、cancelad…）218 句；B＝否定或註銷字樣＋註冊字樣、排除試驗／文獻／適應症文字 145 句；逐句對照快照事實層（valid／not_marketed／cancelled）。
+- 更正 39 句、36 頁：37 筆新紀錄 `co-lic-20261125b-*`＋2 筆 11-05 紀錄同 id 重發（calcitriol-3、rasagiline-3：11-05 刪句後留下的「Evaluar la reactivación o nueva solicitud de registro」「y habría que solicitar uno nuevo o reactivar el existente」，前版存 history）。
+  待辦 26 句（ambroxol、ampicillin、bromazepam、bromfenac、busulfan、calcitriol、clobazam、donepezil、entacapone、estriol、evogliptin、insulin_degludec、mometasone、olopatadine、oxcarbazepine、oxymetazoline、paclitaxel、pirfenidone、propofol、rasagiline、rufinamide、salbutamol、topotecan、turoctocog_alfa_pegol、vilanterol、ziprasidone）只拿掉「沒有有效登記／已註銷／要重新啟用或重新申請」的前提；
+  決策理由 9 句（bupropion、fibrinogen_human、metoclopramide、moxifloxacin、propylthiouracil、tinidazole、ganirelix、tafenoquine、ziprasidone）只改前提，決策不動；市場段落 2 句（tafenoquine、ziprasidone）。
+  只有暫時未上市登記（Temp. no comerc - Vigente）的 ganirelix、tafenoquine、ziprasidone 正文寫「cancelado」的 6 句改成「temporalmente no comercializado」；同類寬偵測另找到 topiramate「su único registro」（9 張）、fentanyl「6 registros vigentes」（有效 7、暫時未上市 1）2 句一併更正。
+- 判定成立、不改：只有暫時未上市登記的頁寫「no hay registro(s) vigente(s)」（clomipramine、rutin、tafenoquine、ziprasidone；跟 description「vigentes: 0; además, temporalmente no comercializados」同口徑）；為新適應症評估新登記或確認其他產品的待辦（bendamustine、denosumab、ketoconazole、methylphenidate、topiramate、tapentadol）；pseudoephedrine（有 6 張註銷）。
+- 沒處理（不同類，回報）：eltrombopag「los 4 y el texto…」、amlodipine「…local, corresponden a combinaciones」、megestrol_acetate「cuyo registro sanitario en Colombia, sin…」是 11-05 刪句留下的殘句。
+- 驗證：apply --check 0、rewrite_license_counts --check 0；gate exit 0；checker 前後都是 P1 612（本機沒還原證據包，前後相同、跟這次無關）、--row-status 0；兩支偵測複查，剩下的命中都是上面判定成立的句子。正文有變的 36 頁 last_modified_at 改 2026-11-25。

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 649
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "TUROCTOCOG ALFA PEGOL"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency", "hereditary thrombocytosis with transverse limb defect", "fetal and neonatal alloimmune thrombocytopenia"]
 description: "Turoctocog Alfa Pegol: nueva indicación predicha, Primary release disorder of platelets (nivel de evidencia L5). Indicación original: COAGULACION FACTORES VIII"
@@ -98,7 +98,13 @@ No existe ningún ensayo clínico ni publicación que respalde el uso de turocto
 - Prospecto de INVIMA con advertencias y contraindicaciones, necesario para cualquier tamizaje de seguridad
 - Evidencia preclínica o clínica que sustente un vínculo biológico con el defecto plaquetario
 - Priorizar, si se continúa la evaluación, la deficiencia adquirida de factores de coagulación, que es la más plausible mecanísticamente
-- Aclarar la situación regulatoria (motivo de las cancelaciones) y la compatibilidad de vía de administración
+- Aclarar la situación regulatoria y la compatibilidad de vía de administración
+
+<!-- review:begin co-lic-20261125b-turoctocog_alfa_pegol-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "(motivo de las cancelaciones)" Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-turoctocog_alfa_pegol-1 -->
 
 <!-- review:begin log -->
 
@@ -110,6 +116,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, los cuatro registros sanitarios en Colombia están cancelados" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL5315071 (turoctocog alfa pegol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315071) |
+| 2026-11-25 | Eliminado: «(motivo de las cancelaciones)» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

@@ -131,7 +131,13 @@ La predicción principal (trastornos psicógenos del movimiento) se basa solo en
 - Obtener y analizar el prospecto de INVIMA (advertencias y contraindicaciones), requisito previo para un tamizaje de seguridad.
 - Priorizar la revisión de **trastorno de tics crónico** (L3), el candidato con mayor respaldo: revisar los diseños completos de los estudios y evaluar la factibilidad de un estudio controlado.
 - Para movimientos extrapiramidales, evaluar el balance beneficio-riesgo, dada la evidencia mixta.
-- Aclarar el estado regulatorio: determinar si algún registro puede reactivarse o si se requeriría un nuevo registro.
+- Aclarar el estado regulatorio.
+
+<!-- review:begin co-lic-20261125b-donepezil-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: ": determinar si algún registro puede reactivarse o si se requeriría un nuevo registro" Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-donepezil-1 -->
 
 <!-- review:begin log -->
 
@@ -144,6 +150,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "Los 4 registros sanitarios están cancelados; no hay registros vigentes" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "el donepezilo no tiene registros vigentes en Colombia y" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Aricept (donepezil hydrochloride) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e451e1-e4d7-4439-a675-c5457ba20975) |
+| 2026-11-25 | Eliminado: «determinar si algún registro puede reactivarse o si se requeriría un…» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

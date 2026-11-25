@@ -138,8 +138,14 @@ La predicción se apoya solo en evidencia preclínica indirecta y en reportes de
 - Obtener las advertencias y contraindicaciones del prospecto de INVIMA y los datos del mecanismo de acción desde DrugBank.
 - Estudios preclínicos en modelos tumorales (no solo fibróticos benignos) que confirmen o descarten actividad antitumoral.
 - Evaluar con detalle la señal de seguridad de los reportes de caso (sarcoma y dermatofibromas).
-- Aclarar el estatus regulatorio en Colombia (motivo de la cancelación y posibilidad de nuevo registro).
+- Aclarar el estatus regulatorio en Colombia.
 - Confirmar la relevancia del piloto en tumores desmoides (PMID 12907346).
+
+<!-- review:begin co-lic-20261125b-pirfenidone-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "(motivo de la cancelación y posibilidad de nuevo registro)" Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-pirfenidone-1 -->
 
 **Otras predicciones del modelo (todas L5, Hold, sin ensayos ni literatura):** mastocitoma extracutáneo (0.9971), dermatofibrosarcoma protuberans (0.9941), mastocitosis sistémica agresiva (0.9933), fibrosarcoma de corazón (0.9929), fibrosarcoma convencional (0.9926), fiebre mediterránea familiar autosómica recesiva (0.9925), fibrosarcoma de riñón (0.9924), infarto hepático (0.9924) y sarcoma fibromixoide de bajo grado (0.9919). En varias de ellas existen terapias establecidas (por ejemplo, imatinib en dermatofibrosarcoma; colchicina y bloqueadores de IL-1 en fiebre mediterránea familiar).
 
@@ -155,6 +161,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-12 | Número de registros vigentes: 3 → 8 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Esbriet (pirfenidone) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e) |
 | 2026-11-25 | Eliminado: «8» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | Eliminado: «(motivo de la cancelación y posibilidad de nuevo registro)» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

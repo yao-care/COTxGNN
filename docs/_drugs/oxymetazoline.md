@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 491
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Oxymetazoline: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L5). Indicación original: Oximetazolina"
 monitor_inn: "oxymetazoline"
 predicted_indications: ["nasal cavity disease", "headache disorder"]
@@ -137,11 +137,17 @@ La predicción es mecanísticamente coherente, pero coincide con el uso desconge
 <!-- review:end co-lic-20261105-oxymetazoline-2 -->
 
 **Para avanzar se necesita:**
-- Aclarar el estado regulatorio: motivo de la cancelación de los registros y si existe algún producto vigente.
+- Aclarar el estado regulatorio.
 - Obtener el prospecto con advertencias y contraindicaciones oficiales (hoy es una brecha bloqueante para el análisis de seguridad).
 - Confirmar los datos del mecanismo de acción en DrugBank.
 - Definir con precisión qué condiciones de la cavidad nasal serían el objetivo y si aportan algo más allá de la indicación actual.
 - Considerar el riesgo de las contraindicaciones identificadas (cardiovasculares, metabólicas y oculares) en el diseño de cualquier estudio.
+
+<!-- review:begin co-lic-20261125b-oxymetazoline-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: ": motivo de la cancelación de los registros y si existe algún producto vigente" Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-oxymetazoline-1 -->
 
 ---
 
@@ -160,6 +166,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "Los cinco registros figuran como cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "y los cinco registros sanitarios en Colombia están cancelados" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Rhofade (oxymetazoline hydrochloride) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34298db6-647d-480d-88a8-dc53258a5164) |
+| 2026-11-25 | Eliminado: «motivo de la cancelación de los registros y si existe algún producto…» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

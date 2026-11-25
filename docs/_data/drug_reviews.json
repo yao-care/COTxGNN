@@ -4281,9 +4281,9 @@
    "file": "calcitriol.md",
    "action": "correct",
    "claim": "- Evaluar la reactivación o nueva solicitud de registro, dado que no hay productos vigentes.",
-   "replacement": "- Evaluar la reactivación o nueva solicitud de registro.",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "- Evaluar la situación regulatoria.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se quitó también la premisa de reactivar o volver a solicitar el registro (el medicamento cuenta con registros sanitarios vigentes).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：事實層 2 張全部有效；11-05 刪掉「dado que no hay productos vigentes」後留下的「重新啟用或重新申請」前提也不成立，同 id 重發",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -4291,8 +4291,8 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"dado que no hay productos vigentes\"",
+   "checked": "2026-11-25",
+   "summary": "«Evaluar la reactivación o nueva solicitud de registro, dado que no…» → «Evaluar la situación regulatoria.»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
    "history": [
     {
@@ -4316,6 +4316,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明不再寫死張數，指向概覽表與程式表"
+    },
+    {
+     "id": "co-lic-20261105-calcitriol-3",
+     "drug": "calcitriol",
+     "file": "calcitriol.md",
+     "action": "correct",
+     "claim": "- Evaluar la reactivación o nueva solicitud de registro, dado que no hay productos vigentes.",
+     "replacement": "- Evaluar la reactivación o nueva solicitud de registro.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"dado que no hay productos vigentes\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "更正後留下的待辦仍以「要重新啟用或重新申請登記」為前提，本藥其實有有效登記，2026-11-25 用戶第七輪決定（只拿掉錯的前提，更正文字不寫張數）"
     }
    ]
   },
@@ -28774,9 +28796,9 @@
    "file": "rasagiline.md",
    "action": "correct",
    "claim": "- Verificación de la situación regulatoria: no hay registro vigente y habría que solicitar uno nuevo o reactivar el existente",
-   "replacement": "- Verificación de la situación regulatoria: y habría que solicitar uno nuevo o reactivar el existente",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "- Verificación de la situación regulatoria",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se quitó también la premisa de reactivar o volver a solicitar el registro (el medicamento cuenta con registros sanitarios vigentes).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：事實層 7 張：有效 6、暫時未上市 1；11-05 刪句留下的殘句「y habría que solicitar uno nuevo o reactivar el existente」前提不成立，同 id 重發",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -28784,8 +28806,8 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
-   "summary": "Eliminado: \"no hay registro vigente\"",
+   "checked": "2026-11-25",
+   "summary": "«Verificación de la situación regulatoria: no hay registro vigente y…» → «Verificación de la situación regulatoria»",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
    "history": [
     {
@@ -28809,6 +28831,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明不再寫死張數，指向概覽表與程式表"
+    },
+    {
+     "id": "co-lic-20261105-rasagiline-3",
+     "drug": "rasagiline",
+     "file": "rasagiline.md",
+     "action": "correct",
+     "claim": "- Verificación de la situación regulatoria: no hay registro vigente y habría que solicitar uno nuevo o reactivar el existente",
+     "replacement": "- Verificación de la situación regulatoria: y habría que solicitar uno nuevo o reactivar el existente",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"no hay registro vigente\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "更正後留下的待辦仍以「要重新啟用或重新申請登記」為前提，本藥其實有有效登記，2026-11-25 用戶第七輪決定（只拿掉錯的前提，更正文字不寫張數）"
     }
    ]
   },
@@ -55035,6 +55079,763 @@
    ],
    "checked": "2026-11-25",
    "method": "2026-11-25 第六輪人工查核（用戶決定：依原收集規則補收 INVIMA CUM 現行清單的新 expediente（vigentes／temporalmente no comercializados）後，正文跟新事實矛盾的句子逐句對照證據包更正）"
+  },
+  {
+   "id": "co-lic-20261125b-ambroxol-1",
+   "drug": "ambroxol",
+   "file": "ambroxol.md",
+   "action": "correct",
+   "claim": "(motivo de las cancelaciones y viabilidad de un nuevo registro)",
+   "replacement": "(motivo de las cancelaciones)",
+   "summary": "«(motivo de las cancelaciones y viabilidad de un nuevo registro)» → «(motivo de las cancelaciones)»",
+   "note": "Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "部分收錄；已收 20 張中有效 18、暫時未上市 2；「需要新登記」前提不成立，cancelaciones 無法以已收紀錄證明，保留",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）"
+  },
+  {
+   "id": "co-lic-20261125b-ampicillin-1",
+   "drug": "ampicillin",
+   "file": "ampicillin.md",
+   "action": "correct",
+   "claim": ", al no haber registros vigentes",
+   "replacement": "",
+   "summary": "Eliminado: «al no haber registros vigentes»",
+   "note": "Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "事實層 7 張：有效 5、暫時未上市 2",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）",
+   "anchor": "- Revisar el estado regulatorio"
+  },
+  {
+   "id": "co-lic-20261125b-bromazepam-1",
+   "drug": "bromazepam",
+   "file": "bromazepam.md",
+   "action": "correct",
+   "claim": ", dado que no existen registros vigentes en Colombia",
+   "replacement": "",
+   "summary": "Eliminado: «dado que no existen registros vigentes en Colombia»",
+   "note": "Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "227603 BROMAZEPAM 6 MG Vigente、19920700 LEXOTAN Temp. no comerc - Vigente",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）",
+   "anchor": "- Aclarar el estado regulatorio."
+  },
+  {
+   "id": "co-lic-20261125b-bromfenac-1",
+   "drug": "bromfenac",
+   "file": "bromfenac.md",
+   "action": "correct",
+   "claim": "tramitar un nuevo registro o verificar la disponibilidad de otros productos con bromfenaco en Colombia",
+   "replacement": "verificar la disponibilidad de productos con bromfenaco en Colombia",
+   "summary": "«tramitar un nuevo registro o verificar la disponibilidad de otros…» → «verificar la disponibilidad de productos con bromfenaco en Colombia»",
+   "note": "Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "事實層 1 張，Vigente",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）"
+  },
+  {
+   "id": "co-lic-20261125b-bupropion-1",
+   "drug": "bupropion",
+   "file": "bupropion.md",
+   "action": "correct",
+   "claim": " y la ausencia de registros vigentes en Colombia exigen cautela",
+   "replacement": " exige cautela",
+   "summary": "Eliminado: «y la ausencia de registros vigentes en Colombia exigen cautela»",
+   "note": "Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "事實層 6 張全部有效；決策理由只拿掉前提",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）"
+  },
+  {
+   "id": "co-lic-20261125b-busulfan-1",
+   "drug": "busulfan",
+   "file": "busulfan.md",
+   "action": "correct",
+   "claim": ": reactivar o tramitar un nuevo registro sanitario vigente",
+   "replacement": "",
+   "summary": "Eliminado: «reactivar o tramitar un nuevo registro sanitario vigente»",
+   "note": "Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "事實層 4 張全部有效",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）",
+   "anchor": "- Aclarar la situación regulatoria."
+  },
+  {
+   "id": "co-lic-20261125b-clobazam-1",
+   "drug": "clobazam",
+   "file": "clobazam.md",
+   "action": "correct",
+   "claim": "- Determinar si existe un producto con registro vigente en Colombia o si habría que iniciar un nuevo trámite regulatorio.",
+   "replacement": "- Determinar la vía regulatoria en Colombia para la nueva indicación.",
+   "summary": "«Determinar si existe un producto con registro vigente en Colombia o…» → «Determinar la vía regulatoria en Colombia para la nueva indicación.»",
+   "note": "Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "事實層 8 張：有效 5、暫時未上市 3（第六輪點名）",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）"
+  },
+  {
+   "id": "co-lic-20261125b-donepezil-1",
+   "drug": "donepezil",
+   "file": "donepezil.md",
+   "action": "correct",
+   "claim": ": determinar si algún registro puede reactivarse o si se requeriría un nuevo registro",
+   "replacement": "",
+   "summary": "Eliminado: «determinar si algún registro puede reactivarse o si se requeriría un…»",
+   "note": "Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "事實層 10 張：有效 5、暫時未上市 5（第六輪點名）",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）",
+   "anchor": "- Aclarar el estado regulatorio."
+  },
+  {
+   "id": "co-lic-20261125b-entacapone-1",
+   "drug": "entacapone",
+   "file": "entacapone.md",
+   "action": "correct",
+   "claim": ": la ausencia de registros vigentes condiciona cualquier ruta de acceso local",
+   "replacement": "",
+   "summary": "Eliminado: «la ausencia de registros vigentes condiciona cualquier ruta de acceso…»",
+   "note": "Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "事實層 7 張：有效 6、暫時未上市 1",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）",
+   "anchor": "- Confirmar la situación regulatoria."
+  },
+  {
+   "id": "co-lic-20261125b-estriol-1",
+   "drug": "estriol",
+   "file": "estriol.md",
+   "action": "correct",
+   "claim": ": reactivación de registros o nueva solicitud, así como",
+   "replacement": " y",
+   "summary": "Eliminado: «reactivación de registros o nueva solicitud, así como»",
+   "note": "Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "事實層 3 張全部有效",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）",
+   "anchor": "- Aclarar la situación regulatoria y la compatibilidad de la vía de administración (vaginal) con el uso propuesto."
+  },
+  {
+   "id": "co-lic-20261125b-evogliptin-1",
+   "drug": "evogliptin",
+   "file": "evogliptin.md",
+   "action": "correct",
+   "claim": " (cancelación del registro)",
+   "replacement": "",
+   "summary": "Eliminado: «(cancelación del registro)»",
+   "note": "Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "事實層 1 張，Vigente",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）",
+   "anchor": "- Aclarar la situación regulatoria y la viabilidad de comercialización en Colombia"
+  },
+  {
+   "id": "co-lic-20261125b-fibrinogen_human-1",
+   "drug": "fibrinogen_human",
+   "file": "fibrinogen_human.md",
+   "action": "correct",
+   "claim": " El producto tampoco cuenta hoy con registros vigentes en Colombia.",
+   "replacement": "",
+   "summary": "Eliminado: «El producto tampoco cuenta hoy con registros vigentes en Colombia.»",
+   "note": "Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "20150730 FIBRYGA Vigente、20094324 CLOTTAFACT Temp. no comerc - Vigente、20059137 TACHOSIL Perdida Fuerza Ejec；決策理由只拿掉前提",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）",
+   "anchor": "La predicción se apoya solo en el puntaje del modelo (nivel L5), sin ensayos ni literatura. Además, el perfil protrombótico de la hemoglobinopatía plantea una posible preocupación de seguridad."
+  },
+  {
+   "id": "co-lic-20261125b-insulin_degludec-1",
+   "drug": "insulin_degludec",
+   "file": "insulin_degludec.md",
+   "action": "correct",
+   "claim": ": confirmar si existe o se puede solicitar un registro sanitario vigente en Colombia",
+   "replacement": "",
+   "summary": "Eliminado: «confirmar si existe o se puede solicitar un registro sanitario…»",
+   "note": "Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "事實層 1 張，Vigente（同頁正文另寫有 1 張有效）",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）",
+   "anchor": "- Verificar la situación regulatoria."
+  },
+  {
+   "id": "co-lic-20261125b-metoclopramide-1",
+   "drug": "metoclopramide",
+   "file": "metoclopramide.md",
+   "action": "correct",
+   "claim": "A esto se suman la ausencia de registros vigentes en Colombia y una señal",
+   "replacement": "A esto se suma una señal",
+   "summary": "Eliminado: «A esto se suman la ausencia de registros vigentes en Colombia y una…»",
+   "note": "Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "事實層 16 張全部有效；決策理由只拿掉前提",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）"
+  },
+  {
+   "id": "co-lic-20261125b-mometasone-1",
+   "drug": "mometasone",
+   "file": "mometasone.md",
+   "action": "correct",
+   "claim": "y de la viabilidad de un nuevo registro sanitario vigente en Colombia",
+   "replacement": "y de la situación regulatoria en Colombia",
+   "summary": "«y de la viabilidad de un nuevo registro sanitario vigente en Colombia» → «y de la situación regulatoria en Colombia»",
+   "note": "Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "部分收錄；已收 20 張全部有效（含外用乳膏）",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）"
+  },
+  {
+   "id": "co-lic-20261125b-moxifloxacin-1",
+   "drug": "moxifloxacin",
+   "file": "moxifloxacin.md",
+   "action": "correct",
+   "claim": "Además, no existen registros sanitarios vigentes en Colombia y el perfil",
+   "replacement": "Además, el perfil",
+   "summary": "Eliminado: «Además, no existen registros sanitarios vigentes en Colombia y el…»",
+   "note": "Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "事實層 19 張：有效 15、暫時未上市 3、註銷 1；決策理由只拿掉前提",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）"
+  },
+  {
+   "id": "co-lic-20261125b-olopatadine-1",
+   "drug": "olopatadine",
+   "file": "olopatadine.md",
+   "action": "correct",
+   "claim": ", o la necesidad de un nuevo registro",
+   "replacement": "",
+   "summary": "Eliminado: «o la necesidad de un nuevo registro»",
+   "note": "Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "事實層有效 17、暫時未上市 1、註銷 1",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）",
+   "anchor": "- Confirmar la disponibilidad de productos con olopatadina vigentes en Colombia"
+  },
+  {
+   "id": "co-lic-20261125b-oxcarbazepine-1",
+   "drug": "oxcarbazepine",
+   "file": "oxcarbazepine.md",
+   "action": "correct",
+   "claim": ": ver si existe un producto vigente o si se requiere un nuevo registro",
+   "replacement": "",
+   "summary": "Eliminado: «ver si existe un producto vigente o si se requiere un nuevo registro»",
+   "note": "Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "事實層 5 張全部有效",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）",
+   "anchor": "- Verificar la situación regulatoria."
+  },
+  {
+   "id": "co-lic-20261125b-oxymetazoline-1",
+   "drug": "oxymetazoline",
+   "file": "oxymetazoline.md",
+   "action": "correct",
+   "claim": ": motivo de la cancelación de los registros y si existe algún producto vigente",
+   "replacement": "",
+   "summary": "Eliminado: «motivo de la cancelación de los registros y si existe algún producto…»",
+   "note": "Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "部分收錄；已收 20 張全部有效",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）",
+   "anchor": "- Aclarar el estado regulatorio."
+  },
+  {
+   "id": "co-lic-20261125b-paclitaxel-1",
+   "drug": "paclitaxel",
+   "file": "paclitaxel.md",
+   "action": "correct",
+   "claim": "- Verificar si existen registros vigentes o reactivar/renovar un registro sanitario ante INVIMA",
+   "replacement": "- Verificar la situación de los registros sanitarios ante INVIMA",
+   "summary": "«Verificar si existen registros vigentes o reactivar/renovar un…» → «Verificar la situación de los registros sanitarios ante INVIMA»",
+   "note": "Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "部分收錄；已收紀錄有效 16、暫時未上市 3、註銷 1",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）"
+  },
+  {
+   "id": "co-lic-20261125b-pirfenidone-1",
+   "drug": "pirfenidone",
+   "file": "pirfenidone.md",
+   "action": "correct",
+   "claim": " (motivo de la cancelación y posibilidad de nuevo registro)",
+   "replacement": "",
+   "summary": "Eliminado: «(motivo de la cancelación y posibilidad de nuevo registro)»",
+   "note": "Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "事實層 17 張：有效 12、暫時未上市 5、註銷 0",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）",
+   "anchor": "- Aclarar el estatus regulatorio en Colombia."
+  },
+  {
+   "id": "co-lic-20261125b-propofol-1",
+   "drug": "propofol",
+   "file": "propofol.md",
+   "action": "correct",
+   "claim": "- Evaluar la disponibilidad de un producto con registro vigente en Colombia.",
+   "replacement": "- Evaluar la disponibilidad del producto en Colombia.",
+   "summary": "«Evaluar la disponibilidad de un producto con registro vigente en…» → «Evaluar la disponibilidad del producto en Colombia.»",
+   "note": "Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "事實層 16 張：有效 13、暫時未上市 3（第六輪點名）",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）"
+  },
+  {
+   "id": "co-lic-20261125b-propylthiouracil-1",
+   "drug": "propylthiouracil",
+   "file": "propylthiouracil.md",
+   "action": "correct",
+   "claim": " El fármaco tampoco tiene registro vigente en Colombia.",
+   "replacement": "",
+   "summary": "Eliminado: «El fármaco tampoco tiene registro vigente en Colombia.»",
+   "note": "Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "19952712 TIROSTAT 100、30968 TIROSTAT 50 皆 Vigente；決策理由只拿掉前提",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）",
+   "anchor": "La predicción principal se apoya únicamente en el puntaje del modelo y en literatura preclínica y de casos que no evalúa el propiltiouracilo; además, el mecanismo sugiere un posible perjuicio en RTH-beta (aumento de TSH y bocio)."
+  },
+  {
+   "id": "co-lic-20261125b-rufinamide-1",
+   "drug": "rufinamide",
+   "file": "rufinamide.md",
+   "action": "correct",
+   "claim": "- Evaluar la viabilidad de reactivar o tramitar un nuevo registro sanitario, y la compatibilidad",
+   "replacement": "- Evaluar la compatibilidad",
+   "summary": "«Evaluar la viabilidad de reactivar o tramitar un nuevo registro…» → «Evaluar la compatibilidad»",
+   "note": "Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "事實層 1 張，Vigente（同頁市場段落寫 1 張有效）",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）"
+  },
+  {
+   "id": "co-lic-20261125b-salbutamol-1",
+   "drug": "salbutamol",
+   "file": "salbutamol.md",
+   "action": "correct",
+   "claim": ", dado que no existen registros vigentes en Colombia",
+   "replacement": "",
+   "summary": "Eliminado: «dado que no existen registros vigentes en Colombia»",
+   "note": "Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "事實層 13 張：有效 10、暫時未上市 2、註銷 1",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）",
+   "anchor": "- Aclarar la situación regulatoria."
+  },
+  {
+   "id": "co-lic-20261125b-tinidazole-1",
+   "drug": "tinidazole",
+   "file": "tinidazole.md",
+   "action": "correct",
+   "claim": " Además, no existen registros sanitarios vigentes en Colombia.",
+   "replacement": "",
+   "summary": "Eliminado: «Además, no existen registros sanitarios vigentes en Colombia.»",
+   "note": "Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "事實層 16 張：有效 13、暫時未上市 2、註銷 1；決策理由只拿掉前提",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）",
+   "anchor": "La predicción no tiene respaldo clínico ni bibliográfico (nivel L5), y el mecanismo de acción del fármaco no explica un beneficio en una condición causada por la deficiencia de estrógenos."
+  },
+  {
+   "id": "co-lic-20261125b-topotecan-1",
+   "drug": "topotecan",
+   "file": "topotecan.md",
+   "action": "correct",
+   "claim": ": reactivación del registro o nuevo registro sanitario para uso en Colombia",
+   "replacement": " para uso en Colombia",
+   "summary": "Eliminado: «reactivación del registro o nuevo registro sanitario para uso en…»",
+   "note": "Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "事實層 1 張，Vigente",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）"
+  },
+  {
+   "id": "co-lic-20261125b-turoctocog_alfa_pegol-1",
+   "drug": "turoctocog_alfa_pegol",
+   "file": "turoctocog_alfa_pegol.md",
+   "action": "correct",
+   "claim": " (motivo de las cancelaciones)",
+   "replacement": "",
+   "summary": "Eliminado: «(motivo de las cancelaciones)»",
+   "note": "Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "事實層 4 張全部有效、註銷 0",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）",
+   "anchor": "- Aclarar la situación regulatoria y la compatibilidad de vía de administración"
+  },
+  {
+   "id": "co-lic-20261125b-vilanterol-1",
+   "drug": "vilanterol",
+   "file": "vilanterol.md",
+   "action": "correct",
+   "claim": ": motivo de la cancelación del registro y vías para una nueva solicitud ante INVIMA",
+   "replacement": " ante INVIMA",
+   "summary": "Eliminado: «motivo de la cancelación del registro y vías para una nueva solicitud…»",
+   "note": "Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "事實層 1 張，Vigente、註銷 0",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）"
+  },
+  {
+   "id": "co-lic-20261125b-ganirelix-1",
+   "drug": "ganirelix",
+   "file": "ganirelix.md",
+   "action": "correct",
+   "claim": "Además, el único registro sanitario en Colombia está cancelado.",
+   "replacement": "Además, su único registro sanitario en Colombia figura como temporalmente no comercializado.",
+   "summary": "«Además, el único registro sanitario en Colombia está cancelado.» → «Además, su único registro sanitario en Colombia figura como…»",
+   "note": "Corregido según los datos del INVIMA: el registro figura como «Temp. no comerc - Vigente» (temporalmente no comercializado), no como cancelado. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "事實層 1 張，Temp. no comerc - Vigente（不是註銷）；決策理由只改前提",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）"
+  },
+  {
+   "id": "co-lic-20261125b-tafenoquine-1",
+   "drug": "tafenoquine",
+   "file": "tafenoquine.md",
+   "action": "correct",
+   "claim": "El único registro (GlaxoSmithKline Colombia S.A.) está cancelado, por lo que actualmente no hay producto vigente en el mercado colombiano.",
+   "replacement": "El único registro (GlaxoSmithKline Colombia S.A.) figura como temporalmente no comercializado, por lo que actualmente no hay producto comercializado en Colombia.",
+   "summary": "«El único registro (GlaxoSmithKline Colombia S.A.) está cancelado, por…» → «El único registro (GlaxoSmithKline Colombia S.A.) figura como…»",
+   "note": "Corregido según los datos del INVIMA: el registro figura como «Temp. no comerc - Vigente» (temporalmente no comercializado), no como cancelado. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "20239141 KOZENIS 50 MG，Temp. no comerc - Vigente",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）"
+  },
+  {
+   "id": "co-lic-20261125b-tafenoquine-2",
+   "drug": "tafenoquine",
+   "file": "tafenoquine.md",
+   "action": "correct",
+   "claim": "Además, el único registro sanitario en Colombia está cancelado.",
+   "replacement": "Además, su único registro sanitario en Colombia figura como temporalmente no comercializado.",
+   "summary": "«Además, el único registro sanitario en Colombia está cancelado.» → «Además, su único registro sanitario en Colombia figura como…»",
+   "note": "Corregido según los datos del INVIMA: el registro figura como «Temp. no comerc - Vigente» (temporalmente no comercializado), no como cancelado. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "同上；決策理由只改前提",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）"
+  },
+  {
+   "id": "co-lic-20261125b-ziprasidone-1",
+   "drug": "ziprasidone",
+   "file": "ziprasidone.md",
+   "action": "correct",
+   "claim": "Este registro tiene estado **cancelado**.",
+   "replacement": "Este registro figura como **temporalmente no comercializado**.",
+   "summary": "«Este registro tiene estado **cancelado**.» → «Este registro figura como **temporalmente no comercializado**.»",
+   "note": "Corregido según los datos del INVIMA: el registro figura como «Temp. no comerc - Vigente» (temporalmente no comercializado), no como cancelado. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "19922147 GEODON 80 MG，Temp. no comerc - Vigente；程式表狀態欄同",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）"
+  },
+  {
+   "id": "co-lic-20261125b-ziprasidone-2",
+   "drug": "ziprasidone",
+   "file": "ziprasidone.md",
+   "action": "correct",
+   "claim": "el único registro sanitario en Colombia está cancelado y",
+   "replacement": "su único registro sanitario en Colombia figura como temporalmente no comercializado y",
+   "summary": "«el único registro sanitario en Colombia está cancelado y» → «su único registro sanitario en Colombia figura como temporalmente no…»",
+   "note": "Corregido según los datos del INVIMA: el registro figura como «Temp. no comerc - Vigente» (temporalmente no comercializado), no como cancelado. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "同上；決策理由只改前提",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）"
+  },
+  {
+   "id": "co-lic-20261125b-ziprasidone-3",
+   "drug": "ziprasidone",
+   "file": "ziprasidone.md",
+   "action": "correct",
+   "claim": ", ya que el único registro está cancelado",
+   "replacement": ", ya que su único registro figura como temporalmente no comercializado",
+   "summary": "«ya que el único registro está cancelado» → «ya que su único registro figura como temporalmente no comercializado»",
+   "note": "Corregido según los datos del INVIMA: el registro figura como «Temp. no comerc - Vigente» (temporalmente no comercializado), no como cancelado. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "同上；待辦只改前提",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）"
+  },
+  {
+   "id": "co-lic-20261125b-topiramate-1",
+   "drug": "topiramate",
+   "file": "topiramate.md",
+   "action": "correct",
+   "claim": "su único registro sanitario en Colombia (TOPAMAC® 100 mg tabletas) figura",
+   "replacement": "el registro sanitario de TOPAMAC® 100 mg tabletas en Colombia figura",
+   "summary": "«su único registro sanitario en Colombia (TOPAMAC® 100 mg tabletas)…» → «el registro sanitario de TOPAMAC® 100 mg tabletas en Colombia figura»",
+   "note": "Corregido según los datos del INVIMA: topiramato tiene más de un registro sanitario en Colombia, no uno solo. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "事實層 9 張（有效 8、暫時未上市 1）；「único」不成立（同類寬偵測找到）",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）"
+  },
+  {
+   "id": "co-lic-20261125b-fentanyl-1",
+   "drug": "fentanyl",
+   "file": "fentanyl.md",
+   "action": "correct",
+   "claim": "con 6 registros vigentes y",
+   "replacement": "con registros vigentes y",
+   "summary": "«con 6 registros vigentes» → «con registros vigentes»",
+   "note": "Corregido según los datos del INVIMA: la cifra fija ya no coincide con los datos actuales; se eliminó. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "事實層 8 張：有效 7、暫時未上市 1；「6」兩種讀法都不符，count_prose 管不到（同類寬偵測找到）",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第七輪人工查核（用戶決定：待辦與決策理由以「沒有有效登記／登記已註銷、要重新啟用或重新申請」為前提、而本藥其實有有效或暫時未上市的登記的句子，全量掃同類，只拿掉錯的前提，建議內容不動，更正文字不寫張數）"
   }
  ]
 }

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 550
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Rasagiline: nueva indicación predicha, Neurodegeneración asociada a PLA2G6 (nivel de evidencia L5). Indicación original: Rasagilina"
 monitor_inn: "Rasagiline"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"]
@@ -127,12 +127,12 @@ La predicción para neurodegeneración asociada a PLA2G6 tiene un puntaje alto, 
 - Datos detallados del mecanismo de acción
 - Obtención y análisis del prospecto aprobado por INVIMA (advertencias y contraindicaciones)
 - Evaluación de la seguridad en población pediátrica, dado el inicio temprano de la enfermedad
-- Verificación de la situación regulatoria: y habría que solicitar uno nuevo o reactivar el existente
+- Verificación de la situación regulatoria
 - Estudios preclínicos en modelos de neurodegeneración asociada a PLA2G6 antes de considerar estudios clínicos
 
 <!-- review:begin co-lic-20261105-rasagiline-3 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "Verificación de la situación regulatoria: no hay registro vigente y habría que solicitar uno nuevo o reactivar el existente" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-25)**: Texto original: "Verificación de la situación regulatoria: no hay registro vigente y habría que solicitar uno nuevo o reactivar el existente" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25: se quitó también la premisa de reactivar o volver a solicitar el registro (el medicamento cuenta con registros sanitarios vigentes). Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-rasagiline-3 -->
 
@@ -146,7 +146,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "El fabricante es GENEPHARM S.A. Actualmente no hay registros vigentes en Colombia" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "rasagilina no tiene registros sanitarios vigentes en Colombia y" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
-| 2026-11-05 | Eliminado: "no hay registro vigente" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | «Verificación de la situación regulatoria: no hay registro vigente y…» → «Verificación de la situación regulatoria» | Corregido (revisado el 2026-11-25; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

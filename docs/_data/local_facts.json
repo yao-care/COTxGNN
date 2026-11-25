@@ -21,11 +21,11 @@
   "items_current": 2276
  },
  "reviews": {
-  "records": 1550,
-  "pages": 589,
-  "public_pages_with_records": 581,
+  "records": 1587,
+  "pages": 590,
+  "public_pages_with_records": 582,
   "by_action": {
-   "correct": 1106,
+   "correct": 1143,
    "mechanism": 444
   }
  },
@@ -58,7 +58,7 @@
    "l": "L5",
    "lt": 19,
    "lv": 17,
-   "r": 4,
+   "r": 5,
    "i": "rosacea conjunctivitis"
   },
   {
@@ -76,7 +76,7 @@
    "l": "L5",
    "lt": 16,
    "lv": 16,
-   "r": 3,
+   "r": 4,
    "i": "gastroduodenitis"
   },
   {
@@ -159,7 +159,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 0,
-   "r": 1,
+   "r": 2,
    "i": "hypertrichosis (disease)"
   },
   {
@@ -186,7 +186,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 0,
-   "r": 1,
+   "r": 3,
    "i": "Mastocitosis sistémica indolente"
   },
   {
@@ -195,7 +195,7 @@
    "l": "L5",
    "lt": 1,
    "lv": 0,
-   "r": 0,
+   "r": 3,
    "i": "Tricotilomanía"
   }
  ],
@@ -267,197 +267,197 @@
  },
  "recent_reviews": [
   {
-   "t": "Vortioxetine",
-   "u": "/drugs/vortioxetine/",
-   "s": "«Aclarar el motivo de la cancelación del registro 20215225 y evaluar si…» → «Evaluar la vía regulatoria en…",
+   "t": "Ziprasidone",
+   "u": "/drugs/ziprasidone/",
+   "s": "«ya que el único registro está cancelado» → «ya que su único registro figura como temporalmente no…",
    "d": "2026-11-25"
   },
   {
-   "t": "Trimethoprim",
-   "u": "/drugs/trimethoprim/",
-   "s": "«administración, ya que en Colombia solo se registró la forma oral» → «administración»",
+   "t": "Vilanterol",
+   "u": "/drugs/vilanterol/",
+   "s": "Eliminado: «motivo de la cancelación del registro y vías para una nueva solicitud…»",
    "d": "2026-11-25"
   },
   {
-   "t": "Quetiapine",
-   "u": "/drugs/quetiapine/",
-   "s": "«el único registro sanitario colombiano disponible» → «los registros sanitarios colombianos»",
+   "t": "Turoctocog Alfa Pegol",
+   "u": "/drugs/turoctocog-alfa-pegol/",
+   "s": "Eliminado: «(motivo de las cancelaciones)»",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Topotecan",
+   "u": "/drugs/topotecan/",
+   "s": "Eliminado: «reactivación del registro o nuevo registro sanitario para uso en…»",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Topiramate",
+   "u": "/drugs/topiramate/",
+   "s": "«su único registro sanitario en Colombia (TOPAMAC® 100 mg tabletas)…» → «el registro sanitario de TOPAMAC®…",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Tinidazole",
+   "u": "/drugs/tinidazole/",
+   "s": "Eliminado: «Además, no existen registros sanitarios vigentes en Colombia.»",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Tafenoquine",
+   "u": "/drugs/tafenoquine/",
+   "s": "«Además, el único registro sanitario en Colombia está cancelado.» → «Además, su único registro sanitario en…",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Salbutamol",
+   "u": "/drugs/salbutamol/",
+   "s": "Eliminado: «dado que no existen registros vigentes en Colombia»",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Rufinamide",
+   "u": "/drugs/rufinamide/",
+   "s": "«Evaluar la viabilidad de reactivar o tramitar un nuevo registro…» → «Evaluar la compatibilidad»",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Propylthiouracil",
+   "u": "/drugs/propylthiouracil/",
+   "s": "Eliminado: «El fármaco tampoco tiene registro vigente en Colombia.»",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Propofol",
+   "u": "/drugs/propofol/",
+   "s": "«Evaluar la disponibilidad de un producto con registro vigente en…» → «Evaluar la disponibilidad del producto…",
    "d": "2026-11-25"
   },
   {
    "t": "Pirfenidone",
    "u": "/drugs/pirfenidone/",
-   "s": "Eliminado: «8»",
+   "s": "Eliminado: «(motivo de la cancelación y posibilidad de nuevo registro)»",
    "d": "2026-11-25"
   },
   {
    "t": "Paclitaxel",
    "u": "/drugs/paclitaxel/",
-   "s": "Eliminado: «15»",
+   "s": "«Verificar si existen registros vigentes o reactivar/renovar un…» → «Verificar la situación de los registros…",
    "d": "2026-11-25"
   },
   {
-   "t": "Miltefosine",
-   "u": "/drugs/miltefosine/",
-   "s": "«Ambos registros son de producto de un solo principio activo, están vig…» → «Todos los registros son de…",
+   "t": "Oxymetazoline",
+   "u": "/drugs/oxymetazoline/",
+   "s": "Eliminado: «motivo de la cancelación de los registros y si existe algún producto…»",
    "d": "2026-11-25"
   },
   {
-   "t": "Lomitapide",
-   "u": "/drugs/lomitapide/",
-   "s": "«los 9 registros están vigentes (8 de 8)» → «todos los registros sanitarios están vigentes»",
+   "t": "Oxcarbazepine",
+   "u": "/drugs/oxcarbazepine/",
+   "s": "Eliminado: «ver si existe un producto vigente o si se requiere un nuevo registro»",
    "d": "2026-11-25"
   },
   {
-   "t": "Lidocaine",
-   "u": "/drugs/lidocaine/",
-   "s": "«son supositorio, ungüento y crema» → «incluyen formas inyectables, tópicas, bucales, óticas y rectales»",
+   "t": "Olopatadine",
+   "u": "/drugs/olopatadine/",
+   "s": "Eliminado: «o la necesidad de un nuevo registro»",
    "d": "2026-11-25"
   },
   {
-   "t": "Isosorbide Dinitrate",
-   "u": "/drugs/isosorbide-dinitrate/",
-   "s": "«adecuada, ya que la única forma registrada es sublingual» → «adecuada»",
+   "t": "Moxifloxacin",
+   "u": "/drugs/moxifloxacin/",
+   "s": "Eliminado: «Además, no existen registros sanitarios vigentes en Colombia y el…»",
    "d": "2026-11-25"
   },
   {
-   "t": "Iohexol",
-   "u": "/drugs/iohexol/",
-   "s": "«el único registro sanitario en Colombia está vigente (1 licencia válid…» → «sus registros sanitarios en…",
+   "t": "Mometasone",
+   "u": "/drugs/mometasone/",
+   "s": "«y de la viabilidad de un nuevo registro sanitario vigente en Colombia» → «y de la situación regulatoria en…",
    "d": "2026-11-25"
   },
   {
-   "t": "Ibuprofen",
-   "u": "/drugs/ibuprofen/",
-   "s": "«su único registro sanitario corresponde a una suspensión oral pediátri…» → «tiene registros sanitarios en…",
+   "t": "Metoclopramide",
+   "u": "/drugs/metoclopramide/",
+   "s": "Eliminado: «A esto se suman la ausencia de registros vigentes en Colombia y una…»",
    "d": "2026-11-25"
   },
   {
-   "t": "Guaifenesin",
-   "u": "/drugs/guaifenesin/",
-   "s": "«administración (solo se registró forma en jarabe)» → «administración»",
+   "t": "Insulin Degludec",
+   "u": "/drugs/insulin-degludec/",
+   "s": "Eliminado: «confirmar si existe o se puede solicitar un registro sanitario…»",
    "d": "2026-11-25"
   },
   {
-   "t": "Glycine",
-   "u": "/drugs/glycine/",
-   "s": "«(la unica forma registrada es una emulsion inyectable, no apt» → «(las formas registradas son inyectables o…",
+   "t": "Ganirelix",
+   "u": "/drugs/ganirelix/",
+   "s": "«Además, el único registro sanitario en Colombia está cancelado.» → «Además, su único registro sanitario en…",
    "d": "2026-11-25"
   },
   {
-   "t": "Etofenamate",
-   "u": "/drugs/etofenamate/",
-   "s": "«(la presentación registrada es inyectable, mientras que» → «(las presentaciones registradas son solución…",
+   "t": "Fibrinogen Human",
+   "u": "/drugs/fibrinogen-human/",
+   "s": "Eliminado: «El producto tampoco cuenta hoy con registros vigentes en Colombia.»",
    "d": "2026-11-25"
   },
   {
-   "t": "Ethambutol",
-   "u": "/drugs/ethambutol/",
-   "s": "«el producto local tiene su único registro cancelado» → «sus registros sanitarios locales figuran como…",
+   "t": "Fentanyl",
+   "u": "/drugs/fentanyl/",
+   "s": "«con 6 registros vigentes» → «con registros vigentes»",
    "d": "2026-11-25"
   },
   {
-   "t": "Clomipramine",
-   "u": "/drugs/clomipramine/",
-   "s": "«el único registro sanitario colombiano está cancelado» → «sus registros sanitarios en Colombia figuran como…",
+   "t": "Evogliptin",
+   "u": "/drugs/evogliptin/",
+   "s": "Eliminado: «(cancelación del registro)»",
    "d": "2026-11-25"
-  },
-  {
-   "t": "Serine",
-   "u": "/drugs/serine/",
-   "s": "Eliminado: \"cuyo registro está cancelado\"",
-   "d": "2026-11-25"
-  },
-  {
-   "t": "Denosumab",
-   "u": "/drugs/denosumab/",
-   "s": "Eliminado: \"Actualmente no hay registros vigentes en Colombia\"",
-   "d": "2026-11-25"
-  },
-  {
-   "t": "Triptorelin",
-   "u": "/drugs/triptorelin/",
-   "s": "Eliminado: \"Los registros mostrados pueden ser una lista parcial.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Theophylline",
-   "u": "/drugs/theophylline/",
-   "s": "Eliminado: \"La lista de registros puede ser parcial.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Terbutaline",
-   "u": "/drugs/terbutaline/",
-   "s": "Eliminado: \"La lista de registros puede ser parcial.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Temozolomide",
-   "u": "/drugs/temozolomide/",
-   "s": "Eliminado: \"La lista puede ser parcial.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Sunitinib",
-   "u": "/drugs/sunitinib/",
-   "s": "Eliminado: \"Los cuatro registros pertenecen a HB Human Bioscience S.A.S.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Sirolimus",
-   "u": "/drugs/sirolimus/",
-   "s": "Eliminado: \"La lista de registros puede ser parcial.\"",
-   "d": "2026-11-24"
   }
  ],
  "recent_licence_reviews": [
   {
-   "t": "Vortioxetine",
-   "u": "/drugs/vortioxetine/",
-   "s": "«Aclarar el motivo de la cancelación del registro 20215225 y evaluar si…» → «Evaluar la vía regulatoria en…",
+   "t": "Ziprasidone",
+   "u": "/drugs/ziprasidone/",
+   "s": "«ya que el único registro está cancelado» → «ya que su único registro figura como temporalmente no…",
    "d": "2026-11-25"
   },
   {
-   "t": "Trimethoprim",
-   "u": "/drugs/trimethoprim/",
-   "s": "«administración, ya que en Colombia solo se registró la forma oral» → «administración»",
+   "t": "Vilanterol",
+   "u": "/drugs/vilanterol/",
+   "s": "Eliminado: «motivo de la cancelación del registro y vías para una nueva solicitud…»",
    "d": "2026-11-25"
   },
   {
-   "t": "Quetiapine",
-   "u": "/drugs/quetiapine/",
-   "s": "«el único registro sanitario colombiano disponible» → «los registros sanitarios colombianos»",
+   "t": "Turoctocog Alfa Pegol",
+   "u": "/drugs/turoctocog-alfa-pegol/",
+   "s": "Eliminado: «(motivo de las cancelaciones)»",
    "d": "2026-11-25"
   },
   {
-   "t": "Pirfenidone",
-   "u": "/drugs/pirfenidone/",
-   "s": "Eliminado: «8»",
+   "t": "Topotecan",
+   "u": "/drugs/topotecan/",
+   "s": "Eliminado: «reactivación del registro o nuevo registro sanitario para uso en…»",
    "d": "2026-11-25"
   },
   {
-   "t": "Paclitaxel",
-   "u": "/drugs/paclitaxel/",
-   "s": "Eliminado: «15»",
+   "t": "Topiramate",
+   "u": "/drugs/topiramate/",
+   "s": "«su único registro sanitario en Colombia (TOPAMAC® 100 mg tabletas)…» → «el registro sanitario de TOPAMAC®…",
    "d": "2026-11-25"
   },
   {
-   "t": "Miltefosine",
-   "u": "/drugs/miltefosine/",
-   "s": "«Ambos registros son de producto de un solo principio activo, están vig…» → «Todos los registros son de…",
+   "t": "Tinidazole",
+   "u": "/drugs/tinidazole/",
+   "s": "Eliminado: «Además, no existen registros sanitarios vigentes en Colombia.»",
    "d": "2026-11-25"
   },
   {
-   "t": "Lomitapide",
-   "u": "/drugs/lomitapide/",
-   "s": "«los 9 registros están vigentes (8 de 8)» → «todos los registros sanitarios están vigentes»",
+   "t": "Tafenoquine",
+   "u": "/drugs/tafenoquine/",
+   "s": "«Además, el único registro sanitario en Colombia está cancelado.» → «Además, su único registro sanitario en…",
    "d": "2026-11-25"
   },
   {
-   "t": "Lidocaine",
-   "u": "/drugs/lidocaine/",
-   "s": "«son supositorio, ungüento y crema» → «incluyen formas inyectables, tópicas, bucales, óticas y rectales»",
+   "t": "Salbutamol",
+   "u": "/drugs/salbutamol/",
+   "s": "Eliminado: «dado que no existen registros vigentes en Colombia»",
    "d": "2026-11-25"
   }
  ],

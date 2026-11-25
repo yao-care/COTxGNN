@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 669
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "ziprasidone"
 predicted_indications: ["trichotillomania", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "retinal dystrophy with or without extraocular anomalies", "Tourette syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "syndromic myopia"]
 description: "Ziprasidone: nueva indicación predicha, Tricotilomanía (trichotillomania) (nivel de evidencia L5). En Colombia, registros sanitarios del INVIMA: 1 (vigentes: 0; además, temporalmente no comercializados: 1)"
@@ -91,7 +91,13 @@ Se muestra el único registro sanitario de este principio activo en los datos de
 
 <!-- licenses:end -->
 
-Este registro tiene estado **cancelado**. Actualmente no hay registros vigentes de ziprasidona en los datos consultados.
+Este registro figura como **temporalmente no comercializado**. Actualmente no hay registros vigentes de ziprasidona en los datos consultados.
+
+<!-- review:begin co-lic-20261125b-ziprasidone-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "Este registro tiene estado **cancelado**." Corregido según los datos del INVIMA: el registro figura como «Temp. no comerc - Vigente» (temporalmente no comercializado), no como cancelado. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-ziprasidone-1 -->
 
 ---
 
@@ -115,15 +121,42 @@ Consultar el prospecto para la información de seguridad detallada.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción tiene un puntaje alto (0.9983), pero no hay ensayos clínicos ni literatura que la respalden (nivel L5). Además, el único registro sanitario en Colombia está cancelado y existen alertas de seguridad cardiometabólica relevantes.
+La predicción tiene un puntaje alto (0.9983), pero no hay ensayos clínicos ni literatura que la respalden (nivel L5). Además, su único registro sanitario en Colombia figura como temporalmente no comercializado y existen alertas de seguridad cardiometabólica relevantes.
+
+<!-- review:begin co-lic-20261125b-ziprasidone-2 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "el único registro sanitario en Colombia está cancelado y" Corregido según los datos del INVIMA: el registro figura como «Temp. no comerc - Vigente» (temporalmente no comercializado), no como cancelado. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-ziprasidone-2 -->
 
 **Para avanzar se necesita:**
 - Revisión sistemática de la literatura sobre antipsicóticos atípicos en tricotilomanía y trastornos de conductas repetitivas, y su comparación con las opciones terapéuticas establecidas.
 - Datos detallados del mecanismo de acción y del prospecto (advertencias y contraindicaciones oficiales).
 - Evaluación del riesgo cardíaco (QT) y metabólico para la población objetivo, que incluye niños y adolescentes.
-- Aclarar la situación regulatoria en Colombia, ya que el único registro está cancelado.
+- Aclarar la situación regulatoria en Colombia, ya que su único registro figura como temporalmente no comercializado.
+
+<!-- review:begin co-lic-20261125b-ziprasidone-3 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: ", ya que el único registro está cancelado" Corregido según los datos del INVIMA: el registro figura como «Temp. no comerc - Vigente» (temporalmente no comercializado), no como cancelado. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-ziprasidone-3 -->
 
 **Nota:** dentro de las predicciones de ziprasidona hay candidatos con respaldo clínico bastante mayor que la tricotilomanía. Son el **trastorno afectivo mayor** (nivel L2, con varios ensayos de Fase 2, incluido uno controlado con placebo en 120 pacientes con depresión mayor) y el **síndrome de Tourette** (nivel L3, con un estudio piloto pediátrico y revisiones). Si el objetivo es priorizar recursos, conviene evaluarlos antes que la tricotilomanía.
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-25 | «Este registro tiene estado **cancelado**.» → «Este registro figura como **temporalmente no comercializado**.» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | «el único registro sanitario en Colombia está cancelado y» → «su único registro sanitario en Colombia figura como temporalmente no…» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | «ya que el único registro está cancelado» → «ya que su único registro figura como temporalmente no comercializado» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 632
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "topotecan"
 predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
 description: "Topotecan: nueva indicación predicha, Carcinoma de mama femenino (female breast carcinoma) (nivel de evidencia L5). Indicación original: TOPOTECAN"
@@ -149,9 +149,15 @@ La evidencia para cáncer de mama es de nivel L3: los ensayos son de fase tempra
 - Obtener y analizar el prospecto del registro (advertencias y contraindicaciones), ya que su ausencia impide el tamizaje de seguridad.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Ensayos de fase 2/3 con topotecan en cáncer de mama, idealmente en subgrupos con amplificación de MYC o triple negativo.
-- Aclarar la situación regulatoria: reactivación del registro o nuevo registro sanitario para uso en Colombia.
+- Aclarar la situación regulatoria para uso en Colombia.
 - Evaluar el impacto de la resistencia mediada por BCRP/ABCG2.
 - Plan de monitoreo hematológico dada la alta mielosupresión.
+
+<!-- review:begin co-lic-20261125b-topotecan-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: ": reactivación del registro o nuevo registro sanitario para uso en Colombia" Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-topotecan-1 -->
 
 <!-- review:begin log -->
 
@@ -163,6 +169,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado y" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Hycamtin (topotecan) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b23b46f5-c276-47f5-8bbd-940680b3f579) |
+| 2026-11-25 | Eliminado: «reactivación del registro o nuevo registro sanitario para uso en…» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

@@ -149,7 +149,13 @@ La predicción principal tiene un puntaje alto en TxGNN, pero no cuenta con ensa
 - Revisar la literatura sobre respuesta a levodopa en la distonía-parkinsonismo por PLA2G6.
 - Evaluar, como línea con mayor sustento biológico, la demencia con cuerpos de Lewy (L4) y el parkinsonismo juvenil, antes que las demás predicciones.
 - Si se avanza, diseñar estudios preclínicos o series de casos con un plan de monitoreo de seguridad (cardiovascular, hepático y psiquiátrico).
-- Confirmar la situación regulatoria: la ausencia de registros vigentes condiciona cualquier ruta de acceso local.
+- Confirmar la situación regulatoria.
+
+<!-- review:begin co-lic-20261125b-entacapone-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: ": la ausencia de registros vigentes condiciona cualquier ruta de acceso local" Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-entacapone-1 -->
 
 <!-- review:begin log -->
 
@@ -161,6 +167,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "El único registro está cancelado, por lo que actualmente no hay presentaciones vigentes en el mercado colombiano" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "No hay registros vigentes en Colombia" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | Eliminado: «la ausencia de registros vigentes condiciona cualquier ruta de acceso…» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 631
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Topiramate: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: Topiramato"
 monitor_inn: "Topiramate"
 predicted_indications: ["trigeminal nerve neoplasm"]
@@ -38,9 +38,15 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **1**
 
 ## Resumen en Una Frase
 
-Topiramato es un fármaco antiepiléptico de amplio espectro; su único registro sanitario en Colombia (TOPAMAC® 100 mg tabletas) figura solo con el nombre del principio activo, sin una indicación detallada.
+Topiramato es un fármaco antiepiléptico de amplio espectro; el registro sanitario de TOPAMAC® 100 mg tabletas en Colombia figura solo con el nombre del principio activo, sin una indicación detallada.
 El modelo TxGNN predice que podría ser efectivo para **neoplasia del nervio trigémino** (puntaje 0.9970), pero para esta predicción **no se encontraron ensayos clínicos ni publicaciones**; se trata únicamente de una predicción del modelo.
 Entre las demás predicciones, las que tienen más respaldo son subtipos de epilepsia (por ejemplo, convulsiones inducidas por el pensamiento), que se comentan más abajo.
+
+<!-- review:begin co-lic-20261125b-topiramate-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "su único registro sanitario en Colombia (TOPAMAC® 100 mg tabletas) figura" Corregido según los datos del INVIMA: topiramato tiene más de un registro sanitario en Colombia, no uno solo. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-topiramate-1 -->
 
 ---
 
@@ -166,6 +172,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "El único registro encontrado (Janssen Cilag S.A.) está cancelado, por lo que no hay registro vigente en los datos compilados" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Trokendi Xr (topiramate) prescribing information, Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc7957e-a3e5-46bb-aa66-f3250f872f5e) |
+| 2026-11-25 | «su único registro sanitario en Colombia (TOPAMAC® 100 mg tabletas)…» → «el registro sanitario de TOPAMAC® 100 mg tabletas en Colombia figura» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 438
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Metoclopramide: nueva indicación predicha, Gastroduodenitis (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \"METOCL…"
 monitor_inn: "metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
@@ -130,7 +130,13 @@ Nota importante: la contraindicación por úlcera péptica activa figura en el g
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia se limita al nivel L4: un único ensayo de uso procedimental y literatura mayormente indirecta, sin demostración de efecto cicatrizante ni antisecretor. A esto se suman la ausencia de registros vigentes en Colombia y una señal de contraindicación en úlcera péptica activa.
+La evidencia se limita al nivel L4: un único ensayo de uso procedimental y literatura mayormente indirecta, sin demostración de efecto cicatrizante ni antisecretor. A esto se suma una señal de contraindicación en úlcera péptica activa.
+
+<!-- review:begin co-lic-20261125b-metoclopramide-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "A esto se suman la ausencia de registros vigentes en Colombia y una señal" Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-metoclopramide-1 -->
 
 **Para avanzar se necesita:**
 - Obtener y analizar el prospecto (advertencias y contraindicaciones oficiales), ya que esta información falta y bloquea el análisis de seguridad.
@@ -156,6 +162,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "Los cuatro registros están cancelados; actualmente no hay registros vigentes" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Confirmar la situación regulatoria: los registros están cancelados, por lo que cualquier uso requeriría un nuevo trámite ante INVIMA" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Reglan (metoclopramide hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de55c133-eb08-4a35-91a2-5dc093027397) |
+| 2026-11-25 | Eliminado: «A esto se suman la ausencia de registros vigentes en Colombia y una…» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

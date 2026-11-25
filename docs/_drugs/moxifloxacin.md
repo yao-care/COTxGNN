@@ -107,7 +107,13 @@ Se muestran 5 de 19 registros sanitarios de este principio activo en los datos d
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para síndrome de hiperviscosidad policlonal es solo un resultado del modelo (L5), sin ensayos ni literatura, y sin mecanismo plausible. Además, no existen registros sanitarios vigentes en Colombia y el perfil de seguridad del fármaco es considerable.
+La predicción para síndrome de hiperviscosidad policlonal es solo un resultado del modelo (L5), sin ensayos ni literatura, y sin mecanismo plausible. Además, el perfil de seguridad del fármaco es considerable.
+
+<!-- review:begin co-lic-20261125b-moxifloxacin-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "Además, no existen registros sanitarios vigentes en Colombia y el perfil" Corregido según los datos del INVIMA: el medicamento cuenta con registros sanitarios vigentes; se quitó la premisa de que no hay registros vigentes o de que habría que reactivar o volver a solicitar el registro. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125b-moxifloxacin-1 -->
 
 **Para avanzar se necesita:**
 - Obtener el prospecto del INVIMA para completar advertencias y contraindicaciones oficiales (brecha bloqueante).
@@ -130,6 +136,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-10-31 | Eliminado: "Confirmar la situación regulatoria (registros cancelados) antes de cualquier desarrollo en Colombia" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Moxifloxacin (moxifloxacin hydrochloride) prescribing information, Kesin Pharma Corportation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5a6d3ff1-e853-a3d8-e063-6394a90a18f5) |
+| 2026-11-25 | Eliminado: «Además, no existen registros sanitarios vigentes en Colombia y el…» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 
