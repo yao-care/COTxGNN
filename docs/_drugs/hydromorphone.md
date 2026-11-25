@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "hydromorphone"
 predicted_indications: ["pharyngitis", "allergic urticaria", "nasal cavity disease", "acute laryngopharyngitis", "headache disorder", "trigeminal autonomic cephalalgia"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Hydromorphone: nueva indicación predicha, faringitis (pharyngitis) (nivel de evidencia L5). Indicación original: HIDROMORFONA"
 ---
 
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser útil para **faringitis (pharyngitis)**,
 | Nueva Indicación Predicha | faringitis (pharyngitis) |
 | Puntaje de Predicción TxGNN | 0,9981 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
-| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -77,8 +77,9 @@ El puntaje de 0,9981 es una predicción computacional, no evidencia clínica. Ad
 |---------|------|------|------|------|
 | 19989418 | HIDROMORFONA CLORHIDRATO 2.5 MG TABLETAS | TABLETA | HIDROMORFONA | Vigente |
 | 20008612 | HIDROMORFONA CLORHIDRATO 2 MG/ML | SOLUCION INYECTABLE | HIDROMORFONA | Vigente |
+| 20132766 | HIDROMORFONA CLORHIDRATO 5 MG TABLETA | TABLETA | HIDROMORFONA | Temp. no comerc - Vigente |
 
-Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

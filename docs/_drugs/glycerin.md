@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 318
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "glycerin"
 predicted_indications: ["cauda equina syndrome", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia", "congenital hypotrichosis milia", "irritable bowel syndrome", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "migraine disorder", "migraine with brainstem aura"]
 description: "Glycerin: nueva indicación predicha, Síndrome de la cauda equina (cauda equina syndrome) (nivel de evidencia L5). Indicación original: LAGRIMAS ARTIFICIALES Y OTRAS PREPARACIONES INDIFERENTES"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectiva para el **síndrome de la cauda
 | Nueva Indicación Predicha | Síndrome de la cauda equina (cauda equina syndrome) |
 | Puntaje de Predicción TxGNN | 0.9960 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 10 de 12) |
-| Número de Registros Sanitarios | 12 (vigentes: 10) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 11 de 13) |
+| Número de Registros Sanitarios | 13 (vigentes: 11) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -99,7 +99,7 @@ Actualmente no hay literatura relacionada disponible.
 | 20086613 | OPTIVE FUSION® | SOLUCION OFTALMICA | LAGRIMAS ARTIFICIALES Y OTRAS PREPARACIONES INDIFERENTES | Vigente |
 | 20104677 | OPTIVE FUSION® UD | SOLUCION OFTALMICA | LAGRIMAS ARTIFICIALES Y OTRAS PREPARACIONES INDIFERENTES | Vigente |
 
-Se muestran 5 de 12 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 
@@ -118,7 +118,7 @@ Para advertencias y contraindicaciones, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para el síndrome de la cauda equina se basa únicamente en el modelo (L5), sin ensayos clínicos, sin literatura y sin un mecanismo plausible. Además, el medicamento está comercializado en Colombia y cuenta con 10 registros sanitarios vigentes.
+La predicción para el síndrome de la cauda equina se basa únicamente en el modelo (L5), sin ensayos clínicos, sin literatura y sin un mecanismo plausible. Además, el medicamento está comercializado en Colombia y cuenta con 11 registros sanitarios vigentes.
 
 **Para avanzar se necesita:**
 - Obtener el prospecto de INVIMA para completar el análisis de advertencias y contraindicaciones

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 524
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Posaconazole: nueva indicación predicha, Neumocistosis (nivel de evidencia L5). Indicación original: No especificada en detalle"
 monitor_inn: "posaconazole"
 predicted_indications: ["pneumocystosis"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **neumocistosis**, pero la
 | Nueva Indicación Predicha | Neumocistosis |
 | Puntaje de Predicción TxGNN | 0.9977 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
-| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -95,8 +95,9 @@ Como referencia, el tratamiento de primera línea de la neumocistosis es trimeto
 |---------|------|------|------|------|
 | 20064520 | NOXAFIL ® TABLETAS RECUBIERTAS DE LIBERACIÓN RETARDADA | TABLETA DE LIBERACION RETARDADA | POSACONAZOL | Vigente |
 | 20195133 | POSACONAZOL 100 MG TABLETAS GASTRORRESISTENTES | TABLETA DE LIBERACION RETARDADA | POSACONAZOL | Vigente |
+| 20263473 | POZASANA® 100 MG TABLETA DE LIBERACIÓN RETARDADA | TABLETA DE LIBERACION RETARDADA | POSACONAZOL | Vigente |
 
-Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

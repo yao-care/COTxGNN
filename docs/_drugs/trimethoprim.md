@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 646
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Trimethoprim: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (nivel de evidencia L5). Indicación original: Sulfametoxazol y trimetoprim (combinación antibacteriana)"
 monitor_inn: "Trimethoprim"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
@@ -140,7 +140,13 @@ La predicción no tiene respaldo de ensayos clínicos ni de literatura (nivel L5
 **Para avanzar se necesita:**
 - Revisar la literatura sobre la etiología de la queratoconjuntivitis epitelial punteada y determinar si existe un subtipo bacteriano tratable con trimetoprima.
 - Obtener datos del mecanismo de acción y las advertencias y contraindicaciones del prospecto (INVIMA), que no están disponibles actualmente.
-- Evaluar la viabilidad de una formulación oftálmica y su vía de administración, ya que en Colombia solo se registró la forma oral.
+- Evaluar la viabilidad de una formulación oftálmica y su vía de administración.
+
+<!-- review:begin co-lic-20261125-trimethoprim-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "Evaluar la viabilidad de una formulación oftálmica y su vía de administración, ya que en Colombia solo se registró la forma oral." Eliminado: en Colombia hay también registros inyectables y un ungüento oftálmico con trimetoprima; se quitó la premisa. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125-trimethoprim-1 -->
 
 <!-- review:begin log -->
 
@@ -153,6 +159,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-24 | Eliminado: "No hay registros vigentes" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: trimethoprim prescribing information, SQUARE PHARMACEUTICALS PLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53ccf1b-315f-4454-824e-f69769908597) |
+| 2026-11-25 | «administración, ya que en Colombia solo se registró la forma oral» → «administración» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

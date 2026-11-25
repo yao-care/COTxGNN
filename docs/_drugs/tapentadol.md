@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 606
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Tapentadol: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: Tapentadol"
 monitor_inn: "tapentadol"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -52,8 +52,8 @@ La predicción se basa únicamente en el modelo computacional.
 | Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
 | Puntaje de Predicción TxGNN | 0.9967 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 8 de 8) |
-| Número de Registros Sanitarios | 8 (vigentes: 8) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 8 de 9) |
+| Número de Registros Sanitarios | 9 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -103,7 +103,7 @@ Para la predicción principal (trastorno de migraña) no hay literatura disponib
 | 20049946 | PALEXIS ® 50 MG. | TABLETA RECUBIERTA | TAPENTADOL | Vigente |
 | 20052257 | PALEXIS® RETARD 25MG | TABLETA DE LIBERACION PROLONGADA | TAPENTADOL | Vigente |
 
-Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 9 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

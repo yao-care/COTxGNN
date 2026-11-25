@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 633
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Trabectedin: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L5). Indicación original: Trabectedina"
 monitor_inn: "trabectedin"
 predicted_indications: ["female breast carcinoma"]
@@ -56,8 +56,8 @@ Trabectedina es un agente antitumoral de origen marino, registrado en Colombia b
 | Nueva Indicación Predicha | Carcinoma de mama femenino |
 | Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -104,8 +104,9 @@ Conviene aclarar que este vínculo se apoya en publicaciones y no en datos estru
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
 |---------|------|------|------|------|
 | 19997476 | YONDELIS® 1MG POLVO LIOFILIZADO PARA INYECCIÓN | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | TRABECTEDIN | Vigente |
+| 20295654 | OSIMERTYK® 1MG POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCIÓN INYECTABLE | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | TRABECTEDIN | Vigente |
 
-Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

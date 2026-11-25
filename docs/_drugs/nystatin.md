@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 474
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Nystatin"
 predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
 description: "Nystatin: nueva indicación predicha, Enfermedad de la región orbitaria (disease of orbital region) (nivel de evidencia L5). Indicación original: COMBINACIONES DE IMIDAZOL DERIVADOS"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectiva para **enfermedad de la región
 | Nueva Indicación Predicha | Enfermedad de la región orbitaria (disease of orbital region) |
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 18 de 19) |
-| Número de Registros Sanitarios | 19 (vigentes: 18) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 18) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -81,7 +81,7 @@ Actualmente no hay literatura relacionada disponible.
 | 19997076 | NISTATINA100.000 UI/ML SUSPENSION | SUSPENSION ORAL | NISTATINA | Vigente |
 | 19999393 | INSTACALM CREMA | CREMA TOPICA | COMBINACIONES | Vigente |
 
-Se muestran 5 de 19 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
 
 <!-- licenses:end -->
 

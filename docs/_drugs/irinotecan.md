@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 356
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Irinotecan: nueva indicación predicha, Carcinoma de mama femenino (nivel de evidencia L5). Indicación original: IRINOTECAN"
 monitor_inn: "IRINOTECAN"
 predicted_indications: ["female breast carcinoma"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **carcinoma de mama femeni
 | Nueva Indicación Predicha | Carcinoma de mama femenino |
 | Puntaje de Predicción TxGNN | 0.9908 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 6) |
-| Número de Registros Sanitarios | 6 (vigentes: 6) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 7) |
+| Número de Registros Sanitarios | 7 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -112,7 +112,7 @@ Sin embargo, esa evidencia proviene del conjugado y no del irinotecan libre. Los
 | 20053624 | IRINOTECAN CLORHIDRATO INYECTABLE 100 MG / 5 ML | SOLUCION INYECTABLE | IRINOTECAN | Vigente |
 | 20141121 | ROTECAN100 MG/5 ML SOLUCIÓN INYECTABLE | SOLUCION INYECTABLE | IRINOTECAN | Vigente |
 
-Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 7 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

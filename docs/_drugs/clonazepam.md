@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 172
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Clonazepam: nueva indicación predicha, Síndrome de piernas inquietas (nivel de evidencia L3). Indicación original: No especificada"
 monitor_inn: "CLONAZEPAM"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de piernas 
 | Nueva Indicación Predicha | Síndrome de piernas inquietas |
 | Puntaje de Predicción TxGNN | 0.9965 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 8 de 8) |
-| Número de Registros Sanitarios | 8 (vigentes: 8) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 8 de 11) |
+| Número de Registros Sanitarios | 11 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -102,7 +102,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 19954442 | SEDATRIL® 2 MG | TABLETA | CLONAZEPAM | Vigente |
 | 20051145 | SEDATRIL®SOLUCION ORAL | SOLUCION ORAL | CLONAZEPAM | Vigente |
 
-Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 11 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

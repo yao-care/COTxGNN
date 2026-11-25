@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 597
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Sulfasalazine"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
 description: "Sulfasalazine: nueva indicación predicha, Brachydactyly-syndactyly syndrome (nivel de evidencia L5). Indicación original: SULFASALAZINA"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **osteoartritis** (puntaje
 | Nueva Indicación Predicha | Brachydactyly-syndactyly syndrome |
 | Puntaje de Predicción TxGNN | 0.9994 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 4) |
-| Número de Registros Sanitarios | 4 (vigentes: 3) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 **Nota sobre la selección de la indicación:** la predicción de mayor rango (rank 1) es el síndrome de braquidactilia-sindactilia, con evidencia L5 y sin ningún vínculo mecanístico plausible. Este informe se centra en la osteoartritis, la primera predicción con evidencia real y un mecanismo verosímil. Las demás predicciones del top 10 son enfermedades congénitas raras sin evidencia (L5).
@@ -100,8 +100,9 @@ Se muestran las publicaciones más relevantes para la predicción (se excluyen t
 | 20026114 | SALAZIN® | TABLETA DE LIBERACION RETARDADA | SULFASALAZINA | Vigente |
 | 20168960 | SULFASALAZINA 500 MG TABLETA CON CUBIERTA ENTÉRICA | TABLETA CON CUBIERTA ENTERICA(GRAGEA) | SULFASALAZINA | Vigente |
 | 201145 | ROSULFANT® 500 MG | TABLETA CON RECUBRIMIENTO ENTÉRICO | SULFASALAZINA | Temp. no comerc - Vigente |
+| 20077756 | SULFASALAZINA GRAGEAS | TABLETA CON CUBIERTA ENTERICA(GRAGEA) | SULFASALAZINA | Temp. no comercializado - En Trámite Renov |
 
-Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

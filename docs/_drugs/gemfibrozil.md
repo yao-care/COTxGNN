@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 312
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Gemfibrozil: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L4). Indicación original: GEMFIBROZIL"
 monitor_inn: "gemfibrozil"
 predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", "HIV infectious disease", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "methemoglobinemia, alpha type", "sclerosing cholangitis", "methemoglobin reductase deficiency"]
@@ -50,8 +50,8 @@ Gemfibrozilo es un fibrato (agonista de PPAR-alfa) registrado en Colombia bajo e
 | Nueva Indicación Predicha | Artritis reumatoide |
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 10 de 10) |
-| Número de Registros Sanitarios | 10 (vigentes: 10) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 11 de 11) |
+| Número de Registros Sanitarios | 11 (vigentes: 11) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -95,7 +95,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 20008573 | STOLIP TABLETAS | TABLETA RECUBIERTA | GEMFIBROZIL | Vigente |
 | 225194 | GEMFIBROZILO 900 MG | TABLETA RECUBIERTA | GEMFIBROZIL | Vigente |
 
-Se muestran 5 de 10 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 11 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

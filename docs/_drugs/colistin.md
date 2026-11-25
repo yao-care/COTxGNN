@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "colistin"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "infective urethral stricture", "paratyphoid fever", "sinusitis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Colistin: nueva indicación predicha, vasculitis postinfecciosa (postinfectious vasculitis) (nivel de evidencia L5). Indicación original: HIDROCORTISONA Y ANTIINFECCIOSOS"
 ---
 
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **vasculitis postinfeccios
 | Nueva Indicación Predicha | vasculitis postinfecciosa (postinfectious vasculitis) |
 | Puntaje de Predicción TxGNN | 0,9991 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
-| Número de Registros Sanitarios | 4 (vigentes: 4) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -79,8 +79,9 @@ Actualmente no hay literatura relacionada disponible.
 | 20033548 | FIXAMICIN® GOTAS OTICAS | SUSPENSION OTICA | HIDROCORTISONA Y ANTIINFECCIOSOS | Vigente |
 | 20068056 | COLISTIMETATO 150MG/VIAL | POLVO | COLISTINA | Vigente |
 | 20148396 | COLIJECT ® 150 MG / VIAL | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | COLISTINA | Vigente |
+| 20013455 | COLISTINA SULFATO+HIDROCORTISONA ACETATO+NEOMICINA SULFATO | SUSPENSION OTICA | HIDROCORTISONA Y ANTIINFECCIOSOS | Temp. no comerc - Vigente |
 
-Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

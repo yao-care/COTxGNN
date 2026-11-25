@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "diazoxide"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Diazoxide: nueva indicación predicha, hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). Indicación original: DIAZOXIDO"
 ---
 
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser útil para **hipotricosis simple del cue
 | Nueva Indicación Predicha | hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) |
 | Puntaje de Predicción TxGNN | 0,9996 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
-| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -79,8 +79,9 @@ Como contexto indirecto, se recuperaron publicaciones sobre alopecia en general 
 |---------|------|------|------|------|
 | 20126583 | DIAZOXIUS® 50 MG/ML SUSPENSION ORAL | SUSPENSION ORAL | DIAZOXIDO | Vigente |
 | 20177313 | AZOXID® 50 MG/ML SUSPENSION ORAL | SUSPENSION ORAL | DIAZOXIDO | Vigente |
+| 20167597 | UPGLYCEM® 50 MG/ML. SUSPENSIÓN ORAL | SUSPENSION ORAL | DIAZOXIDO | Temp. no comerc - Vigente |
 
-Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

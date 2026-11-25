@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 112
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Bosentan: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L4). Indicación original: BOSENTAN"
 monitor_inn: "BOSENTAN"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, p
 | Nueva Indicación Predicha | Artritis reumatoide |
 | Puntaje de Predicción TxGNN | 0.9980 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 13 de 14) |
-| Número de Registros Sanitarios | 14 (vigentes: 13) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 13 de 15) |
+| Número de Registros Sanitarios | 15 (vigentes: 13) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -99,7 +99,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 20072694 | BOSENTAN 125 | TABLETA RECUBIERTA | BOSENTAN | Vigente |
 | 20072696 | BOSENTAN 62.5 MG | TABLETA RECUBIERTA | BOSENTAN | Vigente |
 
-Se muestran 5 de 14 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 15 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

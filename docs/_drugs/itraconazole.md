@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 361
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Itraconazole: nueva indicación predicha, Neumocistosis (nivel de evidencia L5). Indicación original: ITRACONAZOL"
 monitor_inn: "Itraconazole"
 predicted_indications: ["pneumocystosis"]
@@ -57,8 +57,8 @@ El modelo TxGNN predice que podría ser efectivo para **neumocistosis**, con un 
 | Nueva Indicación Predicha | Neumocistosis |
 | Puntaje de Predicción TxGNN | 0.9934 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 5) |
-| Número de Registros Sanitarios | 5 (vigentes: 5) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 7) |
+| Número de Registros Sanitarios | 7 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -110,7 +110,7 @@ Las publicaciones son en su mayoría revisiones y series de casos sobre infeccio
 | 20095994 | FUNGITRAL® 1G/100 ML | SOLUCION ORAL | ITRACONAZOL | Vigente |
 | 20122550 | ITRACONAZOL 10 MG/ ML | SOLUCION ORAL | ITRACONAZOL | Vigente |
 
-Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 7 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

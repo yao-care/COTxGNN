@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 281
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Fentanyl: nueva indicación predicha, Síndrome nefrogénico de antidiuresis inapropiada (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto aprobado solo indica \"Fent…"
 monitor_inn: "fentanyl"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome nefrogénic
 | Nueva Indicación Predicha | Síndrome nefrogénico de antidiuresis inapropiada |
 | Puntaje de Predicción TxGNN | 0.9946 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 6) |
-| Número de Registros Sanitarios | 6 (vigentes: 6) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 7 de 8) |
+| Número de Registros Sanitarios | 8 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -91,7 +91,7 @@ Actualmente no hay literatura relacionada disponible.
 | 20030910 | FENTANILO 500 MCG/10 ML | SOLUCION INYECTABLE | FENTANYL | Vigente |
 | 20079574 | FENTANILO 0.5/10ML | SOLUCION INYECTABLE | FENTANYL | Vigente |
 
-Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

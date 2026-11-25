@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 533
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Prilocaine: nueva indicación predicha, Conjuntivitis papilar (nivel de evidencia L5). Indicación original: Lidocaína combinaciones (anestesia local)"
 monitor_inn: "prilocaine"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectiva para **conjuntivitis papilar**,
 | Nueva Indicación Predicha | Conjuntivitis papilar |
 | Puntaje de Predicción TxGNN | 0.9978 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
-| Número de Registros Sanitarios | 3 (vigentes: 3) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -88,8 +88,9 @@ Actualmente no hay literatura relacionada disponible.
 | 20023782 | PRESTIGE® PRILOCAINA CLORHIDRATO AL 4% | SOLUCION INYECTABLE | PRILOCAINA | Vigente |
 | 20227791 | PRILOTEKAL® | SOLUCION INYECTABLE | PRILOCAINA | Vigente |
 | 218965 | ANESTECIN® CREMA | CREMA TOPICA | LIDOCAINA COMBINACIONES | Vigente |
+| 20231452 | EMLA® CREMA | CREMA TOPICA | LIDOCAINA COMBINACIONES | Vigente |
 
-Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 
@@ -113,7 +114,7 @@ El texto de advertencias y contraindicaciones del prospecto de INVIMA no está d
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para conjuntivitis papilar (0.9978) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. No hay un mecanismo plausible que la sustente y el uso ocular de anestésicos locales implica riesgo de toxicidad corneal. El medicamento está comercializado y cuenta con 3 registros sanitarios vigentes.
+La predicción para conjuntivitis papilar (0.9978) proviene del modelo TxGNN (deep learning) y puede reflejar similitudes que el modelo aprendió entre enfermedades relacionadas, no evidencia biológica. No hay un mecanismo plausible que la sustente y el uso ocular de anestésicos locales implica riesgo de toxicidad corneal. El medicamento está comercializado y cuenta con 4 registros sanitarios vigentes.
 
 **Para avanzar se necesita:**
 - Datos detallados del mecanismo de acción y un análisis mecanístico que justifique un posible efecto en la inflamación alérgica ocular.

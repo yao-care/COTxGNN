@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 590
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "sorafenib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "female breast carcinoma", "renal pelvis carcinoma", "vulva sarcoma", "dermatofibrosarcoma protuberans"]
 description: "Sorafenib: nueva indicación predicha, Liposarcoma (nivel de evidencia L5). Indicación original: SORAFENIB"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **liposarcoma (liposarcoma
 | Nueva Indicación Predicha | Liposarcoma |
 | Puntaje de Predicción TxGNN | 0.9982 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 3) |
-| Número de Registros Sanitarios | 3 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -86,9 +86,10 @@ Por ello la predicción es mecanísticamente plausible, pero sigue siendo una hi
 |---------|------|------|------|------|
 | 19971195 | NEXAVAR ® 200MG | TABLETA CUBIERTA CON PELICULA | SORAFENIB | Vigente |
 | 20227759 | SAFINAR® | TABLETA RECUBIERTA | SORAFENIB | Vigente |
+| 20284546 | SORAFENIB 200 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | SORAFENIB | Vigente |
 | 20241006 | SORAFENIB 200MG | TABLETA RECUBIERTA | SORAFENIB | Temp. no comerc - Vigente |
 
-Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

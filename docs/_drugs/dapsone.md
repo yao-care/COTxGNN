@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 195
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Dapsone: nueva indicación predicha, Neumocistosis (nivel de evidencia L1). Indicación original: DAPSONA"
 monitor_inn: "Dapsone"
 predicted_indications: ["pneumocystosis"]
@@ -58,8 +58,8 @@ Cabe señalar que la dapsona ya está establecida en guías clínicas como alter
 | Nueva Indicación Predicha | Neumocistosis |
 | Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
-| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 3) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -116,8 +116,9 @@ En consecuencia, la predicción coincide con un uso ya reconocido en guías. Los
 |---------|------|------|------|------|
 | 20145596 | DAPSULON® 100 MG | TABLETA | DAPSONA | Vigente |
 | 20148515 | DAPSULON® 50 MG | TABLETA CUBIERTA CON PELICULA | DAPSONA | Vigente |
+| 20104600 | DAPTOMIX® 5% GEL | GEL TOPICO | DAPSONA | En tramite renov |
 
-Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

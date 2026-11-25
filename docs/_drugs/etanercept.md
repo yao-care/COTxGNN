@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ETANERCEPT"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Etanercept: nueva indicación predicha, Hipermovilidad del coxis (hypermobility of coccyx) (nivel de evidencia L5). Indicación original: ETANERCEPT"
 ---
 
@@ -48,8 +48,8 @@ Etanercept es un fármaco biológico que bloquea el TNF, una molécula inflamato
 | Nueva Indicación Predicha | Hipermovilidad del coxis (hypermobility of coccyx) |
 | Puntaje de Predicción TxGNN | 0,9963 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 5) |
-| Número de Registros Sanitarios | 5 (vigentes: 5) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 6) |
+| Número de Registros Sanitarios | 6 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -80,7 +80,7 @@ Actualmente no hay literatura relacionada disponible.
 | 20211560 | ALTEBREL® 25MG/0.5ML | SOLUCION INYECTABLE | ETANERCEPT | Vigente |
 | 20211583 | ALTEBREL® 50MG/ML | SOLUCION INYECTABLE | ETANERCEPT | Vigente |
 
-Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

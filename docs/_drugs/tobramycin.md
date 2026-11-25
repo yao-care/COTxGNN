@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 629
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Tobramycin: nueva indicación predicha, Queratitis por exposición (nivel de evidencia L4). Indicación original: Dexametasona y antiinfecciosos (combinación oftálmica)"
 monitor_inn: "Tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectiva para **queratitis por exposici�
 | Nueva Indicación Predicha | Queratitis por exposición |
 | Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 12 de 13) |
-| Número de Registros Sanitarios | 13 (vigentes: 12) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 13 de 14) |
+| Número de Registros Sanitarios | 14 (vigentes: 13) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -100,7 +100,7 @@ Actualmente no hay ensayos clínicos relacionados registrados para queratitis po
 | 19993894 | TOBRAVISION® | SOLUCION OFTALMICA | TOBRAMICINA | Vigente |
 | 20022403 | TOBROPTIC® COMPUESTO SUSPENSIÓN OFTÁLMICA | SUSPENSION OFTALMICA | ANTIBIOTICOS EN COMBINACION CON OTROS F RMACOS | Vigente |
 
-Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 14 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

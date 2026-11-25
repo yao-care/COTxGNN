@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 512
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Phenol: nueva indicación predicha, Acrodermatitis crónica atrófica (nivel de evidencia L5). Indicación original: FENOL"
 monitor_inn: "phenol"
 predicted_indications: ["acrodermatitis chronica atrophicans", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acne keloid", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "dry eye syndrome"]
@@ -52,8 +52,8 @@ Se trata de una predicción puramente computacional, sin sustento mecanístico i
 | Nueva Indicación Predicha | Acrodermatitis crónica atrófica |
 | Puntaje de Predicción TxGNN | 0,9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 7 de 7) |
-| Número de Registros Sanitarios | 7 (vigentes: 7) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 7 de 8) |
+| Número de Registros Sanitarios | 8 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -94,7 +94,7 @@ Actualmente no hay literatura relacionada disponible para acrodermatitis crónic
 | 20113559 | BUCALIV SPRAY® | SOLUCION BUCOFARINGUEA | FENOL | Vigente |
 | 20139703 | GARGANTQRP 1.4G | SOLUCION BUCOFARINGUEA | FENOL | Vigente |
 
-Se muestran 5 de 7 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

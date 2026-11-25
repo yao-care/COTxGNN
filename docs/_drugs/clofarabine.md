@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 168
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Clofarabine: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L1). Indicación original: CLOFARABINA"
 monitor_inn: "Clofarabine"
 predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"]
@@ -52,8 +52,8 @@ Esta dirección está respaldada por **43 ensayos clínicos** (incluidos 2 de Fa
 | Nueva Indicación Predicha | Leucemia mieloide |
 | Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
-| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 3) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -112,8 +112,10 @@ Se muestran los ensayos más relevantes (de un total de 43 registrados para esta
 |---------|------|------|------|------|
 | 20137192 | RELUKA® SOLUCION CONCENTRADA PARA INFUSION INYECTABLE | SOLUCIÓN CONCENTRADA PARA INFUSIÓN | CLOFARABINA | Vigente |
 | 20094735 | CLOFAZIC® 20MG/20ML | SOLUCION INYECTABLE | CLOFARABINA | Vigente |
+| 20011363 | CLOLAR® 1 MG/ML SOLUCION CONCENTRADA PARA INFUSION | SOLUCIÓN CONCENTRADA PARA INFUSIÓN | CLOFARABINA | Vigente |
+| 20148563 | FARABIN 1 MG/ ML SOLUCIÓNINYECTABLE | SOLUCIÓN CONCENTRADA PARA INFUSIÓN | CLOFARABINA | Temp. no comerc - Vigente |
 
-Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

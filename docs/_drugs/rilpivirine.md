@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 561
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Rilpivirine: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L5). Indicación original: Emtricitabina / Rilpivirina / Tenofovir alafenamida (combinación a…"
 monitor_inn: "rilpivirine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -53,8 +53,8 @@ El modelo TxGNN predice que podría ser efectivo para **síndrome de inmunodefic
 | Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
-| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -96,8 +96,9 @@ Actualmente no hay ensayos clínicos relacionados registrados para esta indicaci
 |---------|------|------|------|------|
 | 20119027 | ODEFSEY® 200 MG - 25 MG - 25 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | EMTRICITABINA / RILPIVIRINA / TENOFOVIR ALAFENAMIDA | Vigente |
 | 20240862 | ERESTZ® | TABLETA RECUBIERTA | EMTRICITABINA. TENOFOVIR DISOPROXIL Y RILPIVIRINA | Vigente |
+| 20201942 | REKAMBYS® 300 MG/ML SUSPENSIÓN INYECTABLE DE LIBERACIÓN PROLONGADA | SUSPENSION INYECTABLE | RILPIVIRINA | Temp. no comerc - Vigente |
 
-Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

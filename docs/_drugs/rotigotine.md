@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 572
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Rotigotine: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (TDAH) (nivel de evidencia L5). Indicación original: Rotigotina"
 monitor_inn: "Rotigotine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "schizophrenia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "faciodigitogenital syndrome", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "atypical glycine encephalopathy", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited"]
@@ -52,8 +52,8 @@ pero **no hay ensayos clínicos** y solo hay **3 publicaciones** indirectas (rev
 | Nueva Indicación Predicha | Trastorno por déficit de atención e hiperactividad (TDAH) |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
-| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -92,8 +92,9 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 |---------|------|------|------|------|
 | 20019919 | NEUPRO® 6 MG/24 H | SISTEMAS DE LIBERACION | ROTIGOTINA | Vigente |
 | 20019920 | NEUPRO® 4 MG /24 H | SISTEMAS DE LIBERACION | ROTIGOTINA | Vigente |
+| 20127403 | NEUPRO 2 MG/24H PARCHE TRANSDERMICO | TRANSDERMICOS | ROTIGOTINA | Temp. no comerc - Vigente |
 
-Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

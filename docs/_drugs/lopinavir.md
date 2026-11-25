@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 409
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Lopinavir: nueva indicación predicha, Infección por el virus de la inmunodeficiencia simia (SIV) (nivel de evidencia L4). Indicación original: Lopinavir y ritonavir"
 monitor_inn: "LOPINAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -50,8 +50,8 @@ Lopinavir es un inhibidor de la proteasa del VIH-1, registrado en Colombia en co
 | Nueva Indicación Predicha | Infección por el virus de la inmunodeficiencia simia (SIV) |
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
-| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 8) |
+| Número de Registros Sanitarios | 8 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -90,8 +90,11 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 |---------|------|------|------|------|
 | 20115574 | LOPINAVIR 200 MG + RITONAVIR 50 MG | TABLETA RECUBIERTA | LOPINAVIR Y RITONAVIR | Vigente |
 | 20215036 | LOPARTA® 40MG/10MG | GRANULOS | LOPINAVIR Y RITONAVIR | Vigente |
+| 20164472 | LOPARTA | TABLETA RECUBIERTA | LOPINAVIR Y RITONAVIR | Vigente |
+| 20087233 | LOPIMUNE® | TABLETA RECUBIERTA | LAPINOVIR Y RITONAVIR | Temp. no comerc - Vigente |
+| 20094237 | RITOPIN® 100 MG + 25 MG TABLETA RECUBIERTA. | TABLETA RECUBIERTA | LAPINOVIR Y RITONAVIR | Temp. no comerc - Vigente |
 
-Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

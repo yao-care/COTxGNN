@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 65
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Aripiprazole"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
 description: "Aripiprazole: nueva indicación predicha, Gaze palsy, familial horizontal, with progressive scoliosis (nivel de evidencia L5). Indicación original: ARIPIPRAZOL"
@@ -50,8 +50,8 @@ Aripiprazol es un antipsicótico atípico, registrado en Colombia bajo el nombre
 | Nueva Indicación Predicha | Gaze palsy, familial horizontal, with progressive scoliosis |
 | Puntaje de Predicción TxGNN | 0.9960 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 11 de 16) |
-| Número de Registros Sanitarios | 16 (vigentes: 11) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 11 de 18) |
+| Número de Registros Sanitarios | 18 (vigentes: 11) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -124,7 +124,7 @@ Nota: una de las publicaciones recuperadas (PMID 38669232, metaanálisis sobre a
 | 20091370 | ILIMIT® | SOLUCION ORAL | ARIPIPRAZOL | Vigente |
 | 20094480 | PRAZENTOL® 15 MG TABLETAS | TABLETA | ARIPIPRAZOL | Vigente |
 
-Se muestran 5 de 16 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 18 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

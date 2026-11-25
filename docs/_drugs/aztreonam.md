@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "AZTREONAM"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "gonococcal urethritis", "Ureaplasma urethritis", "blood group incompatibility", "premalignant hematological system disease", "epiglottitis", "monoclonal gammopathy", "xanthogranulomatous pyelonephritis"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Aztreonam: nueva indicación predicha, hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). Indicación original: AZTREONAM"
 ---
 
@@ -50,8 +50,8 @@ pero actualmente no hay ensayos clínicos ni publicaciones que respalden esta di
 | Nueva Indicación Predicha | hiperamilasemia (hyperamylasemia) |
 | Puntaje de Predicción TxGNN | 0,9973 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
-| Número de Registros Sanitarios | 3 (vigentes: 3) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es razonable esta predicción?
@@ -79,8 +79,9 @@ Actualmente no hay literatura relacionada disponible.
 | 19982144 | AZTREONAM 1G POLVO PARA RECONSTITUIR A SOLUCIÓN INYECTABLE | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | AZTREONAM | Vigente |
 | 20163741 | AZBIOS® 1G POLVO PARA RECONSTITUIR A SOLUCION INYECTABLE | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | AZTREONAM | Vigente |
 | 20271484 | AZTREONAM 1GPOLVO ESTERIL PARA RECONSTITUIR A SOLUCIÓN INYECTABLE | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | AZTREONAM | Vigente |
+| 20298108 | EMBLAVEO® | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | AZTREONAM | Vigente |
 
-Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

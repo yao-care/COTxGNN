@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "Cabergoline"
 predicted_indications: ["progeria-short stature-pigmented nevi syndrome", "pituitary cancer", "cerebral palsy, spastic quadriplegic", "glaucoma"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Cabergoline: nueva indicación predicha, Síndrome de progeria, talla baja y nevos pigmentados (progeria-short stature-pigmented nevi syndrome) (nivel de evidencia L5). Indicación original: CABERGOLINA"
 ---
 
@@ -56,8 +56,8 @@ Actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta
 | Nueva Indicación Predicha | Síndrome de progeria, talla baja y nevos pigmentados (progeria-short stature-pigmented nevi syndrome) |
 | Puntaje de Predicción TxGNN | 0.9906 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 5) |
-| Número de Registros Sanitarios | 5 (vigentes: 5) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 6) |
+| Número de Registros Sanitarios | 6 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -91,7 +91,7 @@ Actualmente no hay literatura relacionada disponible.
 | 20097607 | CABERGOLINA 0.5 MG | TABLETA | CABERGOLINA | Vigente |
 | 223599 | DOSTINEX 0.5 MG TABLETAS | TABLETA | CABERGOLINA | Vigente |
 
-Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

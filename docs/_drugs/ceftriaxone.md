@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "Ceftriaxone"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "chronic otitis media"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Ceftriaxone: nueva indicación predicha, hiperamilasemia (hyperamylasemia) (nivel de evidencia L5). Indicación original: CEFTRIAXONA"
 ---
 
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser útil para **hiperamilasemia (hyperamyla
 | Nueva Indicación Predicha | hiperamilasemia (hyperamylasemia) |
 | Puntaje de Predicción TxGNN | 0.9939 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 9) |
-| Número de Registros Sanitarios | 9 (vigentes: 6) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 11) |
+| Número de Registros Sanitarios | 11 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -85,7 +85,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 20166360 | CEFTRIAXONA 1.0 G POLVO LIOFILIZADO PARA RECONSTITUIR | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | CEFTRIAXONA | Vigente |
 | 20208606 | CEFTRIAXONA PARA INYECCIÓN 1 G | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | CEFTRIAXONA | Vigente |
 
-Se muestran 5 de 9 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 11 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

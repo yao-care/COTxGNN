@@ -8,7 +8,7 @@ indication_count: 4
 drugbank_id: DB01006
 monitor_inn: "Letrozole"
 predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Letrozol: nueva indicación predicha, Carcinoma del pezón (nipple carcinoma) (nivel de evidencia L5). Indicación original: LETROZOL"
 ---
 
@@ -51,8 +51,8 @@ pero actualmente no hay ensayos clínicos registrados y la literatura disponible
 | Nueva Indicación Predicha | Carcinoma del pezón (nipple carcinoma) |
 | Puntaje de Predicción TxGNN | 0.9976 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 8 de 8) |
-| Número de Registros Sanitarios | 8 (vigentes: 8) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 9 de 10) |
+| Número de Registros Sanitarios | 10 (vigentes: 9) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -94,7 +94,7 @@ Ninguna de estas publicaciones estudia letrozol directamente en el carcinoma del
 | 20126083 | LETARA® 2.5 MG TABLETAS | TABLETA | LETROZOL | Vigente |
 | 20136242 | LATOREN® 2.5 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | LETROZOL | Vigente |
 
-Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 10 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

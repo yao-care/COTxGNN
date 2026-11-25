@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 107
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Biotin: nueva indicación predicha, Dispepsia (nivel de evidencia L5). Indicación original: Multivitaminas y elementos traza"
 monitor_inn: "Biotin"
 predicted_indications: ["dyspepsia", "gastroparesis (disease)"]
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectiva para **dispepsia**, pero hasta 
 | Nueva Indicación Predicha | Dispepsia |
 | Puntaje de Predicción TxGNN | 0.9943 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 3) |
-| Número de Registros Sanitarios | 3 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -86,9 +86,10 @@ Ninguna de estas publicaciones evalúa la biotina como tratamiento de la dispeps
 |---------|------|------|------|------|
 | 215439 | CERNEVIT® | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | MULTIVITAMINAS Y ELEMENTOS TRAZA | Vigente |
 | 43462 | SOLUVIT® N | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | COMBINACIONES | Vigente |
+| 20266387 | VITEASY® POLVO PARA SOLUCIÓN PARA PERFUSIÓN | POLVO PARA SOLUCIÓN INYECTABLE | VITAMINAS EN COMBINACION | Vigente |
 | 19936177 | GESTAVIT ® MATERNO | CAPSULA BLANDA | MULTIVITAMINAS MAS HIERRO | Temp. no comerc - Vigente |
 
-Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

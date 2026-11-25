@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 617
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "terconazole"
 predicted_indications: ["trichomonal vulvovaginitis", "vulvitis", "postmenopausal atrophic vaginitis", "herpetic vulvovaginitis", "ulceration of vulva", "vulvar neoplasm", "vaginal discharge", "bacterial vaginosis"]
 description: "Terconazole: nueva indicación predicha, Vulvovaginitis tricomonásica (trichomonal vulvovaginitis) (nivel de evidencia L5). Indicación original: TERCONAZOL - DEXAMETASONA"
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos** y solo hay **2 publicaciones** gen
 | Nueva Indicación Predicha | Vulvovaginitis tricomonásica (trichomonal vulvovaginitis) |
 | Puntaje de Predicción TxGNN | 0.9986 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
-| Número de Registros Sanitarios | 3 (vigentes: 3) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -82,8 +82,9 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 20013336 | VAGICORT® CREMA VAGINAL | CREMA VAGINAL | TERCONAZOL - DEXAMETASONA | Vigente |
 | 20135424 | TEREX-3 | CREMA VAGINAL | DEXAMETASONA Y ANTIBIOTICOS | Vigente |
 | 20265420 | DECADRON T® | CREMA VAGINAL | TERCONAZOL - DEXAMETASONA | Vigente |
+| 20014434 | GYNTER® OVULO VAGINAL | OVULO | COMBINACIONES DE IMIDAZOL DERIVADOS | Comercializado solo por Exportacion |
 
-Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

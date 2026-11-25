@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 33
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 predicted_indications: []
 ---
 
@@ -50,8 +50,8 @@ ALCAFTADINA es un fármaco identificado en DrugBank, pero el paquete de evidenci
 | Nueva Indicación Predicha | Sin predicciones generadas |
 | Puntaje de Predicción TxGNN | Sin datos disponibles |
 | Nivel de Evidencia | L5 – Solo identificación del fármaco, sin estudios |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -85,8 +85,9 @@ Actualmente no hay literatura relacionada disponible.
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
 |---------|------|------|------|------|
 | 20035873 | LASTACAFT® | SOLUCION OFTALMICA | ALCAFTADINE | Vigente |
+| 20131050 | ALECRIX SOLUCION OFTALMICA ESTERIL | SOLUCION OFTALMICA | ALCAFTADINE | Temp. no comerc - Vigente |
 
-Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

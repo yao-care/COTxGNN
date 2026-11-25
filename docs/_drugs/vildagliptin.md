@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 659
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Vildagliptin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Vildagliptin: nueva indicación predicha, Focal stiff limb syndrome (nivel de evidencia L5). Indicación original: METFORMINA / VILDAGLIPTINA"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para el **síndrome de rigidez 
 | Nueva Indicación Predicha | Focal stiff limb syndrome |
 | Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 15 de 17) |
-| Número de Registros Sanitarios | 17 (vigentes: 15) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 17) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -91,7 +91,7 @@ Actualmente no hay literatura relacionada disponible.
 | 20003706 | GALVUS® MET 50/500 COMPRIMIDOS RECUBIERTOS CON PELICULA | TABLETA RECUBIERTA | METFORMINA / VILDAGLIPTINA | Vigente |
 | 20193049 | VILZER | TABLETA | VILDAGLIPTINA | Vigente |
 
-Se muestran 5 de 17 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
 
 <!-- licenses:end -->
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 449
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Mirtazapine: nueva indicación predicha, Síndrome de Ohdo y variantes (nivel de evidencia L5). Indicación original: Mirtazapina"
 monitor_inn: "Mirtazapine"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
@@ -52,8 +52,8 @@ Se trata de una predicción puramente computacional.
 | Nueva Indicación Predicha | Síndrome de Ohdo y variantes |
 | Puntaje de Predicción TxGNN | 0.9942 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 8 de 9) |
-| Número de Registros Sanitarios | 9 (vigentes: 8) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 9 de 10) |
+| Número de Registros Sanitarios | 10 (vigentes: 9) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -93,7 +93,7 @@ Cualquier uso sintomático (por ejemplo, para el sueño, el apetito o el estado 
 | 20052424 | MIRTAZAPINA HUMAX® TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | MIRTAZAPINA | Vigente |
 | 20084048 | MIRTAZAPINA 15 MG | TABLETA | MIRTAZAPINA | Vigente |
 
-Se muestran 5 de 9 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 10 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

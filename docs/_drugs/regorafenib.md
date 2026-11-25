@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 553
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "regorafenib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell renal carcinoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "childhood kidney cell carcinoma", "vulva sarcoma"]
 description: "Regorafenib: nueva indicación predicha, Liposarcoma (nivel de evidencia L2). Indicación original: REGORAFENIB"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **liposarcoma (liposarcoma
 | Nueva Indicación Predicha | Liposarcoma |
 | Puntaje de Predicción TxGNN | 0.9976 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## Por qué es Razonable esta Predicción
@@ -88,8 +88,9 @@ Sin embargo, la evidencia depende del subtipo: las cohortes de liposarcoma en lo
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
 |---------|------|------|------|------|
 | 20152989 | STIVARGA 40 MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | REGORAFENIB | Vigente |
+| 20276808 | TANGITARE® 40 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | REGORAFENIB | Vigente |
 
-Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

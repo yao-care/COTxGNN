@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 342
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Indomethacin: nueva indicación predicha, Síndrome de braquidactilia-sindactilia (nivel de evidencia L5). Indicación original: El texto del registro sanitario solo indica \"INDOMETACINA\"…"
 monitor_inn: "Indomethacin"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "WHIM syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia", "myosclerosis", "juvenile idiopathic arthritis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectiva para el **síndrome de braquida
 | Nueva Indicación Predicha | Síndrome de braquidactilia-sindactilia |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -92,8 +92,9 @@ Actualmente no hay literatura relacionada disponible.
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
 |---------|------|------|------|------|
 | 20056703 | NB PEXAIL CAPSULA BLANDA 25 MG | CAPSULA BLANDA | INDOMETACINA | Vigente |
+| 32675 | INDOMETACINA 25 MG CAPSULA BLANDA | CAPSULA BLANDA | INDOMETACINA | Temp. no comerc - Vigente |
 
-Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

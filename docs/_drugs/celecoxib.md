@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 146
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Celecoxib: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (nivel de evidencia L5). Indicación original: No especificada en los registros (solo figura \"Celecoxib\")"
 monitor_inn: "CELECOXIB"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "hypermobility of coccyx", "brachyolmia", "rheumatoid nodulosis", "WHIM syndrome"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para la **displasia acromesomé
 | Nueva Indicación Predicha | Displasia acromesomélica, tipo Hunter-Thompson |
 | Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 12 de 13) |
-| Número de Registros Sanitarios | 13 (vigentes: 12) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 13 de 14) |
+| Número de Registros Sanitarios | 14 (vigentes: 13) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -97,7 +97,7 @@ Actualmente no hay literatura relacionada disponible.
 | 19926701 | CELECOXIB 200 MG CAPSULAS | CAPSULA DURA | CELECOXIB | Vigente |
 | 19933716 | CELECOXIB 200 MG CÁPSULA. | CAPSULA DURA | CELECOXIB | Vigente |
 
-Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 14 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 
@@ -119,7 +119,7 @@ No se dispone de las advertencias del prospecto. Consultar el prospecto para la 
 **Decisión: Hold**
 
 **Justificación:**
-La predicción se basa solo en el modelo computacional TxGNN (aprendizaje profundo), sin ensayos clínicos, sin literatura y sin un vínculo mecanístico plausible con una enfermedad de origen genético. Además, el medicamento está comercializado en este país y cuenta con 12 registros sanitarios vigentes.
+La predicción se basa solo en el modelo computacional TxGNN (aprendizaje profundo), sin ensayos clínicos, sin literatura y sin un vínculo mecanístico plausible con una enfermedad de origen genético. Además, el medicamento está comercializado en este país y cuenta con 13 registros sanitarios vigentes.
 
 **Para avanzar se necesita:**
 - Un fundamento biológico que conecte la inhibición de COX-2 con la vía GDF5/BMP, mediante estudios preclínicos.

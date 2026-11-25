@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "Formoterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Formoterol: nueva indicación predicha, malformación respiratoria (respiratory malformation) (nivel de evidencia L5). Indicación original: FORMOTEROL Y BUDENOSINA"
 ---
 
@@ -50,8 +50,8 @@ pero **no hay ensayos clínicos** y las **9 publicaciones** recuperadas tratan d
 | Nueva Indicación Predicha | malformación respiratoria (respiratory malformation) |
 | Puntaje de Predicción TxGNN | 0,9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 10 de 10) |
-| Número de Registros Sanitarios | 10 (vigentes: 10) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 11 de 11) |
+| Número de Registros Sanitarios | 11 (vigentes: 11) |
 | Decisión Recomendada | Hold |
 
 ## Por qué es Razonable esta Predicción?
@@ -93,7 +93,7 @@ Ninguna de las publicaciones recuperadas estudia directamente la malformación r
 | 20017162 | SYMBICORT RAPIHALER® 80/4.5 MCG / INHALACIÓN | SUSPENSION PARA INHALACION | FORMOTEROL Y BUDENOSINA | Vigente |
 | 20028694 | SYMBICORT RAPIHALER® 160/4.5 MCG/INHALACION | SUSPENSION PARA INHALACION | FORMOTEROL Y BUDENOSINA | Vigente |
 
-Se muestran 5 de 10 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 11 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

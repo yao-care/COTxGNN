@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 492
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "PACLITAXEL"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Paclitaxel: nueva indicación predicha, Parameningeal embryonal rhabdomyosarcoma (nivel de evidencia L5). Indicación original: PACLITAXEL"
@@ -50,8 +50,8 @@ Paclitaxel es un citotóxico de la familia de los taxanos, registrado en Colombi
 | Nueva Indicación Predicha | Parameningeal embryonal rhabdomyosarcoma |
 | Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L5 (≥2 ECA de Fase 3 completados, p. ej. NCT00667251, NCT01822314, NCT00006459, NCT00553358, NCT00513292, NCT00431080, NCT00075270; ver nota en la sección de ensayos) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 15 de 16) |
-| Número de Registros Sanitarios | 16 (vigentes: 15) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 16) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -106,7 +106,13 @@ Se listan los ensayos más relevantes (priorizando Fase 3 y Fase 2 con paclitaxe
 
 ## Información de Mercado en Colombia
 
-Existen 15 registros sanitarios vigentes; el medicamento se encuentra comercializado.
+Existen registros sanitarios vigentes; el medicamento se encuentra comercializado.
+
+<!-- review:begin co-lic-20261125-paclitaxel-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "Existen 15 registros sanitarios vigentes; el medicamento se encuentra comercializado." Corregido según los datos del INVIMA: con los registros agregados la cifra fija ya no coincide (los datos solo incluyen parte de los registros); se eliminó la cifra. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125-paclitaxel-1 -->
 
 <!-- licenses:begin -->
 
@@ -118,7 +124,7 @@ Existen 15 registros sanitarios vigentes; el medicamento se encuentra comerciali
 | 19991105 | PACLITAXEL 300MG | SOLUCION INYECTABLE | PACLITAXEL | Vigente |
 | 20007285 | PACLITAXEL 30 MG/ 5 ML SOLUCION INYECTABLE | SOLUCION INYECTABLE | PACLITAXEL | Vigente |
 
-Se muestran 5 de 16 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
 
 <!-- licenses:end -->
 
@@ -176,6 +182,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "no hay registros sanitarios vigentes en Colombia y" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-12 | Número de registros vigentes: 4 → 15 | Ya no aparece tras una corrección del programa (2026-11-24: el número de registros sanitarios de esta frase lo actualiza ahora un programa según los datos del INVIMA (scripts/rewrite_license_counts.py), por lo que esta corrección puntual ya no se muestra; antes: Corregido) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Paclitaxel Protein-Bound Particles For Injectable Suspension (Albumin-Bound) (paclitaxel) prescribing information, NorthStar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e9d5093-fbfc-470a-8520-811c46a8870c) |
+| 2026-11-25 | Eliminado: «15» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

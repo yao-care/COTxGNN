@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 3
 monitor_inn: "EFAVIRENZ"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Efavirenz: nueva indicación predicha, Infección por el virus de la inmunodeficiencia simia (simian immunodeficiency virus infection) (nivel de evidencia L4). Indicación original: EFAVIRENZ. TENOFOVIR…"
 ---
 
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para la **infección por el vir
 | Nueva Indicación Predicha | Infección por el virus de la inmunodeficiencia simia (simian immunodeficiency virus infection) |
 | Puntaje de Predicción TxGNN | 0,9980 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 7 de 9) |
-| Número de Registros Sanitarios | 9 (vigentes: 7) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 8 de 18) |
+| Número de Registros Sanitarios | 18 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -92,7 +92,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 20066564 | EFAVIRENZ 600MG + EMTRICITABINE 200MG + TENOFOVIR DISOPROXIL FUMARATO 300MG TABLETAS RECU… | TABLETA RECUBIERTA | EFAVIRENZ. TENOFOVIR DISOPROXIL Y EMTRICITABINA | Vigente |
 | 20099714 | TENOMUNE ® | TABLETA RECUBIERTA | EFAVIRENZ. TENOFOVIR DISOPROXIL Y EMTRICITABINA | Vigente |
 
-Se muestran 5 de 9 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 18 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

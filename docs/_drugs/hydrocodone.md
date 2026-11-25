@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 327
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Hydrocodone: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L4). Indicación original: Paracetamol. Combinaciones con psicolépticos"
 monitor_inn: "hydrocodone"
 drugbank_id: DB00956
@@ -52,8 +52,8 @@ El modelo TxGNN predice que podría ser efectiva para **enfermedad de la cavidad
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
 | Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 18 de 18) |
-| Número de Registros Sanitarios | 18 (vigentes: 18) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 18) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -94,7 +94,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 20087738 | DOLOFF® 7.5-325 TABLETAS RECUBIERTAS. | TABLETA RECUBIERTA | HIDROCODONA Y PARACETAMOL | Vigente |
 | 20113430 | SINALGEN MAXTABLETAS. | TABLETA | PARACETAMOL. COMBINACIONES CON PSICOLECTICOS | Vigente |
 
-Se muestran 5 de 18 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
 
 <!-- licenses:end -->
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 458
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Mupirocin: nueva indicación predicha, Empiema pleural (nivel de evidencia L5). Indicación original: Mupirocina"
 monitor_inn: "mupirocin"
 predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **empiema pleural**, pero 
 | Nueva Indicación Predicha | Empiema pleural |
 | Puntaje de Predicción TxGNN | 0.9949 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
-| Número de Registros Sanitarios | 4 (vigentes: 4) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -91,8 +91,9 @@ Actualmente no hay literatura relacionada disponible.
 | 19964644 | MUPICARE®UNGUENTO 2 % | UNGUENTO TOPICO | MUPIROCINA | Vigente |
 | 20018316 | DERMA Q CREMA TOPICA | CREMA TOPICA | MOMETASONE | Vigente |
 | 20164323 | MUPIRAL ® UNGUENTO | UNGUENTO TOPICO | MUPIROCINA | Vigente |
+| 20283806 | OCHNEXIN®UNGÜENTO TÒPICO 2% | UNGUENTO TOPICO | MUPIROCINA | Vigente |
 
-Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

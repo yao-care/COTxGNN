@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 624
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Thiocolchicoside: nueva indicación predicha, Insomnio (nivel de evidencia L5). Indicación original: Paracetamol, combinaciones excluyendo psicolépticos"
 monitor_inn: "thiocolchicoside"
 drugbank_id: DB11582
@@ -52,8 +52,8 @@ El modelo TxGNN predice que podría ser efectivo para **insomnio**, pero actualm
 | Nueva Indicación Predicha | Insomnio |
 | Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 13 de 13) |
-| Número de Registros Sanitarios | 13 (vigentes: 13) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 15 de 15) |
+| Número de Registros Sanitarios | 15 (vigentes: 15) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -100,7 +100,7 @@ Actualmente no hay literatura relacionada disponible.
 | 20064726 | PARALGEN MAX | TABLETA RECUBIERTA | IBUPROFEN COMBINACIONES | Vigente |
 | 20064903 | TIOCOLFEN® 400 CÁPSULA DURA CON CONTENIDO LIQUIDO | CAPSULA DURA | IBUPROFEN COMBINACIONES | Vigente |
 
-Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 15 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

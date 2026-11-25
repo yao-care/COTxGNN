@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 407
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "lomitapide"
 predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "platelet storage pool deficiency"]
 description: "Lomitapide: nueva indicación predicha, Marcothrombocytopenia with mitral valve insufficiency (nivel de evidencia L5). Indicación original: LOMITAPIDA"
@@ -52,8 +52,8 @@ Sin embargo, **no hay ensayos clínicos ni publicaciones** que respalden esta pr
 | Nueva Indicación Predicha | Marcothrombocytopenia with mitral valve insufficiency |
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 8 de 8) |
-| Número de Registros Sanitarios | 8 (vigentes: 8) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 9 de 9) |
+| Número de Registros Sanitarios | 9 (vigentes: 9) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -106,7 +106,7 @@ Se listan los 5 principales:
 | 20213830 | OLESTAPIDE® 10 MG CÁPSULAS | CAPSULA DURA | LOMITAPIDA | Vigente |
 | 20213835 | OLESTAPIDE®5 MG CÁPSULAS | CAPSULA DURA | LOMITAPIDA | Vigente |
 
-Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 9 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 
@@ -137,7 +137,13 @@ Consultar el prospecto para las advertencias y contraindicaciones oficiales, que
 **Decisión: Hold**
 
 **Justificación:**
-La predicción para macrotrombocitopenia con insuficiencia mitral es solo del modelo (L5), sin ensayos ni literatura y sin mecanismo plausible. Además, el medicamento está comercializado en Colombia (8 de 8 registros vigentes) y el perfil de seguridad es exigente.
+La predicción para macrotrombocitopenia con insuficiencia mitral es solo del modelo (L5), sin ensayos ni literatura y sin mecanismo plausible. Además, el medicamento está comercializado en Colombia (todos sus registros sanitarios están vigentes) y el perfil de seguridad es exigente.
+
+<!-- review:begin co-lic-20261125-lomitapide-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "comercializado en Colombia (8 de 8 registros vigentes)" Corregido según los datos del INVIMA: se agregó un registro (JUXTAPID 10 mg, en trámite de renovación) y todos están vigentes; se eliminaron las cifras fijas. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125-lomitapide-1 -->
 
 **Observación sobre otras predicciones:**
 Las indicaciones predichas son trastornos plaquetarios (trombocitopenia, enfermedad de Glanzmann, déficit de gránulos densos, entre otros), todas L5 y con recomendación Hold.
@@ -146,8 +152,14 @@ Las indicaciones predichas son trastornos plaquetarios (trombocitopenia, enferme
 - Un fundamento biológico que vincule la inhibición de la MTP con la producción o función plaquetaria, o con la patología valvular mitral.
 - Estudios preclínicos o series de casos que sustenten la hipótesis.
 - Las advertencias y contraindicaciones del prospecto del INVIMA.
-- Verificar el estado regulatorio actual en Colombia, donde los 8 registros están vigentes (8 de 8).
+- Verificar el estado regulatorio actual en Colombia, donde todos los registros sanitarios están vigentes.
 - Si el interés real es la hiperlipoproteinemia, evaluarla como indicación separada, con medidas de control (monitoreo hepático, dieta baja en grasa, precauciones de teratogenicidad y manejo de interacciones con inhibidores de CYP3A4).
+
+<!-- review:begin co-lic-20261125-lomitapide-2 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "donde los 9 registros están vigentes (8 de 8)." Corregido según los datos del INVIMA: todos los registros sanitarios de lomitapida están vigentes; se eliminaron las cifras fijas, que no concordaban entre sí. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125-lomitapide-2 -->
 
 <!-- review:begin log -->
 
@@ -159,6 +171,8 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Los 8 registros sanitarios de lomitapida en Colombia están **cancelados**" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Los otros tres registros, también cancelados, corresponden a OLESTAPIDE® de Laboratorios Elmor (5, 10 y 20 mg)" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | «(8 de 8 registros» → «(todos sus registros sanitarios están» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | «los 9 registros están vigentes (8 de 8)» → «todos los registros sanitarios están vigentes» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

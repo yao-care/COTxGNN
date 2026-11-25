@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 627
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Tinidazole: nueva indicación predicha, Vaginitis atrófica posmenopáusica (nivel de evidencia L5). Indicación original: Tinidazol"
 monitor_inn: "Tinidazole"
 predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vulvar neoplasm", "breast fibrocystic disease", "AIDS", "apocrine adenosis of breast", "blunt duct adenosis of breast", "AIDS related complex", "congenital human immunodeficiency virus", "benign mammary dysplasia"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para la **vaginitis atrófica p
 | Nueva Indicación Predicha | Vaginitis atrófica posmenopáusica |
 | Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 12 de 15) |
-| Número de Registros Sanitarios | 15 (vigentes: 12) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 13 de 16) |
+| Número de Registros Sanitarios | 16 (vigentes: 13) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -97,7 +97,7 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 | 19973784 | MEMBITROL SUSPENSION | SUSPENSION ORAL | TINIDAZOL | Vigente |
 | 19987527 | MEMBITROL®1 G TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | TINIDAZOL | Vigente |
 
-Se muestran 5 de 15 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 16 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 
@@ -132,7 +132,7 @@ La predicción no tiene respaldo clínico ni bibliográfico (nivel L5), y el mec
 **Para avanzar se necesita:**
 - Una hipótesis mecanística plausible, o evidencia preclínica o clínica que vincule tinidazol con la vaginitis atrófica.
 - Obtener y revisar el prospecto oficial (advertencias y contraindicaciones) y los datos del mecanismo de acción.
-- Aclarar la situación regulatoria, dado que el medicamento está comercializado y cuenta con 12 licencias vigentes.
+- Aclarar la situación regulatoria, dado que el medicamento está comercializado y cuenta con 13 licencias vigentes.
 - Evaluar candidatas alternativas del mismo análisis. Por ejemplo, la predicción para SIDA tiene algo más de respaldo indirecto, como el tratamiento de coinfecciones y un ensayo de microbioma, aunque sigue siendo un enfoque de soporte y no un tratamiento de la enfermedad.
 
 <!-- review:begin log -->

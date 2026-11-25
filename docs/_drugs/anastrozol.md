@@ -8,7 +8,7 @@ indication_count: 5
 drugbank_id: DB01217
 monitor_inn: "Anastrozole"
 predicted_indications: ["neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "monocytic leukemia"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Anastrozol: nueva indicación predicha, Neuroblastoma (nivel de evidencia L5). Indicación original: ANASTROZOL"
 ---
 
@@ -51,8 +51,8 @@ Actualmente **no hay ensayos clínicos ni publicaciones** que estudien directame
 | Nueva Indicación Predicha | Neuroblastoma |
 | Puntaje de Predicción TxGNN | 0.9953 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 10 de 10) |
-| Número de Registros Sanitarios | 10 (vigentes: 10) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 11 de 13) |
+| Número de Registros Sanitarios | 13 (vigentes: 11) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -83,11 +83,11 @@ Actualmente no hay literatura relacionada disponible.
 | 20060326 | HB ONCOCARE® | TABLETA RECUBIERTA | ANASTROZOL | Vigente |
 | 20064693 | ANASTOLE® 1 MG TABLETAS | TABLETA RECUBIERTA | ANASTROZOL | Vigente |
 
-Se muestran 5 de 10 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 
-Se muestran 5 de los 10 registros sanitarios vigentes.
+Se muestran 5 de los 11 registros sanitarios vigentes.
 
 ## Citotoxicidad
 

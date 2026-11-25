@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 290
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Flucytosine: nueva indicación predicha, Enfermedad ósea de Paget (nivel de evidencia L5). Indicación original: FLUCITOSINA"
 monitor_inn: "flucytosine"
 drugbank_id: DB01099
@@ -58,8 +58,8 @@ El modelo TxGNN predice que podría ser efectivo para la **enfermedad ósea de P
 | Nueva Indicación Predicha | Enfermedad ósea de Paget |
 | Puntaje de Predicción TxGNN | 0.9904 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -81,8 +81,10 @@ Cualquier justificación posible (por ejemplo, efectos de metabolitos tipo 5-FU 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
 |---------|------|------|------|------|
 | 20135088 | ANCOTOSIN® | CAPSULA DURA | FLUCITOSINA | Vigente |
+| 20294398 | FLUCITOSINA500 MG CAPSULA DURA | CAPSULA DURA | FLUCITOSINA | Vigente |
+| 20197590 | FLUSYNERG® 10 MG/ML SOLUCIÓN INYECTABLE | SOLUCION INYECTABLE | FLUCITOSINA | Temp. no comerc - Vigente |
 
-Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

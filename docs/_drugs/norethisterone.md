@@ -3,7 +3,7 @@ layout: default
 title: Norethisterone
 parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 472
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Norethisterone: usos conocidos y estado de mercado en Colombia; actualmente sin nueva indicación candidata"
 monitor_inn: "Norethisterone"
 predicted_indications: []
@@ -41,8 +41,8 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 | Item | Contenido |
 |------|------|
 | Indicación Original | NORETISTERONA Y ESTROGENO |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
-| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 3) |
 
 ## Información de Mercado en Colombia
 
@@ -52,8 +52,9 @@ Nivel de evidencia: **N/A** | Indicaciones predichas: **0**
 |---------|------|------|------|------|
 | 38690 | PRIMOSISTON® | TABLETA | NORETISTERONA Y ESTROGENO | Vigente |
 | 51922 | MESIGYNA® | SOLUCION INYECTABLE | NORETISTERONA Y ESTROGENO | Vigente |
+| 20254271 | RYEQO® COMPRIMIDOS RECUBIERTOS. | TABLETA CUBIERTA CON PELICULA | ESTRADIOL COMBINACIONES | Vigente |
 
-Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

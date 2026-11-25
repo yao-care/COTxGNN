@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 363
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Ivermectin: nueva indicación predicha, Candidiasis vulvovaginal (nivel de evidencia L5). Indicación original: Ivermectina"
 monitor_inn: "Ivermectin"
 predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "congenital candidiasis", "neonatal candidiasis", "candida glabrata", "postmenopausal atrophic vaginitis", "candidiasis, invasive"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **candidiasis vulvovaginal
 | Nueva Indicación Predicha | Candidiasis vulvovaginal |
 | Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 11 de 14) |
-| Número de Registros Sanitarios | 14 (vigentes: 11) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 11 de 17) |
+| Número de Registros Sanitarios | 17 (vigentes: 11) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -98,7 +98,7 @@ Entre las otras predicciones, las dos publicaciones vinculadas no respaldan efic
 | 20002482 | QUANOX LOCION | SOLUCION TOPICA | IVERMECTINA | Vigente |
 | 20077686 | IVERBLAS® 0.6% SUSPENSION ORAL | SUSPENSION ORAL | IVERMECTINA | Vigente |
 
-Se muestran 5 de 14 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 17 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "Flutamide"
 predicted_indications: ["fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "prostate leiomyoma", "benign prostate phyllodes tumor", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Flutamide: nueva indicación predicha, fibroma de próstata (fibroma of prostate) (nivel de evidencia L5). Indicación original: FLUTAMIDA"
 ---
 
@@ -48,8 +48,8 @@ Flutamida es un antiandrógeno que bloquea el receptor de andrógenos. El modelo
 | Nueva Indicación Predicha | fibroma de próstata (fibroma of prostate) |
 | Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -75,8 +75,9 @@ Actualmente no hay literatura relacionada disponible.
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
 |---------|------|------|------|------|
 | 35440 | ETACONIL DE 250 MG COMPRIMIDOS | TABLETA | FLUTAMIDA | Vigente |
+| 20121572 | FLUTAMIDA 250 MG TABLETAS | TABLETA | FLUTAMIDA | Temp. no comerc - Vigente |
 
-Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 589
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Sofosbuvir: nueva indicación predicha, Infección por virus de la hepatitis B (nivel de evidencia L3). Indicación original: Sofosbuvir + Velpatasvir (hepatitis C crónica)"
 monitor_inn: "SOFOSBUVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **infección por virus de 
 | Nueva Indicación Predicha | Infección por virus de la hepatitis B |
 | Puntaje de Predicción TxGNN | 0.9977 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -110,8 +110,10 @@ Entre las demás predicciones de la lista, la **hepatitis E** (rango 2) tiene un
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
 |---------|------|------|------|------|
 | 20126648 | EPCLUSA® | TABLETA RECUBIERTA | SOFOSBUVIR + VELPATASVIR | Vigente |
+| 20092040 | SOVALDI® | TABLETA RECUBIERTA | SOFOSBUVIR | Temp. no comerc - Vigente |
+| 20106277 | HARVONI® | TABLETA RECUBIERTA | SOFOSBUVIR Y LEDIPASVIR | Temp. no comercializado - En Trámite Renov |
 
-Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 253
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Entacapone: nueva indicación predicha, Neurodegeneración asociada a PLA2G6 (nivel de evidencia L5). Indicación original: Levodopa e inhibidor de decarboxilasa"
 monitor_inn: "ENTACAPONE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "lethal infantile mitochondrial myopathy", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "progressive supranuclear palsy-corticobasal syndrome"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para la **neurodegeneración as
 | Nueva Indicación Predicha | Neurodegeneración asociada a PLA2G6 |
 | Puntaje de Predicción TxGNN | 0.9976 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 6) |
-| Número de Registros Sanitarios | 6 (vigentes: 6) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 7) |
+| Número de Registros Sanitarios | 7 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -109,7 +109,7 @@ Actualmente no hay literatura relacionada disponible para esta indicación.
 | 20149322 | LEVOCAPONE 150/37.5/200 TABLETA RECUBIERTA. | TABLETA RECUBIERTA | LEVODOPA INHIBIDOR DE DECARBOXILASA E INHIBIDOR COMT | Vigente |
 | 20165956 | CARLEVEN® TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | LEVODOPA INHIBIDOR DE DECARBOXILASA E INHIBIDOR COMT | Vigente |
 
-Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 7 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

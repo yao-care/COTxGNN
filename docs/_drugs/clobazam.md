@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 167
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "CLOBAZAM"
 predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral myoclonia with absences", "atypical childhood epilepsy with centrotemporal spikes", "photosensitive occipital lobe epilepsy", "cryptogenic late-onset epileptic spasms", "childhood onset epileptic encephalopathy", "benign occipital epilepsy", "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation", "restless legs syndrome", "polymicrogyria with optic nerve hypoplasia"]
 description: "Clobazam: nueva indicación predicha, Febrile infection-related epilepsy syndrome (nivel de evidencia L4). Indicación original: CLOBAZAM"
@@ -58,8 +58,8 @@ pero actualmente solo hay **2 publicaciones** (series y reportes de caso, sobre 
 | Nueva Indicación Predicha | Febrile infection-related epilepsy syndrome |
 | Puntaje de Predicción TxGNN | 0.9982 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 6) |
-| Número de Registros Sanitarios | 6 (vigentes: 3) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 8) |
+| Número de Registros Sanitarios | 8 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -98,10 +98,10 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 20044093 | OBAX®20 MG TABLETAS | TABLETA | CLOBAZAM | Vigente |
 | 29114 | URBADAN® | TABLETA | CLOBAZAM | Vigente |
 | 44747 | URBADAN® 20 MG | TABLETA | CLOBAZAM | Vigente |
-| 20044091 | OBAX® 10 MG TABLETAS | TABLETA | CLOBAZAM | Temp. no comerc - Vigente |
-| 20261165 | LOGABA - CLOBAZAM 20 MG | TABLETA | CLOBAZAM | Temp. no comerc - Vigente |
+| 20295419 | CLOBAZAM 10 MG TABLETAS | TABLETA | CLOBAZAM | Vigente |
+| 20295442 | CLOBAZAM 20 MG TABLETAS | TABLETA | CLOBAZAM | Vigente |
 
-Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

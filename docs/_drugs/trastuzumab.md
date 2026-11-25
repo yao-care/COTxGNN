@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 637
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
 description: "Trastuzumab: nueva indicación predicha, Malignant cutaneous granular cell skin tumor (nivel de evidencia L5). Indicación original: PERTUZUMAB Y TRASTUZUMAB"
@@ -57,8 +57,8 @@ El modelo TxGNN predice que podría ser efectivo para el **subtipo de carcinoma 
 | Nueva Indicación Predicha | Malignant cutaneous granular cell skin tumor |
 | Puntaje de Predicción TxGNN | 0.9948 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 11 de 12) |
-| Número de Registros Sanitarios | 12 (vigentes: 11) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 12 de 13) |
+| Número de Registros Sanitarios | 13 (vigentes: 12) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -101,7 +101,7 @@ La evidencia disponible es solo indirecta. El único ensayo evalúa trastuzumab 
 | 20142329 | OGIVRI® | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | TRASTUZUMAB | Vigente |
 | 20143846 | BISINTEX | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | TRASTUZUMAB | Vigente |
 
-Se muestran 5 de 12 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

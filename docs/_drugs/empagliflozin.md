@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Empagliflozin"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Empagliflozin: nueva indicación predicha, Síndrome de la persona rígida clásico (classic stiff person syndrome) (nivel de evidencia L5). Indicación original: EMPAGLIFLOZINA"
 ---
 
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Síndrome de la persona rígida clásico (classic stiff person syndrome) |
 | Puntaje de Predicción TxGNN | 0,9906 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 7 de 8) |
-| Número de Registros Sanitarios | 8 (vigentes: 7) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 11 de 12) |
+| Número de Registros Sanitarios | 12 (vigentes: 11) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -82,7 +82,7 @@ Actualmente no hay literatura relacionada disponible.
 | 20101206 | JARDIANCE DUO® 12.5MG/850MG | TABLETA CUBIERTA CON PELICULA | METFORMINA Y EMPAGLIFLOZINA | Vigente |
 | 20108712 | GLYXAMBI® 25 MG/ 5 MG | TABLETA RECUBIERTA | EMPAGLIFLOZINA / LINAGLIPTINA | Vigente |
 
-Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 12 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

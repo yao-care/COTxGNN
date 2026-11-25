@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 588
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "sirolimus"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lung PEComa", "vulva sarcoma"]
 description: "Sirolimus: nueva indicación predicha, Liposarcoma (nivel de evidencia L5). Indicación original: SIROLIMUS"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **liposarcoma (liposarcoma
 | Nueva Indicación Predicha | Liposarcoma |
 | Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -84,8 +84,9 @@ Además, la literatura disponible son sobre todo revisiones generales de sarcoma
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
 |---------|------|------|------|------|
 | 19914809 | RAPAMUNE 1.0 MG GRAGEAS | TABLETA CUBIERTA (GRAGEA) | SIROLIMUS | Vigente |
+| 20264917 | GRAFTOMUS® 1 MG TABLETAS CUBIERTAS | TABLETA RECUBIERTA | SIROLIMUS | Vigente |
 
-Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

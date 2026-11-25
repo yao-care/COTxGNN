@@ -8,7 +8,7 @@ indication_count: 8
 drugbank_id: DB01060
 monitor_inn: "Amoxicillin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Amoxicilina: nueva indicación predicha, Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) (nivel de evidencia L5)."
 ---
 
@@ -51,8 +51,8 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección
 | Nueva Indicación Predicha | Síndrome de hiperviscosidad policlonal (polyclonal hyperviscosity syndrome) |
 | Puntaje de Predicción TxGNN | 0.9963 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 18 de 19) |
-| Número de Registros Sanitarios | 19 (vigentes: 18) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 18) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -85,7 +85,7 @@ Hay registros sanitarios vigentes; se listan los principales (hasta 5):
 | 20083462 | SOLOMOXY | CAPSULA DURA | AMOXICILINA | Vigente |
 | 20109747 | AMOXICLIN ® DUO | TABLETA RECUBIERTA | AMOXICILINA Y BETA-LACTAMASA INHIBIDOR | Vigente |
 
-Se muestran 5 de 19 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
 
 <!-- licenses:end -->
 

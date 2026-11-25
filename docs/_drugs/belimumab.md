@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "BELIMUMAB"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "fetal and neonatal alloimmune thrombocytopenia", "severe nonproliferative diabetic retinopathy", "autosomal dominant macrothrombocytopenia"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Belimumab: nueva indicación predicha, trastorno primario de la liberación plaquetaria (primary release disorder of platelets) (nivel de evidencia L5). Indicación original: BELIMUMAB"
 ---
 
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno primario de la
 | Nueva Indicación Predicha | trastorno primario de la liberación plaquetaria (primary release disorder of platelets) |
 | Puntaje de Predicción TxGNN | 0,9996 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
-| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -77,8 +77,9 @@ Actualmente no hay literatura relacionada disponible.
 |---------|------|------|------|------|
 | 20048122 | BENLYSTA 120 MG POLVO LIOFILIZADO CONCENTRADO PARA SOLUCION PARA INFUSION | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | BELIMUMAB | Vigente |
 | 20066631 | BENLYSTA 400 MG POLVO LIOFILIZADO CONCENTRADO PARA SOLUCION PARA INFUSION | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | BELIMUMAB | Vigente |
+| 20195304 | BENLYSTA 200 MG / 1 ML | SOLUCION INYECTABLE | BELIMUMAB | Temp. no comerc - Vigente |
 
-Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

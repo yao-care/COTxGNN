@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "fluvoxamine"
 predicted_indications: ["paranoid personality disorder", "schizotypal personality disorder", "histrionic personality disorder (disease)", "schizoid personality disorder", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Fluvoxamine: nueva indicación predicha, trastorno de personalidad paranoide (paranoid personality disorder) (nivel de evidencia L5). Indicación original: FLUVOXAMINA"
 ---
 
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de personalida
 | Nueva Indicación Predicha | trastorno de personalidad paranoide (paranoid personality disorder) |
 | Puntaje de Predicción TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 6) |
-| Número de Registros Sanitarios | 6 (vigentes: 5) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 8) |
+| Número de Registros Sanitarios | 8 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -84,7 +84,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 226058 | VOXAMIN® TABLETA RECUBIERTA | TABLETA RECUBIERTA | FLUVOXAMINA | Vigente |
 | 59491 | LUVOX 100 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | FLUVOXAMINA | Vigente |
 
-Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

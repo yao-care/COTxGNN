@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 254
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "ENTECAVIR"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
 description: "Entecavir: nueva indicación predicha, Infección crónica por el virus de la hepatitis C (chronic hepatitis C virus infection) (nivel de evidencia L5). Indicación original: ENTECAVIR"
@@ -50,8 +50,8 @@ Los **2 ensayos clínicos** y las **20 publicaciones** compiladas tratan de la c
 | Nueva Indicación Predicha | Infección crónica por el virus de la hepatitis C (chronic hepatitis C virus infection) |
 | Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 12 de 14) |
-| Número de Registros Sanitarios | 14 (vigentes: 12) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 12 de 15) |
+| Número de Registros Sanitarios | 15 (vigentes: 12) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -106,7 +106,7 @@ Estado de mercado: **Comercializado**. Hay registros sanitarios vigentes.
 | 20109429 | VORIX® 1.0 MG | TABLETA RECUBIERTA | ENTECAVIR | Vigente |
 | 20118266 | ZENTAIR 0.5 MG | TABLETA RECUBIERTA | ENTECAVIR | Vigente |
 
-Se muestran 5 de 14 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 15 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

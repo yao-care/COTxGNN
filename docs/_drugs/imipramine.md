@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 338
 evidence_level: L3
 indication_count: 7
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Imipramine: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (TDAH) (nivel de evidencia L3). Indicación original: No especificada en el registro (el texto aprobado solo i…"
 monitor_inn: "imipramine"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
@@ -52,8 +52,8 @@ sin **ensayos clínicos** registrados y con **20 publicaciones** asociadas, la m
 | Nueva Indicación Predicha | Trastorno por déficit de atención e hiperactividad (TDAH) |
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
-| Número de Registros Sanitarios | 4 (vigentes: 4) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -103,8 +103,9 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 20028647 | IMIPRAMINA CLOHIDRATO 25 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | IMIPRAMINA | Vigente |
 | 20030724 | IMIPRAMINA CLORHIDRATO 10 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | IMIPRAMINA | Vigente |
 | 58148 | IMIPRAMINA25 MG | TABLETA RECUBIERTA | IMIPRAMINA | Vigente |
+| 20221336 | IMIPRAMINA CLORHIDRATO 25 MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | IMIPRAMINA | Temp. no comerc - Vigente |
 
-Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

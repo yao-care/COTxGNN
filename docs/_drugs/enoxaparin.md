@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 252
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Enoxaparin: nueva indicación predicha, Trombofilia por deficiencia de proteína C, autosómica recesiva (nivel de evidencia L5). Indicación original: ENOXAPARINA"
 monitor_inn: "enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **trombofilia por deficien
 | Nueva Indicación Predicha | Trombofilia por deficiencia de proteína C, autosómica recesiva |
 | Puntaje de Predicción TxGNN | 0.9958 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 10 de 14) |
-| Número de Registros Sanitarios | 14 (vigentes: 10) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 10 de 15) |
+| Número de Registros Sanitarios | 15 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -97,7 +97,7 @@ Actualmente no hay literatura relacionada disponible.
 | 36240 | CLEXANE INYECTABLE 20 MG / 0.2 ML. | SOLUCION INYECTABLE | ENOXAPARINA | Vigente |
 | 36241 | CLEXANE 40 MG/ 0.4 ML INYECTABLE. | SOLUCION INYECTABLE | ENOXAPARINA | Vigente |
 
-Se muestran 5 de 14 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 15 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

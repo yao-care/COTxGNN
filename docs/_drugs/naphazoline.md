@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 460
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Naphazoline: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (nivel de evidencia L5). Indicación original: Nafazolina"
 monitor_inn: "naphazoline"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "primary hereditary glaucoma", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "open-angle glaucoma", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **hipotricosis simple del 
 | Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo |
 | Puntaje de Predicción TxGNN | 0.9983 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 17 de 20) |
-| Número de Registros Sanitarios | 20 (vigentes: 17) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 17) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -93,7 +93,7 @@ Para la predicción de glaucoma de ángulo abierto (rank 8) existe una publicaci
 | 20032237 | LUZ ZUL SOLUCION OFTALMICA | SOLUCION OFTALMICA | NAFAZOLINA | Vigente |
 | 20075424 | NAFVISION® | SOLUCION OFTALMICA | NAFAZOLINA | Vigente |
 
-Se muestran 5 de 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
 
 <!-- licenses:end -->
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 626
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Ticagrelor: nueva indicación predicha, Arteriosclerosis intracraneal (nivel de evidencia L5). Indicación original: No especificada en los registros"
 monitor_inn: "TICAGRELOR"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "venous thromboembolism"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **arteriosclerosis intracr
 | Nueva Indicación Predicha | Arteriosclerosis intracraneal |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 10 de 17) |
-| Número de Registros Sanitarios | 17 (vigentes: 10) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 11 de 20) |
+| Número de Registros Sanitarios | 20 (vigentes: 11) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -97,7 +97,7 @@ Debe señalarse que la evidencia es indirecta para ticagrelor: el ensayo de Fase
 | 20163351 | TIARE® TABLETAS 90 MG | TABLETA RECUBIERTA | TICAGRELOR | Vigente |
 | 20197818 | TIARE® 60MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | TICAGRELOR | Vigente |
 
-Se muestran 5 de 17 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

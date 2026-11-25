@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 616
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Terbutaline"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 description: "Terbutaline: nueva indicación predicha, Malformación respiratoria (respiratory malformation) (nivel de evidencia L5). Indicación original: TERBUTALINA"
@@ -48,8 +48,8 @@ Terbutalina es un agonista beta-2 adrenérgico de acción broncodilatadora. El m
 | Nueva Indicación Predicha | Malformación respiratoria (respiratory malformation) |
 | Puntaje de Predicción TxGNN | 0.9952 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
-| Número de Registros Sanitarios | 4 (vigentes: 4) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 8) |
+| Número de Registros Sanitarios | 8 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -91,8 +91,9 @@ Terbutalina figura como comercializada en Colombia.
 | 218164 | TERBUROP GUAYACOLATO JARABE | JARABE | TERBUTALINA COMBINACIONES | Vigente |
 | 218166 | TERBUROP® JARABE | JARABE | TERBUTALINA | Vigente |
 | 38998 | TERBUROP® SOLUCION PARA NEBULIZACION | SOLUCION PARA NEBULIZACION | TERBUTALINA | Vigente |
+| 19960773 | TERBUROP®2.5 MG TABLETAS | TABLETA | TERBUTALINA | Temp. no comerc - Vigente |
 
-Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

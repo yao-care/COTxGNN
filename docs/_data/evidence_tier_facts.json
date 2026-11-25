@@ -8,7 +8,7 @@
   },
   "with_current": 35,
   "none_current": 1,
-  "without_data": 6,
+  "without_data": 7,
   "with_reviews": 34,
   "rows": [
    {
@@ -16,7 +16,7 @@
     "u": "/drugs/acetylcysteine/",
     "l": "L1",
     "i": "thrombotic disease",
-    "lt": 15,
+    "lt": 16,
     "lv": 15,
     "r": 3,
     "rs": "Eliminado: \"dado que no hay registros vigentes\"",
@@ -27,8 +27,8 @@
     "u": "/drugs/bendamustine/",
     "l": "L1",
     "i": "mantle cell lymphoma",
-    "lt": 14,
-    "lv": 11,
+    "lt": 18,
+    "lv": 12,
     "r": 5,
     "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
     "x": 0
@@ -60,8 +60,8 @@
     "u": "/drugs/clofarabine/",
     "l": "L1",
     "i": "myeloid leukemia",
-    "lt": 2,
-    "lv": 2,
+    "lt": 4,
+    "lv": 3,
     "r": 2,
     "rs": "Eliminado: \"dado que ambos registros están cancelados\"",
     "x": 0
@@ -71,10 +71,10 @@
     "u": "/drugs/clomipramine/",
     "l": "L1",
     "i": "anxiety disorder",
-    "lt": 1,
+    "lt": 2,
     "lv": 0,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 3,
+    "rs": "«el único registro sanitario colombiano está cancelado» → «sus registros sanitarios en Colombia figuran como…",
     "x": 0
    },
    {
@@ -82,8 +82,8 @@
     "u": "/drugs/dapsone/",
     "l": "L1",
     "i": "pneumocystosis",
-    "lt": 2,
-    "lv": 2,
+    "lt": 3,
+    "lv": 3,
     "r": 3,
     "rs": "Eliminado: \"Aclarar la situación regulatoria: ambos registros están cancelados y no hay producto vigente en…",
     "x": 0
@@ -93,7 +93,7 @@
     "u": "/drugs/doxorubicin/",
     "l": "L1",
     "i": "Sarcoma de Ewing",
-    "lt": 12,
+    "lt": 14,
     "lv": 9,
     "r": 1,
     "rs": "Eliminado: \"Los datos pueden ser parciales.\"",
@@ -126,8 +126,8 @@
     "u": "/drugs/ketorolac/",
     "l": "L1",
     "i": "Trastorno de Cefalea",
-    "lt": 6,
-    "lv": 4,
+    "lt": 11,
+    "lv": 5,
     "r": 4,
     "rs": "Eliminado: \"y gestionar un registro sanitario, ya que todos los vigentes están cancelados\"",
     "x": 0
@@ -159,8 +159,8 @@
     "u": "/drugs/propofol/",
     "l": "L1",
     "i": "Trastorno de migraña",
-    "lt": 14,
-    "lv": 12,
+    "lt": 16,
+    "lv": 13,
     "r": 2,
     "rs": "Eliminado: \"y los dos registros colombianos están cancelados\"",
     "x": 0
@@ -203,8 +203,8 @@
     "u": "/drugs/bupropion/",
     "l": "L2",
     "i": "attention deficit-hyperactivity disorder",
-    "lt": 4,
-    "lv": 4,
+    "lt": 6,
+    "lv": 6,
     "r": 3,
     "rs": "Eliminado: \"Definir la situación regulatoria: los tres registros están cancelados, por lo que se requeriría…",
     "x": 0
@@ -214,8 +214,8 @@
     "u": "/drugs/candesartan/",
     "l": "L2",
     "i": "trastorno de migraña",
-    "lt": 12,
-    "lv": 11,
+    "lt": 16,
+    "lv": 13,
     "r": 2,
     "rs": "Eliminado: \"candesartán como monofármaco; la lista puede ser parcial.\"",
     "x": 0
@@ -225,8 +225,8 @@
     "u": "/drugs/cyclobenzaprine/",
     "l": "L2",
     "i": "myofascial pain syndrome",
-    "lt": 11,
-    "lv": 9,
+    "lt": 13,
+    "lv": 10,
     "r": 2,
     "rs": "Eliminado: \"dado que no hay registros vigentes (nuevo registro o reactivación)\"",
     "x": 0
@@ -236,8 +236,8 @@
     "u": "/drugs/dasatinib/",
     "l": "L2",
     "i": "Ewing sarcoma",
-    "lt": 12,
-    "lv": 12,
+    "lt": 16,
+    "lv": 16,
     "r": 3,
     "rs": "Número de registros vigentes: 3 → 12",
     "x": 0
@@ -247,7 +247,7 @@
     "u": "/drugs/docetaxel/",
     "l": "L2",
     "i": "Sarcoma de Ewing",
-    "lt": 9,
+    "lt": 13,
     "lv": 8,
     "r": 0,
     "rs": "",
@@ -280,7 +280,7 @@
     "u": "/drugs/lamotrigine/",
     "l": "L2",
     "i": "trigeminal nerve neoplasm",
-    "lt": 15,
+    "lt": 19,
     "lv": 12,
     "r": 3,
     "rs": "Eliminado: \"Confirmar si existe un producto con registro vigente en Colombia, ya que el único registro está…",
@@ -335,8 +335,8 @@
     "u": "/drugs/oxaliplatin/",
     "l": "L2",
     "i": "malignant pleural mesothelioma",
-    "lt": 9,
-    "lv": 7,
+    "lt": 14,
+    "lv": 10,
     "r": 3,
     "rs": "Número de registros vigentes: 4 → 8",
     "x": 0
@@ -357,8 +357,8 @@
     "u": "/drugs/regorafenib/",
     "l": "L2",
     "i": "liposarcoma",
-    "lt": 1,
-    "lv": 1,
+    "lt": 2,
+    "lv": 2,
     "r": 0,
     "rs": "",
     "x": 0
@@ -379,7 +379,7 @@
     "u": "/drugs/sucralfate/",
     "l": "L2",
     "i": "duodenogastric reflux",
-    "lt": 7,
+    "lt": 9,
     "lv": 7,
     "r": 3,
     "rs": "Número de registros vigentes: 4 → 7",
@@ -390,7 +390,7 @@
     "u": "/drugs/sunitinib/",
     "l": "L2",
     "i": "liposarcoma",
-    "lt": 20,
+    "lt": 0,
     "lv": 19,
     "r": 3,
     "rs": "Eliminado: \"Los cuatro registros pertenecen a HB Human Bioscience S.A.S.\"",
@@ -429,9 +429,9 @@
    "L3": 25,
    "L4": 45
   },
-  "with_current": 69,
-  "none_current": 1,
-  "without_data": 6,
+  "with_current": 70,
+  "none_current": 0,
+  "without_data": 10,
   "with_reviews": 70,
   "rows": [
    {
@@ -450,7 +450,7 @@
     "u": "/drugs/beclomethasone-dipropionate/",
     "l": "L3",
     "i": "atopic eczema",
-    "lt": 14,
+    "lt": 16,
     "lv": 14,
     "r": 4,
     "rs": "Número de registros vigentes: 5 → 14",
@@ -483,7 +483,7 @@
     "u": "/drugs/clonazepam/",
     "l": "L3",
     "i": "restless legs syndrome",
-    "lt": 8,
+    "lt": 11,
     "lv": 8,
     "r": 3,
     "rs": "Eliminado: \"en Colombia ambos registros sanitarios están cancelados, y\"",
@@ -494,7 +494,7 @@
     "u": "/drugs/cytarabine/",
     "l": "L3",
     "i": "Carcinoma pulmonar de células pequeñas",
-    "lt": 10,
+    "lt": 12,
     "lv": 4,
     "r": 2,
     "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
@@ -538,8 +538,8 @@
     "u": "/drugs/eltrombopag/",
     "l": "L3",
     "i": "HIV infectious disease",
-    "lt": 5,
-    "lv": 5,
+    "lt": 6,
+    "lv": 6,
     "r": 3,
     "rs": "Eliminado: \"registros están cancelados\"",
     "x": 0
@@ -549,8 +549,8 @@
     "u": "/drugs/estriol/",
     "l": "L3",
     "i": "amenorrhea (disease)",
-    "lt": 2,
-    "lv": 2,
+    "lt": 3,
+    "lv": 3,
     "r": 3,
     "rs": "Eliminado: \"los dos registros sanitarios en Colombia están cancelados y\"",
     "x": 0
@@ -571,7 +571,7 @@
     "u": "/drugs/imipramine/",
     "l": "L3",
     "i": "attention deficit-hyperactivity disorder",
-    "lt": 4,
+    "lt": 5,
     "lv": 4,
     "r": 3,
     "rs": "Número de registros vigentes: 2 → 4",
@@ -593,7 +593,7 @@
     "u": "/drugs/medroxyprogesterone-acetate/",
     "l": "L3",
     "i": "Enfermedad fibroquística de la mama",
-    "lt": 6,
+    "lt": 7,
     "lv": 4,
     "r": 4,
     "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
@@ -604,7 +604,7 @@
     "u": "/drugs/mercaptopurine/",
     "l": "L3",
     "i": "myeloid leukemia",
-    "lt": 1,
+    "lt": 2,
     "lv": 1,
     "r": 4,
     "rs": "Eliminado: \"el único registro en Colombia está cancelado y\"",
@@ -626,8 +626,8 @@
     "u": "/drugs/parecoxib/",
     "l": "L3",
     "i": "Trastorno de migraña",
-    "lt": 1,
-    "lv": 0,
+    "lt": 2,
+    "lv": 1,
     "r": 4,
     "rs": "Eliminado: \"y su único registro sanitario en Colombia está cancelado\"",
     "x": 0
@@ -681,7 +681,7 @@
     "u": "/drugs/sofosbuvir/",
     "l": "L3",
     "i": "hepatitis B virus infection",
-    "lt": 1,
+    "lt": 3,
     "lv": 1,
     "r": 3,
     "rs": "Eliminado: \"dado que el registro de Epclusa® figura como cancelado\"",
@@ -703,8 +703,8 @@
     "u": "/drugs/trazodone/",
     "l": "L3",
     "i": "obsessive-compulsive disorder",
-    "lt": 10,
-    "lv": 8,
+    "lt": 11,
+    "lv": 9,
     "r": 4,
     "rs": "Eliminado: \"ya que los dos registros están cancelados\"",
     "x": 0
@@ -725,8 +725,8 @@
     "u": "/drugs/axitinib/",
     "l": "L4",
     "i": "liposarcoma",
-    "lt": 3,
-    "lv": 3,
+    "lt": 5,
+    "lv": 5,
     "r": 2,
     "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
@@ -736,7 +736,7 @@
     "u": "/drugs/betamethasone/",
     "l": "L4",
     "i": "alopecia mucinosa",
-    "lt": 18,
+    "lt": 0,
     "lv": 18,
     "r": 2,
     "rs": "Eliminado: \"Los registros listados pueden ser una lista parcial.\"",
@@ -747,7 +747,7 @@
     "u": "/drugs/bosentan/",
     "l": "L4",
     "i": "rheumatoid arthritis",
-    "lt": 14,
+    "lt": 15,
     "lv": 13,
     "r": 3,
     "rs": "Eliminado: \"dado que no hay registros vigentes en Colombia\"",
@@ -758,7 +758,7 @@
     "u": "/drugs/buprenorphine/",
     "l": "L4",
     "i": "acute intermittent porphyria",
-    "lt": 5,
+    "lt": 6,
     "lv": 5,
     "r": 3,
     "rs": "Eliminado: \"ya que ambos registros están cancelados\"",
@@ -780,8 +780,8 @@
     "u": "/drugs/clobazam/",
     "l": "L4",
     "i": "febrile infection-related epilepsy syndrome",
-    "lt": 6,
-    "lv": 3,
+    "lt": 8,
+    "lv": 5,
     "r": 3,
     "rs": "Eliminado: \"que en Colombia contó con registros sanitarios como antiepiléptico/ansiolítico\"",
     "x": 0
@@ -802,7 +802,7 @@
     "u": "/drugs/cysteine/",
     "l": "L4",
     "i": "dry eye syndrome",
-    "lt": 2,
+    "lt": 3,
     "lv": 2,
     "r": 3,
     "rs": "Eliminado: \"que en Colombia estuvo registrado como componente de una emulsión inyectable de nutrición…",
@@ -813,8 +813,8 @@
     "u": "/drugs/deferasirox/",
     "l": "L4",
     "i": "HIV infectious disease",
-    "lt": 13,
-    "lv": 10,
+    "lt": 18,
+    "lv": 15,
     "r": 2,
     "rs": "Eliminado: \"los registros en Colombia están cancelados y\"",
     "x": 0
@@ -846,8 +846,8 @@
     "u": "/drugs/dolutegravir/",
     "l": "L4",
     "i": "Infección por virus de la inmunodeficiencia simia",
-    "lt": 4,
-    "lv": 4,
+    "lt": 7,
+    "lv": 6,
     "r": 2,
     "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
@@ -857,8 +857,8 @@
     "u": "/drugs/doxazosin/",
     "l": "L4",
     "i": "migraine disorder",
-    "lt": 4,
-    "lv": 4,
+    "lt": 5,
+    "lv": 5,
     "r": 3,
     "rs": "Eliminado: \"Aclarar la indicación original aprobada y la situación del registro cancelado\"",
     "x": 0
@@ -879,8 +879,8 @@
     "u": "/drugs/efavirenz/",
     "l": "L4",
     "i": "Infección por el virus de la inmunodeficiencia simia",
-    "lt": 9,
-    "lv": 7,
+    "lt": 18,
+    "lv": 8,
     "r": 2,
     "rs": "Eliminado: \"Los tres productos son combinaciones de dosis fija…\"",
     "x": 0
@@ -912,8 +912,8 @@
     "u": "/drugs/febuxostat/",
     "l": "L4",
     "i": "hypouricemia, renal",
-    "lt": 6,
-    "lv": 5,
+    "lt": 8,
+    "lv": 7,
     "r": 1,
     "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
@@ -934,8 +934,8 @@
     "u": "/drugs/gemfibrozil/",
     "l": "L4",
     "i": "rheumatoid arthritis",
-    "lt": 10,
-    "lv": 10,
+    "lt": 11,
+    "lv": 11,
     "r": 3,
     "rs": "Eliminado: \"ya que no hay registro sanitario vigente en Colombia\"",
     "x": 0
@@ -945,7 +945,7 @@
     "u": "/drugs/glutamic-acid/",
     "l": "L4",
     "i": "postmenopausal osteoporosis",
-    "lt": 13,
+    "lt": 15,
     "lv": 12,
     "r": 2,
     "rs": "Eliminado: \"dado que no hay registros vigentes en Colombia\"",
@@ -956,7 +956,7 @@
     "u": "/drugs/hydrocodone/",
     "l": "L4",
     "i": "nasal cavity disease",
-    "lt": 18,
+    "lt": 0,
     "lv": 18,
     "r": 2,
     "rs": "Eliminado: \"y el producto registrado en Colombia está cancelado\"",
@@ -978,8 +978,8 @@
     "u": "/drugs/lamivudine/",
     "l": "L4",
     "i": "simian immunodeficiency virus infection",
-    "lt": 14,
-    "lv": 8,
+    "lt": 0,
+    "lv": 9,
     "r": 4,
     "rs": "Eliminado: \"Además, lamivudina no tiene registros sanitarios vigentes en Colombia\"",
     "x": 0
@@ -989,8 +989,8 @@
     "u": "/drugs/lopinavir/",
     "l": "L4",
     "i": "simian immunodeficiency virus infection",
-    "lt": 2,
-    "lv": 2,
+    "lt": 8,
+    "lv": 3,
     "r": 3,
     "rs": "Eliminado: \"Aclarar la situación regulatoria: ambos registros están cancelados\"",
     "x": 0
@@ -1011,7 +1011,7 @@
     "u": "/drugs/miconazole/",
     "l": "L4",
     "i": "acné",
-    "lt": 2,
+    "lt": 3,
     "lv": 1,
     "r": 3,
     "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
@@ -1088,8 +1088,8 @@
     "u": "/drugs/progesterone/",
     "l": "L4",
     "i": "Enfermedad fibroquística de la mama",
-    "lt": 13,
-    "lv": 9,
+    "lt": 15,
+    "lv": 10,
     "r": 1,
     "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
@@ -1132,7 +1132,7 @@
     "u": "/drugs/rifampicin/",
     "l": "L4",
     "i": "conjunctivitis",
-    "lt": 2,
+    "lt": 5,
     "lv": 2,
     "r": 3,
     "rs": "Eliminado: \"Fusionar las entradas duplicadas de conjuntivitis y evaluar la compatibilidad de vía de…",
@@ -1143,8 +1143,8 @@
     "u": "/drugs/ritonavir/",
     "l": "L4",
     "i": "simian immunodeficiency virus infection",
-    "lt": 15,
-    "lv": 14,
+    "lt": 0,
+    "lv": 15,
     "r": 3,
     "rs": "Número de registros vigentes: 5 → 14",
     "x": 0
@@ -1165,8 +1165,8 @@
     "u": "/drugs/tobramycin/",
     "l": "L4",
     "i": "exposure keratitis",
-    "lt": 13,
-    "lv": 12,
+    "lt": 14,
+    "lv": 13,
     "r": 3,
     "rs": "Eliminado: \"dado que no hay productos vigentes en Colombia\"",
     "x": 0
@@ -1187,7 +1187,7 @@
     "u": "/drugs/velpatasvir/",
     "l": "L4",
     "i": "hepatitis B virus infection",
-    "lt": 1,
+    "lt": 2,
     "lv": 1,
     "r": 3,
     "rs": "Eliminado: \"dado que el registro está cancelado\"",
@@ -1205,12 +1205,7 @@
     "x": 0
    }
   ],
-  "none_current_list": [
-   {
-    "t": "Parecoxib",
-    "u": "/drugs/parecoxib/"
-   }
-  ],
+  "none_current_list": [],
   "cross": {
    "median_share": 9.2,
    "unique_drugs": 0
@@ -1227,8 +1222,8 @@
   },
   "with_current": 490,
   "none_current": 9,
-  "without_data": 62,
-  "with_reviews": 474,
+  "without_data": 73,
+  "with_reviews": 475,
   "rows": [
    {
     "t": "Acyclovir",
@@ -1391,8 +1386,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 0,
     "lv": 20,
-    "r": 3,
-    "rs": "Eliminado: \"No hay registros vigentes\"",
+    "r": 4,
+    "rs": "«administración, ya que en Colombia solo se registró la forma oral» → «administración»",
     "x": 0
    },
    {
@@ -1446,8 +1441,8 @@
     "i": "nasal cavity disease",
     "lt": 0,
     "lv": 19,
-    "r": 3,
-    "rs": "Eliminado: \"(ya cancelado) de una emulsion lipidica para nutricion parenteral\"",
+    "r": 4,
+    "rs": "«(la unica forma registrada es una emulsion inyectable, no apt» → «(las formas registradas son inyectables o…",
     "x": 0
    },
    {
@@ -1457,8 +1452,8 @@
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 0,
     "lv": 19,
-    "r": 2,
-    "rs": "Eliminado: \"Además, el único registro sanitario en Colombia está cancelado\"",
+    "r": 3,
+    "rs": "«su único registro sanitario corresponde a una suspensión oral pediátri…» → «tiene registros sanitarios en…",
     "x": 0
    },
    {
@@ -1510,7 +1505,7 @@
     "u": "/drugs/salmeterol/",
     "l": "L5",
     "i": "malformación respiratoria",
-    "lt": 20,
+    "lt": 0,
     "lv": 19,
     "r": 1,
     "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
@@ -1524,7 +1519,7 @@
     "lt": 0,
     "lv": 19,
     "r": 2,
-    "rs": "Eliminado: \"el único registro sanitario en Colombia está cancelado y\"",
+    "rs": "Eliminado: \"cuyo registro está cancelado\"",
     "x": 0
    },
    {
@@ -1565,7 +1560,7 @@
     "u": "/drugs/amoxicilina/",
     "l": "L5",
     "i": "Síndrome de hiperviscosidad policlonal",
-    "lt": 19,
+    "lt": 0,
     "lv": 18,
     "r": 1,
     "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
@@ -1580,6 +1575,17 @@
     "lv": 18,
     "r": 2,
     "rs": "Eliminado: \"La lista de registros puede estar incompleta.\"",
+    "x": 0
+   },
+   {
+    "t": "Cetirizine",
+    "u": "/drugs/cetirizine/",
+    "l": "L5",
+    "i": "Enfermedad de la cavidad nasal",
+    "lt": 20,
+    "lv": 18,
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -1666,8 +1672,8 @@
     "i": "punctate epithelial keratoconjunctivitis",
     "lt": 0,
     "lv": 18,
-    "r": 1,
-    "rs": "Eliminado: \"Se listan los 3 registros disponibles; puede haber más registros no incluidos.\"",
+    "r": 2,
+    "rs": "«son supositorio, ungüento y crema» → «incluyen formas inyectables, tópicas, bucales, óticas y rectales»",
     "x": 0
    },
    {
@@ -1686,7 +1692,7 @@
     "u": "/drugs/nystatin/",
     "l": "L5",
     "i": "Enfermedad de la región orbitaria",
-    "lt": 19,
+    "lt": 0,
     "lv": 18,
     "r": 2,
     "rs": "Eliminado: \"Los registros disponibles pueden ser parciales.\"",
@@ -1697,7 +1703,7 @@
     "u": "/drugs/olanzapine/",
     "l": "L5",
     "i": "benign paroxysmal torticollis of infancy",
-    "lt": 20,
+    "lt": 0,
     "lv": 18,
     "r": 2,
     "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
@@ -1781,17 +1787,6 @@
     "x": 0
    },
    {
-    "t": "Cetirizine",
-    "u": "/drugs/cetirizine/",
-    "l": "L5",
-    "i": "Enfermedad de la cavidad nasal",
-    "lt": 18,
-    "lv": 17,
-    "r": 2,
-    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
-    "x": 0
-   },
-   {
     "t": "Chlorpheniramine",
     "u": "/drugs/chlorpheniramine/",
     "l": "L5",
@@ -1807,7 +1802,7 @@
     "u": "/drugs/naphazoline/",
     "l": "L5",
     "i": "hypotrichosis simplex of the scalp",
-    "lt": 20,
+    "lt": 0,
     "lv": 17,
     "r": 4,
     "rs": "Eliminado: \"(Se muestran los 5 principales de 8 registros.)\"",
@@ -1829,7 +1824,7 @@
     "u": "/drugs/olopatadine/",
     "l": "L5",
     "i": "rosacea conjunctivitis",
-    "lt": 18,
+    "lt": 19,
     "lv": 17,
     "r": 4,
     "rs": "Número de registros vigentes: 8 → 17",
@@ -1842,8 +1837,8 @@
     "i": "retinal dystrophy with or without extraocular anomalies",
     "lt": 0,
     "lv": 17,
-    "r": 3,
-    "rs": "Eliminado: \"ya que el único registro está cancelado\"",
+    "r": 4,
+    "rs": "«el único registro sanitario colombiano disponible» → «los registros sanitarios colombianos»",
     "x": 0
    },
    {
@@ -1866,6 +1861,17 @@
     "lv": 17,
     "r": 3,
     "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
+    "x": 0
+   },
+   {
+    "t": "Vildagliptin",
+    "u": "/drugs/vildagliptin/",
+    "l": "L5",
+    "i": "focal stiff limb syndrome",
+    "lt": 0,
+    "lv": 17,
+    "r": 3,
+    "rs": "Eliminado: \"dado que el registro sanitario está cancelado\"",
     "x": 0
    },
    {
@@ -1902,6 +1908,17 @@
     "x": 0
    },
    {
+    "t": "Metoprolol",
+    "u": "/drugs/metoprolol/",
+    "l": "L5",
+    "i": "Enfermedad renal hipertensiva maligna",
+    "lt": 18,
+    "lv": 16,
+    "r": 3,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial (se muestran al menos 4).\"",
+    "x": 0
+   },
+   {
     "t": "Omeprazole",
     "u": "/drugs/omeprazole/",
     "l": "L5",
@@ -1910,6 +1927,28 @@
     "lv": 16,
     "r": 3,
     "rs": "Eliminado: \"ya que los dos registros sanitarios están cancelados\"",
+    "x": 0
+   },
+   {
+    "t": "Paclitaxel",
+    "u": "/drugs/paclitaxel/",
+    "l": "L5",
+    "i": "parameningeal embryonal rhabdomyosarcoma",
+    "lt": 0,
+    "lv": 16,
+    "r": 4,
+    "rs": "Eliminado: «15»",
+    "x": 0
+   },
+   {
+    "t": "Tamsulosin",
+    "u": "/drugs/tamsulosin/",
+    "l": "L5",
+    "i": "Ambras type hypertrichosis universalis congenita",
+    "lt": 20,
+    "lv": 16,
+    "r": 3,
+    "rs": "Eliminado: \"Evaluar si, dado el estado cancelado del registro, existe una presentación vigente de tamsulosina…",
     "x": 0
    },
    {
@@ -1957,36 +1996,14 @@
     "x": 0
    },
    {
-    "t": "Metoprolol",
-    "u": "/drugs/metoprolol/",
-    "l": "L5",
-    "i": "Enfermedad renal hipertensiva maligna",
-    "lt": 15,
-    "lv": 15,
-    "r": 3,
-    "rs": "Eliminado: \"La lista de registros puede ser parcial (se muestran al menos 4).\"",
-    "x": 0
-   },
-   {
     "t": "Moxifloxacin",
     "u": "/drugs/moxifloxacin/",
     "l": "L5",
     "i": "polyclonal hyperviscosity syndrome",
-    "lt": 18,
+    "lt": 19,
     "lv": 15,
     "r": 2,
     "rs": "Eliminado: \"Confirmar la situación regulatoria (registros cancelados) antes de cualquier desarrollo en…",
-    "x": 0
-   },
-   {
-    "t": "Paclitaxel",
-    "u": "/drugs/paclitaxel/",
-    "l": "L5",
-    "i": "parameningeal embryonal rhabdomyosarcoma",
-    "lt": 16,
-    "lv": 15,
-    "r": 3,
-    "rs": "Número de registros vigentes: 4 → 15",
     "x": 0
    },
    {
@@ -2005,21 +2022,21 @@
     "u": "/drugs/tenofovir-disoproxil/",
     "l": "L5",
     "i": "feline acquired immunodeficiency syndrome",
-    "lt": 18,
+    "lt": 0,
     "lv": 15,
     "r": 3,
     "rs": "Número de registros vigentes: 4 → 16",
     "x": 0
    },
    {
-    "t": "Vildagliptin",
-    "u": "/drugs/vildagliptin/",
+    "t": "Thiocolchicoside",
+    "u": "/drugs/thiocolchicoside/",
     "l": "L5",
-    "i": "focal stiff limb syndrome",
-    "lt": 17,
+    "i": "insomnia (disease)",
+    "lt": 15,
     "lv": 15,
     "r": 3,
-    "rs": "Eliminado: \"dado que el registro sanitario está cancelado\"",
+    "rs": "Eliminado: \"dado que el único registro está cancelado\"",
     "x": 0
    },
    {
@@ -2038,7 +2055,7 @@
     "u": "/drugs/codeine/",
     "l": "L5",
     "i": "nasal cavity disease",
-    "lt": 18,
+    "lt": 0,
     "lv": 14,
     "r": 2,
     "rs": "Eliminado: \"El único producto registrado en Colombia está cancelado\"",
@@ -2053,6 +2070,17 @@
     "lv": 14,
     "r": 2,
     "rs": "Eliminado: \"y el único registro sanitario en Colombia está cancelado\"",
+    "x": 0
+   },
+   {
+    "t": "Dutasteride",
+    "u": "/drugs/dutasteride/",
+    "l": "L5",
+    "i": "Ambras type hypertrichosis universalis congenita",
+    "lt": 16,
+    "lv": 14,
+    "r": 4,
+    "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
     "x": 0
    },
    {
@@ -2071,21 +2099,10 @@
     "u": "/drugs/orlistat/",
     "l": "L5",
     "i": "hypervitaminosis",
-    "lt": 15,
+    "lt": 16,
     "lv": 14,
     "r": 3,
     "rs": "Número de registros vigentes: 3 → 14",
-    "x": 0
-   },
-   {
-    "t": "Tamsulosin",
-    "u": "/drugs/tamsulosin/",
-    "l": "L5",
-    "i": "Ambras type hypertrichosis universalis congenita",
-    "lt": 17,
-    "lv": 14,
-    "r": 3,
-    "rs": "Eliminado: \"Evaluar si, dado el estado cancelado del registro, existe una presentación vigente de tamsulosina…",
     "x": 0
    },
    {
@@ -2093,10 +2110,32 @@
     "u": "/drugs/temozolomide/",
     "l": "L5",
     "i": "cauda equina neoplasm",
-    "lt": 16,
+    "lt": 0,
     "lv": 14,
     "r": 2,
     "rs": "Eliminado: \"La lista puede ser parcial.\"",
+    "x": 0
+   },
+   {
+    "t": "Ambrisentan",
+    "u": "/drugs/ambrisentan/",
+    "l": "L5",
+    "i": "Malformación arteriovenosa pulmonar",
+    "lt": 13,
+    "lv": 13,
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
+    "x": 0
+   },
+   {
+    "t": "Benzocaine",
+    "u": "/drugs/benzocaine/",
+    "l": "L5",
+    "i": "papillary conjunctivitis",
+    "lt": 16,
+    "lv": 13,
+    "r": 1,
+    "rs": "Eliminado: \"Además, los dos registros sanitarios en Colombia están cancelados\"",
     "x": 0
    },
    {
@@ -2108,6 +2147,28 @@
     "lv": 13,
     "r": 1,
     "rs": "Eliminado: \"El listado puede ser parcial.\"",
+    "x": 0
+   },
+   {
+    "t": "Carvedilol",
+    "u": "/drugs/carvedilol/",
+    "l": "L5",
+    "i": "Enfermedad renal hipertensiva maligna",
+    "lt": 20,
+    "lv": 13,
+    "r": 1,
+    "rs": "Eliminado: \"Es posible que la lista de registros disponible esté incompleta.\"",
+    "x": 0
+   },
+   {
+    "t": "Celecoxib",
+    "u": "/drugs/celecoxib/",
+    "l": "L5",
+    "i": "acromesomelic dysplasia, Hunter-Thompson type",
+    "lt": 14,
+    "lv": 13,
+    "r": 3,
+    "rs": "Número de registros vigentes: 7 → 12",
     "x": 0
    },
    {
@@ -2133,22 +2194,11 @@
     "x": 0
    },
    {
-    "t": "Dutasteride",
-    "u": "/drugs/dutasteride/",
-    "l": "L5",
-    "i": "Ambras type hypertrichosis universalis congenita",
-    "lt": 15,
-    "lv": 13,
-    "r": 4,
-    "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
-    "x": 0
-   },
-   {
     "t": "Fusidic Acid",
     "u": "/drugs/fusidic-acid/",
     "l": "L5",
     "i": "exposure keratitis",
-    "lt": 14,
+    "lt": 19,
     "lv": 13,
     "r": 5,
     "rs": "Eliminado: \"Se listan 5 de los 7 registros…\"",
@@ -2159,10 +2209,21 @@
     "u": "/drugs/levodopa/",
     "l": "L5",
     "i": "Rasmussen subacute encephalitis",
-    "lt": 13,
+    "lt": 15,
     "lv": 13,
     "r": 3,
     "rs": "Eliminado: \"ya que no hay registros vigentes\"",
+    "x": 0
+   },
+   {
+    "t": "Lurasidone",
+    "u": "/drugs/lurasidone/",
+    "l": "L5",
+    "i": "retinal dystrophy with or without extraocular anomalies",
+    "lt": 16,
+    "lv": 13,
+    "r": 2,
+    "rs": "Eliminado: \"los tres registros sanitarios en Colombia están cancelados y\"",
     "x": 0
    },
    {
@@ -2170,21 +2231,43 @@
     "u": "/drugs/mesalazine/",
     "l": "L5",
     "i": "congenital hypotrichosis with juvenile macular dystrophy",
-    "lt": 17,
+    "lt": 0,
     "lv": 13,
     "r": 5,
     "rs": "Eliminado: \"que en Colombia contó con registros sanitarios bajo el nombre del principio activo\"",
     "x": 0
    },
    {
-    "t": "Thiocolchicoside",
-    "u": "/drugs/thiocolchicoside/",
+    "t": "Tinidazole",
+    "u": "/drugs/tinidazole/",
     "l": "L5",
-    "i": "insomnia (disease)",
-    "lt": 13,
+    "i": "postmenopausal atrophic vaginitis",
+    "lt": 16,
     "lv": 13,
     "r": 3,
-    "rs": "Eliminado: \"dado que el único registro está cancelado\"",
+    "rs": "Número de registros vigentes: 4 → 12",
+    "x": 0
+   },
+   {
+    "t": "Tranexamic Acid",
+    "u": "/drugs/tranexamic-acid/",
+    "l": "L5",
+    "i": "amenorrhea (disease)",
+    "lt": 18,
+    "lv": 13,
+    "r": 2,
+    "rs": "Eliminado: \"A esto se suma que los cuatro registros sanitarios en Colombia están cancelados\"",
+    "x": 0
+   },
+   {
+    "t": "Adapalene",
+    "u": "/drugs/adapalene/",
+    "l": "L5",
+    "i": "zinc, elevated plasma",
+    "lt": 14,
+    "lv": 12,
+    "r": 2,
+    "rs": "Eliminado: \"Además, los dos registros sanitarios en Colombia están cancelados\"",
     "x": 0
    },
    {
@@ -2192,43 +2275,32 @@
     "u": "/drugs/aspartic-acid/",
     "l": "L5",
     "i": "renal tubular acidosis",
-    "lt": 13,
+    "lt": 15,
     "lv": 12,
     "r": 1,
     "rs": "Eliminado: \"Además, el único registro sanitario en Colombia está cancelado\"",
     "x": 0
    },
    {
-    "t": "Benzocaine",
-    "u": "/drugs/benzocaine/",
+    "t": "Dexmedetomidine",
+    "u": "/drugs/dexmedetomidine/",
     "l": "L5",
-    "i": "papillary conjunctivitis",
-    "lt": 13,
+    "i": "nephrogenic syndrome of inappropriate antidiuresis",
+    "lt": 15,
     "lv": 12,
-    "r": 1,
-    "rs": "Eliminado: \"Además, los dos registros sanitarios en Colombia están cancelados\"",
+    "r": 4,
+    "rs": "Número de registros vigentes: 5 → 11",
     "x": 0
    },
    {
-    "t": "Carvedilol",
-    "u": "/drugs/carvedilol/",
+    "t": "Dimenhydrinate",
+    "u": "/drugs/dimenhydrinate/",
     "l": "L5",
-    "i": "Enfermedad renal hipertensiva maligna",
-    "lt": 16,
-    "lv": 12,
-    "r": 1,
-    "rs": "Eliminado: \"Es posible que la lista de registros disponible esté incompleta.\"",
-    "x": 0
-   },
-   {
-    "t": "Celecoxib",
-    "u": "/drugs/celecoxib/",
-    "l": "L5",
-    "i": "acromesomelic dysplasia, Hunter-Thompson type",
+    "i": "allergic urticaria",
     "lt": 13,
     "lv": 12,
-    "r": 3,
-    "rs": "Número de registros vigentes: 7 → 12",
+    "r": 4,
+    "rs": "Eliminado: \"dado que no hay registros vigentes en Colombia\"",
     "x": 0
    },
    {
@@ -2236,7 +2308,7 @@
     "u": "/drugs/dorzolamide/",
     "l": "L5",
     "i": "hipotricosis simple del cuero cabelludo",
-    "lt": 13,
+    "lt": 14,
     "lv": 12,
     "r": 0,
     "rs": "",
@@ -2247,7 +2319,7 @@
     "u": "/drugs/entecavir/",
     "l": "L5",
     "i": "Infección crónica por el virus de la hepatitis C",
-    "lt": 14,
+    "lt": 15,
     "lv": 12,
     "r": 1,
     "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
@@ -2258,32 +2330,43 @@
     "u": "/drugs/epinephrine/",
     "l": "L5",
     "i": "obstructive lung disease",
-    "lt": 14,
+    "lt": 15,
     "lv": 12,
     "r": 4,
     "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
     "x": 0
    },
    {
-    "t": "Tinidazole",
-    "u": "/drugs/tinidazole/",
+    "t": "Pirfenidone",
+    "u": "/drugs/pirfenidone/",
     "l": "L5",
-    "i": "postmenopausal atrophic vaginitis",
-    "lt": 15,
+    "i": "extracutaneous mastocytoma",
+    "lt": 17,
     "lv": 12,
-    "r": 3,
-    "rs": "Número de registros vigentes: 4 → 12",
+    "r": 4,
+    "rs": "Eliminado: «8»",
     "x": 0
    },
    {
-    "t": "Tranexamic Acid",
-    "u": "/drugs/tranexamic-acid/",
+    "t": "Spironolactone",
+    "u": "/drugs/spironolactone/",
     "l": "L5",
-    "i": "amenorrhea (disease)",
-    "lt": 14,
+    "i": "hypotrichosis simplex of the scalp",
+    "lt": 12,
     "lv": 12,
-    "r": 2,
-    "rs": "Eliminado: \"A esto se suma que los cuatro registros sanitarios en Colombia están cancelados\"",
+    "r": 3,
+    "rs": "Eliminado: afirmaba que ningún registro sanitario está vigente",
+    "x": 0
+   },
+   {
+    "t": "Trastuzumab",
+    "u": "/drugs/trastuzumab/",
+    "l": "L5",
+    "i": "malignant cutaneous granular cell skin tumor",
+    "lt": 13,
+    "lv": 12,
+    "r": 3,
+    "rs": "Eliminado: \"que en Colombia contó con registros sanitarios para presentaciones de trastuzumab solo y en…",
     "x": 0
    },
    {
@@ -2298,6 +2381,17 @@
     "x": 0
    },
    {
+    "t": "Vortioxetine",
+    "u": "/drugs/vortioxetine/",
+    "l": "L5",
+    "i": "Trastorno neurótico",
+    "lt": 12,
+    "lv": 12,
+    "r": 4,
+    "rs": "«Aclarar el motivo de la cancelación del registro 20215225 y evaluar si…» → «Evaluar la vía regulatoria en…",
+    "x": 0
+   },
+   {
     "t": "Adalimumab",
     "u": "/drugs/adalimumab/",
     "l": "L5",
@@ -2309,25 +2403,14 @@
     "x": 0
    },
    {
-    "t": "Adapalene",
-    "u": "/drugs/adapalene/",
+    "t": "Anastrozol",
+    "u": "/drugs/anastrozol/",
     "l": "L5",
-    "i": "zinc, elevated plasma",
+    "i": "neuroblastoma",
     "lt": 13,
     "lv": 11,
     "r": 2,
-    "rs": "Eliminado: \"Además, los dos registros sanitarios en Colombia están cancelados\"",
-    "x": 0
-   },
-   {
-    "t": "Ambrisentan",
-    "u": "/drugs/ambrisentan/",
-    "l": "L5",
-    "i": "Malformación arteriovenosa pulmonar",
-    "lt": 11,
-    "lv": 11,
-    "r": 2,
-    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
+    "rs": "Eliminado: \"Adicionalmente, Anastrozol no cuenta con ningún registro sanitario activo en Colombia, lo que…",
     "x": 0
    },
    {
@@ -2335,10 +2418,21 @@
     "u": "/drugs/aripiprazole/",
     "l": "L5",
     "i": "gaze palsy, familial horizontal, with progressive scoliosis",
-    "lt": 16,
+    "lt": 18,
     "lv": 11,
     "r": 4,
     "rs": "Eliminado: \"Aclarar el estado regulatorio: los 3 registros están cancelados, por lo que habría que definir si…",
+    "x": 0
+   },
+   {
+    "t": "Clavulanic Acid",
+    "u": "/drugs/clavulanic-acid/",
+    "l": "L5",
+    "i": "Uretritis por Ureaplasma",
+    "lt": 13,
+    "lv": 11,
+    "r": 1,
+    "rs": "Eliminado: \"Los datos de registros son parciales, por lo que la lista puede estar incompleta.\"",
     "x": 0
    },
    {
@@ -2353,25 +2447,36 @@
     "x": 0
    },
    {
-    "t": "Dexmedetomidine",
-    "u": "/drugs/dexmedetomidine/",
+    "t": "Empagliflozin",
+    "u": "/drugs/empagliflozin/",
     "l": "L5",
-    "i": "nephrogenic syndrome of inappropriate antidiuresis",
-    "lt": 13,
+    "i": "Síndrome de la persona rígida clásico",
+    "lt": 12,
     "lv": 11,
-    "r": 4,
-    "rs": "Número de registros vigentes: 5 → 11",
+    "r": 2,
+    "rs": "Eliminado: \"Los registros disponibles pueden ser parciales.\"",
     "x": 0
    },
    {
-    "t": "Dimenhydrinate",
-    "u": "/drugs/dimenhydrinate/",
+    "t": "Formoterol",
+    "u": "/drugs/formoterol/",
     "l": "L5",
-    "i": "allergic urticaria",
+    "i": "malformación respiratoria",
     "lt": 11,
     "lv": 11,
-    "r": 4,
-    "rs": "Eliminado: \"dado que no hay registros vigentes en Colombia\"",
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
+    "x": 0
+   },
+   {
+    "t": "Glycerin",
+    "u": "/drugs/glycerin/",
+    "l": "L5",
+    "i": "Síndrome de la cauda equina",
+    "lt": 13,
+    "lv": 11,
+    "r": 3,
+    "rs": "Número de registros vigentes: 4 → 10",
     "x": 0
    },
    {
@@ -2379,7 +2484,7 @@
     "u": "/drugs/ivermectin/",
     "l": "L5",
     "i": "vulvovaginal candidiasis",
-    "lt": 14,
+    "lt": 17,
     "lv": 11,
     "r": 3,
     "rs": "Número de registros vigentes: 5 → 11",
@@ -2390,7 +2495,7 @@
     "u": "/drugs/ketoprofen/",
     "l": "L5",
     "i": "acromesomelic dysplasia, Hunter-Thompson type",
-    "lt": 12,
+    "lt": 13,
     "lv": 11,
     "r": 3,
     "rs": "Eliminado: \"y el único registro sanitario en Colombia está cancelado\"",
@@ -2412,32 +2517,21 @@
     "u": "/drugs/norfloxacin/",
     "l": "L5",
     "i": "hyperamylasemia",
-    "lt": 11,
+    "lt": 12,
     "lv": 11,
     "r": 4,
     "rs": "Número de registros vigentes: 4 → 11",
     "x": 0
    },
    {
-    "t": "Spironolactone",
-    "u": "/drugs/spironolactone/",
+    "t": "Ticagrelor",
+    "u": "/drugs/ticagrelor/",
     "l": "L5",
-    "i": "hypotrichosis simplex of the scalp",
-    "lt": 11,
+    "i": "intracranial arteriosclerosis",
+    "lt": 20,
     "lv": 11,
     "r": 3,
-    "rs": "Eliminado: afirmaba que ningún registro sanitario está vigente",
-    "x": 0
-   },
-   {
-    "t": "Trastuzumab",
-    "u": "/drugs/trastuzumab/",
-    "l": "L5",
-    "i": "malignant cutaneous granular cell skin tumor",
-    "lt": 12,
-    "lv": 11,
-    "r": 3,
-    "rs": "Eliminado: \"que en Colombia contó con registros sanitarios para presentaciones de trastuzumab solo y en…",
+    "rs": "Eliminado: \"Confirmar la situación regulatoria: los tres registros están cancelados\"",
     "x": 0
    },
    {
@@ -2449,17 +2543,6 @@
     "lv": 11,
     "r": 4,
     "rs": "Eliminado: \"Aclarar la situación regulatoria: ambos registros están cancelados, por lo que se requeriría una…",
-    "x": 0
-   },
-   {
-    "t": "Anastrozol",
-    "u": "/drugs/anastrozol/",
-    "l": "L5",
-    "i": "neuroblastoma",
-    "lt": 10,
-    "lv": 10,
-    "r": 2,
-    "rs": "Eliminado: \"Adicionalmente, Anastrozol no cuenta con ningún registro sanitario activo en Colombia, lo que…",
     "x": 0
    },
    {
@@ -2500,7 +2583,7 @@
     "u": "/drugs/enoxaparin/",
     "l": "L5",
     "i": "thrombophilia due to protein C deficiency, autosomal recessive",
-    "lt": 14,
+    "lt": 15,
     "lv": 10,
     "r": 3,
     "rs": "Eliminado: \"Además, los dos registros sanitarios en Colombia están cancelados\"",
@@ -2518,28 +2601,6 @@
     "x": 0
    },
    {
-    "t": "Formoterol",
-    "u": "/drugs/formoterol/",
-    "l": "L5",
-    "i": "malformación respiratoria",
-    "lt": 10,
-    "lv": 10,
-    "r": 2,
-    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
-    "x": 0
-   },
-   {
-    "t": "Glycerin",
-    "u": "/drugs/glycerin/",
-    "l": "L5",
-    "i": "Síndrome de la cauda equina",
-    "lt": 12,
-    "lv": 10,
-    "r": 3,
-    "rs": "Número de registros vigentes: 4 → 10",
-    "x": 0
-   },
-   {
     "t": "Haloperidol",
     "u": "/drugs/haloperidol/",
     "l": "L5",
@@ -2551,25 +2612,25 @@
     "x": 0
    },
    {
+    "t": "Palbociclib",
+    "u": "/drugs/palbociclib/",
+    "l": "L5",
+    "i": "hyperthyroidism",
+    "lt": 10,
+    "lv": 10,
+    "r": 3,
+    "rs": "Número de registros vigentes: 4 → 8",
+    "x": 0
+   },
+   {
     "t": "Salbutamol",
     "u": "/drugs/salbutamol/",
     "l": "L5",
     "i": "papillary conjunctivitis",
-    "lt": 12,
+    "lt": 13,
     "lv": 10,
     "r": 2,
     "rs": "Eliminado: \"el único registro sanitario en Colombia está cancelado y\"",
-    "x": 0
-   },
-   {
-    "t": "Ticagrelor",
-    "u": "/drugs/ticagrelor/",
-    "l": "L5",
-    "i": "intracranial arteriosclerosis",
-    "lt": 17,
-    "lv": 10,
-    "r": 3,
-    "rs": "Eliminado: \"Confirmar la situación regulatoria: los tres registros están cancelados\"",
     "x": 0
    },
    {
@@ -2577,7 +2638,7 @@
     "u": "/drugs/allopurinol/",
     "l": "L5",
     "i": "hepatic porphyria",
-    "lt": 9,
+    "lt": 12,
     "lv": 9,
     "r": 3,
     "rs": "Número de registros vigentes: 3 → 9",
@@ -2588,7 +2649,7 @@
     "u": "/drugs/baclofen/",
     "l": "L5",
     "i": "attention deficit-hyperactivity disorder",
-    "lt": 9,
+    "lt": 10,
     "lv": 9,
     "r": 3,
     "rs": "Número de registros vigentes: 4 → 9",
@@ -2599,21 +2660,21 @@
     "u": "/drugs/capecitabine/",
     "l": "L5",
     "i": "Adenocarcinoma gástrico y poliposis proximal del estómago",
-    "lt": 10,
+    "lt": 13,
     "lv": 9,
     "r": 2,
     "rs": "Eliminado: \"Se encontraron al menos 2 registros sanitarios…\"",
     "x": 0
    },
    {
-    "t": "Clavulanic Acid",
-    "u": "/drugs/clavulanic-acid/",
+    "t": "Dexibuprofen",
+    "u": "/drugs/dexibuprofen/",
     "l": "L5",
-    "i": "Uretritis por Ureaplasma",
+    "i": "síndrome de braquidactilia-sindactilia",
     "lt": 10,
     "lv": 9,
-    "r": 1,
-    "rs": "Eliminado: \"Los datos de registros son parciales, por lo que la lista puede estar incompleta.\"",
+    "r": 2,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -2632,7 +2693,7 @@
     "u": "/drugs/gemcitabine/",
     "l": "L5",
     "i": "Adenocarcinoma mucinoso del recto",
-    "lt": 9,
+    "lt": 10,
     "lv": 9,
     "r": 2,
     "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
@@ -2650,6 +2711,39 @@
     "x": 0
    },
    {
+    "t": "Isotretinoin",
+    "u": "/drugs/isotretinoin/",
+    "l": "L5",
+    "i": "enfermedad renal hipertensiva maligna",
+    "lt": 18,
+    "lv": 9,
+    "r": 2,
+    "rs": "3 registros (la lista puede ser parcial) → sin cifra fija",
+    "x": 0
+   },
+   {
+    "t": "Letrozol",
+    "u": "/drugs/letrozol/",
+    "l": "L5",
+    "i": "Carcinoma del pezón",
+    "lt": 10,
+    "lv": 9,
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "x": 0
+   },
+   {
+    "t": "Lomitapide",
+    "u": "/drugs/lomitapide/",
+    "l": "L5",
+    "i": "marcothrombocytopenia with mitral valve insufficiency",
+    "lt": 9,
+    "lv": 9,
+    "r": 4,
+    "rs": "«los 9 registros están vigentes (8 de 8)» → «todos los registros sanitarios están vigentes»",
+    "x": 0
+   },
+   {
     "t": "Methotrexate",
     "u": "/drugs/methotrexate/",
     "l": "L5",
@@ -2661,11 +2755,22 @@
     "x": 0
    },
    {
+    "t": "Mirtazapine",
+    "u": "/drugs/mirtazapine/",
+    "l": "L5",
+    "i": "Ohdo syndrome and variants",
+    "lt": 10,
+    "lv": 9,
+    "r": 4,
+    "rs": "Eliminado: \"Además, no hay registros sanitarios vigentes en Colombia\"",
+    "x": 0
+   },
+   {
     "t": "Azithromycin",
     "u": "/drugs/azithromycin/",
     "l": "L5",
     "i": "Síndrome de hiperviscosidad policlonal",
-    "lt": 8,
+    "lt": 10,
     "lv": 8,
     "r": 1,
     "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
@@ -2705,50 +2810,6 @@
     "x": 0
    },
    {
-    "t": "Letrozol",
-    "u": "/drugs/letrozol/",
-    "l": "L5",
-    "i": "Carcinoma del pezón",
-    "lt": 8,
-    "lv": 8,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
-    "x": 0
-   },
-   {
-    "t": "Lomitapide",
-    "u": "/drugs/lomitapide/",
-    "l": "L5",
-    "i": "marcothrombocytopenia with mitral valve insufficiency",
-    "lt": 8,
-    "lv": 8,
-    "r": 2,
-    "rs": "Eliminado: \"Los otros tres registros, también cancelados, corresponden a OLESTAPIDE® de Laboratorios Elmor…",
-    "x": 0
-   },
-   {
-    "t": "Mirtazapine",
-    "u": "/drugs/mirtazapine/",
-    "l": "L5",
-    "i": "Ohdo syndrome and variants",
-    "lt": 9,
-    "lv": 8,
-    "r": 4,
-    "rs": "Eliminado: \"Además, no hay registros sanitarios vigentes en Colombia\"",
-    "x": 0
-   },
-   {
-    "t": "Palbociclib",
-    "u": "/drugs/palbociclib/",
-    "l": "L5",
-    "i": "hyperthyroidism",
-    "lt": 8,
-    "lv": 8,
-    "r": 3,
-    "rs": "Número de registros vigentes: 4 → 8",
-    "x": 0
-   },
-   {
     "t": "Paliperidone",
     "u": "/drugs/paliperidone/",
     "l": "L5",
@@ -2771,22 +2832,11 @@
     "x": 0
    },
    {
-    "t": "Pirfenidone",
-    "u": "/drugs/pirfenidone/",
-    "l": "L5",
-    "i": "extracutaneous mastocytoma",
-    "lt": 13,
-    "lv": 8,
-    "r": 3,
-    "rs": "Número de registros vigentes: 3 → 8",
-    "x": 0
-   },
-   {
     "t": "Tapentadol",
     "u": "/drugs/tapentadol/",
     "l": "L5",
     "i": "Trastorno de migraña",
-    "lt": 8,
+    "lt": 9,
     "lv": 8,
     "r": 3,
     "rs": "Eliminado: \"Además, no hay registros sanitarios vigentes en Colombia\"",
@@ -2815,17 +2865,6 @@
     "x": 0
    },
    {
-    "t": "Vortioxetine",
-    "u": "/drugs/vortioxetine/",
-    "l": "L5",
-    "i": "Trastorno neurótico",
-    "lt": 8,
-    "lv": 8,
-    "r": 3,
-    "rs": "Eliminado: \"Además, el único registro sanitario en Colombia está cancelado\"",
-    "x": 0
-   },
-   {
     "t": "Cabazitaxel",
     "u": "/drugs/cabazitaxel/",
     "l": "L5",
@@ -2841,21 +2880,21 @@
     "u": "/drugs/carfilzomib/",
     "l": "L5",
     "i": "CMM7",
-    "lt": 7,
+    "lt": 8,
     "lv": 7,
     "r": 4,
     "rs": "Número de registros vigentes: 4 → 7",
     "x": 0
    },
    {
-    "t": "Empagliflozin",
-    "u": "/drugs/empagliflozin/",
+    "t": "Fentanyl",
+    "u": "/drugs/fentanyl/",
     "l": "L5",
-    "i": "Síndrome de la persona rígida clásico",
+    "i": "nephrogenic syndrome of inappropriate antidiuresis",
     "lt": 8,
     "lv": 7,
-    "r": 2,
-    "rs": "Eliminado: \"Los registros disponibles pueden ser parciales.\"",
+    "r": 3,
+    "rs": "Número de registros vigentes: 3 → 6",
     "x": 0
    },
    {
@@ -2863,7 +2902,7 @@
     "u": "/drugs/finasteride/",
     "l": "L5",
     "i": "Ambras type hypertrichosis universalis congenita",
-    "lt": 7,
+    "lt": 8,
     "lv": 7,
     "r": 2,
     "rs": "Eliminado: \"ya que los cuatro están cancelados y no hay producto vigente en Colombia\"",
@@ -2874,21 +2913,10 @@
     "u": "/drugs/fluorouracil/",
     "l": "L5",
     "i": "Rabdomiosarcoma embrionario de tipo botrioide de la vagina",
-    "lt": 7,
+    "lt": 8,
     "lv": 7,
     "r": 2,
     "rs": "4 registros (la lista puede ser parcial) → sin cifra fija",
-    "x": 0
-   },
-   {
-    "t": "Isotretinoin",
-    "u": "/drugs/isotretinoin/",
-    "l": "L5",
-    "i": "enfermedad renal hipertensiva maligna",
-    "lt": 12,
-    "lv": 7,
-    "r": 2,
-    "rs": "3 registros (la lista puede ser parcial) → sin cifra fija",
     "x": 0
    },
    {
@@ -2929,7 +2957,7 @@
     "u": "/drugs/phenol/",
     "l": "L5",
     "i": "acrodermatitis chronica atrophicans",
-    "lt": 7,
+    "lt": 8,
     "lv": 7,
     "r": 1,
     "rs": "Número de registros vigentes: 3 → 7",
@@ -2958,6 +2986,17 @@
     "x": 0
    },
    {
+    "t": "Bismuth Subsalicylate",
+    "u": "/drugs/bismuth-subsalicylate/",
+    "l": "L5",
+    "i": "paratyphoid fever",
+    "lt": 6,
+    "lv": 6,
+    "r": 2,
+    "rs": "Eliminado: \"Aclarar la situación regulatoria en Colombia (registros cancelados) y la viabilidad de una nueva…",
+    "x": 0
+   },
+   {
     "t": "Brivaracetam",
     "u": "/drugs/brivaracetam/",
     "l": "L5",
@@ -2973,7 +3012,7 @@
     "u": "/drugs/ceftriaxone/",
     "l": "L5",
     "i": "hiperamilasemia",
-    "lt": 9,
+    "lt": 11,
     "lv": 6,
     "r": 2,
     "rs": "Eliminado: \"La información de registros puede ser parcial.\"",
@@ -2988,17 +3027,6 @@
     "lv": 6,
     "r": 2,
     "rs": "Eliminado: \"La lista puede ser parcial.\"",
-    "x": 0
-   },
-   {
-    "t": "Dexibuprofen",
-    "u": "/drugs/dexibuprofen/",
-    "l": "L5",
-    "i": "síndrome de braquidactilia-sindactilia",
-    "lt": 7,
-    "lv": 6,
-    "r": 2,
-    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -3017,21 +3045,32 @@
     "u": "/drugs/entacapone/",
     "l": "L5",
     "i": "PLA2G6-associated neurodegeneration",
-    "lt": 6,
+    "lt": 7,
     "lv": 6,
     "r": 2,
     "rs": "Eliminado: \"No hay registros vigentes en Colombia\"",
     "x": 0
    },
    {
-    "t": "Fentanyl",
-    "u": "/drugs/fentanyl/",
+    "t": "Eplerenone",
+    "u": "/drugs/eplerenone/",
     "l": "L5",
-    "i": "nephrogenic syndrome of inappropriate antidiuresis",
+    "i": "Hipertensión pulmonar por enfermedad pulmonar y/o hipoxia",
     "lt": 6,
     "lv": 6,
-    "r": 3,
-    "rs": "Número de registros vigentes: 3 → 6",
+    "r": 1,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
+    "x": 0
+   },
+   {
+    "t": "Fluvoxamine",
+    "u": "/drugs/fluvoxamine/",
+    "l": "L5",
+    "i": "trastorno de personalidad paranoide",
+    "lt": 8,
+    "lv": 6,
+    "r": 1,
+    "rs": "Eliminado: \"Los registros listados pueden ser una relación parcial.\"",
     "x": 0
    },
    {
@@ -3039,7 +3078,7 @@
     "u": "/drugs/imatinib/",
     "l": "L5",
     "i": "Fibrosarcoma cardíaco",
-    "lt": 9,
+    "lt": 11,
     "lv": 6,
     "r": 3,
     "rs": "Eliminado: \"Aclarar el estado regulatorio en Colombia (registro cancelado; verificar si existen otras…",
@@ -3050,10 +3089,21 @@
     "u": "/drugs/irinotecan/",
     "l": "L5",
     "i": "female breast carcinoma",
-    "lt": 6,
+    "lt": 7,
     "lv": 6,
     "r": 3,
     "rs": "Número de registros sanitarios corregido (sin cifra fija; ver Resumen rápido)",
+    "x": 0
+   },
+   {
+    "t": "Itraconazole",
+    "u": "/drugs/itraconazole/",
+    "l": "L5",
+    "i": "pneumocystosis",
+    "lt": 7,
+    "lv": 6,
+    "r": 4,
+    "rs": "Eliminado: \"ya que no hay registros vigentes\"",
     "x": 0
    },
    {
@@ -3061,21 +3111,21 @@
     "u": "/drugs/lansoprazol/",
     "l": "L5",
     "i": "Obstrucción duodenal",
-    "lt": 6,
+    "lt": 7,
     "lv": 6,
     "r": 1,
     "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
-    "t": "Lurasidone",
-    "u": "/drugs/lurasidone/",
+    "t": "Loteprednol Etabonate",
+    "u": "/drugs/loteprednol-etabonate/",
     "l": "L5",
-    "i": "retinal dystrophy with or without extraocular anomalies",
+    "i": "conjunctival folliculosis",
     "lt": 9,
     "lv": 6,
-    "r": 2,
-    "rs": "Eliminado: \"los tres registros sanitarios en Colombia están cancelados y\"",
+    "r": 3,
+    "rs": "Eliminado: \"Aclarar la situación regulatoria: los 5 registros están cancelados, por lo que habría que evaluar…",
     "x": 0
    },
    {
@@ -3105,7 +3155,7 @@
     "u": "/drugs/phenytoin/",
     "l": "L5",
     "i": "trigeminal nerve neoplasm",
-    "lt": 7,
+    "lt": 8,
     "lv": 6,
     "r": 4,
     "rs": "Número de registros vigentes: 1 → 6",
@@ -3123,6 +3173,17 @@
     "x": 0
    },
    {
+    "t": "Riluzole",
+    "u": "/drugs/riluzole/",
+    "l": "L5",
+    "i": "Polimicrogiria parieto-occipital parasagital bilateral",
+    "lt": 6,
+    "lv": 6,
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "x": 0
+   },
+   {
     "t": "Rivastigmine",
     "u": "/drugs/rivastigmine/",
     "l": "L5",
@@ -3134,11 +3195,22 @@
     "x": 0
    },
    {
+    "t": "Zolpidem",
+    "u": "/drugs/zolpidem/",
+    "l": "L5",
+    "i": "benign paroxysmal torticollis of infancy",
+    "lt": 7,
+    "lv": 6,
+    "r": 2,
+    "rs": "Eliminado: \"todas actualmente canceladas\"",
+    "x": 0
+   },
+   {
     "t": "Abacavir",
     "u": "/drugs/abacavir/",
     "l": "L5",
     "i": "Síndrome de inmunodeficiencia adquirida felina",
-    "lt": 7,
+    "lt": 8,
     "lv": 5,
     "r": 1,
     "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
@@ -3149,7 +3221,7 @@
     "u": "/drugs/alprostadil/",
     "l": "L5",
     "i": "Malformación aórtica",
-    "lt": 6,
+    "lt": 7,
     "lv": 5,
     "r": 3,
     "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
@@ -3160,7 +3232,7 @@
     "u": "/drugs/atazanavir/",
     "l": "L5",
     "i": "Síndrome de inmunodeficiencia adquirida felina",
-    "lt": 7,
+    "lt": 9,
     "lv": 5,
     "r": 3,
     "rs": "Eliminado: \"La lista puede ser parcial, ya que los registros de los datos compilados están incompletos.\"",
@@ -3189,25 +3261,36 @@
     "x": 0
    },
    {
-    "t": "Bismuth Subsalicylate",
-    "u": "/drugs/bismuth-subsalicylate/",
-    "l": "L5",
-    "i": "paratyphoid fever",
-    "lt": 5,
-    "lv": 5,
-    "r": 2,
-    "rs": "Eliminado: \"Aclarar la situación regulatoria en Colombia (registros cancelados) y la viabilidad de una nueva…",
-    "x": 0
-   },
-   {
     "t": "Cabergoline",
     "u": "/drugs/cabergoline/",
     "l": "L5",
     "i": "talla baja y nevos pigmentados",
-    "lt": 5,
+    "lt": 6,
     "lv": 5,
     "r": 2,
     "rs": "El registro local → Los registros locales",
+    "x": 0
+   },
+   {
+    "t": "Captopril",
+    "u": "/drugs/captopril/",
+    "l": "L5",
+    "i": "Enfermedad renal hipertensiva maligna",
+    "lt": 5,
+    "lv": 5,
+    "r": 1,
+    "rs": "Eliminado: \"La lista puede ser parcial.\"",
+    "x": 0
+   },
+   {
+    "t": "Carboplatin",
+    "u": "/drugs/carboplatin/",
+    "l": "L5",
+    "i": "Adenocarcinoma mucinoso del recto",
+    "lt": 9,
+    "lv": 5,
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -3237,7 +3320,7 @@
     "u": "/drugs/clenbuterol/",
     "l": "L5",
     "i": "Trastorno de migraña",
-    "lt": 5,
+    "lt": 7,
     "lv": 5,
     "r": 2,
     "rs": "Eliminado: \"Aclarar la indicación real de los productos combinados cancelados y evaluar la compatibilidad de…",
@@ -3259,7 +3342,7 @@
     "u": "/drugs/diosmin/",
     "l": "L5",
     "i": "amenorrhea (disease)",
-    "lt": 6,
+    "lt": 7,
     "lv": 5,
     "r": 3,
     "rs": "Eliminado: \"dado que no hay registros vigentes en Colombia\"",
@@ -3270,7 +3353,7 @@
     "u": "/drugs/donepezil/",
     "l": "L5",
     "i": "psychogenic movement disorders",
-    "lt": 9,
+    "lt": 10,
     "lv": 5,
     "r": 3,
     "rs": "Eliminado: \"el donepezilo no tiene registros vigentes en Colombia y\"",
@@ -3292,7 +3375,7 @@
     "u": "/drugs/etanercept/",
     "l": "L5",
     "i": "Hipermovilidad del coxis",
-    "lt": 5,
+    "lt": 6,
     "lv": 5,
     "r": 1,
     "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
@@ -3310,25 +3393,25 @@
     "x": 0
    },
    {
-    "t": "Fluvoxamine",
-    "u": "/drugs/fluvoxamine/",
-    "l": "L5",
-    "i": "trastorno de personalidad paranoide",
-    "lt": 6,
-    "lv": 5,
-    "r": 1,
-    "rs": "Eliminado: \"Los registros listados pueden ser una relación parcial.\"",
-    "x": 0
-   },
-   {
     "t": "Guaifenesin",
     "u": "/drugs/guaifenesin/",
     "l": "L5",
     "i": "nasal cavity disease",
+    "lt": 6,
+    "lv": 5,
+    "r": 5,
+    "rs": "«administración (solo se registró forma en jarabe)» → «administración»",
+    "x": 0
+   },
+   {
+    "t": "Imipenem",
+    "u": "/drugs/imipenem/",
+    "l": "L5",
+    "i": "esclerodermia difusa",
     "lt": 5,
     "lv": 5,
-    "r": 4,
-    "rs": "Eliminado: \"dado que no hay registros vigentes\"",
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -3336,7 +3419,7 @@
     "u": "/drugs/insulin-glargine/",
     "l": "L5",
     "i": "autoimmune oophoritis",
-    "lt": 5,
+    "lt": 6,
     "lv": 5,
     "r": 3,
     "rs": "Eliminado: \"ya que los tres registros están cancelados\"",
@@ -3347,21 +3430,10 @@
     "u": "/drugs/isoniazid/",
     "l": "L5",
     "i": "conjunctivitis",
-    "lt": 5,
+    "lt": 6,
     "lv": 5,
     "r": 3,
     "rs": "Eliminado: \"dado que los tres registros están cancelados\"",
-    "x": 0
-   },
-   {
-    "t": "Itraconazole",
-    "u": "/drugs/itraconazole/",
-    "l": "L5",
-    "i": "pneumocystosis",
-    "lt": 5,
-    "lv": 5,
-    "r": 4,
-    "rs": "Eliminado: \"ya que no hay registros vigentes\"",
     "x": 0
    },
    {
@@ -3380,7 +3452,7 @@
     "u": "/drugs/latanoprost/",
     "l": "L5",
     "i": "visceral calciphylaxis",
-    "lt": 5,
+    "lt": 7,
     "lv": 5,
     "r": 3,
     "rs": "Eliminado: \"(actualmente no hay registros vigentes)\"",
@@ -3398,14 +3470,25 @@
     "x": 0
    },
    {
-    "t": "Loteprednol Etabonate",
-    "u": "/drugs/loteprednol-etabonate/",
+    "t": "Lovastatin",
+    "u": "/drugs/lovastatin/",
     "l": "L5",
-    "i": "conjunctival folliculosis",
-    "lt": 8,
+    "i": "cholesterol-ester transfer protein deficiency",
+    "lt": 7,
+    "lv": 5,
+    "r": 2,
+    "rs": "Eliminado: \"La lista puede estar incompleta (se indican al menos 2 registros).\"",
+    "x": 0
+   },
+   {
+    "t": "Mupirocin",
+    "u": "/drugs/mupirocin/",
+    "l": "L5",
+    "i": "pleural empyema (disease)",
+    "lt": 5,
     "lv": 5,
     "r": 3,
-    "rs": "Eliminado: \"Aclarar la situación regulatoria: los 5 registros están cancelados, por lo que habría que evaluar…",
+    "rs": "Eliminado: \"Fabricante: MEGALABS COLOMBIA S.A.S.\"",
     "x": 0
    },
    {
@@ -3442,17 +3525,6 @@
     "x": 0
    },
    {
-    "t": "Riluzole",
-    "u": "/drugs/riluzole/",
-    "l": "L5",
-    "i": "Polimicrogiria parieto-occipital parasagital bilateral",
-    "lt": 5,
-    "lv": 5,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
-    "x": 0
-   },
-   {
     "t": "Sertaconazole",
     "u": "/drugs/sertaconazole/",
     "l": "L5",
@@ -3479,7 +3551,7 @@
     "u": "/drugs/sulbactam/",
     "l": "L5",
     "i": "bacterial arthritis",
-    "lt": 7,
+    "lt": 8,
     "lv": 5,
     "r": 3,
     "rs": "Eliminado: \"los registros sanitarios locales están cancelados y\"",
@@ -3494,17 +3566,6 @@
     "lv": 5,
     "r": 3,
     "rs": "Eliminado: \"ya que no hay registros vigentes\"",
-    "x": 0
-   },
-   {
-    "t": "Zolpidem",
-    "u": "/drugs/zolpidem/",
-    "l": "L5",
-    "i": "benign paroxysmal torticollis of infancy",
-    "lt": 6,
-    "lv": 5,
-    "r": 2,
-    "rs": "Eliminado: \"todas actualmente canceladas\"",
     "x": 0
    },
    {
@@ -3574,25 +3635,25 @@
     "x": 0
    },
    {
+    "t": "Aztreonam",
+    "u": "/drugs/aztreonam/",
+    "l": "L5",
+    "i": "hiperamilasemia",
+    "lt": 4,
+    "lv": 4,
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "x": 0
+   },
+   {
     "t": "Candesartan Cilexetil",
     "u": "/drugs/candesartan-cilexetil/",
     "l": "L5",
     "i": "enfermedad renal hipertensiva maligna",
-    "lt": 6,
+    "lt": 9,
     "lv": 4,
     "r": 2,
     "rs": "Eliminado: \"Los registros pueden ser parciales.\"",
-    "x": 0
-   },
-   {
-    "t": "Captopril",
-    "u": "/drugs/captopril/",
-    "l": "L5",
-    "i": "Enfermedad renal hipertensiva maligna",
-    "lt": 4,
-    "lv": 4,
-    "r": 1,
-    "rs": "Eliminado: \"La lista puede ser parcial.\"",
     "x": 0
    },
    {
@@ -3600,7 +3661,7 @@
     "u": "/drugs/clioquinol/",
     "l": "L5",
     "i": "Enfermedad infecciosa ectotrix",
-    "lt": 4,
+    "lt": 5,
     "lv": 4,
     "r": 2,
     "rs": "Eliminado: \"corresponden a cremas tópicas; la lista puede ser parcial.\"",
@@ -3611,10 +3672,21 @@
     "u": "/drugs/colistin/",
     "l": "L5",
     "i": "vasculitis postinfecciosa",
-    "lt": 4,
+    "lt": 5,
     "lv": 4,
     "r": 1,
     "rs": "Eliminado: \"Los registros sanitarios disponibles en los datos compilados (la lista puede ser parcial):\"",
+    "x": 0
+   },
+   {
+    "t": "Denosumab",
+    "u": "/drugs/denosumab/",
+    "l": "L5",
+    "i": "severe nonproliferative diabetic retinopathy",
+    "lt": 4,
+    "lv": 4,
+    "r": 3,
+    "rs": "Eliminado: \"Actualmente no hay registros vigentes en Colombia\"",
     "x": 0
    },
    {
@@ -3647,17 +3719,6 @@
     "lt": 4,
     "lv": 4,
     "r": 2,
-    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
-    "x": 0
-   },
-   {
-    "t": "Eplerenone",
-    "u": "/drugs/eplerenone/",
-    "l": "L5",
-    "i": "Hipertensión pulmonar por enfermedad pulmonar y/o hipoxia",
-    "lt": 4,
-    "lv": 4,
-    "r": 1,
     "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
@@ -3721,21 +3782,10 @@
     "u": "/drugs/icatibant/",
     "l": "L5",
     "i": "Serpinopatía con polimerización tóxica de serpinas",
-    "lt": 4,
+    "lt": 5,
     "lv": 4,
     "r": 1,
     "rs": "Eliminado: \"Los datos de registros pueden ser parciales.\"",
-    "x": 0
-   },
-   {
-    "t": "Imipenem",
-    "u": "/drugs/imipenem/",
-    "l": "L5",
-    "i": "esclerodermia difusa",
-    "lt": 4,
-    "lv": 4,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -3761,17 +3811,6 @@
     "x": 0
    },
    {
-    "t": "Lovastatin",
-    "u": "/drugs/lovastatin/",
-    "l": "L5",
-    "i": "cholesterol-ester transfer protein deficiency",
-    "lt": 5,
-    "lv": 4,
-    "r": 2,
-    "rs": "Eliminado: \"La lista puede estar incompleta (se indican al menos 2 registros).\"",
-    "x": 0
-   },
-   {
     "t": "Moroctocog Alfa",
     "u": "/drugs/moroctocog-alfa/",
     "l": "L5",
@@ -3780,17 +3819,6 @@
     "lv": 4,
     "r": 4,
     "rs": "Eliminado: \"Además, los registros sanitarios en Colombia están todos cancelados, lo que limita la viabilidad…",
-    "x": 0
-   },
-   {
-    "t": "Mupirocin",
-    "u": "/drugs/mupirocin/",
-    "l": "L5",
-    "i": "pleural empyema (disease)",
-    "lt": 4,
-    "lv": 4,
-    "r": 3,
-    "rs": "Eliminado: \"Fabricante: MEGALABS COLOMBIA S.A.S.\"",
     "x": 0
    },
    {
@@ -3805,6 +3833,17 @@
     "x": 0
    },
    {
+    "t": "Prilocaine",
+    "u": "/drugs/prilocaine/",
+    "l": "L5",
+    "i": "papillary conjunctivitis",
+    "lt": 4,
+    "lv": 4,
+    "r": 2,
+    "rs": "Eliminado: \"dado que no hay registros vigentes ni una vía de administración ocular compatible\"",
+    "x": 0
+   },
+   {
     "t": "Propranolol",
     "u": "/drugs/propranolol/",
     "l": "L5",
@@ -3816,11 +3855,22 @@
     "x": 0
    },
    {
+    "t": "Sacubitril",
+    "u": "/drugs/sacubitril/",
+    "l": "L5",
+    "i": "brain small vessel disease 1 with or without ocular anomalies",
+    "lt": 4,
+    "lv": 4,
+    "r": 3,
+    "rs": "Eliminado: \"dado que el registro está cancelado\"",
+    "x": 0
+   },
+   {
     "t": "Terbutaline",
     "u": "/drugs/terbutaline/",
     "l": "L5",
     "i": "Malformación respiratoria",
-    "lt": 4,
+    "lt": 8,
     "lv": 4,
     "r": 1,
     "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
@@ -3864,7 +3914,7 @@
     "u": "/drugs/verapamil/",
     "l": "L5",
     "i": "obsolete bundle branch block",
-    "lt": 4,
+    "lt": 5,
     "lv": 4,
     "r": 4,
     "rs": "Eliminado: \"dado que el único registro identificado está cancelado\"",
@@ -3882,14 +3932,14 @@
     "x": 0
    },
    {
-    "t": "Aztreonam",
-    "u": "/drugs/aztreonam/",
+    "t": "Biotin",
+    "u": "/drugs/biotin/",
     "l": "L5",
-    "i": "hiperamilasemia",
-    "lt": 3,
+    "i": "dyspepsia",
+    "lt": 4,
     "lv": 3,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "r": 2,
+    "rs": "Eliminado: \"dado que el único registro está cancelado\"",
     "x": 0
    },
    {
@@ -3908,21 +3958,10 @@
     "u": "/drugs/bupivacaine/",
     "l": "L5",
     "i": "acrodermatitis chronica atrophicans",
-    "lt": 3,
+    "lt": 6,
     "lv": 3,
     "r": 4,
     "rs": "Eliminado: \"Este es el único registro y se encuentra cancelado, por lo que actualmente no hay productos…",
-    "x": 0
-   },
-   {
-    "t": "Carboplatin",
-    "u": "/drugs/carboplatin/",
-    "l": "L5",
-    "i": "Adenocarcinoma mucinoso del recto",
-    "lt": 4,
-    "lv": 3,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -4036,6 +4075,17 @@
     "x": 0
    },
    {
+    "t": "Hydroxyurea",
+    "u": "/drugs/hydroxyurea/",
+    "l": "L5",
+    "i": "Carcinoma de mama femenino",
+    "lt": 3,
+    "lv": 3,
+    "r": 0,
+    "rs": "",
+    "x": 0
+   },
+   {
     "t": "Imiglucerase",
     "u": "/drugs/imiglucerase/",
     "l": "L5",
@@ -4062,7 +4112,7 @@
     "u": "/drugs/levocetirizine/",
     "l": "L5",
     "i": "rheumatoid arthritis",
-    "lt": 3,
+    "lt": 4,
     "lv": 3,
     "r": 2,
     "rs": "Eliminado: \"en Colombia no hay registros sanitarios vigentes para levocetirizina, y\"",
@@ -4102,11 +4152,22 @@
     "x": 0
    },
    {
+    "t": "Miltefosine",
+    "u": "/drugs/miltefosine/",
+    "l": "L5",
+    "i": "Enfermedad infecciosa por Echinococcus granulosus",
+    "lt": 3,
+    "lv": 3,
+    "r": 2,
+    "rs": "«Ambos registros son de producto de un solo principio activo, están vig…» → «Todos los registros son de…",
+    "x": 0
+   },
+   {
     "t": "Misoprostol",
     "u": "/drugs/misoprostol/",
     "l": "L5",
     "i": "amenorrhea (disease)",
-    "lt": 3,
+    "lt": 4,
     "lv": 3,
     "r": 2,
     "rs": "Eliminado: \"dado que no hay registro vigente en Colombia\"",
@@ -4157,14 +4218,14 @@
     "x": 0
    },
    {
-    "t": "Prilocaine",
-    "u": "/drugs/prilocaine/",
+    "t": "Posaconazole",
+    "u": "/drugs/posaconazole/",
     "l": "L5",
-    "i": "papillary conjunctivitis",
+    "i": "pneumocystosis",
     "lt": 3,
     "lv": 3,
-    "r": 2,
-    "rs": "Eliminado: \"dado que no hay registros vigentes ni una vía de administración ocular compatible\"",
+    "r": 3,
+    "rs": "Eliminado: \"Además, el fármaco no tiene registros sanitarios vigentes en Colombia\"",
     "x": 0
    },
    {
@@ -4190,14 +4251,14 @@
     "x": 0
    },
    {
-    "t": "Sacubitril",
-    "u": "/drugs/sacubitril/",
+    "t": "Sorafenib",
+    "u": "/drugs/sorafenib/",
     "l": "L5",
-    "i": "brain small vessel disease 1 with or without ocular anomalies",
-    "lt": 3,
+    "i": "liposarcoma",
+    "lt": 4,
     "lv": 3,
-    "r": 3,
-    "rs": "Eliminado: \"dado que el registro está cancelado\"",
+    "r": 0,
+    "rs": "",
     "x": 0
    },
    {
@@ -4205,7 +4266,7 @@
     "u": "/drugs/sulfasalazine/",
     "l": "L5",
     "i": "brachydactyly-syndactyly syndrome",
-    "lt": 4,
+    "lt": 5,
     "lv": 3,
     "r": 3,
     "rs": "Eliminado: \"Aclarar la situación regulatoria: ambos registros están cancelados, por lo que habría que evaluar…",
@@ -4227,7 +4288,7 @@
     "u": "/drugs/terconazole/",
     "l": "L5",
     "i": "Vulvovaginitis tricomonásica",
-    "lt": 3,
+    "lt": 4,
     "lv": 3,
     "r": 1,
     "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
@@ -4253,6 +4314,17 @@
     "lv": 3,
     "r": 2,
     "rs": "Eliminado: \"Los registros mostrados pueden ser una lista parcial.\"",
+    "x": 0
+   },
+   {
+    "t": "Vasopressin",
+    "u": "/drugs/vasopressin/",
+    "l": "L5",
+    "i": "congenital prothrombin deficiency",
+    "lt": 3,
+    "lv": 3,
+    "r": 4,
+    "rs": "Eliminado: \"dado que ambos registros están cancelados\"",
     "x": 0
    },
    {
@@ -4300,10 +4372,21 @@
     "x": 0
    },
    {
-    "t": "Belimumab",
-    "u": "/drugs/belimumab/",
+    "t": "Atezolizumab",
+    "u": "/drugs/atezolizumab/",
     "l": "L5",
-    "i": "trastorno primario de la liberación plaquetaria",
+    "i": "uterine ligament adenocarcinoma",
+    "lt": 2,
+    "lv": 2,
+    "r": 1,
+    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
+    "x": 0
+   },
+   {
+    "t": "Avibactam",
+    "u": "/drugs/avibactam/",
+    "l": "L5",
+    "i": "Tuberculosis del uréter",
     "lt": 2,
     "lv": 2,
     "r": 0,
@@ -4311,14 +4394,14 @@
     "x": 0
    },
    {
-    "t": "Biotin",
-    "u": "/drugs/biotin/",
+    "t": "Belimumab",
+    "u": "/drugs/belimumab/",
     "l": "L5",
-    "i": "dyspepsia",
+    "i": "trastorno primario de la liberación plaquetaria",
     "lt": 3,
     "lv": 2,
-    "r": 2,
-    "rs": "Eliminado: \"dado que el único registro está cancelado\"",
+    "r": 0,
+    "rs": "",
     "x": 0
    },
    {
@@ -4469,21 +4552,10 @@
     "u": "/drugs/decitabine/",
     "l": "L5",
     "i": "citopenia refractaria de la infancia",
-    "lt": 3,
+    "lt": 5,
     "lv": 2,
     "r": 1,
     "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
-    "x": 0
-   },
-   {
-    "t": "Denosumab",
-    "u": "/drugs/denosumab/",
-    "l": "L5",
-    "i": "severe nonproliferative diabetic retinopathy",
-    "lt": 2,
-    "lv": 2,
-    "r": 3,
-    "rs": "Eliminado: \"Actualmente no hay registros vigentes en Colombia\"",
     "x": 0
    },
    {
@@ -4502,7 +4574,7 @@
     "u": "/drugs/diazoxide/",
     "l": "L5",
     "i": "hipotricosis simple del cuero cabelludo",
-    "lt": 2,
+    "lt": 3,
     "lv": 2,
     "r": 0,
     "rs": "",
@@ -4553,6 +4625,17 @@
     "x": 0
    },
    {
+    "t": "Etravirine",
+    "u": "/drugs/etravirine/",
+    "l": "L5",
+    "i": "Síndrome de inmunodeficiencia adquirida felina",
+    "lt": 2,
+    "lv": 2,
+    "r": 0,
+    "rs": "",
+    "x": 0
+   },
+   {
     "t": "Filgrastim",
     "u": "/drugs/filgrastim/",
     "l": "L5",
@@ -4561,6 +4644,17 @@
     "lv": 2,
     "r": 3,
     "rs": "Eliminado: \"Además, el único registro sanitario en Colombia está cancelado\"",
+    "x": 0
+   },
+   {
+    "t": "Flucytosine",
+    "u": "/drugs/flucytosine/",
+    "l": "L5",
+    "i": "bone Paget disease",
+    "lt": 3,
+    "lv": 2,
+    "r": 5,
+    "rs": "Eliminado: \"que en Colombia contaba con un registro sanitario (ANCOTOSIN®) cuya indicación aprobada figura…",
     "x": 0
    },
    {
@@ -4612,7 +4706,7 @@
     "u": "/drugs/gefitinib/",
     "l": "L5",
     "i": "fibromatosis, gingival",
-    "lt": 4,
+    "lt": 7,
     "lv": 2,
     "r": 3,
     "rs": "Eliminado: \"no hay registros sanitarios vigentes en Colombia y\"",
@@ -4634,21 +4728,10 @@
     "u": "/drugs/hydromorphone/",
     "l": "L5",
     "i": "faringitis",
-    "lt": 2,
+    "lt": 3,
     "lv": 2,
     "r": 1,
     "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
-    "x": 0
-   },
-   {
-    "t": "Hydroxyurea",
-    "u": "/drugs/hydroxyurea/",
-    "l": "L5",
-    "i": "Carcinoma de mama femenino",
-    "lt": 2,
-    "lv": 2,
-    "r": 0,
-    "rs": "",
     "x": 0
    },
    {
@@ -4671,6 +4754,17 @@
     "lv": 2,
     "r": 2,
     "rs": "Eliminado: \"dado que los dos registros sanitarios están cancelados\"",
+    "x": 0
+   },
+   {
+    "t": "Iohexol",
+    "u": "/drugs/iohexol/",
+    "l": "L5",
+    "i": "insomnia (disease)",
+    "lt": 2,
+    "lv": 2,
+    "r": 3,
+    "rs": "«el único registro sanitario en Colombia está vigente (1 licencia válid…» → «sus registros sanitarios en…",
     "x": 0
    },
    {
@@ -4715,6 +4809,17 @@
     "lv": 2,
     "r": 3,
     "rs": "Eliminado: \"dado que los registros están cancelados\"",
+    "x": 0
+   },
+   {
+    "t": "Lincomycin",
+    "u": "/drugs/lincomycin/",
+    "l": "L5",
+    "i": "Hiperamilasemia",
+    "lt": 4,
+    "lv": 2,
+    "r": 3,
+    "rs": "Eliminado: \"dado que ambos registros están cancelados\"",
     "x": 0
    },
    {
@@ -4766,7 +4871,7 @@
     "u": "/drugs/mebendazole/",
     "l": "L5",
     "i": "acne (disease)",
-    "lt": 2,
+    "lt": 3,
     "lv": 2,
     "r": 2,
     "rs": "Eliminado: \"Además, los dos registros sanitarios en Colombia están cancelados\"",
@@ -4814,17 +4919,6 @@
     "lv": 2,
     "r": 3,
     "rs": "Eliminado: afirmaba que ningún registro sanitario está vigente",
-    "x": 0
-   },
-   {
-    "t": "Miltefosine",
-    "u": "/drugs/miltefosine/",
-    "l": "L5",
-    "i": "Enfermedad infecciosa por Echinococcus granulosus",
-    "lt": 2,
-    "lv": 2,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
     "x": 0
    },
    {
@@ -4949,17 +5043,6 @@
     "x": 0
    },
    {
-    "t": "Posaconazole",
-    "u": "/drugs/posaconazole/",
-    "l": "L5",
-    "i": "pneumocystosis",
-    "lt": 2,
-    "lv": 2,
-    "r": 3,
-    "rs": "Eliminado: \"Además, el fármaco no tiene registros sanitarios vigentes en Colombia\"",
-    "x": 0
-   },
-   {
     "t": "Povidone",
     "u": "/drugs/povidone/",
     "l": "L5",
@@ -4975,7 +5058,7 @@
     "u": "/drugs/prednicarbate/",
     "l": "L5",
     "i": "vulvar inverted follicular keratosis",
-    "lt": 2,
+    "lt": 3,
     "lv": 2,
     "r": 3,
     "rs": "Eliminado: \"dado que no hay registros vigentes en Colombia\"",
@@ -5008,7 +5091,7 @@
     "u": "/drugs/rilpivirine/",
     "l": "L5",
     "i": "feline acquired immunodeficiency syndrome",
-    "lt": 2,
+    "lt": 3,
     "lv": 2,
     "r": 3,
     "rs": "Eliminado: \"dado que ambos registros están cancelados\"",
@@ -5019,7 +5102,7 @@
     "u": "/drugs/rotigotine/",
     "l": "L5",
     "i": "attention deficit-hyperactivity disorder",
-    "lt": 2,
+    "lt": 3,
     "lv": 2,
     "r": 3,
     "rs": "Eliminado: \"dado que no hay producto vigente en el mercado colombiano\"",
@@ -5048,14 +5131,14 @@
     "x": 0
    },
    {
-    "t": "Sorafenib",
-    "u": "/drugs/sorafenib/",
+    "t": "Sirolimus",
+    "u": "/drugs/sirolimus/",
     "l": "L5",
     "i": "liposarcoma",
-    "lt": 3,
+    "lt": 2,
     "lv": 2,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
     "x": 0
    },
    {
@@ -5092,6 +5175,17 @@
     "x": 0
    },
    {
+    "t": "Trabectedin",
+    "u": "/drugs/trabectedin/",
+    "l": "L5",
+    "i": "female breast carcinoma",
+    "lt": 2,
+    "lv": 2,
+    "r": 3,
+    "rs": "Eliminado: \"dado que el único registro está cancelado\"",
+    "x": 0
+   },
+   {
     "t": "Travoprost",
     "u": "/drugs/travoprost/",
     "l": "L5",
@@ -5114,17 +5208,6 @@
     "x": 0
    },
    {
-    "t": "Vasopressin",
-    "u": "/drugs/vasopressin/",
-    "l": "L5",
-    "i": "congenital prothrombin deficiency",
-    "lt": 2,
-    "lv": 2,
-    "r": 4,
-    "rs": "Eliminado: \"dado que ambos registros están cancelados\"",
-    "x": 0
-   },
-   {
     "t": "Vincristine",
     "u": "/drugs/vincristine/",
     "l": "L5",
@@ -5140,7 +5223,7 @@
     "u": "/drugs/zidovudine/",
     "l": "L5",
     "i": "feline acquired immunodeficiency syndrome",
-    "lt": 4,
+    "lt": 6,
     "lv": 2,
     "r": 2,
     "rs": "Eliminado: \"y estado de mercado cancelado\"",
@@ -5162,7 +5245,7 @@
     "u": "/drugs/agomelatine/",
     "l": "L5",
     "i": "benign paroxysmal torticollis of infancy",
-    "lt": 1,
+    "lt": 2,
     "lv": 1,
     "r": 2,
     "rs": "Eliminado: \"y el único registro sanitario en Colombia está cancelado\"",
@@ -5217,7 +5300,7 @@
     "u": "/drugs/aminofilina/",
     "l": "L5",
     "i": "Trastorno de migraña",
-    "lt": 1,
+    "lt": 2,
     "lv": 1,
     "r": 1,
     "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
@@ -5257,17 +5340,6 @@
     "x": 0
    },
    {
-    "t": "Atezolizumab",
-    "u": "/drugs/atezolizumab/",
-    "l": "L5",
-    "i": "uterine ligament adenocarcinoma",
-    "lt": 1,
-    "lv": 1,
-    "r": 1,
-    "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
-    "x": 0
-   },
-   {
     "t": "Avelumab",
     "u": "/drugs/avelumab/",
     "l": "L5",
@@ -5276,17 +5348,6 @@
     "lv": 1,
     "r": 1,
     "rs": "Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE.…",
-    "x": 0
-   },
-   {
-    "t": "Avibactam",
-    "u": "/drugs/avibactam/",
-    "l": "L5",
-    "i": "Tuberculosis del uréter",
-    "lt": 1,
-    "lv": 1,
-    "r": 0,
-    "rs": "",
     "x": 0
    },
    {
@@ -5602,21 +5663,10 @@
     "u": "/drugs/etofenamate/",
     "l": "L5",
     "i": "ankylosing spondylitis",
-    "lt": 1,
+    "lt": 3,
     "lv": 1,
-    "r": 1,
-    "rs": "Eliminado: \"La lista puede ser parcial: se registra al menos 1 registro sanitario.\"",
-    "x": 0
-   },
-   {
-    "t": "Etravirine",
-    "u": "/drugs/etravirine/",
-    "l": "L5",
-    "i": "Síndrome de inmunodeficiencia adquirida felina",
-    "lt": 1,
-    "lv": 1,
-    "r": 0,
-    "rs": "",
+    "r": 3,
+    "rs": "«(la presentación registrada es inyectable, mientras que» → «(las presentaciones registradas son solución…",
     "x": 0
    },
    {
@@ -5664,22 +5714,11 @@
     "x": 0
    },
    {
-    "t": "Flucytosine",
-    "u": "/drugs/flucytosine/",
-    "l": "L5",
-    "i": "bone Paget disease",
-    "lt": 1,
-    "lv": 1,
-    "r": 5,
-    "rs": "Eliminado: \"que en Colombia contaba con un registro sanitario (ANCOTOSIN®) cuya indicación aprobada figura…",
-    "x": 0
-   },
-   {
     "t": "Flutamide",
     "u": "/drugs/flutamide/",
     "l": "L5",
     "i": "fibroma de próstata",
-    "lt": 1,
+    "lt": 2,
     "lv": 1,
     "r": 0,
     "rs": "",
@@ -5767,7 +5806,7 @@
     "u": "/drugs/imiquimod/",
     "l": "L5",
     "i": "pre-malignant neoplasm",
-    "lt": 2,
+    "lt": 3,
     "lv": 1,
     "r": 5,
     "rs": "Eliminado: \"ya que los registros actuales están cancelados\"",
@@ -5800,7 +5839,7 @@
     "u": "/drugs/indomethacin/",
     "l": "L5",
     "i": "brachydactyly-syndactyly syndrome",
-    "lt": 1,
+    "lt": 2,
     "lv": 1,
     "r": 2,
     "rs": "Eliminado: \"Además, el producto no tiene registro vigente en Colombia\"",
@@ -5873,17 +5912,6 @@
     "x": 0
    },
    {
-    "t": "Iohexol",
-    "u": "/drugs/iohexol/",
-    "l": "L5",
-    "i": "insomnia (disease)",
-    "lt": 1,
-    "lv": 1,
-    "r": 2,
-    "rs": "Eliminado: \"No hay registros vigentes\"",
-    "x": 0
-   },
-   {
     "t": "Ioversol",
     "u": "/drugs/ioversol/",
     "l": "L5",
@@ -5910,10 +5938,10 @@
     "u": "/drugs/isosorbide-dinitrate/",
     "l": "L5",
     "i": "alopecia",
-    "lt": 1,
+    "lt": 2,
     "lv": 1,
-    "r": 2,
-    "rs": "Eliminado: \"La lista puede ser parcial: los datos reportan al menos un registro.\"",
+    "r": 4,
+    "rs": "«adecuada, ya que la única forma registrada es sublingual» → «adecuada»",
     "x": 0
    },
    {
@@ -5969,17 +5997,6 @@
     "lv": 1,
     "r": 3,
     "rs": "Eliminado: \"Confirmar la situación regulatoria: el registro está cancelado, por lo que no hay producto…",
-    "x": 0
-   },
-   {
-    "t": "Lincomycin",
-    "u": "/drugs/lincomycin/",
-    "l": "L5",
-    "i": "Hiperamilasemia",
-    "lt": 3,
-    "lv": 1,
-    "r": 3,
-    "rs": "Eliminado: \"dado que ambos registros están cancelados\"",
     "x": 0
    },
    {
@@ -6390,17 +6407,6 @@
     "x": 0
    },
    {
-    "t": "Sirolimus",
-    "u": "/drugs/sirolimus/",
-    "l": "L5",
-    "i": "liposarcoma",
-    "lt": 1,
-    "lv": 1,
-    "r": 1,
-    "rs": "Eliminado: \"La lista de registros puede ser parcial.\"",
-    "x": 0
-   },
-   {
     "t": "Sulfacetamide",
     "u": "/drugs/sulfacetamide/",
     "l": "L5",
@@ -6522,17 +6528,6 @@
     "x": 0
    },
    {
-    "t": "Trabectedin",
-    "u": "/drugs/trabectedin/",
-    "l": "L5",
-    "i": "female breast carcinoma",
-    "lt": 1,
-    "lv": 1,
-    "r": 3,
-    "rs": "Eliminado: \"dado que el único registro está cancelado\"",
-    "x": 0
-   },
-   {
     "t": "Trandolapril",
     "u": "/drugs/trandolapril/",
     "l": "L5",
@@ -6647,7 +6642,7 @@
     "u": "/drugs/epirubicin/",
     "l": "L5",
     "i": "linfoma pulmonar primario",
-    "lt": 1,
+    "lt": 2,
     "lv": 0,
     "r": 0,
     "rs": "",
@@ -6658,10 +6653,10 @@
     "u": "/drugs/ethambutol/",
     "l": "L5",
     "i": "epiglottitis",
-    "lt": 1,
+    "lt": 2,
     "lv": 0,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "«el producto local tiene su único registro cancelado» → «sus registros sanitarios locales figuran como…",
     "x": 0
    },
    {

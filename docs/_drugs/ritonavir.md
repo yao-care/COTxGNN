@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 567
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "RITONAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Ritonavir: nueva indicación predicha, Simian immunodeficiency virus infection (nivel de evidencia L4). Indicación original: ATAZANAVIR+RITONAVIR"
@@ -52,8 +52,8 @@ Cabe aclarar que el SIV es un modelo animal del VIH, por lo que no constituye un
 | Nueva Indicación Predicha | Simian immunodeficiency virus infection |
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 14 de 15) |
-| Número de Registros Sanitarios | 15 (vigentes: 14) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 15) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -103,7 +103,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 20109284 | VIRONTAR N COMPRIMIDOS RECUBIERTOS | TABLETA RECUBIERTA | COMBINACIONES (RITONAVIR Y DARUNAVIR) | Vigente |
 | 20115574 | LOPINAVIR 200 MG + RITONAVIR 50 MG | TABLETA RECUBIERTA | LOPINAVIR Y RITONAVIR | Vigente |
 
-Se muestran 5 de 15 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
 
 <!-- licenses:end -->
 

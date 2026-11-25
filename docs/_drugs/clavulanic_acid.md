@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "clavulanic acid"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "urogenital tuberculosis", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "abdominal cystic lymphangioma", "lymph node palisaded myofibroblastoma", "disease of uterine broad ligament"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Clavulanic Acid: nueva indicación predicha, Uretritis por Ureaplasma (Ureaplasma urethritis) (nivel de evidencia L5). Indicación original: AMOXICILINA Y BETA-LACTAMASA INHIBIDOR"
 ---
 
@@ -48,8 +48,8 @@ El ácido clavulánico es un inhibidor de betalactamasas que se utiliza junto co
 | Nueva Indicación Predicha | Uretritis por Ureaplasma (Ureaplasma urethritis) |
 | Puntaje de Predicción TxGNN | 0,9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 9 de 10) |
-| Número de Registros Sanitarios | 10 (vigentes: 9) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 11 de 13) |
+| Número de Registros Sanitarios | 13 (vigentes: 11) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -87,7 +87,7 @@ Ninguna de las publicaciones recuperadas estudia directamente el tratamiento de 
 | 20122253 | AMOXCLAVER® 1000 | TABLETA RECUBIERTA | AMOXICILINA Y BETA-LACTAMASA INHIBIDOR | Vigente |
 | 20143321 | AMOXIDAL PLUS COMPRIMIDOS RECUBIERTOS | TABLETA RECUBIERTA | AMOXICILINA Y BETA-LACTAMASA INHIBIDOR | Vigente |
 
-Se muestran 5 de 10 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

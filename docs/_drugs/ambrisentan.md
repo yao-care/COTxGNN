@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "AMBRISENTAN"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "malformation syndrome with odontal and/or periodontal component", "hypotrichosis simplex of the scalp", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Ambrisentan: nueva indicación predicha, Malformación arteriovenosa pulmonar (pulmonary arteriovenous malformation (disease)) (nivel de evidencia L5). Indicación original: AMBRISENTAN"
 ---
 
@@ -48,8 +48,8 @@ Ambrisentan es un antagonista del receptor de endotelina tipo A (ETA). El modelo
 | Nueva Indicación Predicha | Malformación arteriovenosa pulmonar (pulmonary arteriovenous malformation (disease)) |
 | Puntaje de Predicción TxGNN | 0,9941 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 11 de 11) |
-| Número de Registros Sanitarios | 11 (vigentes: 11) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 13 de 13) |
+| Número de Registros Sanitarios | 13 (vigentes: 13) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es razonable esta predicción?
@@ -82,7 +82,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 20140491 | INFINIX® 5 MG | TABLETA RECUBIERTA | AMBRISENTAN | Vigente |
 | 20140495 | INFINIX® 10 MG | TABLETA RECUBIERTA | AMBRISENTAN | Vigente |
 
-Se muestran 5 de 11 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

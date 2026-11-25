@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 636
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Tranexamic Acid: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: No especificada en los registros (solo figura \"Ácido tranexámico\")"
 monitor_inn: "tranexamic acid"
 predicted_indications: ["amenorrhea (disease)"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **Amenorrea**, pero hay **
 | Nueva Indicación Predicha | Amenorrea |
 | Puntaje de Predicción TxGNN | 0.9919 |
 | Nivel de Evidencia | L5 (sin ensayos clínicos; solo revisiones narrativas indirectas y razonamiento de mecanismo) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 12 de 14) |
-| Número de Registros Sanitarios | 14 (vigentes: 12) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 13 de 18) |
+| Número de Registros Sanitarios | 18 (vigentes: 13) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -94,7 +94,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 20108229 | ACIDO TRANEXAMICO INY 500 MG / 5 ML | SOLUCION INYECTABLE | TRANEXAMICO ACIDO | Vigente |
 | 20119728 | ZOCILED® 500 MG / 5 ML SOLUCIÓN INYECTABLE | SOLUCION INYECTABLE | TRANEXAMICO ACIDO | Vigente |
 
-Se muestran 5 de 14 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 18 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

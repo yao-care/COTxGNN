@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 668
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Zidovudine: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L5). Indicación original: Zidovudina"
 monitor_inn: "Zidovudine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **síndrome de inmunodefic
 | Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina |
 | Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 4) |
-| Número de Registros Sanitarios | 4 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 6) |
+| Número de Registros Sanitarios | 6 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -102,8 +102,9 @@ Se listan 10 de las 20 publicaciones disponibles, priorizando estudios clínicos
 | 19974944 | ZIDOVUDINA SOLUCION ORAL 10 MG/ML. | SOLUCION ORAL | ZIDOVUDINA | Vigente |
 | 20063923 | LAVUZID® | TABLETA | LAMIVUDINA Y ZIDOVUDINA | Temp. no comerc - Vigente |
 | 20065187 | ZIDO H ® SOLUCION ORAL 10MG/ML | SOLUCION ORAL | ZIDOVUDINA | Temp. no comerc - Vigente |
+| 20064177 | ZIDO H®300MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | ZIDOVUDINA | Temp. no comerc - Vigente |
 
-Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 
@@ -131,7 +132,7 @@ Se muestran los 4 registros sanitarios de este principio activo en los datos del
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia para esta indicación es solo preclínica y veterinaria (L4), sin ensayos clínicos, y la enfermedad predicha no afecta a humanos, por lo que no hay valor de reposicionamiento terapéutico. Además, el medicamento está comercializado en Colombia y cuenta con 4 registros sanitarios vigentes.
+La evidencia para esta indicación es solo preclínica y veterinaria (L4), sin ensayos clínicos, y la enfermedad predicha no afecta a humanos, por lo que no hay valor de reposicionamiento terapéutico. Además, el medicamento está comercializado en Colombia y cuenta con 2 registros sanitarios vigentes.
 
 **Para avanzar se necesita:**
 - Aclarar si existe un objetivo veterinario o de modelo animal que justifique continuar, ya que no hay una indicación humana nueva

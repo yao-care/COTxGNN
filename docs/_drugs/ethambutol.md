@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 266
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Ethambutol: nueva indicación predicha, Epiglotitis (nivel de evidencia L5). Indicación original: ETMABUTOL"
 monitor_inn: "ethambutol"
 predicted_indications: ["epiglottitis", "laryngitis", "meningococcal infection", "peritonitis", "infectious otitis media"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **epiglotitis**, pero no h
 | Nueva Indicación Predicha | Epiglotitis |
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Autorizado pero no comercializado (registros: 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 0) |
+| Estado de Mercado en Colombia | Autorizado pero no comercializado (registros: 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 0) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -88,8 +88,9 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
 |---------|------|------|------|------|
 | 20272629 | ECOX® 400 MG TABLETAS | TABLETA RECUBIERTA | ETMABUTOL | Temp. no comerc - Vigente |
+| 20003165 | FORECOX-TRAC TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | RIFAMPICINA PIRAZINAMIDA ETAMBUTOL ISONIAZIDA | Temp. no comerc - Vigente |
 
-Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 
@@ -109,13 +110,32 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-No existen ensayos clínicos y la única publicación es una serie de casos de tuberculosis laríngea en la que el etambutol formaba parte de un esquema combinado. No hay base mecanística para tratar la epiglotitis bacteriana habitual, y el producto local tiene su único registro cancelado.
+No existen ensayos clínicos y la única publicación es una serie de casos de tuberculosis laríngea en la que el etambutol formaba parte de un esquema combinado. No hay base mecanística para tratar la epiglotitis bacteriana habitual, y sus registros sanitarios locales figuran como temporalmente no comercializados.
+
+<!-- review:begin co-lic-20261125-ethambutol-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "y el producto local tiene su único registro cancelado." Corregido según los datos del INVIMA: los registros sanitarios con etambutol figuran como «Temp. no comerc - Vigente» y no hay uno solo (incluye la combinación FORECOX-TRAC). Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125-ethambutol-1 -->
 
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción y del prospecto (advertencias y contraindicaciones) para completar el análisis de seguridad
 - Evidencia clínica específica que distinga la epiglotitis tuberculosa de la epiglotitis bacteriana común
 - Verificar si existe algún producto con etambutol vigente en Colombia
 - Considerar que otras indicaciones predichas (laringitis, peritonitis) también se limitan a formas tuberculosas, donde el etambutol ya es parte del tratamiento estándar y no constituye un reposicionamiento real
+
+<!-- review:begin log -->
+
+## Registro de revisión
+
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+
+| Fecha de revisión | Elemento | Acción | Fuente |
+|------|------|------|------|
+| 2026-11-25 | «el producto local tiene su único registro cancelado» → «sus registros sanitarios locales figuran como temporalmente no comerci…» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+
+<!-- review:end log -->
+
 ## Descargo de responsabilidad
 
 Este contenido es solo con fines de investigación y no constituye asesoramiento médico.

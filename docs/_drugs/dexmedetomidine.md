@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 213
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Dexmedetomidine: nueva indicación predicha, Síndrome nefrogénico de antidiuresis inapropiada (nivel de evidencia L5). Indicación original: Dexmedetomidina"
 monitor_inn: "dexmedetomidine"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "migraine with brainstem aura", "headache disorder", "trigeminal autonomic cephalalgia"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **síndrome nefrogénico d
 | Nueva Indicación Predicha | Síndrome nefrogénico de antidiuresis inapropiada |
 | Puntaje de Predicción TxGNN | 0.9960 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 11 de 13) |
-| Número de Registros Sanitarios | 13 (vigentes: 11) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 12 de 15) |
+| Número de Registros Sanitarios | 15 (vigentes: 12) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -97,7 +97,7 @@ Actualmente no hay literatura relacionada disponible.
 | 20087299 | DEXMEDETOMIDINA 0.2 MG/ 2 ML SOLUCION INYECTABLE | SOLUCION INYECTABLE | DEXMEDETOMIDINA | Vigente |
 | 20131283 | DEXMEDETOMIDINA 200 MCG/ 2 ML | SOLUCION INYECTABLE | DEXMEDETOMIDINA | Vigente |
 
-Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 15 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 
@@ -118,7 +118,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 
 **Justificación:**
 - El puntaje del modelo es alto, pero no hay ensayos ni publicaciones. El mecanismo de la enfermedad (defecto del receptor V2) no se corrige con la acción central de un agonista alfa-2, por lo que la predicción es poco creíble.
-- El medicamento está comercializado en este país y cuenta con 11 registros sanitarios vigentes.
+- El medicamento está comercializado en este país y cuenta con 12 registros sanitarios vigentes.
 
 **Para avanzar se necesita:**
 - Estudios preclínicos o de mecanismo que demuestren algún efecto sobre la función del receptor V2 o sobre la antidiuresis en este síndrome.

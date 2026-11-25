@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 591
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Spironolactone: nueva indicación predicha, Hipotricosis simple del cuero cabelludo (nivel de evidencia L5). Indicación original: ESPIRONOLACTONA"
 monitor_inn: "Spironolactone"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectiva para **hipotricosis simple del 
 | Nueva Indicación Predicha | Hipotricosis simple del cuero cabelludo |
 | Puntaje de Predicción TxGNN | 0.9926 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 11 de 11) |
-| Número de Registros Sanitarios | 11 (vigentes: 11) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 12 de 12) |
+| Número de Registros Sanitarios | 12 (vigentes: 12) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -91,7 +91,7 @@ Actualmente no hay literatura relacionada disponible.
 | 19963166 | ESPIROLAN 25 MG TABLETAS | TABLETA | ESPIRONOLACTONA | Vigente |
 | 20015631 | ESPIRONOLACTONA TABLETAS 25 MG | TABLETA | ESPIRONOLACTONA | Vigente |
 
-Se muestran 5 de 11 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 12 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

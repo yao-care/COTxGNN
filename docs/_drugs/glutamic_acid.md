@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 317
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Glutamic Acid: nueva indicación predicha, Osteoporosis posmenopáusica (nivel de evidencia L4). Indicación original: Aminoácidos"
 monitor_inn: "glutamic acid"
 predicted_indications: ["postmenopausal osteoporosis", "pregnancy associated osteoporosis", "primary hereditary glaucoma", "gastroparesis (disease)"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **osteoporosis posmenopáu
 | Nueva Indicación Predicha | Osteoporosis posmenopáusica |
 | Puntaje de Predicción TxGNN | 0.9934 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 12 de 13) |
-| Número de Registros Sanitarios | 13 (vigentes: 12) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 12 de 15) |
+| Número de Registros Sanitarios | 15 (vigentes: 12) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -104,7 +104,7 @@ La mayoría de los artículos no evalúan el ácido glutámico como tratamiento.
 | 20033290 | PERIOLIMEL N 4 E | EMULSION INYECTABLE | COMBINACIONES | Vigente |
 | 20057807 | NUMETA® G 19% E | EMULSION INYECTABLE | COMBINACIONES | Vigente |
 
-Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 15 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

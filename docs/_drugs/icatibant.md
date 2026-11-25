@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "icatibant"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Icatibant: nueva indicación predicha, Serpinopatía con polimerización tóxica de serpinas (serpinopathy with toxic serpin polymerization) (nivel de evidencia L5). Indicación original: ICATIBANT"
 ---
 
@@ -50,8 +50,8 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección
 | Nueva Indicación Predicha | Serpinopatía con polimerización tóxica de serpinas (serpinopathy with toxic serpin polymerization) |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
-| Número de Registros Sanitarios | 4 (vigentes: 4) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## Por qué es Razonable esta Predicción
@@ -82,8 +82,9 @@ Todos los registros listados están vigentes.
 | 20179155 | EXABANT® | SOLUCION INYECTABLE | ICATIBANT | Vigente |
 | 20207652 | WILLOBANT® | SOLUCION INYECTABLE | ICATIBANT | Vigente |
 | 20245779 | SYTREHA® | SOLUCION INYECTABLE | ICATIBANT | Vigente |
+| 20266584 | ICABAN® 30MG/3ML | SOLUCION INYECTABLE | ICATIBANT | Temp. no comerc - Vigente |
 
-Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

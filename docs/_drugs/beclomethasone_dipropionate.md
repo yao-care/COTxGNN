@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 95
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Beclomethasone Dipropionate: nueva indicación predicha, Eccema atópico (nivel de evidencia L3). Indicación original: BECLOMETASONA"
 monitor_inn: "Beclomethasone dipropionate"
 predicted_indications: ["atopic eczema"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **eccema atópico**, pero 
 | Nueva Indicación Predicha | Eccema atópico |
 | Puntaje de Predicción TxGNN | 0,9941 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 14 de 14) |
-| Número de Registros Sanitarios | 14 (vigentes: 14) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 14 de 16) |
+| Número de Registros Sanitarios | 16 (vigentes: 14) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -103,7 +103,7 @@ Ninguna publicación es un ensayo controlado aleatorizado. Se listan por relevan
 | 19992494 | ECLOSYNT® | AEROSOLES | BECLOMETASONA | Vigente |
 | 19992495 | ECLOSYNT-NAS | AEROSOLES | BECLOMETASONA | Vigente |
 
-Se muestran 5 de 14 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 16 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

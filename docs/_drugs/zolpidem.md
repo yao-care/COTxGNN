@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 670
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Zolpidem: nueva indicación predicha, Tortícolis paroxística benigna de la infancia (nivel de evidencia L5). Indicación original: ZOLPIDEM"
 monitor_inn: "zolpidem"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
@@ -58,8 +58,8 @@ Cabe aclarar que esta predicción coincide en la práctica con el uso clínico y
 | Nueva Indicación Predicha | Trastorno del sueño, inicio y mantenimiento del sueño |
 | Puntaje de Predicción TxGNN | 0.9926 |
 | Nivel de Evidencia | L5 (según la evaluación incluida en los datos, basada en guías, metaanálisis y un ECA de Fase 3 de la literatura; no hay ensayos registrados) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 6) |
-| Número de Registros Sanitarios | 6 (vigentes: 5) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 7) |
+| Número de Registros Sanitarios | 7 (vigentes: 6) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -109,7 +109,7 @@ Se muestran las publicaciones más relevantes, priorizando ECA, metaanálisis y 
 | 20233480 | ZOLNOX® 10MG | TABLETA | ZOLPIDEM | Vigente |
 | 20233494 | ZOLPIDEM HEMITARTRATO 5MG | TABLETA SUBLINGUAL | ZOLPIDEM | Vigente |
 
-Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 7 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 
@@ -131,10 +131,10 @@ Se muestran 5 de 6 registros sanitarios de este principio activo en los datos de
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-La literatura aporta guías, metaanálisis y un ECA de Fase 3 que respaldan el uso de zolpidem en el insomnio, pero no hay ensayos clínicos registrados y esta indicación es en la práctica el uso ya establecido, no un reposicionamiento. Además, el medicamento está comercializado en Colombia y cuenta con 5 registros sanitarios vigentes.
+La literatura aporta guías, metaanálisis y un ECA de Fase 3 que respaldan el uso de zolpidem en el insomnio, pero no hay ensayos clínicos registrados y esta indicación es en la práctica el uso ya establecido, no un reposicionamiento. Además, el medicamento está comercializado en Colombia y cuenta con 6 registros sanitarios vigentes.
 
 **Para avanzar se necesita:**
-- Verificar la situación regulatoria y la disponibilidad actual del fármaco en Colombia (está comercializado y hay 5 registros sanitarios vigentes).
+- Verificar la situación regulatoria y la disponibilidad actual del fármaco en Colombia (está comercializado y hay 6 registros sanitarios vigentes).
 - Obtener el prospecto de INVIMA para confirmar advertencias y contraindicaciones oficiales.
 - Completar los datos del mecanismo de acción desde DrugBank.
 - Definir medidas de seguridad: restricción de duración del tratamiento, precaución en adultos mayores, evaluación de riesgo de dependencia y revisión de combinaciones con depresores del sistema nervioso central.

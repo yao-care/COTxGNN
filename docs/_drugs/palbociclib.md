@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 493
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "PALBOCICLIB"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
 description: "Palbociclib: nueva indicación predicha, Hyperthyroidism (nivel de evidencia L5). Indicación original: PALBOCICLIB"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide** (s
 | Nueva Indicación Predicha | Hyperthyroidism |
 | Puntaje de Predicción TxGNN | 0.9944 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 8 de 8) |
-| Número de Registros Sanitarios | 8 (vigentes: 8) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 10 de 10) |
+| Número de Registros Sanitarios | 10 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 
 **Nota sobre la selección:** la primera predicción de TxGNN es hipertiroidismo (0.9944), pero no tiene ensayos ni literatura (nivel L5). Este informe se centra en la artritis reumatoide, que es la predicción con evidencia más relevante. Las demás predicciones se comentan al final.
@@ -98,7 +98,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 20196171 | REAMPLA® 75 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | PALBOCICLIB | Vigente |
 | 20196854 | PABPCIB® 75 MG CAPSULAS | CAPSULA DURA | PALBOCICLIB | Vigente |
 
-Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 10 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 
@@ -134,7 +134,7 @@ Para advertencias y contraindicaciones oficiales, consultar el prospecto.
 **Decisión: Hold**
 
 **Justificación:**
-La evidencia para artritis reumatoide se limita a estudios preclínicos, un reporte de caso y un estudio de cohorte sin confirmación de resultados, sin ensayos clínicos registrados (nivel L4). Además, el medicamento está comercializado en Colombia con 8 registros sanitarios vigentes, y la mielosupresión y la señal tromboembólica exigen cautela en una enfermedad crónica no oncológica.
+La evidencia para artritis reumatoide se limita a estudios preclínicos, un reporte de caso y un estudio de cohorte sin confirmación de resultados, sin ensayos clínicos registrados (nivel L4). Además, el medicamento está comercializado en Colombia con 10 registros sanitarios vigentes, y la mielosupresión y la señal tromboembólica exigen cautela en una enfermedad crónica no oncológica.
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), actualmente no disponible.

@@ -12,20 +12,20 @@
  "public_pages": 622,
  "licence_snapshot": "co_licenses.json.gz",
  "licence": {
-  "drugs_with_data": 547,
-  "drugs_with_current": 536,
-  "drugs_none_current": 11,
-  "drugs_without_data": 75,
+  "drugs_with_data": 531,
+  "drugs_with_current": 521,
+  "drugs_none_current": 10,
+  "drugs_without_data": 91,
   "drugs_partial": 0,
-  "items_total": 2702,
-  "items_current": 2397
+  "items_total": 2754,
+  "items_current": 2276
  },
  "reviews": {
-  "records": 1530,
-  "pages": 588,
-  "public_pages_with_records": 580,
+  "records": 1550,
+  "pages": 589,
+  "public_pages_with_records": 581,
   "by_action": {
-   "correct": 1086,
+   "correct": 1106,
    "mechanism": 444
   }
  },
@@ -44,67 +44,67 @@
    "i": "seborrheic dermatitis"
   },
   {
-   "t": "Salmeterol",
-   "u": "/drugs/salmeterol/",
+   "t": "Cetirizine",
+   "u": "/drugs/cetirizine/",
    "l": "L5",
    "lt": 20,
-   "lv": 19,
-   "r": 1,
-   "i": "malformación respiratoria"
+   "lv": 18,
+   "r": 2,
+   "i": "Enfermedad de la cavidad nasal"
   },
   {
-   "t": "Sunitinib",
-   "u": "/drugs/sunitinib/",
+   "t": "Olopatadine",
+   "u": "/drugs/olopatadine/",
+   "l": "L5",
+   "lt": 19,
+   "lv": 17,
+   "r": 4,
+   "i": "rosacea conjunctivitis"
+  },
+  {
+   "t": "Dasatinib",
+   "u": "/drugs/dasatinib/",
    "l": "L2",
-   "lt": 20,
-   "lv": 19,
+   "lt": 16,
+   "lv": 16,
    "r": 3,
-   "i": "liposarcoma"
+   "i": "Ewing sarcoma"
   },
   {
-   "t": "Amoxicilina",
-   "u": "/drugs/amoxicilina/",
+   "t": "Metoclopramide",
+   "u": "/drugs/metoclopramide/",
    "l": "L5",
-   "lt": 19,
-   "lv": 18,
-   "r": 1,
-   "i": "Síndrome de hiperviscosidad policlonal"
+   "lt": 16,
+   "lv": 16,
+   "r": 3,
+   "i": "gastroduodenitis"
   },
   {
-   "t": "Betamethasone",
-   "u": "/drugs/betamethasone/",
-   "l": "L4",
-   "lt": 18,
-   "lv": 18,
-   "r": 2,
-   "i": "alopecia mucinosa"
-  },
-  {
-   "t": "Hydrocodone",
-   "u": "/drugs/hydrocodone/",
-   "l": "L4",
-   "lt": 18,
-   "lv": 18,
-   "r": 2,
-   "i": "nasal cavity disease"
-  },
-  {
-   "t": "Nystatin",
-   "u": "/drugs/nystatin/",
+   "t": "Metoprolol",
+   "u": "/drugs/metoprolol/",
    "l": "L5",
-   "lt": 19,
-   "lv": 18,
-   "r": 2,
-   "i": "Enfermedad de la región orbitaria"
+   "lt": 18,
+   "lv": 16,
+   "r": 3,
+   "i": "Enfermedad renal hipertensiva maligna"
   },
   {
-   "t": "Olanzapine",
-   "u": "/drugs/olanzapine/",
+   "t": "Tamsulosin",
+   "u": "/drugs/tamsulosin/",
    "l": "L5",
    "lt": 20,
-   "lv": 18,
-   "r": 2,
-   "i": "benign paroxysmal torticollis of infancy"
+   "lv": 16,
+   "r": 3,
+   "i": "Ambras type hypertrichosis universalis congenita"
+  },
+  {
+   "t": "Acetylcysteine",
+   "u": "/drugs/acetylcysteine/",
+   "l": "L1",
+   "lt": 16,
+   "lv": 15,
+   "r": 3,
+   "i": "thrombotic disease"
   }
  ],
  "no_current": [
@@ -121,9 +121,9 @@
    "t": "Clomipramine",
    "u": "/drugs/clomipramine/",
    "l": "L1",
-   "lt": 1,
+   "lt": 2,
    "lv": 0,
-   "r": 1,
+   "r": 3,
    "i": "anxiety disorder"
   },
   {
@@ -139,7 +139,7 @@
    "t": "Epirubicin",
    "u": "/drugs/epirubicin/",
    "l": "L5",
-   "lt": 1,
+   "lt": 2,
    "lv": 0,
    "r": 0,
    "i": "linfoma pulmonar primario"
@@ -148,9 +148,9 @@
    "t": "Ethambutol",
    "u": "/drugs/ethambutol/",
    "l": "L5",
-   "lt": 1,
+   "lt": 2,
    "lv": 0,
-   "r": 0,
+   "r": 1,
    "i": "epiglottitis"
   },
   {
@@ -170,15 +170,6 @@
    "lv": 0,
    "r": 1,
    "i": "conjuntivitis por rosácea"
-  },
-  {
-   "t": "Parecoxib",
-   "u": "/drugs/parecoxib/",
-   "l": "L3",
-   "lt": 1,
-   "lv": 0,
-   "r": 4,
-   "i": "Trastorno de migraña"
   },
   {
    "t": "Rutin",
@@ -223,8 +214,8 @@
    "t": "Bendamustine",
    "u": "/drugs/bendamustine/",
    "l": "L1",
-   "lt": 14,
-   "lv": 11,
+   "lt": 18,
+   "lv": 12,
    "r": 5,
    "i": "mantle cell lymphoma"
   },
@@ -241,8 +232,8 @@
    "t": "Flucytosine",
    "u": "/drugs/flucytosine/",
    "l": "L5",
-   "lt": 1,
-   "lv": 1,
+   "lt": 3,
+   "lv": 2,
    "r": 5,
    "i": "bone Paget disease"
   },
@@ -250,19 +241,19 @@
    "t": "Fusidic Acid",
    "u": "/drugs/fusidic-acid/",
    "l": "L5",
-   "lt": 14,
+   "lt": 19,
    "lv": 13,
    "r": 5,
    "i": "exposure keratitis"
   },
   {
-   "t": "Imiquimod",
-   "u": "/drugs/imiquimod/",
+   "t": "Guaifenesin",
+   "u": "/drugs/guaifenesin/",
    "l": "L5",
-   "lt": 2,
-   "lv": 1,
+   "lt": 6,
+   "lv": 5,
    "r": 5,
-   "i": "pre-malignant neoplasm"
+   "i": "nasal cavity disease"
   }
  ],
  "example": {
@@ -276,6 +267,114 @@
  },
  "recent_reviews": [
   {
+   "t": "Vortioxetine",
+   "u": "/drugs/vortioxetine/",
+   "s": "«Aclarar el motivo de la cancelación del registro 20215225 y evaluar si…» → «Evaluar la vía regulatoria en…",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Trimethoprim",
+   "u": "/drugs/trimethoprim/",
+   "s": "«administración, ya que en Colombia solo se registró la forma oral» → «administración»",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Quetiapine",
+   "u": "/drugs/quetiapine/",
+   "s": "«el único registro sanitario colombiano disponible» → «los registros sanitarios colombianos»",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Pirfenidone",
+   "u": "/drugs/pirfenidone/",
+   "s": "Eliminado: «8»",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Paclitaxel",
+   "u": "/drugs/paclitaxel/",
+   "s": "Eliminado: «15»",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Miltefosine",
+   "u": "/drugs/miltefosine/",
+   "s": "«Ambos registros son de producto de un solo principio activo, están vig…» → «Todos los registros son de…",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Lomitapide",
+   "u": "/drugs/lomitapide/",
+   "s": "«los 9 registros están vigentes (8 de 8)» → «todos los registros sanitarios están vigentes»",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Lidocaine",
+   "u": "/drugs/lidocaine/",
+   "s": "«son supositorio, ungüento y crema» → «incluyen formas inyectables, tópicas, bucales, óticas y rectales»",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Isosorbide Dinitrate",
+   "u": "/drugs/isosorbide-dinitrate/",
+   "s": "«adecuada, ya que la única forma registrada es sublingual» → «adecuada»",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Iohexol",
+   "u": "/drugs/iohexol/",
+   "s": "«el único registro sanitario en Colombia está vigente (1 licencia válid…» → «sus registros sanitarios en…",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Ibuprofen",
+   "u": "/drugs/ibuprofen/",
+   "s": "«su único registro sanitario corresponde a una suspensión oral pediátri…» → «tiene registros sanitarios en…",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Guaifenesin",
+   "u": "/drugs/guaifenesin/",
+   "s": "«administración (solo se registró forma en jarabe)» → «administración»",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Glycine",
+   "u": "/drugs/glycine/",
+   "s": "«(la unica forma registrada es una emulsion inyectable, no apt» → «(las formas registradas son inyectables o…",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Etofenamate",
+   "u": "/drugs/etofenamate/",
+   "s": "«(la presentación registrada es inyectable, mientras que» → «(las presentaciones registradas son solución…",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Ethambutol",
+   "u": "/drugs/ethambutol/",
+   "s": "«el producto local tiene su único registro cancelado» → «sus registros sanitarios locales figuran como…",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Clomipramine",
+   "u": "/drugs/clomipramine/",
+   "s": "«el único registro sanitario colombiano está cancelado» → «sus registros sanitarios en Colombia figuran como…",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Serine",
+   "u": "/drugs/serine/",
+   "s": "Eliminado: \"cuyo registro está cancelado\"",
+   "d": "2026-11-25"
+  },
+  {
+   "t": "Denosumab",
+   "u": "/drugs/denosumab/",
+   "s": "Eliminado: \"Actualmente no hay registros vigentes en Colombia\"",
+   "d": "2026-11-25"
+  },
+  {
    "t": "Triptorelin",
    "u": "/drugs/triptorelin/",
    "s": "Eliminado: \"Los registros mostrados pueden ser una lista parcial.\"",
@@ -309,165 +408,57 @@
    "t": "Sirolimus",
    "u": "/drugs/sirolimus/",
    "s": "Eliminado: \"La lista de registros puede ser parcial.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Sertraline",
-   "u": "/drugs/sertraline/",
-   "s": "Eliminado: \"La lista de registros puede ser parcial.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Sertaconazole",
-   "u": "/drugs/sertaconazole/",
-   "s": "Eliminado: \"…ambos registros sanitarios listados figuran como vigentes…\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Ranitidine",
-   "u": "/drugs/ranitidine/",
-   "s": "Eliminado: \"La lista de registros puede estar incompleta.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Progesterone",
-   "u": "/drugs/progesterone/",
-   "s": "Eliminado: \"La lista de registros puede ser parcial.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Pitavastatin",
-   "u": "/drugs/pitavastatin/",
-   "s": "Eliminado: \"La lista es parcial: se muestran 3 registros vigentes…\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Omalizumab",
-   "u": "/drugs/omalizumab/",
-   "s": "Eliminado: \"La lista de registros puede ser parcial.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Nystatin",
-   "u": "/drugs/nystatin/",
-   "s": "Eliminado: \"Los registros disponibles pueden ser parciales.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Naphazoline",
-   "u": "/drugs/naphazoline/",
-   "s": "Eliminado: \"(Se muestran los 5 principales de 8 registros.)\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Mupirocin",
-   "u": "/drugs/mupirocin/",
-   "s": "Eliminado: \"Fabricante: MEGALABS COLOMBIA S.A.S.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Modafinil",
-   "u": "/drugs/modafinil/",
-   "s": "Eliminado: \"La lista de registros puede ser parcial.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Miconazole",
-   "u": "/drugs/miconazole/",
-   "s": "Eliminado: \"La lista de registros puede ser parcial.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Metoprolol",
-   "u": "/drugs/metoprolol/",
-   "s": "Eliminado: \"La lista de registros puede ser parcial (se muestran al menos 4).\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Methylprednisolone",
-   "u": "/drugs/methylprednisolone/",
-   "s": "Eliminado: \"La lista puede ser parcial.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Medroxyprogesterone Acetate",
-   "u": "/drugs/medroxyprogesterone-acetate/",
-   "s": "Eliminado: \"La lista de registros puede ser parcial.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Lovastatin",
-   "u": "/drugs/lovastatin/",
-   "s": "Eliminado: \"La lista puede estar incompleta (se indican al menos 2 registros).\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Lidocaine",
-   "u": "/drugs/lidocaine/",
-   "s": "Eliminado: \"Se listan los 3 registros disponibles; puede haber más registros no incluidos.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Levothyroxine",
-   "u": "/drugs/levothyroxine/",
-   "s": "Eliminado: \"La lista proviene de un recuento parcial; pueden existir más registros.\"",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Levonorgestrel",
-   "u": "/drugs/levonorgestrel/",
-   "s": "Eliminado: \"La lista puede ser parcial.\"",
    "d": "2026-11-24"
   }
  ],
  "recent_licence_reviews": [
   {
-   "t": "Triptorelin",
-   "u": "/drugs/triptorelin/",
-   "s": "Eliminado: \"Los registros mostrados pueden ser una lista parcial.\"",
-   "d": "2026-11-24"
+   "t": "Vortioxetine",
+   "u": "/drugs/vortioxetine/",
+   "s": "«Aclarar el motivo de la cancelación del registro 20215225 y evaluar si…» → «Evaluar la vía regulatoria en…",
+   "d": "2026-11-25"
   },
   {
-   "t": "Theophylline",
-   "u": "/drugs/theophylline/",
-   "s": "Eliminado: \"La lista de registros puede ser parcial.\"",
-   "d": "2026-11-24"
+   "t": "Trimethoprim",
+   "u": "/drugs/trimethoprim/",
+   "s": "«administración, ya que en Colombia solo se registró la forma oral» → «administración»",
+   "d": "2026-11-25"
   },
   {
-   "t": "Terbutaline",
-   "u": "/drugs/terbutaline/",
-   "s": "Eliminado: \"La lista de registros puede ser parcial.\"",
-   "d": "2026-11-24"
+   "t": "Quetiapine",
+   "u": "/drugs/quetiapine/",
+   "s": "«el único registro sanitario colombiano disponible» → «los registros sanitarios colombianos»",
+   "d": "2026-11-25"
   },
   {
-   "t": "Temozolomide",
-   "u": "/drugs/temozolomide/",
-   "s": "Eliminado: \"La lista puede ser parcial.\"",
-   "d": "2026-11-24"
+   "t": "Pirfenidone",
+   "u": "/drugs/pirfenidone/",
+   "s": "Eliminado: «8»",
+   "d": "2026-11-25"
   },
   {
-   "t": "Sunitinib",
-   "u": "/drugs/sunitinib/",
-   "s": "Eliminado: \"Los cuatro registros pertenecen a HB Human Bioscience S.A.S.\"",
-   "d": "2026-11-24"
+   "t": "Paclitaxel",
+   "u": "/drugs/paclitaxel/",
+   "s": "Eliminado: «15»",
+   "d": "2026-11-25"
   },
   {
-   "t": "Sirolimus",
-   "u": "/drugs/sirolimus/",
-   "s": "Eliminado: \"La lista de registros puede ser parcial.\"",
-   "d": "2026-11-24"
+   "t": "Miltefosine",
+   "u": "/drugs/miltefosine/",
+   "s": "«Ambos registros son de producto de un solo principio activo, están vig…» → «Todos los registros son de…",
+   "d": "2026-11-25"
   },
   {
-   "t": "Sertraline",
-   "u": "/drugs/sertraline/",
-   "s": "Eliminado: \"La lista de registros puede ser parcial.\"",
-   "d": "2026-11-24"
+   "t": "Lomitapide",
+   "u": "/drugs/lomitapide/",
+   "s": "«los 9 registros están vigentes (8 de 8)» → «todos los registros sanitarios están vigentes»",
+   "d": "2026-11-25"
   },
   {
-   "t": "Sertaconazole",
-   "u": "/drugs/sertaconazole/",
-   "s": "Eliminado: \"…ambos registros sanitarios listados figuran como vigentes…\"",
-   "d": "2026-11-24"
+   "t": "Lidocaine",
+   "u": "/drugs/lidocaine/",
+   "s": "«son supositorio, ungüento y crema» → «incluyen formas inyectables, tópicas, bucales, óticas y rectales»",
+   "d": "2026-11-25"
   }
  ],
  "files": {
@@ -485,7 +476,7 @@
   },
   "L3": {
    "n": 25,
-   "current": 24
+   "current": 25
   },
   "L4": {
    "n": 45,

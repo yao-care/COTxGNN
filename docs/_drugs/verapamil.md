@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 657
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Verapamil: nueva indicación predicha, Bloqueo de rama (término obsoleto) (nivel de evidencia L5). Indicación original: Trandolapril y bloqueadores de canales de calcio"
 monitor_inn: "verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
@@ -50,8 +50,8 @@ La predicción se basa únicamente en el puntaje del modelo y, según el anális
 | Nueva Indicación Predicha | Bloqueo de rama (término obsoleto) |
 | Puntaje de Predicción TxGNN | 0.9962 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
-| Número de Registros Sanitarios | 4 (vigentes: 4) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -97,8 +97,9 @@ Actualmente no hay literatura relacionada disponible para la indicación princip
 | 36606 | VERAPAMILO 80 MG | TABLETA RECUBIERTA | VERAPAMIL | Vigente |
 | 36782 | VERAPAMILO 120MG. | TABLETA CUBIERTA (GRAGEA) | VERAPAMIL | Vigente |
 | 37892 | VERAPAMILO CLORHIDRATO TABLETAS RECUBIERTAS 80 MG. | TABLETA RECUBIERTA | VERAPAMIL | Vigente |
+| 20009937 | VERAPAMILO CLORHIDRATO5MG/2 ML | SOLUCION INYECTABLE | VERAPAMIL | Temp. no comerc - Vigente |
 
-Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

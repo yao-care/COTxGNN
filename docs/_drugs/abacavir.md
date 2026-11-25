@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ABACAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Abacavir: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) (nivel de evidencia L5). Indicación original: ABACAVIR/ZIDOVUDINA/LAMIV…"
 ---
 
@@ -50,8 +50,8 @@ pero la evidencia es muy limitada: **0 ensayos clínicos** y **1 publicación** 
 | Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina (feline acquired immunodeficiency syndrome) |
 | Puntaje de Predicción TxGNN | 0.9979 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 7) |
-| Número de Registros Sanitarios | 7 (vigentes: 5) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 8) |
+| Número de Registros Sanitarios | 8 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -84,7 +84,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 20103720 | ABALAM® 600 MG/300MG TABLETAS CUBIERTAS | TABLETA CUBIERTA CON PELICULA | LAMIVUDINA Y ABACAVIR | Vigente |
 | 20140104 | KAVIDUVIR®TABLETA RECUBIERTA | TABLETA RECUBIERTA | LAMIVUDINA Y ABACAVIR | Vigente |
 
-Se muestran 5 de 7 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 223
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Dimenhydrinate: nueva indicación predicha, Urticaria alérgica (nivel de evidencia L5). Indicación original: Dimenhidrinato"
 monitor_inn: "dimenhydrinate"
 predicted_indications: ["allergic urticaria", "cold urticaria"]
@@ -50,8 +50,8 @@ con **0 ensayos clínicos** y **1 publicación** (un estudio farmacocinético en
 | Nueva Indicación Predicha | Urticaria alérgica |
 | Puntaje de Predicción TxGNN | 0.9974 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 11 de 11) |
-| Número de Registros Sanitarios | 11 (vigentes: 11) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 12 de 13) |
+| Número de Registros Sanitarios | 13 (vigentes: 12) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -90,7 +90,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 20056532 | DRAMAMINE | TABLETA | DIMENHIDRINATO | Vigente |
 | 20158112 | MARE-OFF® | TABLETA | DIMENHIDRINATO | Vigente |
 
-Se muestran 5 de 11 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

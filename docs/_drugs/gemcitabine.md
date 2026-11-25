@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "gemcitabine"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "endometrial mixed adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "mucin-rich endometrial endometrioid adenocarcinoma"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Gemcitabine: nueva indicación predicha, Adenocarcinoma mucinoso del recto (rectum mucinous adenocarcinoma) (nivel de evidencia L5). Indicación original: GEMCITABINA"
 ---
 
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden esp
 | Nueva Indicación Predicha | Adenocarcinoma mucinoso del recto (rectum mucinous adenocarcinoma) |
 | Puntaje de Predicción TxGNN | 0,9977 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 9 de 9) |
-| Número de Registros Sanitarios | 9 (vigentes: 9) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 9 de 10) |
+| Número de Registros Sanitarios | 10 (vigentes: 9) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -82,7 +82,7 @@ Actualmente no hay literatura relacionada disponible.
 | 20063548 | GEMTIN® 1000 MG | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | GEMCITABINA | Vigente |
 | 20080049 | GEMCITABINA 10 MG / ML SOLUCIÓN INYECTABLE | SOLUCION INYECTABLE | GEMCITABINA | Vigente |
 
-Se muestran 5 de 9 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 10 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

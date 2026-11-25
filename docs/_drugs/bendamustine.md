@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 98
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Bendamustine: nueva indicación predicha, Linfoma de células del manto (nivel de evidencia L1). Indicación original: BENDAMUSTINE"
 monitor_inn: "Bendamustine"
 predicted_indications: ["mantle cell lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Hodgkins lymphoma", "small intestinal Burkitt lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "MALT lymphoma", "relapsing-remitting multiple sclerosis"]
@@ -62,8 +62,8 @@ con **44 ensayos clínicos** y **20 publicaciones** que actualmente respaldan es
 | Nueva Indicación Predicha | Linfoma de células del manto |
 | Puntaje de Predicción TxGNN | 0.9963 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 11 de 14) |
-| Número de Registros Sanitarios | 14 (vigentes: 11) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 12 de 18) |
+| Número de Registros Sanitarios | 18 (vigentes: 12) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -118,7 +118,7 @@ Se listan los ensayos más relevantes (de un total de 44 identificados para esta
 | 20152258 | BENDAMUSTINA CLORHIDRATO PARA INYECCION 25 MG/VIAL | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | BENDAMUSTINE | Vigente |
 | 20152514 | BENDAMUSTINA CLORHIDRATO PARA INYECCION 100 MG/ VIAL | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | BENDAMUSTINE | Vigente |
 
-Se muestran 5 de 14 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 18 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

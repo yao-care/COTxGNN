@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 183
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Cyclobenzaprine: nueva indicación predicha, Síndrome de dolor miofascial (nivel de evidencia L2). Indicación original: Ciclobenzaprina"
 monitor_inn: "cyclobenzaprine"
 predicted_indications: ["myofascial pain syndrome", "neuralgia", "papillary conjunctivitis"]
@@ -50,8 +50,8 @@ con **10 ensayos clínicos** y **5 publicaciones** que actualmente respaldan est
 | Nueva Indicación Predicha | Síndrome de dolor miofascial |
 | Puntaje de Predicción TxGNN | 0.9909 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 9 de 11) |
-| Número de Registros Sanitarios | 11 (vigentes: 9) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 10 de 13) |
+| Número de Registros Sanitarios | 13 (vigentes: 10) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -99,7 +99,7 @@ Esta relación está respaldada por ensayos aleatorizados: uno en distensión mi
 | 20073630 | DOLORO® | TABLETA RECUBIERTA | CICLOBENZAPRINA | Vigente |
 | 20092573 | CICLOBENZAPRINA CLORHIDRATO 5 MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | CICLOBENZAPRINA | Vigente |
 
-Se muestran 5 de 11 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

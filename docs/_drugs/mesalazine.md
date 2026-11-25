@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 432
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Mesalazine: nueva indicación predicha, Hipotricosis congénita con distrofia macular juvenil (nivel de evidencia L5). Indicación original: Mesalazina"
 monitor_inn: "Mesalazine"
 predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
@@ -56,8 +56,8 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden esta dirección
 | Nueva Indicación Predicha | Hipotricosis congénita con distrofia macular juvenil |
 | Puntaje de Predicción TxGNN | 0.9965 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 13 de 17) |
-| Número de Registros Sanitarios | 17 (vigentes: 13) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 13) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -94,7 +94,7 @@ Actualmente no hay literatura relacionada disponible.
 | 19995433 | PENTASA® SUPOSITORIOS | SUPOSITORIO | MESALAZINA | Vigente |
 | 19998498 | MESAX4G / 60 ML SUSPENSION RECTAL | SUSPENSION PARA ADMINISTRAR POR VIA RECTAL | MESALAZINA | Vigente |
 
-Se muestran 5 de 17 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
 
 <!-- licenses:end -->
 

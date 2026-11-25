@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 592
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Sucralfate: nueva indicación predicha, Reflujo duodenogástrico (nivel de evidencia L2). Indicación original: Sucralfato"
 monitor_inn: "Sucralfate"
 predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
@@ -50,8 +50,8 @@ con **0 ensayos clínicos registrados** y **11 publicaciones** que actualmente r
 | Nueva Indicación Predicha | Reflujo duodenogástrico |
 | Puntaje de Predicción TxGNN | 0.9937 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 7 de 7) |
-| Número de Registros Sanitarios | 7 (vigentes: 7) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 7 de 9) |
+| Número de Registros Sanitarios | 9 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -92,7 +92,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 20087855 | ALBISAN SUSPENSION | SUSPENSION ORAL | SUCRALFATE | Vigente |
 | 20108016 | SUCRALFATO 1G/ 5 ML SUSPENSION | SUSPENSION ORAL | SUCRALFATE | Vigente |
 
-Se muestran 5 de 7 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 9 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

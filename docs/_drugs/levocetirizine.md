@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 398
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Levocetirizine: nueva indicación predicha, Artritis reumatoide (nivel de evidencia L5). Indicación original: LEVOCETIRIZINA"
 monitor_inn: "Levocetirizine"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **artritis reumatoide**, p
 | Nueva Indicación Predicha | Artritis reumatoide |
 | Puntaje de Predicción TxGNN | 0.9973 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
-| Número de Registros Sanitarios | 3 (vigentes: 3) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -95,8 +95,9 @@ Actualmente no hay literatura relacionada disponible.
 | 20040729 | NORAVER® G FAST TOTAL | CAPSULA BLANDA | FENILEFRINA COMBINACIONES | Vigente |
 | 20126402 | RIZIN® TABLETAS | TABLETA RECUBIERTA | LEVOCETIRIZINA | Vigente |
 | 20232631 | LEVOCETIRIZINA DICLORHIDRATO 5MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | LEVOCETIRIZINA | Vigente |
+| 20078255 | HISTAFLEX JARABE | JARABE | FENILEFRINA COMBINACIONES | Temp. no comerc - Vigente |
 
-Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

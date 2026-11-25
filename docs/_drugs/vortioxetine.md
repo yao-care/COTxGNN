@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 665
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "vortioxetine"
 predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
 description: "Vortioxetine: nueva indicación predicha, Trastorno neurótico (neurotic disorder) (nivel de evidencia L5). Indicación original: VORTIOXETINA"
@@ -52,8 +52,8 @@ Las predicciones siguientes (neurosis depresiva, melancolía, distimia) son en r
 | Nueva Indicación Predicha | Trastorno neurótico (neurotic disorder) |
 | Puntaje de Predicción TxGNN | 0.9924 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 8 de 8) |
-| Número de Registros Sanitarios | 8 (vigentes: 8) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 12 de 12) |
+| Número de Registros Sanitarios | 12 (vigentes: 12) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -131,7 +131,7 @@ Estas publicaciones respaldan la eficacia de vortioxetina en depresión mayor, n
 | 20215225 | ACSODIX® 10MG COMPRIMIDOS RECUBIERTOS (TABLETAS RECUBIERTAS) | TABLETA RECUBIERTA | VORTIOXETINA | Vigente |
 | 20215227 | ACSODIX® 20 TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | VORTIOXETINA | Vigente |
 
-Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 12 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 
@@ -173,8 +173,14 @@ La predicción principal (trastorno neurótico) tiene nivel de evidencia L5: sol
 - Estudios específicos de subtipo (melancolía) o de distimia con vortioxetina, ya que los ensayos actuales son en depresión mayor general.
 - Datos del mecanismo de acción verificados en DrugBank.
 - Descargar y analizar el prospecto en INVIMA para obtener advertencias y contraindicaciones.
-- Aclarar el motivo de la cancelación del registro 20215225 y evaluar si existe otro registro vigente o una vía de nuevo registro.
+- Evaluar la vía regulatoria en Colombia para la nueva indicación.
 - Descartar la predicción de tortícolis paroxística benigna de la infancia por falta de plausibilidad y por riesgo de seguridad.
+
+<!-- review:begin co-lic-20261125-vortioxetine-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "Aclarar el motivo de la cancelación del registro 20215225 y evaluar si existe otro registro vigente o una vía de nuevo registro." Corregido según los datos del INVIMA: el registro 20215225 (ACSODIX® 10 MG) figura como vigente y vortioxetina tiene otros registros vigentes; se quitó la premisa de una cancelación. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125-vortioxetine-1 -->
 
 <!-- review:begin log -->
 
@@ -187,6 +193,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "El único registro (titular: MEGALABS COLOMBIA S.A.S) está cancelado; actualmente no hay registros vigentes" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Trintellix (vortioxetine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd0107e5-1cb9-4b40-a6af-fa65fcbe6b4e) |
+| 2026-11-25 | «Aclarar el motivo de la cancelación del registro 20215225 y evaluar si…» → «Evaluar la vía regulatoria en Colombia para la nueva indicación» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

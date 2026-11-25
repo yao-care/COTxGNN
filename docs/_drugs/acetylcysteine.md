@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 25
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Acetylcysteine: nueva indicación predicha, Enfermedad trombótica (nivel de evidencia L1). Indicación original: Acetilcisteína"
 monitor_inn: "Acetylcysteine"
 predicted_indications: ["thrombotic disease", "closed-angle glaucoma", "nasal cavity disease", "dry eye syndrome", "pharyngitis", "acute laryngopharyngitis", "tracheal disease", "transient ischemic attack (disease)", "laryngotracheitis", "angle-closure glaucoma"]
@@ -52,8 +52,8 @@ con **7 ensayos clínicos** y **20 publicaciones** que actualmente respaldan est
 | Nueva Indicación Predicha | Enfermedad trombótica |
 | Puntaje de Predicción TxGNN | 0.9996 |
 | Nivel de Evidencia | L1 (según la clasificación de los datos compilados; ver nota en la conclusión) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 15 de 15) |
-| Número de Registros Sanitarios | 15 (vigentes: 15) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 15 de 16) |
+| Número de Registros Sanitarios | 16 (vigentes: 15) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -111,7 +111,7 @@ Conviene precisar que la evidencia se concentra en microangiopatías trombótica
 | 19970253 | RINOFLUIMUCIL ® SOLUCION NASAL | SOLUCIONNASAL | ACETILCISTEINA | Vigente |
 | 20003535 | ZIFLUVIS 600 MG | GRANULOS | ACETILCISTEINA | Vigente |
 
-Se muestran 5 de 15 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 16 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

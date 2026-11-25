@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 9
 monitor_inn: "Cytarabine"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Cytarabine: nueva indicación predicha, Carcinoma pulmonar de células pequeñas (small cell lung carcinoma) (nivel de evidencia L3). Indicación original: CITARABINA"
 ---
 
@@ -50,8 +50,8 @@ Hasta ahora no hay **ensayos clínicos** registrados para esta indicación y sol
 | Nueva Indicación Predicha | Carcinoma pulmonar de células pequeñas (small cell lung carcinoma) |
 | Puntaje de Predicción TxGNN | 0.9978 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 10) |
-| Número de Registros Sanitarios | 10 (vigentes: 4) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 12) |
+| Número de Registros Sanitarios | 12 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -90,7 +90,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 20240752 | ALDACIT® 500 MG POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCIÓN INYECTABLE | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | CITARABINA | Vigente |
 | 20014765 | CITARABINA 500 MG/10 ML | SOLUCION INYECTABLE | CITARABINA | Temp. no comerc - Vigente |
 
-Se muestran 5 de 10 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 12 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

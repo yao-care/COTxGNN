@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 544
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Quetiapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
 description: "Quetiapine: nueva indicación predicha, Retinal dystrophy with or without extraocular anomalies (nivel de evidencia L5). Indicación original: QUETIAPINA"
@@ -38,7 +38,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **10**
 
 ## Resumen en Una Frase
 
-Quetiapina es un antipsicótico atípico; en el único registro sanitario colombiano disponible, la indicación aprobada figura solo como "QUETIAPINA", sin mayor detalle. El modelo TxGNN predice que podría ser efectivo para **tricotilomanía**, con **0 ensayos clínicos** y **6 publicaciones** (reportes de caso y revisiones, según sus títulos) que respaldan de forma indirecta esta dirección.
+Quetiapina es un antipsicótico atípico; en los registros sanitarios colombianos, la indicación aprobada figura solo como "QUETIAPINA", sin mayor detalle. El modelo TxGNN predice que podría ser efectivo para **tricotilomanía**, con **0 ensayos clínicos** y **6 publicaciones** (reportes de caso y revisiones, según sus títulos) que respaldan de forma indirecta esta dirección.
+
+<!-- review:begin co-lic-20261125-quetiapine-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "en el único registro sanitario colombiano disponible, la indicación aprobada figura solo como "QUETIAPINA"" Corregido según los datos del INVIMA: quetiapina tiene muchos registros sanitarios en Colombia, no uno solo. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125-quetiapine-1 -->
 
 Nota: la primera predicción por puntaje (enfermedad 1 de la lista) es "distrofia retiniana con o sin anomalías extraoculares" (0.9957), pero no tiene ninguna evidencia clínica ni bibliográfica. Este informe se centra en tricotilomanía (puesto 8, puntaje 0.9938), el único candidato con literatura disponible.
 
@@ -158,6 +164,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "El único registro sanitario colombiano está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "ya que el único registro está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Quetiapine Extended Release (quetiapine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6953175c-78ec-442c-b91d-97dfb57db933) |
+| 2026-11-25 | «el único registro sanitario colombiano disponible» → «los registros sanitarios colombianos» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 231
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Donepezil: nueva indicación predicha, Trastornos psicógenos del movimiento (nivel de evidencia L5). Indicación original: DONEPEZIL"
 monitor_inn: "donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
@@ -50,8 +50,8 @@ La evidencia actual se limita a la predicción del modelo (nivel L5).
 | Nueva Indicación Predicha | Trastornos psicógenos del movimiento |
 | Puntaje de Predicción TxGNN | 0.9923 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 9) |
-| Número de Registros Sanitarios | 9 (vigentes: 5) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 10) |
+| Número de Registros Sanitarios | 10 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -98,7 +98,7 @@ Actualmente no hay literatura relacionada disponible para trastornos psicógenos
 | 20072620 | LINDEZIP® 5 MG | TABLETA RECUBIERTA | DONEPEZIL | Vigente |
 | 20118656 | ARIZIL 10 MG | TABLETA RECUBIERTA | DONEPEZIL | Vigente |
 
-Se muestran 5 de 9 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 10 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

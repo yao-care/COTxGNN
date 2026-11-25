@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 335
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Imatinib: nueva indicación predicha, Fibrosarcoma cardíaco (heart fibrosarcoma) (nivel de evidencia L5). Indicación original: IMATINIB"
 monitor_inn: "imatinib"
 predicted_indications: ["heart fibrosarcoma", "fibroblastic neoplasm", "conventional fibrosarcoma", "kidney fibrosarcoma", "low grade fibromyxoid sarcoma", "liposarcoma", "liver fibrosarcoma", "autosomal recessive familial Mediterranean fever", "ovarian myxoid liposarcoma", "familial rhabdoid tumor"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **fibrosarcoma cardíaco**
 | Nueva Indicación Predicha | Fibrosarcoma cardíaco (heart fibrosarcoma) |
 | Puntaje de Predicción TxGNN | 0.9994 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 9) |
-| Número de Registros Sanitarios | 9 (vigentes: 6) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 11) |
+| Número de Registros Sanitarios | 11 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -93,7 +93,7 @@ Actualmente no hay ensayos clínicos relacionados registrados para fibrosarcoma 
 | 20109807 | IMUDAY® | CAPSULA DURA | IMATINIB | Vigente |
 | 20135094 | NEXTINIB® 400 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | IMATINIB | Vigente |
 
-Se muestran 5 de 9 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 11 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

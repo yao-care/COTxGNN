@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 339
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Imiquimod: nueva indicación predicha, Neoplasia premaligna (nivel de evidencia L5). Indicación original: No especificada en el registro INVIMA (solo figura el nombre del prin…"
 monitor_inn: "IMIQUIMOD"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
@@ -58,8 +58,8 @@ La evidencia clínica es limitada: un ensayo de Fase 3 completado (20 pacientes)
 | Nueva Indicación Predicha | Neoplasia premaligna |
 | Puntaje de Predicción TxGNN | 0.9992 |
 | Nivel de Evidencia | L5 según la clasificación de los datos compilados; sin embargo, los dos ensayos de Fase 3 son muy pequeños (uno terminado con 9 participantes), por lo que la solidez real es menor |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 2) |
-| Número de Registros Sanitarios | 2 (vigentes: 1) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 1) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ---
@@ -106,8 +106,9 @@ Cabe aclarar que este vínculo se apoya en la farmacología conocida de imiquimo
 |---------|------|------|------|------|
 | 19967737 | VIROSUPRIL® CREMA | CREMA TOPICA | IMIQUIMOD | Vigente |
 | 20128548 | VIROSUPRIL® CREMA 3.75% | CREMA TOPICA | IMIQUIMOD | Temp. no comerc - Vigente |
+| 20120580 | IMIK® 3.75 % | CREMA TOPICA | IMIQUIMOD | Temp. no comerc - Vigente |
 
-Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

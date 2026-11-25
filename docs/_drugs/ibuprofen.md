@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 333
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Ibuprofen: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (nivel de evidencia L5). Indicación original: Ibuprofeno"
 monitor_inn: "Ibuprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
@@ -38,9 +38,15 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **7**
 
 ## Resumen en Una Frase
 
-Ibuprofeno es un antiinflamatorio no esteroideo (AINE) ampliamente utilizado por sus efectos analgésico y antipirético; en Colombia su único registro sanitario corresponde a una suspensión oral pediátrica.
+Ibuprofeno es un antiinflamatorio no esteroideo (AINE) ampliamente utilizado por sus efectos analgésico y antipirético; en Colombia tiene registros sanitarios en varias formas farmacéuticas (orales, tópicas e inyectables).
 El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélica tipo Hunter-Thompson**,
 pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden esta dirección: es una predicción puramente computacional.
+
+<!-- review:begin co-lic-20261125-ibuprofen-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "en Colombia su único registro sanitario corresponde a una suspensión oral pediátrica." Corregido según los datos del INVIMA: ibuprofeno tiene muchos registros sanitarios en formas orales, tópicas e inyectables. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125-ibuprofen-1 -->
 
 ---
 
@@ -139,6 +145,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-05 | Eliminado: "Además, el único registro sanitario en Colombia está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Caldolor (ibuprofen) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1eaa7790-f1a1-4f51-b10a-cbbaf033f684) |
+| 2026-11-25 | «su único registro sanitario corresponde a una suspensión oral pediátri…» → «tiene registros sanitarios en varias formas farmacéuticas (orales, tóp…» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

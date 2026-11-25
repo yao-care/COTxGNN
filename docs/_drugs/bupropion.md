@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 122
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Bupropion: nueva indicación predicha, Trastorno por déficit de atención e hiperactividad (TDAH) (nivel de evidencia L2). Indicación original: BUPROPION"
 monitor_inn: "bupropion"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "proximal 16p11.2 microdeletion syndrome", "hypervitaminosis", "benign paroxysmal torticollis of infancy", "trigeminal nerve neoplasm", "obsolete hypertelorism (disease)"]
@@ -58,8 +58,8 @@ con **6 ensayos clínicos** (uno de ellos de Fase 3 completado) y **20 publicaci
 | Nueva Indicación Predicha | Trastorno por déficit de atención e hiperactividad (TDAH) |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L2 (ver nota abajo) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
-| Número de Registros Sanitarios | 4 (vigentes: 4) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 6) |
+| Número de Registros Sanitarios | 6 (vigentes: 6) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 **Nota sobre el nivel de evidencia:** Según las reglas, L1 exige al menos 2 ECA de Fase 3 completados. Solo un ensayo de Fase 3 (NCT00048360) está completado, y el ensayo de Fase 2/3 (NCT00061087) también está completado. Esto corresponde a L2 de forma estricta. El análisis automático de los datos asignó L1; aquí se aplica la regla de forma conservadora, y además hay que confirmar si bupropión fue el agente evaluado en ambos ensayos.
@@ -116,8 +116,9 @@ La alta puntuación de TxGNN (0.9999) es coherente con este solapamiento mecaní
 | 19967275 | WELLBUTRIN® XL 150 MG | TABLETA DE LIBERACION PROLONGADA | BUPROPION | Vigente |
 | 19967276 | WELLBUTRIN® XL 300 MG | TABLETA DE LIBERACION PROLONGADA | BUPROPION | Vigente |
 | 20058938 | BUPRION ®150 MG | TABLETA DE LIBERACION PROLONGADA | BUPROPION | Vigente |
+| 20264015 | WILLBUPRON XR® 150 MG TABLETA DE LIBERACIÓN PROLONGADA | TABLETA DE LIBERACION PROLONGADA | BUPROPION | Vigente |
 
-Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

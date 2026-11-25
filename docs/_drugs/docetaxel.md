@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 7
 monitor_inn: "DOCETAXEL"
 predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Docetaxel: nueva indicación predicha, Sarcoma de Ewing (Ewing sarcoma) (nivel de evidencia L2). Indicación original: DOCETAXEL"
 ---
 
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser útil para el **Sarcoma de Ewing (Ewing 
 | Nueva Indicación Predicha | Sarcoma de Ewing (Ewing sarcoma) |
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 8 de 9) |
-| Número de Registros Sanitarios | 9 (vigentes: 8) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 8 de 13) |
+| Número de Registros Sanitarios | 13 (vigentes: 8) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -101,7 +101,7 @@ Hay que tener cautela. Los estudios de fase 2 son pequeños y muestran una activ
 | 20064412 | DOCETAXEL 20 MG/ML | SOLUCIÓN CONCENTRADA PARA INFUSIÓN | DOCETAXEL | Vigente |
 | 20064460 | DOCETAXEL 80MG/4ML | SOLUCIÓN CONCENTRADA PARA INFUSIÓN | DOCETAXEL | Vigente |
 
-Se muestran 5 de 9 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 655
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Velpatasvir: nueva indicación predicha, Infección por virus de la hepatitis B (nivel de evidencia L4). Indicación original: Sofosbuvir + velpatasvir"
 monitor_inn: "VELPATASVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **infección por virus de 
 | Nueva Indicación Predicha | Infección por virus de la hepatitis B |
 | Puntaje de Predicción TxGNN | 0.9987 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -103,8 +103,9 @@ Los estudios recuperados tratan el VHC. El VHB aparece solo como riesgo de react
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
 |---------|------|------|------|------|
 | 20126648 | EPCLUSA® | TABLETA RECUBIERTA | SOFOSBUVIR + VELPATASVIR | Vigente |
+| 20154103 | VOSEVI® TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | SOFOSBUVIR | Temp. no comerc - Vigente |
 
-Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

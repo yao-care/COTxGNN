@@ -7,7 +7,7 @@ evidence_level: L1
 indication_count: 8
 monitor_inn: "doxorubicin"
 predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Doxorubicin: nueva indicación predicha, Sarcoma de Ewing (Ewing sarcoma) (nivel de evidencia L1). Indicación original: DOXORUBICINA"
 ---
 
@@ -50,8 +50,8 @@ con **27 ensayos clínicos** y **20 publicaciones** incluidos en los datos compi
 | Nueva Indicación Predicha | Sarcoma de Ewing (Ewing sarcoma) |
 | Puntaje de Predicción TxGNN | 0,9990 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 9 de 12) |
-| Número de Registros Sanitarios | 12 (vigentes: 9) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 9 de 14) |
+| Número de Registros Sanitarios | 14 (vigentes: 9) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -106,7 +106,7 @@ Se muestran los ensayos más relevantes (hasta 10). Los que no tienen valoració
 | 20061064 | DOXORUBICINA 50 MG | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | DOXORUBICINA | Vigente |
 | 20118394 | SENFRENDA | SUSPENSION INYECTABLE | DOXORUBICINA | Vigente |
 
-Se muestran 5 de 12 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 14 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

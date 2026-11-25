@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 529
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Prednicarbate: nueva indicación predicha, Queratosis folicular invertida de la vulva (nivel de evidencia L5). Indicación original: PREDNICARBATO"
 monitor_inn: "Prednicarbate"
 predicted_indications: ["vulvar inverted follicular keratosis", "annular atrophic lichen planus", "lichen planus pigmentosus", "hypertrophic lichen planus", "lichen planus pemphigoides", "2-hydroxyethyl methacrylate sensitization", "primary cutaneous B-cell lymphoma"]
@@ -50,8 +50,8 @@ pero actualmente hay **0 ensayos clínicos** y **0 publicaciones** que respalden
 | Nueva Indicación Predicha | Queratosis folicular invertida de la vulva |
 | Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
-| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -87,8 +87,9 @@ Actualmente no hay literatura relacionada disponible.
 |---------|------|------|------|------|
 | 19975547 | SKINPRED ® EMULSION GEL | EMULSIÓN | PREDNICARBATO | Vigente |
 | 20033013 | PEITEL® 0.25 % CREMA | CREMA TOPICA | PREDNICARBATO | Vigente |
+| 20217693 | SKINPRAX® 100 G. GEL | GEL TOPICO | PREDNICARBATO +PRAMOXINA | Temp. no comerc - Vigente |
 
-Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

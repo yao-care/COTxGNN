@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Lidocaine"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "papillary conjunctivitis", "rosacea conjunctivitis", "exposure keratitis", "atopic conjunctivitis", "conjunctival disorder", "nephrotic syndrome", "non-human animal disease", "tinea corporis", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Lidocaine: nueva indicación predicha, Queratoconjuntivitis epitelial punteada (nivel de evidencia L5). Indicación original: Anestesia local y alivio del dolor (uso descrito en la base farmacoló…"
 ---
 
@@ -110,8 +110,14 @@ La predicción se apoya únicamente en el modelo TxGNN (nivel L5), sin ensayos n
 - Estudios preclínicos o clínicos que evalúen directamente la lidocaína en la queratoconjuntivitis epitelial punteada.
 - Datos detallados del mecanismo de acción y de la relación con la indicación original.
 - Revisión del prospecto de INVIMA para advertencias y contraindicaciones oficiales.
-- Evaluación de la compatibilidad de vía y formulación (las presentaciones registradas en Colombia son supositorio, ungüento y crema, ninguna oftálmica).
+- Evaluación de la compatibilidad de vía y formulación (las presentaciones registradas en Colombia incluyen formas inyectables, tópicas, bucales, óticas y rectales, ninguna oftálmica).
 - Evaluación de seguridad ocular, en particular el efecto de la lidocaína sobre la cicatrización corneal.
+
+<!-- review:begin co-lic-20261125-lidocaine-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "(las presentaciones registradas en Colombia son supositorio, ungüento y crema, ninguna oftálmica)" Corregido según los datos del INVIMA: las presentaciones registradas no se limitan a supositorio, ungüento y crema; ninguna es oftálmica. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125-lidocaine-1 -->
 
 <!-- review:begin log -->
 
@@ -122,6 +128,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-24 | Eliminado: "Se listan los 3 registros disponibles; puede haber más registros no incluidos." | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | «son supositorio, ungüento y crema» → «incluyen formas inyectables, tópicas, bucales, óticas y rectales» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

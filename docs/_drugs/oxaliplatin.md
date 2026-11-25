@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 487
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Oxaliplatin: nueva indicación predicha, Mesotelioma pleural maligno (nivel de evidencia L2). Indicación original: Oxaliplatino"
 monitor_inn: "oxaliplatin"
 predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
@@ -50,8 +50,8 @@ Oxaliplatino es un agente citotóxico derivado del platino, registrado en Colomb
 | Nueva Indicación Predicha | Mesotelioma pleural maligno |
 | Puntaje de Predicción TxGNN | 0.9968 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 7 de 9) |
-| Número de Registros Sanitarios | 9 (vigentes: 7) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 10 de 14) |
+| Número de Registros Sanitarios | 14 (vigentes: 10) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -105,7 +105,7 @@ Varios estudios de Fase 2 combinaron oxaliplatino con gemcitabina, raltitrexed, 
 | 20109105 | OXALISEVEN® 50 | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | OXALIPLATINO | Vigente |
 | 20109106 | OXALISEVEN® 100 | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | OXALIPLATINO | Vigente |
 
-Se muestran 5 de 9 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 14 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 
@@ -139,7 +139,7 @@ No se dispone de las advertencias del prospecto de INVIMA; es necesario consulta
 **Decisión: Hold**
 
 **Justificación:**
-Existe una base mecanística sólida y varios estudios de Fase 2 con actividad, pero son pequeños y de un solo brazo, con un resultado negativo en segunda línea. No hay ensayos de Fase 3, y el estándar de platino con pemetrexed sigue siendo la referencia. Además, el medicamento está comercializado en Colombia con 7 registros vigentes y faltan los datos de seguridad del prospecto.
+Existe una base mecanística sólida y varios estudios de Fase 2 con actividad, pero son pequeños y de un solo brazo, con un resultado negativo en segunda línea. No hay ensayos de Fase 3, y el estándar de platino con pemetrexed sigue siendo la referencia. Además, el medicamento está comercializado en Colombia con 10 registros vigentes y faltan los datos de seguridad del prospecto.
 
 **Para avanzar se necesita:**
 - Descargar y analizar el prospecto de INVIMA para obtener advertencias y contraindicaciones, requisito para el tamizaje de seguridad.

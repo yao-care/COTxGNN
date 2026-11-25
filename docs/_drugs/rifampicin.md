@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 558
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Rifampicin: nueva indicación predicha, Conjuntivitis (nivel de evidencia L4). Indicación original: No especificada en los registros (el texto de indicación solo indica…"
 monitor_inn: "rifampicin"
 predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **conjuntivitis**, pero **
 | Nueva Indicación Predicha | Conjuntivitis |
 | Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
-| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -98,8 +98,11 @@ Actualmente no hay ensayos clínicos relacionados registrados para conjuntivitis
 |---------|------|------|------|------|
 | 20677 | RIFAMPICINA 300MG CAPSULAS | CAPSULA DURA | RIFAMPICINA | Vigente |
 | 30168 | RIFAMPICINA 300 MG | CAPSULA DURA | RIFAMPICINA | Vigente |
+| 20003165 | FORECOX-TRAC TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | RIFAMPICINA PIRAZINAMIDA ETAMBUTOL ISONIAZIDA | Temp. no comerc - Vigente |
+| 20050866 | RIFAMPICINA 300 MG + ISONIAZIDA 150 MG | TABLETA RECUBIERTA | RIFAMPICINA ISONIAZIDA | Temp. no comerc - Vigente |
+| 20088216 | IRUDERM CREMA | CREMA TOPICA | ANTIBIÓTICOS Y ANTIPARASITARIOS COMBINACIONES | Temp. no comercializado - En Trámite Renov |
 
-Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "Miltefosine"
 predicted_indications: ["echinococcus granulosus infectious disease", "alveolar echinococcosis", "Smouldering systemic mastocytosis"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Miltefosine: nueva indicación predicha, Enfermedad infecciosa por Echinococcus granulosus (echinococcus granulosus infectious disease) (nivel de evidencia L5). Indicación original: MILTEFOSINA"
 ---
 
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para la **enfermedad infecciosa
 | Nueva Indicación Predicha | Enfermedad infecciosa por Echinococcus granulosus (echinococcus granulosus infectious disease) |
 | Puntaje de Predicción TxGNN | 0.9941 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
-| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -77,12 +77,19 @@ Actualmente no hay literatura relacionada disponible para esta enfermedad.
 |---------|------|------|------|------|
 | 20131141 | ANTYLEX 50 MG CAPSULAS | CAPSULA DURA | MILTEFOSINA | Vigente |
 | 20228850 | ANTYLEX® 10 | CAPSULA DURA | MILTEFOSINA | Vigente |
+| 20299349 | MILTEFOSINA 50 MG CÁPSULA DURA | CAPSULA DURA | MILTEFOSINA | Vigente |
 
-Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 
-Ambos registros son de producto de un solo principio activo, están vigentes y pertenecen a GENYX S.A.S.
+Todos los registros son de producto de un solo principio activo y están vigentes; entre los titulares figuran GENYX S.A.S. y MACLEODS PHARMACEUTICALS LIMITED.
+
+<!-- review:begin co-lic-20261125-miltefosine-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "Ambos registros son de producto de un solo principio activo, están vigentes y pertenecen a GENYX S.A.S." Corregido según los datos del INVIMA: hay un registro adicional vigente de otro titular (MILTEFOSINA 50 MG CÁPSULA DURA, MACLEODS PHARMACEUTICALS LIMITED); se eliminó la cifra fija («Ambos»). Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125-miltefosine-1 -->
 
 ## Citotoxicidad
 
@@ -121,11 +128,12 @@ La predicción (0.9941) es solo computacional: no hay ensayos clínicos ni liter
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Impavido (miltefosine) prescribing information, Profounda, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcb387ac-2e90-4f5e-94b2-d3635190678e) |
+| 2026-11-25 | «Ambos registros son de producto de un solo principio activo, están vig…» → «Todos los registros son de producto de un solo principio activo y está…» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 38
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Allopurinol: nueva indicación predicha, Porfiria hepática (nivel de evidencia L5). Indicación original: Alopurinol"
 monitor_inn: "Allopurinol"
 predicted_indications: ["hepatic porphyria", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "disorder of phenylalanine metabolism", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "idiopathic eosinophilic myositis"]
@@ -52,8 +52,8 @@ La predicción es, por ahora, una señal del modelo sin respaldo clínico.
 | Nueva Indicación Predicha | Porfiria hepática |
 | Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 9 de 9) |
-| Número de Registros Sanitarios | 9 (vigentes: 9) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 9 de 12) |
+| Número de Registros Sanitarios | 12 (vigentes: 9) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -95,7 +95,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 20049088 | ALOPURINOL 100 MG TABLETA | TABLETA | ALOPURINOL | Vigente |
 | 20222454 | ZYLOPRIM 100MG TABLETAS | TABLETA | ALOPURINOL | Vigente |
 
-Se muestran 5 de 9 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 12 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "fluorouracil"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "sickle cell-beta-thalassemia disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin E disease syndrome"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Fluorouracil: nueva indicación predicha, Rabdomiosarcoma embrionario de tipo botrioide de la vagina (botryoid-type embryonal rhabdomyosarcoma of the vagina) (nivel de evidencia L5). Indicación origin…"
 ---
 
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Rabdomiosarcoma embrionario de tipo botrioide de la vagina (botryoid-type embryonal rhabdomyosarcoma of the vagina) |
 | Puntaje de Predicción TxGNN | 0,9975 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 7 de 7) |
-| Número de Registros Sanitarios | 7 (vigentes: 7) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 7 de 8) |
+| Número de Registros Sanitarios | 8 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -90,7 +90,7 @@ Registros sanitarios de fluorouracilo en los datos del INVIMA:
 | 20071503 | FLUOROURACILO INYECCION 500 MG | SOLUCION INYECTABLE | FLUOROURACILO | Vigente |
 | 20121175 | FLUOROURACILO 500 MG | SOLUCION INYECTABLE | FLUOROURACILO | Vigente |
 
-Se muestran 5 de 7 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

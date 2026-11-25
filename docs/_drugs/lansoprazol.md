@@ -8,7 +8,7 @@ indication_count: 1
 drugbank_id: DB00448
 monitor_inn: "Lansoprazole"
 predicted_indications: ["duodenal obstruction"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Lansoprazol: nueva indicación predicha, Obstrucción duodenal (duodenal obstruction) (nivel de evidencia L5). Indicación original: LANSOPRAZOL"
 ---
 
@@ -51,8 +51,8 @@ pero actualmente no hay ensayos clínicos ni publicaciones que respalden esta di
 | Nueva Indicación Predicha | Obstrucción duodenal (duodenal obstruction) |
 | Puntaje de Predicción TxGNN | 0.9968 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 6) |
-| Número de Registros Sanitarios | 6 (vigentes: 6) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 7) |
+| Número de Registros Sanitarios | 7 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ## Por qué es Razonable esta Predicción?
@@ -83,7 +83,7 @@ Actualmente no hay literatura relacionada disponible.
 | 20172406 | DIZMOPRAZ® CAPSULAS. MICROGRANULOS CON CUBIERTA ENTÉRICA | CAPSULA DURA | LANSOPRAZOL | Vigente |
 | 19939607 | REFLUYET® | CAPSULA DURA | LANSOPRAZOL | Vigente |
 
-Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 7 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 200
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Deferasirox: nueva indicación predicha, Infección por VIH (nivel de evidencia L4). Indicación original: No especificada en los registros (solo figura \"Deferasirox\")"
 monitor_inn: "DEFERASIROX"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **infección por VIH**, pe
 | Nueva Indicación Predicha | Infección por VIH |
 | Puntaje de Predicción TxGNN | 0.9940 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 10 de 13) |
-| Número de Registros Sanitarios | 13 (vigentes: 10) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 15 de 18) |
+| Número de Registros Sanitarios | 18 (vigentes: 15) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -94,7 +94,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 20146047 | FERASIRO 500 MG TABLETA DISPERSABLE | TABLETA DISPERSABLE | DEFERASIROX | Vigente |
 | 20176281 | THALADEF® 360 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | DEFERASIROX | Vigente |
 
-Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 18 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "isosorbide dinitrate"
 predicted_indications: ["alopecia", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "pulmonary hypertension", "diffuse alopecia areata", "vascular disease", "hypertrichosis (disease)", "kyphoscoliotic heart disease", "visceral calciphylaxis", "arterial thoracic outlet syndrome"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Isosorbide Dinitrate: nueva indicación predicha, Alopecia (nivel de evidencia L5). Indicación original: Isosorbida dinitrato"
 ---
 
@@ -49,13 +49,19 @@ El modelo TxGNN predice que podría ser efectivo para **alopecia**, pero **no ha
 | Nueva Indicación Predicha | Alopecia |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
 
-Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para hydralazine hydrochloride and isosorbide dinitrate (combinación que contiene Isosorbide Dinitrate) (traducción no oficial): «El dinitrato de isosorbida es un vasodilatador que actúa tanto sobre las arterias como sobre las venas.» Texto original en inglés: "Isosorbide dinitrate is a vasodilator affecting both arteries and veins." ([DailyMed: Bidil (hydralazine hydrochloride and isosorbide dinitrate) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e1e63cd5-d1e4-4af5-bad5-1ad41ea46b00), versión del 2025-11-30; consultado el 2026-11-19). Según la información conocida, el dinitrato de isosorbida es un nitrato orgánico que libera óxido nítrico y relaja el músculo liso vascular. Su registro en Colombia corresponde a una tableta sublingual de un solo principio activo.
+Según la sección «Mechanism of Action» de la información de prescripción aprobada por la FDA de EE. UU. (Prescribing Information) para hydralazine hydrochloride and isosorbide dinitrate (combinación que contiene Isosorbide Dinitrate) (traducción no oficial): «El dinitrato de isosorbida es un vasodilatador que actúa tanto sobre las arterias como sobre las venas.» Texto original en inglés: "Isosorbide dinitrate is a vasodilator affecting both arteries and veins." ([DailyMed: Bidil (hydralazine hydrochloride and isosorbide dinitrate) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e1e63cd5-d1e4-4af5-bad5-1ad41ea46b00), versión del 2025-11-30; consultado el 2026-11-19). Según la información conocida, el dinitrato de isosorbida es un nitrato orgánico que libera óxido nítrico y relaja el músculo liso vascular. Sus registros en Colombia corresponden a tabletas (sublingual y oral) de un solo principio activo.
+
+<!-- review:begin co-lic-20261125-isosorbide_dinitrate-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "Su registro en Colombia corresponde a una tableta sublingual de un solo principio activo." Corregido según los datos del INVIMA: además de la tableta sublingual hay un registro de tableta oral (ISOCORD COMPRIMIDOS). Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125-isosorbide_dinitrate-1 -->
 
 La única hipótesis que vincula el fármaco con la alopecia es especulativa: la vasodilación mediada por óxido nítrico podría mejorar la perfusión del cuero cabelludo. Esta inferencia no tiene respaldo en estudios clínicos ni en literatura recuperada.
 
@@ -76,8 +82,9 @@ Actualmente no hay literatura relacionada disponible.
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
 |---------|------|------|------|------|
 | 37246 | ISOCORD ® SUBLINGUAL | TABLETA SUBLINGUAL | ISOSORBIDE DINITRATO | Vigente |
+| 37247 | ISOCORD COMPRIMIDOS | TABLETA | ISOSORBIDE DINITRATO | Temp. no comerc - Vigente |
 
-Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 
@@ -104,8 +111,14 @@ No existe ningún ensayo clínico ni publicación que estudie el dinitrato de is
 **Para avanzar se necesita:**
 - Datos del mecanismo de acción y del prospecto de INVIMA (advertencias y contraindicaciones).
 - Estudios preclínicos o exploratorios que evalúen la perfusión folicular y el efecto del fármaco en alopecia.
-- Evaluar la viabilidad de una vía de administración adecuada, ya que la única forma registrada es sublingual.
+- Evaluar la viabilidad de una vía de administración adecuada.
 - Considerar otras indicaciones predichas en los mismos datos que cuentan con más estudios, como la hipertensión pulmonar y la enfermedad vascular, antes de priorizar la alopecia.
+
+<!-- review:begin co-lic-20261125-isosorbide_dinitrate-2 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "Evaluar la viabilidad de una vía de administración adecuada, ya que la única forma registrada es sublingual." Corregido según los datos del INVIMA: la forma sublingual no es la única registrada (hay también tableta oral); se quitó la premisa. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125-isosorbide_dinitrate-2 -->
 
 <!-- review:begin log -->
 
@@ -117,6 +130,8 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Bidil (hydralazine hydrochloride and isosorbide dinitrate) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e1e63cd5-d1e4-4af5-bad5-1ad41ea46b00) |
 | 2026-11-24 | Eliminado: "La lista puede ser parcial: los datos reportan al menos un registro." | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | «Su registro en Colombia corresponde a una tableta sublingual» → «Sus registros en Colombia corresponden a tabletas (sublingual y oral)» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | «adecuada, ya que la única forma registrada es sublingual» → «adecuada» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

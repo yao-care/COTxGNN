@@ -7,7 +7,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 84
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 predicted_indications: []
 ---
 
@@ -52,8 +52,8 @@ Adicionalmente, existen brechas críticas de datos en mecanismo de acción, segu
 | Nueva Indicación Predicha | Sin datos (predicted_indications vacío) |
 | Puntaje de Predicción TxGNN | No disponible |
 | Nivel de Evidencia | L5 — Sin estudios reales ni predicción del modelo disponible |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
-| Número de Registros Sanitarios | 3 (vigentes: 3) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 4) |
 | Decisión Recomendada | **Hold** |
 
 ---
@@ -97,8 +97,10 @@ Actualmente no hay literatura relacionada disponible.
 | 20122250 | AZEFLU® SUSPENSION SPRAY NASAL | SUSPENSION NASAL | COMBINACIONES | Vigente |
 | 20142975 | AZEC® | SUSPENSION NASAL | FLUTICASONE. COMBINACIONES | Vigente |
 | 20204445 | AZELASTINA HCI 137 µG.+ FLUTICAZONA PROPINATO 50 µG | SUSPENSION NASAL | COMBINACIONES | Vigente |
+| 20276367 | RINAID DUO® | SUSPENSION NASAL | COMBINACIONES | Vigente |
+| 20076801 | ALERXY | SOLUCIONNASAL | AZELASTINA | Temp. no comerc - Vigente |
 
-Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

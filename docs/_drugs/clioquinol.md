@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "CLIOQUINOL"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Clioquinol: nueva indicación predicha, Enfermedad infecciosa ectotrix (ectothrix infectious disease) (nivel de evidencia L5). Indicación original: BETAMETASONA Y ANTIBIOTICOS"
 ---
 
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad infecciosa ec
 | Nueva Indicación Predicha | Enfermedad infecciosa ectotrix (ectothrix infectious disease) |
 | Puntaje de Predicción TxGNN | 0,9926 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 4) |
-| Número de Registros Sanitarios | 4 (vigentes: 4) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 4 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 4) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -87,8 +87,9 @@ Según los datos compilados para este informe, el estado de mercado es comercial
 | 19972066 | DERMA - 3CREMA | CREMA TOPICA | BETAMETASONA Y ANTIBIOTICOS | Vigente |
 | 19994745 | DERMOCUAD CREMA | CREMA TOPICA | BETAMETASONA Y ANTIBIOTICOS | Vigente |
 | 35005 | DESONIDA CLIOQUINOL CREMA. | CREMA TOPICA | DESONIDA Y ANTISEPTICOS | Vigente |
+| 20167342 | PERMUT® | CREMA TOPICA | BETAMETASONA Y ANTIBIOTICOS | Temp. no comerc - Vigente |
 
-Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

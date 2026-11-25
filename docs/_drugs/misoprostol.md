@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 450
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Misoprostol: nueva indicación predicha, Amenorrea (nivel de evidencia L5). Indicación original: Misoprostol"
 monitor_inn: "MISOPROSTOL"
 predicted_indications: ["amenorrhea (disease)", "atypical coarctation of aorta"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **amenorrea**, pero no hay
 | Nueva Indicación Predicha | Amenorrea |
 | Puntaje de Predicción TxGNN | 0.9964 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
-| Número de Registros Sanitarios | 3 (vigentes: 3) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 4) |
+| Número de Registros Sanitarios | 4 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -96,8 +96,9 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 19914260 | CYTIL® 200 MCG | TABLETA | MISOPROSTOL | Vigente |
 | 20010043 | CYTIL® V 200 MCG | TABLETA VAGINAL | MISOPROSTOL | Vigente |
 | 20189624 | MISO-CARE200 MCG TABLETA | TABLETA | MISOPROSTOL | Vigente |
+| 20156906 | MISOPROSTOL 200MCG | TABLETA | MISOPROSTOL | Temp. no comerc - Vigente |
 
-Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

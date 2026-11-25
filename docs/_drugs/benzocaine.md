@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 100
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Benzocaine: nueva indicación predicha, Conjuntivitis papilar (nivel de evidencia L5). Indicación original: Benzocaína"
 monitor_inn: "Benzocaine"
 predicted_indications: ["papillary conjunctivitis"]
@@ -50,8 +50,8 @@ pero **no hay ensayos clínicos ni publicaciones** que respalden actualmente est
 | Nueva Indicación Predicha | Conjuntivitis papilar |
 | Puntaje de Predicción TxGNN | 0.9938 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 12 de 13) |
-| Número de Registros Sanitarios | 13 (vigentes: 12) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 13 de 16) |
+| Número de Registros Sanitarios | 16 (vigentes: 13) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -82,7 +82,7 @@ Actualmente no hay literatura relacionada disponible.
 | 20161662 | NORAVER MF | TABLETA BUCAL | CETILPIRIDINO CLORURO + COMBINACION | Vigente |
 | 20188546 | ISEPTIC® GARGANTA | TABLETA MASTICABLE | CETILPIRIDINO CLORURO + COMBINACION | Vigente |
 
-Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 16 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

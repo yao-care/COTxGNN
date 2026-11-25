@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 613
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Tenofovir Disoproxil: nueva indicación predicha, Síndrome de inmunodeficiencia adquirida felina (nivel de evidencia L5). Indicación original: Tenofovir disoproxil y emtricitabina"
 monitor_inn: "Tenofovir disoproxil"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
@@ -52,8 +52,8 @@ La evidencia es limitada: **0 ensayos clínicos** y **1 publicación** directame
 | Nueva Indicación Predicha | Síndrome de inmunodeficiencia adquirida felina |
 | Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 15 de 18) |
-| Número de Registros Sanitarios | 18 (vigentes: 15) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 15) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -111,7 +111,7 @@ Evidencia de apoyo indirecto de la segunda predicción (infección por virus de 
 | 20061503 | STRIBILD® TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | EMTRICITABINA. TENOFOVIR DISOPROXIL. ELVITEGRAVIR Y COBICISTAT | Vigente |
 | 20063471 | FOVIREM® | TABLETA CUBIERTA CON PELICULA | TENOFOVIR DISOPROXIL Y EMTRICITABINA | Vigente |
 
-Se muestran 5 de 18 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
 
 <!-- licenses:end -->
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 413
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "Loteprednol etabonate"
 predicted_indications: ["conjunctival folliculosis", "chronic follicular conjunctivitis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "pseudomembranous conjunctivitis", "Angelucci syndrome", "acute hemorrhagic conjunctivitis", "acute contagious conjunctivitis", "otitis externa"]
 description: "Loteprednol Etabonate: nueva indicación predicha, Conjunctival folliculosis (nivel de evidencia L5). Indicación original: LOTEPREDNOL"
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **foliculosis conjuntival*
 | Nueva Indicación Predicha | Conjunctival folliculosis |
 | Puntaje de Predicción TxGNN | 0.9969 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 8) |
-| Número de Registros Sanitarios | 8 (vigentes: 5) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 9) |
+| Número de Registros Sanitarios | 9 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -97,7 +97,7 @@ Como dato indirecto, para otra indicación predicha (conjuntivitis pseudomembran
 | 20208117 | TALOF® SUSPENSIÓN OFTÁLMICA ESTÉRIL | SUSPENSION OFTALMICA | LOTEPREDNOL | Vigente |
 | 20220552 | LOTEMICIN® | SUSPENSION OFTALMICA | ANTIBIOTICOS EN COMBINACION CON OTROS F RMACOS | Vigente |
 
-Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 9 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

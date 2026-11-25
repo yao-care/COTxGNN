@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "Dorzolamide"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "congestive heart failure", "acute pulmonary heart disease", "respiratory failure"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Dorzolamide: nueva indicación predicha, hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) (nivel de evidencia L5). Indicación original: TIMOLOL COMBINACIONES"
 ---
 
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | hipotricosis simple del cuero cabelludo (hypotrichosis simplex of the scalp) |
 | Puntaje de Predicción TxGNN | 0,9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 12 de 13) |
-| Número de Registros Sanitarios | 13 (vigentes: 12) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 12 de 14) |
+| Número de Registros Sanitarios | 14 (vigentes: 12) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -82,7 +82,7 @@ Actualmente no hay literatura relacionada disponible.
 | 19989599 | DORTIM SOLUCIÓN OFTÁLMICA | SOLUCION OFTALMICA | TIMOLOL COMBINACIONES | Vigente |
 | 19992655 | DORPRETIM ® SOLUCIÓN OFTALMICA | SOLUCION OFTALMICA | TIMOLOL COMBINACIONES | Vigente |
 
-Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 14 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

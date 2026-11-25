@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 583
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Serine: nueva indicación predicha, Miopatía visceral familiar (nivel de evidencia L5). Indicación original: Emulsiones lipídicas"
 monitor_inn: "Serine"
 predicted_indications: ["familial visceral myopathy", "intestinal obstruction", "unclassified intestinal pseudoobstruction", "myopathic intestinal pseudoobstruction", "neuronal intestinal dysplasia, type B", "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked", "exercise-induced malignant hyperthermia", "aqueous misdirection"]
@@ -38,13 +38,13 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **8**
 
 ## Resumen en Una Frase
 
-La serina es un aminoácido proteinogénico que en Colombia solo aparece registrado como componente de una emulsión lipídica de nutrición parenteral (NUTRIFLEX® OMEGA SPECIAL NOVO).
+La serina es un aminoácido proteinogénico que en Colombia aparece registrado como componente de soluciones y emulsiones de nutrición parenteral (por ejemplo, NUTRIFLEX® OMEGA SPECIAL NOVO).
 El modelo TxGNN predice que podría ser efectiva para **miopatía visceral familiar**, pero no hay **ningún ensayo clínico** ni **publicación** que respalde esta predicción específica.
 Se trata de una predicción puramente computacional (nivel de evidencia L5).
 
 <!-- review:begin co-lic-20261105-serine-1 -->
 
-> **Corrección de revisión (2026-11-05)**: Texto original: "La serina es un aminoácido proteinogénico que en Colombia solo aparece registrado como componente de una emulsión lipídica de nutrición parenteral (NUTRIFLEX® OMEGA SPECIAL NOVO), cuyo registro está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+> **Corrección de revisión (2026-11-25)**: Texto original: "La serina es un aminoácido proteinogénico que en Colombia solo aparece registrado como componente de una emulsión lipídica de nutrición parenteral (NUTRIFLEX® OMEGA SPECIAL NOVO), cuyo registro está cancelado." Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Actualizado el 2026-11-25 según los datos del INVIMA (registros agregados). Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-serine-1 -->
 
@@ -143,7 +143,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
-| 2026-11-05 | Eliminado: "cuyo registro está cancelado" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | Eliminado: "cuyo registro está cancelado" | Corregido (revisado el 2026-11-25; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "el único registro sanitario en Colombia está cancelado y" | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->

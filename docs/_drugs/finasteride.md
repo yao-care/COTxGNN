@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 286
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Finasteride: nueva indicación predicha, Hipertricosis universal congénita tipo Ambras (nivel de evidencia L5). Indicación original: Finasteride"
 monitor_inn: "FINASTERIDE"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **Hipertricosis**, con **0
 | Nueva Indicación Predicha | Hipertricosis (la predicción de mayor puntaje fue Hipertricosis universal congénita tipo Ambras; se analiza la segunda por contar con literatura) |
 | Puntaje de Predicción TxGNN | 0.9999 (Hipertricosis); 0.9999 (Ambras) |
 | Nivel de Evidencia | L5 (Hipertricosis); L5 (Ambras) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 7 de 7) |
-| Número de Registros Sanitarios | 7 (vigentes: 7) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 7 de 8) |
+| Número de Registros Sanitarios | 8 (vigentes: 7) |
 | Decisión Recomendada | Hold |
 
 **Nota sobre la selección:** la primera predicción por puntaje es la hipertricosis universal congénita tipo Ambras (0.9999), sin ningún ensayo ni publicación. Se presenta como foco la hipertricosis general (0.9999) porque es la única con literatura, aunque sea indirecta. Ambas se detallan abajo.
@@ -98,7 +98,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 20062982 | OPPTEST5 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | FINASTERIDA | Vigente |
 | 20135117 | BINFIN® 5.0 MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | FINASTERIDE | Vigente |
 
-Se muestran 5 de 7 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

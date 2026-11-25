@@ -20,7 +20,7 @@ de un solo principio activo／monocomponente／monofármaco／ingrediente único
 同一行只要有一句含許可證數字而被略過，整行都不動（免得前後句數字對不上）。
 同一句另有明確的有效／註銷數字時，沒有限定詞的數字確定是總數。
 數字已等於該角色的任一合理讀法（沒有限定詞的總數＝總數、有效數或有效＋暫時未上市數）就不動；不等於時各讀法相同才改，不同就列為 ambiguous。
-原數字是 0 的句子（建立在 0 張前提上）不改、列為 zero-premise，要改請寫查核紀錄。
+原數字是 0 的句子（建立在 0 張前提上）不改、列為 zero-premise；跨過 1 張（1↔N，單複數與「único」要跟著改）不改、列為 plural（2026-11-25）；要改請寫查核紀錄。
 前提檢查：句子說「todos (están) vigentes／ninguno cancelado」而事實有註銷、說全部是單方或全部是複方而事實不符時整句不動、列出（premise）。
 """
 from __future__ import annotations
@@ -54,6 +54,9 @@ def _role(s, a, b):
     left, right = s[max(0, a - 30):a].lower(), s[b:b + 60].lower()
     if re.match(r"\s*de\s+(los\s+|las\s+)?\d", right):
         return "display"
+    # 2026-11-25：「N licencias válidas de M」「N registros vigentes de M」的 M 是總數（之前沒有角色，只改了 N：iohexol「2 licencia válida de 1」）
+    if re.search(rf"{VIG}\s+de\s+(los\s+|las\s+)?$", left):
+        return "total"
     # 「N de M」「los N principales de M」的 M 是總數（或有效數），不是顯示筆數：照右側判斷
     if DISPLAY.search(left) and not re.search(r"\bde\s+(los\s+|las\s+)?$", left):
         return "display"
@@ -142,6 +145,8 @@ def rewrite_sentence(sent, f, market=False):
             return sent, "ambiguous"
         if old == 0:
             return sent, "zero-premise"
+        if (old == 1) != (v == 1):  # 2026-11-25：跨過 1 張（名詞、動詞、「único」的單複數要跟著改）不改，列 plural
+            return sent, "plural"
         subs.append((m, v))
     if not subs:
         return sent, None

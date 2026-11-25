@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "Etofenamate"
 predicted_indications: ["ankylosing spondylitis", "rheumatoid vasculitis", "hypermobility of coccyx", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "pseudoachondroplasia", "myosclerosis", "polyarticular juvenile rheumatoid arthritis", "Kummell disease"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Etofenamate: nueva indicación predicha, Espondilitis anquilosante (nivel de evidencia L5). Indicación original: No especificada en el registro (el texto solo indica \"ETOFENAMATO\")"
 ---
 
@@ -38,8 +38,14 @@ Nivel de evidencia: **L5** | Indicaciones predichas: **9**
 
 ## Resumen en Una Frase
 
-Etofenamato es un antiinflamatorio no esteroideo (AINE) del grupo de los fenamatos, comercializado en Colombia como solución inyectable; el texto de su registro sanitario solo indica el nombre del principio activo, sin detallar una indicación clínica.
+Etofenamato es un antiinflamatorio no esteroideo (AINE) del grupo de los fenamatos, comercializado en Colombia como solución inyectable y gel tópico; el texto de su registro sanitario solo indica el nombre del principio activo, sin detallar una indicación clínica.
 El modelo TxGNN predice que podría ser efectivo para **espondilitis anquilosante**, pero no hay **ningún ensayo clínico** y solo **1 publicación** (un estudio farmacocinético) que no evalúa directamente esta enfermedad.
+
+<!-- review:begin co-lic-20261125-etofenamate-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "comercializado en Colombia como solución inyectable;" Corregido según los datos del INVIMA: además de la solución inyectable hay registros de gel tópico (RHEUMON® GEL, RHEUMON® FORTE GEL). Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125-etofenamate-1 -->
 
 ## Resumen Rápido
 
@@ -49,8 +55,8 @@ El modelo TxGNN predice que podría ser efectivo para **espondilitis anquilosant
 | Nueva Indicación Predicha | Espondilitis anquilosante |
 | Puntaje de Prediccion TxGNN | 1.0000 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -78,8 +84,10 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
 |---------|------|------|------|------|
 | 20069025 | ETOFENAMATO 1G/2ML | SOLUCION INYECTABLE | ETOFENAMATO | Vigente |
+| 19923329 | RHEUMON ® FORTE GEL | GEL TOPICO | ETOFENAMATO | Temp. no comerc - Vigente |
+| 35987 | RHEUMON® GEL | GEL TOPICO | ETOFENAMATO | Temp. no comerc - Vigente |
 
-Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 
@@ -117,8 +125,14 @@ La predicción para espondilitis anquilosante es mecanísticamente plausible por
 - Estudios clínicos o revisiones que evalúen etofenamato en espondilitis anquilosante o espondiloartritis axial
 - Datos del mecanismo de acción del fármaco
 - Texto completo del prospecto aprobado por INVIMA (advertencias, contraindicaciones e indicaciones)
-- Evaluación de la compatibilidad de vía de administración (la presentación registrada es inyectable, mientras que la publicación disponible usa gel por iontoforesis)
+- Evaluación de la compatibilidad de vía de administración (las presentaciones registradas son solución inyectable y gel tópico; la publicación disponible usa gel por iontoforesis)
 - Confirmar si existen registros sanitarios adicionales, ya que la lista puede ser parcial
+
+<!-- review:begin co-lic-20261125-etofenamate-2 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "(la presentación registrada es inyectable, mientras que la publicación disponible usa gel por iontoforesis)" Corregido según los datos del INVIMA: la presentación inyectable no es la única registrada (hay también gel tópico). Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125-etofenamate-2 -->
 
 <!-- review:begin log -->
 
@@ -129,6 +143,8 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-24 | Eliminado: "La lista puede ser parcial: se registra al menos 1 registro sanitario." | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | «inyectable» → «inyectable y gel tópico» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | «(la presentación registrada es inyectable, mientras que» → «(las presentaciones registradas son solución inyectable y gel tópico;» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 171
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Clomipramine: nueva indicación predicha, Trastorno de ansiedad (nivel de evidencia L1). Indicación original: CLOMIPRAMINA"
 monitor_inn: "clomipramine"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "schizoid personality disorder", "histrionic personality disorder (disease)", "schizotypal personality disorder", "paranoid personality disorder", "agoraphobia", "attention deficit-hyperactivity disorder"]
@@ -38,9 +38,15 @@ Nivel de evidencia: **L1** | Indicaciones predichas: **8**
 
 ## Resumen en Una Frase
 
-Clomipramina es un antidepresivo tricíclico con registro sanitario en Colombia (actualmente cancelado), cuyo texto de indicación aprobada solo menciona el nombre del principio activo.
+Clomipramina es un antidepresivo tricíclico con registros sanitarios en Colombia (temporalmente no comercializados), cuyo texto de indicación aprobada solo menciona el nombre del principio activo.
 El modelo TxGNN predice que podría ser efectivo para **trastorno de ansiedad**,
 con **8 ensayos clínicos** (la mayoría en trastorno obsesivo-compulsivo) y **20 publicaciones** que respaldan esta dirección.
+
+<!-- review:begin co-lic-20261125-clomipramine-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "con registro sanitario en Colombia (actualmente cancelado), cuyo" Corregido según los datos del INVIMA: los registros sanitarios de clomipramina figuran como «Temp. no comerc - Vigente», no cancelados. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125-clomipramine-1 -->
 
 ## Resumen Rápido
 
@@ -50,8 +56,8 @@ con **8 ensayos clínicos** (la mayoría en trastorno obsesivo-compulsivo) y **2
 | Nueva Indicación Predicha | Trastorno de ansiedad |
 | Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L1 |
-| Estado de Mercado en Colombia | Autorizado pero no comercializado (registros: 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 0) |
+| Estado de Mercado en Colombia | Autorizado pero no comercializado (registros: 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 0) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -99,8 +105,9 @@ Solo dos ensayos evalúan directamente clomipramina (NCT00004310 y NCT00564564);
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
 |---------|------|------|------|------|
 | 227031 | ANAFRANIL® RETARD 75 MG TABLETAS RECUBIERTAS DE LIBERACION PROLONGADA | TABLETA DE LIBERACION PROLONGADA | CLOMIPRAMINA | Temp. no comerc - Vigente |
+| 227030 | ANAFRANIL® 25 MG TABLETAS RECUBIERTAS | TABLETA | CLOMIPRAMINA | Temp. no comerc - Vigente |
 
-Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 
@@ -115,7 +122,13 @@ Se muestra el único registro sanitario de este principio activo en los datos de
 **Decisión: Proceed with Guardrails**
 
 **Justificación:**
-La evidencia es sólida en TOC y trastorno de pánico (metaanálisis en red, guías y ensayos), lo que respalda la predicción para trastornos de ansiedad en sentido amplio. Sin embargo, el único registro sanitario colombiano está cancelado y el perfil de seguridad exige precauciones.
+La evidencia es sólida en TOC y trastorno de pánico (metaanálisis en red, guías y ensayos), lo que respalda la predicción para trastornos de ansiedad en sentido amplio. Sin embargo, sus registros sanitarios en Colombia figuran como temporalmente no comercializados y el perfil de seguridad exige precauciones.
+
+<!-- review:begin co-lic-20261125-clomipramine-2 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "Sin embargo, el único registro sanitario colombiano está cancelado y el perfil de seguridad exige precauciones." Corregido según los datos del INVIMA: hay más de un registro sanitario y ninguno está cancelado (figuran como «Temp. no comerc - Vigente»). Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125-clomipramine-2 -->
 
 **Para avanzar se necesita:**
 - Obtener y revisar el prospecto de INVIMA (advertencias y contraindicaciones), ya que hoy no hay datos de etiqueta.
@@ -128,11 +141,13 @@ La evidencia es sólida en TOC y trastorno de pánico (metaanálisis en red, gu�
 
 ## Registro de revisión
 
-A continuación, el registro de verificación de esta página. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial); las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron.
+A continuación figura el registro de revisión de esta página: afirmaciones contrastadas con los datos oficiales que usa este sitio (INVIMA, Código Único de Medicamentos). Las correcciones se limitan a afirmaciones factuales básicas; las predicciones del modelo, los niveles de evidencia y las conclusiones no se reescribieron. La frase que indicaba que no había datos sobre el mecanismo de acción se sustituyó por un extracto de la información de prescripción oficial citada (con traducción no oficial).
 
 | Fecha de revisión | Elemento | Acción | Fuente |
 |------|------|------|------|
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente | [DailyMed: Anafranil (clomipramine hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4074b555-7635-41a9-809d-fae3b3610059) |
+| 2026-11-25 | «registro sanitario en Colombia (actualmente cancelado» → «registros sanitarios en Colombia (temporalmente no comercializados» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
+| 2026-11-25 | «el único registro sanitario colombiano está cancelado» → «sus registros sanitarios en Colombia figuran como temporalmente no com…» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

@@ -7573,9 +7573,9 @@
    "file": "denosumab.md",
    "action": "correct",
    "claim": "Ambos registros pertenecen a AMGEN MANUFACTURING LIMITED LLC. Actualmente no hay registros vigentes en Colombia.",
-   "replacement": "Todos los registros pertenecen a AMGEN MANUFACTURING LIMITED LLC.",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Además, «Ambos registros» se cambió por «Todos los registros» para no fijar una cifra.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "Entre los titulares de los registros figuran AMGEN MANUFACTURING LIMITED LLC y EXELTIS S. A.S.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Además, «Ambos registros» se cambió por «Todos los registros» para no fijar una cifra. Actualizado el 2026-11-25 según los datos del INVIMA (registros agregados).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：新補收 20286909 CLONOMAB、20286937 ASUMLEA（EXELTIS），「Todos … AMGEN」不成立",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -7583,7 +7583,7 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-24",
+   "checked": "2026-11-25",
    "summary": "Eliminado: \"Actualmente no hay registros vigentes en Colombia\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
    "history": [
@@ -7630,6 +7630,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字保留的數詞（Ambos／Los tres）改成「Todos los registros」，不寫死張數（事實層 2026-11-23 查證全部仍成立）"
+    },
+    {
+     "id": "co-lic-20261105-denosumab-2",
+     "drug": "denosumab",
+     "file": "denosumab.md",
+     "action": "correct",
+     "claim": "Ambos registros pertenecen a AMGEN MANUFACTURING LIMITED LLC. Actualmente no hay registros vigentes en Colombia.",
+     "replacement": "Todos los registros pertenecen a AMGEN MANUFACTURING LIMITED LLC.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Además, «Ambos registros» se cambió por «Todos los registros» para no fijar una cifra.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-24",
+     "summary": "Eliminado: \"Actualmente no hay registros vigentes en Colombia\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "依原收集規則補收 INVIMA CUM 新 expediente 後更正文字跟新事實不符，2026-11-25 用戶第六輪決定（更正文字不寫死張數）"
     }
    ]
   },
@@ -14398,9 +14420,9 @@
    "file": "iohexol.md",
    "action": "correct",
    "claim": "El fabricante del único registro es Unique Pharmaceutical Laboratories. No hay registros vigentes.",
-   "replacement": "El fabricante del único registro es Unique Pharmaceutical Laboratories.",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "Entre los titulares de los registros figura Unique Pharmaceutical Laboratories.",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Actualizado el 2026-11-25 según los datos del INVIMA (registros agregados).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：新補收 20258872 NIOSPECT（ADVANOV PHARMA）後不只一張，「único registro」不成立",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -14408,7 +14430,7 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
+   "checked": "2026-11-25",
    "summary": "Eliminado: \"No hay registros vigentes\"",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
    "history": [
@@ -14433,6 +14455,28 @@
      "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
      "retired": "2026-11-24",
      "reason": "程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定：更正文字與說明不再寫死張數，指向概覽表與程式表"
+    },
+    {
+     "id": "co-lic-20261105-iohexol-1",
+     "drug": "iohexol",
+     "file": "iohexol.md",
+     "action": "correct",
+     "claim": "El fabricante del único registro es Unique Pharmaceutical Laboratories. No hay registros vigentes.",
+     "replacement": "El fabricante del único registro es Unique Pharmaceutical Laboratories.",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"No hay registros vigentes\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "依原收集規則補收 INVIMA CUM 新 expediente 後更正文字跟新事實不符，2026-11-25 用戶第六輪決定（更正文字不寫死張數）"
     }
    ]
   },
@@ -31260,9 +31304,9 @@
    "file": "serine.md",
    "action": "correct",
    "claim": "La serina es un aminoácido proteinogénico que en Colombia solo aparece registrado como componente de una emulsión lipídica de nutrición parenteral (NUTRIFLEX® OMEGA SPECIAL NOVO), cuyo registro está cancelado.",
-   "replacement": "La serina es un aminoácido proteinogénico que en Colombia solo aparece registrado como componente de una emulsión lipídica de nutrición parenteral (NUTRIFLEX® OMEGA SPECIAL NOVO).",
-   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "La serina es un aminoácido proteinogénico que en Colombia aparece registrado como componente de soluciones y emulsiones de nutrición parenteral (por ejemplo, NUTRIFLEX® OMEGA SPECIAL NOVO).",
+   "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Actualizado el 2026-11-25 según los datos del INVIMA (registros agregados).",
+   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）；2026-11-25：23 張（含新補收 OLIMEL N7、NUMETA G16）全是靜脈營養複方，「solo … NUTRIFLEX」不成立",
    "sources": [
     {
      "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
@@ -31270,9 +31314,33 @@
      "accessed": "2026-11-05"
     }
    ],
-   "checked": "2026-11-05",
+   "checked": "2026-11-25",
    "summary": "Eliminado: \"cuyo registro está cancelado\"",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）"
+   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+   "history": [
+    {
+     "id": "co-lic-20261105-serine-1",
+     "drug": "serine",
+     "file": "serine.md",
+     "action": "correct",
+     "claim": "La serina es un aminoácido proteinogénico que en Colombia solo aparece registrado como componente de una emulsión lipídica de nutrición parenteral (NUTRIFLEX® OMEGA SPECIAL NOVO), cuyo registro está cancelado.",
+     "replacement": "La serina es un aminoácido proteinogénico que en Colombia solo aparece registrado como componente de una emulsión lipídica de nutrición parenteral (NUTRIFLEX® OMEGA SPECIAL NOVO).",
+     "note": "Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+       "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+       "accessed": "2026-11-05"
+      }
+     ],
+     "checked": "2026-11-05",
+     "summary": "Eliminado: \"cuyo registro está cancelado\"",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：d355c924（2026-11-05）",
+     "retired": "2026-11-25",
+     "reason": "依原收集規則補收 INVIMA CUM 新 expediente 後更正文字跟新事實不符，2026-11-25 用戶第六輪決定（更正文字不寫死張數）"
+    }
+   ]
   },
   {
    "id": "co-lic-20261105-serine-2",
@@ -54567,6 +54635,406 @@
    ],
    "checked": "2026-11-24",
    "method": "2026-11-24 第二輪人工查核（用戶決定：程式許可證表上線後，舊 AI 表說明句、保留語與寫死張數逐句對照事實層與證據包更正）"
+  },
+  {
+   "id": "co-lic-20261125-clomipramine-1",
+   "drug": "clomipramine",
+   "file": "clomipramine.md",
+   "action": "correct",
+   "claim": "con registro sanitario en Colombia (actualmente cancelado), cuyo",
+   "replacement": "con registros sanitarios en Colombia (temporalmente no comercializados), cuyo",
+   "summary": "«registro sanitario en Colombia (actualmente cancelado» → «registros sanitarios en Colombia (temporalmente no comercializados»",
+   "note": "Corregido según los datos del INVIMA: los registros sanitarios de clomipramina figuran como «Temp. no comerc - Vigente», no cancelados. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "事實層 2 張（227031 ANAFRANIL RETARD、新補收 227030 ANAFRANIL 25 mg），都是 Temp. no comerc - Vigente；原句「actualmente cancelado」不成立",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第六輪人工查核（用戶決定：依原收集規則補收 INVIMA CUM 現行清單的新 expediente（vigentes／temporalmente no comercializados）後，正文跟新事實矛盾的句子逐句對照證據包更正）"
+  },
+  {
+   "id": "co-lic-20261125-clomipramine-2",
+   "drug": "clomipramine",
+   "file": "clomipramine.md",
+   "action": "correct",
+   "claim": "Sin embargo, el único registro sanitario colombiano está cancelado y el perfil de seguridad exige precauciones.",
+   "replacement": "Sin embargo, sus registros sanitarios en Colombia figuran como temporalmente no comercializados y el perfil de seguridad exige precauciones.",
+   "summary": "«el único registro sanitario colombiano está cancelado» → «sus registros sanitarios en Colombia figuran como temporalmente no com…»",
+   "note": "Corregido según los datos del INVIMA: hay más de un registro sanitario y ninguno está cancelado (figuran como «Temp. no comerc - Vigente»). Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "同上；「único」「cancelado」都不成立，決策理由只改前提",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第六輪人工查核（用戶決定：依原收集規則補收 INVIMA CUM 現行清單的新 expediente（vigentes／temporalmente no comercializados）後，正文跟新事實矛盾的句子逐句對照證據包更正）"
+  },
+  {
+   "id": "co-lic-20261125-ethambutol-1",
+   "drug": "ethambutol",
+   "file": "ethambutol.md",
+   "action": "correct",
+   "claim": "y el producto local tiene su único registro cancelado.",
+   "replacement": "y sus registros sanitarios locales figuran como temporalmente no comercializados.",
+   "summary": "«el producto local tiene su único registro cancelado» → «sus registros sanitarios locales figuran como temporalmente no comerci…»",
+   "note": "Corregido según los datos del INVIMA: los registros sanitarios con etambutol figuran como «Temp. no comerc - Vigente» y no hay uno solo (incluye la combinación FORECOX-TRAC). Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "事實層 2 張（20272629 ECOX、新補收 20003165 FORECOX-TRAC 四合一），都是 Temp. no comerc - Vigente",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第六輪人工查核（用戶決定：依原收集規則補收 INVIMA CUM 現行清單的新 expediente（vigentes／temporalmente no comercializados）後，正文跟新事實矛盾的句子逐句對照證據包更正）"
+  },
+  {
+   "id": "co-lic-20261125-iohexol-1",
+   "drug": "iohexol",
+   "file": "iohexol.md",
+   "action": "correct",
+   "claim": "y el único registro sanitario en Colombia está vigente (1 licencia válida de 1).",
+   "replacement": "y sus registros sanitarios en Colombia están vigentes.",
+   "summary": "«el único registro sanitario en Colombia está vigente (1 licencia válid…» → «sus registros sanitarios en Colombia están vigentes»",
+   "note": "Corregido según los datos del INVIMA: iohexol tiene más de un registro sanitario vigente (se agregó NIOSPECT); se eliminó la cifra fija. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "新補收 20258872 NIOSPECT（ADVANOV，Vigente），2 張皆 Vigente；另修 count_prose 把「1 licencia válida de 1」改成「2 … de 1」的錯（跨過 1 張改列 plural、「válida de M」的 M 算總數）",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第六輪人工查核（用戶決定：依原收集規則補收 INVIMA CUM 現行清單的新 expediente（vigentes／temporalmente no comercializados）後，正文跟新事實矛盾的句子逐句對照證據包更正）"
+  },
+  {
+   "id": "co-lic-20261125-miltefosine-1",
+   "drug": "miltefosine",
+   "file": "miltefosine.md",
+   "action": "correct",
+   "claim": "Ambos registros son de producto de un solo principio activo, están vigentes y pertenecen a GENYX S.A.S.",
+   "replacement": "Todos los registros son de producto de un solo principio activo y están vigentes; entre los titulares figuran GENYX S.A.S. y MACLEODS PHARMACEUTICALS LIMITED.",
+   "summary": "«Ambos registros son de producto de un solo principio activo, están vig…» → «Todos los registros son de producto de un solo principio activo y está…»",
+   "note": "Corregido según los datos del INVIMA: hay un registro adicional vigente de otro titular (MILTEFOSINA 50 MG CÁPSULA DURA, MACLEODS PHARMACEUTICALS LIMITED); se eliminó la cifra fija («Ambos»). Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "新補收 20299349（MACLEODS，Vigente）；3 張皆單方、Vigente",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第六輪人工查核（用戶決定：依原收集規則補收 INVIMA CUM 現行清單的新 expediente（vigentes／temporalmente no comercializados）後，正文跟新事實矛盾的句子逐句對照證據包更正）"
+  },
+  {
+   "id": "co-lic-20261125-lomitapide-1",
+   "drug": "lomitapide",
+   "file": "lomitapide.md",
+   "action": "correct",
+   "claim": "comercializado en Colombia (8 de 8 registros vigentes)",
+   "replacement": "comercializado en Colombia (todos sus registros sanitarios están vigentes)",
+   "summary": "«(8 de 8 registros» → «(todos sus registros sanitarios están»",
+   "note": "Corregido según los datos del INVIMA: se agregó un registro (JUXTAPID 10 mg, en trámite de renovación) y todos están vigentes; se eliminaron las cifras fijas. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "新補收 20097732 JUXTAPID 10 mg（En tramite renov＝有效）；9 張全部有效。程式改寫把它改成「8 de 9」會讀成 8 張有效，改由紀錄不寫數字",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第六輪人工查核（用戶決定：依原收集規則補收 INVIMA CUM 現行清單的新 expediente（vigentes／temporalmente no comercializados）後，正文跟新事實矛盾的句子逐句對照證據包更正）"
+  },
+  {
+   "id": "co-lic-20261125-lomitapide-2",
+   "drug": "lomitapide",
+   "file": "lomitapide.md",
+   "action": "correct",
+   "claim": "donde los 9 registros están vigentes (8 de 8).",
+   "replacement": "donde todos los registros sanitarios están vigentes.",
+   "summary": "«los 9 registros están vigentes (8 de 8)» → «todos los registros sanitarios están vigentes»",
+   "note": "Corregido según los datos del INVIMA: todos los registros sanitarios de lomitapida están vigentes; se eliminaron las cifras fijas, que no concordaban entre sí. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "「los 9 … (8 de 8)」前後數字不一致；9 張全部有效，待辦只改前提",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第六輪人工查核（用戶決定：依原收集規則補收 INVIMA CUM 現行清單的新 expediente（vigentes／temporalmente no comercializados）後，正文跟新事實矛盾的句子逐句對照證據包更正）"
+  },
+  {
+   "id": "co-lic-20261125-pirfenidone-1",
+   "drug": "pirfenidone",
+   "file": "pirfenidone.md",
+   "action": "correct",
+   "claim": "el medicamento está comercializado en Colombia y cuenta con 8 registros sanitarios vigentes.",
+   "replacement": "el medicamento está comercializado en Colombia y cuenta con registros sanitarios vigentes.",
+   "summary": "Eliminado: «8»",
+   "note": "Corregido según los datos del INVIMA: el número de registros vigentes cambió (se agregaron registros de HB HUMAN BIOSCIENCE y MSN); se eliminó la cifra fija. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "新補收 4 張 Vigente（20291208、20291265、20292125、20293424）；事實層 17 張，有效 12、暫時未上市 5。句子含「ensayos」程式改寫跳過",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第六輪人工查核（用戶決定：依原收集規則補收 INVIMA CUM 現行清單的新 expediente（vigentes／temporalmente no comercializados）後，正文跟新事實矛盾的句子逐句對照證據包更正）"
+  },
+  {
+   "id": "co-lic-20261125-paclitaxel-1",
+   "drug": "paclitaxel",
+   "file": "paclitaxel.md",
+   "action": "correct",
+   "claim": "Existen 15 registros sanitarios vigentes; el medicamento se encuentra comercializado.",
+   "replacement": "Existen registros sanitarios vigentes; el medicamento se encuentra comercializado.",
+   "summary": "Eliminado: «15»",
+   "note": "Corregido según los datos del INVIMA: con los registros agregados la cifra fija ya no coincide (los datos solo incluyen parte de los registros); se eliminó la cifra. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "補收 6 張後 22 張（存 20、只算張數 2），頁面變部分收錄，程式改寫不動；拿掉寫死的 15",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第六輪人工查核（用戶決定：依原收集規則補收 INVIMA CUM 現行清單的新 expediente（vigentes／temporalmente no comercializados）後，正文跟新事實矛盾的句子逐句對照證據包更正）"
+  },
+  {
+   "id": "co-lic-20261125-isosorbide_dinitrate-1",
+   "drug": "isosorbide_dinitrate",
+   "file": "isosorbide_dinitrate.md",
+   "action": "correct",
+   "claim": "Su registro en Colombia corresponde a una tableta sublingual de un solo principio activo.",
+   "replacement": "Sus registros en Colombia corresponden a tabletas (sublingual y oral) de un solo principio activo.",
+   "summary": "«Su registro en Colombia corresponde a una tableta sublingual» → «Sus registros en Colombia corresponden a tabletas (sublingual y oral)»",
+   "note": "Corregido según los datos del INVIMA: además de la tableta sublingual hay un registro de tableta oral (ISOCORD COMPRIMIDOS). Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "新補收 37247 ISOCORD COMPRIMIDOS（TABLETA，Temp. no comerc - Vigente）；2 張皆單方",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第六輪人工查核（用戶決定：依原收集規則補收 INVIMA CUM 現行清單的新 expediente（vigentes／temporalmente no comercializados）後，正文跟新事實矛盾的句子逐句對照證據包更正）"
+  },
+  {
+   "id": "co-lic-20261125-isosorbide_dinitrate-2",
+   "drug": "isosorbide_dinitrate",
+   "file": "isosorbide_dinitrate.md",
+   "action": "correct",
+   "claim": "- Evaluar la viabilidad de una vía de administración adecuada, ya que la única forma registrada es sublingual.",
+   "replacement": "- Evaluar la viabilidad de una vía de administración adecuada.",
+   "summary": "«adecuada, ya que la única forma registrada es sublingual» → «adecuada»",
+   "note": "Corregido según los datos del INVIMA: la forma sublingual no es la única registrada (hay también tableta oral); se quitó la premisa. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "待辦只拿掉錯的前提",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第六輪人工查核（用戶決定：依原收集規則補收 INVIMA CUM 現行清單的新 expediente（vigentes／temporalmente no comercializados）後，正文跟新事實矛盾的句子逐句對照證據包更正）"
+  },
+  {
+   "id": "co-lic-20261125-etofenamate-1",
+   "drug": "etofenamate",
+   "file": "etofenamate.md",
+   "action": "correct",
+   "claim": "comercializado en Colombia como solución inyectable;",
+   "replacement": "comercializado en Colombia como solución inyectable y gel tópico;",
+   "summary": "«inyectable» → «inyectable y gel tópico»",
+   "note": "Corregido según los datos del INVIMA: además de la solución inyectable hay registros de gel tópico (RHEUMON® GEL, RHEUMON® FORTE GEL). Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "新補收 35987 RHEUMON GEL、19923329 RHEUMON FORTE GEL（GEL TOPICO，Temp. no comerc - Vigente）",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第六輪人工查核（用戶決定：依原收集規則補收 INVIMA CUM 現行清單的新 expediente（vigentes／temporalmente no comercializados）後，正文跟新事實矛盾的句子逐句對照證據包更正）"
+  },
+  {
+   "id": "co-lic-20261125-etofenamate-2",
+   "drug": "etofenamate",
+   "file": "etofenamate.md",
+   "action": "correct",
+   "claim": "(la presentación registrada es inyectable, mientras que la publicación disponible usa gel por iontoforesis)",
+   "replacement": "(las presentaciones registradas son solución inyectable y gel tópico; la publicación disponible usa gel por iontoforesis)",
+   "summary": "«(la presentación registrada es inyectable, mientras que» → «(las presentaciones registradas son solución inyectable y gel tópico;»",
+   "note": "Corregido según los datos del INVIMA: la presentación inyectable no es la única registrada (hay también gel tópico). Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "待辦只改前提",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第六輪人工查核（用戶決定：依原收集規則補收 INVIMA CUM 現行清單的新 expediente（vigentes／temporalmente no comercializados）後，正文跟新事實矛盾的句子逐句對照證據包更正）"
+  },
+  {
+   "id": "co-lic-20261125-guaifenesin-1",
+   "drug": "guaifenesin",
+   "file": "guaifenesin.md",
+   "action": "correct",
+   "claim": "- Evaluar la compatibilidad de vía de administración (solo se registró forma en jarabe)",
+   "replacement": "- Evaluar la compatibilidad de vía de administración",
+   "summary": "«administración (solo se registró forma en jarabe)» → «administración»",
+   "note": "Eliminado: además de jarabes hay un registro de tableta de liberación prolongada (MUCINEX®); se quitó la premisa. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "新補收 20030785 MUCINEX（TABLETA DE LIBERACION PROLONGADA，Temp. no comercializado - En Trámite Renov）",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第六輪人工查核（用戶決定：依原收集規則補收 INVIMA CUM 現行清單的新 expediente（vigentes／temporalmente no comercializados）後，正文跟新事實矛盾的句子逐句對照證據包更正）"
+  },
+  {
+   "id": "co-lic-20261125-glycine-1",
+   "drug": "glycine",
+   "file": "glycine.md",
+   "action": "correct",
+   "claim": "(la unica forma registrada es una emulsion inyectable, no apta para uso nasal)",
+   "replacement": "(las formas registradas son inyectables o soluciones para irrigación, ninguna para uso nasal)",
+   "summary": "«(la unica forma registrada es una emulsion inyectable, no apt» → «(las formas registradas son inyectables o soluciones para irrigación, …»",
+   "note": "Corregido según los datos del INVIMA: los registros con glicina incluyen soluciones inyectables, emulsiones inyectables, soluciones concentradas para infusión y soluciones para irrigación. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "25 張（含新補收 OLIMEL N7、NUMETA G16、VIMUGEN）：溶液注射 8、乳劑注射 13、沖洗液 2、濃縮輸注 2；「única … emulsión」原本就不成立",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第六輪人工查核（用戶決定：依原收集規則補收 INVIMA CUM 現行清單的新 expediente（vigentes／temporalmente no comercializados）後，正文跟新事實矛盾的句子逐句對照證據包更正）"
+  },
+  {
+   "id": "co-lic-20261125-ibuprofen-1",
+   "drug": "ibuprofen",
+   "file": "ibuprofen.md",
+   "action": "correct",
+   "claim": "en Colombia su único registro sanitario corresponde a una suspensión oral pediátrica.",
+   "replacement": "en Colombia tiene registros sanitarios en varias formas farmacéuticas (orales, tópicas e inyectables).",
+   "summary": "«su único registro sanitario corresponde a una suspensión oral pediátri…» → «tiene registros sanitarios en varias formas farmacéuticas (orales, tóp…»",
+   "note": "Corregido según los datos del INVIMA: ibuprofeno tiene muchos registros sanitarios en formas orales, tópicas e inyectables. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "151 張（含新補收 17 張），劑型有懸液、錠、膠囊、凝膠、注射等；「único … suspensión」原本就不成立",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第六輪人工查核（用戶決定：依原收集規則補收 INVIMA CUM 現行清單的新 expediente（vigentes／temporalmente no comercializados）後，正文跟新事實矛盾的句子逐句對照證據包更正）"
+  },
+  {
+   "id": "co-lic-20261125-lidocaine-1",
+   "drug": "lidocaine",
+   "file": "lidocaine.md",
+   "action": "correct",
+   "claim": "(las presentaciones registradas en Colombia son supositorio, ungüento y crema, ninguna oftálmica)",
+   "replacement": "(las presentaciones registradas en Colombia incluyen formas inyectables, tópicas, bucales, óticas y rectales, ninguna oftálmica)",
+   "summary": "«son supositorio, ungüento y crema» → «incluyen formas inyectables, tópicas, bucales, óticas y rectales»",
+   "note": "Corregido según los datos del INVIMA: las presentaciones registradas no se limitan a supositorio, ungüento y crema; ninguna es oftálmica. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "42 張（含新補收 8 張）劑型逐張對照：注射 17、乳膏／軟膏／凝膠、口腔、耳、直腸等，無眼用",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第六輪人工查核（用戶決定：依原收集規則補收 INVIMA CUM 現行清單的新 expediente（vigentes／temporalmente no comercializados）後，正文跟新事實矛盾的句子逐句對照證據包更正）"
+  },
+  {
+   "id": "co-lic-20261125-trimethoprim-1",
+   "drug": "trimethoprim",
+   "file": "trimethoprim.md",
+   "action": "correct",
+   "claim": "- Evaluar la viabilidad de una formulación oftálmica y su vía de administración, ya que en Colombia solo se registró la forma oral.",
+   "replacement": "- Evaluar la viabilidad de una formulación oftálmica y su vía de administración.",
+   "summary": "«administración, ya que en Colombia solo se registró la forma oral» → «administración»",
+   "note": "Eliminado: en Colombia hay también registros inyectables y un ungüento oftálmico con trimetoprima; se quitó la premisa. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "36 張：錠、懸液、注射 5、眼用軟膏 1；待辦只拿掉錯的前提",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第六輪人工查核（用戶決定：依原收集規則補收 INVIMA CUM 現行清單的新 expediente（vigentes／temporalmente no comercializados）後，正文跟新事實矛盾的句子逐句對照證據包更正）"
+  },
+  {
+   "id": "co-lic-20261125-quetiapine-1",
+   "drug": "quetiapine",
+   "file": "quetiapine.md",
+   "action": "correct",
+   "claim": "en el único registro sanitario colombiano disponible, la indicación aprobada figura solo como \"QUETIAPINA\"",
+   "replacement": "en los registros sanitarios colombianos, la indicación aprobada figura solo como \"QUETIAPINA\"",
+   "summary": "«el único registro sanitario colombiano disponible» → «los registros sanitarios colombianos»",
+   "note": "Corregido según los datos del INVIMA: quetiapina tiene muchos registros sanitarios en Colombia, no uno solo. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "34 張（含新補收）；「único」原本就不成立",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第六輪人工查核（用戶決定：依原收集規則補收 INVIMA CUM 現行清單的新 expediente（vigentes／temporalmente no comercializados）後，正文跟新事實矛盾的句子逐句對照證據包更正）"
+  },
+  {
+   "id": "co-lic-20261125-vortioxetine-1",
+   "drug": "vortioxetine",
+   "file": "vortioxetine.md",
+   "action": "correct",
+   "claim": "- Aclarar el motivo de la cancelación del registro 20215225 y evaluar si existe otro registro vigente o una vía de nuevo registro.",
+   "replacement": "- Evaluar la vía regulatoria en Colombia para la nueva indicación.",
+   "summary": "«Aclarar el motivo de la cancelación del registro 20215225 y evaluar si…» → «Evaluar la vía regulatoria en Colombia para la nueva indicación»",
+   "note": "Corregido según los datos del INVIMA: el registro 20215225 (ACSODIX® 10 MG) figura como vigente y vortioxetina tiene otros registros vigentes; se quitó la premisa de una cancelación. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia.",
+   "finding": "20215225 ACSODIX 10 mg 為 Vigente；事實層 12 張全部有效（含新補收 4 張）；待辦以「註銷」為前提，原本就不成立，只改前提",
+   "sources": [
+    {
+     "title": "INVIMA: Código Único de Medicamentos (datos.gov.co)",
+     "url": "https://www.datos.gov.co/resource/i7cb-raxc.json",
+     "accessed": "2026-11-25"
+    }
+   ],
+   "checked": "2026-11-25",
+   "method": "2026-11-25 第六輪人工查核（用戶決定：依原收集規則補收 INVIMA CUM 現行清單的新 expediente（vigentes／temporalmente no comercializados）後，正文跟新事實矛盾的句子逐句對照證據包更正）"
   }
  ]
 }

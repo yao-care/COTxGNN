@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 178
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Codeine: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L5). Indicación original: Paracetamol, combinaciones excluyendo psicolépticos"
 monitor_inn: "Codeine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectiva para **enfermedad de la cavidad
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
 | Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 14 de 18) |
-| Número de Registros Sanitarios | 18 (vigentes: 14) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 14) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -93,7 +93,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 20038519 | ACETAMINOFEN 325 MG + CODEINA FOSFATO 30 MG TABLETAS | TABLETA | CODEINA Y PARACETAMOL | Vigente |
 | 20046741 | NODOL® FORTE TABLETAS | TABLETA | CODEINA COMBINACIONES EXCL. SICOLEPTICOS | Vigente |
 
-Se muestran 5 de 18 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
 
 <!-- licenses:end -->
 

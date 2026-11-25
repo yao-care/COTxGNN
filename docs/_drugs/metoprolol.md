@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "metoprolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "trichotillomania"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Metoprolol: nueva indicación predicha, Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) (nivel de evidencia L5). Indicación original: METOPROLOL"
 ---
 
@@ -55,8 +55,8 @@ El modelo TxGNN predice que podría ser efectivo para **enfermedad renal hiperte
 | Nueva Indicación Predicha | Enfermedad renal hipertensiva maligna (malignant hypertensive renal disease) |
 | Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 15 de 15) |
-| Número de Registros Sanitarios | 15 (vigentes: 15) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 16 de 18) |
+| Número de Registros Sanitarios | 18 (vigentes: 16) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -94,7 +94,7 @@ Actualmente no hay literatura relacionada disponible para la indicación princip
 | 19961415 | METOPROLOL TARTRATO 50 MG TABLETAS | TABLETA | METOPROLOL | Vigente |
 | 19976470 | METOPROLOL 50 MG TABLETAS | TABLETA | METOPROLOL | Vigente |
 
-Se muestran 5 de 15 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 18 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Capecitabine"
 predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Capecitabine: nueva indicación predicha, Adenocarcinoma gástrico y poliposis proximal del estómago (gastric adenocarcinoma and proximal polyposis of the stomach) (nivel de evidencia L5). Indicación o…"
 ---
 
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** en los datos comp
 | Nueva Indicación Predicha | Adenocarcinoma gástrico y poliposis proximal del estómago (gastric adenocarcinoma and proximal polyposis of the stomach) |
 | Puntaje de Predicción TxGNN | 0,9994 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 9 de 10) |
-| Número de Registros Sanitarios | 10 (vigentes: 9) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 9 de 13) |
+| Número de Registros Sanitarios | 13 (vigentes: 9) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -80,7 +80,7 @@ Actualmente no hay literatura relacionada disponible.
 | 20146928 | CAPETABIN® 500 MG TABLETAS | TABLETA | CAPECITABINA | Vigente |
 | 20152744 | CAPECITAL® 500 MG | TABLETA RECUBIERTA | CAPECITABINA | Vigente |
 
-Se muestran 5 de 10 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

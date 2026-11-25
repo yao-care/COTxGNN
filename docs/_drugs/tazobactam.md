@@ -5,7 +5,7 @@ parent: Solo usos conocidos (sin nuevas predicciones)
 nav_order: 608
 evidence_level: N/A
 indication_count: 0
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Tazobactam: usos conocidos y estado de mercado en Colombia; actualmente sin nueva indicación candidata"
 predicted_indications: []
 ---
@@ -47,8 +47,8 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) generó para Tazobacta
 | Nuevas indicaciones predichas | Ninguna (todos los candidatos del modelo con fuente rastreable son usos conocidos) |
 | Usos conocidos entre los candidatos del modelo | 2 |
 | Nivel de evidencia | No aplicable |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 14 de 14) |
-| Número de Registros Sanitarios | 14 (vigentes: 14) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 14 de 15) |
+| Número de Registros Sanitarios | 15 (vigentes: 14) |
 
 ## Usos conocidos entre los candidatos del modelo
 
@@ -82,7 +82,7 @@ Los candidatos que el modelo TxGNN (puntuación ≥ 0,99) generó para Tazobacta
 | 20059801 | PIPERACILINA 4G + TAZOBACTAM 0.5G | POLVO ESTERIL PARA RECONSTITUIR A SOLUCION INYECTABLE | PIPERACILINA E INHIBIDOR ENZIMATICO | Vigente |
 | 20082710 | KABICTAM® POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | PIPERACILINA E INHIBIDOR ENZIMATICO | Vigente |
 
-Se muestran 5 de 14 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 15 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

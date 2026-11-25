@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 486
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Orlistat: nueva indicación predicha, Hipervitaminosis (nivel de evidencia L5). Indicación original: Orlistat"
 monitor_inn: "ORLISTAT"
 predicted_indications: ["hypervitaminosis"]
@@ -56,8 +56,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Hipervitaminosis |
 | Puntaje de Predicción TxGNN | 0.9942 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 14 de 15) |
-| Número de Registros Sanitarios | 15 (vigentes: 14) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 14 de 16) |
+| Número de Registros Sanitarios | 16 (vigentes: 14) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -88,7 +88,7 @@ Actualmente no hay literatura relacionada disponible.
 | 19997128 | ORLISTAT 120 MG CAPSULAS | CAPSULA DURA | ORLISTAT | Vigente |
 | 20002171 | ORLISTAT CÁPSULAS 120 MG. | CAPSULA DURA | ORLISTAT | Vigente |
 
-Se muestran 5 de 15 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 16 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

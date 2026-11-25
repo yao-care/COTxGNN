@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 514
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Phenytoin: nueva indicación predicha, Neoplasia del nervio trigémino (nivel de evidencia L5). Indicación original: Fenitoína"
 monitor_inn: "phenytoin"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
@@ -58,8 +58,8 @@ La predicción debe considerarse con mucha cautela: el puntaje proviene del mode
 | Nueva Indicación Predicha | Neoplasia del nervio trigémino |
 | Puntaje de Predicción TxGNN | 0.9999 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 7) |
-| Número de Registros Sanitarios | 7 (vigentes: 6) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 8) |
+| Número de Registros Sanitarios | 8 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -101,7 +101,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 20028809 | BLASK® SOLUCION INYECTABLE | SOLUCION INYECTABLE | FENITOINA | Vigente |
 | 20097693 | FENITOINA 100 MG | CAPSULA DURA | FENITOINA | Vigente |
 
-Se muestran 5 de 7 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 8 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 500
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Parecoxib: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L3). Indicación original: No especificada en el registro sanitario (el texto solo indica \"PAREC…"
 monitor_inn: "parecoxib"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension"]
@@ -57,8 +57,8 @@ El modelo TxGNN predice que podría ser efectivo para **trastorno de migraña**,
 | Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
 | Puntaje de Predicción TxGNN | 0.9955 |
 | Nivel de Evidencia | L3 |
-| Estado de Mercado en Colombia | Autorizado pero no comercializado (registros: 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 0) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -101,9 +101,10 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
 |---------|------|------|------|------|
+| 20297894 | DECIEASE® 40 MG. POLVO LIOFILIZADO PARA SOLUCIÓN INYECTABLE. CON SOLVENTE | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | PARECOXIB | Vigente |
 | 20255458 | PARECOXIB 40 MG POLVO ESTERIL PARA RECONSTITUIR A SOLUCIÓN INYECTABLE | POLVO LIOFILIZADO PARA RECONSTITUIR A SOLUCION INYECTABLE | PARECOXIB | Temp. no comerc - Vigente |
 
-Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

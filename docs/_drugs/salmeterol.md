@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 580
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "SALMETEROL"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol: nueva indicación predicha, malformación respiratoria (respiratory malformation) (nivel de evidencia L5). Indicación original: SALMETEROL Y FLUTICASONA"
@@ -49,8 +49,8 @@ El modelo TxGNN predice que podría ser útil para **malformación respiratoria 
 | Nueva Indicación Predicha | malformación respiratoria (respiratory malformation) |
 | Puntaje de Predicción TxGNN | 0.9991 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 19 de 20) |
-| Número de Registros Sanitarios | 20 (vigentes: 19) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 19) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -97,7 +97,7 @@ Ninguna publicación estudia directamente la malformación respiratoria.
 | 19913256 | SERETIDE 'OSP' INHALADOR 25/50 MCG | SUSPENSION PARA INHALACION | SALMETEROL Y FLUTICASONA | Vigente |
 | 19913258 | SERETIDE® EVOHALER®25/250 MCG. | SUSPENSION PARA INHALACION | SALMETEROL Y FLUTICASONA | Vigente |
 
-Se muestran 5 de 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
 
 <!-- licenses:end -->
 

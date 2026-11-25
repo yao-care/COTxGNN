@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 120
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Bupivacaine: nueva indicación predicha, Acrodermatitis crónica atrófica (nivel de evidencia L5). Indicación original: BUPIVACAINA"
 monitor_inn: "Bupivacaine"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectiva para **acrodermatitis crónica 
 | Nueva Indicación Predicha | Acrodermatitis crónica atrófica |
 | Puntaje de Predicción TxGNN | 0.9923 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
-| Número de Registros Sanitarios | 3 (vigentes: 3) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 6) |
+| Número de Registros Sanitarios | 6 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -94,8 +94,10 @@ Actualmente no hay literatura relacionada disponible.
 | 19931883 | BUPIVACAINA CLORHIDRATO SOLUCION INYECTABLE 50 MG / 10 ML | SOLUCION INYECTABLE | BUPIVACAINA | Vigente |
 | 20013329 | BUPINEST 0.75% PESADO | SOLUCION INYECTABLE | BUPIVACAINA | Vigente |
 | 52033 | BUPIROP 0.5% SIMPLEAMPOULEPACK | SOLUCION INYECTABLE | BUPIVACAINA | Vigente |
+| 19908342 | LEVOBUPIVACAINA 0.75% SIMPLE SOLUCIÓNINYECTABLE | SOLUCION INYECTABLE | BUPIVACAINA | Temp. no comercializado - En Trámite Renov |
+| 20148957 | BUPITROY0.5% | SOLUCION INYECTABLE | BUPIVACAINA | Temp. no comerc - Vigente |
 
-Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 322
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Guaifenesin: nueva indicación predicha, Enfermedad de la cavidad nasal (nivel de evidencia L5). Indicación original: Combinaciones (con guaifenesina)"
 monitor_inn: "Guaifenesin"
 predicted_indications: ["nasal cavity disease", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
@@ -50,8 +50,8 @@ con **0 ensayos clínicos** y **1 publicación** (una revisión de 2002) que act
 | Nueva Indicación Predicha | Enfermedad de la cavidad nasal |
 | Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 5) |
-| Número de Registros Sanitarios | 5 (vigentes: 5) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 6) |
+| Número de Registros Sanitarios | 6 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -90,7 +90,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 20260928 | TUSSIFLEX DUO JARABE | JARABE | COMBINACIONES | Vigente |
 | 209473 | VICK ® 44 EXP (JARABE) | JARABE | GUAIFENESINA | Vigente |
 
-Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 
@@ -119,13 +119,19 @@ No hay ensayos clínicos y solo existe una revisión antigua de respaldo indirec
 - Prospecto de INVIMA con advertencias y contraindicaciones oficiales
 - Estudios clínicos o revisiones sistemáticas de guaifenesina en rinitis, sinusitis u otras enfermedades nasales
 - Aclarar el estado regulatorio actual y la viabilidad de comercialización
-- Evaluar la compatibilidad de vía de administración (solo se registró forma en jarabe)
+- Evaluar la compatibilidad de vía de administración
 
 <!-- review:begin co-lic-20261105-guaifenesin-3 -->
 
 > **Corrección de revisión (2026-11-05)**: Texto original: "Aclarar el estado regulatorio actual y la viabilidad de comercialización, dado que no hay registros vigentes" Eliminado: afirmaba que el medicamento no tiene registro sanitario o que sus registros están cancelados o vencidos, lo que no coincide con los datos del INVIMA (Código Único de Medicamentos) reconstruidos por principio activo el 2026-11-05. Las cifras actuales de registros sanitarios están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
 
 <!-- review:end co-lic-20261105-guaifenesin-3 -->
+
+<!-- review:begin co-lic-20261125-guaifenesin-1 -->
+
+> **Corrección de revisión (2026-11-25)**: Texto original: "Evaluar la compatibilidad de vía de administración (solo se registró forma en jarabe)" Eliminado: además de jarabes hay un registro de tableta de liberación prolongada (MUCINEX®); se quitó la premisa. Las cifras actuales están en el Resumen rápido y en la tabla de Información de Mercado en Colombia. Fuente: [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json).
+
+<!-- review:end co-lic-20261125-guaifenesin-1 -->
 
 Nota: las otras indicaciones predichas (laringofaringitis aguda, difteria faucial, enfermedad degenerativa de disco cervical y conjuntivitis papilar) solo tienen respaldo del modelo (nivel L5) y no se recomiendan para avanzar.
 
@@ -141,6 +147,7 @@ A continuación figura el registro de revisión de esta página: afirmaciones co
 | 2026-11-05 | Eliminado: "Además, los cinco registros sanitarios en Colombia están cancelados" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-05 | Eliminado: "dado que no hay registros vigentes" | Corregido (revisado el 2026-11-24; la versión anterior se guarda en el registro) | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 | 2026-11-19 | Frase «no se dispone de datos del mecanismo de acción» sustituida por un extracto de la ficha técnica de EE. UU. | Frase sobre la falta de datos del mecanismo de acción sustituida por un extracto con fuente (revisado el 2026-11-20; la versión anterior se guarda en el registro) | [ChEMBL CHEMBL980 (guaifenesin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL980) |
+| 2026-11-25 | «administración (solo se registró forma en jarabe)» → «administración» | Corregido | [INVIMA: Código Único de Medicamentos (datos.gov.co)](https://www.datos.gov.co/resource/i7cb-raxc.json) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 130
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 monitor_inn: "candesartan"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "benign prostatic hyperplasia (disease)", "alopecia"]
 description: "Candesartan: nueva indicación predicha, trastorno de migraña (migraine disorder) (nivel de evidencia L2). Indicación original: CANDESARTAN"
@@ -50,8 +50,8 @@ con **4 ensayos clínicos** y **20 publicaciones** que actualmente respaldan est
 | Nueva Indicación Predicha | trastorno de migraña (migraine disorder) |
 | Puntaje de Predicción TxGNN | 0.9997 |
 | Nivel de Evidencia | L2 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 11 de 12) |
-| Número de Registros Sanitarios | 12 (vigentes: 11) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 13 de 16) |
+| Número de Registros Sanitarios | 16 (vigentes: 13) |
 | Decisión Recomendada | Proceed with Guardrails |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -106,7 +106,7 @@ Se encontraron registros sanitarios vigentes de candesartán como monofármaco.
 | 20010690 | ATACAND® PLUS 32 / 12.5 MG TABLETAS | TABLETA | CANDESARTAN Y DIURETICOS | Vigente |
 | 20022576 | CANDESARTAN 16 MG TABLETAS | TABLETA | CANDESARTAN | Vigente |
 
-Se muestran 5 de 12 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 16 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 399
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Levodopa: nueva indicación predicha, Encefalitis subaguda de Rasmussen (nivel de evidencia L5). Indicación original: Levodopa con inhibidor de decarboxilasa e inhibidor de COMT"
 monitor_inn: "LEVODOPA"
 predicted_indications: ["Rasmussen subacute encephalitis"]
@@ -52,8 +52,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Encefalitis subaguda de Rasmussen |
 | Puntaje de Predicción TxGNN | 0.9906 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 13 de 13) |
-| Número de Registros Sanitarios | 13 (vigentes: 13) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 13 de 15) |
+| Número de Registros Sanitarios | 15 (vigentes: 13) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -92,7 +92,7 @@ Actualmente no hay literatura relacionada disponible.
 | 19951171 | STALEVO ® 150MG/37.5MG/200MG TABLETAS RECUBIERTAS CON PELICULA | TABLETA CUBIERTA CON PELICULA | LEVODOPA E INHIBIDOR DE DECARBOXILASA | Vigente |
 | 19995528 | STALEVO® COMPRIMIDOSCON CUBIERTAPELICULAR 200/50/200 MG | TABLETA RECUBIERTA | LEVODOPA INHIBIDOR DE DECARBOXILASA E INHIBIDOR COMT | Vigente |
 
-Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 15 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

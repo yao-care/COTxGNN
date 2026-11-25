@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 367
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Ketoprofen: nueva indicación predicha, Displasia acromesomélica, tipo Hunter-Thompson (nivel de evidencia L5). Indicación original: Ketoprofeno"
 monitor_inn: "ketoprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "WHIM syndrome", "juvenile arthritis due to defect in LACC1"]
@@ -57,8 +57,8 @@ El modelo TxGNN predice que podría ser efectivo para **displasia acromesomélic
 | Nueva Indicación Predicha | Displasia acromesomélica, tipo Hunter-Thompson |
 | Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 11 de 12) |
-| Número de Registros Sanitarios | 12 (vigentes: 11) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 11 de 13) |
+| Número de Registros Sanitarios | 13 (vigentes: 11) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -97,7 +97,7 @@ Actualmente no hay literatura relacionada disponible.
 | 20071535 | KETOFLEX 2.5% GEL | GEL TOPICO | KETOPROFENO | Vigente |
 | 20158718 | BICERTO® 150 MG (75 MG DE LIBERACIÓN INMEDIATA + 75 MG DE LIBERACIÓN PROLONGADA). | TABLETA DE LIBERACIÓN MODIFICADA | KETOPROFENO | Vigente |
 
-Se muestran 5 de 12 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 13 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

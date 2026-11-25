@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 654
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Vasopressin: nueva indicación predicha, Deficiencia congénita de protrombina (nivel de evidencia L5). Indicación original: VASOPRESINA"
 monitor_inn: "vasopressin"
 predicted_indications: ["congenital prothrombin deficiency", "drug-induced osteoporosis"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectiva para **deficiencia congénita d
 | Nueva Indicación Predicha | Deficiencia congénita de protrombina |
 | Puntaje de Predicción TxGNN | 0.9963 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 2) |
-| Número de Registros Sanitarios | 2 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
+| Número de Registros Sanitarios | 3 (vigentes: 3) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -85,8 +85,9 @@ La literatura recuperada trata sobre hemofilia A adquirida, deficiencia combinad
 |---------|------|------|------|------|
 | 20096205 | VASOPRESINA 20 UI /1ML SOLUCIONINYECTABLE | SOLUCION INYECTABLE | VASOPRESINA | Vigente |
 | 20272748 | VESAPRESYN® SOLUCIÓN INYECTABLE | SOLUCION INYECTABLE | VASOPRESINA | Vigente |
+| 20134604 | VASOPRESINA 20 UI/ML | INYECTABLES | VASOPRESINA | Vigente |
 
-Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

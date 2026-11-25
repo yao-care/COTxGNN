@@ -134,3 +134,26 @@ dbXXXXX 轉址頁原本指到被轉址頁的（db00448、db01060、db01076、db0
 - 2026-11-25 量測：現行 36,175 個 expediente（valid 9,518、not_marketed 1,751、cancelled 24,906）；不在 2026-03 有效集、狀態 valid／not_marketed 的 1,730 個，對得到 DrugBank 982 個、屬於某證據包 920 個；
   涉及 586 個證據包、2,098 筆（其中 valid 887 筆、319 包）；公開頁 273 頁 905 筆（valid 380 筆、154 頁），noindex 9、轉址 15、沒有頁 289 包；部分收錄 203 包、完整 383 包。
   例：acetaminophen 36、metformin 32（多為 dapagliflozina 等複方）、clotrimazole 19、meloxicam 19、rivaroxaban 14。超過 50 個證據包，照第五輪說明先停下回報，沒有補收、沒有接進排程（待用戶決定）。
+
+## 依原收集規則補收 CUM 新 expediente（2026-11-25 第六輪）
+
+用戶 2026-11-25 決定（第六輪第 1 條「新許可補收：全部照原規則補」，本站只補 valid 與 not_marketed）：證據包是 `src/cotxgnn/collectors/cofda.py` 依 data/processed/drug_mapping.csv 與 2026-03 CUM 有效資料集（data/raw/co_fda_drugs.json）收的，
+之後才出現在有效或暫時未上市狀態的 expediente 不在 drug_mapping、永遠收不進來（第五輪量測 586 個證據包、2,098 筆）。
+- `scripts/add_current_licenses.py [--download] [--dry-run] [--report out.tsv]`：
+  收集規則確認：每個證據包第一次跑時照同一支收集器、同一份 drug_mapping.csv 與 co_fda_drugs.json 重算，存下的號碼與順序、total_matches 都完全相同才記 `tfda.collection_rule`，
+  當時算進 total_matches、因 20 筆上限沒存的 expediente 回填 `tfda.records_not_stored`（防重複計數）；重算不出的整包停損不補。2026-11-25：1,150 個證據包全部重算得出（只有一份現行規則，drug_mapping.csv.bak_20261012 不用），回填 216 個證據包 5,653 個號碼，停損 0。
+  補收：data/raw/invima_cum_estado.json（第五輪起帶成分）現行狀態對到 valid（Vigente、En tramite renov）或 not_marketed（Temp. no comerc - Vigente、Temp. no comercializado - En Trámite Renov、Comercializado solo por Exportacion）、
+  不在 co_fda_drugs.json 的 expediente，每個 principioactivo 照 drug_mapping 的「原始成分字串 → DrugBank ID」（成功的列；對照失敗過的字串照舊算對不到），drug_mapping 沒見過的字串用 run_kg_prediction.py 同一支 map_fda_drugs_to_drugbank，
+  跟證據包 tfda.drugbank_ids 有交集（複方逐成分歸屬）、證據包沒有的就補；records 未滿 20 存進 records（單方在前、再依號碼，欄位照收集器 _format，另記 license_status、source、added），滿了只記號碼在 records_not_stored，都算進 total_matches。只加不刪、可重複執行。
+  `.github/workflows/license-refresh.yml` 在 license_refresh 前以 `--download` 跑（continue-on-error，失敗不擋排程）；補收筆數記成 step output added，有補收也照常發新 Release。
+- 2026-11-25 套用（CUM 2026-11-25 下載，36,175 個 expediente；Release data-20261125-010035）：候選新 expediente 982 個（對得到 DrugBank）；586 個證據包補 2,098 筆（不重複 920 個；存進 records 699、只算張數 1,399；
+  Vigente 868、En tramite renov 19、Temp. no comerc - Vigente 1,094、Temp. no comercializado - En Trámite Renov 93、Comercializado solo por Exportacion 24）；公開頁 273、noindex 9、轉址 15、沒有頁 289 個證據包。第二次跑 0 筆。
+  成分對照逐字串看過（mapper 新對到的 94 個字串、drug_mapping 沿用的 430 個都是本藥的鹽類、拼法或「(VITAMINA …)」寫法），沒有看起來不是原規則會收的類別（獸用、別的藥），EXCLUDE 表空；
+  照原規則收進來的含成分欄列出 glicina 等賦形劑的品項（例 VIMUGEN 免疫球蛋白＋glicina 歸到 glycine）。
+  證據包 local_regulatory 重算 217 個；部分收錄證據包 216→257；概覽狀態列／張數列 206 頁 412 格（sync_market_rows）、程式表 204 頁重排、正文張數 B 改寫 14 頁；正文有變的 212 頁（公開 208、noindex 4）last_modified_at 改 2026-11-25。
+- count_prose 修：「(1 licencia válida de 1)」被改成「(2 licencia válida de 1)」（只改了 N、沒認出「válida de M」的 M、也沒管單複數）：「vigente／válida de M」的 M 算總數；跨過 1 張（1↔N）不改、列 plural。
+- 正文跟新事實矛盾的以 20 筆 `co-lic-20261125-*` 更正、3 筆同 id 重發（`co-lic-20261105-iohexol-1`、`-denosumab-2`、`-serine-1`，前版存 history），更正文字不寫張數：
+  clomipramine、ethambutol「único registro cancelado」（實為 Temp. no comerc，另補到 ANAFRANIL 25 mg、FORECOX-TRAC）、iohexol「único registro」（另有 NIOSPECT）、miltefosine「Ambos … GENYX」（另有 MACLEODS）、denosumab「Todos … AMGEN」（另有 EXELTIS）、
+  lomitapide「8 de 8／los 9 (8 de 8)」、pirfenidone「8 registros vigentes」（含 ensayos 的句子 B 跳過）、paclitaxel「15 registros vigentes」（補收後變部分收錄）、isosorbide_dinitrate（另有 ISOCORD 口服錠）、etofenamate（另有 RHEUMON 凝膠）、guaifenesin（另有 MUCINEX 緩釋錠）；
+  寬偵測順帶找到、原本就不成立的：glycine、lidocaine、trimethoprim 的劑型前提、ibuprofen、quetiapine「único registro」、serine「solo … NUTRIFLEX」、vortioxetine 待辦「cancelación del registro 20215225」（ACSODIX 10 mg 為 Vigente）。待辦條目只拿掉錯的前提。
+- 驗證：checker 全量前後 0、--row-status 0；gate exit 0；apply --check、rewrite_license_counts --check、sync_license_tables --check 都 0；另寫的寬偵測（數字對事實層、único／solo／todos／ambos＋註冊／劑型／持有人）全量掃補收的 282 頁，剩下的命中逐句看過都成立或不是張數句。

@@ -5,7 +5,7 @@ parent: Evidencia Alta (L1-L2)
 nav_order: 197
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Dasatinib: nueva indicación predicha, Sarcoma de Ewing (nivel de evidencia L2). Indicación original: DASATINIB"
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **Sarcoma de Ewing**, con 
 | Nueva Indicación Predicha | Sarcoma de Ewing |
 | Puntaje de Predicción TxGNN | 0.9990 |
 | Nivel de Evidencia | L2 según la clasificación de los datos compilados; sin embargo, los ensayos son un ensayo de Fase 2 en sarcomas mixtos y un ensayo de Fase 1/2 terminado con 7 pacientes, por lo que la evidencia específica para Ewing es débil y se interpreta con cautela |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 12 de 12) |
-| Número de Registros Sanitarios | 12 (vigentes: 12) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 16 de 16) |
+| Número de Registros Sanitarios | 16 (vigentes: 16) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -102,7 +102,7 @@ Sin embargo, la plausibilidad biológica no ha sido confirmada en clínica. Una 
 | 20002502 | SPRYCEL ® 100 MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | DASATINIB | Vigente |
 | 20034231 | SPRYCEL ® 140 MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | DASATINIB | Vigente |
 
-Se muestran 5 de 12 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 16 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 
@@ -152,7 +152,7 @@ Existe un vínculo mecanístico plausible (inhibición de SRC) y apoyo preclíni
 - Datos de eficacia específicos de sarcoma de Ewing, preferiblemente de combinaciones (por ejemplo, el régimen RIST) en estudios prospectivos.
 - Datos del mecanismo de acción confirmados desde DrugBank.
 - Prospecto de INVIMA con advertencias y contraindicaciones para completar el análisis de seguridad.
-- Aclarar la situación regulatoria en Colombia (12 registros vigentes) y la disponibilidad real del producto.
+- Aclarar la situación regulatoria en Colombia (16 registros vigentes) y la disponibilidad real del producto.
 - Plan de monitoreo de seguridad hematológica y cardiovascular.
 
 ---

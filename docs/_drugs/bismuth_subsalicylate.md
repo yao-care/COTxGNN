@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 109
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Bismuth Subsalicylate: nueva indicación predicha, Paratifoidea (fiebre paratifoidea) (nivel de evidencia L5). Indicación original: Subcitrato de bismuto / Subsalicilato de bismuto"
 monitor_inn: "Bismuth subsalicylate"
 predicted_indications: ["paratyphoid fever", "diffuse scleroderma", "salmonellosis", "typhoid fever", "conjunctivitis", "relapsing fever", "acute contagious conjunctivitis", "gingivitis", "punctate epithelial keratoconjunctivitis", "otitis externa"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **paratifoidea (fiebre par
 | Nueva Indicación Predicha | Paratifoidea (fiebre paratifoidea) |
 | Puntaje de Predicción TxGNN | 0.9998 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 5) |
-| Número de Registros Sanitarios | 5 (vigentes: 5) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 6 de 6) |
+| Número de Registros Sanitarios | 6 (vigentes: 6) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -114,7 +114,7 @@ Como referencia, la literatura disponible para la predicción cercana de **salmo
 | 20248335 | BISMUCAR® TABLETAS | TABLETA MASTICABLE | SUBSALICILATO DE BISMUTO | Vigente |
 | 42932 | BISBACTER® TABLETAS | TABLETA MASTICABLE | BISMUTO SUBCITRATO | Vigente |
 
-Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 6 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

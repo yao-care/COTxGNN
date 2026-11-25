@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 483
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Olopatadine: nueva indicación predicha, Conjuntivitis rosácea (nivel de evidencia L5). Indicación original: Olopatadina"
 monitor_inn: "olopatadine"
 predicted_indications: ["rosacea conjunctivitis"]
@@ -50,8 +50,8 @@ pero actualmente **no hay ensayos clínicos ni publicaciones** que respalden est
 | Nueva Indicación Predicha | Conjuntivitis rosácea |
 | Puntaje de Predicción TxGNN | 0.9941 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 17 de 18) |
-| Número de Registros Sanitarios | 18 (vigentes: 17) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 17 de 19) |
+| Número de Registros Sanitarios | 19 (vigentes: 17) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -94,7 +94,7 @@ Actualmente no hay literatura relacionada disponible.
 | 20012348 | OLOPAT 0.2% | SOLUCION OFTALMICA | OLOPATADINA | Vigente |
 | 20026100 | OLOFTAL® 0.2% SOLUCION OFTALMICA | SOLUCION OFTALMICA | OLOPATADINA | Vigente |
 
-Se muestran 5 de 18 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 19 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

@@ -8,7 +8,7 @@ indication_count: 9
 drugbank_id: DB01223
 monitor_inn: "Aminophylline"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "pulmonary hypertension", "sciatic neuropathy", "hyperthyroidism", "kyphoscoliotic heart disease"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Aminofilina: nueva indicación predicha, Trastorno de migraña (migraine disorder) (nivel de evidencia L5). Indicación original: AMINOFILINA"
 ---
 
@@ -50,8 +50,8 @@ El modelo TxGNN predice que podría ser útil para el **trastorno de migraña (m
 | Nueva Indicación Predicha | Trastorno de migraña (migraine disorder) |
 | Puntaje de Predicción TxGNN | 0.9988 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -82,8 +82,9 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
 |---------|------|------|------|------|
 | 19924459 | AMINOFILINA 250 MG / 10 ML SOLUCION INYECTABLE | SOLUCION INYECTABLE | AMINOFILINA | Vigente |
+| 19994652 | AMINOFILINA 240 MG/10 ML | SOLUCION INYECTABLE | AMINOFILINA | Temp. no comerc - Vigente |
 
-Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

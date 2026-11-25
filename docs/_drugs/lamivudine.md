@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 374
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Lamivudine: nueva indicación predicha, Infección por el virus de la inmunodeficiencia de los simios (SIV) (nivel de evidencia L4). Indicación original: Lamivudina (solo y en combinaciones con abacavi…"
 monitor_inn: "Lamivudine"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "chronic hepatitis C virus infection"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para la **infección por el vir
 | Nueva Indicación Predicha | Infección por el virus de la inmunodeficiencia de los simios (SIV) |
 | Puntaje de Predicción TxGNN | 0.9993 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 8 de 14) |
-| Número de Registros Sanitarios | 14 (vigentes: 8) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: al menos 9) |
+| Número de Registros Sanitarios | al menos 20 |
 | Decisión Recomendada | Hold |
 
 ---
@@ -102,7 +102,7 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 20085320 | ABACAVIR 600 MG + LAMIVUDINA 300 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | LAMIVUDINA Y ABACAVIR | Vigente |
 | 20120947 | TOLAMID® | TABLETA RECUBIERTA | LAMIVUDINA Y ABACAVIR | Vigente |
 
-Se muestran 5 de 14 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de al menos 20 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes. Los datos de este informe solo incluyen parte de los registros.
 
 <!-- licenses:end -->
 

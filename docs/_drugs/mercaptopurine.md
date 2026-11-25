@@ -5,7 +5,7 @@ parent: Evidencia Moderada (L3-L4)
 nav_order: 430
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Mercaptopurine: nueva indicación predicha, Leucemia mieloide (nivel de evidencia L3). Indicación original: MERCAPTOPURINA"
 monitor_inn: "Mercaptopurine"
 predicted_indications: ["myeloid leukemia", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
@@ -54,8 +54,8 @@ Mercaptopurina es un antimetabolito análogo de las purinas, registrado en Colom
 | Nueva Indicación Predicha | Leucemia mieloide |
 | Puntaje de Predicción TxGNN | 0.9994 |
 | Nivel de Evidencia | L3 (la evidencia clínica directa proviene de estudios de cohorte y pilotos pequeños; los ECA de Fase 3 son protocolos multifármaco) |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 1) |
-| Número de Registros Sanitarios | 1 (vigentes: 1) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 1 de 2) |
+| Número de Registros Sanitarios | 2 (vigentes: 1) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -105,8 +105,9 @@ Se muestran los ensayos más relevantes (de 15 registrados).
 | Registro Sanitario | Nombre del Producto | Forma Farmacéutica | Descripción ATC | Estado |
 |---------|------|------|------|------|
 | 46262 | PURINETHOL50 MG | TABLETA | MERCAPTOPURINA | Vigente |
+| 20144723 | KAPTO® | TABLETA | MERCAPTOPURINA | Temp. no comerc - Vigente |
 
-Se muestra el único registro sanitario de este principio activo en los datos del INVIMA, Código Único de Medicamentos.
+Se muestran los 2 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

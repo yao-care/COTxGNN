@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 4
 monitor_inn: "AXITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax"]
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Axitinib: nueva indicación predicha, liposarcoma (nivel de evidencia L4). Indicación original: AXITINIB"
 ---
 
@@ -50,8 +50,8 @@ con **0 ensayos clínicos** y **1 publicación** preclínica que actualmente res
 | Nueva Indicación Predicha | liposarcoma (liposarcoma) |
 | Puntaje de Predicción TxGNN | 0.9987 |
 | Nivel de Evidencia | L4 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 3 de 3) |
-| Número de Registros Sanitarios | 3 (vigentes: 3) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 5 de 5) |
+| Número de Registros Sanitarios | 5 (vigentes: 5) |
 | Decisión Recomendada | Hold |
 
 ## ¿Por qué es Razonable esta Predicción?
@@ -81,8 +81,10 @@ Actualmente no hay ensayos clínicos relacionados registrados.
 | 20050749 | INLYTA ® 5MG TABLETAS RECUBIERTAS | TABLETA CUBIERTA CON PELICULA | AXITINIB | Vigente |
 | 20056375 | INLYTA ® 1 MG TABLETA RECUBIERTA | TABLETA RECUBIERTA | AXITINIB | Vigente |
 | 20210813 | GLENMARK AXZYB®5 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | AXITINIB | Vigente |
+| 20254161 | VEGAXIRED® 1 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | AXITINIB | Vigente |
+| 20254540 | VEGAXIRED® 5 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | AXITINIB | Vigente |
 
-Se muestran los 3 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran los 5 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 

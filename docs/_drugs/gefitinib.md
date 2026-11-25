@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 310
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Gefitinib: nueva indicación predicha, Fibromatosis gingival (nivel de evidencia L5). Indicación original: Gefitinib"
 monitor_inn: "GEFITINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung", "lung benign neoplasm", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome", "lung germ cell tumor", "pulmonary sulcus neoplasm", "junctional epidermolysis bullosa"]
@@ -51,8 +51,8 @@ El modelo TxGNN predice que podría ser efectivo para **fibromatosis gingival**,
 | Nueva Indicación Predicha | Fibromatosis gingival |
 | Puntaje de Predicción TxGNN | 0.9989 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 4) |
-| Número de Registros Sanitarios | 4 (vigentes: 2) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 2 de 7) |
+| Número de Registros Sanitarios | 7 (vigentes: 2) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -114,8 +114,9 @@ Entre las 10 principales predicciones del modelo, ninguna supera el nivel L4. To
 | 20211358 | GRACETIB® 250 MG TABLETAS RECUBIERTAS | TABLETA RECUBIERTA | GEFITINIB | Vigente |
 | 20178908 | GEFALTINIB® 250MG | TABLETA RECUBIERTA | GEFITINIB | Temp. no comerc - Vigente |
 | 20217433 | GEFBOOK® 250 | TABLETA RECUBIERTA | GEFITINIB | Temp. no comerc - Vigente |
+| 20150402 | GEFTICIP® TABLETA RECUBIERTA 250 MG | TABLETA RECUBIERTA | GEFITINIB | Temp. no comerc - Vigente |
 
-Se muestran los 4 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 7 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 
@@ -162,7 +163,7 @@ La predicción principal (fibromatosis gingival) solo cuenta con el puntaje del 
 - Obtener datos del mecanismo de acción desde DrugBank.
 - Realizar estudios preclínicos o de mecanismo sobre la señal EGFR en fibroblastos gingivales.
 - Revisar si el sobrecrecimiento gingival tiene alternativas terapéuticas con mejor perfil de seguridad.
-- Evaluar la viabilidad regulatoria, dado que los 4 registros están vigentes y el medicamento está comercializado.
+- Evaluar la viabilidad regulatoria, dado que los 2 registros están vigentes y el medicamento está comercializado.
 
 <!-- review:begin log -->
 

@@ -5,7 +5,7 @@ parent: Solo Predicción del Modelo (L5)
 nav_order: 305
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-24
+last_modified_at: 2026-11-25
 description: "Fusidic Acid: nueva indicación predicha, Queratitis por exposición (nivel de evidencia L5). Indicación original: Ácido fusídico (crema tópica)"
 monitor_inn: "fusidic acid"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "parasitic eyelid infestation"]
@@ -52,8 +52,8 @@ pero actualmente no hay ensayos clínicos y solo hay **1 publicación** (una ser
 | Nueva Indicación Predicha | Queratitis por exposición |
 | Puntaje de Predicción TxGNN | 0.9995 |
 | Nivel de Evidencia | L5 |
-| Estado de Mercado en Colombia | Comercializado (registros vigentes: 13 de 14) |
-| Número de Registros Sanitarios | 14 (vigentes: 13) |
+| Estado de Mercado en Colombia | Comercializado (registros vigentes: 13 de 19) |
+| Número de Registros Sanitarios | 19 (vigentes: 13) |
 | Decisión Recomendada | Hold |
 
 ---
@@ -102,7 +102,7 @@ Hay registros sanitarios vigentes; el medicamento está comercializado.
 | 20047268 | FUCIFAR 2% CREMA | CREMA TOPICA | FUSIDICO ACIDO | Vigente |
 | 20054634 | ACIDO FUSIDICO 2 % CREMA | CREMA TOPICA | FUSIDICO ACIDO | Vigente |
 
-Se muestran 5 de 14 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
+Se muestran 5 de 19 registros sanitarios de este principio activo en los datos del INVIMA, Código Único de Medicamentos; primero los vigentes.
 
 <!-- licenses:end -->
 
